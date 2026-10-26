@@ -8,7 +8,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 
 | Dataset | Files | DOI |
 |---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23645751](https://doi.org/10.5281/zenodo.23645751) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23655396](https://doi.org/10.5281/zenodo.23655396) |
 | [California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/ca-courts/) | `data/ca-courts/` | [10.5281/zenodo.23658524](https://doi.org/10.5281/zenodo.23658524) |
 | [Attorney fee caps and contingency-fee rules, by state and federal program](https://probativegrowth.com/research/attorney-fee-caps-by-state/) | `data/fees/` | [10.5281/zenodo.23656738](https://doi.org/10.5281/zenodo.23656738) |
 | [What US state bars charge, and require, to file or review lawyer advertising](https://probativegrowth.com/research/lawyer-ad-filing-fees/) | `data/filing/` | [10.5281/zenodo.23656746](https://doi.org/10.5281/zenodo.23656746) |
