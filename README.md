@@ -1,5 +1,7 @@
 # Legal-marketing open data
 
+Published by [Probative Growth](https://probativegrowth.com/), a marketing agency for US law firms (SEO and ads, at published monthly prices). Prices: [probativegrowth.com/pricing](https://probativegrowth.com/pricing/) · About: [probativegrowth.com/about](https://probativegrowth.com/about/)
+
 Open, citable datasets on US law-firm marketing, maintained by [Probative Growth](https://probativegrowth.com/data/): lawyer advertising rules for all 50 states and DC, bar ad filing and fees, ethics opinions, ad-platform policies, attorney fee caps, federal MDL dockets, Spanish-language demand and California court filings by county.
 
 Every record quotes its primary source and the date it was checked. Each dataset has a DOI on Zenodo. Not legal advice: check the source and your own counsel before you rely on a rule.
