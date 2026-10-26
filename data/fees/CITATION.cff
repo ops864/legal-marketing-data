@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Attorney fee caps and contingency-fee rules, by state and federal program"
+type: dataset
+authors:
+  - name: "Probative Growth"
+version: "1.0.0"
+doi: "10.5281/zenodo.23656738"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23656737"
+    description: "Concept DOI (all versions)"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/research/attorney-fee-caps-by-state/"
+repository-code: "https://github.com/ops864/legal-marketing-data"
