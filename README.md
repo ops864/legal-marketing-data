@@ -24,6 +24,11 @@ Each folder holds the full CSV and JSON, a `README.txt` with the fields, `change
   - Claude Code: `claude mcp add --transport http probative https://probativegrowth.com/mcp`
 - Docs: <https://probativegrowth.com/resources/rules-api/>
 
+## Mirrors
+
+- Hugging Face: <https://huggingface.co/datasets/ProbativeGrowth/legal-marketing-data> (all eight datasets, CSV and JSON, one config per dataset)
+- Kaggle: <https://www.kaggle.com/datasets/probativeoperations/legal-marketing-open-data-us> (the eight CSVs)
+
 ## License
 
 CC BY 4.0. Credit "Probative Growth" and link the dataset page. See `LICENSE`.
