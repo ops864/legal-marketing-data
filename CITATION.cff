@@ -285,8 +285,8 @@ references:
     title: "The US legal market in numbers: headline findings from Probative's open datasets"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23748017"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23748830"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/us-legal-market-in-numbers/"
     date-released: "2026-10-28"

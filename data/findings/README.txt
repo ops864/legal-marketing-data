@@ -1,12 +1,12 @@
 The US legal market in numbers: headline findings from Probative's open datasets
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23748017
+Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23748830
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, The US legal market in numbers: headline findings from Probative's open datasets, version 1.0.0, https://doi.org/10.5281/zenodo.23748017, licensed CC BY 4.0.
+Source: Probative, The US legal market in numbers: headline findings from Probative's open datasets, version 1.1.0, https://doi.org/10.5281/zenodo.23748830, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). The US legal market in numbers: headline findings from Probative's open datasets (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23748017
+Probative. (2026). The US legal market in numbers: headline findings from Probative's open datasets (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23748830
 
 Not legal advice. These are counts and rates computed from public data for marketing planning and reporting. Each figure has limits, listed with it, and none describes any one firm, case or person.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -2956,13 +2956,13 @@
       "name": "findings",
       "profile": "tabular-data-resource",
       "title": "The US legal market in numbers: headline findings from Probative's open datasets",
-      "description": "Headline counts about the US legal market, each computed from one or more of Probative's open datasets and published as a quarterly edition: counties with no law office, Spanish speakers against Spanish-speaking lawyers, ad-rule waiting periods and filing duties, truck-crash deaths, workplace charges, the immigration court backlog, veterans' representation, deadlines to sue, legal-services prices, who earns the fees, mass-tort dockets, disability hearing waits, bankruptcy filings and nursing-home fines. Every record gives the number, its denominator, one plain sentence in English and Spanish, what the number does not show, and the source dataset's version, DOI and record, so each figure can be traced and recomputed.",
+      "description": "Headline counts about the US legal market, each computed from one or more of Probative's open datasets and published as a quarterly edition: counties with no law office, Spanish speakers against Spanish-speaking lawyers, ad-rule waiting periods and filing duties, truck-crash deaths, workplace charges, the immigration court backlog, veterans' representation, deadlines to sue, legal-services prices, who earns the fees, mass-tort dockets, disability hearing waits, bankruptcy filings, nursing-home fines and unpaid wages. Every record gives the number, its denominator, one plain sentence in English and Spanish, what the number does not show, and the source dataset's version, DOI and record, so each figure can be traced and recomputed.",
       "path": "data/findings/findings.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23748017",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23748830",
       "licenses": [
         {
           "name": "CC-BY-4.0",
