@@ -5,9 +5,15 @@
   "datasets": [
     {
       "id": "rules",
-      "version": "1.1.1",
-      "doi": "10.5281/zenodo.23688705",
-      "released": "2026-10-27"
+      "version": "1.2.0",
+      "doi": "10.5281/zenodo.23740030",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "bankruptcy",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23739952",
+      "released": "2026-10-28"
     },
     {
       "id": "bar-pipeline",
@@ -59,9 +65,9 @@
     },
     {
       "id": "fees",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23656738",
-      "released": "2026-10-26"
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23739965",
+      "released": "2026-10-28"
     },
     {
       "id": "filing",
@@ -70,10 +76,28 @@
       "released": "2026-10-28"
     },
     {
+      "id": "idb-civil",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23739969",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "immigration-courts",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23739986",
+      "released": "2026-10-28"
+    },
+    {
       "id": "language",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23656758",
       "released": "2026-10-26"
+    },
+    {
+      "id": "law-firm-economy",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23739997",
+      "released": "2026-10-28"
     },
     {
       "id": "law-offices",
@@ -133,6 +157,18 @@
       "id": "state-courts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23723926",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "veterans-representation",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23740008",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "work-injuries",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23740010",
       "released": "2026-10-28"
     }
   ]

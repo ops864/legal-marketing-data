@@ -4,8 +4,8 @@ title: "Attorney fee caps and contingency-fee rules, by state and federal progra
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23656738"
+version: "1.1.0"
+doi: "10.5281/zenodo.23739965"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23656737"

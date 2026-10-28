@@ -25,6 +25,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 ## Smaller servers, one per dataset
 
 - `https://probativegrowth.com/mcp/rules`: Lawyer advertising rules for all 50 states and DC, each with its source and status.
+- `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
 - `https://probativegrowth.com/mcp/bar-pipeline`: New lawyers by jurisdiction: bar exam pass rates and admissions, 2025.
 - `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, aggregated and rounded.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
@@ -35,7 +36,10 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
+- `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
+- `https://probativegrowth.com/mcp/immigration-courts`: Immigration court backlog, representation and asylum outcomes by state and court, from EOIR workload statistics and case data.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.
+- `https://probativegrowth.com/mcp/law-firm-economy`: Law firms by size and state (Census SUSB, Nonemployer Statistics, Economic Census): firm counts, receipts and solo practices.
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
@@ -46,6 +50,8 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-courts`: Texas trial-court caseloads by court level, county and case type.
+- `https://probativegrowth.com/mcp/veterans-representation`: VA-accredited attorneys and claims agents per veteran by state, county counts, and appeals outcomes by representation.
+- `https://probativegrowth.com/mcp/work-injuries`: Workplace injuries and fatal work injuries by state and industry, from BLS SOII and CFOI: rates, case counts and the riskiest sectors.
 
 ## Notes
 

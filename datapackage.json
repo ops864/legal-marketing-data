@@ -44,8 +44,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.1",
-      "id": "https://doi.org/10.5281/zenodo.23688705",
+      "version": "1.2.0",
+      "id": "https://doi.org/10.5281/zenodo.23740030",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -132,6 +132,176 @@
             "name": "sourcesAccessed",
             "type": "string",
             "description": "The day each source was read, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "bankruptcy",
+      "profile": "tabular-data-resource",
+      "title": "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)",
+      "description": "Bankruptcy cases commenced in the 12 months ending on each quarter-end, from the U.S. Courts' Tables F-5A (by county and chapter), F-2 (by court district, chapter and business or nonbusiness debt) and F (cases filed, terminated and pending). One record per area: the United States, every state, DC and territory, 93 court districts and about 3,100 counties. Each gives the latest period's cases by Chapter 7, 11, 13 and other chapters, the business and nonbusiness split, the change on the year before, filings per 1,000 residents (Census 2025 population estimates) and the court's figures for the six earlier periods. Every table is checked against the court's own totals row. Counts of cases, not outcomes: a filing is not a discharge.",
+      "path": "data/bankruptcy/bankruptcy.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23739952",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/data-news/data-tables/2026/09/30/bankruptcy-filings/f-5a"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, a 2-digit state FIPS code, a court district such as CA-C (the state, then N, S, E, W, M or C; a state with one district is just the state code) or a 5-digit county FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "The area's name; counties end with their state code"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us, state, district or county"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter state or territory code; empty for the United States"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The 12 months end on this date (YYYY-MM-DD); the window starts on the first day of the 12th month before"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "filings",
+            "type": "integer",
+            "description": "Bankruptcy cases commenced in the 12 months, all chapters"
+          },
+          {
+            "name": "ch7",
+            "type": "integer",
+            "description": "Chapter 7 cases commenced"
+          },
+          {
+            "name": "ch11",
+            "type": "integer",
+            "description": "Chapter 11 cases commenced"
+          },
+          {
+            "name": "ch13",
+            "type": "integer",
+            "description": "Chapter 13 cases commenced"
+          },
+          {
+            "name": "other",
+            "type": "integer",
+            "description": "Chapters 9, 12 and 15 and Section 304 cases commenced"
+          },
+          {
+            "name": "business",
+            "type": "integer",
+            "description": "Cases where the court classed the debt as predominantly business"
+          },
+          {
+            "name": "nonbusiness",
+            "type": "integer",
+            "description": "Cases where the court classed the debt as nonbusiness, mostly consumer debt"
+          },
+          {
+            "name": "ch7Share",
+            "type": "number",
+            "description": "Chapter 7 cases as a percent of all cases"
+          },
+          {
+            "name": "ch13Share",
+            "type": "number",
+            "description": "Chapter 13 cases as a percent of all cases"
+          },
+          {
+            "name": "priorFilings",
+            "type": "integer",
+            "description": "Cases in the same 12-month window a year earlier"
+          },
+          {
+            "name": "changePct",
+            "type": "number",
+            "description": "Percent change on the year; empty when the year before had fewer than 10 cases (the court's rule in Table F)"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Census July 1, 2025 population estimate; empty for districts, territories and Connecticut counties"
+          },
+          {
+            "name": "perThousand",
+            "type": "number",
+            "description": "Cases per 1,000 residents; empty where there is no population"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           }
         ],
         "missingValues": [
@@ -1374,8 +1544,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23656738",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23739965",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1709,6 +1879,324 @@
       }
     },
     {
+      "name": "idb-civil",
+      "profile": "tabular-data-resource",
+      "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year",
+      "description": "Federal civil cases from the Federal Judicial Center's Integrated Database (IDB), counted by district, nature-of-suit group and fiscal year: cases filed, the share alleging a class action, the share with a pro se plaintiff, cases terminated, the median days from filing to disposition, the trial share, the median days to trial, and how terminated cases ended (settled, voluntarily dismissed, dismissed, default or consent, motion, trial, other, moved out). One record per district and group for the latest three fiscal years, each with its yearly series, plus a national record per nature-of-suit code. Only aggregates are published: no case-level row, party, docket number or judge. Filings re-add to the U.S. Courts' own totals within half a percent.",
+      "path": "data/idb-civil/idb-civil.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23739969",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/research/idb"
+        },
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/sites/default/files/idb/textfiles/cv88on.zip"
+        },
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/sites/default/files/IDB-Research-Guide.pdf"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "The federal district court key (NYS, CAC, ...), or US for all district courts together"
+          },
+          {
+            "name": "districtName",
+            "type": "string"
+          },
+          {
+            "name": "circuit",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "Our nature-of-suit group (personal-injury, employment, ...) or all"
+          },
+          {
+            "name": "groupLabel",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "district-group (a district and a group) or nos (the whole US for one nature-of-suit code)"
+          },
+          {
+            "name": "nos",
+            "type": "integer",
+            "description": "The nature-of-suit code on the civil cover sheet (nos records only)"
+          },
+          {
+            "name": "nosLabel",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Median days from filing to disposition, over cases the district itself resolved in the window; empty when fewer than 10"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "window",
+            "type": "string",
+            "description": "The fiscal years pooled in the record (three years, October to September)"
+          },
+          {
+            "name": "filed",
+            "type": "integer",
+            "description": "Cases filed in the window"
+          },
+          {
+            "name": "terminated",
+            "type": "integer",
+            "description": "Cases terminated in the window"
+          },
+          {
+            "name": "resolved",
+            "type": "integer",
+            "description": "Terminated cases minus transfers out, remands, MDL transfers and statistical closings"
+          },
+          {
+            "name": "classActions",
+            "type": "integer",
+            "description": "Filed cases flagged as alleging a class action (Rule 23)"
+          },
+          {
+            "name": "classPct",
+            "type": "number",
+            "description": "Class-action share of filed cases, percent; empty when fewer than 10"
+          },
+          {
+            "name": "proSePlaintiffPct",
+            "type": "number",
+            "description": "Share of filed cases with a pro se plaintiff, percent; empty when fewer than 10"
+          },
+          {
+            "name": "trials",
+            "type": "integer",
+            "description": "Resolved cases that ended in a jury verdict, directed verdict or court trial"
+          },
+          {
+            "name": "trialPct",
+            "type": "number",
+            "description": "Trials as a percent of resolved cases; empty when fewer than 10"
+          },
+          {
+            "name": "medianDaysToTrial",
+            "type": "integer",
+            "description": "Median days from filing to the start of trial, for jury and court trials with a recorded start date; empty when fewer than 10"
+          },
+          {
+            "name": "trialsWithDate",
+            "type": "integer",
+            "description": "Trials with a usable start date"
+          },
+          {
+            "name": "medianDaysToTrialAllYears",
+            "type": "integer",
+            "description": "The same median over all ten fiscal years"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "immigration-courts",
+      "profile": "tabular-data-resource",
+      "title": "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)",
+      "description": "The size and movement of the U.S. immigration court backlog, from the Executive Office for Immigration Review (EOIR). National series from EOIR's workload and adjudication statistics: pending cases, new cases, completions, the share of completed cases with a representative on record, asylum decisions and the share of grants among grants and denials, asylum applications pending and pending cases of unaccompanied children, by fiscal year. Pending proceedings by immigration court, by the respondent's state of address and by nationality, counted from EOIR's monthly FOIA case-data file, with the share that has a representative of record. Counts only: no case row, name or address is published, and every cell under 11 is suppressed. Every national table is re-added against its own totals row; the case-data counts are shown beside the published totals and never spliced into them.",
+      "path": "data/immigration-courts/immigration-courts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23739986",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.justice.gov",
+          "path": "https://www.justice.gov/eoir/workload-and-adjudication-statistics"
+        },
+        {
+          "title": "fileshare.eoir.justice.gov",
+          "path": "https://fileshare.eoir.justice.gov/EOIR%20Case%20Data.zip"
+        },
+        {
+          "title": "www.justice.gov",
+          "path": "https://www.justice.gov/eoir/page/file/eoir-case-data-code-key/download"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US for national series, or the two-letter code of the state: the respondent's state of address for state records, and the state where the court sits for court records"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "scope",
+            "type": "string",
+            "description": "national, state, court or nationality"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "What is counted, in plain words"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The fiscal year (2025), the fiscal year to a quarter end (2026Q3, the fiscal year runs October 1 to September 30) or the date of the case-data file (2026-10-01)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The count, or a percent for the representation rate and the grant share (see unit); empty when suppressed (flags.suppressed)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "perMonth",
+            "type": "integer",
+            "description": "The average a month, for new cases and completions"
+          },
+          {
+            "name": "represented",
+            "type": "integer",
+            "description": "Pending proceedings with a representative of record on the case-data file; empty when a cell is under 11"
+          },
+          {
+            "name": "representedPct",
+            "type": "number",
+            "description": "Represented divided by pending, percent, one decimal"
+          },
+          {
+            "name": "shareOfPending",
+            "type": "number",
+            "description": "This record's pending proceedings as a percent of all pending proceedings in the case-data file"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "language",
       "profile": "tabular-data-resource",
       "title": "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro",
@@ -1817,6 +2305,175 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "law-firm-economy",
+      "profile": "tabular-data-resource",
+      "title": "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022",
+      "description": "How big U.S. law firms are and what they take in, for the US, every state and DC, from three Census Bureau sources. Employer law firms (NAICS 541110, offices of lawyers) by number of employees (fewer than 5, 5 to 9, 10 to 19, 20 to 99, 100 to 499, 500 or more) with their employees, payroll and receipts, from the Statistics of U.S. Businesses (SUSB) 2022. Businesses with no employees (mostly sole practitioners) and their receipts, by legal form, from Nonemployer Statistics 2024, which publishes legal services (NAICS 5411) as one group. Firm counts, receipts, the share of receipts held by the largest firms and firms by receipts size from the Economic Census 2022. One record per jurisdiction and class. Every size-class row adds up to its total row; classes the Census Bureau does not publish are left empty and flagged, never estimated.",
+      "path": "data/law-firm-economy/law-firm-economy.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23739997",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/susb.html"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/nonemployer-statistics.html"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/economic-census.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US, a two-letter state code or DC"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "sizeClass",
+            "type": "string",
+            "description": "all, lt5, 5-9, 10-19, 20-99, 100-499 or 500+ (employees in the firm, SUSB); nonemployer (no employees, NES); econ-census (Economic Census 2022); and, for the US only, nes-<receipts band>, ec-top4/8/20/50 and ec-rcpt-<receipts band>"
+          },
+          {
+            "name": "sizeLabel",
+            "type": "string",
+            "description": "The class in plain words"
+          },
+          {
+            "name": "survey",
+            "type": "string",
+            "description": "SUSB (Statistics of U.S. Businesses 2022), NES (Nonemployer Statistics 2024) or EC (Economic Census 2022)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Firms in the class (businesses for nonemployer); for ec-top records, the share of all law-firm receipts in percent. Empty where the Census Bureau published no figure (flags.suppressed)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "firms",
+            "type": "integer",
+            "description": "Employer law firms (SUSB, EC) or nonemployer businesses (NES). A firm is counted once in each state where it has an office"
+          },
+          {
+            "name": "establishments",
+            "type": "integer",
+            "description": "Offices (establishments) of those firms"
+          },
+          {
+            "name": "employees",
+            "type": "integer",
+            "description": "Paid employees in March (SUSB) or at the pay period including March 12 (EC); 0 for nonemployers"
+          },
+          {
+            "name": "payrollUsd",
+            "type": "integer",
+            "description": "Annual payroll in whole dollars (the tables print $1,000)"
+          },
+          {
+            "name": "receiptsUsd",
+            "type": "integer",
+            "description": "Receipts (revenue) in whole dollars (the tables print $1,000)"
+          },
+          {
+            "name": "shareOfFirms",
+            "type": "number",
+            "description": "The class's firms divided by all employer firms in the same jurisdiction (US records: of the US total)"
+          },
+          {
+            "name": "shareOfReceipts",
+            "type": "number",
+            "description": "The class's receipts divided by all receipts in the same jurisdiction"
+          },
+          {
+            "name": "receiptsPerFirmUsd",
+            "type": "integer",
+            "description": "Receipts divided by firms, in whole dollars"
+          },
+          {
+            "name": "employeesPerFirm",
+            "type": "number",
+            "description": "Employees divided by firms, one decimal"
+          },
+          {
+            "name": "withheld",
+            "type": "string",
+            "description": "Economic Census records: the figures the Census Bureau withheld (printed as 0 in its table) and left empty here: firms, employees, payrollUsd, receiptsUsd"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           }
         ],
         "missingValues": [
@@ -3298,6 +3955,376 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "veterans-representation",
+      "profile": "tabular-data-resource",
+      "title": "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation",
+      "description": "How many attorneys and claims agents the U.S. Department of Veterans Affairs has accredited to help with benefit claims, counted by the state (and, in the county file, the county) of each person's business address, against the VA's own projection of living veterans (VetPop2023, rounded to the nearest 1,000). One record per state, DC, Puerto Rico and territory, one for the United States and one for people whose list entry shows no US state, each with attorneys, claims agents, veterans per accredited attorney, accredited attorneys and agents per 100,000 veterans, the number accredited in the last 12 months and how many counties have none. Records for the Board of Veterans' Appeals add its decisions in fiscal year 2024 by outcome and by type of representative. The VA's lists name every person; only counts are read, and no name, phone number, registration number or ZIP code is published.",
+      "path": "data/veterans-representation/veterans-representation.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23740008",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.va.gov",
+          "path": "https://www.va.gov/ogc/apps/accreditation/"
+        },
+        {
+          "title": "www.va.gov",
+          "path": "https://www.va.gov/vetdata/veteran_population.asp"
+        },
+        {
+          "title": "department.va.gov",
+          "path": "https://department.va.gov/board-of-veterans-appeals/wp-content/uploads/sites/19/2025/04/2024_bva2024ar.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or territory; US for the United States and the Board's rows; OTHER for people whose list entry shows a blank, military, foreign or unrecognised state"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us, state, dc, territory, other, or bva (a Board of Veterans' Appeals row)"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "fips",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Accredited attorneys plus accredited claims agents (the people on the VA lists); for a bva row, the Board's decisions in that row"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "attorneys",
+            "type": "integer",
+            "description": "Attorneys on the VA Office of General Counsel's list whose business address is in the state"
+          },
+          {
+            "name": "agents",
+            "type": "integer",
+            "description": "Claims agents on the VA's list whose business address is in the state"
+          },
+          {
+            "name": "new12m",
+            "type": "integer",
+            "description": "Attorneys plus agents accredited in the 12 months before the list was read"
+          },
+          {
+            "name": "veterans",
+            "type": "integer",
+            "description": "Living veterans the VA projects for the date in veteransDate (VetPop2023), rounded to the nearest 1,000"
+          },
+          {
+            "name": "veteransDate",
+            "type": "string"
+          },
+          {
+            "name": "veteransPerAttorney",
+            "type": "integer",
+            "description": "veterans divided by attorneys; empty when there are none"
+          },
+          {
+            "name": "veteransPerRep",
+            "type": "integer",
+            "description": "veterans divided by attorneys plus agents"
+          },
+          {
+            "name": "repsPer100kVeterans",
+            "type": "number",
+            "description": "Attorneys plus agents per 100,000 veterans"
+          },
+          {
+            "name": "countiesTotal",
+            "type": "integer",
+            "description": "Counties in the VA's county table for the state (empty for Connecticut, Puerto Rico and the island territories)"
+          },
+          {
+            "name": "countiesWithNone",
+            "type": "integer",
+            "description": "Counties with no accredited attorney or agent whose business ZIP code falls mostly in the county"
+          },
+          {
+            "name": "veteransInCountiesWithNone",
+            "type": "integer",
+            "description": "Veterans in those counties (the VA's county counts, each rounded to 1,000, added up)"
+          },
+          {
+            "name": "bvaFy",
+            "type": "integer"
+          },
+          {
+            "name": "bvaSystem",
+            "type": "string"
+          },
+          {
+            "name": "bvaRepresentation",
+            "type": "string",
+            "description": "For a bva row: Agent, Attorney, a veterans service organization, No Representation, or All"
+          },
+          {
+            "name": "allowed",
+            "type": "integer"
+          },
+          {
+            "name": "remanded",
+            "type": "integer"
+          },
+          {
+            "name": "denied",
+            "type": "integer"
+          },
+          {
+            "name": "other",
+            "type": "integer"
+          },
+          {
+            "name": "allowedPct",
+            "type": "number",
+            "description": "For a bva row: share of the row's decisions that were allowed (the Board's own percentage)"
+          },
+          {
+            "name": "remandedPct",
+            "type": "number"
+          },
+          {
+            "name": "deniedPct",
+            "type": "number"
+          },
+          {
+            "name": "otherPct",
+            "type": "number"
+          },
+          {
+            "name": "shareOfLegacyPct",
+            "type": "number"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "work-injuries",
+      "profile": "tabular-data-resource",
+      "title": "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)",
+      "description": "How often workers are hurt on the job in each state and industry, and how many die: the nonfatal injury and illness rate per 100 full-time workers for private-industry sectors and detailed industries in the states BLS publishes (Survey of Occupational Injuries and Illnesses, 2024), and the number and rate of fatal work injuries in every state and DC, with the major cause and the industry rate (Census of Fatal Occupational Injuries, 2024). Every record carries its BLS series or table. Survey estimates carry a relative standard error and a noise flag; figures BLS does not publish are marked suppressed and never filled in. It is statistics about industries and states, never about a named employer.",
+      "path": "data/work-injuries/work-injuries.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23740010",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/iif/state-data.htm"
+        },
+        {
+          "title": "download.bls.gov",
+          "path": "https://download.bls.gov/pub/time.series/is/"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/iif/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US or a two-letter state code (DC included)"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "soii-industry (nonfatal rate), cfoi-total (fatal injuries in the state), cfoi-industry (fatal rate in an industry) or cfoi-event (fatal injuries by cause)"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "nonfatal or fatal"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "all, supersector, sector (2-digit NAICS), subsector (3-digit NAICS) or event"
+          },
+          {
+            "name": "naics",
+            "type": "string",
+            "description": "NAICS code (2 or 3 digits), a range such as 31-33, or ALL"
+          },
+          {
+            "name": "industry",
+            "type": "string",
+            "description": "Industry name, as BLS words it"
+          },
+          {
+            "name": "event",
+            "type": "string",
+            "description": "Cause of the fatal injury (cfoi-event records)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The reference year"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P published by BLS; U suppressed (BLS did not publish it)"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The headline number of the record (see unit); empty when suppressed"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "description": "Injury and illness cases per 100 full-time workers (soii-industry) or fatal injuries per 100,000 full-time equivalent workers (cfoi records)"
+          },
+          {
+            "name": "dartRate",
+            "type": "number",
+            "description": "Cases with days away from work, job restriction or transfer, per 100 full-time workers"
+          },
+          {
+            "name": "casesThousands",
+            "type": "number",
+            "description": "Estimated recordable cases, in thousands (BLS rounds to 100)"
+          },
+          {
+            "name": "rse",
+            "type": "number",
+            "description": "Relative standard error of the rate, in percent; 20 or more is flagged as noisy"
+          },
+          {
+            "name": "count2023",
+            "type": "integer",
+            "description": "The previous year's count (cfoi-total and cfoi-event records)"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",

@@ -8,7 +8,8 @@ Every record quotes its primary source and the date it was checked. Each dataset
 
 | Dataset | Files | DOI |
 |---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23688705](https://doi.org/10.5281/zenodo.23688705) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23740030](https://doi.org/10.5281/zenodo.23740030) |
+| [Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)](https://probativegrowth.com/research/bankruptcy-filings-by-county/) | `data/bankruptcy/` | [10.5281/zenodo.23739952](https://doi.org/10.5281/zenodo.23739952) |
 | [The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025](https://probativegrowth.com/data/bar-pipeline/) | `data/bar-pipeline/` | [10.5281/zenodo.23721443](https://doi.org/10.5281/zenodo.23721443) |
 | [Probative benchmarks, 2025–2026](https://probativegrowth.com/research/benchmarks/) | `data/benchmarks/` | [10.5281/zenodo.23735849](https://doi.org/10.5281/zenodo.23735849) |
 | [California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/ca-courts/) | `data/ca-courts/` | [10.5281/zenodo.23658524](https://doi.org/10.5281/zenodo.23658524) |
@@ -17,9 +18,12 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Legal deserts: law offices and lawyers per resident in every U.S. county](https://probativegrowth.com/research/legal-deserts/) | `data/deserts/` | [10.5281/zenodo.23721430](https://doi.org/10.5281/zenodo.23721430) |
 | [Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025](https://probativegrowth.com/data/eeoc-charges/) | `data/eeoc-charges/` | [10.5281/zenodo.23733005](https://doi.org/10.5281/zenodo.23733005) |
 | [Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024](https://probativegrowth.com/research/fatal-crashes-by-county/) | `data/fatal-crashes/` | [10.5281/zenodo.23733739](https://doi.org/10.5281/zenodo.23733739) |
-| [Attorney fee caps and contingency-fee rules, by state and federal program](https://probativegrowth.com/research/attorney-fee-caps-by-state/) | `data/fees/` | [10.5281/zenodo.23656738](https://doi.org/10.5281/zenodo.23656738) |
+| [Attorney fee caps and contingency-fee rules, by state and federal program](https://probativegrowth.com/research/attorney-fee-caps-by-state/) | `data/fees/` | [10.5281/zenodo.23739965](https://doi.org/10.5281/zenodo.23739965) |
 | [What US state bars charge, and require, to file or review lawyer advertising](https://probativegrowth.com/research/lawyer-ad-filing-fees/) | `data/filing/` | [10.5281/zenodo.23721409](https://doi.org/10.5281/zenodo.23721409) |
+| [How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year](https://probativegrowth.com/research/how-long-federal-civil-cases-take/) | `data/idb-civil/` | [10.5281/zenodo.23739969](https://doi.org/10.5281/zenodo.23739969) |
+| [Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)](https://probativegrowth.com/data/immigration-courts/) | `data/immigration-courts/` | [10.5281/zenodo.23739986](https://doi.org/10.5281/zenodo.23739986) |
 | [Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro](https://probativegrowth.com/data/language/) | `data/language/` | [10.5281/zenodo.23656758](https://doi.org/10.5281/zenodo.23656758) |
+| [Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022](https://probativegrowth.com/research/law-firm-size-and-revenue/) | `data/law-firm-economy/` | [10.5281/zenodo.23739997](https://doi.org/10.5281/zenodo.23739997) |
 | [Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics](https://probativegrowth.com/research/law-firm-competition-by-county/) | `data/law-offices/` | [10.5281/zenodo.23721415](https://doi.org/10.5281/zenodo.23721415) |
 | [Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)](https://probativegrowth.com/data/lawyer-wages/) | `data/lawyer-wages/` | [10.5281/zenodo.23734840](https://doi.org/10.5281/zenodo.23734840) |
 | [Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)](https://probativegrowth.com/data/legal-prices/) | `data/legal-prices/` | [10.5281/zenodo.23734854](https://doi.org/10.5281/zenodo.23734854) |
@@ -30,6 +34,8 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23720026](https://doi.org/10.5281/zenodo.23720026) |
 | [Unwanted-call and text-message complaints to the FCC, by state and month](https://probativegrowth.com/data/robocall-complaints/) | `data/robocall-complaints/` | [10.5281/zenodo.23733010](https://doi.org/10.5281/zenodo.23733010) |
 | [State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23723926](https://doi.org/10.5281/zenodo.23723926) |
+| [VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation](https://probativegrowth.com/data/veterans-representation/) | `data/veterans-representation/` | [10.5281/zenodo.23740008](https://doi.org/10.5281/zenodo.23740008) |
+| [Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)](https://probativegrowth.com/data/work-injuries/) | `data/work-injuries/` | [10.5281/zenodo.23740010](https://doi.org/10.5281/zenodo.23740010) |
 
 Each folder holds the full CSV and JSON, a `README.txt` with the fields, `changes.json` (the change log), `openapi.json`, and `CITATION.cff`. The root has a `CITATION.cff` (GitHub's "Cite this repository" button) and a [Frictionless](https://frictionlessdata.io/) `datapackage.json` that describes every CSV and its fields. Each dataset version has a tagged release.
 
@@ -51,6 +57,7 @@ Streamable HTTP, no key, no sign-in. Step-by-step setup for AI agents is in [`ll
 Each dataset also has its own smaller server:
 
 - `https://probativegrowth.com/mcp/rules`: Lawyer advertising rules for all 50 states and DC, each with its source and status.
+- `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
 - `https://probativegrowth.com/mcp/bar-pipeline`: New lawyers by jurisdiction: bar exam pass rates and admissions, 2025.
 - `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, aggregated and rounded.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
@@ -61,7 +68,10 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
+- `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
+- `https://probativegrowth.com/mcp/immigration-courts`: Immigration court backlog, representation and asylum outcomes by state and court, from EOIR workload statistics and case data.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.
+- `https://probativegrowth.com/mcp/law-firm-economy`: Law firms by size and state (Census SUSB, Nonemployer Statistics, Economic Census): firm counts, receipts and solo practices.
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
@@ -72,6 +82,8 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-courts`: Texas trial-court caseloads by court level, county and case type.
+- `https://probativegrowth.com/mcp/veterans-representation`: VA-accredited attorneys and claims agents per veteran by state, county counts, and appeals outcomes by representation.
+- `https://probativegrowth.com/mcp/work-injuries`: Workplace injuries and fatal work injuries by state and industry, from BLS SOII and CFOI: rates, case counts and the riskiest sectors.
 
 ## Mirrors
 

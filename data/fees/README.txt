@@ -1,12 +1,12 @@
 Attorney fee caps and contingency-fee rules, by state and federal program
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23656738
+Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23739965
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Attorney fee caps and contingency-fee rules, by state and federal program, version 1.0.0, https://doi.org/10.5281/zenodo.23656738, licensed CC BY 4.0.
+Source: Probative, Attorney fee caps and contingency-fee rules, by state and federal program, version 1.1.0, https://doi.org/10.5281/zenodo.23739965, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Attorney fee caps and contingency-fee rules, by state and federal program (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23656738
+Probative. (2026). Attorney fee caps and contingency-fee rules, by state and federal program (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23739965
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you sign a fee agreement.
 Probative is a marketing firm, not a law firm; not legal advice.

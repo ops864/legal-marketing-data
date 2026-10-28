@@ -23,6 +23,9 @@ identifiers:
     value: "10.5281/zenodo.23645750"
     description: "Lawyer advertising rules by state (50 states and DC): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23739951"
+    description: "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23721442"
     description: "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025: concept DOI (all versions)"
   - type: doi
@@ -53,8 +56,17 @@ identifiers:
     value: "10.5281/zenodo.23656745"
     description: "What US state bars charge, and require, to file or review lawyer advertising: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23739968"
+    description: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23739985"
+    description: "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23656757"
     description: "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23739996"
+    description: "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23721414"
     description: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics: concept DOI (all versions)"
@@ -85,16 +97,31 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23723925"
     description: "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23740007"
+    description: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23740009"
+    description: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI): concept DOI (all versions)"
 references:
   - type: dataset
     title: "Lawyer advertising rules by state (50 states and DC)"
     authors:
       - name: "Probative Growth"
-    version: "1.1.1"
-    doi: "10.5281/zenodo.23688705"
+    version: "1.2.0"
+    doi: "10.5281/zenodo.23740030"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
-    date-released: "2026-10-27"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23739952"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/bankruptcy-filings-by-county/"
+    date-released: "2026-10-28"
   - type: dataset
     title: "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025"
     authors:
@@ -171,11 +198,11 @@ references:
     title: "Attorney fee caps and contingency-fee rules, by state and federal program"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23656738"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23739965"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/attorney-fee-caps-by-state/"
-    date-released: "2026-10-26"
+    date-released: "2026-10-28"
   - type: dataset
     title: "What US state bars charge, and require, to file or review lawyer advertising"
     authors:
@@ -186,6 +213,24 @@ references:
     url: "https://probativegrowth.com/research/lawyer-ad-filing-fees/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23739969"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/how-long-federal-civil-cases-take/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23739986"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/immigration-courts/"
+    date-released: "2026-10-28"
+  - type: dataset
     title: "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro"
     authors:
       - name: "Probative Growth"
@@ -194,6 +239,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/language/"
     date-released: "2026-10-26"
+  - type: dataset
+    title: "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23739997"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/law-firm-size-and-revenue/"
+    date-released: "2026-10-28"
   - type: dataset
     title: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics"
     authors:
@@ -283,4 +337,22 @@ references:
     doi: "10.5281/zenodo.23723926"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-courts/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23740008"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/veterans-representation/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23740010"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/work-injuries/"
     date-released: "2026-10-28"
