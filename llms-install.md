@@ -31,7 +31,10 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
+- `https://probativegrowth.com/mcp/consumer-sentinel`: FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams per 100,000 people (2024 Data Book).
+- `https://probativegrowth.com/mcp/crosswalks`: Join keys for every dataset: practice areas, federal case codes, states, federal districts and counties.
 - `https://probativegrowth.com/mcp/deserts`: Law offices and lawyers per resident in every US county (legal deserts).
+- `https://probativegrowth.com/mcp/disability-hearings`: SSA disability hearing waits, cases pending and processing times by hearing office.
 - `https://probativegrowth.com/mcp/eeoc-charges`: EEOC workplace-discrimination charges by state and basis, FY2009 to FY2025.
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
@@ -42,9 +45,11 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/law-firm-economy`: Law firms by size and state (Census SUSB, Nonemployer Statistics, Economic Census): firm counts, receipts and solo practices.
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
+- `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
 - `https://probativegrowth.com/mcp/limitations`: Statutes of limitations by state for five kinds of civil claim, quoted from the code.
 - `https://probativegrowth.com/mcp/mdl`: Pending actions in every federal MDL, monthly since 2019.
+- `https://probativegrowth.com/mcp/nursing-homes`: Nursing home fines, harm and abuse citations by county and state, from CMS, monthly.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.

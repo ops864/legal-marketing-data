@@ -46,9 +46,27 @@
       "released": "2026-10-28"
     },
     {
+      "id": "consumer-sentinel",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23741876",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "crosswalks",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23741882",
+      "released": "2026-10-28"
+    },
+    {
       "id": "deserts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23721430",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "disability-hearings",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23741884",
       "released": "2026-10-28"
     },
     {
@@ -112,6 +130,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "legal-need",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23741886",
+      "released": "2026-10-28"
+    },
+    {
       "id": "legal-prices",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23734854",
@@ -127,6 +151,12 @@
       "id": "mdl",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23720737",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "nursing-homes",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23741901",
       "released": "2026-10-28"
     },
     {

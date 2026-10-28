@@ -971,6 +971,394 @@
       }
     },
     {
+      "name": "consumer-sentinel",
+      "profile": "tabular-data-resource",
+      "title": "FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book",
+      "description": "Reports that consumers made to the U.S. Federal Trade Commission's Consumer Sentinel Network in 2024, by state, DC and Puerto Rico, from the FTC's Consumer Sentinel Network Data Book 2024. Four records per jurisdiction: fraud and other reports and identity theft reports (each with the count, the rate per 100,000 people and the FTC's rank among the 50 states), imposter-scam reports (the share of the state's reports that the FTC prints, with a count and a rate derived from it, flagged as rounded) and fraud reports with the share reporting a loss, the total dollars reported lost and the median loss. Four national records give the whole country. A report is what a consumer or partner told the FTC, not a finding; the state tables leave out reports from state-specific data contributors and reports with no state.",
+      "path": "data/consumer-sentinel/consumer-sentinel.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23741876",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.ftc.gov",
+          "path": "https://www.ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf"
+        },
+        {
+          "title": "www.ftc.gov",
+          "path": "https://www.ftc.gov/news-events/data-visualizations/data-book"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "fraud-other, identity-theft, imposter-scams or fraud-losses"
+          },
+          {
+            "name": "measureLabel",
+            "type": "string",
+            "description": "The measure in plain words"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The calendar year the reports were made (the Data Book year)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Reports (the count as the FTC prints it, except imposter-scams, which is derived); empty for imposter-scams when the FTC prints no share for the state (flags.suppressed)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "per100k",
+            "type": "integer",
+            "description": "Reports per 100,000 people as the FTC prints it (fraud-other, identity-theft), or derived (imposter-scams)"
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "The FTC's rank among the 50 states by reports per 100,000 people; empty for DC, Puerto Rico and the country"
+          },
+          {
+            "name": "rankOf",
+            "type": "integer"
+          },
+          {
+            "name": "sharePct",
+            "type": "integer",
+            "description": "imposter-scams: the whole percent of the state's reports that the FTC prints for imposter scams"
+          },
+          {
+            "name": "topTenPosition",
+            "type": "integer",
+            "description": "imposter-scams: its place in the state's top ten report categories as the FTC lists them"
+          },
+          {
+            "name": "derived",
+            "type": "boolean",
+            "description": "true when value and per100k come from a printed percent (rounded, flags.noise); flags.moe is the margin in reports"
+          },
+          {
+            "name": "pctReportingLoss",
+            "type": "integer",
+            "description": "fraud-losses: percent of fraud reports that said money was lost"
+          },
+          {
+            "name": "totalLossUsd",
+            "type": "integer",
+            "description": "fraud-losses: dollars reported lost, as the FTC prints in Appendix C"
+          },
+          {
+            "name": "medianLossUsd",
+            "type": "integer",
+            "description": "fraud-losses: median dollar loss among reports with a loss"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "crosswalks",
+      "profile": "tabular-data-resource",
+      "title": "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties",
+      "description": "The shared keys that join every Probative dataset. One record per practice area (our taxonomy of consumer and business practice areas, each linked to the FOLIO Area of Law class it matches, the federal nature-of-suit codes of its cases, the site's practice pages and the datasets that measure its demand, supply, rules and money), per federal nature-of-suit code, per state and territory (FIPS and postal codes, Census region and division, federal circuit and districts), per federal judicial district (our district key, the Federal Judicial Center code and the court's CM/ECF id) and per county (FIPS code, the federal district and statutory division it belongs to under 28 U.S.C. chapter 5, its metro or micro area and its 2025 population). Every county's district is read from the statute and checked against the counties U.S. Courts lists under each district in its bankruptcy Table F-5A.",
+      "path": "data/crosswalks/crosswalks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23741882",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.govinfo.gov",
+          "path": "https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partI-chap5.htm"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/sites/default/files/document/nos_code_descriptions.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code the record belongs to, or US for the national tables (practice areas, case codes, datasets)"
+          },
+          {
+            "name": "table",
+            "type": "string",
+            "description": "STATE, DISTRICT, COUNTY, FORMER (a county code no longer current that older sources still use), PRACTICE, NOS (federal nature-of-suit code) or DATASET"
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "The record's key in its table: a postal code, a district key (CAC, NYS), a 5-digit county FIPS code, a practice-area id, a 3-digit nature-of-suit code or a dataset id"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name in English"
+          },
+          {
+            "name": "nameEs",
+            "type": "string",
+            "description": "Name in Spanish (county names are proper names and stay as the Census Bureau writes them)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P read from the primary source; S secondary: a nature-of-suit code no longer on the current U.S. Courts list (kept for older cases), or a Virginia independent city placed by 28 U.S.C. 127(c) using the U.S. Courts county lists; D Probative's own classification (practice areas and dataset links)"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "STATE and COUNTY: residents on July 1, 2025 (Census estimate); DISTRICT: residents of its counties; empty for the other tables"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "fips",
+            "type": "string",
+            "description": "STATE: the 2-digit state FIPS code"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Postal code of the state the district or county is in"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "COUNTY: the federal judicial district it belongs to, as a district key (the form the civil-filings, idb-civil and mdl datasets use)"
+          },
+          {
+            "name": "districtDivision",
+            "type": "string",
+            "description": "COUNTY: the statutory division of the district, where the statute divides it"
+          },
+          {
+            "name": "circuit",
+            "type": "string",
+            "description": "Federal court of appeals circuit (28 U.S.C. section 41)"
+          },
+          {
+            "name": "cbsa",
+            "type": "integer",
+            "description": "COUNTY: the 2023 core-based statistical area code (metro or micro area); empty outside any"
+          },
+          {
+            "name": "cbsaTitle",
+            "type": "string",
+            "description": "COUNTY: the metro or micro area's name"
+          },
+          {
+            "name": "cbsaType",
+            "type": "string",
+            "description": "COUNTY: metro or micro"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "STATE: Census region"
+          },
+          {
+            "name": "division",
+            "type": "string",
+            "description": "STATE: Census division"
+          },
+          {
+            "name": "districts",
+            "type": "string",
+            "description": "STATE: the federal judicial districts in it"
+          },
+          {
+            "name": "idbCode",
+            "type": "string",
+            "description": "DISTRICT: the Federal Judicial Center Integrated Database circuit and district code"
+          },
+          {
+            "name": "ecfId",
+            "type": "string",
+            "description": "DISTRICT: the district court's CM/ECF id (ecf.<id>.uscourts.gov), the id CourtListener also uses; empty if the host does not resolve"
+          },
+          {
+            "name": "bankruptcyEcfId",
+            "type": "string",
+            "description": "DISTRICT: the bankruptcy court's CM/ECF id; empty where the territorial district court hears bankruptcy cases"
+          },
+          {
+            "name": "parent",
+            "type": "string",
+            "description": "PRACTICE: the parent practice area; empty for a top-level area"
+          },
+          {
+            "name": "level",
+            "type": "integer",
+            "description": "PRACTICE: 1 top-level, 2 sub-area"
+          },
+          {
+            "name": "sitePractice",
+            "type": "string",
+            "description": "PRACTICE: the practice page family on probativegrowth.com it feeds"
+          },
+          {
+            "name": "folioIri",
+            "type": "string",
+            "description": "PRACTICE: the FOLIO Area of Law class it maps to (folio.openlegalstandard.org; FOLIO data is CC BY 4.0)"
+          },
+          {
+            "name": "folioMatch",
+            "type": "string",
+            "description": "PRACTICE: exact, close, broad (FOLIO's class is wider) or narrow"
+          },
+          {
+            "name": "nos",
+            "type": "string",
+            "description": "PRACTICE: federal civil nature-of-suit codes whose cases belong to it"
+          },
+          {
+            "name": "naics",
+            "type": "string",
+            "description": "PRACTICE: the NAICS industry code of the firms that practise it"
+          },
+          {
+            "name": "practices",
+            "type": "string",
+            "description": "NOS and DATASET: the practice areas linked to the code or measured by the dataset"
+          },
+          {
+            "name": "dimensions",
+            "type": "string",
+            "description": "DATASET: what it measures: demand, supply, rules or money"
+          },
+          {
+            "name": "doi",
+            "type": "string",
+            "description": "DATASET: the dataset's current version DOI"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "deserts",
       "profile": "tabular-data-resource",
       "title": "Legal deserts: law offices and lawyers per resident in every U.S. county",
@@ -1134,6 +1522,147 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "disability-hearings",
+      "profile": "tabular-data-resource",
+      "title": "Social Security disability hearing waits and workloads by hearing office",
+      "description": "How long Social Security disability claimants wait for a hearing before an administrative law judge, office by office, from the Social Security Administration's own public data files: the average months from the hearing request to the hearing for cases closed in the month, and each hearing office's fiscal-year-to-date receipts, dispositions, cases pending and average days from request to decision, with SSA's rank among 159 offices. Each record is one hearing office, with the state it sits in. Counts and averages only: no judge, claimant, lawyer or firm is named.",
+      "path": "data/disability-hearings/disability-hearings.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23741884",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.ssa.gov",
+          "path": "https://www.ssa.gov/appeals/publicusefiles.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code of the office (ours, from its name); US for the national Special Review Cadre"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "office",
+            "type": "string",
+            "description": "SSA's site code for the hearing office"
+          },
+          {
+            "name": "officeName",
+            "type": "string",
+            "description": "The office's city or name as we print it"
+          },
+          {
+            "name": "ssaName",
+            "type": "string",
+            "description": "The office name exactly as SSA prints it"
+          },
+          {
+            "name": "region",
+            "type": "integer",
+            "description": "SSA region number"
+          },
+          {
+            "name": "waitMonths",
+            "type": "number",
+            "description": "Average months from the hearing request to the hearing, for cases closed in the month"
+          },
+          {
+            "name": "aptDays",
+            "type": "integer",
+            "description": "Average calendar days from the hearing request to the disposition, fiscal year to date"
+          },
+          {
+            "name": "aptRank",
+            "type": "integer",
+            "description": "SSA's rank of the office by average processing time (1 is fastest; ties share a rank)"
+          },
+          {
+            "name": "aptOf",
+            "type": "integer",
+            "description": "How many offices SSA ranked"
+          },
+          {
+            "name": "receipts",
+            "type": "integer",
+            "description": "Cases received in the fiscal year to date (negative when more cases were transferred out than came in)"
+          },
+          {
+            "name": "dispositions",
+            "type": "integer",
+            "description": "Cases disposed of in the fiscal year to date"
+          },
+          {
+            "name": "pending",
+            "type": "integer",
+            "description": "Cases pending at the end of the period"
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "The month of the wait-time report (YYYY-MM)"
+          },
+          {
+            "name": "fyThrough",
+            "type": "string",
+            "description": "The last day of the fiscal-year-to-date period"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
           },
           {
             "name": "sourceLabels",
@@ -2824,6 +3353,445 @@
       }
     },
     {
+      "name": "legal-need",
+      "profile": "tabular-data-resource",
+      "title": "Legal need by county: who may need a lawyer, from the American Community Survey",
+      "description": "The people in every U.S. county who may need a lawyer, counted from the Census Bureau's American Community Survey 2020 to 2024 5-year estimates: residents aged 65 and over, residents who are not U.S. citizens, foreign-born residents who arrived since 2010, residents who speak English less than very well (and Spanish speakers among them), divorced residents (and, for states, people divorced in the last year), veterans and veterans with a VA disability rating, residents with a disability, households on SSI, renter households and renters paying 30 or 50 percent of income on rent, residents without health insurance, workers who drive to work and median household income. One record per county (3,144, in the 50 states and DC), per state and for the US, each measure with its 90% margin of error and its share of the population it is counted in.",
+      "path": "data/legal-need/legal-need.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23741886",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20245YR_Table_Shells.txt"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states and DC), or US for the national row"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (2025 county list, as in the crosswalks dataset); empty on state and US rows"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "County and state, state name, or United States"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Total residents (ACS 2020-2024 5-year estimate, table B01001)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The survey years the 5-year estimate pools (2020-2024)"
+          },
+          {
+            "name": "pop_total",
+            "type": "integer",
+            "description": "Total residents (B01001 line 1)"
+          },
+          {
+            "name": "pop_total_moe90",
+            "type": "integer",
+            "description": "90% margin of error of pop_total (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "age_65plus",
+            "type": "integer",
+            "description": "Residents aged 65 and over (B01001 lines 20-25 and 44-49); share of total residents"
+          },
+          {
+            "name": "age_65plus_moe90",
+            "type": "integer",
+            "description": "90% margin of error of age_65plus (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "age_65plus_pct",
+            "type": "number",
+            "description": "age_65plus as a percentage of its universe (pop_total), one decimal"
+          },
+          {
+            "name": "noncitizens",
+            "type": "integer",
+            "description": "Residents who are not U.S. citizens (B05001 line 6); share of total residents"
+          },
+          {
+            "name": "noncitizens_moe90",
+            "type": "integer",
+            "description": "90% margin of error of noncitizens (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "noncitizens_pct",
+            "type": "number",
+            "description": "noncitizens as a percentage of its universe (pop_total), one decimal"
+          },
+          {
+            "name": "recent_arrivals",
+            "type": "integer",
+            "description": "Foreign-born residents who entered the U.S. in 2010 or later (B05005 line 4); share of residents born outside the U.S."
+          },
+          {
+            "name": "recent_arrivals_moe90",
+            "type": "integer",
+            "description": "90% margin of error of recent_arrivals (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "recent_arrivals_pct",
+            "type": "number",
+            "description": "recent_arrivals as a percentage of its universe (born_abroad), one decimal"
+          },
+          {
+            "name": "lep",
+            "type": "integer",
+            "description": "Residents aged 5+ who speak English less than \"very well\", any language (B16005, the well / not well / not at all lines); share of residents aged 5+"
+          },
+          {
+            "name": "lep_moe90",
+            "type": "integer",
+            "description": "90% margin of error of lep (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "lep_pct",
+            "type": "number",
+            "description": "lep as a percentage of its universe (pop_5plus), one decimal"
+          },
+          {
+            "name": "spanish_lep",
+            "type": "integer",
+            "description": "Spanish speakers aged 5+ who speak English less than \"very well\" (B16005 lines 6-8 and 28-30); share of residents aged 5+"
+          },
+          {
+            "name": "spanish_lep_moe90",
+            "type": "integer",
+            "description": "90% margin of error of spanish_lep (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "spanish_lep_pct",
+            "type": "number",
+            "description": "spanish_lep as a percentage of its universe (pop_5plus), one decimal"
+          },
+          {
+            "name": "divorced",
+            "type": "integer",
+            "description": "Residents aged 15+ whose current marital status is divorced (B12001 lines 10 and 19); share of residents aged 15+"
+          },
+          {
+            "name": "divorced_moe90",
+            "type": "integer",
+            "description": "90% margin of error of divorced (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "divorced_pct",
+            "type": "number",
+            "description": "divorced as a percentage of its universe (pop_15plus), one decimal"
+          },
+          {
+            "name": "divorced_last_year",
+            "type": "integer",
+            "description": "Residents aged 15+ divorced in the last 12 months (B12503 lines 5 and 10); the Census Bureau publishes this table for states and the US only, so county rows are empty"
+          },
+          {
+            "name": "divorced_last_year_moe90",
+            "type": "integer",
+            "description": "90% margin of error of divorced_last_year (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "divorced_last_year_pct",
+            "type": "number",
+            "description": "divorced_last_year as a percentage of its universe (pop_15plus), one decimal"
+          },
+          {
+            "name": "veterans",
+            "type": "integer",
+            "description": "Civilian veterans aged 18+ (B21001 line 2); share of civilians aged 18+"
+          },
+          {
+            "name": "veterans_moe90",
+            "type": "integer",
+            "description": "90% margin of error of veterans (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "veterans_pct",
+            "type": "number",
+            "description": "veterans as a percentage of its universe (civ_pop_18plus), one decimal"
+          },
+          {
+            "name": "va_rated",
+            "type": "integer",
+            "description": "Civilian veterans with a VA service-connected disability rating, any percentage (B21100 line 3); share of civilian veterans"
+          },
+          {
+            "name": "va_rated_moe90",
+            "type": "integer",
+            "description": "90% margin of error of va_rated (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "va_rated_pct",
+            "type": "number",
+            "description": "va_rated as a percentage of its universe (civ_veterans), one decimal"
+          },
+          {
+            "name": "va_rated_70plus",
+            "type": "integer",
+            "description": "Civilian veterans rated 70 percent or higher (B21100 line 8); share of civilian veterans"
+          },
+          {
+            "name": "va_rated_70plus_moe90",
+            "type": "integer",
+            "description": "90% margin of error of va_rated_70plus (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "va_rated_70plus_pct",
+            "type": "number",
+            "description": "va_rated_70plus as a percentage of its universe (civ_veterans), one decimal"
+          },
+          {
+            "name": "disability",
+            "type": "integer",
+            "description": "Civilian noninstitutionalized residents with a disability (B18101, the 12 'with a disability' lines); share of that population"
+          },
+          {
+            "name": "disability_moe90",
+            "type": "integer",
+            "description": "90% margin of error of disability (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "disability_pct",
+            "type": "number",
+            "description": "disability as a percentage of its universe (civ_noninst_pop), one decimal"
+          },
+          {
+            "name": "ssi_households",
+            "type": "integer",
+            "description": "Households with Supplemental Security Income (B19056 line 2); share of households"
+          },
+          {
+            "name": "ssi_households_moe90",
+            "type": "integer",
+            "description": "90% margin of error of ssi_households (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "ssi_households_pct",
+            "type": "number",
+            "description": "ssi_households as a percentage of its universe (households), one decimal"
+          },
+          {
+            "name": "renter_households",
+            "type": "integer",
+            "description": "Renter-occupied housing units (B25003 line 3); share of occupied housing units"
+          },
+          {
+            "name": "renter_households_moe90",
+            "type": "integer",
+            "description": "90% margin of error of renter_households (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "renter_households_pct",
+            "type": "number",
+            "description": "renter_households as a percentage of its universe (occupied_units), one decimal"
+          },
+          {
+            "name": "rent_burdened",
+            "type": "integer",
+            "description": "Renter households paying 30 percent or more of household income on gross rent (B25070 lines 7-10); share of renter households whose rent share is computed"
+          },
+          {
+            "name": "rent_burdened_moe90",
+            "type": "integer",
+            "description": "90% margin of error of rent_burdened (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "rent_burdened_pct",
+            "type": "number",
+            "description": "rent_burdened as a percentage of its universe (renter_units), one decimal"
+          },
+          {
+            "name": "rent_severe",
+            "type": "integer",
+            "description": "Renter households paying 50 percent or more (B25070 line 10); same universe"
+          },
+          {
+            "name": "rent_severe_moe90",
+            "type": "integer",
+            "description": "90% margin of error of rent_severe (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "rent_severe_pct",
+            "type": "number",
+            "description": "rent_severe as a percentage of its universe (renter_units), one decimal"
+          },
+          {
+            "name": "uninsured",
+            "type": "integer",
+            "description": "Civilian noninstitutionalized residents with no health insurance coverage (B27010 lines 17, 33, 50 and 66); share of that population (B27010 line 1)"
+          },
+          {
+            "name": "uninsured_moe90",
+            "type": "integer",
+            "description": "90% margin of error of uninsured (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "uninsured_pct",
+            "type": "number",
+            "description": "uninsured as a percentage of its universe (B27010 line 1), one decimal"
+          },
+          {
+            "name": "median_household_income",
+            "type": "integer",
+            "description": "Median household income in the past 12 months, in 2024 inflation-adjusted dollars (B19013 line 1); not a count, so not summed"
+          },
+          {
+            "name": "median_household_income_moe90",
+            "type": "integer",
+            "description": "90% margin of error of median_household_income (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "commute_vehicle",
+            "type": "integer",
+            "description": "Workers aged 16+ who commute by car, truck or van, driving alone or carpooling (B08301 line 2); share of workers aged 16+"
+          },
+          {
+            "name": "commute_vehicle_moe90",
+            "type": "integer",
+            "description": "90% margin of error of commute_vehicle (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
+          },
+          {
+            "name": "commute_vehicle_pct",
+            "type": "number",
+            "description": "commute_vehicle as a percentage of its universe (workers_16plus), one decimal"
+          },
+          {
+            "name": "born_abroad",
+            "type": "integer",
+            "description": "Universe: residents born outside the United States (B05005 line 1)"
+          },
+          {
+            "name": "pop_5plus",
+            "type": "integer",
+            "description": "Universe: residents aged 5 and over (B16005 line 1)"
+          },
+          {
+            "name": "pop_15plus",
+            "type": "integer",
+            "description": "Universe: residents aged 15 and over (B12001 line 1)"
+          },
+          {
+            "name": "civ_pop_18plus",
+            "type": "integer",
+            "description": "Universe: civilians aged 18 and over (B21001 line 1)"
+          },
+          {
+            "name": "civ_veterans",
+            "type": "integer",
+            "description": "Universe: civilian veterans aged 18 and over (B21100 line 1)"
+          },
+          {
+            "name": "civ_noninst_pop",
+            "type": "integer",
+            "description": "Universe: civilian noninstitutionalized residents (B18101 line 1)"
+          },
+          {
+            "name": "households",
+            "type": "integer",
+            "description": "Universe: households (B19056 line 1)"
+          },
+          {
+            "name": "occupied_units",
+            "type": "integer",
+            "description": "Universe: occupied housing units (B25003 line 1)"
+          },
+          {
+            "name": "renter_units",
+            "type": "integer",
+            "description": "Universe: renter-occupied units whose rent share of income is computed (B25070 line 1 minus line 11)"
+          },
+          {
+            "name": "workers_16plus",
+            "type": "integer",
+            "description": "Universe: workers aged 16 and over (B08301 line 1)"
+          },
+          {
+            "name": "noisy",
+            "type": "string",
+            "description": "Measures whose 90% margin of error is more than half the estimate (or whose estimate is 0 with a margin above 0): read them as rough"
+          },
+          {
+            "name": "suppressedMeasures",
+            "type": "string",
+            "description": "Measures the Census Bureau did not publish for this place (sample too small); their value is empty"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "legal-prices",
       "profile": "tabular-data-resource",
       "title": "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)",
@@ -3218,6 +4186,244 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "nursing-homes",
+      "profile": "tabular-data-resource",
+      "title": "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations",
+      "description": "For every US county with a Medicare- or Medicaid-certified nursing home, every state and territory, and the US: how many certified nursing homes and beds there are, how many times the Centers for Medicare & Medicaid Services (CMS) fined them in the last three years and for how many dollars, how often and for how many days it denied payment, and how many health citations inspectors wrote at the actual-harm level or worse (scope and severity G to L), at the immediate-jeopardy level (J to L) and under the abuse, neglect and exploitation tags (F600 to F610), plus the share of rated homes with one star overall. Built each month from the four CMS Provider Data Catalog files behind Care Compare. Counts only: no facility names, addresses or certification numbers, and no resident data (CMS publishes none).",
+      "path": "data/nursing-homes/nursing-homes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23741901",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.cms.gov",
+          "path": "https://data.cms.gov/provider-data/dataset/4pq5-n9py"
+        },
+        {
+          "title": "data.cms.gov",
+          "path": "https://data.cms.gov/provider-data/dataset/g6vv-u9sr"
+        },
+        {
+          "title": "data.cms.gov",
+          "path": "https://data.cms.gov/provider-data/dataset/r5ix-sfxw"
+        },
+        {
+          "title": "data.cms.gov",
+          "path": "https://data.cms.gov/provider-data/dataset/xcdc-v8bm"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US for the national record"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut planning regions), empty for state and US records"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as in the crosswalks dataset"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as fines_total_usd"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value measures"
+          },
+          {
+            "name": "facilities",
+            "type": "integer",
+            "description": "Medicare- or Medicaid-certified nursing homes in the CMS Provider Information file"
+          },
+          {
+            "name": "certified_beds",
+            "type": "integer",
+            "description": "Certified beds in those homes"
+          },
+          {
+            "name": "rated_facilities",
+            "type": "integer",
+            "description": "Homes with a CMS overall star rating"
+          },
+          {
+            "name": "one_star_facilities",
+            "type": "integer",
+            "description": "Homes rated one star overall (the lowest)"
+          },
+          {
+            "name": "one_star_share_pct",
+            "type": "number",
+            "description": "one_star_facilities as a percent of rated_facilities"
+          },
+          {
+            "name": "abuse_icon_facilities",
+            "type": "integer",
+            "description": "Homes CMS marks with its abuse icon on Care Compare"
+          },
+          {
+            "name": "fines_count",
+            "type": "integer",
+            "description": "Fines (civil money penalties) CMS lists in the last three years"
+          },
+          {
+            "name": "fines_total_usd",
+            "type": "integer",
+            "description": "Dollars of those fines, as CMS lists them (before any later reduction CMS has not yet posted)"
+          },
+          {
+            "name": "facilities_fined",
+            "type": "integer",
+            "description": "Homes with at least one fine"
+          },
+          {
+            "name": "payment_denials",
+            "type": "integer",
+            "description": "Denials of payment for new admissions in the last three years"
+          },
+          {
+            "name": "payment_denial_days",
+            "type": "integer",
+            "description": "Total length of those payment denials, in days"
+          },
+          {
+            "name": "citations_total",
+            "type": "integer",
+            "description": "Health citations (deficiencies) in the inspections CMS publishes for each home"
+          },
+          {
+            "name": "citations_harm",
+            "type": "integer",
+            "description": "Citations at scope and severity G to L: actual harm or immediate jeopardy"
+          },
+          {
+            "name": "citations_ij",
+            "type": "integer",
+            "description": "Citations at scope and severity J to L: immediate jeopardy to resident health or safety"
+          },
+          {
+            "name": "citations_abuse",
+            "type": "integer",
+            "description": "Citations under federal tags F600 to F610 (abuse, neglect, exploitation, misappropriation and how homes prevent, report and investigate them)"
+          },
+          {
+            "name": "facilities_with_harm",
+            "type": "integer",
+            "description": "Homes with at least one citation at G to L"
+          },
+          {
+            "name": "facilities_with_ij",
+            "type": "integer",
+            "description": "Homes with at least one citation at J to L"
+          },
+          {
+            "name": "facilities_without_county",
+            "type": "integer",
+            "description": "State and US records: homes whose county could not be placed (Puerto Rico and Guam have no county rows), counted in the state only"
+          },
+          {
+            "name": "cms_avg_fines_per_facility",
+            "type": "number",
+            "description": "State and US records: CMS's own published average number of fines per home (second source)"
+          },
+          {
+            "name": "cms_avg_fine_amount_usd",
+            "type": "integer",
+            "description": "State and US records: CMS's own published average fine dollars per home (second source)"
+          },
+          {
+            "name": "cms_avg_cycle1_health_deficiencies",
+            "type": "number",
+            "description": "State and US records: CMS's own published average health deficiencies in the latest standard inspection (second source)"
+          },
+          {
+            "name": "penalty_from",
+            "type": "string",
+            "description": "Earliest penalty date in the CMS Penalties file"
+          },
+          {
+            "name": "penalty_to",
+            "type": "string",
+            "description": "Latest penalty date in the CMS Penalties file"
+          },
+          {
+            "name": "survey_from",
+            "type": "string",
+            "description": "Earliest inspection date in the CMS Health Deficiencies file"
+          },
+          {
+            "name": "survey_to",
+            "type": "string",
+            "description": "Latest inspection date in the CMS Health Deficiencies file"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "The CMS files the record is built from"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Links to those files"
           }
         ],
         "missingValues": [

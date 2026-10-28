@@ -41,8 +41,17 @@ identifiers:
     value: "10.5281/zenodo.23733730"
     description: "CFPB complaints about debt collection, credit reporting and debt management, by state and month: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23741875"
+    description: "FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23741881"
+    description: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23721429"
     description: "Legal deserts: law offices and lawyers per resident in every U.S. county: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23741883"
+    description: "Social Security disability hearing waits and workloads by hearing office: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23733004"
     description: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025: concept DOI (all versions)"
@@ -74,6 +83,9 @@ identifiers:
     value: "10.5281/zenodo.23734839"
     description: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23741885"
+    description: "Legal need by county: who may need a lawyer, from the American Community Survey: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23734853"
     description: "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES): concept DOI (all versions)"
   - type: doi
@@ -82,6 +94,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23720736"
     description: "Mass-tort docket tracker, federal MDL pending actions by month since 2019: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23741900"
+    description: "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23656748"
     description: "Legal-marketing ethics opinions, 2004–2026: concept DOI (all versions)"
@@ -168,6 +183,24 @@ references:
     url: "https://probativegrowth.com/research/consumer-finance-complaints-by-state/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23741876"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/consumer-sentinel/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23741882"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/crosswalks/"
+    date-released: "2026-10-28"
+  - type: dataset
     title: "Legal deserts: law offices and lawyers per resident in every U.S. county"
     authors:
       - name: "Probative Growth"
@@ -175,6 +208,15 @@ references:
     doi: "10.5281/zenodo.23721430"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/legal-deserts/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Social Security disability hearing waits and workloads by hearing office"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23741884"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/disability-hearings/"
     date-released: "2026-10-28"
   - type: dataset
     title: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025"
@@ -267,6 +309,15 @@ references:
     url: "https://probativegrowth.com/data/lawyer-wages/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "Legal need by county: who may need a lawyer, from the American Community Survey"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23741886"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/legal-need/"
+    date-released: "2026-10-28"
+  - type: dataset
     title: "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)"
     authors:
       - name: "Probative Growth"
@@ -292,6 +343,15 @@ references:
     doi: "10.5281/zenodo.23720737"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/mass-tort-mdl-tracker/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23741901"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/nursing-homes/"
     date-released: "2026-10-28"
   - type: dataset
     title: "Legal-marketing ethics opinions, 2004–2026"
