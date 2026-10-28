@@ -1,0 +1,11 @@
+{
+  "name": "legal-marketing-data",
+  "version": "1.3.0",
+  "description": "Read-only US legal-marketing data with sources: lawyer advertising rules for 50 states and DC, bar ad filing, fee caps, MDLs, ethics opinions, platform policies and official court and complaint statistics.",
+  "mcpServers": {
+    "probative": {
+      "httpUrl": "https://probativegrowth.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

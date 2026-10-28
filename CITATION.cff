@@ -1,0 +1,286 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the dataset you used (each folder has its own CITATION.cff and DOI), or cite the collection as below."
+title: "Legal marketing open data (US)"
+type: dataset
+authors:
+  - name: "Probative Growth"
+    website: "https://probativegrowth.com/"
+abstract: "Open, citable datasets on US law-firm marketing: lawyer advertising rules for all 50 states and DC, bar ad filing and fees, ethics opinions, ad-platform policies, attorney fee caps, federal MDL dockets, Spanish-language demand, California court filings by county and Probative benchmarks. Every record quotes its primary source and the date it was checked. Not legal advice."
+keywords:
+  - "legal marketing"
+  - "lawyer advertising"
+  - "attorney advertising"
+  - "legal data"
+  - "open data"
+  - "mcp-server"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/data/"
+repository-code: "https://github.com/ops864/legal-marketing-data"
+date-released: "2026-10-28"
+version: "2026-10-28"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23645750"
+    description: "Lawyer advertising rules by state (50 states and DC): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23721442"
+    description: "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23688755"
+    description: "Probative benchmarks, 2025–2026: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23658523"
+    description: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23720008"
+    description: "Federal civil filings by nature of suit and district, 12-month periods since 2018: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23733730"
+    description: "CFPB complaints about debt collection, credit reporting and debt management, by state and month: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23721429"
+    description: "Legal deserts: law offices and lawyers per resident in every U.S. county: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23733004"
+    description: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23733738"
+    description: "Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23656737"
+    description: "Attorney fee caps and contingency-fee rules, by state and federal program: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23656745"
+    description: "What US state bars charge, and require, to file or review lawyer advertising: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23656757"
+    description: "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23721414"
+    description: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23734839"
+    description: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23734853"
+    description: "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23721435"
+    description: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23720736"
+    description: "Mass-tort docket tracker, federal MDL pending actions by month since 2019: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23656748"
+    description: "Legal-marketing ethics opinions, 2004–2026: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23656752"
+    description: "Legal ad-platform policy tracker: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23720025"
+    description: "Referral-fee and fee-splitting rules for lawyers, by state: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23733009"
+    description: "Unwanted-call and text-message complaints to the FCC, by state and month: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23723925"
+    description: "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
+references:
+  - type: dataset
+    title: "Lawyer advertising rules by state (50 states and DC)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.1.1"
+    doi: "10.5281/zenodo.23688705"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
+    date-released: "2026-10-27"
+  - type: dataset
+    title: "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23721443"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/bar-pipeline/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Probative benchmarks, 2025–2026"
+    authors:
+      - name: "Probative Growth"
+    version: "4.0.1"
+    doi: "10.5281/zenodo.23735849"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/benchmarks/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23658524"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/ca-courts/"
+    date-released: "2026-10-26"
+  - type: dataset
+    title: "Federal civil filings by nature of suit and district, 12-month periods since 2018"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23720009"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/federal-civil-filings-by-type/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "CFPB complaints about debt collection, credit reporting and debt management, by state and month"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23733731"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/consumer-finance-complaints-by-state/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal deserts: law offices and lawyers per resident in every U.S. county"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23721430"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/legal-deserts/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23733005"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/eeoc-charges/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23733739"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/fatal-crashes-by-county/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Attorney fee caps and contingency-fee rules, by state and federal program"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23656738"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/attorney-fee-caps-by-state/"
+    date-released: "2026-10-26"
+  - type: dataset
+    title: "What US state bars charge, and require, to file or review lawyer advertising"
+    authors:
+      - name: "Probative Growth"
+    version: "1.2.0"
+    doi: "10.5281/zenodo.23721409"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/lawyer-ad-filing-fees/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro"
+    authors:
+      - name: "Probative Growth"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23656758"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/language/"
+    date-released: "2026-10-26"
+  - type: dataset
+    title: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23721415"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/law-firm-competition-by-county/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23734840"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/lawyer-wages/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23734854"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/legal-prices/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23721436"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/statute-of-limitations-by-state/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Mass-tort docket tracker, federal MDL pending actions by month since 2019"
+    authors:
+      - name: "Probative Growth"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23720737"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/mass-tort-mdl-tracker/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal-marketing ethics opinions, 2004–2026"
+    authors:
+      - name: "Probative Growth"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23734859"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/opinions/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal ad-platform policy tracker"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.1"
+    doi: "10.5281/zenodo.23716831"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/platforms/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Referral-fee and fee-splitting rules for lawyers, by state"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23720026"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Unwanted-call and text-message complaints to the FCC, by state and month"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23733010"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/robocall-complaints/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23723926"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/state-courts/"
+    date-released: "2026-10-28"

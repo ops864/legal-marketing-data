@@ -15,22 +15,22 @@ Human page: https://probativegrowth.com/data/ca-courts/
 
 Columns:
   id: Stable record id (never reused)
-  county: 
-  countyName: 
+  county: County key (a lowercase slug), or CA for the state
+  countyName: County name
   areaType: us, state or cbsa
-  group: 
-  table: 
-  column: 
+  group: The Council’s case group: civil, criminal, family, juvenile, probate, mental health or appeals
+  table: The report table the figure comes from
+  column: The column letter in that table
   measure: What the estimate measures
-  measureLabel: 
-  fy: 
+  measureLabel: The case type, as the report names it
+  fy: The state fiscal year (e.g. 2024-25)
   value: The machine value (see unit)
   unit: Unit of value
-  priorFy: 
-  priorValue: 
-  change: 
-  changePct: 
-  incomplete: 
+  priorFy: The fiscal year before it
+  priorValue: The prior-year count
+  change: This year’s count minus the prior year’s
+  changePct: The change as a percent of the prior year; empty when the prior count is zero or missing
+  incomplete: true when the Council flags the cell as incomplete data
   text: The record in one plain-English sentence
   effectiveFrom: When the fact took effect (YYYY-MM-DD), if known
   effectiveTo: When it stopped applying; empty while current

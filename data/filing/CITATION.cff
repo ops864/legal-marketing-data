@@ -4,8 +4,8 @@ title: "What US state bars charge, and require, to file or review lawyer adverti
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23656746"
+version: "1.2.0"
+doi: "10.5281/zenodo.23721409"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23656745"

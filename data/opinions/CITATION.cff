@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
-title: "Legal-marketing ethics opinions, 2015–2026"
+title: "Legal-marketing ethics opinions, 2004–2026"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23656749"
+version: "1.1.0"
+doi: "10.5281/zenodo.23734859"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23656748"

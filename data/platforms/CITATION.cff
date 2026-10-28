@@ -4,8 +4,8 @@ title: "Legal ad-platform policy tracker"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23656753"
+version: "1.0.1"
+doi: "10.5281/zenodo.23716831"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23656752"

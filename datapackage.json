@@ -1,0 +1,3319 @@
+{
+  "profile": "tabular-data-package",
+  "name": "legal-marketing-open-data-us",
+  "id": "https://doi.org/10.5281/zenodo.23645750",
+  "title": "Legal marketing open data (US)",
+  "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
+  "version": "2026-10-28",
+  "created": "2026-10-28T00:00:00Z",
+  "homepage": "https://probativegrowth.com/data/",
+  "keywords": [
+    "legal marketing",
+    "lawyer advertising",
+    "attorney advertising",
+    "legal data",
+    "open data"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Probative Growth",
+      "role": "author",
+      "path": "https://probativegrowth.com/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Probative legal-marketing data API",
+      "path": "https://probativegrowth.com/data/v1/index.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "rules",
+      "profile": "tabular-data-resource",
+      "title": "Lawyer advertising rules by state (50 states and DC)",
+      "description": "The lawyer advertising rules of every US state and DC, in plain English: ad filing, what each ad must include, waiting periods for injury contact, claims and testimonials, referral and lead rules, ads in other languages, call-recording consent, texting law and privacy law. Each cell cites its source and says how it was checked (P, S, D or U).",
+      "path": "data/rules/rules.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.1",
+      "id": "https://doi.org/10.5281/zenodo.23688705",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.americanbar.org",
+          "path": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_2_advertising/comment_on_rule_7_2/"
+        },
+        {
+          "title": "www.law.cornell.edu",
+          "path": "https://www.law.cornell.edu/cfr/text/47/64.1200"
+        },
+        {
+          "title": "california.public.law",
+          "path": "https://california.public.law/codes/business_and_professions_code_section_6157.2"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter code (DC for the District of Columbia)"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "Rule topic key: filing, requiredContent, waitingPeriod, claims, referral, language, recording, texting, privacy"
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Rule topic, in words"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D ABA model default, U open question"
+          },
+          {
+            "name": "statusLabel",
+            "type": "string",
+            "description": "The status, in words"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The rule in plain English"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day the state was last checked (YYYY-MM-DD)"
+          },
+          {
+            "name": "humanUrl",
+            "type": "string",
+            "description": "The state page anchor to cite for this cell"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "sourcesAccessed",
+            "type": "string",
+            "description": "The day each source was read, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "bar-pipeline",
+      "profile": "tabular-data-resource",
+      "title": "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025",
+      "description": "For every US jurisdiction that reports to the National Conference of Bar Examiners (the 50 states, DC, Guam, the Northern Mariana Islands, Palau, Puerto Rico and the Virgin Islands): the overall 2025 bar exam pass rate, how many new lawyers were admitted in 2025 (by examination, by transferred UBE score and on motion), how admissions by exam or transferred score changed since 2021, and how much of the total came from transferred scores and from motion. NCBE reserves its published tables, so this dataset republishes none of them: every figure is one we derive from them (a rate, a sum, a change, a share), credited to NCBE with a link to the table it comes from. Each jurisdiction's rows add up to NCBE's own totals row before anything is published.",
+      "path": "data/bar-pipeline/bar-pipeline.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23721443",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "thebarexaminer.ncbex.org",
+          "path": "https://thebarexaminer.ncbex.org/2025-statistics/admissions-to-the-bar-by-examination-and-by-transferred-ube-score-2021-2025/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The year the figures are for"
+          },
+          {
+            "name": "pass_rate_pct",
+            "type": "number",
+            "description": "Overall bar exam pass rate for the year (February and July together), in percent: passers divided by takers, as we compute it from NCBE's table. Empty when NCBE shows no results for the jurisdiction."
+          },
+          {
+            "name": "admitted",
+            "type": "integer",
+            "description": "New lawyers admitted in the year: the sum of the pathways NCBE shows (by examination, by transferred UBE score, on motion). Where NCBE shows a dash for a pathway it is left out and named in admitted_pathways_reported."
+          },
+          {
+            "name": "admitted_pathways_reported",
+            "type": "string",
+            "description": "Which admission pathways are in the admitted figure"
+          },
+          {
+            "name": "admitted_change_2021_2025_pct",
+            "type": "number",
+            "description": "Change in admissions by exam or by transferred UBE score between 2021 and 2025, in percent. Like for like: motion admissions are left out because several jurisdictions do not report them every year."
+          },
+          {
+            "name": "transfer_share_pct",
+            "type": "number",
+            "description": "Share of the admitted figure that came by transferred UBE score, in percent"
+          },
+          {
+            "name": "motion_share_pct",
+            "type": "number",
+            "description": "Share of the admitted figure that came on motion (from another jurisdiction's license), in percent"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value measures"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "The NCBE tables the figures are derived from"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Links to those tables"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "benchmarks",
+      "profile": "tabular-data-resource",
+      "title": "Probative benchmarks, 2025–2026",
+      "description": "Probative benchmarks, 2025–2026: aggregated, rounded, and small groups suppressed. Our data on law-firm marketing, shown as bands, named tiers and rounded values, one table per file. The public tables cover how quickly inquiries become signed clients, phone calls and signed clients, AI answers and organic search clicks, search-ad click costs, what people type, calls from ads, Local Services Ads leads, inquiries by quarter and ad cost per signed client. Each row gives the measure, the band or tier, its unit and a rough size band. Every value is aggregated across many observations; values resting on too few observations, or resting mostly on a few, are suppressed for privacy. Values are approximate, so read the band, not a point. The methods page defines every measure and the protection steps.",
+      "path": "data/benchmarks/benchmarks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "4.0.1",
+      "id": "https://doi.org/10.5281/zenodo.23735849",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row id: the table id and the row number"
+          },
+          {
+            "name": "table",
+            "type": "string",
+            "description": "Table id (see the methods page for the list)"
+          },
+          {
+            "name": "tableTitle",
+            "type": "string",
+            "description": "The table's title"
+          },
+          {
+            "name": "dimension",
+            "type": "string",
+            "description": "What the row measures"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The middle of the band (or the rounded value); read the display column or the note for the band"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of the value; \"(band)\" or \"(tier)\" means the figure is a range, not a point"
+          },
+          {
+            "name": "display",
+            "type": "string",
+            "description": "The figure as published: a band, a named tier or a rounded value"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "band, tier or rounded"
+          },
+          {
+            "name": "n_band",
+            "type": "string",
+            "description": "A rough size band for the row (30+ or 100+); smaller rows are suppressed for privacy"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "The band or tier again, and what the figure counts"
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Release version of the benchmarks"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The release date (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "The methods page that defines the measure"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "The methods page URL"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "ca-courts",
+      "profile": "tabular-data-resource",
+      "title": "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25",
+      "description": "How many cases were filed in each of California's 58 superior courts (one per county) and statewide, by case type, from the Judicial Council of California's Court Statistics Reports: unlimited civil (motor-vehicle injury, other injury and wrongful death, other civil), limited civil, unlawful detainer, small claims, felonies and misdemeanors, family law, juvenile, probate, mental health and appeals. One record per county and case type, with the prior year beside it. In every table the 58 counties add up exactly to the report's own statewide row, and the totals inside each row add up too. Counts only: no lawyer or firm is listed or ranked.",
+      "path": "data/ca-courts/ca-courts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23658524",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "courts.ca.gov",
+          "path": "https://courts.ca.gov/system/files/file/2025-court-statistics-report_0.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "County key (a lowercase slug), or CA for the state"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us, state or cbsa"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "The Council’s case group: civil, criminal, family, juvenile, probate, mental health or appeals"
+          },
+          {
+            "name": "table",
+            "type": "string",
+            "description": "The report table the figure comes from"
+          },
+          {
+            "name": "column",
+            "type": "string",
+            "description": "The column letter in that table"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "What the estimate measures"
+          },
+          {
+            "name": "measureLabel",
+            "type": "string",
+            "description": "The case type, as the report names it"
+          },
+          {
+            "name": "fy",
+            "type": "string",
+            "description": "The state fiscal year (e.g. 2024-25)"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "priorFy",
+            "type": "string",
+            "description": "The fiscal year before it"
+          },
+          {
+            "name": "priorValue",
+            "type": "integer",
+            "description": "The prior-year count"
+          },
+          {
+            "name": "change",
+            "type": "integer",
+            "description": "This year’s count minus the prior year’s"
+          },
+          {
+            "name": "changePct",
+            "type": "number",
+            "description": "The change as a percent of the prior year; empty when the prior count is zero or missing"
+          },
+          {
+            "name": "incomplete",
+            "type": "string",
+            "description": "true when the Council flags the cell as incomplete data"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "civil-filings",
+      "profile": "tabular-data-resource",
+      "title": "Federal civil filings by nature of suit and district, 12-month periods since 2018",
+      "description": "How many civil cases were filed in each of the 94 U.S. district courts and nationwide, by nature of suit, from the Administrative Office of the U.S. Courts' Statistical Tables for the Federal Judiciary: Table C-3 (the 94 districts by case type: contract, real property, torts, civil rights, prisoner petitions, labor, Social Security, intellectual property and more, U.S. cases and private cases) and Table C-2 (the nation by about 100 natures of suit, such as product liability, medical malpractice, employment, the Fair Labor Standards Act, ERISA and consumer credit, with the basis of jurisdiction). One record per district and case type for the latest 12 months, with the year before and the history of every earlier table, and one record per nature of suit nationwide. In every table the 94 districts add up exactly to the national Total row, every circuit adds up to its districts and every nature-of-suit group adds up to the rows under it. Counts only: no lawyer or firm is listed or ranked.",
+      "path": "data/civil-filings/civil-filings.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23720009",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/sites/default/files/document/stfj_c3_630.2026.xlsx"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/sites/default/files/document/stfj_c2_630.2026.xlsx"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "The district's code (two or three letters: CAC is the Central District of California, NJ is the District of New Jersey) or US for the nation"
+          },
+          {
+            "name": "districtName",
+            "type": "string",
+            "description": "The district's name"
+          },
+          {
+            "name": "circuit",
+            "type": "string",
+            "description": "The federal circuit (1st to 11th, or DC); empty for the nation"
+          },
+          {
+            "name": "table",
+            "type": "string",
+            "description": "C-3 (by district) or C-2 (national, by nature of suit)"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "The case type: a Table C-3 column id (for example priv-motor-vehicle-pi) or a Table C-2 row id (for example health-care-pharma)"
+          },
+          {
+            "name": "categoryLabel",
+            "type": "string",
+            "description": "The case type as the table prints it"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "all, us (the U.S. government is a party), priv (private cases) or nos (a Table C-2 nature-of-suit row)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "The last day of the 12-month period (YYYY-MM-DD)"
+          },
+          {
+            "name": "priorValue",
+            "type": "integer",
+            "description": "The count for the 12 months ending a year earlier; empty when that table is not in the series"
+          },
+          {
+            "name": "yoyChange",
+            "type": "integer",
+            "description": "This period's count minus the prior one"
+          },
+          {
+            "name": "yoyPct",
+            "type": "number",
+            "description": "The change as a percent of the prior count; empty when the prior count is zero or missing. Read it with flags.noise: counts under 20 swing a lot"
+          },
+          {
+            "name": "comparePeriod",
+            "type": "string",
+            "description": "The period end of the prior count"
+          },
+          {
+            "name": "nationalSharePct",
+            "type": "number",
+            "description": "The district's share of the national count for the same case type, in percent (Table C-3 rows)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "consumer-complaints",
+      "profile": "tabular-data-resource",
+      "title": "CFPB complaints about debt collection, credit reporting and debt management, by state and month",
+      "description": "Complaints that consumers filed with the Consumer Financial Protection Bureau (CFPB) about debt collection, credit reporting and credit repair, and debt or credit management, counted by state, month, product and issue from January 2018, with the last 12 months set against the 12 before and per 100,000 residents. One record per state, DC, Puerto Rico and territory for each of the three product groups, with the share of complaints the company answered on time and the issue people raised most. The counts come from the CFPB's own Consumer Complaint Database search API, as aggregates, so no complaint, narrative, company name or ZIP code is ever copied; for every month the issue counts add up to the bureau's own count for each product group. The bureau changed its credit-reporting product name twice; every name is combined into one group. Complaints are consumers' own reports, not findings of any violation.",
+      "path": "data/consumer-complaints/consumer-complaints.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23733731",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.consumerfinance.gov",
+          "path": "https://www.consumerfinance.gov/data-research/consumer-complaints/"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "debt-collection, credit-reporting (credit reporting and credit repair, all product names the CFPB has used since 2018) or debt-management (debt or credit management)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Complaints received in the last 12 complete months"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "per100k",
+            "type": "number",
+            "description": "Complaints per 100,000 residents (Census Vintage 2025 estimate for July 1, 2025); empty for territories the Census file does not cover"
+          },
+          {
+            "name": "population",
+            "type": "integer"
+          },
+          {
+            "name": "previous12",
+            "type": "integer",
+            "description": "Complaints received in the 12 months before that"
+          },
+          {
+            "name": "yoyPct",
+            "type": "number",
+            "description": "Change from the previous 12 months, in percent"
+          },
+          {
+            "name": "timelyPct",
+            "type": "number",
+            "description": "Share of the complaints the company answered within the CFPB's time limit, in percent"
+          },
+          {
+            "name": "reliefPct",
+            "type": "number",
+            "description": "Share of the complaints closed with monetary or non-monetary relief, in percent"
+          },
+          {
+            "name": "topIssue",
+            "type": "string",
+            "description": "The issue consumers chose most often in the last 12 months (the CFPB's own wording)"
+          },
+          {
+            "name": "topIssueSharePct",
+            "type": "number",
+            "description": "That issue's share of the complaints, in percent"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "deserts",
+      "profile": "tabular-data-resource",
+      "title": "Legal deserts: law offices and lawyers per resident in every U.S. county",
+      "description": "Which counties have few or no law offices for their residents, under two definitions shown side by side. Offices: private law-office establishments per 10,000 residents (BLS QCEW, latest quarter, 2025 population), flagged when under 1 or when there is none. Lawyers: where a state's own bar or court publishes a county count (California, New York, Mississippi, Illinois), lawyers per 1,000 residents, flagged when under 1, the threshold the American Bar Association used in 2020. Each county also shows the Census count of solo legal-services firms with no employees, and whether it is in a metropolitan area, a smaller city area or neither. State and national rows count the counties. Bar figures are county-by-status totals only; no lawyer is named.",
+      "path": "data/deserts/deserts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23721430",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/cew/additional-resources/open-data/"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/popest.html"
+        },
+        {
+          "title": "apps.calbar.ca.gov",
+          "path": "https://apps.calbar.ca.gov/members/demographics_counties.aspx"
+        },
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/d/eqw2-r5nb"
+        },
+        {
+          "title": "msbar.org",
+          "path": "https://msbar.org/wp-content/uploads/2026/08/MB-Membership-Data-July-2026-.pdf"
+        },
+        {
+          "title": "www.iardc.org",
+          "path": "https://www.iardc.org/Files/AnnualReports/AnnualReport2024.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "County FIPS code (5 digits), state FIPS code (2 digits) or US"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "County, state or nation name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "cbsa_type",
+            "type": "string",
+            "description": "Counties only: metro, micro or rural (outside any core-based area, OMB 2023)"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The quarter of the BLS office count, e.g. 2026-Q1"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Census population estimate for July 1, 2025"
+          },
+          {
+            "name": "law_offices",
+            "type": "integer",
+            "description": "Private law-office establishments (BLS QCEW, NAICS 541110) in the quarter"
+          },
+          {
+            "name": "offices_per_10k",
+            "type": "number",
+            "description": "law_offices per 10,000 residents"
+          },
+          {
+            "name": "solos",
+            "type": "integer",
+            "description": "Census Nonemployer Statistics 2024 legal-services firms with no employees; empty where withheld"
+          },
+          {
+            "name": "solos_per_10k",
+            "type": "number",
+            "description": "solos per 10,000 residents"
+          },
+          {
+            "name": "desert_flag_offices",
+            "type": "boolean",
+            "description": "true when offices_per_10k is under 1 (including none)"
+          },
+          {
+            "name": "no_law_office",
+            "type": "boolean",
+            "description": "true when the county has no private law-office establishment in the BLS count"
+          },
+          {
+            "name": "no_office_no_solo",
+            "type": "boolean",
+            "description": "true when it has no law office and the Census file shows no nonemployer legal-services firm"
+          },
+          {
+            "name": "bar_lawyers",
+            "type": "integer",
+            "description": "Lawyers in the county from the state's own table (CA, NY, MS, IL only); see bar_status_definition"
+          },
+          {
+            "name": "bar_lawyers_per_1k",
+            "type": "number",
+            "description": "bar_lawyers per 1,000 residents"
+          },
+          {
+            "name": "desert_flag_lawyers",
+            "type": "boolean",
+            "description": "true when bar_lawyers_per_1k is under 1 (the ABA 2020 threshold); empty where no state count is published"
+          },
+          {
+            "name": "bar_status_definition",
+            "type": "string",
+            "description": "Which lawyers the state's count includes, and how the state defines the county"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "eeoc-charges",
+      "profile": "tabular-data-resource",
+      "title": "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025",
+      "description": "Charges of workplace discrimination received by the U.S. Equal Employment Opportunity Commission (EEOC), by state, DC, Puerto Rico and territory, fiscal year and basis (race, sex, national origin, religion, color, retaliation, age, disability, equal pay, genetic information and pregnancy under the Pregnant Workers Fairness Act), from the EEOC's Tables E1b and E1a. One record per jurisdiction and basis for the latest fiscal year, each with its count, its share of the state's charges, the rate per 100,000 private-sector workers (BLS Quarterly Census of Employment and Wages, from fiscal year 2014) and the whole FY 2009 to FY 2025 history. Counts the EEOC suppressed are left empty and flagged, never filled in. A charge can name more than one basis, so bases add up to more than the total, and charges filed only with a state or local fair-employment agency are not counted.",
+      "path": "data/eeoc-charges/eeoc-charges.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23733005",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.eeoc.gov",
+          "path": "https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0"
+        },
+        {
+          "title": "data.bls.gov",
+          "path": "https://data.bls.gov/cew/data/api/2025/a/industry/10.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "all, race, sex, national-origin, religion, color, retaliation (all statutes), retaliation-title-vii, age, disability, equal-pay, genetic-information or pregnancy-pwfa"
+          },
+          {
+            "name": "basisLabel",
+            "type": "string",
+            "description": "The basis in plain words"
+          },
+          {
+            "name": "fy",
+            "type": "integer",
+            "description": "The EEOC fiscal year (October 1 to September 30)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Charges received; empty when the EEOC suppressed the cell (flags.suppressed)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "shareOfStateTotal",
+            "type": "number",
+            "description": "Charges for the basis divided by the jurisdiction's total charges that year (a charge can name several bases)"
+          },
+          {
+            "name": "per100kWorkers",
+            "type": "number",
+            "description": "Charges per 100,000 private-sector workers (BLS QCEW annual average employment, the calendar year the fiscal year ends in); empty before fiscal year 2014 and where QCEW has no figure"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "fatal-crashes",
+      "profile": "tabular-data-resource",
+      "title": "Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024",
+      "description": "Fatal motor-vehicle crashes in every US county, state and the nation for 2019 to 2024, from the National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS). One record per county, state and the US: fatal crashes and deaths in the newest year, the crashes that involved a large truck, a motorcycle, a pedestrian or a bicyclist, the pedestrians, bicyclists and motorcyclists killed, alcohol-impaired, speeding and work-zone crashes, rural and urban roads, deaths per 100,000 residents, and every earlier year. Every county-year equals the accident table's own rows, and the counties add up to the state and the state to the nation. 2019 to 2023 are NHTSA's final files; 2024 is its first (annual report) release. The county-by-year table is at /research/fatal-crashes-by-county/data.csv. Counts only.",
+      "path": "data/fatal-crashes/fatal-crashes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23733739",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.nhtsa.gov",
+          "path": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+        },
+        {
+          "title": "static.nhtsa.gov",
+          "path": "https://static.nhtsa.gov/nhtsa/downloads/FARS/2024/National/FARS2024NationalCSV.zip"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "The place: a 5-digit county FIPS code (e.g. 48201), a 2-digit state FIPS code (e.g. 48) or US"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "The county, state or country name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter state code (empty for the US)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The newest FARS year in this record (the other years are under `years` in the JSON and in fatal_crashes_YYYY)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Fatal crashes in that year"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "fatalities",
+            "type": "integer",
+            "description": "People who died within 30 days of the crash, in that year"
+          },
+          {
+            "name": "large_truck_crashes",
+            "type": "integer",
+            "description": "Fatal crashes with at least one truck over 10,000 lb GVWR (FARS body types 60-64, 66, 67, 71, 72, 78)"
+          },
+          {
+            "name": "large_truck_deaths",
+            "type": "integer",
+            "description": "People killed in those crashes (anyone: truck occupants, other drivers, pedestrians)"
+          },
+          {
+            "name": "motorcycle_crashes",
+            "type": "integer",
+            "description": "Fatal crashes with at least one motorcycle, moped, scooter or three-wheeler (body types 80-89)"
+          },
+          {
+            "name": "motorcyclist_deaths",
+            "type": "integer",
+            "description": "Drivers and passengers killed on those vehicles"
+          },
+          {
+            "name": "pedestrian_crashes",
+            "type": "integer",
+            "description": "Fatal crashes with at least one pedestrian"
+          },
+          {
+            "name": "pedestrian_deaths",
+            "type": "integer",
+            "description": "Pedestrians killed"
+          },
+          {
+            "name": "bicyclist_crashes",
+            "type": "integer",
+            "description": "Fatal crashes with at least one bicyclist"
+          },
+          {
+            "name": "bicyclist_deaths",
+            "type": "integer",
+            "description": "Bicyclists killed"
+          },
+          {
+            "name": "alcohol_impaired_crashes",
+            "type": "integer",
+            "description": "Fatal crashes with a driver at 0.08 BAC or more, from NHTSA's 10 multiple-imputation draws (MIDRVACC), rounded"
+          },
+          {
+            "name": "alcohol_impaired_deaths",
+            "type": "integer",
+            "description": "People killed in those crashes, same method, rounded"
+          },
+          {
+            "name": "speeding_crashes",
+            "type": "integer",
+            "description": "Fatal crashes with a vehicle coded speeding-related (SPEEDREL 1 to 5)"
+          },
+          {
+            "name": "work_zone_crashes",
+            "type": "integer",
+            "description": "Fatal crashes in a work zone (WRK_ZONE 1 to 4)"
+          },
+          {
+            "name": "rural_crashes",
+            "type": "integer",
+            "description": "Fatal crashes on a rural road (RUR_URB 1)"
+          },
+          {
+            "name": "urban_crashes",
+            "type": "integer",
+            "description": "Fatal crashes on an urban road (RUR_URB 2); roads of another or unknown setting are in neither column"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Census Bureau population estimate for that county and year (Vintage 2025; Vintage 2019 for 2019); empty where the Bureau has no matching county (Connecticut from 2020)"
+          },
+          {
+            "name": "fatal_crashes_per_100k",
+            "type": "number",
+            "description": "Fatal crashes per 100,000 residents"
+          },
+          {
+            "name": "fatalities_per_100k",
+            "type": "number",
+            "description": "Deaths per 100,000 residents"
+          },
+          {
+            "name": "county_class",
+            "type": "string",
+            "description": "mostly rural if half or more of the county's 2020 residents live in rural areas (Census Bureau), else mostly urban; counties only"
+          },
+          {
+            "name": "pct_rural_2020",
+            "type": "number",
+            "description": "Percent of the county's 2020 residents in rural areas"
+          },
+          {
+            "name": "file_status",
+            "type": "string",
+            "description": "final or annual report file (NHTSA's first release of a year, which can change)"
+          },
+          {
+            "name": "fatal_crashes_2019",
+            "type": "integer",
+            "description": "Fatal crashes in 2019"
+          },
+          {
+            "name": "fatal_crashes_2020",
+            "type": "integer",
+            "description": "Fatal crashes in 2020"
+          },
+          {
+            "name": "fatal_crashes_2021",
+            "type": "integer",
+            "description": "Fatal crashes in 2021"
+          },
+          {
+            "name": "fatal_crashes_2022",
+            "type": "integer",
+            "description": "Fatal crashes in 2022"
+          },
+          {
+            "name": "fatal_crashes_2023",
+            "type": "integer",
+            "description": "Fatal crashes in 2023"
+          },
+          {
+            "name": "fatal_crashes_2024",
+            "type": "integer",
+            "description": "Fatal crashes in 2024"
+          },
+          {
+            "name": "change_pct_since_2019",
+            "type": "number",
+            "description": "Percent change in fatal crashes from 2019 to the newest year (empty when 2019 was zero)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "fees",
+      "profile": "tabular-data-resource",
+      "title": "Attorney fee caps and contingency-fee rules, by state and federal program",
+      "description": "Legal limits on what a lawyer may charge, by program and jurisdiction: workers' compensation in every US state and DC, Social Security (SSDI and SSI), the Federal Tort Claims Act, VA benefits, Longshore, FECA and black lung, plus medical-malpractice and general contingency-fee rules in the states read so far. Each record gives the cap type, percent, dollar cap or sliding-scale tiers, what the percent applies to and who approves the fee, and cites the statute, rule or agency page with an exact quote and the date read (P, D or U; no secondary sources). A lookup, not a fee calculator.",
+      "path": "data/fees/fees.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23656738",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.govinfo.gov",
+          "path": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap7-subchapII-sec406.htm"
+        },
+        {
+          "title": "docs.legis.wisconsin.gov",
+          "path": "https://docs.legis.wisconsin.gov/statutes/statutes/655/i/013"
+        },
+        {
+          "title": "legislature.maine.gov",
+          "path": "https://legislature.maine.gov/statutes/39-A/title39-Asec325.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "program",
+            "type": "string",
+            "description": "workers-comp, med-mal, contingency-general, ssdi-ssi, ftca, va, longshore or other"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "capType",
+            "type": "string",
+            "description": "percent, dollar, lesser-of, sliding-scale, approval-required, reasonableness-only or unknown"
+          },
+          {
+            "name": "percent",
+            "type": "number",
+            "description": "The headline maximum percent, if the rule sets one"
+          },
+          {
+            "name": "percentKind",
+            "type": "string",
+            "description": "ceiling (a hard cap), presumption or fee-award (a limit on an award only); empty when none"
+          },
+          {
+            "name": "dollarCap",
+            "type": "integer",
+            "description": "A dollar ceiling on the fee, if the rule sets one"
+          },
+          {
+            "name": "base",
+            "type": "string",
+            "description": "What the percent applies to, in the rule’s words"
+          },
+          {
+            "name": "approval",
+            "type": "string",
+            "description": "Who approves the fee: agency, judge, none or unknown"
+          },
+          {
+            "name": "citation",
+            "type": "string",
+            "description": "The statute, rule or regulation cited"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "filing",
+      "profile": "tabular-data-resource",
+      "title": "What US state bars charge, and require, to file or review lawyer advertising",
+      "description": "What each US state bar asks of a lawyer who advertises: whether ads or solicitations must be filed or reviewed, when, the standard, late and advisory fees, the portal or method, whether an expedited review exists, and how long copies must be kept, and, where a bar states it, how many ads it reviews in a year. Every recorded field is backed by a short quote from the bar's or court's own rule or page, with the date read; a field we could not read from a primary source is marked unknown.",
+      "path": "data/filing/filing.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.2.0",
+      "id": "https://doi.org/10.5281/zenodo.23721409",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.texasbar.com",
+          "path": "https://www.texasbar.com/Content/NavigationMenu/ForLawyers/AdvertisingReview/ADRULES2023.pdf"
+        },
+        {
+          "title": "www.lsba.org",
+          "path": "https://www.lsba.org/documents/LawyerAdvertising/AdvertisingRulesEffective01012022.pdf"
+        },
+        {
+          "title": "info.jud.ct.gov",
+          "path": "https://info.jud.ct.gov/Publications/PracticeBook/PB.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Filing category: files_ads, files_solicitations_only, voluntary_review_only, no_filing or unknown"
+          },
+          {
+            "name": "category_label",
+            "type": "string",
+            "description": "The category in words"
+          },
+          {
+            "name": "filing_required",
+            "type": "string",
+            "description": "yes, no, solicitations_only, voluntary_only or unknown"
+          },
+          {
+            "name": "timing",
+            "type": "string",
+            "description": "When the filing is due: before_first_use, at_or_before_first_use, after_first_use, not_applicable or unknown"
+          },
+          {
+            "name": "timing_detail",
+            "type": "string",
+            "description": "The rule’s timing in words, including any review period"
+          },
+          {
+            "name": "days_before_first_use_required",
+            "type": "integer",
+            "description": "Fewest days before first use the filing may be made, where the rule states a number (0 = it may be made at first use); empty when no number is stated"
+          },
+          {
+            "name": "days_after_first_use_allowed",
+            "type": "integer",
+            "description": "Most days after first use the filing may be made, where the rule states a number; empty when none"
+          },
+          {
+            "name": "review_response_days",
+            "type": "integer",
+            "description": "Days the bar says it takes to respond to a filing or an advisory request, where it states a number; empty when none"
+          },
+          {
+            "name": "advance_opinion_lead_days",
+            "type": "integer",
+            "description": "Days before first use an optional advisory opinion is requested, where the rule states a number; empty when none"
+          },
+          {
+            "name": "days_detail",
+            "type": "string",
+            "description": "The rule on days from filing to first use, in one sentence; each number cites its source"
+          },
+          {
+            "name": "ad_review_fy",
+            "type": "string",
+            "description": "The most recent year for which the bar itself states how many lawyer ads it reviewed (each bar's own year; empty when none is stated)"
+          },
+          {
+            "name": "ad_review_count",
+            "type": "integer",
+            "description": "How many lawyer ads the bar reviewed in that year, as the bar states it. Not comparable across states: each bar counts something different (ads reviewed, submissions, applications, filings) under a different filing duty. Empty when no count is stated."
+          },
+          {
+            "name": "ad_review_resubmissions",
+            "type": "string",
+            "description": "Revised ads reviewed again that year, where the bar states a number; empty when none"
+          },
+          {
+            "name": "ad_review_basis",
+            "type": "string",
+            "description": "exact, approximate (the bar says about or nearly) or lower_bound (more than, or a plus sign)"
+          },
+          {
+            "name": "ad_review_series",
+            "type": "string",
+            "description": "Every year the bar states a count for, in one line (the JSON file also carries each year's source and quote)"
+          },
+          {
+            "name": "fee_standard_usd",
+            "type": "integer",
+            "description": "Standard filing fee per advertisement in US dollars (0 when there is none); empty when unknown"
+          },
+          {
+            "name": "late_fee_usd",
+            "type": "integer",
+            "description": "Late filing fee in US dollars; empty when none or unknown"
+          },
+          {
+            "name": "advisory_fee_usd",
+            "type": "integer",
+            "description": "Fee for an optional advance advisory opinion in US dollars; empty when none or unknown"
+          },
+          {
+            "name": "expedited_available",
+            "type": "string",
+            "description": "Whether an expedited review exists (yes, no, not_applicable or unknown)"
+          },
+          {
+            "name": "fee_effective_date",
+            "type": "string",
+            "description": "The day the fee took effect (YYYY-MM-DD), if stated"
+          },
+          {
+            "name": "portal_url",
+            "type": "string",
+            "description": "The bar’s filing portal or page"
+          },
+          {
+            "name": "retention_years",
+            "type": "integer",
+            "description": "Years a lawyer must keep copies of ads or solicitations (0 = no rule)"
+          },
+          {
+            "name": "rule_cite",
+            "type": "string",
+            "description": "The rule or statute cited"
+          },
+          {
+            "name": "coverage",
+            "type": "string",
+            "description": "verified, verified_with_gaps or unknown: how much of the row was read from a primary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "language",
+      "profile": "tabular-data-resource",
+      "title": "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro",
+      "description": "How many people who speak Spanish at home, and how many who speak English less than very well, there are for each lawyer who speaks Spanish at home: for the US, every state and DC, and every metro area. Computed from the Census Bureau's American Community Survey (2020 to 2024 five-year tables and microdata), each figure with its 90% margin of error and a reliability flag; estimates too unreliable to publish are withheld. Aggregates only: no lawyer or firm is listed or ranked.",
+      "path": "data/language/language.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23656758",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "api.census.gov",
+          "path": "https://api.census.gov/data/2024/acs/acs5/pums/variables.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, a two-letter state code or a metro CBSA code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us, state or cbsa"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "What the estimate measures"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "estimate",
+            "type": "number",
+            "description": "The survey estimate"
+          },
+          {
+            "name": "moe90",
+            "type": "number",
+            "description": "90% margin of error"
+          },
+          {
+            "name": "cv",
+            "type": "number",
+            "description": "Coefficient of variation"
+          },
+          {
+            "name": "reliability",
+            "type": "string",
+            "description": "reliable (CV under 15%), caution (15-30%) or suppressed"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "approximate",
+            "type": "boolean",
+            "description": "true when a metro figure is built from survey areas that do not line up exactly with the metro’s borders"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "vintage",
+            "type": "string",
+            "description": "The survey years the estimate covers"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "law-offices",
+      "profile": "tabular-data-resource",
+      "title": "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics",
+      "description": "Private offices of lawyers (NAICS 541110) in every U.S. county, every state and the nation. For each area: establishments, March employment and average weekly pay from the Bureau of Labor Statistics' Quarterly Census of Employment and Wages (the latest quarter, with the seven before it); employer offices from the Census Bureau's County Business Patterns 2023 exactly as first published; firms with no employees in legal services from Nonemployer Statistics 2024; and the 2025 Census population estimate, so each area has offices and solo firms per 10,000 residents. Where BLS suppresses a county's employment or pay the value is empty and flagged, never filled in. An office is an establishment, not a lawyer.",
+      "path": "data/law-offices/law-offices.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23721415",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/cew/additional-resources/open-data/"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/cbp.html"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/nonemployer-statistics.html"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/popest.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "County FIPS code (5 digits), state FIPS code (2 digits) or US"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "County, state or nation name; counties end with the state abbreviation"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "cbsa_type",
+            "type": "string",
+            "description": "Counties only: metro, micro (OMB 2023 core-based areas) or rural (outside any)"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The quarter of the BLS figures, e.g. 2026-Q1"
+          },
+          {
+            "name": "qcew_estabs",
+            "type": "integer",
+            "description": "BLS QCEW private establishments in NAICS 541110 (offices of lawyers) in the quarter"
+          },
+          {
+            "name": "qcew_employment",
+            "type": "integer",
+            "description": "BLS QCEW employment in the quarter's third month; empty where BLS suppresses it (qcew_disclosure N)"
+          },
+          {
+            "name": "qcew_avg_weekly_wage",
+            "type": "integer",
+            "description": "BLS QCEW average weekly wage in dollars; empty where suppressed"
+          },
+          {
+            "name": "qcew_disclosure",
+            "type": "string",
+            "description": "N = BLS suppresses employment and pay to protect confidentiality; none = no establishment reported; empty = published"
+          },
+          {
+            "name": "qcew_estabs_yoy_pct",
+            "type": "number",
+            "description": "Percent change in establishments from the same quarter a year earlier, as BLS prints it"
+          },
+          {
+            "name": "cbp_offices",
+            "type": "integer",
+            "description": "Census County Business Patterns 2023 employer offices of lawyers, exactly as first published"
+          },
+          {
+            "name": "cbp_employees",
+            "type": "integer",
+            "description": "CBP 2023 employment (the Census adds noise to protect confidentiality)"
+          },
+          {
+            "name": "cbp_employees_noise",
+            "type": "string",
+            "description": "G = changed by under 2 percent, H = 2 to under 5 percent, J = 5 percent or more"
+          },
+          {
+            "name": "cbp_payroll_thousands",
+            "type": "integer",
+            "description": "CBP 2023 annual payroll in thousands of dollars (noise-infused)"
+          },
+          {
+            "name": "nes_firms",
+            "type": "integer",
+            "description": "Census Nonemployer Statistics 2024 firms with no employees in legal services (NAICS 5411, the finest county level published); empty where withheld"
+          },
+          {
+            "name": "nes_receipts_thousands",
+            "type": "integer",
+            "description": "Nonemployer receipts in thousands of dollars (noise-infused)"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Census population estimate for July 1, 2025"
+          },
+          {
+            "name": "estabs_per_10k",
+            "type": "number",
+            "description": "qcew_estabs per 10,000 residents"
+          },
+          {
+            "name": "solos_per_10k",
+            "type": "number",
+            "description": "nes_firms per 10,000 residents"
+          },
+          {
+            "name": "employees_per_10k",
+            "type": "number",
+            "description": "qcew_employment per 10,000 residents"
+          },
+          {
+            "name": "solos_per_office",
+            "type": "number",
+            "description": "nes_firms divided by qcew_estabs; empty when there are no establishments"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "lawyer-wages",
+      "profile": "tabular-data-resource",
+      "title": "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)",
+      "description": "How many lawyers, paralegals and legal assistants work in the US, in each state and DC, and in the larger metro areas, and what they are paid: the mean annual wage, the median and the 10th, 25th, 75th and 90th percentile wages, from the Bureau of Labor Statistics' Occupational Employment and Wage Statistics (OEWS) survey, May 2025. Every figure carries its BLS series id; figures BLS does not release are marked suppressed and never filled in. OEWS counts employees only: it leaves out owners, partners and the self-employed, so it is not what a firm's owners earn.",
+      "path": "data/lawyer-wages/lawyer-wages.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23734840",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/oes/"
+        },
+        {
+          "title": "api.bls.gov",
+          "path": "https://api.bls.gov/publicAPI/v1/timeseries/data/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, a two-letter state code (DC included) or the 5-digit metro (CBSA) code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us, state or metro"
+          },
+          {
+            "name": "soc",
+            "type": "string",
+            "description": "Standard Occupational Classification code"
+          },
+          {
+            "name": "occupation",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The OEWS reference year (May)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P published by BLS; U suppressed (BLS did not release the estimate)"
+          },
+          {
+            "name": "employment",
+            "type": "integer",
+            "description": "Employees in the occupation (BLS rounds these)"
+          },
+          {
+            "name": "meanAnnual",
+            "type": "integer",
+            "description": "Mean annual wage in US dollars; empty when suppressed"
+          },
+          {
+            "name": "p10",
+            "type": "integer",
+            "description": "10th percentile annual wage"
+          },
+          {
+            "name": "p25",
+            "type": "integer",
+            "description": "25th percentile annual wage"
+          },
+          {
+            "name": "medianAnnual",
+            "type": "integer",
+            "description": "Median annual wage in US dollars; empty when suppressed"
+          },
+          {
+            "name": "p75",
+            "type": "integer",
+            "description": "75th percentile annual wage"
+          },
+          {
+            "name": "p90",
+            "type": "integer",
+            "description": "90th percentile annual wage"
+          },
+          {
+            "name": "locationQuotient",
+            "type": "number",
+            "description": "Share of the area's jobs in the occupation relative to the US (1.0 = the US share); not published for the US"
+          },
+          {
+            "name": "employmentRsePct",
+            "type": "number",
+            "description": "BLS relative standard error of the employment estimate, percent"
+          },
+          {
+            "name": "wageRsePct",
+            "type": "number",
+            "description": "BLS relative standard error of the mean wage estimate, percent"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "legal-prices",
+      "profile": "tabular-data-resource",
+      "title": "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)",
+      "description": "Month by month since 2017, what consumers pay for legal services (Consumer Price Index), what law offices receive for their work (Producer Price Index for offices of lawyers, overall and by type of work where BLS publishes it), and how many people work in legal services (Current Employment Statistics), each next to the all-items or services index where that helps. Every value is read from the Bureau of Labor Statistics' own database with its series id, base period, and a preliminary flag while BLS may still revise it. The consumer index measures a basket item, not a law firm's billing rate. Counts and index values only.",
+      "path": "data/legal-prices/legal-prices.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23734854",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/cpi/"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/ppi/"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/ces/"
+        },
+        {
+          "title": "api.bls.gov",
+          "path": "https://api.bls.gov/publicAPI/v1/timeseries/data/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "series",
+            "type": "string",
+            "description": "BLS series id (for example CUUR0000SEGC01)"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "What the series measures"
+          },
+          {
+            "name": "program",
+            "type": "string",
+            "description": "cpi (consumer prices), ppi (producer prices) or ces (employment)"
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "The reference month, YYYY-MM"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The published index value, or jobs in thousands, dollars or hours (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "baseNote",
+            "type": "string",
+            "description": "The index base period as BLS publishes it"
+          },
+          {
+            "name": "seasonal",
+            "type": "string",
+            "description": "SA seasonally adjusted, NSA not adjusted"
+          },
+          {
+            "name": "preliminary",
+            "type": "boolean",
+            "description": "true while BLS may still revise the value"
+          },
+          {
+            "name": "yoyPct",
+            "type": "number",
+            "description": "Change from the same month a year earlier, percent, one decimal"
+          },
+          {
+            "name": "momPct",
+            "type": "number",
+            "description": "Change from the previous month, percent, one decimal"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "limitations",
+      "profile": "tabular-data-resource",
+      "title": "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage",
+      "description": "The filing deadline the statute sets for five kinds of civil claims in every US state and DC: personal injury, medical malpractice, wrongful death, product liability and property damage. Each record gives the period in the statute's own words, the citation, a link to the state's official code site, a verbatim quote, and the date read; where the same text says so, it adds whether the period runs from discovery and any outer limit (statute of repose). Cells we could not read in the official text are marked U and left blank. No calculator and no deadline arithmetic: tolling and exceptions apply.",
+      "path": "data/limitations/limitations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23721436",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "leginfo.legislature.ca.gov",
+          "path": "https://leginfo.legislature.ca.gov/"
+        },
+        {
+          "title": "statutes.capitol.texas.gov",
+          "path": "https://statutes.capitol.texas.gov/"
+        },
+        {
+          "title": "www.leg.state.fl.us",
+          "path": "https://www.leg.state.fl.us/statutes/"
+        },
+        {
+          "title": "www.nysenate.gov",
+          "path": "https://www.nysenate.gov/legislation/laws/CONSOLIDATED"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "claimType",
+            "type": "string",
+            "description": "pi (personal injury), medmal (medical malpractice), wd (wrongful death), product (product liability) or property (property damage)"
+          },
+          {
+            "name": "claimTypeName",
+            "type": "string",
+            "description": "The claim type in words"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "years",
+            "type": "number",
+            "description": "The period in years as the statute states it (fractions for periods stated in months); blank when U"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The period in the statute's own terms, e.g. 2 years or 2 years and 6 months"
+          },
+          {
+            "name": "statuteCite",
+            "type": "string",
+            "description": "The statute section the period comes from"
+          },
+          {
+            "name": "officialUrl",
+            "type": "string",
+            "description": "The page on the state's official code site the quote was read from"
+          },
+          {
+            "name": "discoveryRule",
+            "type": "string",
+            "description": "Y when the quoted text runs the period from discovery, N when it expressly runs from the act, U when the text read does not say"
+          },
+          {
+            "name": "reposeYears",
+            "type": "integer",
+            "description": "An outer time limit (statute of repose) stated in the text read, in years; blank when none was read"
+          },
+          {
+            "name": "governmentNoticeDays",
+            "type": "string",
+            "description": "Notice-of-claim deadlines for claims against a government body are not covered in version 1.0 (always blank, U)"
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "specific when the statute names the claim type; general when the period is the state's general or residual period and the statute's words do not name the claim type"
+          },
+          {
+            "name": "readBy",
+            "type": "string",
+            "description": "script when the page was fetched and the quote string-matched by machine; browser when the official site refuses scripts and the page was read in a browser"
+          },
+          {
+            "name": "uReason",
+            "type": "string",
+            "description": "For a U cell: vendor (the official code is published only on a commercial publisher's site), none-specific (no statute specific to this claim type was found), or unconfirmed"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "A verbatim quote from the official statute text"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "mdl",
+      "profile": "tabular-data-resource",
+      "title": "Mass-tort docket tracker, federal MDL pending actions by month since 2019",
+      "description": "Pending actions in every federal multidistrict litigation (MDL), from the Judicial Panel on Multidistrict Litigation's monthly 'Pending MDL Dockets by Actions Pending' reports. One record per docket: the court's docket title, the transferee district, the docket type, actions now pending, actions ever filed, the change over 12 months, the peak pending count, and the docket's monthly pending count since 2019. Version 1.1 adds the 14 MDLs the court closed between 2026-01-01 and 2026-10-01 (dateClosed set, the peak and last count from the monthly series) and the court's reports by district and by docket type, with monthly groupings of the series. Every report's rows add up exactly to the court's own totals row. The full monthly series, judge included, is at /data/v1/mdl/history/index.json (one CSV per year); the district, type and closed-MDL files are at /data/v1/mdl/reports/index.json. Counts and dates only.",
+      "path": "data/mdl/mdl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23720737",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.jpml.uscourts.gov",
+          "path": "https://www.jpml.uscourts.gov/sites/jpml/files/Pending_MDL_Dockets_By_Actions_Pending-October-1-2026.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "mdl",
+            "type": "string",
+            "description": "The MDL docket number, e.g. MDL-2738"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "The docket title as the court prints it"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "The transferee district (two-letter state code of the district court)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "totalActions",
+            "type": "integer",
+            "description": "Every action ever part of the MDL"
+          },
+          {
+            "name": "change365d",
+            "type": "integer",
+            "description": "Change in pending actions against the report about a year earlier"
+          },
+          {
+            "name": "compareDate365d",
+            "type": "string",
+            "description": "The date of that earlier report (YYYY-MM-DD)"
+          },
+          {
+            "name": "docketType",
+            "type": "string",
+            "description": "The court's docket type (for example Products Liability, Antitrust); blank for MDLs not in the 2026-10-01 Docket Type Summary"
+          },
+          {
+            "name": "dateClosed",
+            "type": "string",
+            "description": "The date the court closed the MDL (YYYY-MM-DD); blank while the MDL is pending"
+          },
+          {
+            "name": "peakPending",
+            "type": "integer",
+            "description": "The highest pending count in the monthly reports since February 2019 (value, for a closed MDL)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "opinions",
+      "profile": "tabular-data-resource",
+      "title": "Legal-marketing ethics opinions, 2004–2026",
+      "description": "An index of US state and ABA ethics opinions, committee guidelines and court rulings on lawyer advertising and marketing, from 2004 to 2026 (most from 2015 on, plus earlier landmarks): lead generators, pay-per-lead, reviews, testimonials, trade names, websites, social media, chatbots and AI tools, competitor keywords and more. Version 1.1 adds an AI sub-index: 14 AI opinions coded on six marketing questions (chatbot disclosure, AI-made ads, intake and solicitation, superiority claims, confidentiality in marketing tools, and fees). Each record gives the issuing body, number, date, topics, a one-sentence holding in our words, a practical step, whether it is still in force, the official link, an exact short quote and the date read. It is not the opinions' full text.",
+      "path": "data/opinions/opinions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23734859",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "nysba.org",
+          "path": "https://nysba.org/"
+        },
+        {
+          "title": "www.njcourts.gov",
+          "path": "https://www.njcourts.gov/"
+        },
+        {
+          "title": "www.osbar.org",
+          "path": "https://www.osbar.org/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "description": "The body that issued the opinion"
+          },
+          {
+            "name": "number",
+            "type": "string",
+            "description": "The opinion number, if it has one"
+          },
+          {
+            "name": "issued",
+            "type": "string",
+            "description": "The date issued (YYYY-MM-DD, or the year or month when only that is known)"
+          },
+          {
+            "name": "opinionType",
+            "type": "string",
+            "description": "formal, advisory, informal, committee-guideline or court"
+          },
+          {
+            "name": "bindingWeight",
+            "type": "string",
+            "description": "How much weight it carries: advisory-committee, committee-guideline or court"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "The opinion’s title"
+          },
+          {
+            "name": "topics",
+            "type": "string",
+            "description": "Topic keys, separated by \"; \""
+          },
+          {
+            "name": "rules",
+            "type": "string",
+            "description": "The professional conduct rules it applies, separated by \"; \""
+          },
+          {
+            "name": "opinionStatus",
+            "type": "string",
+            "description": "in-force, modified, withdrawn or unknown"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "whatToDo",
+            "type": "string",
+            "description": "What a law firm should do about it, in one sentence"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The official link"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "A short exact quote from the source (25 words or fewer)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "ai_chatbot_disclosure",
+            "type": "string",
+            "description": "AI opinions only: must a chatbot or AI agent say it is not a lawyer or is an AI? yes, brief, no, excluded, or blank"
+          },
+          {
+            "name": "ai_generated_ads",
+            "type": "string",
+            "description": "AI opinions only: do the advertising rules reach AI-made ad content (copy, images, voice)? yes, brief, no, excluded, or blank"
+          },
+          {
+            "name": "ai_intake_solicitation",
+            "type": "string",
+            "description": "AI opinions only: does AI intake or outreach raise solicitation limits (Rule 7.3)? yes, brief, no, excluded, or blank"
+          },
+          {
+            "name": "ai_superiority_claims",
+            "type": "string",
+            "description": "AI opinions only: can a firm claim its AI or results are better (Rule 7.1)? yes, brief, no, excluded, or blank"
+          },
+          {
+            "name": "confidentiality_in_marketing_tools",
+            "type": "string",
+            "description": "AI opinions only: does it address prospects’ confidentiality in chatbots and marketing tools? yes, brief, no, excluded, or blank"
+          },
+          {
+            "name": "fees_for_ai",
+            "type": "string",
+            "description": "AI opinions only: does it say how AI affects fees and charges? yes, brief, no, excluded, or blank"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "platforms",
+      "profile": "tabular-data-resource",
+      "title": "Legal ad-platform policy tracker",
+      "description": "The ad-platform policies that affect US law-firm advertising on Google Ads, Google Local Services, YouTube, Microsoft Ads, Meta, LinkedIn and ChatGPT ads: what each rule says in plain English, what a firm should do about it, which practice areas it touches, when it took effect, and a dated log of changes. Each record quotes the platform's own policy or help page and gives the date it was read.",
+      "path": "data/platforms/platforms.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.23716831",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "support.google.com",
+          "path": "https://support.google.com/adspolicy/answer/10249050?hl=en"
+        },
+        {
+          "title": "help.ads.microsoft.com",
+          "path": "https://help.ads.microsoft.com/"
+        },
+        {
+          "title": "openai.com",
+          "path": "https://openai.com/policies/ad-policies/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "platform",
+            "type": "string",
+            "description": "Ad platform key"
+          },
+          {
+            "name": "policyName",
+            "type": "string",
+            "description": "The policy’s name"
+          },
+          {
+            "name": "policyArea",
+            "type": "string",
+            "description": "eligibility, restricted-category, creative, targeting, measurement and the other policy areas"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "ruleState",
+            "type": "string",
+            "description": "in-force or testing"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "whatToDo",
+            "type": "string",
+            "description": "What a law firm should do about it, in one sentence"
+          },
+          {
+            "name": "appliesTo",
+            "type": "string",
+            "description": "The practice areas or uses it applies to, separated by \"; \" (all = every one)"
+          },
+          {
+            "name": "effectiveDate",
+            "type": "string",
+            "description": "The day the rule took effect (YYYY-MM-DD, or the month), if the platform states it"
+          },
+          {
+            "name": "lastChanged",
+            "type": "string",
+            "description": "The day the platform last changed the rule, if known"
+          },
+          {
+            "name": "regions",
+            "type": "string",
+            "description": "Where it applies, separated by \"; \""
+          },
+          {
+            "name": "sourceUrl",
+            "type": "string",
+            "description": "The platform’s policy page"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "A short exact quote from the source (25 words or fewer)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "referral",
+      "profile": "tabular-data-resource",
+      "title": "Referral-fee and fee-splitting rules for lawyers, by state",
+      "description": "When lawyers in different firms may split a fee, and what a lawyer may pay for a referral, in every US state and DC. Each record gives the state's fee-division rule (ABA Model Rule 1.5(e) or its equivalent: the proportion or joint-responsibility test, how the client must agree, whether each share is disclosed, any cap) and its rule on paying for recommendations (Model Rule 7.2(b) or its equivalent: referral-service charges, reciprocal referral agreements, nominal gifts), each quoted from the official rules text with the date read. Cells we could not read at an official source are blank and marked U.",
+      "path": "data/referral/referral.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23720026",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www-media.floridabar.org",
+          "path": "https://www-media.floridabar.org/uploads/2026/10/2027_04-OCT-Chapter-4-RRTFB-1.pdf"
+        },
+        {
+          "title": "www.calbar.ca.gov",
+          "path": "https://www.calbar.ca.gov/Portals/0/documents/rules/Rules-of-Professional-Conduct.pdf"
+        },
+        {
+          "title": "www.wicourts.gov",
+          "path": "https://www.wicourts.gov/sc/rules/chap20a.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "feeRule",
+            "type": "string"
+          },
+          {
+            "name": "feeStatus",
+            "type": "string"
+          },
+          {
+            "name": "basis",
+            "type": "string"
+          },
+          {
+            "name": "consent",
+            "type": "string"
+          },
+          {
+            "name": "shareDisclosed",
+            "type": "boolean"
+          },
+          {
+            "name": "cap",
+            "type": "string"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "consentText",
+            "type": "string"
+          },
+          {
+            "name": "feeConditions",
+            "type": "string"
+          },
+          {
+            "name": "payRule",
+            "type": "string"
+          },
+          {
+            "name": "payStatus",
+            "type": "string"
+          },
+          {
+            "name": "reciprocalReferrals",
+            "type": "boolean"
+          },
+          {
+            "name": "nominalGifts",
+            "type": "boolean"
+          },
+          {
+            "name": "referralServices",
+            "type": "string"
+          },
+          {
+            "name": "payDifferences",
+            "type": "string"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "robocall-complaints",
+      "profile": "tabular-data-resource",
+      "title": "Unwanted-call and text-message complaints to the FCC, by state and month",
+      "description": "Complaints about unwanted calls, robocalls and telemarketing that people filed with the Federal Communications Commission (FCC), counted by state, month, issue and method (text message, prerecorded voice, live voice and others) from January 2015, with the last 12 months set against the 12 before and per 100,000 residents. One record per state, DC, Puerto Rico and territory for text-message complaints and one for phone-call complaints. The counts come from the FCC's open Consumer Complaints Data, grouped on the FCC's server so no complaint, caller number or free text is ever copied, and the state rows add up to a separate FCC-side count for every month. Complaints are self-reported and unverified, not findings of any violation.",
+      "path": "data/robocall-complaints/robocall-complaints.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23733010",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "opendata.fcc.gov",
+          "path": "https://opendata.fcc.gov/Consumer/CGB-Consumer-Complaints-Data/3xyp-aqkj"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>"
+          },
+          {
+            "name": "jurisdictionName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "text (text-message complaints) or call (phone-call complaints, including those with no method given)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Complaints in the last 12 complete months"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "per100k",
+            "type": "number",
+            "description": "Complaints per 100,000 residents (Census Vintage 2025 estimate for July 1, 2025); empty for territories the Census file does not cover"
+          },
+          {
+            "name": "population",
+            "type": "integer"
+          },
+          {
+            "name": "previous12",
+            "type": "integer",
+            "description": "Complaints in the 12 months before that"
+          },
+          {
+            "name": "yoyPct",
+            "type": "number",
+            "description": "Change from the previous 12 months, in percent"
+          },
+          {
+            "name": "referenceYear2024",
+            "type": "integer",
+            "description": "Complaints in calendar year 2024, a full year with no gap in the file"
+          },
+          {
+            "name": "referenceYear2024Per100k",
+            "type": "number",
+            "description": "The same per 100,000 residents (2024 estimate)"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "state-courts",
+      "profile": "tabular-data-resource",
+      "title": "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25",
+      "description": "How many cases are added to Texas trial-court dockets, by county, court level and case group, from the Office of Court Administration's annual statistical reports: district courts (civil, family, juvenile, criminal), constitutional county courts (civil, criminal, juvenile) and statutory county courts (civil, family, juvenile, felony, misdemeanor), for Texas fiscal years 2024 and 2025 (September 1 to August 31). The state rows also give district-court filings by case type: motor-vehicle injury, medical malpractice, other injury or damage, product liability, contract, real property, family and criminal types. Each record gives the cases added, the year before, the cases disposed and the cases pending at year end, and a rate per 100,000 residents for county rows. In every table the counties add up exactly to the report's own statewide row, and the district-court rows reconcile to the separate Activity Detail workbook. Counts only: no lawyer or firm is listed or ranked. The schema carries a state code so other states' machine-readable caseloads can be added under the same keys; case types are compared only within a state.",
+      "path": "data/state-courts/state-courts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23723926",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.txcourts.gov",
+          "path": "https://www.txcourts.gov/statistics/annual-statistical-reports/2025/"
+        },
+        {
+          "title": "www.txcourts.gov",
+          "path": "https://www.txcourts.gov/statistics/annual-statistical-reports/2024/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter state code (TX for now)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "TX for the whole state, or TX-COUNTYNAME for a county (uppercase, hyphens for spaces)"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us, state or cbsa"
+          },
+          {
+            "name": "courtLevel",
+            "type": "string",
+            "description": "district, constitutional-county or statutory-county: the court level the count is for"
+          },
+          {
+            "name": "courtLevelName",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "The state's case group: civil, family, juvenile, criminal, felony or misdemeanor"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "Court level, group and what is counted: added (cases and motions put on the docket) or filed-<case type> (district-court filings by case type, statewide)"
+          },
+          {
+            "name": "measureLabel",
+            "type": "string"
+          },
+          {
+            "name": "caseType",
+            "type": "string",
+            "description": "The state's case type, as its report names it; empty for a whole group"
+          },
+          {
+            "name": "fy",
+            "type": "string",
+            "description": "The state fiscal year (Texas: September 1 to August 31), e.g. 2024-25"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Cases added to the docket (or filed, for a case type) in the fiscal year"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "priorFy",
+            "type": "string"
+          },
+          {
+            "name": "priorValue",
+            "type": "integer",
+            "description": "The same count for the year before"
+          },
+          {
+            "name": "change",
+            "type": "integer"
+          },
+          {
+            "name": "changePct",
+            "type": "number"
+          },
+          {
+            "name": "disposed",
+            "type": "integer",
+            "description": "Cases disposed of in the year"
+          },
+          {
+            "name": "pendingStart",
+            "type": "integer",
+            "description": "Active cases pending at the start of the year (county rows)"
+          },
+          {
+            "name": "pendingEnd",
+            "type": "integer",
+            "description": "Active cases pending at the end of the year"
+          },
+          {
+            "name": "reactivated",
+            "type": "integer",
+            "description": "Cases reactivated during the year (county rows)"
+          },
+          {
+            "name": "inactive",
+            "type": "integer",
+            "description": "Cases placed on inactive status during the year (county rows)"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "The county's population estimate printed in the report (2024), or the sum of counties for TX"
+          },
+          {
+            "name": "per100k",
+            "type": "number",
+            "description": "Cases added per 100,000 residents (county and state rows, not case types)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "probative": {
+      "type": "http",
+      "url": "https://probativegrowth.com/mcp"
+    }
+  }
+}

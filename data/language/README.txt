@@ -26,8 +26,8 @@ Columns:
   cv: Coefficient of variation
   reliability: reliable (CV under 15%), caution (15-30%) or suppressed
   unit: Unit of value
-  approximate: 
+  approximate: true when a metro figure is built from survey areas that do not line up exactly with the metro’s borders
   text: The record in one plain-English sentence
-  vintage: 
+  vintage: The survey years the estimate covers
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
   note: Caveats

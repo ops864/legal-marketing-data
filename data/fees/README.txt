@@ -17,15 +17,15 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   jurisdictionName: Jurisdiction name
-  program: 
+  program: workers-comp, med-mal, contingency-general, ssdi-ssi, ftca, va, longshore or other
   status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
-  capType: 
-  percent: 
-  percentKind: 
-  dollarCap: 
-  base: 
-  approval: 
-  citation: 
+  capType: percent, dollar, lesser-of, sliding-scale, approval-required, reasonableness-only or unknown
+  percent: The headline maximum percent, if the rule sets one
+  percentKind: ceiling (a hard cap), presumption or fee-award (a limit on an award only); empty when none
+  dollarCap: A dollar ceiling on the fee, if the rule sets one
+  base: What the percent applies to, in the rule’s words
+  approval: Who approves the fee: agency, judge, none or unknown
+  citation: The statute, rule or regulation cited
   text: The record in one plain-English sentence
   effectiveFrom: When the fact took effect (YYYY-MM-DD), if known
   effectiveTo: When it stopped applying; empty while current
