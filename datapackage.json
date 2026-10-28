@@ -39,13 +39,13 @@
       "name": "rules",
       "profile": "tabular-data-resource",
       "title": "Lawyer advertising rules by state (50 states and DC)",
-      "description": "The lawyer advertising rules of every US state and DC, in plain English: ad filing, what each ad must include, waiting periods for injury contact, claims and testimonials, referral and lead rules, ads in other languages, call-recording consent, texting law and privacy law. Each cell cites its source and says how it was checked (P, S, D or U).",
+      "description": "The lawyer advertising rules of every US state and DC, in plain English: ad filing, what each ad must include, waiting periods for injury contact, claims and testimonials, referral and lead rules, ads in other languages, call-recording consent, texting law and privacy law, plus state laws on drug and medical-device ads. Each cell cites its official source with the words quoted, and says how it was checked (P, D or U).",
       "path": "data/rules/rules.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.2.0",
-      "id": "https://doi.org/10.5281/zenodo.23740030",
+      "version": "1.3.0",
+      "id": "https://doi.org/10.5281/zenodo.23744574",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -54,16 +54,16 @@
       ],
       "sources": [
         {
-          "title": "www.americanbar.org",
-          "path": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_2_advertising/comment_on_rule_7_2/"
+          "title": "www.calbar.ca.gov",
+          "path": "https://www.calbar.ca.gov/sites/default/files/portals/0/documents/rules/State_Bar_Act.pdf"
         },
         {
-          "title": "www.law.cornell.edu",
-          "path": "https://www.law.cornell.edu/cfr/text/47/64.1200"
+          "title": "www-media.floridabar.org",
+          "path": "https://www-media.floridabar.org/uploads/2026/10/2027_04-OCT-Chapter-4-RRTFB-1.pdf"
         },
         {
-          "title": "california.public.law",
-          "path": "https://california.public.law/codes/business_and_professions_code_section_6157.2"
+          "title": "www.leg.state.nv.us",
+          "path": "https://www.leg.state.nv.us/CourtRules/RPC.html"
         }
       ],
       "schema": {
@@ -132,6 +132,16 @@
             "name": "sourcesAccessed",
             "type": "string",
             "description": "The day each source was read, in the same order"
+          },
+          {
+            "name": "sourceQuotes",
+            "type": "string",
+            "description": "v1.3: the words quoted from each source, in the same order (P cells quote every source)"
+          },
+          {
+            "name": "reason",
+            "type": "string",
+            "description": "v1.3: why a D or U cell is not read at an official source"
           }
         ],
         "missingValues": [
@@ -1130,16 +1140,371 @@
       }
     },
     {
-      "name": "crosswalks",
+      "name": "criminal-filings",
       "profile": "tabular-data-resource",
-      "title": "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties",
-      "description": "The shared keys that join every Probative dataset. One record per practice area (our taxonomy of consumer and business practice areas, each linked to the FOLIO Area of Law class it matches, the federal nature-of-suit codes of its cases, the site's practice pages and the datasets that measure its demand, supply, rules and money), per federal nature-of-suit code, per state and territory (FIPS and postal codes, Census region and division, federal circuit and districts), per federal judicial district (our district key, the Federal Judicial Center code and the court's CM/ECF id) and per county (FIPS code, the federal district and statutory division it belongs to under 28 U.S.C. chapter 5, its metro or micro area and its 2025 population). Every county's district is read from the statute and checked against the counties U.S. Courts lists under each district in its bankruptcy Table F-5A.",
-      "path": "data/crosswalks/crosswalks.csv",
+      "title": "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)",
+      "description": "Criminal defendants whose cases were opened in the 94 federal district courts, counted from the Statistical Tables for the Federal Judiciary that the Administrative Office of the U.S. Courts publishes for each 12-month period ending June 30 and December 31. Each record gives one district, one state with more than one district, or the whole country, for one period: the defendants commenced (transfers between districts left out), split by offense into nineteen columns and ten offense groups, with drug, immigration (illegal reentry shown on its own), firearms, fraud, sex offenses and traffic picked out, the felony, Class A misdemeanor and petty-offense split from Table D-1, and the same period a year earlier. National records add Table D-2's detail of about a hundred offenses, from bank robbery and health-care fraud to drunk driving on federal land. Every period's districts add up to the national total printed by the Courts, and every district ties to Table D-1.",
+      "path": "data/criminal-filings/criminal-filings.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23741882",
+      "id": "https://doi.org/10.5281/zenodo.23744206",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/data-news/reports/statistical-reports/statistical-tables-federal-judiciary"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state or territory the district sits in, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "district (one federal judicial district), state (the sum of a state's districts; only states with more than one) or us (all 94 districts)"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "Federal district key from the Probative crosswalks (TXS = Southern District of Texas); empty for state and US rows"
+          },
+          {
+            "name": "districtName",
+            "type": "string",
+            "description": "The district's name"
+          },
+          {
+            "name": "circuit",
+            "type": "string",
+            "description": "The court of appeals circuit of the district"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "periodStart",
+            "type": "string",
+            "description": "First day of the 12-month period"
+          },
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "Last day of the 12-month period (June 30 or December 31)"
+          },
+          {
+            "name": "latest",
+            "type": "boolean",
+            "description": "true for the newest period the Courts have published"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Criminal defendants commenced in the period (same as defendants)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "defendants",
+            "type": "integer",
+            "description": "Criminal defendants whose cases were opened in the district in the period, excluding defendants transferred in from another district (Table D-3 Total). One person charged in two cases counts twice."
+          },
+          {
+            "name": "prior_year_defendants",
+            "type": "integer",
+            "description": "The same count for the 12 months ending a year earlier; empty where the Courts did not publish that period (December 2024)"
+          },
+          {
+            "name": "change_pct",
+            "type": "number",
+            "description": "Percent change from prior_year_defendants, one decimal"
+          },
+          {
+            "name": "drug",
+            "type": "integer",
+            "description": "Drug offenses (marijuana and all other drugs)"
+          },
+          {
+            "name": "immigration",
+            "type": "integer",
+            "description": "Immigration offenses (illegal reentry and all other)"
+          },
+          {
+            "name": "firearms_explosives",
+            "type": "integer",
+            "description": "Firearms and explosives offenses"
+          },
+          {
+            "name": "fraud",
+            "type": "integer",
+            "description": "Fraud (tax, securities, health care, wire, mail, identity documents and other federal fraud)"
+          },
+          {
+            "name": "sex_offenses",
+            "type": "integer",
+            "description": "Sex offenses (sexual abuse, sexually explicit material, sex-offender registry and others)"
+          },
+          {
+            "name": "traffic",
+            "type": "integer",
+            "description": "Traffic offenses, including drunk driving, on federal land and roads"
+          },
+          {
+            "name": "other_offenses",
+            "type": "integer",
+            "description": "Everything else: violent offenses, property offenses other than fraud, justice-system, general and regulatory offenses"
+          },
+          {
+            "name": "group_violent",
+            "type": "integer",
+            "description": "The Courts' offense group: violent offenses (homicide, robbery, assault, kidnapping, carjacking and others); the ten groups add up to defendants"
+          },
+          {
+            "name": "group_property",
+            "type": "integer",
+            "description": "The Courts' offense group: property offenses (theft, embezzlement, fraud, forgery and others); the ten groups add up to defendants"
+          },
+          {
+            "name": "group_drug",
+            "type": "integer",
+            "description": "The Courts' offense group: drug offenses; the ten groups add up to defendants"
+          },
+          {
+            "name": "group_firearms_explosives",
+            "type": "integer",
+            "description": "The Courts' offense group: firearms and explosives offenses; the ten groups add up to defendants"
+          },
+          {
+            "name": "group_sex_offenses",
+            "type": "integer",
+            "description": "The Courts' offense group: sex offenses; the ten groups add up to defendants"
+          },
+          {
+            "name": "group_justice_system",
+            "type": "integer",
+            "description": "The Courts' offense group: justice-system offenses (obstruction, escape, failure to appear and others); the ten groups add up to defendants"
+          },
+          {
+            "name": "group_immigration",
+            "type": "integer",
+            "description": "The Courts' offense group: immigration offenses; the ten groups add up to defendants"
+          },
+          {
+            "name": "group_general",
+            "type": "integer",
+            "description": "The Courts' offense group: general offenses (money laundering, bribery, racketeering, extortion and others); the ten groups add up to defendants"
+          },
+          {
+            "name": "group_regulatory",
+            "type": "integer",
+            "description": "The Courts' offense group: regulatory offenses (customs, national defense, game and conservation and others); the ten groups add up to defendants"
+          },
+          {
+            "name": "group_traffic",
+            "type": "integer",
+            "description": "The Courts' offense group: traffic offenses; the ten groups add up to defendants"
+          },
+          {
+            "name": "d3_homicide",
+            "type": "integer",
+            "description": "Table D-3 column 'homicide' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_robbery",
+            "type": "integer",
+            "description": "Table D-3 column 'robbery' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_assault",
+            "type": "integer",
+            "description": "Table D-3 column 'assault' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_other_violent",
+            "type": "integer",
+            "description": "Table D-3 column 'other violent offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_burglary_larceny_theft",
+            "type": "integer",
+            "description": "Table D-3 column 'burglary, larceny, and theft' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_embezzlement",
+            "type": "integer",
+            "description": "Table D-3 column 'embezzlement' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_fraud",
+            "type": "integer",
+            "description": "Table D-3 column 'fraud' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_forgery_counterfeiting",
+            "type": "integer",
+            "description": "Table D-3 column 'forgery and counterfeiting' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_other_property",
+            "type": "integer",
+            "description": "Table D-3 column 'other property offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_marijuana",
+            "type": "integer",
+            "description": "Table D-3 column 'marijuana' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_other_drugs",
+            "type": "integer",
+            "description": "Table D-3 column 'all other drugs' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_firearms_explosives",
+            "type": "integer",
+            "description": "Table D-3 column 'firearms and explosives offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_sex_offenses",
+            "type": "integer",
+            "description": "Table D-3 column 'sex offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_justice_system",
+            "type": "integer",
+            "description": "Table D-3 column 'justice system offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_illegal_reentry",
+            "type": "integer",
+            "description": "Table D-3 column 'improper reentry by alien' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_other_immigration",
+            "type": "integer",
+            "description": "Table D-3 column 'other immigration offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_general",
+            "type": "integer",
+            "description": "Table D-3 column 'general offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_regulatory",
+            "type": "integer",
+            "description": "Table D-3 column 'regulatory offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "d3_traffic",
+            "type": "integer",
+            "description": "Table D-3 column 'traffic offenses' as printed (a dash, meaning none, is 0); the nineteen columns add up to defendants"
+          },
+          {
+            "name": "felony",
+            "type": "integer",
+            "description": "Of original proceedings (Table D-1), defendants charged with a felony"
+          },
+          {
+            "name": "class_a_misdemeanor",
+            "type": "integer",
+            "description": "Of original proceedings (Table D-1), defendants charged with a Class A misdemeanor"
+          },
+          {
+            "name": "petty_offense",
+            "type": "integer",
+            "description": "Of original proceedings (Table D-1), petty-offense defendants assigned to a district judge (most petty offenses go to magistrate judges and are not counted)"
+          },
+          {
+            "name": "reopens",
+            "type": "integer",
+            "description": "Reopened cases (Table D-1); defendants = felony + class_a_misdemeanor + petty_offense + reopens"
+          },
+          {
+            "name": "dui",
+            "type": "integer",
+            "description": "US rows only: defendants charged with drunk driving (Table D-2, part of traffic)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "crosswalks",
+      "profile": "tabular-data-resource",
+      "title": "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties",
+      "description": "The shared keys that join every Probative dataset. One record per practice area (our taxonomy of consumer and business practice areas, each linked to the FOLIO Area of Law class it matches, the federal nature-of-suit codes of its cases, the site's practice pages and the datasets that measure its demand, supply, rules and money), per federal nature-of-suit code, per state and territory (FIPS and postal codes, Census region and division, federal circuit and districts), per federal judicial district (our district key, the Federal Judicial Center code and the court's CM/ECF id), per county and county equivalent in the 50 states, DC and the territories (Puerto Rico's municipios and the county equivalents of Guam, the U.S. Virgin Islands, the Northern Mariana Islands, American Samoa and Midway: FIPS code, the federal district and statutory division it belongs to, its metro or micro area and its Census population), per former county code older sources still use (with the current counties that took its area), and per documented source code that names a place under another key (EEOC's WQ for Wake Island) or is not a place at all (military mail, the freely associated states, the VA's unplaced addresses, U.S. Courts' outside-the-U.S. code). Every county's district is read from the statute and checked against the counties U.S. Courts lists under each district in its bankruptcy Table F-5A.",
+      "path": "data/crosswalks/crosswalks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23744618",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1170,17 +1535,17 @@
           {
             "name": "jurisdiction",
             "type": "string",
-            "description": "Two-letter state or territory code the record belongs to, or US for the national tables (practice areas, case codes, datasets)"
+            "description": "Two-letter state or territory code the record belongs to, or US for the national tables (practice areas, case codes, datasets, special keys)"
           },
           {
             "name": "table",
             "type": "string",
-            "description": "STATE, DISTRICT, COUNTY, FORMER (a county code no longer current that older sources still use), PRACTICE, NOS (federal nature-of-suit code) or DATASET"
+            "description": "STATE, DISTRICT, COUNTY, FORMER (a county code no longer current that older sources still use), ALIAS (another code a source uses for a place that has a key here), SPECIAL (a code a source uses that is not a U.S. place), PRACTICE, NOS (federal nature-of-suit code) or DATASET"
           },
           {
             "name": "code",
             "type": "string",
-            "description": "The record's key in its table: a postal code, a district key (CAC, NYS), a 5-digit county FIPS code, a practice-area id, a 3-digit nature-of-suit code or a dataset id"
+            "description": "The record's key in its table: a postal code, a district key (CAC, NYS), a 5-digit county FIPS code, a source's alias or special code (WQ, OTHER), a practice-area id, a 3-digit nature-of-suit code or a dataset id"
           },
           {
             "name": "name",
@@ -1195,7 +1560,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P read from the primary source; S secondary: a nature-of-suit code no longer on the current U.S. Courts list (kept for older cases), or a Virginia independent city placed by 28 U.S.C. 127(c) using the U.S. Courts county lists; D Probative's own classification (practice areas and dataset links)"
+            "description": "P read from the primary source; S secondary: a nature-of-suit code no longer on the current U.S. Courts list (kept for older cases), a Virginia independent city placed by 28 U.S.C. 127(c) using the U.S. Courts county lists, or a former county code in a multi-district state placed by the district of its successors; D Probative's own classification (practice areas and dataset links)"
           },
           {
             "name": "text",
@@ -1205,7 +1570,7 @@
           {
             "name": "value",
             "type": "integer",
-            "description": "STATE and COUNTY: residents on July 1, 2025 (Census estimate); DISTRICT: residents of its counties; empty for the other tables"
+            "description": "STATE and COUNTY: residents on July 1, 2025 (Census estimate), or on April 1, 2020 (2020 Census) for Guam, the Virgin Islands, the Northern Mariana Islands and American Samoa, which have no annual estimates (the unit says which); empty for Midway, which the Census Bureau does not count; DISTRICT: residents of its counties; empty for the other tables"
           },
           {
             "name": "unit",
@@ -1225,7 +1590,7 @@
           {
             "name": "district",
             "type": "string",
-            "description": "COUNTY: the federal judicial district it belongs to, as a district key (the form the civil-filings, idb-civil and mdl datasets use)"
+            "description": "COUNTY and FORMER: the federal judicial district it belongs to, as a district key (the form the civil-filings, idb-civil and mdl datasets use); empty for American Samoa, which has no federal district court"
           },
           {
             "name": "districtDivision",
@@ -1265,7 +1630,27 @@
           {
             "name": "districts",
             "type": "string",
-            "description": "STATE: the federal judicial districts in it"
+            "description": "STATE: the federal judicial districts in it (the U.S. Minor Outlying Islands: the District of Hawaii, 48 U.S.C. 644a)"
+          },
+          {
+            "name": "territory",
+            "type": "boolean",
+            "description": "STATE: true for Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands, American Samoa and the U.S. Minor Outlying Islands"
+          },
+          {
+            "name": "successors",
+            "type": "string",
+            "description": "FORMER: the current county FIPS codes that took the former county's area (from the Census change pages or, for Connecticut, the Census planning-region crosswalk)"
+          },
+          {
+            "name": "target",
+            "type": "string",
+            "description": "ALIAS: the postal code of the place the alias stands for"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "SPECIAL: what the code is (military mail, freely associated state, court code, unplaced)"
           },
           {
             "name": "idbCode",
@@ -5354,6 +5739,395 @@
       }
     },
     {
+      "name": "va-compensation",
+      "profile": "tabular-data-resource",
+      "title": "VA disability compensation recipients by county and combined rating",
+      "description": "Veterans receiving VA disability compensation in every U.S. county on September 30, 2025 (fiscal year 2025), from the Department of Veterans Affairs county file on data.va.gov: the total and the count in each combined service-connected rating band (0 to 20%, 30 to 40%, 50 to 60%, 70 to 90% and 100%), by age group (17 to 44, 45 to 64, 65 and over) and by sex, with the same county's total and 100% count a year earlier. One record per county (3,144, in the 50 states and DC), per state and DC (the sum of its counties), for Puerto Rico, for the other territories, for veterans paid abroad, for unknown addresses and for the US. Cells VA suppressed to protect privacy are left empty and marked suppressed, never estimated.",
+      "path": "data/va-compensation/va-compensation.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23744210",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.data.va.gov",
+          "path": "https://www.data.va.gov/d/95an-zhhy"
+        },
+        {
+          "title": "www.data.va.gov",
+          "path": "https://www.data.va.gov/d/74ts-jsvb"
+        },
+        {
+          "title": "www.benefits.va.gov",
+          "path": "https://www.benefits.va.gov/REPORTS/abr/docs/2025-compensation.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or Puerto Rico, or US (the US record and the rows for other territories, veterans abroad and unknown addresses)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state (states, DC and Puerto Rico), other-territories, abroad, unknown or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut planning regions); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "VA fiscal year of the count (it ends September 30)"
+          },
+          {
+            "name": "asOf",
+            "type": "string",
+            "description": "The day the count describes: veterans receiving compensation on September 30 of the fiscal year"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as recipients"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "recipients",
+            "type": "integer",
+            "description": "Veterans receiving VA disability compensation; null where VA suppressed the count"
+          },
+          {
+            "name": "rating_0_20",
+            "type": "integer",
+            "description": "Recipients with a combined service-connected rating of 0% to 20%"
+          },
+          {
+            "name": "rating_30_40",
+            "type": "integer",
+            "description": "Combined rating 30% to 40%"
+          },
+          {
+            "name": "rating_50_60",
+            "type": "integer",
+            "description": "Combined rating 50% to 60%"
+          },
+          {
+            "name": "rating_70_90",
+            "type": "integer",
+            "description": "Combined rating 70% to 90%"
+          },
+          {
+            "name": "rating_100",
+            "type": "integer",
+            "description": "Combined rating 100%. VA's Annual Benefits Report counts veterans paid at the 100% rate for individual unemployability at their combined rating, and this file's bands match that report within 1%"
+          },
+          {
+            "name": "rating_suppressed",
+            "type": "integer",
+            "description": "Recipients in rating cells VA suppressed: the total less the published bands (0 when all five are published)"
+          },
+          {
+            "name": "age_17_44",
+            "type": "integer",
+            "description": "Recipients aged 17 to 44"
+          },
+          {
+            "name": "age_45_64",
+            "type": "integer",
+            "description": "Recipients aged 45 to 64"
+          },
+          {
+            "name": "age_65_plus",
+            "type": "integer",
+            "description": "Recipients aged 65 or older"
+          },
+          {
+            "name": "male",
+            "type": "integer",
+            "description": "Male recipients"
+          },
+          {
+            "name": "female",
+            "type": "integer",
+            "description": "Female recipients (age and sex groups can fall short of the total where VA has no birth date or sex on file)"
+          },
+          {
+            "name": "share_rated_70_plus",
+            "type": "number",
+            "description": "Percent of recipients rated 70% or higher (70-90% plus 100%), where both cells are published"
+          },
+          {
+            "name": "share_rated_100",
+            "type": "number",
+            "description": "Percent of recipients rated 100%"
+          },
+          {
+            "name": "recipients_prev",
+            "type": "integer",
+            "description": "Recipients a year earlier (previous fiscal year's county file)"
+          },
+          {
+            "name": "rating_100_prev",
+            "type": "integer",
+            "description": "Recipients rated 100% a year earlier"
+          },
+          {
+            "name": "change_recipients",
+            "type": "integer",
+            "description": "recipients less recipients_prev"
+          },
+          {
+            "name": "change_pct",
+            "type": "number",
+            "description": "change_recipients as a percent of recipients_prev"
+          },
+          {
+            "name": "countiesSuppressed",
+            "type": "integer",
+            "description": "State and US records: counties whose total VA suppressed (their veterans are missing from the sum)"
+          },
+          {
+            "name": "suppressedFields",
+            "type": "string",
+            "description": "Fields VA left blank for this row (suppressed to protect privacy)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "vehicle-complaints",
+      "profile": "tabular-data-resource",
+      "title": "Vehicle safety complaints by state, make and model year (NHTSA complaint file)",
+      "description": "Safety complaints about cars, trucks, SUVs, motorcycles and RVs that owners filed with the National Highway Traffic Safety Administration (NHTSA), counted from its Office of Defects Investigation complaint file for the ten most recent model years, by the complainant's state, the make, the model year and the part of the vehicle named (engine, brakes, air bags, steering and the other NHTSA component groups). Each record gives the complaints, how many report a crash, a fire, an injury or a death, the people reported injured and killed, the complaints filed in the last twelve months, and how many concern a make, model and year that has a safety recall (and a recall of the same system), joined from NHTSA's recall file. State records list every make; make records add the model year by component table and each model's counts; national make records add each model by model year and the number of recall campaigns. A complaint is counted once however many parts it names. Only counts are kept: no narrative, VIN, city, name or complaint number.",
+      "path": "data/vehicle-complaints/vehicle-complaints.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23744214",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "static.nhtsa.gov",
+          "path": "https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip"
+        },
+        {
+          "title": "static.nhtsa.gov",
+          "path": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the complainant's state or territory, or US (national records and complaints with no U.S. state)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state, state-not-given (complaints whose state is blank, military mail or outside the states and territories), make (one make in one state) or us-make (one make nationally)"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "make",
+            "type": "string",
+            "description": "Vehicle make as NHTSA writes it (FORD, HONDA, TESLA ...); empty on state and US totals"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Complaints (same as complaints)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "complaints",
+            "type": "integer",
+            "description": "Vehicle safety complaints about the model years in the window, counted once per ODI number however many components they name"
+          },
+          {
+            "name": "crash",
+            "type": "integer",
+            "description": "Complaints that report a crash"
+          },
+          {
+            "name": "fire",
+            "type": "integer",
+            "description": "Complaints that report a fire"
+          },
+          {
+            "name": "injury",
+            "type": "integer",
+            "description": "Complaints that report at least one person injured"
+          },
+          {
+            "name": "death",
+            "type": "integer",
+            "description": "Complaints that report at least one death"
+          },
+          {
+            "name": "injured",
+            "type": "integer",
+            "description": "People reported injured in those complaints (a value of 99, the field's maximum, is treated as unknown and left out)"
+          },
+          {
+            "name": "died",
+            "type": "integer",
+            "description": "People reported killed in those complaints (99 treated as unknown, as for injured)"
+          },
+          {
+            "name": "recalled",
+            "type": "integer",
+            "description": "Complaints about a make, model and model year that has at least one NHTSA vehicle recall campaign"
+          },
+          {
+            "name": "recalled_component",
+            "type": "integer",
+            "description": "Complaints about a make, model and model year with a recall campaign for one of the component groups the complaint names"
+          },
+          {
+            "name": "last_12m",
+            "type": "integer",
+            "description": "Complaints NHTSA received in the twelve months before the file date"
+          },
+          {
+            "name": "modelYearsFrom",
+            "type": "integer",
+            "description": "First model year in the window"
+          },
+          {
+            "name": "modelYearsTo",
+            "type": "integer",
+            "description": "Last model year in the window (next year's models, on sale from the autumn)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "veterans-representation",
       "profile": "tabular-data-resource",
       "title": "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation",
@@ -5532,6 +6306,275 @@
           {
             "name": "shareOfLegacyPct",
             "type": "number"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "wage-enforcement",
+      "profile": "tabular-data-resource",
+      "title": "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)",
+      "description": "What the U.S. Department of Labor found when it enforced wage and safety laws, counted for every county, state and territory and the US over the last ten complete federal fiscal years. From the Wage and Hour Division (WHD): concluded cases, cases with violations, back wages found owed, employees owed back wages, civil money penalties, Fair Labor Standards Act overtime and minimum wage back wages, and child labor violations. From the Occupational Safety and Health Administration (OSHA), federal and state-plan offices: inspections (and how many followed a complaint, a referral, an accident or a fatality or catastrophe), violations cited (serious, willful, repeat), and penalties. State and US records add one record per law WHD enforces (FLSA, FMLA, Davis-Bacon, the Service Contract Act, H-2A, H-2B, H-1B, MSPA and others) and one per industry sector. Only counts and sums are published: no employer name, address or case number, and back wages are suppressed wherever 1 or 2 employees were owed.",
+      "path": "data/wage-enforcement/wage-enforcement.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23744226",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "dataportal.dol.gov",
+          "path": "https://dataportal.dol.gov/datasets/10362"
+        },
+        {
+          "title": "dataportal.dol.gov",
+          "path": "https://dataportal.dol.gov/datasets/10334"
+        },
+        {
+          "title": "dataportal.dol.gov",
+          "path": "https://dataportal.dol.gov/datasets/10338"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state or territory, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, county-not-given (cases and inspections in the state whose ZIP code places them in no county of it), state, state-not-given (no usable state code), us, act (one law WHD enforces, state or US) or industry (one NAICS sector, state or US)"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut by planning region), placed by ZIP code; empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "act",
+            "type": "string",
+            "description": "Act records: the law's short id (flsa, flsa-overtime, flsa-minimum-wage, flsa-retaliation, child-labor, fmla, davis-bacon, service-contract, contract-work-hours, h-2a, h-2b, h-1b, mspa, garnishment, polygraph, other)"
+          },
+          {
+            "name": "actName",
+            "type": "string",
+            "description": "Act records: the law's name"
+          },
+          {
+            "name": "sector",
+            "type": "string",
+            "description": "Industry records: the NAICS sector code (2 digits, or 31-33, 44-45, 48-49), or unclassified"
+          },
+          {
+            "name": "sectorName",
+            "type": "string",
+            "description": "Industry records: the NAICS sector name"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest complete federal fiscal year in the record (FY N runs October 1 of N-1 to September 30 of N)"
+          },
+          {
+            "name": "fiscalYears",
+            "type": "string",
+            "description": "The ten fiscal years covered"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Back wages WHD found owed over the ten fiscal years, in dollars (null where suppressed)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "whd_cases",
+            "type": "integer",
+            "description": "Latest fiscal year: concluded WHD compliance actions (cases) whose findings ended in that year; for act records, cases with a finding under that law"
+          },
+          {
+            "name": "whd_cases_with_violations",
+            "type": "integer",
+            "description": "Of those, cases where WHD recorded at least one violation"
+          },
+          {
+            "name": "whd_back_wages",
+            "type": "number",
+            "description": "Back wages the employers agreed to pay or were found to owe, in dollars (null where 1 or 2 employees were owed)"
+          },
+          {
+            "name": "whd_employees_owed",
+            "type": "integer",
+            "description": "Employees due back wages (null where 1 or 2)"
+          },
+          {
+            "name": "whd_penalties",
+            "type": "number",
+            "description": "Civil money penalties assessed, in dollars"
+          },
+          {
+            "name": "whd_flsa_overtime_back_wages",
+            "type": "number",
+            "description": "Back wages for Fair Labor Standards Act overtime violations, in dollars"
+          },
+          {
+            "name": "whd_flsa_minimum_wage_back_wages",
+            "type": "number",
+            "description": "Back wages for FLSA minimum wage violations, in dollars"
+          },
+          {
+            "name": "whd_child_labor_violations",
+            "type": "integer",
+            "description": "FLSA child labor violations"
+          },
+          {
+            "name": "whd_cases_10y",
+            "type": "integer",
+            "description": "WHD cases over the ten fiscal years"
+          },
+          {
+            "name": "whd_back_wages_10y",
+            "type": "number",
+            "description": "Back wages over the ten fiscal years, in dollars"
+          },
+          {
+            "name": "whd_employees_owed_10y",
+            "type": "integer",
+            "description": "Employees due back wages over the ten fiscal years"
+          },
+          {
+            "name": "whd_penalties_10y",
+            "type": "number",
+            "description": "Civil money penalties over the ten fiscal years, in dollars"
+          },
+          {
+            "name": "osha_inspections",
+            "type": "integer",
+            "description": "Latest fiscal year: OSHA inspections opened (federal OSHA and state-plan offices; records of no inspection left out)"
+          },
+          {
+            "name": "osha_complaint_inspections",
+            "type": "integer",
+            "description": "Of those, inspections that followed a complaint"
+          },
+          {
+            "name": "osha_fatality_catastrophe_inspections",
+            "type": "integer",
+            "description": "Of those, inspections that followed a fatality or catastrophe (OSHA's Fat/Cat type; the separate Accident type is in osha_accident_inspections in the JSON)"
+          },
+          {
+            "name": "osha_violations",
+            "type": "integer",
+            "description": "Citation items from those inspections (deleted items left out)"
+          },
+          {
+            "name": "osha_serious",
+            "type": "integer",
+            "description": "Serious violations cited"
+          },
+          {
+            "name": "osha_willful",
+            "type": "integer",
+            "description": "Willful violations cited"
+          },
+          {
+            "name": "osha_repeat",
+            "type": "integer",
+            "description": "Repeat violations cited"
+          },
+          {
+            "name": "osha_current_penalties",
+            "type": "number",
+            "description": "Current OSHA penalties on those citations (after any settlement or decision), in dollars"
+          },
+          {
+            "name": "osha_inspections_10y",
+            "type": "integer",
+            "description": "OSHA inspections over the ten fiscal years"
+          },
+          {
+            "name": "osha_violations_10y",
+            "type": "integer",
+            "description": "Violations cited over the ten fiscal years"
+          },
+          {
+            "name": "osha_serious_10y",
+            "type": "integer",
+            "description": "Serious violations over the ten fiscal years"
+          },
+          {
+            "name": "osha_current_penalties_10y",
+            "type": "number",
+            "description": "Current OSHA penalties over the ten fiscal years, in dollars"
           },
           {
             "name": "effectiveFrom",

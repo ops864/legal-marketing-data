@@ -32,6 +32,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
 - `https://probativegrowth.com/mcp/consumer-sentinel`: FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams per 100,000 people (2024 Data Book).
+- `https://probativegrowth.com/mcp/criminal-filings`: Federal criminal defendants by offense and district, U.S. Courts Tables D-1 to D-3, every half-year since 2017.
 - `https://probativegrowth.com/mcp/crosswalks`: Join keys for every dataset: practice areas, federal case codes, states, federal districts and counties.
 - `https://probativegrowth.com/mcp/deserts`: Law offices and lawyers per resident in every US county (legal deserts).
 - `https://probativegrowth.com/mcp/disability-hearings`: SSA disability hearing waits, cases pending and processing times by hearing office.
@@ -56,7 +57,10 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-courts`: Texas trial-court caseloads by court level, county and case type.
 - `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.
+- `https://probativegrowth.com/mcp/va-compensation`: VA disability compensation recipients by county and combined rating (0-20% to 100%), age, sex, FY2025 vs FY2024.
+- `https://probativegrowth.com/mcp/vehicle-complaints`: NHTSA vehicle safety complaints by state, make, model year and component: crashes, fires, injuries, deaths, recalls.
 - `https://probativegrowth.com/mcp/veterans-representation`: VA-accredited attorneys and claims agents per veteran by state, county counts, and appeals outcomes by representation.
+- `https://probativegrowth.com/mcp/wage-enforcement`: DOL wage-and-hour back wages and OSHA inspections, violations and penalties by county, state, law and industry, ten years.
 - `https://probativegrowth.com/mcp/work-injuries`: Workplace injuries and fatal work injuries by state and industry, from BLS SOII and CFOI: rates, case counts and the riskiest sectors.
 
 ## Notes

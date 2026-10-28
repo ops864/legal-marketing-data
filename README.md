@@ -8,7 +8,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 
 | Dataset | Files | DOI |
 |---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23740030](https://doi.org/10.5281/zenodo.23740030) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23744574](https://doi.org/10.5281/zenodo.23744574) |
 | [Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)](https://probativegrowth.com/research/bankruptcy-filings-by-county/) | `data/bankruptcy/` | [10.5281/zenodo.23739952](https://doi.org/10.5281/zenodo.23739952) |
 | [The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025](https://probativegrowth.com/data/bar-pipeline/) | `data/bar-pipeline/` | [10.5281/zenodo.23721443](https://doi.org/10.5281/zenodo.23721443) |
 | [Probative benchmarks, 2025–2026](https://probativegrowth.com/research/benchmarks/) | `data/benchmarks/` | [10.5281/zenodo.23735849](https://doi.org/10.5281/zenodo.23735849) |
@@ -16,7 +16,8 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Federal civil filings by nature of suit and district, 12-month periods since 2018](https://probativegrowth.com/research/federal-civil-filings-by-type/) | `data/civil-filings/` | [10.5281/zenodo.23720009](https://doi.org/10.5281/zenodo.23720009) |
 | [CFPB complaints about debt collection, credit reporting and debt management, by state and month](https://probativegrowth.com/research/consumer-finance-complaints-by-state/) | `data/consumer-complaints/` | [10.5281/zenodo.23733731](https://doi.org/10.5281/zenodo.23733731) |
 | [FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book](https://probativegrowth.com/data/consumer-sentinel/) | `data/consumer-sentinel/` | [10.5281/zenodo.23741876](https://doi.org/10.5281/zenodo.23741876) |
-| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | `data/crosswalks/` | [10.5281/zenodo.23741882](https://doi.org/10.5281/zenodo.23741882) |
+| [Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)](https://probativegrowth.com/data/criminal-filings/) | `data/criminal-filings/` | [10.5281/zenodo.23744206](https://doi.org/10.5281/zenodo.23744206) |
+| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | `data/crosswalks/` | [10.5281/zenodo.23744618](https://doi.org/10.5281/zenodo.23744618) |
 | [Legal deserts: law offices and lawyers per resident in every U.S. county](https://probativegrowth.com/research/legal-deserts/) | `data/deserts/` | [10.5281/zenodo.23721430](https://doi.org/10.5281/zenodo.23721430) |
 | [Social Security disability hearing waits and workloads by hearing office](https://probativegrowth.com/data/disability-hearings/) | `data/disability-hearings/` | [10.5281/zenodo.23741884](https://doi.org/10.5281/zenodo.23741884) |
 | [Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025](https://probativegrowth.com/data/eeoc-charges/) | `data/eeoc-charges/` | [10.5281/zenodo.23733005](https://doi.org/10.5281/zenodo.23733005) |
@@ -40,7 +41,10 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Unwanted-call and text-message complaints to the FCC, by state and month](https://probativegrowth.com/data/robocall-complaints/) | `data/robocall-complaints/` | [10.5281/zenodo.23733010](https://doi.org/10.5281/zenodo.23733010) |
 | [State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23723926](https://doi.org/10.5281/zenodo.23723926) |
 | [Truck and bus crashes by county, state and year (FMCSA crash file)](https://probativegrowth.com/data/truck-crashes/) | `data/truck-crashes/` | [10.5281/zenodo.23743677](https://doi.org/10.5281/zenodo.23743677) |
+| [VA disability compensation recipients by county and combined rating](https://probativegrowth.com/data/va-compensation/) | `data/va-compensation/` | [10.5281/zenodo.23744210](https://doi.org/10.5281/zenodo.23744210) |
+| [Vehicle safety complaints by state, make and model year (NHTSA complaint file)](https://probativegrowth.com/data/vehicle-complaints/) | `data/vehicle-complaints/` | [10.5281/zenodo.23744214](https://doi.org/10.5281/zenodo.23744214) |
 | [VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation](https://probativegrowth.com/data/veterans-representation/) | `data/veterans-representation/` | [10.5281/zenodo.23740008](https://doi.org/10.5281/zenodo.23740008) |
+| [Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)](https://probativegrowth.com/data/wage-enforcement/) | `data/wage-enforcement/` | [10.5281/zenodo.23744226](https://doi.org/10.5281/zenodo.23744226) |
 | [Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)](https://probativegrowth.com/data/work-injuries/) | `data/work-injuries/` | [10.5281/zenodo.23740010](https://doi.org/10.5281/zenodo.23740010) |
 
 Each folder holds the full CSV and JSON, a `README.txt` with the fields, `changes.json` (the change log), `openapi.json`, and `CITATION.cff`. The root has a `CITATION.cff` (GitHub's "Cite this repository" button) and a [Frictionless](https://frictionlessdata.io/) `datapackage.json` that describes every CSV and its fields. Each dataset version has a tagged release.
@@ -70,6 +74,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
 - `https://probativegrowth.com/mcp/consumer-sentinel`: FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams per 100,000 people (2024 Data Book).
+- `https://probativegrowth.com/mcp/criminal-filings`: Federal criminal defendants by offense and district, U.S. Courts Tables D-1 to D-3, every half-year since 2017.
 - `https://probativegrowth.com/mcp/crosswalks`: Join keys for every dataset: practice areas, federal case codes, states, federal districts and counties.
 - `https://probativegrowth.com/mcp/deserts`: Law offices and lawyers per resident in every US county (legal deserts).
 - `https://probativegrowth.com/mcp/disability-hearings`: SSA disability hearing waits, cases pending and processing times by hearing office.
@@ -94,7 +99,10 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-courts`: Texas trial-court caseloads by court level, county and case type.
 - `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.
+- `https://probativegrowth.com/mcp/va-compensation`: VA disability compensation recipients by county and combined rating (0-20% to 100%), age, sex, FY2025 vs FY2024.
+- `https://probativegrowth.com/mcp/vehicle-complaints`: NHTSA vehicle safety complaints by state, make, model year and component: crashes, fires, injuries, deaths, recalls.
 - `https://probativegrowth.com/mcp/veterans-representation`: VA-accredited attorneys and claims agents per veteran by state, county counts, and appeals outcomes by representation.
+- `https://probativegrowth.com/mcp/wage-enforcement`: DOL wage-and-hour back wages and OSHA inspections, violations and penalties by county, state, law and industry, ten years.
 - `https://probativegrowth.com/mcp/work-injuries`: Workplace injuries and fatal work injuries by state and industry, from BLS SOII and CFOI: rates, case counts and the riskiest sectors.
 
 ## Mirrors

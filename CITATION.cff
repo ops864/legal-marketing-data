@@ -44,6 +44,9 @@ identifiers:
     value: "10.5281/zenodo.23741875"
     description: "FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23744205"
+    description: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23741881"
     description: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties: concept DOI (all versions)"
   - type: doi
@@ -116,8 +119,17 @@ identifiers:
     value: "10.5281/zenodo.23743676"
     description: "Truck and bus crashes by county, state and year (FMCSA crash file): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23744209"
+    description: "VA disability compensation recipients by county and combined rating: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23744213"
+    description: "Vehicle safety complaints by state, make and model year (NHTSA complaint file): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23740007"
     description: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23744225"
+    description: "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23740009"
     description: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI): concept DOI (all versions)"
@@ -126,8 +138,8 @@ references:
     title: "Lawyer advertising rules by state (50 states and DC)"
     authors:
       - name: "Probative Growth"
-    version: "1.2.0"
-    doi: "10.5281/zenodo.23740030"
+    version: "1.3.0"
+    doi: "10.5281/zenodo.23744574"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
     date-released: "2026-10-28"
@@ -195,11 +207,20 @@ references:
     url: "https://probativegrowth.com/data/consumer-sentinel/"
     date-released: "2026-10-28"
   - type: dataset
-    title: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties"
+    title: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)"
     authors:
       - name: "Probative Growth"
     version: "1.0.0"
-    doi: "10.5281/zenodo.23741882"
+    doi: "10.5281/zenodo.23744206"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/criminal-filings/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties"
+    authors:
+      - name: "Probative Growth"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23744618"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/crosswalks/"
     date-released: "2026-10-28"
@@ -411,6 +432,24 @@ references:
     url: "https://probativegrowth.com/data/truck-crashes/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "VA disability compensation recipients by county and combined rating"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23744210"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/va-compensation/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Vehicle safety complaints by state, make and model year (NHTSA complaint file)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23744214"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/vehicle-complaints/"
+    date-released: "2026-10-28"
+  - type: dataset
     title: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation"
     authors:
       - name: "Probative Growth"
@@ -418,6 +457,15 @@ references:
     doi: "10.5281/zenodo.23740008"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/veterans-representation/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23744226"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/wage-enforcement/"
     date-released: "2026-10-28"
   - type: dataset
     title: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)"

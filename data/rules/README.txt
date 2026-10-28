@@ -1,12 +1,12 @@
 Lawyer advertising rules by state (50 states and DC)
 
-Version 1.2.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23740030
+Version 1.3.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23744574
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Lawyer advertising rules by state (50 states and DC), version 1.2.0, https://doi.org/10.5281/zenodo.23740030, licensed CC BY 4.0.
+Source: Probative, Lawyer advertising rules by state (50 states and DC), version 1.3.0, https://doi.org/10.5281/zenodo.23744574, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Lawyer advertising rules by state (50 states and DC) (Version 1.2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23740030
+Probative. (2026). Lawyer advertising rules by state (50 states and DC) (Version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23744574
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -27,3 +27,5 @@ Columns:
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   sourcesAccessed: The day each source was read, in the same order
+  sourceQuotes: v1.3: the words quoted from each source, in the same order (P cells quote every source)
+  reason: v1.3: why a D or U cell is not read at an official source
