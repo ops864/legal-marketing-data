@@ -37,7 +37,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | `data/nursing-homes/` | [10.5281/zenodo.23741901](https://doi.org/10.5281/zenodo.23741901) |
 | [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | `data/opinions/` | [10.5281/zenodo.23734859](https://doi.org/10.5281/zenodo.23734859) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | `data/platforms/` | [10.5281/zenodo.23716831](https://doi.org/10.5281/zenodo.23716831) |
-| [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23720026](https://doi.org/10.5281/zenodo.23720026) |
+| [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23747113](https://doi.org/10.5281/zenodo.23747113) |
 | [Unwanted-call and text-message complaints to the FCC, by state and month](https://probativegrowth.com/data/robocall-complaints/) | `data/robocall-complaints/` | [10.5281/zenodo.23733010](https://doi.org/10.5281/zenodo.23733010) |
 | [State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23723926](https://doi.org/10.5281/zenodo.23723926) |
 | [Truck and bus crashes by county, state and year (FMCSA crash file)](https://probativegrowth.com/data/truck-crashes/) | `data/truck-crashes/` | [10.5281/zenodo.23743677](https://doi.org/10.5281/zenodo.23743677) |
@@ -59,9 +59,16 @@ Each folder holds the full CSV and JSON, a `README.txt` with the fields, `change
 
 Streamable HTTP, no key, no sign-in. Step-by-step setup for AI agents is in [`llms-install.md`](llms-install.md).
 
+One click: [Add to VS Code](https://vscode.dev/redirect/mcp/install?name=probative&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fprobativegrowth.com%2Fmcp%22%7D) · [Add to Cursor](https://cursor.com/en/install-mcp?name=probative&config=eyJ1cmwiOiJodHRwczovL3Byb2JhdGl2ZWdyb3d0aC5jb20vbWNwIn0=) (each opens the app and asks you to confirm).
+
+- Claude (web and desktop): Customize, then Connectors, then add a custom connector with the URL `https://probativegrowth.com/mcp` and no sign-in.
 - Claude Code: `claude mcp add --transport http probative https://probativegrowth.com/mcp`, or install this repo as a plugin: `/plugin marketplace add ops864/legal-marketing-data` then `/plugin install legal-marketing-data@probative`
-- Cursor, Windsurf, Cline and VS Code: add `{"mcpServers": {"probative": {"url": "https://probativegrowth.com/mcp"}}}` to the client's MCP settings (VS Code uses `"servers"` and `"type": "http"`). Cursor also reads `.cursor-plugin/` in this repo.
-- Gemini CLI: `gemini extensions install https://github.com/ops864/legal-marketing-data` (reads `gemini-extension.json`)
+- ChatGPT: in developer mode, create a connector with the URL above and no authentication.
+- VS Code (`.vscode/mcp.json`): `{"servers": {"probative": {"type": "http", "url": "https://probativegrowth.com/mcp"}}}`, or `code --add-mcp '{"name":"probative","type":"http","url":"https://probativegrowth.com/mcp"}'`
+- Cursor (`mcp.json`): `{"mcpServers": {"probative": {"url": "https://probativegrowth.com/mcp"}}}`. Cursor also reads `.cursor-plugin/` in this repo.
+- Windsurf (Cascade, MCP config file): `{"mcpServers": {"probative": {"serverUrl": "https://probativegrowth.com/mcp"}}}`
+- Cline (`cline_mcp_settings.json`): `{"mcpServers": {"probative": {"type": "streamableHttp", "url": "https://probativegrowth.com/mcp"}}}` (without `type`, Cline assumes the older SSE transport)
+- Gemini CLI: `gemini mcp add --transport http probative https://probativegrowth.com/mcp`, or `gemini extensions install https://github.com/ops864/legal-marketing-data` (reads `gemini-extension.json`)
 - OpenAI Codex: in `~/.codex/config.toml`, `[mcp_servers.probative]` with `url = "https://probativegrowth.com/mcp"`
 
 Each dataset also has its own smaller server:

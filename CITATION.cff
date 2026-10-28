@@ -399,8 +399,8 @@ references:
     title: "Referral-fee and fee-splitting rules for lawyers, by state"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23720026"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23747113"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/"
     date-released: "2026-10-28"

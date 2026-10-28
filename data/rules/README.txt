@@ -29,3 +29,5 @@ Columns:
   sourcesAccessed: The day each source was read, in the same order
   sourceQuotes: v1.3: the words quoted from each source, in the same order (P cells quote every source)
   reason: v1.3: why a D or U cell is not read at an official source
+  confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
+  confidenceBasis: The reasons for the confidence level, in a short phrase

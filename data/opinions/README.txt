@@ -39,3 +39,5 @@ Columns:
   ai_superiority_claims: AI opinions only: can a firm claim its AI or results are better (Rule 7.1)? yes, brief, no, excluded, or blank
   confidentiality_in_marketing_tools: AI opinions only: does it address prospects’ confidentiality in chatbots and marketing tools? yes, brief, no, excluded, or blank
   fees_for_ai: AI opinions only: does it say how AI affects fees and charges? yes, brief, no, excluded, or blank
+  confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
+  confidenceBasis: The reasons for the confidence level, in a short phrase

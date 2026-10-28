@@ -11,13 +11,13 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 
 ## Steps
 
-1. Add the server to the MCP settings of the client, with the name `probative` and the URL above. For clients that use `mcpServers` (Cline, Cursor, Windsurf, Claude Desktop through a remote-server setting):
+1. Add the server to the MCP settings of the client, with the name `probative` and the URL above. For clients that use `mcpServers` (Cursor, Claude Desktop through a remote-server setting):
 
 ```json
 { "mcpServers": { "probative": { "url": "https://probativegrowth.com/mcp" } } }
 ```
 
-   VS Code (`.vscode/mcp.json`): `{ "servers": { "probative": { "type": "http", "url": "https://probativegrowth.com/mcp" } } }`. Claude Code: `claude mcp add --transport http probative https://probativegrowth.com/mcp`.
+   Cline (`cline_mcp_settings.json`) needs the transport named, or it assumes the older SSE: `{ "mcpServers": { "probative": { "type": "streamableHttp", "url": "https://probativegrowth.com/mcp" } } }`. Windsurf: `{ "mcpServers": { "probative": { "serverUrl": "https://probativegrowth.com/mcp" } } }`. VS Code (`.vscode/mcp.json`): `{ "servers": { "probative": { "type": "http", "url": "https://probativegrowth.com/mcp" } } }`. Claude Code: `claude mcp add --transport http probative https://probativegrowth.com/mcp`. Gemini CLI: `gemini mcp add --transport http probative https://probativegrowth.com/mcp`.
 2. Reload the client's MCP servers.
 3. Check it works: call the tool `list_datasets` (no arguments). It returns every dataset with its version and DOI.
 4. Try a lookup: `get_state_rules` with `{"state": "TX"}` returns Texas's lawyer advertising rules, each with its source.

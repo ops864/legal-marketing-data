@@ -1,12 +1,12 @@
 Referral-fee and fee-splitting rules for lawyers, by state
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23720026
+Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23747113
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Referral-fee and fee-splitting rules for lawyers, by state, version 1.0.0, https://doi.org/10.5281/zenodo.23720026, licensed CC BY 4.0.
+Source: Probative, Referral-fee and fee-splitting rules for lawyers, by state, version 1.1.0, https://doi.org/10.5281/zenodo.23747113, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Referral-fee and fee-splitting rules for lawyers, by state (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23720026
+Probative. (2026). Referral-fee and fee-splitting rules for lawyers, by state (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23747113
 
 Not legal advice. This is a plain-English summary of each state's rules of professional conduct, kept for marketing planning, and rules change. Check the rule text, your state bar's ethics opinions and your own counsel before you agree a fee split or pay for a referral.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -37,3 +37,5 @@ Columns:
   note: Caveats
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
+  confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
+  confidenceBasis: The reasons for the confidence level, in a short phrase

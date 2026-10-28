@@ -28,3 +28,5 @@ Columns:
   lastChecked: The release date (YYYY-MM-DD)
   sourceLabels: The methods page that defines the measure
   sourceUrls: The methods page URL
+  confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
+  confidenceBasis: The reasons for the confidence level, in a short phrase

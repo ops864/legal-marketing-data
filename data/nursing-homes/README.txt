@@ -53,3 +53,5 @@ Columns:
   note: Caveats
   sourceLabels: The CMS files the record is built from
   sourceUrls: Links to those files
+  confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
+  confidenceBasis: The reasons for the confidence level, in a short phrase

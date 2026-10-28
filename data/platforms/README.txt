@@ -30,3 +30,5 @@ Columns:
   quote: A short exact quote from the source (25 words or fewer)
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
   note: Caveats
+  confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
+  confidenceBasis: The reasons for the confidence level, in a short phrase
