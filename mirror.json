@@ -1,0 +1,139 @@
+{
+  "publisher": "Probative Growth",
+  "source": "https://probativegrowth.com/data/v1/index.json",
+  "generated": "2026-10-28",
+  "datasets": [
+    {
+      "id": "rules",
+      "version": "1.1.1",
+      "doi": "10.5281/zenodo.23688705",
+      "released": "2026-10-27"
+    },
+    {
+      "id": "bar-pipeline",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23721443",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "benchmarks",
+      "version": "4.0.1",
+      "doi": "10.5281/zenodo.23735849",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "ca-courts",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23658524",
+      "released": "2026-10-26"
+    },
+    {
+      "id": "civil-filings",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23720009",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "consumer-complaints",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23733731",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "deserts",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23721430",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "eeoc-charges",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23733005",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "fatal-crashes",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23733739",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "fees",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23656738",
+      "released": "2026-10-26"
+    },
+    {
+      "id": "filing",
+      "version": "1.2.0",
+      "doi": "10.5281/zenodo.23721409",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "language",
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23656758",
+      "released": "2026-10-26"
+    },
+    {
+      "id": "law-offices",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23721415",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "lawyer-wages",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23734840",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "legal-prices",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23734854",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "limitations",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23721436",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "mdl",
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23720737",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "opinions",
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23734859",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "platforms",
+      "version": "1.0.1",
+      "doi": "10.5281/zenodo.23716831",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "referral",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23720026",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "robocall-complaints",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23733010",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "state-courts",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23723926",
+      "released": "2026-10-28"
+    }
+  ]
+}

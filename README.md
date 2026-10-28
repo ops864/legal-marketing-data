@@ -76,7 +76,7 @@ Each dataset also has its own smaller server:
 ## Mirrors
 
 - Hugging Face: <https://huggingface.co/datasets/ProbativeGrowth/legal-marketing-data> (CSV and JSON, one config per dataset)
-- Kaggle: <https://www.kaggle.com/datasets/probativeoperations/legal-marketing-open-data-us> (the CSVs)
+- Kaggle: <https://www.kaggle.com/datasets/probativeoperations/legal-marketing-open-data-us> (CSV and JSON, with the data dictionaries)
 
 ## License
 
