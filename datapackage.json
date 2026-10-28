@@ -3923,13 +3923,13 @@
       "name": "limitations",
       "profile": "tabular-data-resource",
       "title": "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage",
-      "description": "The filing deadline the statute sets for five kinds of civil claims in every US state and DC: personal injury, medical malpractice, wrongful death, product liability and property damage. Each record gives the period in the statute's own words, the citation, a link to the state's official code site, a verbatim quote, and the date read; where the same text says so, it adds whether the period runs from discovery and any outer limit (statute of repose). Cells we could not read in the official text are marked U and left blank. No calculator and no deadline arithmetic: tolling and exceptions apply.",
+      "description": "The filing deadline the statute sets for five kinds of civil claims in every US state and DC: personal injury, medical malpractice, wrongful death, product liability and property damage. Each record gives the period in the statute's own words, the citation, a link to the state's official code site, a verbatim quote, and the date read; where the same text says so, it adds whether the period runs from discovery and any outer limit (statute of repose). Where the official code could not be read, a cell may come from a court opinion that quotes or applies the statute; it is marked S (secondary) and names the court, case and date. Cells with neither are marked U and left blank. No calculator and no deadline arithmetic: tolling and exceptions apply.",
       "path": "data/limitations/limitations.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23721436",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23743673",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5141,6 +5141,181 @@
             "name": "text",
             "type": "string",
             "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "truck-crashes",
+      "profile": "tabular-data-resource",
+      "title": "Truck and bus crashes by county, state and year (FMCSA crash file)",
+      "description": "Crashes involving a commercial truck or bus that states reported to the Federal Motor Carrier Safety Administration (FMCSA), counted from its Motor Carrier Management Information System (MCMIS) crash file for every county, state and territory and the US over the last ten complete calendar years. Each record gives, for the latest year, the crashes, the fatal crashes, the crashes with injuries, the crashes where a vehicle was towed away, the crashes involving a bus, the deaths and the injuries, with the whole ten-year history and the ten-year totals. A crash is one state crash report, counted once however many trucks and buses it involved, and its deaths and injuries are counted once. State records add the number of active carriers based in the state, from the FMCSA Company Census File. Counties with no reported crash are listed with zeros, and reports without a usable county code are kept in a 'county not given' row for their state, so counties always add up to the state.",
+      "path": "data/truck-crashes/truck-crashes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23743677",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/Trucking-and-Motorcoaches/Crash-File/aayw-vxb3"
+        },
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/Trucking-and-Motorcoaches/Company-Census-File/az4n-8mr2"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state or territory the crash happened in, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, county-not-given (reports in the state without a usable county code), state, state-not-given (reports without a U.S. state code) or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (the crash state's code plus the report's county code); a few are former codes still used by state reports (Connecticut's old counties); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest complete calendar year in the record (the others are under `years` in the JSON)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Crashes in that year (same as crashes)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "crashes",
+            "type": "integer",
+            "description": "Federally reportable crashes involving at least one truck or bus, counted once per state crash report"
+          },
+          {
+            "name": "fatal_crashes",
+            "type": "integer",
+            "description": "Crashes in which someone died"
+          },
+          {
+            "name": "injury_crashes",
+            "type": "integer",
+            "description": "Crashes in which someone was injured"
+          },
+          {
+            "name": "towaway_crashes",
+            "type": "integer",
+            "description": "Crashes in which a vehicle was towed away because of damage"
+          },
+          {
+            "name": "bus_crashes",
+            "type": "integer",
+            "description": "Crashes involving at least one bus"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "description": "People killed in those crashes (anyone: truck or bus occupants, other drivers, pedestrians), counted once per crash"
+          },
+          {
+            "name": "injuries",
+            "type": "integer",
+            "description": "People injured in those crashes, counted once per crash"
+          },
+          {
+            "name": "crashes_10y",
+            "type": "integer",
+            "description": "Crashes over the ten years in `years`"
+          },
+          {
+            "name": "deaths_10y",
+            "type": "integer",
+            "description": "Deaths over the ten years in `years`"
+          },
+          {
+            "name": "active_carriers",
+            "type": "integer",
+            "description": "State and US records: active FMCSA-registered carriers with at least one power unit whose main address is in the state (Company Census File, current); not where their trucks crash"
+          },
+          {
+            "name": "interstate_carriers",
+            "type": "integer",
+            "description": "Of those, carriers registered for interstate operation"
           },
           {
             "name": "effectiveFrom",

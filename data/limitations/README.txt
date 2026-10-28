@@ -1,12 +1,12 @@
 Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23721436
+Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23743673
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, version 1.0.0, https://doi.org/10.5281/zenodo.23721436, licensed CC BY 4.0.
+Source: Probative, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, version 1.1.0, https://doi.org/10.5281/zenodo.23743673, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23721436
+Probative. (2026). Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23743673
 
 Not legal advice. These are the periods as each statute states them, read in the official code on the date shown. Tolling, discovery rules, notice-of-claim deadlines for claims against a government, minors' rules and other exceptions can shorten or lengthen the time to file, and statutes change. Check the statute and ask a lawyer licensed in the state before relying on a deadline.
 Probative is a marketing firm, not a law firm; not legal advice.

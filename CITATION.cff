@@ -113,6 +113,9 @@ identifiers:
     value: "10.5281/zenodo.23723925"
     description: "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23743676"
+    description: "Truck and bus crashes by county, state and year (FMCSA crash file): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23740007"
     description: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation: concept DOI (all versions)"
   - type: doi
@@ -330,8 +333,8 @@ references:
     title: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23721436"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23743673"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/statute-of-limitations-by-state/"
     date-released: "2026-10-28"
@@ -397,6 +400,15 @@ references:
     doi: "10.5281/zenodo.23723926"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-courts/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "Truck and bus crashes by county, state and year (FMCSA crash file)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23743677"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/truck-crashes/"
     date-released: "2026-10-28"
   - type: dataset
     title: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation"

@@ -31,7 +31,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)](https://probativegrowth.com/data/lawyer-wages/) | `data/lawyer-wages/` | [10.5281/zenodo.23734840](https://doi.org/10.5281/zenodo.23734840) |
 | [Legal need by county: who may need a lawyer, from the American Community Survey](https://probativegrowth.com/data/legal-need/) | `data/legal-need/` | [10.5281/zenodo.23741886](https://doi.org/10.5281/zenodo.23741886) |
 | [Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)](https://probativegrowth.com/data/legal-prices/) | `data/legal-prices/` | [10.5281/zenodo.23734854](https://doi.org/10.5281/zenodo.23734854) |
-| [Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage](https://probativegrowth.com/research/statute-of-limitations-by-state/) | `data/limitations/` | [10.5281/zenodo.23721436](https://doi.org/10.5281/zenodo.23721436) |
+| [Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage](https://probativegrowth.com/research/statute-of-limitations-by-state/) | `data/limitations/` | [10.5281/zenodo.23743673](https://doi.org/10.5281/zenodo.23743673) |
 | [Mass-tort docket tracker, federal MDL pending actions by month since 2019](https://probativegrowth.com/research/mass-tort-mdl-tracker/) | `data/mdl/` | [10.5281/zenodo.23720737](https://doi.org/10.5281/zenodo.23720737) |
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | `data/nursing-homes/` | [10.5281/zenodo.23741901](https://doi.org/10.5281/zenodo.23741901) |
 | [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | `data/opinions/` | [10.5281/zenodo.23734859](https://doi.org/10.5281/zenodo.23734859) |
@@ -39,6 +39,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23720026](https://doi.org/10.5281/zenodo.23720026) |
 | [Unwanted-call and text-message complaints to the FCC, by state and month](https://probativegrowth.com/data/robocall-complaints/) | `data/robocall-complaints/` | [10.5281/zenodo.23733010](https://doi.org/10.5281/zenodo.23733010) |
 | [State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23723926](https://doi.org/10.5281/zenodo.23723926) |
+| [Truck and bus crashes by county, state and year (FMCSA crash file)](https://probativegrowth.com/data/truck-crashes/) | `data/truck-crashes/` | [10.5281/zenodo.23743677](https://doi.org/10.5281/zenodo.23743677) |
 | [VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation](https://probativegrowth.com/data/veterans-representation/) | `data/veterans-representation/` | [10.5281/zenodo.23740008](https://doi.org/10.5281/zenodo.23740008) |
 | [Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)](https://probativegrowth.com/data/work-injuries/) | `data/work-injuries/` | [10.5281/zenodo.23740010](https://doi.org/10.5281/zenodo.23740010) |
 
@@ -92,6 +93,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-courts`: Texas trial-court caseloads by court level, county and case type.
+- `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.
 - `https://probativegrowth.com/mcp/veterans-representation`: VA-accredited attorneys and claims agents per veteran by state, county counts, and appeals outcomes by representation.
 - `https://probativegrowth.com/mcp/work-injuries`: Workplace injuries and fatal work injuries by state and industry, from BLS SOII and CFOI: rates, case counts and the riskiest sectors.
 

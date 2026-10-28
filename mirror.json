@@ -143,8 +143,8 @@
     },
     {
       "id": "limitations",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23721436",
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23743673",
       "released": "2026-10-28"
     },
     {
@@ -187,6 +187,12 @@
       "id": "state-courts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23723926",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "truck-crashes",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23743677",
       "released": "2026-10-28"
     },
     {

@@ -4,8 +4,8 @@ title: "Statutes of limitations by state: personal injury, medical malpractice, 
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23721436"
+version: "1.1.0"
+doi: "10.5281/zenodo.23743673"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23721435"
