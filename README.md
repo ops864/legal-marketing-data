@@ -24,6 +24,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024](https://probativegrowth.com/research/fatal-crashes-by-county/) | `data/fatal-crashes/` | [10.5281/zenodo.23733739](https://doi.org/10.5281/zenodo.23733739) |
 | [Attorney fee caps and contingency-fee rules, by state and federal program](https://probativegrowth.com/research/attorney-fee-caps-by-state/) | `data/fees/` | [10.5281/zenodo.23739965](https://doi.org/10.5281/zenodo.23739965) |
 | [What US state bars charge, and require, to file or review lawyer advertising](https://probativegrowth.com/research/lawyer-ad-filing-fees/) | `data/filing/` | [10.5281/zenodo.23721409](https://doi.org/10.5281/zenodo.23721409) |
+| [The US legal market in numbers: headline findings from Probative's open datasets](https://probativegrowth.com/research/us-legal-market-in-numbers/) | `data/findings/` | [10.5281/zenodo.23748017](https://doi.org/10.5281/zenodo.23748017) |
 | [How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year](https://probativegrowth.com/research/how-long-federal-civil-cases-take/) | `data/idb-civil/` | [10.5281/zenodo.23739969](https://doi.org/10.5281/zenodo.23739969) |
 | [Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)](https://probativegrowth.com/data/immigration-courts/) | `data/immigration-courts/` | [10.5281/zenodo.23739986](https://doi.org/10.5281/zenodo.23739986) |
 | [Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro](https://probativegrowth.com/data/language/) | `data/language/` | [10.5281/zenodo.23656758](https://doi.org/10.5281/zenodo.23656758) |
@@ -89,6 +90,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
+- `https://probativegrowth.com/mcp/findings`: Headline US legal-market counts, each with its denominator, limits and source dataset DOI.
 - `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
 - `https://probativegrowth.com/mcp/immigration-courts`: Immigration court backlog, representation and asylum outcomes by state and court, from EOIR workload statistics and case data.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.

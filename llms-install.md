@@ -40,6 +40,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
+- `https://probativegrowth.com/mcp/findings`: Headline US legal-market counts, each with its denominator, limits and source dataset DOI.
 - `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
 - `https://probativegrowth.com/mcp/immigration-courts`: Immigration court backlog, representation and asylum outcomes by state and court, from EOIR workload statistics and case data.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.

@@ -68,6 +68,9 @@ identifiers:
     value: "10.5281/zenodo.23656745"
     description: "What US state bars charge, and require, to file or review lawyer advertising: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23748016"
+    description: "The US legal market in numbers: headline findings from Probative's open datasets: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23739968"
     description: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: concept DOI (all versions)"
   - type: doi
@@ -277,6 +280,15 @@ references:
     doi: "10.5281/zenodo.23721409"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/lawyer-ad-filing-fees/"
+    date-released: "2026-10-28"
+  - type: dataset
+    title: "The US legal market in numbers: headline findings from Probative's open datasets"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23748017"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/research/us-legal-market-in-numbers/"
     date-released: "2026-10-28"
   - type: dataset
     title: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year"

@@ -2953,6 +2953,165 @@
       }
     },
     {
+      "name": "findings",
+      "profile": "tabular-data-resource",
+      "title": "The US legal market in numbers: headline findings from Probative's open datasets",
+      "description": "Headline counts about the US legal market, each computed from one or more of Probative's open datasets and published as a quarterly edition: counties with no law office, Spanish speakers against Spanish-speaking lawyers, ad-rule waiting periods and filing duties, truck-crash deaths, workplace charges, the immigration court backlog, veterans' representation, deadlines to sue, legal-services prices, who earns the fees, mass-tort dockets, disability hearing waits, bankruptcy filings and nursing-home fines. Every record gives the number, its denominator, one plain sentence in English and Spanish, what the number does not show, and the source dataset's version, DOI and record, so each figure can be traced and recomputed.",
+      "path": "data/findings/findings.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23748017",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "probativegrowth.com",
+          "path": "https://probativegrowth.com/data/v1/immigration-courts/jurisdictions/US.json"
+        },
+        {
+          "title": "data.bls.gov",
+          "path": "https://data.bls.gov/cew/data/api/2026/1/industry/541110.csv"
+        },
+        {
+          "title": "www.justice.gov",
+          "path": "https://www.justice.gov/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "finding",
+            "type": "string",
+            "description": "The finding's number in this edition (F01, F02 ...); the report anchor is its lowercase form"
+          },
+          {
+            "name": "edition",
+            "type": "string",
+            "description": "The quarterly edition, YYYY-Qn"
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "A short topic label"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The headline number (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "denominator",
+            "type": "number",
+            "description": "The number the value is out of, or divided by (see denominatorLabel)"
+          },
+          {
+            "name": "denominatorLabel",
+            "type": "string",
+            "description": "What the denominator counts"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The period or date the source data covers"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "textEs",
+            "type": "string",
+            "description": "The same sentence in Spanish"
+          },
+          {
+            "name": "limits",
+            "type": "string",
+            "description": "What the figure does not show"
+          },
+          {
+            "name": "sourceDataset",
+            "type": "string",
+            "description": "The Probative dataset(s) it is computed from, separated by semicolons"
+          },
+          {
+            "name": "sourceVersion",
+            "type": "string",
+            "description": "The version of each source dataset, in the same order"
+          },
+          {
+            "name": "sourceDoi",
+            "type": "string",
+            "description": "The DOI of each source dataset version, in the same order (empty when not yet minted)"
+          },
+          {
+            "name": "sourceRecord",
+            "type": "string",
+            "description": "The source record id(s), separated by semicolons"
+          },
+          {
+            "name": "sourceRecordUrl",
+            "type": "string",
+            "description": "The data API file holding the first source record"
+          },
+          {
+            "name": "anchor",
+            "type": "string",
+            "description": "The finding's link on the report page (the 'cite this figure' link)"
+          },
+          {
+            "name": "ogImage",
+            "type": "string",
+            "description": "A 1200 x 630 share image of the finding"
+          },
+          {
+            "name": "computed",
+            "type": "string",
+            "description": "The date the finding was computed"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "idb-civil",
       "profile": "tabular-data-resource",
       "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year",
