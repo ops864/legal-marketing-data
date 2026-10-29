@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-10-28",
-  "created": "2026-10-28T00:00:00Z",
+  "version": "2026-10-29",
+  "created": "2026-10-29T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -44,8 +44,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.3.0",
-      "id": "https://doi.org/10.5281/zenodo.23744574",
+      "version": "1.4.0",
+      "id": "https://doi.org/10.5281/zenodo.23750572",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -2590,6 +2590,280 @@
       }
     },
     {
+      "name": "federal-filings-county",
+      "profile": "tabular-data-resource",
+      "title": "Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center)",
+      "description": "How many federal civil lawsuits are filed in each U.S. county, and of what kind, over the last ten complete federal fiscal years, from the Federal Judicial Center's Integrated Database (IDB). A case is counted in the county where the first-listed plaintiff lives (the first-listed defendant's county when the United States sues; the tract's county in land condemnation cases), by 16 nature-of-suit groups plus multidistrict litigations (MDLs), and rolled up to Probative's practice areas. One record per county carries all ten years, the prior-year change and the year-by-year history. Cases that cannot be placed in a county are published as rows of their own, per state and nationally: plaintiffs who live in the U.S. outside the court's state (with the MDL share), plaintiffs who live abroad, cases under a retired county code, and cases with an unrecorded county; district records add the same parts for each of the 94 district courts. Every state equals the sum of its counties and these rows, and the national total ties to the U.S. Courts' Table C-2 within a fraction of a percent. Only counts are published: no party, docket number or judge.",
+      "path": "data/federal-filings-county/federal-filings-county.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23750628",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/research/idb"
+        },
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/sites/default/files/idb/codebooks/Civil%20Codebook%201988%20Forward%2010252023.pdf"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/data-news/data-tables"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state or territory of the federal court (the court's state, not the plaintiff's), or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county (the first-listed plaintiff lives in that county), former-county (a retired county code with several successors, such as Connecticut's old counties), county-not-recorded (a county code in no county list), out-of-state (code 88888: the plaintiff lives in the U.S. outside the court's state), outside-us (code 99999), retired-codes (a reconciliation row, not added to totals), district (one federal district court), state (the sum of the rows above for the state's courts) or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut by planning region); the retired code on former-county rows; empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it, or the name of the category"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "District records: the federal district key (for example NYS, CAC)"
+          },
+          {
+            "name": "districtName",
+            "type": "string",
+            "description": "District records: the district court's name"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest complete federal fiscal year in the record (FY N runs October 1 of N-1 to September 30 of N, by filing date)"
+          },
+          {
+            "name": "fiscalYears",
+            "type": "string",
+            "description": "The ten fiscal years covered"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Federal civil cases filed over the ten fiscal years"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "filed",
+            "type": "integer",
+            "description": "Cases filed in the latest fiscal year, counted where the first-listed plaintiff lives"
+          },
+          {
+            "name": "filed_prior",
+            "type": "integer",
+            "description": "Cases filed in the fiscal year before"
+          },
+          {
+            "name": "filed_change",
+            "type": "integer",
+            "description": "Change from the prior fiscal year, in cases"
+          },
+          {
+            "name": "filed_change_pct",
+            "type": "number",
+            "description": "Change from the prior fiscal year, in percent (empty when the prior year had no cases)"
+          },
+          {
+            "name": "filed_10y",
+            "type": "integer",
+            "description": "Cases filed over the ten fiscal years"
+          },
+          {
+            "name": "mdl",
+            "type": "integer",
+            "description": "Of the latest year's cases, those that carry a multidistrict litigation (MDL) docket number"
+          },
+          {
+            "name": "mdl_pct",
+            "type": "number",
+            "description": "The MDL share of the latest year's cases, in percent"
+          },
+          {
+            "name": "mdl_10y",
+            "type": "integer",
+            "description": "MDL cases over the ten fiscal years"
+          },
+          {
+            "name": "mdl_pct_10y",
+            "type": "number",
+            "description": "The MDL share of the ten-year total, in percent"
+          },
+          {
+            "name": "filed_personal_injury",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group personal injury"
+          },
+          {
+            "name": "filed_product_liability",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group product liability and mass tort"
+          },
+          {
+            "name": "filed_medical_malpractice",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group medical malpractice"
+          },
+          {
+            "name": "filed_employment",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group employment and wage claims"
+          },
+          {
+            "name": "filed_labor_benefits",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group labor relations and employee benefits"
+          },
+          {
+            "name": "filed_civil_rights",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group civil rights"
+          },
+          {
+            "name": "filed_immigration",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group immigration"
+          },
+          {
+            "name": "filed_social_security",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group Social Security and Medicare"
+          },
+          {
+            "name": "filed_consumer",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group consumer credit and phone-call suits"
+          },
+          {
+            "name": "filed_contract_insurance",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group contract and insurance"
+          },
+          {
+            "name": "filed_intellectual_property",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group intellectual property"
+          },
+          {
+            "name": "filed_securities_antitrust",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group securities, antitrust and banking"
+          },
+          {
+            "name": "filed_bankruptcy_appeals",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group bankruptcy appeals and withdrawals"
+          },
+          {
+            "name": "filed_prisoner",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group prisoner petitions"
+          },
+          {
+            "name": "filed_property_collections",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group real property and federal collections"
+          },
+          {
+            "name": "filed_other",
+            "type": "integer",
+            "description": "Latest fiscal year: cases in the nature-of-suit group other civil cases"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the first fiscal year covered"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the latest fiscal year covered"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "fees",
       "profile": "tabular-data-resource",
       "title": "Attorney fee caps and contingency-fee rules, by state and federal program",
@@ -3094,6 +3368,244 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "firm-web-census",
+      "profile": "tabular-data-resource",
+      "title": "US law firm websites: practices, Spanish, intake, by state, county and practice area",
+      "description": "US law firms, state by state and county by county, from two kinds of open source: law firms' own public websites, read politely each week (robots.txt obeyed, a few pages per firm), and official state registries published as open data for reuse (New York's attorney registrations and business entities, and the business registries of Colorado, Oregon, Connecticut, Texas and Pennsylvania). For each state, county and practice area we count the firms found, how many have a website we read, and, of those websites, the shares that show Spanish-language pages, a 24/7 intake statement, a free consultation or no fee unless they win, a chat or online booking tool, legal structured data (schema.org LegalService or Attorney), review markup or an llms.txt file, with the median number of pages a firm has about the practice. Every row gives two coverage measures: the firms found against the employer law offices the Census Bureau's County Business Patterns counts, and the websites read against our estimate of the law firms with a website. A state is called a census only when the first reaches 0.70; until then the rows are a sample. These counts are CC BY 4.0. The firm-level rows behind them (name as the firm or registry gives it, offices by county and the yes-or-no facts, each linked to the page it was read on with the date) are published separately under the Open Database License (ODbL) 1.0, because the list of sites comes partly from OpenStreetMap (© OpenStreetMap contributors), and are shown on the /firms/ pages. No firm is rated, scored or ranked, and no individual lawyer's data is published. Website sources: Common Crawl (its web graph and the Web Data Commons structured-data extract), OpenStreetMap and Wikidata.",
+      "path": "data/firm-web-census/firm-web-census.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23750638",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.openstreetmap.org",
+          "path": "https://www.openstreetmap.org/copyright"
+        },
+        {
+          "title": "webdatacommons.org",
+          "path": "https://webdatacommons.org/structureddata/"
+        },
+        {
+          "title": "commoncrawl.org",
+          "path": "https://commoncrawl.org/terms-of-use"
+        },
+        {
+          "title": "www.huduser.gov",
+          "path": "https://www.huduser.gov/portal/datasets/usps_crosswalk.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states and DC)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state, state-practice or county (county x practice cells nested in practiceCells)"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (county rows)"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "practice",
+            "type": "string",
+            "description": "Practice id from the shared practice taxonomy (/data/crosswalks/), for practice rows"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Law firms found (website or registry; null where suppressed)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "firms",
+            "type": "integer",
+            "description": "Law firms found: with a website read, or from an official registry only"
+          },
+          {
+            "name": "firms_with_website",
+            "type": "integer",
+            "description": "Of those, firms whose own website we read (the base of every share)"
+          },
+          {
+            "name": "firms_registry_only",
+            "type": "integer",
+            "description": "Of those, firms found only in an official open registry (no website read)"
+          },
+          {
+            "name": "cbp_offices",
+            "type": "integer",
+            "description": "Employer law offices (NAICS 541110) in Census County Business Patterns 2023 for the state or county: the coverage base"
+          },
+          {
+            "name": "coverage_cbp",
+            "type": "number",
+            "description": "Coverage (b): firms found / cbp_offices. Firms and establishments differ (a firm can have several offices; registries include solo practices without employees, which CBP leaves out), so it can pass 1"
+          },
+          {
+            "name": "est_firms_with_website",
+            "type": "integer",
+            "description": "Estimated law firms with a website (capture-recapture between the OpenStreetMap and Common Crawl site lists; provisional until the first full pass ends)"
+          },
+          {
+            "name": "coverage_web",
+            "type": "number",
+            "description": "Coverage (a): firms with a website read / est_firms_with_website"
+          },
+          {
+            "name": "coverage_label",
+            "type": "string",
+            "description": "sample, or census once coverage_cbp is 0.70 or more"
+          },
+          {
+            "name": "share_spanish",
+            "type": "number",
+            "description": "Percent of the firm websites read with Spanish-language pages (hreflang, a page read in Spanish or a link labelled Español); null under 5 firms"
+          },
+          {
+            "name": "share_intake247",
+            "type": "number",
+            "description": "Percent of the firm websites read with a 24/7 intake statement on the pages read (for example 'available 24/7'); null under 5 firms"
+          },
+          {
+            "name": "share_structured",
+            "type": "number",
+            "description": "Percent of the firm websites read whose pages carry schema.org LegalService or Attorney structured data; null under 5 firms"
+          },
+          {
+            "name": "share_free_consult",
+            "type": "number",
+            "description": "Percent of the firm websites read stating a free consultation (or free case review); null under 5 firms"
+          },
+          {
+            "name": "share_contingency",
+            "type": "number",
+            "description": "Percent of the firm websites read stating no fee unless they win, or a contingency fee; null under 5 firms"
+          },
+          {
+            "name": "share_chat",
+            "type": "number",
+            "description": "Percent of the firm websites read with a chat tool on the site; null under 5 firms"
+          },
+          {
+            "name": "share_booking",
+            "type": "number",
+            "description": "Percent of the firm websites read with an online booking tool linked or embedded; null under 5 firms"
+          },
+          {
+            "name": "share_reviews_schema",
+            "type": "number",
+            "description": "Percent of the firm websites read whose pages carry review or rating structured data (schema.org Review or AggregateRating); null under 5 firms"
+          },
+          {
+            "name": "share_llms",
+            "type": "number",
+            "description": "Percent of the firm websites read publishing an llms.txt file; null under 5 firms"
+          },
+          {
+            "name": "median_practice_pages",
+            "type": "number",
+            "description": "Practice rows: median number of sitemap pages about the practice per firm, among firms whose sitemap was read"
+          },
+          {
+            "name": "firms_with_sitemap",
+            "type": "integer",
+            "description": "Practice rows: firms whose sitemap could be read (the base of the median)"
+          },
+          {
+            "name": "practiceCells",
+            "type": "string",
+            "description": "County rows: one cell per practice advertised by at least 3 firms with an office in the county: firms, the shares and median_practice_pages (cells under 3 firms are left out)"
+          },
+          {
+            "name": "registries",
+            "type": "string",
+            "description": "State rows: the official open registries used for the state"
+          },
+          {
+            "name": "firms_listed",
+            "type": "integer",
+            "description": "State rows: candidate sites listed for the state in the open sources before reading (web-graph candidates carry no state and are not included)"
+          },
+          {
+            "name": "new_entrants_week",
+            "type": "string",
+            "description": "Aggregate rows: firms first seen in the latest weekly run (null until two runs exist)"
+          },
+          {
+            "name": "exits_week",
+            "type": "string",
+            "description": "Aggregate rows: firms not readable in the latest run that were read the week before (null until two runs exist)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",

@@ -4,8 +4,8 @@ title: "Lawyer advertising rules by state (50 states and DC)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.3.0"
-doi: "10.5281/zenodo.23744574"
+version: "1.4.0"
+doi: "10.5281/zenodo.23750572"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23645750"

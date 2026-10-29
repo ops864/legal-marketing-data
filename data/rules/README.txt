@@ -1,12 +1,12 @@
 Lawyer advertising rules by state (50 states and DC)
 
-Version 1.3.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23744574
+Version 1.4.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23750572
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Lawyer advertising rules by state (50 states and DC), version 1.3.0, https://doi.org/10.5281/zenodo.23744574, licensed CC BY 4.0.
+Source: Probative, Lawyer advertising rules by state (50 states and DC), version 1.4.0, https://doi.org/10.5281/zenodo.23750572, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Lawyer advertising rules by state (50 states and DC) (Version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23744574
+Probative. (2026). Lawyer advertising rules by state (50 states and DC) (Version 1.4.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23750572
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative is a marketing firm, not a law firm; not legal advice.
