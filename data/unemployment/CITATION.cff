@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month"
+type: dataset
+authors:
+  - name: "Probative Growth"
+version: "1.0.0"
+doi: "10.5281/zenodo.23753061"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23753058"
+    description: "Concept DOI (all versions)"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/data/unemployment/"
+repository-code: "https://github.com/ops864/legal-marketing-data"

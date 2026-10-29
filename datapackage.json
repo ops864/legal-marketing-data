@@ -572,6 +572,249 @@
       }
     },
     {
+      "name": "business-applications",
+      "profile": "tabular-data-resource",
+      "title": "New business applications by county (Census Business Formation Statistics)",
+      "description": "Business applications (requests for a new Employer Identification Number) in every U.S. county from 2005 to 2025, with each county's latest count, the change over a year and since 2019, and the sums for each state and the nation, from the Census Bureau's Business Formation Statistics annual county file. The Census Bureau applied differentially private noise to the June 2026 release, so every record is flagged noise; county sums are checked against the Bureau's own monthly state series.",
+      "path": "data/business-applications/business-applications.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23752969",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/econ/bfs/data/county.html"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/econ/bfs/xlsx/bfs_county_apps_annual.xlsx"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/econ/bfs/csv/bfs_monthly.csv"
+        },
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/econ/bfs/pdf/bfs_county_data_dictionary.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id: dataset, place and period"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (DC included), or US for the national record"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; the old Connecticut counties and planning regions both appear, for the years each is published); empty for state and US"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County or county-equivalent name"
+          },
+          {
+            "name": "latestYear",
+            "type": "integer",
+            "description": "Latest year in the file"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: read from the primary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One plain sentence with the latest count and change"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Business applications in the latest year"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "ba_2005",
+            "type": "integer",
+            "description": "Business applications in 2005; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2006",
+            "type": "integer",
+            "description": "Business applications in 2006; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2007",
+            "type": "integer",
+            "description": "Business applications in 2007; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2008",
+            "type": "integer",
+            "description": "Business applications in 2008; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2009",
+            "type": "integer",
+            "description": "Business applications in 2009; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2010",
+            "type": "integer",
+            "description": "Business applications in 2010; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2011",
+            "type": "integer",
+            "description": "Business applications in 2011; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2012",
+            "type": "integer",
+            "description": "Business applications in 2012; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2013",
+            "type": "integer",
+            "description": "Business applications in 2013; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2014",
+            "type": "integer",
+            "description": "Business applications in 2014; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2015",
+            "type": "integer",
+            "description": "Business applications in 2015; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2016",
+            "type": "integer",
+            "description": "Business applications in 2016; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2017",
+            "type": "integer",
+            "description": "Business applications in 2017; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2018",
+            "type": "integer",
+            "description": "Business applications in 2018; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2019",
+            "type": "integer",
+            "description": "Business applications in 2019; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2020",
+            "type": "integer",
+            "description": "Business applications in 2020; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2021",
+            "type": "integer",
+            "description": "Business applications in 2021; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2022",
+            "type": "integer",
+            "description": "Business applications in 2022; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2023",
+            "type": "integer",
+            "description": "Business applications in 2023; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2024",
+            "type": "integer",
+            "description": "Business applications in 2024; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "ba_2025",
+            "type": "integer",
+            "description": "Business applications in 2025; null where the county has no figure under this code for that year"
+          },
+          {
+            "name": "change_pct_1y",
+            "type": "number",
+            "description": "Percent change from the previous year"
+          },
+          {
+            "name": "change_pct_since_2019",
+            "type": "number",
+            "description": "Percent change since 2019, the last year before the pandemic"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the first year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the latest year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the Census file was last read"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "ca-courts",
       "profile": "tabular-data-resource",
       "title": "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25",
@@ -1192,6 +1435,254 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "county-income",
+      "profile": "tabular-data-resource",
+      "title": "County income and migration from IRS tax returns",
+      "description": "Individual income tax returns, individuals, adjusted gross income, salaries and wages in every U.S. county for the latest tax year, with the change in income per return from the year before, and the returns and income that moved into and out of each county and state between two filing years, from the IRS Statistics of Income county and migration files. The IRS rounds county returns to the nearest 10 and withholds a migration flow under 20 returns; withheld cells are left empty and marked suppressed, never estimated.",
+      "path": "data/county-income/county-income.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23752984",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/statistics/soi-tax-stats-county-data-2023"
+        },
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/statistics/soi-tax-stats-migration-data-2022-2023"
+        },
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/pub/irs-soi/23incyallnoagi.csv"
+        },
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/pub/irs-soi/countyinflow2223.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id: dataset, place and period"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (DC included), or US for the national record"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025); empty for state and US"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "taxYear",
+            "type": "integer",
+            "description": "Tax year of the income figures"
+          },
+          {
+            "name": "migrationYears",
+            "type": "string",
+            "description": "The two filing years the migration flows compare (people who filed in both)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: read from the primary source"
+          },
+          {
+            "name": "returns",
+            "type": "integer",
+            "description": "Individual income tax returns filed (the IRS rounds county cells to the nearest 10)"
+          },
+          {
+            "name": "people",
+            "type": "integer",
+            "description": "Individuals on those returns (exemptions)"
+          },
+          {
+            "name": "agi",
+            "type": "integer",
+            "description": "Adjusted gross income of those returns, in dollars (the IRS publishes $ thousands)"
+          },
+          {
+            "name": "agi_per_return",
+            "type": "integer",
+            "description": "agi divided by returns, rounded to whole dollars"
+          },
+          {
+            "name": "wage_returns",
+            "type": "integer",
+            "description": "Returns with salary and wage income"
+          },
+          {
+            "name": "wages",
+            "type": "integer",
+            "description": "Salaries and wages on those returns, in dollars"
+          },
+          {
+            "name": "wages_per_wage_return",
+            "type": "integer",
+            "description": "wages divided by wage_returns, rounded to whole dollars"
+          },
+          {
+            "name": "returns_prev",
+            "type": "integer",
+            "description": "Returns in the previous tax year"
+          },
+          {
+            "name": "agi_prev",
+            "type": "integer",
+            "description": "Adjusted gross income in the previous tax year, in dollars"
+          },
+          {
+            "name": "agi_per_return_prev",
+            "type": "integer",
+            "description": "agi_prev divided by returns_prev"
+          },
+          {
+            "name": "change_returns_pct",
+            "type": "number",
+            "description": "Percent change in returns from the previous tax year"
+          },
+          {
+            "name": "change_agi_per_return_pct",
+            "type": "number",
+            "description": "Percent change in AGI per return from the previous tax year"
+          },
+          {
+            "name": "mig_in_other_returns",
+            "type": "integer",
+            "description": "Returns that moved in from other states (county: from a different state; state: from any other state), comparing the two filing years"
+          },
+          {
+            "name": "mig_in_other_agi",
+            "type": "integer",
+            "description": "AGI of those returns, in dollars"
+          },
+          {
+            "name": "mig_out_other_returns",
+            "type": "integer",
+            "description": "Returns that moved out to other states"
+          },
+          {
+            "name": "mig_out_other_agi",
+            "type": "integer",
+            "description": "AGI of those returns, in dollars"
+          },
+          {
+            "name": "mig_in_same_returns",
+            "type": "integer",
+            "description": "Returns that moved in from elsewhere in the same state (state record: moves within the state)"
+          },
+          {
+            "name": "mig_in_same_agi",
+            "type": "integer",
+            "description": "AGI of those returns, in dollars"
+          },
+          {
+            "name": "mig_out_same_returns",
+            "type": "integer",
+            "description": "Returns that moved out to elsewhere in the same state"
+          },
+          {
+            "name": "mig_out_same_agi",
+            "type": "integer",
+            "description": "AGI of those returns, in dollars"
+          },
+          {
+            "name": "mig_net_other_returns",
+            "type": "integer",
+            "description": "mig_in_other_returns less mig_out_other_returns"
+          },
+          {
+            "name": "mig_net_other_agi",
+            "type": "integer",
+            "description": "mig_in_other_agi less mig_out_other_agi, in dollars"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One plain sentence with the county's income and migration"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Adjusted gross income in dollars (same as agi)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "suppressedFields",
+            "type": "string",
+            "description": "Migration fields the IRS withheld (under 20 returns), left empty and never estimated"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the tax year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the tax year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the IRS files were last read"
           },
           {
             "name": "sourceLabels",
@@ -2035,6 +2526,189 @@
       }
     },
     {
+      "name": "device-events",
+      "profile": "tabular-data-resource",
+      "title": "Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA)",
+      "description": "Adverse event reports the FDA received about medical devices, counted by device product code and calendar quarter from 2025 Q1: reports, deaths, injuries, malfunctions and other, for the 300 product codes with the most reports and for all devices together. Counted with the openFDA device event API (licence CC0); no report row, narrative, patient or manufacturer is ever read, only counts. Reports are filed up to weeks after an event and are driven by litigation and recalls as well as by harm, so a count is not an incidence rate.",
+      "path": "data/device-events/device-events.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23752988",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "open.fda.gov",
+          "path": "https://open.fda.gov/apis/device/event/"
+        },
+        {
+          "title": "api.fda.gov",
+          "path": "https://api.fda.gov/device/event.json"
+        },
+        {
+          "title": "api.fda.gov",
+          "path": "https://api.fda.gov/device/classification.json"
+        },
+        {
+          "title": "open.fda.gov",
+          "path": "https://open.fda.gov/license/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id: dataset, place and period"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US for every record (the data are national)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "product-code or us (all device product codes together)"
+          },
+          {
+            "name": "productCode",
+            "type": "string",
+            "description": "FDA's three-letter device product code (empty for the national record)"
+          },
+          {
+            "name": "deviceName",
+            "type": "string",
+            "description": "Device name for the product code from the FDA classification database"
+          },
+          {
+            "name": "specialty",
+            "type": "string",
+            "description": "FDA medical specialty of the product code"
+          },
+          {
+            "name": "deviceClass",
+            "type": "string",
+            "description": "FDA device class (1, 2, 3, or the code U/N where the FDA lists none)"
+          },
+          {
+            "name": "quarter",
+            "type": "string",
+            "description": "Calendar quarter of the date the FDA received the report, such as 2026Q2"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year of the quarter"
+          },
+          {
+            "name": "qtr",
+            "type": "integer",
+            "description": "Quarter number 1 to 4"
+          },
+          {
+            "name": "periodStart",
+            "type": "string",
+            "description": "First day of the quarter"
+          },
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "Last day of the quarter"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: counted from the primary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One plain sentence with the quarter's counts"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as reports"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "reports",
+            "type": "integer",
+            "description": "Adverse event reports (MDRs) the FDA received in the quarter for the product code; counted once per report that lists the code"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "description": "Reports whose event type is Death"
+          },
+          {
+            "name": "injuries",
+            "type": "integer",
+            "description": "Reports whose event type is Injury"
+          },
+          {
+            "name": "malfunctions",
+            "type": "integer",
+            "description": "Reports whose event type is Malfunction"
+          },
+          {
+            "name": "other",
+            "type": "integer",
+            "description": "reports less deaths, injuries and malfunctions: Other, No answer provided, and the few reports with no event type"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "Same as periodStart"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Same as periodEnd"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the openFDA API was last read"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "disability-hearings",
       "profile": "tabular-data-resource",
       "title": "Social Security disability hearing waits and workloads by hearing office",
@@ -2186,6 +2860,241 @@
       }
     },
     {
+      "name": "drug-events",
+      "profile": "tabular-data-resource",
+      "title": "Serious drug adverse event reports by active ingredient (openFDA FAERS)",
+      "description": "Adverse event reports about drugs that reached the FDA Adverse Event Reporting System (FAERS) and are served by openFDA, received 2024Q3 to 2026Q2: 2,649,395 reports in all, 1,430,033 serious and 197,378 with a death outcome. One record per active ingredient for the 312 ingredients with the most reports plus every ingredient named in an open multidistrict litigation (31 of them tagged with their MDL numbers): reports that list the ingredient, how many were serious, how many reported a death outcome, the same counts for each of the last eight quarters, and the five most reported reactions. National, one shard. A report names a drug and an event; it does not show that the drug caused the event, and FAERS holds duplicates, follow-ups and reports from outside the United States.",
+      "path": "data/drug-events/drug-events.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23752994",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "open.fda.gov",
+          "path": "https://open.fda.gov/apis/drug/event/"
+        },
+        {
+          "title": "api.fda.gov",
+          "path": "https://api.fda.gov/drug/event.json"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or territory, or US"
+          },
+          {
+            "name": "ingredient",
+            "type": "string",
+            "description": "Active ingredient as openFDA names it (patient.drug.openfda.substance_name), or 'All drugs'"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us (all drugs together) or ingredient"
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Rank by reports in the window among the published ingredients (0 for the all-drug record)"
+          },
+          {
+            "name": "quarters",
+            "type": "string",
+            "description": "The eight calendar quarters of the window, oldest first, comma separated"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as reports: FAERS reports received in the window that list the ingredient"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "reports",
+            "type": "integer",
+            "description": "Reports received in the window that list the ingredient (all drugs: all reports)"
+          },
+          {
+            "name": "serious",
+            "type": "integer",
+            "description": "Of those, reports openFDA marks serious"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "description": "Of those, reports with a death outcome (seriousnessdeath)"
+          },
+          {
+            "name": "serious_pct",
+            "type": "number",
+            "description": "serious as a percent of reports"
+          },
+          {
+            "name": "death_pct",
+            "type": "number",
+            "description": "deaths as a percent of reports"
+          },
+          {
+            "name": "reports_q1",
+            "type": "integer",
+            "description": "Reports received in quarter 1 of the window (quarter 1 = the 1st quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q2",
+            "type": "integer",
+            "description": "Reports received in quarter 2 of the window (quarter 2 = the 2nd quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q3",
+            "type": "integer",
+            "description": "Reports received in quarter 3 of the window (quarter 3 = the 3rd quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q4",
+            "type": "integer",
+            "description": "Reports received in quarter 4 of the window (quarter 4 = the 4th quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q5",
+            "type": "integer",
+            "description": "Reports received in quarter 5 of the window (quarter 5 = the 5th quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q6",
+            "type": "integer",
+            "description": "Reports received in quarter 6 of the window (quarter 6 = the 6th quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q7",
+            "type": "integer",
+            "description": "Reports received in quarter 7 of the window (quarter 7 = the 7th quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "reports_q8",
+            "type": "integer",
+            "description": "Reports received in quarter 8 of the window (quarter 8 = the 8th quarter listed in `quarters`, oldest first)"
+          },
+          {
+            "name": "serious_q1",
+            "type": "integer",
+            "description": "Serious reports received in quarter 1 of the window"
+          },
+          {
+            "name": "serious_q2",
+            "type": "integer",
+            "description": "Serious reports received in quarter 2 of the window"
+          },
+          {
+            "name": "serious_q3",
+            "type": "integer",
+            "description": "Serious reports received in quarter 3 of the window"
+          },
+          {
+            "name": "serious_q4",
+            "type": "integer",
+            "description": "Serious reports received in quarter 4 of the window"
+          },
+          {
+            "name": "serious_q5",
+            "type": "integer",
+            "description": "Serious reports received in quarter 5 of the window"
+          },
+          {
+            "name": "serious_q6",
+            "type": "integer",
+            "description": "Serious reports received in quarter 6 of the window"
+          },
+          {
+            "name": "serious_q7",
+            "type": "integer",
+            "description": "Serious reports received in quarter 7 of the window"
+          },
+          {
+            "name": "serious_q8",
+            "type": "integer",
+            "description": "Serious reports received in quarter 8 of the window"
+          },
+          {
+            "name": "topReactions",
+            "type": "string",
+            "description": "The five most reported reactions (MedDRA preferred terms) among the window's reports for the ingredient, with counts"
+          },
+          {
+            "name": "mdl",
+            "type": "string",
+            "description": "Open multidistrict litigation dockets (from the mdl dataset) that name the ingredient"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the window"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the window"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "eeoc-charges",
       "profile": "tabular-data-resource",
       "title": "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025",
@@ -2293,6 +3202,216 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "evictions",
+      "profile": "tabular-data-resource",
+      "title": "Eviction filings by county and year (LSC Civil Court Data Initiative)",
+      "description": "Eviction filings (cases) by county and month from the Legal Services Corporation's Civil Court Data Initiative Eviction Tracker, which collects residential eviction filings from state and local courts: 1,464 counties and 34 states and territories, January 2016 through September 2025. Each record carries the filings of every full calendar year the county reports, the last twelve months where all twelve are present, filings per 100 renter households, the poverty rate and the latest month against the county's own historical average. Counties carry the Census FIPS code. LSC's data are released under CC0 1.0. The states and territories in the file are the ones LSC reports; the US record totals a year or month only where every one of them reports it.",
+      "path": "data/evictions/evictions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23752996",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "civilcourtdata.lsc.gov",
+          "path": "https://civilcourtdata.lsc.gov/data/eviction"
+        },
+        {
+          "title": "www.lsc.gov",
+          "path": "https://www.lsc.gov/terms-use"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or territory, or US"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut's retired counties keep their old codes); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state (states and territories LSC reports on) or us"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Eviction filings in the last twelve months where all twelve are present; otherwise the filings in the months LSC reports (unit says which)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "months_reported",
+            "type": "integer",
+            "description": "Months with a filing count in LSC's file"
+          },
+          {
+            "name": "first_month",
+            "type": "string",
+            "description": "First month in LSC's file (YYYY-MM)"
+          },
+          {
+            "name": "last_month",
+            "type": "string",
+            "description": "Last month in LSC's file (YYYY-MM)"
+          },
+          {
+            "name": "filings_total",
+            "type": "integer",
+            "description": "Filings in all months reported"
+          },
+          {
+            "name": "filings_2016",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2016; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2017",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2017; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2018",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2018; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2019",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2019; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2020",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2020; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2021",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2021; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2022",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2022; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2023",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2023; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_2024",
+            "type": "integer",
+            "description": "Eviction filings in calendar year 2024; empty unless all twelve months are in LSC's file"
+          },
+          {
+            "name": "filings_last12",
+            "type": "integer",
+            "description": "Filings in the twelve months through the latest month in LSC's files; empty unless all twelve are present"
+          },
+          {
+            "name": "renter_households",
+            "type": "integer",
+            "description": "Renter-occupied housing units, as LSC reports them (American Community Survey)"
+          },
+          {
+            "name": "poverty_rate",
+            "type": "number",
+            "description": "Poverty rate in percent, as LSC reports it"
+          },
+          {
+            "name": "filings_per_100_renters_last12",
+            "type": "number",
+            "description": "filings_last12 per 100 renter households"
+          },
+          {
+            "name": "pct_of_historical_average",
+            "type": "number",
+            "description": "The latest month's filings as a percent of the county's own historical average for that month (LSC)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the first month reported"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last month reported"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -3596,6 +4715,199 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "green-cards",
+      "profile": "tabular-data-resource",
+      "title": "New green cards (lawful permanent residents) by county, country of birth and class of admission",
+      "description": "New lawful permanent residents (green card holders) in the 200 U.S. counties with the most, for the two latest fiscal years: admissions by class (immediate relatives, family preference, employment preference, diversity, refugee and asylee adjustments, other) and the ten countries of birth with the most, with state sums set against the Yearbook of Immigration Statistics state totals. Read from the Department of Homeland Security's county workbooks, in which every cell is rounded to the nearest 10; sums are of rounded cells and understate the true figures, and the share of each state's total they cover is given.",
+      "path": "data/green-cards/green-cards.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753002",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ohss.dhs.gov",
+          "path": "https://ohss.dhs.gov/topics/immigration/lawful-permanent-residents/lpr-state-county-country-birth-and-major-class"
+        },
+        {
+          "title": "ohss.dhs.gov",
+          "path": "https://ohss.dhs.gov/system/files/2026-07/2026_0604_ohss_lpr_counties_top_200_fy2024.xlsx"
+        },
+        {
+          "title": "ohss.dhs.gov",
+          "path": "https://ohss.dhs.gov/system/files/2025-09/2025_0828_ohss_lpr_counties_top_200_fy2023.xlsx"
+        },
+        {
+          "title": "ohss.dhs.gov",
+          "path": "https://ohss.dhs.gov/topics/immigration/yearbook/2024"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id: dataset, place and period"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US for the national record"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state or us"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; the three Connecticut counties OHSS still uses are the crosswalks' former codes); empty for state and US"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "Federal fiscal year (October 1 to September 30)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: read from the primary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One plain sentence with the county's counts"
+          },
+          {
+            "name": "admissions_listed",
+            "type": "integer",
+            "description": "New lawful permanent residents: the sum of the workbook's cells, each rounded to the nearest 10 by OHSS, so it understates the true figure"
+          },
+          {
+            "name": "immediate_relatives",
+            "type": "integer",
+            "description": "Immediate relatives of U.S. citizens (spouses, children, parents)"
+          },
+          {
+            "name": "family_preference",
+            "type": "integer",
+            "description": "Family preference categories 1st to 4th"
+          },
+          {
+            "name": "employment",
+            "type": "integer",
+            "description": "Employment preference categories 1st to 5th"
+          },
+          {
+            "name": "diversity",
+            "type": "integer",
+            "description": "Diversity Program"
+          },
+          {
+            "name": "refugee_asylee",
+            "type": "integer",
+            "description": "Refugee and asylee adjustments"
+          },
+          {
+            "name": "other_class",
+            "type": "integer",
+            "description": "Other classes of admission"
+          },
+          {
+            "name": "top_countries",
+            "type": "string",
+            "description": "The ten countries of birth with the most listed admissions in the county, with the count, largest first"
+          },
+          {
+            "name": "admissions_listed_prev",
+            "type": "integer",
+            "description": "The same county's listed admissions in the previous fiscal year, when it was also on the top 200 list"
+          },
+          {
+            "name": "counties_listed",
+            "type": "integer",
+            "description": "State and US records: how many top-200 counties are in the sum"
+          },
+          {
+            "name": "state_total_yearbook",
+            "type": "integer",
+            "description": "State and US records: the Yearbook of Immigration Statistics total for the state (or nation) in the fiscal year"
+          },
+          {
+            "name": "listed_share_pct",
+            "type": "number",
+            "description": "admissions_listed as a percent of state_total_yearbook"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as admissions_listed"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the fiscal year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the fiscal year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the OHSS files were last read"
           },
           {
             "name": "sourceLabels",
@@ -5758,6 +7070,438 @@
       }
     },
     {
+      "name": "ny-attorneys",
+      "profile": "tabular-data-resource",
+      "title": "Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)",
+      "description": "How many lawyers are on New York's official attorney registration list, county by county. For each of the 62 counties the file counts the attorneys whose office address is there by registration status (currently registered, inside the 30-day reregistration window, delinquent, resigned, deceased, disbarred or suspended, incapacitated), by decade of admission to the New York bar, and per 10,000 residents using the Census Bureau's county population estimate. Further records count registrations with an office in each other state or territory, registrations with no office address in the public file, and the four judicial departments of admission, and the state record carries the admission-year history. Only counts are published: no name, address, phone number, firm or registration number is read, because the pull asks the court's open data portal for server-side totals and never downloads rows. Counts of one to four in a disciplinary status or an admission decade are withheld. Every record adds up to the state, the state ties to the source's own row count, and the American Bar Association's 2025 count of New York resident active lawyers sits between the two bounds the file allows.",
+      "path": "data/ny-attorneys/ny-attorneys.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753008",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/Transparency/NYS-Attorney-Registrations/eqw2-r5nb"
+        },
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "NY: every record is a New York registration"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county (office address in that New York county), county-not-given (an office in New York with no county in the file), address-outside-ny (one per state, territory or military code of an office outside New York), address-not-published (no office address in the public file), department (judicial department of admission) or state (all registrations)"
+          },
+          {
+            "name": "county",
+            "type": "integer",
+            "description": "5-digit county FIPS code (vintage 2025); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it; for department records the department's name"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "New York"
+          },
+          {
+            "name": "addressState",
+            "type": "string",
+            "description": "Two-letter code of the state, territory or military post office of the office address; NY for county records; empty where no address is published"
+          },
+          {
+            "name": "addressPlace",
+            "type": "string",
+            "description": "Name of that place, address-outside-ny records"
+          },
+          {
+            "name": "department",
+            "type": "integer",
+            "description": "Department records: 1, 2, 3 or 4 (the Appellate Division department of admission, not the office location)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year the court file was last updated"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Attorneys currently registered in the record's group"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "registered",
+            "type": "integer",
+            "description": "Registration status Currently registered"
+          },
+          {
+            "name": "due_to_reregister",
+            "type": "integer",
+            "description": "Status Due to reregister within 30 days of birthday: still registered, in the window to renew"
+          },
+          {
+            "name": "active",
+            "type": "integer",
+            "description": "Currently registered plus those in the 30-day reregistration window"
+          },
+          {
+            "name": "delinquent",
+            "type": "integer",
+            "description": "Status Delinquent: registration lapsed"
+          },
+          {
+            "name": "resigned",
+            "type": "integer",
+            "description": "Status Resigned (not for disciplinary reasons)"
+          },
+          {
+            "name": "deceased",
+            "type": "integer",
+            "description": "Status Deceased"
+          },
+          {
+            "name": "discipline_related",
+            "type": "integer",
+            "description": "Disbarred, resigned from the bar for a disciplinary reason, or suspended (currently registered, delinquent or due to reregister); withheld when 1 to 4"
+          },
+          {
+            "name": "incapacitated",
+            "type": "integer",
+            "description": "Status Incapacitated; withheld when 1 to 4"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "All registrations in the record's group, any status"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "County residents, Census estimate of July 1, 2025 (county records)"
+          },
+          {
+            "name": "active_per_10k",
+            "type": "number",
+            "description": "Active attorneys per 10,000 county residents, one decimal"
+          },
+          {
+            "name": "admitted_pre1970",
+            "type": "integer",
+            "description": "Active attorneys admitted to the New York bar before 1970 (withheld when 1 to 4); the other admitted_ columns are the decades 1970s to 2020s"
+          },
+          {
+            "name": "admitted_1970s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_1980s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_1990s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_2000s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_2010s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_2020s",
+            "type": "integer"
+          },
+          {
+            "name": "median_admission_year",
+            "type": "integer",
+            "description": "Median year of admission of the active attorneys (empty below 20 active)"
+          },
+          {
+            "name": "active_ny_county",
+            "type": "integer",
+            "description": "State record: active attorneys with an office in a New York county"
+          },
+          {
+            "name": "active_outside_ny",
+            "type": "integer",
+            "description": "State record: active attorneys with an office outside New York"
+          },
+          {
+            "name": "active_address_not_published",
+            "type": "integer",
+            "description": "State record: active attorneys with no office address in the public file"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "ny-workers-comp",
+      "profile": "tabular-data-resource",
+      "title": "New York workers' compensation claims by county and accident year",
+      "description": "Workers' compensation claims assembled by the New York State Workers' Compensation Board in every New York county, for each accident year from 2000: the number of claims, how many have an attorney or representative (count and share), how many are controverted, how many have had a hearing and how many hearings were held, and how many are classified permanent partial or permanent total disability or occupational disease. Built only from SoQL aggregates of the Board's 5.7-million-claim file on NY Open Data (no claim-level row is read), with every count of 1 to 10 claims suppressed.",
+      "path": "data/ny-workers-comp/ny-workers-comp.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753012",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/d/jshw-gkgu"
+        },
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/d/mcn4-pzd9"
+        },
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/d/sijp-fgte"
+        },
+        {
+          "title": "data.ny.gov",
+          "path": "https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id: dataset, place and period"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "NY for every record (the dataset is New York only)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state (all of New York) or unknown (claims with no county in the source)"
+          },
+          {
+            "name": "county",
+            "type": "integer",
+            "description": "5-digit county FIPS code (vintage 2025); empty for the state and unknown records"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it (Unknown for the unknown record)"
+          },
+          {
+            "name": "accidentYear",
+            "type": "integer",
+            "description": "Calendar year of the accident or disease onset (the claim's accident_date)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: aggregated from the primary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One plain sentence with the county's counts"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as claims"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "claims",
+            "type": "integer",
+            "description": "Claims the Board assembled with this injury county and accident year; null when fewer than 11"
+          },
+          {
+            "name": "atty_rep_claims",
+            "type": "integer",
+            "description": "Claims with an attorney or representative (atty_rep_ind = Y); null when 1 to 10 claims or when the claims without one number 1 to 10"
+          },
+          {
+            "name": "controverted_claims",
+            "type": "integer",
+            "description": "Claims with a controverted date (the carrier or employer disputed the claim); null when 1 to 10"
+          },
+          {
+            "name": "hearing_claims",
+            "type": "integer",
+            "description": "Claims with at least one hearing held; null when 1 to 10"
+          },
+          {
+            "name": "hearings",
+            "type": "integer",
+            "description": "Hearings held on those claims (sum of hearing_count); null when hearing_claims is suppressed"
+          },
+          {
+            "name": "ppd_claims",
+            "type": "integer",
+            "description": "Claims classified permanent partial disability (a scheduled or non-scheduled loss date is set); null when 1 to 10"
+          },
+          {
+            "name": "ptd_claims",
+            "type": "integer",
+            "description": "Claims classified permanent total disability (a PTD date is set); null when 1 to 10"
+          },
+          {
+            "name": "occ_disease_claims",
+            "type": "integer",
+            "description": "Claims flagged as occupational disease; null when 1 to 10"
+          },
+          {
+            "name": "atty_rep_share_pct",
+            "type": "number",
+            "description": "atty_rep_claims as a percent of claims"
+          },
+          {
+            "name": "controverted_share_pct",
+            "type": "number",
+            "description": "controverted_claims as a percent of claims"
+          },
+          {
+            "name": "suppressedFields",
+            "type": "string",
+            "description": "Fields left empty because the count is 1 to 10 claims (suppressed to protect privacy)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the accident year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the accident year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the Board's file was last read"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "opinions",
       "profile": "tabular-data-resource",
       "title": "Legal-marketing ethics opinions, 2004–2026",
@@ -6043,6 +7787,268 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "rail-casualties",
+      "profile": "tabular-data-resource",
+      "title": "Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)",
+      "description": "Railroad casualties, highway-rail grade crossing incidents and train accidents that railroads reported to the Federal Railroad Administration (FRA), 2021 through July 2026, for 2,315 counties with at least one report, 50 states and the US: 41,307 casualties (5,136 deaths and 36,171 nonfatal injuries or illnesses) from Form 55a, split by who was hurt (railroad employee on duty or off duty, contractor or volunteer, passenger, trespasser, other non-trespasser), 12,345 crossing incidents with the people killed and injured (Form 57) and 14,018 rail equipment accidents (Form 54), with the casualty count of each incident year. FRA's county codes are Census FIPS codes; counties retired since keep their old code. Counts come from FRA's rolling six-year views on data.transportation.gov and are aggregated server-side; no narrative or person-level field is read.",
+      "path": "data/rail-casualties/rail-casualties.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753016",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/d/bx7m-yn3v"
+        },
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/d/uwah-u9bn"
+        },
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/d/jm8x-ccxs"
+        },
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/d/kuvg-3uwp"
+        },
+        {
+          "title": "data.transportation.gov",
+          "path": "https://data.transportation.gov/d/icqf-xf4w"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or territory, or US"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut's retired counties keep their old codes); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "unplaced",
+            "type": "integer",
+            "description": "State records: reports FRA gives no usable county for (included in the state totals)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state (states and DC) or us"
+          },
+          {
+            "name": "yearsFrom",
+            "type": "integer",
+            "description": "First incident year kept"
+          },
+          {
+            "name": "yearsTo",
+            "type": "integer",
+            "description": "Last incident year kept"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "Date of the latest casualty in FRA's Form 55a view"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as casualties"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "casualties",
+            "type": "integer",
+            "description": "Railroad casualties (deaths plus nonfatal injuries and illnesses) reported on Form 55a"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "description": "Casualties that were fatal"
+          },
+          {
+            "name": "injuries",
+            "type": "integer",
+            "description": "Nonfatal injuries and illnesses"
+          },
+          {
+            "name": "employee_on_duty",
+            "type": "integer",
+            "description": "Casualties of railroad employees on duty"
+          },
+          {
+            "name": "employee_off_duty",
+            "type": "integer",
+            "description": "Casualties of railroad employees not on duty"
+          },
+          {
+            "name": "contractor_volunteer",
+            "type": "integer",
+            "description": "Casualties of contractors and volunteers (on duty or not)"
+          },
+          {
+            "name": "passenger",
+            "type": "integer",
+            "description": "Casualties of passengers on trains"
+          },
+          {
+            "name": "trespasser",
+            "type": "integer",
+            "description": "Casualties of trespassers"
+          },
+          {
+            "name": "nontrespasser",
+            "type": "integer",
+            "description": "Casualties of non-trespassers on or off railroad property"
+          },
+          {
+            "name": "other_person",
+            "type": "integer",
+            "description": "Casualties with no person class on the report"
+          },
+          {
+            "name": "employee_casualties",
+            "type": "integer",
+            "description": "employee_on_duty + employee_off_duty"
+          },
+          {
+            "name": "employee_deaths",
+            "type": "integer",
+            "description": "Deaths among railroad employees (on or off duty)"
+          },
+          {
+            "name": "crossing_incidents",
+            "type": "integer",
+            "description": "Highway-rail grade crossing incidents reported on Form 57"
+          },
+          {
+            "name": "crossing_killed",
+            "type": "integer",
+            "description": "People killed in those incidents (Form 57 total killed)"
+          },
+          {
+            "name": "crossing_injured",
+            "type": "integer",
+            "description": "People injured in those incidents (Form 57 total injured)"
+          },
+          {
+            "name": "train_accidents",
+            "type": "integer",
+            "description": "Rail equipment accidents and incidents above FRA's damage threshold (Form 54)"
+          },
+          {
+            "name": "casualties_2021",
+            "type": "integer",
+            "description": "Casualties with an incident date in 2021"
+          },
+          {
+            "name": "casualties_2022",
+            "type": "integer",
+            "description": "Casualties with an incident date in 2022"
+          },
+          {
+            "name": "casualties_2023",
+            "type": "integer",
+            "description": "Casualties with an incident date in 2023"
+          },
+          {
+            "name": "casualties_2024",
+            "type": "integer",
+            "description": "Casualties with an incident date in 2024"
+          },
+          {
+            "name": "casualties_2025",
+            "type": "integer",
+            "description": "Casualties with an incident date in 2025"
+          },
+          {
+            "name": "casualties_2026",
+            "type": "integer",
+            "description": "Casualties with an incident date in 2026 (through July)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the first incident year kept"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Date of the latest casualty"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",
@@ -6350,16 +8356,158 @@
       }
     },
     {
-      "name": "state-courts",
+      "name": "state-civil-rights",
       "profile": "tabular-data-resource",
-      "title": "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25",
-      "description": "How many cases are added to Texas trial-court dockets, by county, court level and case group, from the Office of Court Administration's annual statistical reports: district courts (civil, family, juvenile, criminal), constitutional county courts (civil, criminal, juvenile) and statutory county courts (civil, family, juvenile, felony, misdemeanor), for Texas fiscal years 2024 and 2025 (September 1 to August 31). The state rows also give district-court filings by case type: motor-vehicle injury, medical malpractice, other injury or damage, product liability, contract, real property, family and criminal types. Each record gives the cases added, the year before, the cases disposed and the cases pending at year end, and a rate per 100,000 residents for county rows. In every table the counties add up exactly to the report's own statewide row, and the district-court rows reconcile to the separate Activity Detail workbook. Counts only: no lawyer or firm is listed or ranked. The schema carries a state code so other states' machine-readable caseloads can be added under the same keys; case types are compared only within a state.",
-      "path": "data/state-courts/state-courts.csv",
+      "title": "State civil-rights agency complaints and charges: figures printed in state annual reports",
+      "description": "Complaint and charge counts that state civil-rights agencies print in their own annual reports or publish as open data, one row per figure with the document's URL and a verbatim quote: California Civil Rights Department (2024 intake forms and immediate right-to-sue requests), Illinois Department of Human Rights (charges received and employment charges in fiscal year 2024, charges docketed in 2025) and the Pennsylvania Human Relations Commission (allegations in employment complaints, fiscal years 2021-22 to 2024-25 and the part of 2025-26 so far). Each quote is re-checked against the document, and each Pennsylvania figure against the portal's own aggregate. States that block the fetcher or publish no count are not included.",
+      "path": "data/state-civil-rights/state-civil-rights.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23723926",
+      "id": "https://doi.org/10.5281/zenodo.23753029",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "calcivilrights.ca.gov",
+          "path": "https://calcivilrights.ca.gov/"
+        },
+        {
+          "title": "dhr.illinois.gov",
+          "path": "https://dhr.illinois.gov/about-us/idhr-reports.html"
+        },
+        {
+          "title": "data.pa.gov",
+          "path": "https://data.pa.gov/Employment-First/Human-Relations-Complaints-of-Discrimination-State/i3hm-qnwp"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "level",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "agency",
+            "type": "string",
+            "description": "The state agency that published the figure"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "What is counted: intake-forms, immediate-right-to-sue, charges-received, employment-charges, charges-docketed or employment-allegations"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Calendar or state fiscal year the figure covers"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The figure as the agency prints it"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the figure counts (units differ by state)"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The verbatim words in the document that carry the figure (for Pennsylvania, the portal query and its result)"
+          },
+          {
+            "name": "document",
+            "type": "string",
+            "description": "The report or table the figure comes from"
+          },
+          {
+            "name": "documentUrl",
+            "type": "string",
+            "description": "Where the document is"
+          },
+          {
+            "name": "verified",
+            "type": "string",
+            "description": "The date the quote was last found in the document"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "state-courts",
+      "profile": "tabular-data-resource",
+      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow)",
+      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts (criminal, civil, domestic, probate, adoption and parentage, mental illness, juvenile dependency and offender) and district and municipal courts (traffic infractions, DUI, other traffic and non-traffic misdemeanors, civil protection orders, civil and small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type (tort, contract, divorce, paternity, juvenile, felony and more) and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders and domestic violence), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, guardianship, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by county and category (felony, misdemeanor, criminal traffic, traffic, civil, small claims, divorce, other family, paternity, adoption, estates and informal probate, guardianship, commitments, juvenile delinquency and child-welfare), 2020 to 2025. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin), and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Counts only: no lawyer or firm is listed or ranked.",
+      "path": "data/state-courts/state-courts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23753032",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6374,6 +8522,22 @@
         {
           "title": "www.txcourts.gov",
           "path": "https://www.txcourts.gov/statistics/annual-statistical-reports/2024/"
+        },
+        {
+          "title": "www.courts.wa.gov",
+          "path": "https://www.courts.wa.gov/caseload/"
+        },
+        {
+          "title": "www.mdcourts.gov",
+          "path": "https://www.mdcourts.gov/dashboard/about"
+        },
+        {
+          "title": "www.in.gov",
+          "path": "https://www.in.gov/courts/iocs/statistics/trial-probation"
+        },
+        {
+          "title": "www.wicourts.gov",
+          "path": "https://www.wicourts.gov/publications/statistics/circuit/circuitstats.htm"
         }
       ],
       "schema": {
@@ -6386,12 +8550,12 @@
           {
             "name": "state",
             "type": "string",
-            "description": "Two-letter state code (TX for now)"
+            "description": "Two-letter state code (TX, WA, MD, IN or WI so far)"
           },
           {
             "name": "area",
             "type": "string",
-            "description": "TX for the whole state, or TX-COUNTYNAME for a county (uppercase, hyphens for spaces)"
+            "description": "The state code for the whole state, or STATE-COUNTYNAME for a county (uppercase, hyphens for spaces), e.g. WA-KING, MD-BALTIMORE-CITY"
           },
           {
             "name": "areaName",
@@ -6406,7 +8570,7 @@
           {
             "name": "courtLevel",
             "type": "string",
-            "description": "district, constitutional-county or statutory-county: the court level the count is for"
+            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit)"
           },
           {
             "name": "courtLevelName",
@@ -6415,12 +8579,12 @@
           {
             "name": "group",
             "type": "string",
-            "description": "The state's case group: civil, family, juvenile, criminal, felony or misdemeanor"
+            "description": "The group: civil, family, probate, juvenile, criminal, traffic, small-claims or landlord-tenant (Texas: civil, family, juvenile, criminal, felony or misdemeanor)"
           },
           {
             "name": "measure",
             "type": "string",
-            "description": "Court level, group and what is counted: added (cases and motions put on the docket) or filed-<case type> (district-court filings by case type, statewide)"
+            "description": "Texas: court level, group and what is counted. Other states: the harmonized group (for example civil-eviction, family-divorce, criminal-dui)"
           },
           {
             "name": "measureLabel",
@@ -6429,17 +8593,32 @@
           {
             "name": "caseType",
             "type": "string",
-            "description": "The state's case type, as its report names it; empty for a whole group"
+            "description": "The state's own category or categories added into the value, as the state names them; empty for a whole group (Texas)"
+          },
+          {
+            "name": "harm",
+            "type": "string",
+            "description": "Our harmonized group for non-Texas states; empty for Texas"
+          },
+          {
+            "name": "practices",
+            "type": "string",
+            "description": "The practice-area ids from the shared taxonomy (/data/v1/crosswalks/) the group bears on, separated by semicolons"
+          },
+          {
+            "name": "periodKind",
+            "type": "string",
+            "description": "fiscal year or calendar year: what the state counts by"
           },
           {
             "name": "fy",
             "type": "string",
-            "description": "The state fiscal year (Texas: September 1 to August 31), e.g. 2024-25"
+            "description": "The period: a Texas or Maryland fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana)"
           },
           {
             "name": "value",
             "type": "integer",
-            "description": "Cases added to the docket (or filed, for a case type) in the fiscal year"
+            "description": "Cases filed in the period (Texas: added to the docket; Wisconsin: cases opened, the state's Total Opened)"
           },
           {
             "name": "unit",
@@ -6527,6 +8706,359 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "state-wage-claims",
+      "profile": "tabular-data-resource",
+      "title": "State labor agency wage claims: figures printed in state reports",
+      "description": "Wage-claim counts that state labor agencies print in their own reports, one row per figure with the document's URL and a verbatim quote: the California Labor Commissioner's Office (wage claims filed in 2021, from its Labor Code section 96.1 report) and the Washington Department of Labor & Industries (wage complaints in state fiscal years 2024 and 2025, from its Workplace Rights Investigations reports). Each quote is re-checked against the document at each refresh. States whose pages block the fetcher or publish no count are not included.",
+      "path": "data/state-wage-claims/state-wage-claims.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753046",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.dir.ca.gov",
+          "path": "https://www.dir.ca.gov/DLSE/"
+        },
+        {
+          "title": "lni.wa.gov",
+          "path": "https://lni.wa.gov/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "level",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "agency",
+            "type": "string",
+            "description": "The state agency that published the figure"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "wage-claims-filed or wage-complaints"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Calendar or state fiscal year the figure covers"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The figure as the agency prints it"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the figure counts"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The verbatim words in the document that carry the figure"
+          },
+          {
+            "name": "document",
+            "type": "string",
+            "description": "The report the figure comes from"
+          },
+          {
+            "name": "documentUrl",
+            "type": "string",
+            "description": "Where the document is"
+          },
+          {
+            "name": "verified",
+            "type": "string",
+            "description": "The date the quote was last found in the document"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "toxic-releases",
+      "profile": "tabular-data-resource",
+      "title": "Toxic chemical releases by county (EPA Toxics Release Inventory)",
+      "description": "Toxic chemicals that industrial and federal facilities reported releasing on site to the Environmental Protection Agency's Toxics Release Inventory (TRI) in reporting year 2024, for 2,437 counties with a reporting facility, 56 states and territories and the US: 21,482 facilities and 2,842,308,160 pounds in all (530,322,130 to air, 188,664,266 to water, 2,123,321,764 to land), with the pounds of known or suspected carcinogens, PFAS, ethylene oxide, benzene and lead, and the on-site total of each of the earlier years kept (2020, 2021, 2022, 2023). State records list the three largest parent companies. Counties carry the Census FIPS code. Dioxin-like compounds, which facilities report in grams, are converted to pounds. TRI counts reported releases by listed chemicals from covered facilities; it is not a measure of exposure or of harm.",
+      "path": "data/toxic-releases/toxic-releases.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753052",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.epa.gov",
+          "path": "https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present"
+        },
+        {
+          "title": "data.epa.gov",
+          "path": "https://data.epa.gov/efservice/downloads/tri/mv_tri_basic_download/2024_US/csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or territory, or US"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut's retired counties keep their old codes); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "topParents",
+            "type": "string",
+            "description": "State records: the three largest standard parent companies by on-site pounds (businesses)"
+          },
+          {
+            "name": "unplaced_lbs",
+            "type": "integer",
+            "description": "State records: pounds on forms whose county could not be matched to a county code (included in the state total)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state (states and territories) or us"
+          },
+          {
+            "name": "reportingYear",
+            "type": "integer",
+            "description": "TRI reporting year of the figures"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as onsite_lbs: pounds released on site in the latest reporting year"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "facilities",
+            "type": "integer",
+            "description": "Facilities that filed a TRI form for the place that year"
+          },
+          {
+            "name": "onsite_lbs",
+            "type": "integer",
+            "description": "Total on-site releases in pounds: to air, water, land and underground, including disposal in landfills"
+          },
+          {
+            "name": "air_lbs",
+            "type": "integer",
+            "description": "Fugitive and stack air releases in pounds"
+          },
+          {
+            "name": "water_lbs",
+            "type": "integer",
+            "description": "Releases to surface water in pounds"
+          },
+          {
+            "name": "land_lbs",
+            "type": "integer",
+            "description": "Releases to land in pounds: underground injection, landfills, land treatment, surface impoundments and other disposal"
+          },
+          {
+            "name": "carcinogens_lbs",
+            "type": "integer",
+            "description": "On-site pounds of chemicals TRI flags as known or suspected carcinogens (includes ethylene oxide and benzene)"
+          },
+          {
+            "name": "pfas_lbs",
+            "type": "integer",
+            "description": "On-site pounds of per- and polyfluoroalkyl substances on the TRI list"
+          },
+          {
+            "name": "ethylene_oxide_lbs",
+            "type": "integer",
+            "description": "On-site pounds of ethylene oxide"
+          },
+          {
+            "name": "benzene_lbs",
+            "type": "integer",
+            "description": "On-site pounds of benzene"
+          },
+          {
+            "name": "lead_lbs",
+            "type": "integer",
+            "description": "On-site pounds of lead and lead compounds"
+          },
+          {
+            "name": "onsite_lbs_2020",
+            "type": "integer",
+            "description": "On-site releases in pounds in reporting year 2020"
+          },
+          {
+            "name": "onsite_lbs_2021",
+            "type": "integer",
+            "description": "On-site releases in pounds in reporting year 2021"
+          },
+          {
+            "name": "onsite_lbs_2022",
+            "type": "integer",
+            "description": "On-site releases in pounds in reporting year 2022"
+          },
+          {
+            "name": "onsite_lbs_2023",
+            "type": "integer",
+            "description": "On-site releases in pounds in reporting year 2023"
+          },
+          {
+            "name": "onsite_lbs_2024",
+            "type": "integer",
+            "description": "On-site releases in pounds in reporting year 2024"
+          },
+          {
+            "name": "change_pct",
+            "type": "number",
+            "description": "Percent change in on-site pounds from the previous reporting year"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the reporting year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the reporting year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -6712,6 +9244,507 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "unemployment",
+      "profile": "tabular-data-resource",
+      "title": "County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month",
+      "description": "The unemployment rate, number unemployed, employed and labor force for every county and state, from the Bureau of Labor Statistics' Local Area Unemployment Statistics (LAUS) program: the annual average for each year 2015 to 2025 and the latest 13 months. Each county and state record carries the latest annual average, the change from the year before and since 2015, and the latest month (preliminary until BLS revises it). County figures are model-based estimates that BLS controls to its state totals; the build checks that county employment, unemployment and labor force add up to the state's. Retired Alaska census-area codes with no current estimate are left out, and Connecticut appears as BLS publishes it.",
+      "path": "data/unemployment/unemployment.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753061",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/lau/"
+        },
+        {
+          "title": "download.bls.gov",
+          "path": "https://download.bls.gov/pub/time.series/la/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county or state"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code as BLS uses it (Connecticut by planning region); empty for states"
+          },
+          {
+            "name": "countyName",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The period of the headline figure"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest complete annual-average year"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Unemployment rate, percent, latest annual average"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "unemployment_rate",
+            "type": "number",
+            "description": "Unemployment rate, percent, latest annual average (not seasonally adjusted)"
+          },
+          {
+            "name": "unemployed",
+            "type": "integer",
+            "description": "People unemployed, annual average"
+          },
+          {
+            "name": "employed",
+            "type": "integer",
+            "description": "People employed, annual average"
+          },
+          {
+            "name": "labor_force",
+            "type": "integer",
+            "description": "Civilian labor force, annual average"
+          },
+          {
+            "name": "rate_change_1y",
+            "type": "number",
+            "description": "Change in the rate from the year before, percentage points"
+          },
+          {
+            "name": "rate_change_since_2015",
+            "type": "number",
+            "description": "Change in the rate since 2015, percentage points"
+          },
+          {
+            "name": "latest_month",
+            "type": "string",
+            "description": "The latest month in the file (YYYY-MM)"
+          },
+          {
+            "name": "latest_month_rate",
+            "type": "number",
+            "description": "Unemployment rate in that month, percent"
+          },
+          {
+            "name": "latest_month_preliminary",
+            "type": "boolean",
+            "description": "true while BLS has not yet revised that month"
+          },
+          {
+            "name": "latest_month_unemployed",
+            "type": "integer",
+            "description": "People unemployed in that month"
+          },
+          {
+            "name": "latest_month_labor_force",
+            "type": "integer",
+            "description": "Labor force in that month"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "uscis-offices",
+      "profile": "tabular-data-resource",
+      "title": "USCIS naturalization and green card applications by field office",
+      "description": "Applications to U.S. Citizenship and Immigration Services for naturalization (Form N-400, general and military) and for a green card by adjustment of status (Form I-485, family, employment, humanitarian and other), received, approved, denied and pending at every USCIS field office and service centre, for each fiscal quarter USCIS has published, with the nationwide totals. Read cell for cell from the agency's quarterly performance workbooks and tied to its service-wide quarterly totals. USCIS prints D where disclosure standards are not met; those cells are left empty and marked suppressed, never estimated.",
+      "path": "data/uscis-offices/uscis-offices.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753086",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.uscis.gov",
+          "path": "https://www.uscis.gov/tools/reports-and-studies/immigration-and-citizenship-data"
+        },
+        {
+          "title": "www.uscis.gov",
+          "path": "https://www.uscis.gov/sites/default/files/document/data/n400_performance_data_fy2026_q3_v1.xlsx"
+        },
+        {
+          "title": "www.uscis.gov",
+          "path": "https://www.uscis.gov/sites/default/files/document/data/i485_performance_data_fy2026_q3_v1.xlsx"
+        },
+        {
+          "title": "www.uscis.gov",
+          "path": "https://www.uscis.gov/sites/default/files/document/data/quarterly_all_forms_fy2026_q3_v1.xlsx"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id: dataset, place and period"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state or territory the office sits in, or US (the nationwide record, and the two centres USCIS lists without a state)"
+          },
+          {
+            "name": "officeCode",
+            "type": "string",
+            "description": "USCIS's own three-letter office code (US for the nationwide record)"
+          },
+          {
+            "name": "officeName",
+            "type": "string",
+            "description": "Office name as USCIS prints it (the I-485 file's spelling where the two files differ)"
+          },
+          {
+            "name": "officeType",
+            "type": "string",
+            "description": "field-office, service-center, national-benefits-center or us"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "Federal fiscal year (October 1 to September 30) of the quarter"
+          },
+          {
+            "name": "quarter",
+            "type": "integer",
+            "description": "Fiscal quarter 1 to 4 (Q1 is October to December)"
+          },
+          {
+            "name": "periodStart",
+            "type": "string",
+            "description": "First day of the quarter"
+          },
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "Last day of the quarter"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: read from the primary source"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "Same as periodStart"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Same as periodEnd"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One plain sentence with the office's counts"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "N-400 and I-485 applications received in the quarter (the totals columns added); counts only"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "n400_gen_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form N-400, general naturalization"
+          },
+          {
+            "name": "n400_gen_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form N-400, general naturalization"
+          },
+          {
+            "name": "n400_gen_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form N-400, general naturalization"
+          },
+          {
+            "name": "n400_gen_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form N-400, general naturalization"
+          },
+          {
+            "name": "n400_mil_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form N-400, military naturalization"
+          },
+          {
+            "name": "n400_mil_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form N-400, military naturalization"
+          },
+          {
+            "name": "n400_mil_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form N-400, military naturalization"
+          },
+          {
+            "name": "n400_mil_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form N-400, military naturalization"
+          },
+          {
+            "name": "n400_tot_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form N-400, all naturalization (general plus military)"
+          },
+          {
+            "name": "n400_tot_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form N-400, all naturalization (general plus military)"
+          },
+          {
+            "name": "n400_tot_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form N-400, all naturalization (general plus military)"
+          },
+          {
+            "name": "n400_tot_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form N-400, all naturalization (general plus military)"
+          },
+          {
+            "name": "i485_fam_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form I-485, family-based"
+          },
+          {
+            "name": "i485_fam_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form I-485, family-based"
+          },
+          {
+            "name": "i485_fam_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form I-485, family-based"
+          },
+          {
+            "name": "i485_fam_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form I-485, family-based"
+          },
+          {
+            "name": "i485_emp_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form I-485, employment-based (received at service centres)"
+          },
+          {
+            "name": "i485_emp_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form I-485, employment-based (received at service centres)"
+          },
+          {
+            "name": "i485_emp_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form I-485, employment-based (received at service centres)"
+          },
+          {
+            "name": "i485_emp_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form I-485, employment-based (received at service centres)"
+          },
+          {
+            "name": "i485_hum_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form I-485, humanitarian-based (asylee, refugee, Indochinese, Cuban)"
+          },
+          {
+            "name": "i485_hum_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form I-485, humanitarian-based (asylee, refugee, Indochinese, Cuban)"
+          },
+          {
+            "name": "i485_hum_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form I-485, humanitarian-based (asylee, refugee, Indochinese, Cuban)"
+          },
+          {
+            "name": "i485_hum_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form I-485, humanitarian-based (asylee, refugee, Indochinese, Cuban)"
+          },
+          {
+            "name": "i485_oth_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form I-485, other categories (for example crime and trafficking victims)"
+          },
+          {
+            "name": "i485_oth_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form I-485, other categories (for example crime and trafficking victims)"
+          },
+          {
+            "name": "i485_oth_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form I-485, other categories (for example crime and trafficking victims)"
+          },
+          {
+            "name": "i485_oth_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form I-485, other categories (for example crime and trafficking victims)"
+          },
+          {
+            "name": "i485_tot_rec",
+            "type": "integer",
+            "description": "Applications received in the quarter, Form I-485, all categories"
+          },
+          {
+            "name": "i485_tot_app",
+            "type": "integer",
+            "description": "Applications approved in the quarter, Form I-485, all categories"
+          },
+          {
+            "name": "i485_tot_den",
+            "type": "integer",
+            "description": "Applications denied in the quarter, Form I-485, all categories"
+          },
+          {
+            "name": "i485_tot_pen",
+            "type": "integer",
+            "description": "Applications pending at the end of the quarter, Form I-485, all categories"
+          },
+          {
+            "name": "suppressedFields",
+            "type": "string",
+            "description": "Fields USCIS printed as D (disclosure standards not met), left empty here and never estimated"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the source file was last read"
           },
           {
             "name": "sourceLabels",
@@ -6941,6 +9974,186 @@
             "name": "effectiveTo",
             "type": "string",
             "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "va-spending",
+      "profile": "tabular-data-resource",
+      "title": "VA disability compensation, pension and survivor dollars by county (VA GDX report)",
+      "description": "Dollars the Department of Veterans Affairs paid in direct benefits in fiscal year 2025 in every U.S. county, from the Geographic Distribution of VA Expenditures (GDX) workbook of VA's National Center for Veterans Analysis and Statistics: disability compensation and veterans pension, dependency and indemnity compensation (DIC) and survivors pension, insurance, and specially adapted housing, with the total recomputed as the sum of the four (the workbook's Total column is a formula), and the compensation, pension and survivor dollars of the year before for the change. One record per county or county equivalent (3,223), per state, DC, Puerto Rico and Guam, for foreign countries, the Freely Associated States, other U.S. territories and unknown addresses, and for the US (187,660,338,257 dollars in all). Counties carry the Census FIPS code; Connecticut's counties are the planning regions.",
+      "path": "data/va-spending/va-spending.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753088",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.va.gov",
+          "path": "https://www.va.gov/VETDATA/docs/GDX/GDX_FY25.xlsx"
+        },
+        {
+          "title": "www.va.gov",
+          "path": "https://www.va.gov/vetdata/expenditures.asp"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, DC or territory, or US"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; Connecticut's retired counties keep their old codes); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, state (states, DC, Puerto Rico and Guam), foreign, fas, other-territories, unknown or us"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "VA fiscal year of the dollars (it ends September 30)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Same as totalDirect: dollars of VA direct benefit expenditures"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "totalDirect",
+            "type": "number",
+            "description": "Total direct expenditure in dollars: compPension + dicSurvivors + insurance + adaptedHousing, recomputed"
+          },
+          {
+            "name": "compPension",
+            "type": "integer",
+            "description": "Disability compensation and veterans pension payments, dollars"
+          },
+          {
+            "name": "dicSurvivors",
+            "type": "integer",
+            "description": "Dependency and indemnity compensation (DIC) and survivors pension, including benefits for children of certain veterans, dollars"
+          },
+          {
+            "name": "insurance",
+            "type": "number",
+            "description": "VA life insurance payments (death claims, dividends, cash surrenders and disability benefits), dollars"
+          },
+          {
+            "name": "adaptedHousing",
+            "type": "integer",
+            "description": "Specially Adapted Housing and Special Housing Adaptation grants, dollars"
+          },
+          {
+            "name": "compSurvivors",
+            "type": "integer",
+            "description": "compPension + dicSurvivors: the dollars that follow disability, pension and survivor awards"
+          },
+          {
+            "name": "compPension_prev",
+            "type": "number",
+            "description": "compPension a year earlier (previous fiscal year's workbook), dollars; empty where the county could not be matched"
+          },
+          {
+            "name": "dicSurvivors_prev",
+            "type": "number",
+            "description": "dicSurvivors a year earlier, dollars"
+          },
+          {
+            "name": "change_comp_survivors",
+            "type": "number",
+            "description": "compSurvivors less the year-earlier figures, dollars"
+          },
+          {
+            "name": "change_pct",
+            "type": "number",
+            "description": "change_comp_survivors as a percent of the year-earlier compSurvivors"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the fiscal year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the fiscal year"
           },
           {
             "name": "lastChecked",
@@ -7606,6 +10819,182 @@
             "name": "osha_current_penalties_10y",
             "type": "number",
             "description": "Current OSHA penalties over the ten fiscal years, in dollars"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "warn-layoffs",
+      "profile": "tabular-data-resource",
+      "title": "WARN Act layoff and closure notices by county: California and Texas",
+      "description": "How many mass-layoff and plant-closure notices employers filed under the Worker Adjustment and Retraining Notification (WARN) Act, and how many employees they covered, for every county in the states whose workforce agencies publish the notices as files: California (July 2023 on, from the Employment Development Department's reports) and Texas (2019 on, from the Texas Workforce Commission's open-data table). Each county, state and county-not-given record carries the last 12 months, the last complete calendar year, the total since the file starts, and the month-by-month series. Only counts are kept: no employer name, address or contact. Notices are dated by the day the state agency received them. Other states are not included.",
+      "path": "data/warn-layoffs/warn-layoffs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23753097",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "edd.ca.gov",
+          "path": "https://edd.ca.gov/en/jobs_and_training/layoff_services_warn"
+        },
+        {
+          "title": "data.texas.gov",
+          "path": "https://data.texas.gov/Labor-and-Employment/Worker-Adjustment-and-Retraining-Notification-WARN-/8w53-c4f6"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (CA or TX)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county, county-not-given (blank or out-of-state sites) or state"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code; empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Notices received in the 12 months to the end of the file"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "warn_notices_12m",
+            "type": "integer",
+            "description": "WARN notices received in the 12 months to coverage_to (one per work site)"
+          },
+          {
+            "name": "warn_employees_12m",
+            "type": "integer",
+            "description": "Employees those notices cover, as the employer reported"
+          },
+          {
+            "name": "last_complete_year",
+            "type": "integer",
+            "description": "The last complete calendar year in the file"
+          },
+          {
+            "name": "warn_notices_last_year",
+            "type": "integer",
+            "description": "Notices received in that year"
+          },
+          {
+            "name": "warn_employees_last_year",
+            "type": "integer",
+            "description": "Employees covered in that year"
+          },
+          {
+            "name": "warn_notices_total",
+            "type": "integer",
+            "description": "Notices received since coverage_from"
+          },
+          {
+            "name": "warn_employees_total",
+            "type": "integer",
+            "description": "Employees covered since coverage_from"
+          },
+          {
+            "name": "coverage_from",
+            "type": "string",
+            "description": "Date of the first notice in the state's file"
+          },
+          {
+            "name": "coverage_to",
+            "type": "string",
+            "description": "Date of the last notice in the state's file"
           },
           {
             "name": "effectiveFrom",

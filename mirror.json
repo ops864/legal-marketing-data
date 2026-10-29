@@ -28,6 +28,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "business-applications",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23752969",
+      "released": "2026-10-29"
+    },
+    {
       "id": "ca-courts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23658524",
@@ -52,6 +58,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "county-income",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23752984",
+      "released": "2026-10-29"
+    },
+    {
       "id": "criminal-filings",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744206",
@@ -70,16 +82,34 @@
       "released": "2026-10-28"
     },
     {
+      "id": "device-events",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23752988",
+      "released": "2026-10-29"
+    },
+    {
       "id": "disability-hearings",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23741884",
       "released": "2026-10-28"
     },
     {
+      "id": "drug-events",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23752994",
+      "released": "2026-10-29"
+    },
+    {
       "id": "eeoc-charges",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23733005",
       "released": "2026-10-28"
+    },
+    {
+      "id": "evictions",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23752996",
+      "released": "2026-10-29"
     },
     {
       "id": "fatal-crashes",
@@ -115,6 +145,12 @@
       "id": "firm-web-census",
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23750638",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "green-cards",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753002",
       "released": "2026-10-29"
     },
     {
@@ -184,6 +220,18 @@
       "released": "2026-10-28"
     },
     {
+      "id": "ny-attorneys",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753008",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "ny-workers-comp",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753012",
+      "released": "2026-10-29"
+    },
+    {
       "id": "opinions",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23734859",
@@ -194,6 +242,12 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23716831",
       "released": "2026-10-28"
+    },
+    {
+      "id": "rail-casualties",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753016",
+      "released": "2026-10-29"
     },
     {
       "id": "referral",
@@ -208,10 +262,28 @@
       "released": "2026-10-28"
     },
     {
-      "id": "state-courts",
+      "id": "state-civil-rights",
       "version": "1.0.0",
-      "doi": "10.5281/zenodo.23723926",
-      "released": "2026-10-28"
+      "doi": "10.5281/zenodo.23753029",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "state-courts",
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23753032",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "state-wage-claims",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753046",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "toxic-releases",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753052",
+      "released": "2026-10-29"
     },
     {
       "id": "truck-crashes",
@@ -220,10 +292,28 @@
       "released": "2026-10-28"
     },
     {
+      "id": "unemployment",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753061",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "uscis-offices",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753086",
+      "released": "2026-10-29"
+    },
+    {
       "id": "va-compensation",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744210",
       "released": "2026-10-28"
+    },
+    {
+      "id": "va-spending",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753088",
+      "released": "2026-10-29"
     },
     {
       "id": "vehicle-complaints",
@@ -242,6 +332,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744226",
       "released": "2026-10-28"
+    },
+    {
+      "id": "warn-layoffs",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23753097",
+      "released": "2026-10-29"
     },
     {
       "id": "work-injuries",

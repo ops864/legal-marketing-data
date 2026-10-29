@@ -32,6 +32,9 @@ identifiers:
     value: "10.5281/zenodo.23688755"
     description: "Probative benchmarks, 2025–2026: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23752968"
+    description: "New business applications by county (Census Business Formation Statistics): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23658523"
     description: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
   - type: doi
@@ -44,6 +47,9 @@ identifiers:
     value: "10.5281/zenodo.23741875"
     description: "FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23752983"
+    description: "County income and migration from IRS tax returns: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23744205"
     description: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3): concept DOI (all versions)"
   - type: doi
@@ -53,11 +59,20 @@ identifiers:
     value: "10.5281/zenodo.23721429"
     description: "Legal deserts: law offices and lawyers per resident in every U.S. county: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23752987"
+    description: "Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23741883"
     description: "Social Security disability hearing waits and workloads by hearing office: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23752993"
+    description: "Serious drug adverse event reports by active ingredient (openFDA FAERS): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23733004"
     description: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23752995"
+    description: "Eviction filings by county and year (LSC Civil Court Data Initiative): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23733738"
     description: "Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024: concept DOI (all versions)"
@@ -76,6 +91,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23750637"
     description: "US law firm websites: practices, Spanish, intake, by state, county and practice area: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753001"
+    description: "New green cards (lawful permanent residents) by county, country of birth and class of admission: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23739968"
     description: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: concept DOI (all versions)"
@@ -110,11 +128,20 @@ identifiers:
     value: "10.5281/zenodo.23741900"
     description: "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23753007"
+    description: "Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753011"
+    description: "New York workers' compensation claims by county and accident year: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23656748"
     description: "Legal-marketing ethics opinions, 2004–2026: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23656752"
     description: "Legal ad-platform policy tracker: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753015"
+    description: "Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23720025"
     description: "Referral-fee and fee-splitting rules for lawyers, by state: concept DOI (all versions)"
@@ -122,14 +149,32 @@ identifiers:
     value: "10.5281/zenodo.23733009"
     description: "Unwanted-call and text-message complaints to the FCC, by state and month: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23753028"
+    description: "State civil-rights agency complaints and charges: figures printed in state annual reports: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23723925"
-    description: "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
+    description: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753045"
+    description: "State labor agency wage claims: figures printed in state reports: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753051"
+    description: "Toxic chemical releases by county (EPA Toxics Release Inventory): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23743676"
     description: "Truck and bus crashes by county, state and year (FMCSA crash file): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23753058"
+    description: "County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753085"
+    description: "USCIS naturalization and green card applications by field office: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23744209"
     description: "VA disability compensation recipients by county and combined rating: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753087"
+    description: "VA disability compensation, pension and survivor dollars by county (VA GDX report): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23744213"
     description: "Vehicle safety complaints by state, make and model year (NHTSA complaint file): concept DOI (all versions)"
@@ -139,6 +184,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23744225"
     description: "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23753096"
+    description: "WARN Act layoff and closure notices by county: California and Texas: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23740009"
     description: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI): concept DOI (all versions)"
@@ -180,6 +228,15 @@ references:
     url: "https://probativegrowth.com/research/benchmarks/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "New business applications by county (Census Business Formation Statistics)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23752969"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/business-applications/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25"
     authors:
       - name: "Probative Growth"
@@ -216,6 +273,15 @@ references:
     url: "https://probativegrowth.com/data/consumer-sentinel/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "County income and migration from IRS tax returns"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23752984"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/county-income/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)"
     authors:
       - name: "Probative Growth"
@@ -243,6 +309,15 @@ references:
     url: "https://probativegrowth.com/research/legal-deserts/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23752988"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/device-events/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "Social Security disability hearing waits and workloads by hearing office"
     authors:
       - name: "Probative Growth"
@@ -252,6 +327,15 @@ references:
     url: "https://probativegrowth.com/data/disability-hearings/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "Serious drug adverse event reports by active ingredient (openFDA FAERS)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23752994"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/drug-events/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025"
     authors:
       - name: "Probative Growth"
@@ -260,6 +344,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/eeoc-charges/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Eviction filings by county and year (LSC Civil Court Data Initiative)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23752996"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/evictions/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024"
     authors:
@@ -313,6 +406,15 @@ references:
     doi: "10.5281/zenodo.23750638"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/firm-web-census/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "New green cards (lawful permanent residents) by county, country of birth and class of admission"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753002"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/green-cards/"
     date-released: "2026-10-29"
   - type: dataset
     title: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year"
@@ -414,6 +516,24 @@ references:
     url: "https://probativegrowth.com/data/nursing-homes/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753008"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/ny-attorneys/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "New York workers' compensation claims by county and accident year"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753012"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/ny-workers-comp/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "Legal-marketing ethics opinions, 2004–2026"
     authors:
       - name: "Probative Growth"
@@ -431,6 +551,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/platforms/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753016"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/rail-casualties/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Referral-fee and fee-splitting rules for lawyers, by state"
     authors:
@@ -450,14 +579,41 @@ references:
     url: "https://probativegrowth.com/data/robocall-complaints/"
     date-released: "2026-10-28"
   - type: dataset
-    title: "State trial-court caseloads by court level, county and case type: Texas district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25"
+    title: "State civil-rights agency complaints and charges: figures printed in state annual reports"
     authors:
       - name: "Probative Growth"
     version: "1.0.0"
-    doi: "10.5281/zenodo.23723926"
+    doi: "10.5281/zenodo.23753029"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/state-civil-rights/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23753032"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-courts/"
-    date-released: "2026-10-28"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "State labor agency wage claims: figures printed in state reports"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753046"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/state-wage-claims/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "Toxic chemical releases by county (EPA Toxics Release Inventory)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753052"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/toxic-releases/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Truck and bus crashes by county, state and year (FMCSA crash file)"
     authors:
@@ -468,6 +624,24 @@ references:
     url: "https://probativegrowth.com/data/truck-crashes/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753061"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/unemployment/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "USCIS naturalization and green card applications by field office"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753086"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/uscis-offices/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "VA disability compensation recipients by county and combined rating"
     authors:
       - name: "Probative Growth"
@@ -476,6 +650,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/va-compensation/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "VA disability compensation, pension and survivor dollars by county (VA GDX report)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753088"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/va-spending/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Vehicle safety complaints by state, make and model year (NHTSA complaint file)"
     authors:
@@ -503,6 +686,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/wage-enforcement/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "WARN Act layoff and closure notices by county: California and Texas"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23753097"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/warn-layoffs/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)"
     authors:
