@@ -9,6 +9,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | Dataset | Files | DOI |
 |---|---|---|
 | [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23750572](https://doi.org/10.5281/zenodo.23750572) |
+| [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | `data/attorneys/` | [10.5281/zenodo.23777037](https://doi.org/10.5281/zenodo.23777037) |
 | [Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)](https://probativegrowth.com/research/bankruptcy-filings-by-county/) | `data/bankruptcy/` | [10.5281/zenodo.23739952](https://doi.org/10.5281/zenodo.23739952) |
 | [The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025](https://probativegrowth.com/data/bar-pipeline/) | `data/bar-pipeline/` | [10.5281/zenodo.23721443](https://doi.org/10.5281/zenodo.23721443) |
 | [Probative benchmarks, 2025–2026](https://probativegrowth.com/research/benchmarks/) | `data/benchmarks/` | [10.5281/zenodo.23735849](https://doi.org/10.5281/zenodo.23735849) |
@@ -18,6 +19,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [CFPB complaints about debt collection, credit reporting and debt management, by state and month](https://probativegrowth.com/research/consumer-finance-complaints-by-state/) | `data/consumer-complaints/` | [10.5281/zenodo.23733731](https://doi.org/10.5281/zenodo.23733731) |
 | [FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book](https://probativegrowth.com/data/consumer-sentinel/) | `data/consumer-sentinel/` | [10.5281/zenodo.23741876](https://doi.org/10.5281/zenodo.23741876) |
 | [County income and migration from IRS tax returns](https://probativegrowth.com/data/county-income/) | `data/county-income/` | [10.5281/zenodo.23752984](https://doi.org/10.5281/zenodo.23752984) |
+| [Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)](https://probativegrowth.com/data/crime-data/) | `data/crime-data/` | [10.5281/zenodo.23772522](https://doi.org/10.5281/zenodo.23772522) |
 | [Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)](https://probativegrowth.com/data/criminal-filings/) | `data/criminal-filings/` | [10.5281/zenodo.23744206](https://doi.org/10.5281/zenodo.23744206) |
 | [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | `data/crosswalks/` | [10.5281/zenodo.23744618](https://doi.org/10.5281/zenodo.23744618) |
 | [Legal deserts: law offices and lawyers per resident in every U.S. county](https://probativegrowth.com/research/legal-deserts/) | `data/deserts/` | [10.5281/zenodo.23721430](https://doi.org/10.5281/zenodo.23721430) |
@@ -48,11 +50,12 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [New York workers' compensation claims by county and accident year](https://probativegrowth.com/data/ny-workers-comp/) | `data/ny-workers-comp/` | [10.5281/zenodo.23753012](https://doi.org/10.5281/zenodo.23753012) |
 | [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | `data/opinions/` | [10.5281/zenodo.23734859](https://doi.org/10.5281/zenodo.23734859) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | `data/platforms/` | [10.5281/zenodo.23716831](https://doi.org/10.5281/zenodo.23716831) |
+| [Consumer product recalls by year and hazard (CPSC recall notices)](https://probativegrowth.com/data/product-recalls/) | `data/product-recalls/` | [10.5281/zenodo.23779145](https://doi.org/10.5281/zenodo.23779145) |
 | [Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)](https://probativegrowth.com/data/rail-casualties/) | `data/rail-casualties/` | [10.5281/zenodo.23753016](https://doi.org/10.5281/zenodo.23753016) |
 | [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23747113](https://doi.org/10.5281/zenodo.23747113) |
 | [Unwanted-call and text-message complaints to the FCC, by state and month](https://probativegrowth.com/data/robocall-complaints/) | `data/robocall-complaints/` | [10.5281/zenodo.23733010](https://doi.org/10.5281/zenodo.23733010) |
 | [State civil-rights agency complaints and charges: figures printed in state annual reports](https://probativegrowth.com/data/state-civil-rights/) | `data/state-civil-rights/` | [10.5281/zenodo.23753029](https://doi.org/10.5281/zenodo.23753029) |
-| [State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow)](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23753032](https://doi.org/10.5281/zenodo.23753032) |
+| [State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23777048](https://doi.org/10.5281/zenodo.23777048) |
 | [State labor agency wage claims: figures printed in state reports](https://probativegrowth.com/data/state-wage-claims/) | `data/state-wage-claims/` | [10.5281/zenodo.23753046](https://doi.org/10.5281/zenodo.23753046) |
 | [Toxic chemical releases by county (EPA Toxics Release Inventory)](https://probativegrowth.com/data/toxic-releases/) | `data/toxic-releases/` | [10.5281/zenodo.23753052](https://doi.org/10.5281/zenodo.23753052) |
 | [Truck and bus crashes by county, state and year (FMCSA crash file)](https://probativegrowth.com/data/truck-crashes/) | `data/truck-crashes/` | [10.5281/zenodo.23743677](https://doi.org/10.5281/zenodo.23743677) |
@@ -93,6 +96,7 @@ One click: [Add to VS Code](https://vscode.dev/redirect/mcp/install?name=probati
 Each dataset also has its own smaller server:
 
 - `https://probativegrowth.com/mcp/rules`: Lawyer advertising rules for all 50 states and DC, each with its source and status.
+- `https://probativegrowth.com/mcp/attorneys`: Attorneys by county for OH, CA, MI, ID, AZ, WA and PA from each bar's public counts, per 10,000 residents, with status and as-of date.
 - `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
 - `https://probativegrowth.com/mcp/bar-pipeline`: New lawyers by jurisdiction: bar exam pass rates and admissions, 2025.
 - `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, aggregated and rounded.
@@ -102,6 +106,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
 - `https://probativegrowth.com/mcp/consumer-sentinel`: FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams per 100,000 people (2024 Data Book).
 - `https://probativegrowth.com/mcp/county-income`: IRS income and migration by county: returns, adjusted gross income, change per return, net moves in and out of other states.
+- `https://probativegrowth.com/mcp/crime-data`: FBI violent and property crime, DUI and drug arrests by county and state, five years, with how many agencies reported.
 - `https://probativegrowth.com/mcp/criminal-filings`: Federal criminal defendants by offense and district, U.S. Courts Tables D-1 to D-3, every half-year since 2017.
 - `https://probativegrowth.com/mcp/crosswalks`: Join keys for every dataset: practice areas, federal case codes, states, federal districts and counties.
 - `https://probativegrowth.com/mcp/deserts`: Law offices and lawyers per resident in every US county (legal deserts).
@@ -132,11 +137,12 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/ny-workers-comp`: New York workers' compensation claims by county and accident year: attorney share, controverted, hearings, permanent disability.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
+- `https://probativegrowth.com/mcp/product-recalls`: CPSC consumer product recalls by year and hazard class, with the notices that report an injury or a death.
 - `https://probativegrowth.com/mcp/rail-casualties`: Railroad casualties, crossing incidents and train accidents by county from FRA Forms 55a, 57 and 54, by who was hurt.
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-civil-rights`: State civil-rights agency complaint and charge counts with the source document and quote for each figure.
-- `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (Texas, Washington, Maryland, Indiana, Wisconsin), mapped to practice areas.
+- `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX, WA, MD, IN, WI, VA, PA, OR, WV), mapped to practice areas, with county FIPS.
 - `https://probativegrowth.com/mcp/state-wage-claims`: State labor agency wage claim counts with the source document and quote for each figure.
 - `https://probativegrowth.com/mcp/toxic-releases`: EPA TRI toxic chemical releases by county: facilities, pounds on site, carcinogens, PFAS, benzene, lead, ethylene oxide.
 - `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.

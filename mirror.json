@@ -10,6 +10,12 @@
       "released": "2026-10-29"
     },
     {
+      "id": "attorneys",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23777037",
+      "released": "2026-10-29"
+    },
+    {
       "id": "bankruptcy",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739952",
@@ -61,6 +67,12 @@
       "id": "county-income",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752984",
+      "released": "2026-10-29"
+    },
+    {
+      "id": "crime-data",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23772522",
       "released": "2026-10-29"
     },
     {
@@ -244,6 +256,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "product-recalls",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23779145",
+      "released": "2026-10-29"
+    },
+    {
       "id": "rail-casualties",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753016",
@@ -269,8 +287,8 @@
     },
     {
       "id": "state-courts",
-      "version": "1.1.0",
-      "doi": "10.5281/zenodo.23753032",
+      "version": "1.4.0",
+      "doi": "10.5281/zenodo.23777048",
       "released": "2026-10-29"
     },
     {

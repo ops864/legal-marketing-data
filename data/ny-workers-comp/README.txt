@@ -24,14 +24,14 @@ Columns:
   text: One plain sentence with the county's counts
   value: Same as claims
   unit: What value counts
-  claims: Claims the Board assembled with this injury county and accident year; null when fewer than 11
-  atty_rep_claims: Claims with an attorney or representative (atty_rep_ind = Y); null when 1 to 10 claims or when the claims without one number 1 to 10
-  controverted_claims: Claims with a controverted date (the carrier or employer disputed the claim); null when 1 to 10
-  hearing_claims: Claims with at least one hearing held; null when 1 to 10
-  hearings: Hearings held on those claims (sum of hearing_count); null when hearing_claims is suppressed
-  ppd_claims: Claims classified permanent partial disability (a scheduled or non-scheduled loss date is set); null when 1 to 10
-  ptd_claims: Claims classified permanent total disability (a PTD date is set); null when 1 to 10
-  occ_disease_claims: Claims flagged as occupational disease; null when 1 to 10
+  claims: Claims the Board assembled with this injury county and accident year; small groups suppressed when fewer than 11
+  atty_rep_claims: Claims with an attorney or representative (atty_rep_ind = Y); small groups suppressed when 1 to 10 claims or when the claims without one number 1 to 10
+  controverted_claims: Claims with a controverted date (the carrier or employer disputed the claim); small groups suppressed when 1 to 10
+  hearing_claims: Claims with at least one hearing held; small groups suppressed when 1 to 10
+  hearings: Hearings held on those claims (sum of hearing_count); small groups suppressed when hearing_claims is suppressed
+  ppd_claims: Claims classified permanent partial disability (a scheduled or non-scheduled loss date is set); small groups suppressed when 1 to 10
+  ptd_claims: Claims classified permanent total disability (a PTD date is set); small groups suppressed when 1 to 10
+  occ_disease_claims: Claims flagged as occupational disease; small groups suppressed when 1 to 10
   atty_rep_share_pct: atty_rep_claims as a percent of claims
   controverted_share_pct: controverted_claims as a percent of claims
   suppressedFields: Fields left empty because the count is 1 to 10 claims (suppressed to protect privacy)

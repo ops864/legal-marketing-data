@@ -1,25 +1,26 @@
-State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow)
+State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia
 
-Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23753032
+Version 1.4.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23777048
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow), version 1.1.0, https://doi.org/10.5281/zenodo.23753032, licensed CC BY 4.0.
+Source: Probative, State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia, version 1.4.0, https://doi.org/10.5281/zenodo.23777048, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow) (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23753032
+Probative. (2026). State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia (Version 1.4.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23777048
 
-Not legal advice. These are counts from the Texas Office of Court Administration's published statistics, kept for marketing planning. A case added is a new case or motion on a court's docket, not a person or a client. Check the Office of Court Administration's current report.
+Not legal advice. These are counts from each state court system's published statistics, kept for marketing planning. A case filed is a new case on a court's docket (in Texas, a new case or motion), not a person or a client. Check the state's current report.
 Probative is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/state-courts/
 
 Columns:
   id: Stable record id (never reused)
-  state: Two-letter state code (TX, WA, MD, IN or WI so far)
-  area: The state code for the whole state, or STATE-COUNTYNAME for a county (uppercase, hyphens for spaces), e.g. WA-KING, MD-BALTIMORE-CITY
+  state: Two-letter state code (TX, WA, MD, IN, WI, VA, PA, OR or WV)
+  area: The state code for the whole state, or STATE-COUNTYNAME for a county (uppercase, hyphens for spaces), e.g. WA-KING, MD-BALTIMORE-CITY, VA-RICHMOND-CITY, PA-PHILADELPHIA; a Virginia court serving a city and a county together is one area, e.g. VA-WILLIAMSBURG-CITY-AND-JAMES-CITY
   areaName: Area name
   areaType: us, state or cbsa
-  courtLevel: The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit)
+  fips: FIPS codes of the area: the 2-digit state code on a state row; on a county row the 5-digit county code, or several codes where one court serves a city and a county together (Virginia)
+  courtLevel: The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit; Virginia: circuit, gdc (general district) or jdr (juvenile and domestic relations district); Pennsylvania: common-pleas; Oregon: circuit; West Virginia: circuit, family or magistrate)
   courtLevelName: 
   group: The group: civil, family, probate, juvenile, criminal, traffic, small-claims or landlord-tenant (Texas: civil, family, juvenile, criminal, felony or misdemeanor)
   measure: Texas: court level, group and what is counted. Other states: the harmonized group (for example civil-eviction, family-divorce, criminal-dui)
@@ -28,7 +29,7 @@ Columns:
   harm: Our harmonized group for non-Texas states; empty for Texas
   practices: The practice-area ids from the shared taxonomy (/data/v1/crosswalks/) the group bears on, separated by semicolons
   periodKind: fiscal year or calendar year: what the state counts by
-  fy: The period: a Texas or Maryland fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana)
+  fy: The period: a Texas or Maryland fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia)
   value: Cases filed in the period (Texas: added to the docket; Wisconsin: cases opened, the state's Total Opened)
   unit: Unit of value
   priorFy: 

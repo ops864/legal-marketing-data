@@ -160,6 +160,305 @@
       }
     },
     {
+      "name": "attorneys",
+      "profile": "tabular-data-resource",
+      "title": "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts",
+      "description": "How many lawyers each bar counts in each county, for seven states. Ohio: attorneys by county of address and status, from the Supreme Court of Ohio's attorney directory list (88 counties, with admission decade, private practice and Spanish speakers). California: active, inactive, judge and not-eligible licensees in each of the 58 counties, from the State Bar's county table. Michigan: active State Bar members living in each of the 83 counties, with private practice and the change from 2024. Idaho: members by status in each of the seven judicial districts. Arizona: active State Bar members in each of the 15 counties (the Bar's 2022 report). Washington: WSBA licensees of every type (lawyers plus limited licensees) in each of the 39 counties, with the attorney counts by member type. Pennsylvania: active attorneys in the seven counties the Disciplinary Board's annual report lists, and the Board's statewide status counts. Each record carries the source's own as-of date and a rate per 10,000 residents from the Census Bureau's county estimate. Only counts are published, and where a count is built from a directory file no name, birthdate, address or registration number is kept or written. In Ohio, counts of one to four in a disciplinary, deceased or other status, an admission decade, private practice or Spanish are withheld, and where a withheld count could be worked out from a county's total or the statewide figures, another count in the same group is withheld too. Every state record ties to its source's own total, and every published number is read a second time from the source file before release.",
+      "path": "data/attorneys/attorneys.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23777037",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.supremecourt.ohio.gov",
+          "path": "https://www.supremecourt.ohio.gov/AttorneySearch/#/search"
+        },
+        {
+          "title": "apps.calbar.ca.gov",
+          "path": "https://apps.calbar.ca.gov/members/demographics_counties.aspx"
+        },
+        {
+          "title": "www.michbar.org",
+          "path": "https://www.michbar.org/demographics/2025/statewide"
+        },
+        {
+          "title": "isb.idaho.gov",
+          "path": "https://isb.idaho.gov/licensing-mcle/membership-count-statuses/"
+        },
+        {
+          "title": "www.azbar.org",
+          "path": "https://www.azbar.org/media/fvvhksyg/demographic-report-final.pdf"
+        },
+        {
+          "title": "www.wsba.org",
+          "path": "https://www.wsba.org/for-legal-professionals/license-renewal/membership-records-and-services"
+        },
+        {
+          "title": "www.padisciplinaryboard.org",
+          "path": "https://www.padisciplinaryboard.org/Storage/media/pdfs/20260319/145428-2025annualreport.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state whose bar published the count: OH, CA, MI, ID, AZ, WA or PA"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county; district (Idaho judicial district); county-not-given (members in the state's total whom the source's county rows do not place, derived); out-of-state (members with an address outside the state, as the source defines it); state (the source's statewide figures)"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it; for other levels a plain label"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The record's main count; the unit says what it counts"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts (for example active attorneys with an address in the county)"
+          },
+          {
+            "name": "active",
+            "type": "integer",
+            "description": "Active attorneys or members in the group (Washington: only on the state and King County records)"
+          },
+          {
+            "name": "inactive",
+            "type": "integer",
+            "description": "Inactive attorneys or members (Ohio: withheld in a few counties so that a withheld small count cannot be worked out)"
+          },
+          {
+            "name": "retired",
+            "type": "integer",
+            "description": "Retired, senior, emeritus or permanently retired (Ohio: withheld in some counties so that a withheld small count cannot be worked out)"
+          },
+          {
+            "name": "deceased",
+            "type": "integer",
+            "description": "Ohio: deceased registrations (withheld when 1 to 4, or where needed so a withheld count cannot be worked out)"
+          },
+          {
+            "name": "discipline_related",
+            "type": "integer",
+            "description": "Ohio: suspended, disbarred, revoked or resigned with discipline pending (withheld when 1 to 4, or where needed so a withheld count cannot be worked out)"
+          },
+          {
+            "name": "other_status",
+            "type": "integer",
+            "description": "Other statuses (Ohio: corporate, resigned, pending admission and others, withheld when 1 to 4, or where needed so a withheld count cannot be worked out; Idaho: emeritus and house counsel; Washington: the other license types; Pennsylvania: in-house counsel)"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "Everyone the source counts in the group, any status"
+          },
+          {
+            "name": "active_in_state_county",
+            "type": "integer",
+            "description": "Ohio state record: active attorneys with an address in an Ohio county"
+          },
+          {
+            "name": "active_outside_state",
+            "type": "integer",
+            "description": "Ohio state record: active attorneys with an address elsewhere"
+          },
+          {
+            "name": "active_no_county",
+            "type": "integer",
+            "description": "Ohio state record: active attorneys with no county on file"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Residents, Census estimate of July 1, 2025"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of the source's as-of date"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "As-of date as a day"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "As-of date as a day"
+          },
+          {
+            "name": "asOf",
+            "type": "string",
+            "description": "The source's as-of date: a day, a month or a year (California's page shows none, so it is the day it was read)"
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "What the source counts, in a sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Day the source was read"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveat for the record, if any"
+          },
+          {
+            "name": "admitted_pre1970",
+            "type": "integer",
+            "description": "Ohio: active attorneys admitted before 1970 (withheld when 1 to 4, or where needed so a withheld count cannot be worked out); the other admitted_ columns are the decades 1970s to 2020s"
+          },
+          {
+            "name": "admitted_1970s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_1980s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_1990s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_2000s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_2010s",
+            "type": "integer"
+          },
+          {
+            "name": "admitted_2020s",
+            "type": "integer"
+          },
+          {
+            "name": "median_admission_year",
+            "type": "integer",
+            "description": "Ohio: median admission year of the active attorneys (empty below 20)"
+          },
+          {
+            "name": "private_practice",
+            "type": "integer",
+            "description": "Ohio and Michigan: active attorneys in private practice (Ohio withheld when 1 to 4, or where needed so a withheld count cannot be worked out)"
+          },
+          {
+            "name": "spanish_speaking",
+            "type": "integer",
+            "description": "Ohio: active attorneys who list Spanish (withheld when 1 to 4, or where needed so a withheld count cannot be worked out)"
+          },
+          {
+            "name": "active_per_10k",
+            "type": "number",
+            "description": "Active attorneys per 10,000 residents, one decimal"
+          },
+          {
+            "name": "judge",
+            "type": "integer",
+            "description": "Judges or judicial members"
+          },
+          {
+            "name": "not_eligible",
+            "type": "integer",
+            "description": "California: licensees not eligible to practice"
+          },
+          {
+            "name": "barDistrict",
+            "type": "integer",
+            "description": "California: State Bar district of the county; Idaho: judicial district number"
+          },
+          {
+            "name": "other_practice",
+            "type": "integer",
+            "description": "Michigan: active members not in private practice"
+          },
+          {
+            "name": "prior_value",
+            "type": "integer",
+            "description": "Michigan: the 2024 count"
+          },
+          {
+            "name": "change",
+            "type": "integer",
+            "description": "Michigan: change from 2024"
+          },
+          {
+            "name": "districtCounties",
+            "type": "string",
+            "description": "Idaho district records: the counties in the district"
+          },
+          {
+            "name": "per_10k",
+            "type": "number",
+            "description": "Washington county records: WSBA licensees of every type per 10,000 residents"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Source names"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "bankruptcy",
       "profile": "tabular-data-resource",
       "title": "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)",
@@ -1683,6 +1982,241 @@
             "name": "lastChecked",
             "type": "string",
             "description": "Date the IRS files were last read"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "crime-data",
+      "profile": "tabular-data-resource",
+      "title": "Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)",
+      "description": "What police agencies reported to the FBI over the last five complete calendar years, for every state and for 2,981 counties, home to 96.5% of U.S. residents: violent crimes, property crimes, arrests for driving under the influence, all arrests, and, for states, arrests for drug abuse violations. County rows add up the agencies the FBI places in each county (a city police department, a sheriff's office, a campus force; an agency that serves several counties counts in the county of its headquarters); a row says how many agencies there are and what share of the county's residents they cover, because a month an agency did not report is counted as not reported, never as zero, and a year in which no agency of the county reported is not published. Rates are per 100,000 residents of the agencies that did report. State rows are the FBI's own state series; the county rows add up the agency-level answers, which can come to less than the state series where the FBI's state count includes reports its agency-level answers do not return. The United States row is the sum of the states. Only counts are published: no officer, victim, suspect or agency name.",
+      "path": "data/crime-data/crime-data.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23772522",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "cde.ucr.cjis.gov",
+          "path": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home"
+        },
+        {
+          "title": "cde.ucr.cjis.gov",
+          "path": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter code of the state, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "county (agencies the FBI places in that county), county-not-given (statewide, tribal, transit and other agencies that list no single county; they count in the state total), state (the FBI's own state series) or us (the sum of the states)"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (vintage 2025; one Alaska census area carries the former code the FBI agency list still uses); empty for other levels"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name as the Census Bureau writes it"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest full calendar year in the record"
+          },
+          {
+            "name": "window",
+            "type": "string",
+            "description": "The five calendar years covered"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "DUI arrests reported in the latest year"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "violent_crimes",
+            "type": "integer",
+            "description": "Violent crimes (murder, rape, robbery, aggravated assault) agencies reported in the latest year"
+          },
+          {
+            "name": "property_crimes",
+            "type": "integer",
+            "description": "Property crimes (burglary, larceny-theft, motor vehicle theft, arson) agencies reported in the latest year"
+          },
+          {
+            "name": "dui_arrests",
+            "type": "integer",
+            "description": "Arrests for driving under the influence reported in the latest year (FBI offense id 260)"
+          },
+          {
+            "name": "drug_arrests",
+            "type": "integer",
+            "description": "Arrests for drug abuse violations (the eleven FBI drug categories, ids 150-160, summed); state records only, empty for counties"
+          },
+          {
+            "name": "all_arrests",
+            "type": "integer",
+            "description": "All arrests reported in the latest year"
+          },
+          {
+            "name": "violent_per_100k",
+            "type": "number",
+            "description": "Violent crimes per 100,000 residents of the agencies that reported"
+          },
+          {
+            "name": "property_per_100k",
+            "type": "number",
+            "description": "Property crimes per 100,000 residents of the agencies that reported"
+          },
+          {
+            "name": "dui_per_100k",
+            "type": "number",
+            "description": "DUI arrests per 100,000 residents of the agencies that reported"
+          },
+          {
+            "name": "drug_per_100k",
+            "type": "number",
+            "description": "Drug arrests per 100,000 residents of the agencies that reported (state records only)"
+          },
+          {
+            "name": "arrests_per_100k",
+            "type": "number",
+            "description": "All arrests per 100,000 residents of the agencies that reported"
+          },
+          {
+            "name": "violent_5y",
+            "type": "integer",
+            "description": "Violent crimes over the years the record lists under years (the five-year window, or the years in which the county's agencies reported)"
+          },
+          {
+            "name": "property_5y",
+            "type": "integer",
+            "description": "Property crimes over the years the record lists under years (the five-year window, or the years in which the county's agencies reported)"
+          },
+          {
+            "name": "dui_5y",
+            "type": "integer",
+            "description": "DUI arrests over the years the record lists under years (the five-year window, or the years in which the county's agencies reported)"
+          },
+          {
+            "name": "drug_5y",
+            "type": "integer",
+            "description": "Drug arrests over the years the record lists under years (the five-year window, or the years in which the county's agencies reported) (state records only)"
+          },
+          {
+            "name": "all_arrests_5y",
+            "type": "integer",
+            "description": "All arrests over the years the record lists under years (the five-year window, or the years in which the county's agencies reported)"
+          },
+          {
+            "name": "years_reported",
+            "type": "integer",
+            "description": "How many calendar years of the window the record lists under years"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Residents the record covers in the latest year: for a county, the larger of its agencies' FBI populations summed and its Census residents (vintage 2025); the state's population for state records"
+          },
+          {
+            "name": "coverage_offenses_pct",
+            "type": "number",
+            "description": "Share of those residents whose agencies reported offenses in the latest year, weighted by months reported (for every level, read from the agency answers; a year of zeros in every month from an agency serving 1,000 or more residents counts as not reported)"
+          },
+          {
+            "name": "coverage_arrests_pct",
+            "type": "number",
+            "description": "Share of those residents whose agencies reported arrests in the latest year, weighted by months reported (read the same way as the offense coverage)"
+          },
+          {
+            "name": "agencies",
+            "type": "integer",
+            "description": "Agencies the FBI lists for the place (reporting or not)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
           },
           {
             "name": "sourceLabels",
@@ -4584,7 +5118,7 @@
           {
             "name": "value",
             "type": "integer",
-            "description": "Law firms found (website or registry; null where suppressed)"
+            "description": "Law firms found (website or registry; small groups suppressed)"
           },
           {
             "name": "unit",
@@ -4634,47 +5168,47 @@
           {
             "name": "share_spanish",
             "type": "number",
-            "description": "Percent of the firm websites read with Spanish-language pages (hreflang, a page read in Spanish or a link labelled Español); null under 5 firms"
+            "description": "Percent of the firm websites read with Spanish-language pages (hreflang, a page read in Spanish or a link labelled Español); withheld under 5 firms"
           },
           {
             "name": "share_intake247",
             "type": "number",
-            "description": "Percent of the firm websites read with a 24/7 intake statement on the pages read (for example 'available 24/7'); null under 5 firms"
+            "description": "Percent of the firm websites read with a 24/7 intake statement on the pages read (for example 'available 24/7'); withheld under 5 firms"
           },
           {
             "name": "share_structured",
             "type": "number",
-            "description": "Percent of the firm websites read whose pages carry schema.org LegalService or Attorney structured data; null under 5 firms"
+            "description": "Percent of the firm websites read whose pages carry schema.org LegalService or Attorney structured data; withheld under 5 firms"
           },
           {
             "name": "share_free_consult",
             "type": "number",
-            "description": "Percent of the firm websites read stating a free consultation (or free case review); null under 5 firms"
+            "description": "Percent of the firm websites read stating a free consultation (or free case review); withheld under 5 firms"
           },
           {
             "name": "share_contingency",
             "type": "number",
-            "description": "Percent of the firm websites read stating no fee unless they win, or a contingency fee; null under 5 firms"
+            "description": "Percent of the firm websites read stating no fee unless they win, or a contingency fee; withheld under 5 firms"
           },
           {
             "name": "share_chat",
             "type": "number",
-            "description": "Percent of the firm websites read with a chat tool on the site; null under 5 firms"
+            "description": "Percent of the firm websites read with a chat tool on the site; withheld under 5 firms"
           },
           {
             "name": "share_booking",
             "type": "number",
-            "description": "Percent of the firm websites read with an online booking tool linked or embedded; null under 5 firms"
+            "description": "Percent of the firm websites read with an online booking tool linked or embedded; withheld under 5 firms"
           },
           {
             "name": "share_reviews_schema",
             "type": "number",
-            "description": "Percent of the firm websites read whose pages carry review or rating structured data (schema.org Review or AggregateRating); null under 5 firms"
+            "description": "Percent of the firm websites read whose pages carry review or rating structured data (schema.org Review or AggregateRating); withheld under 5 firms"
           },
           {
             "name": "share_llms",
             "type": "number",
-            "description": "Percent of the firm websites read publishing an llms.txt file; null under 5 firms"
+            "description": "Percent of the firm websites read publishing an llms.txt file; withheld under 5 firms"
           },
           {
             "name": "median_practice_pages",
@@ -4704,12 +5238,12 @@
           {
             "name": "new_entrants_week",
             "type": "string",
-            "description": "Aggregate rows: firms first seen in the latest weekly run (null until two runs exist)"
+            "description": "Aggregate rows: firms first seen in the latest weekly run (filled once two runs exist)"
           },
           {
             "name": "exits_week",
             "type": "string",
-            "description": "Aggregate rows: firms not readable in the latest run that were read the week before (null until two runs exist)"
+            "description": "Aggregate rows: firms not readable in the latest run that were read the week before (filled once two runs exist)"
           },
           {
             "name": "lastChecked",
@@ -7408,42 +7942,42 @@
           {
             "name": "claims",
             "type": "integer",
-            "description": "Claims the Board assembled with this injury county and accident year; null when fewer than 11"
+            "description": "Claims the Board assembled with this injury county and accident year; small groups suppressed when fewer than 11"
           },
           {
             "name": "atty_rep_claims",
             "type": "integer",
-            "description": "Claims with an attorney or representative (atty_rep_ind = Y); null when 1 to 10 claims or when the claims without one number 1 to 10"
+            "description": "Claims with an attorney or representative (atty_rep_ind = Y); small groups suppressed when 1 to 10 claims or when the claims without one number 1 to 10"
           },
           {
             "name": "controverted_claims",
             "type": "integer",
-            "description": "Claims with a controverted date (the carrier or employer disputed the claim); null when 1 to 10"
+            "description": "Claims with a controverted date (the carrier or employer disputed the claim); small groups suppressed when 1 to 10"
           },
           {
             "name": "hearing_claims",
             "type": "integer",
-            "description": "Claims with at least one hearing held; null when 1 to 10"
+            "description": "Claims with at least one hearing held; small groups suppressed when 1 to 10"
           },
           {
             "name": "hearings",
             "type": "integer",
-            "description": "Hearings held on those claims (sum of hearing_count); null when hearing_claims is suppressed"
+            "description": "Hearings held on those claims (sum of hearing_count); small groups suppressed when hearing_claims is suppressed"
           },
           {
             "name": "ppd_claims",
             "type": "integer",
-            "description": "Claims classified permanent partial disability (a scheduled or non-scheduled loss date is set); null when 1 to 10"
+            "description": "Claims classified permanent partial disability (a scheduled or non-scheduled loss date is set); small groups suppressed when 1 to 10"
           },
           {
             "name": "ptd_claims",
             "type": "integer",
-            "description": "Claims classified permanent total disability (a PTD date is set); null when 1 to 10"
+            "description": "Claims classified permanent total disability (a PTD date is set); small groups suppressed when 1 to 10"
           },
           {
             "name": "occ_disease_claims",
             "type": "integer",
-            "description": "Claims flagged as occupational disease; null when 1 to 10"
+            "description": "Claims flagged as occupational disease; small groups suppressed when 1 to 10"
           },
           {
             "name": "atty_rep_share_pct",
@@ -7787,6 +8321,306 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "product-recalls",
+      "profile": "tabular-data-resource",
+      "title": "Consumer product recalls by year and hazard (CPSC recall notices)",
+      "description": "Recalls announced by the U.S. Consumer Product Safety Commission (CPSC) since 2010, counted for the whole period, for each recall year and for each of ten hazard classes (fire and burn, falls and tip-overs, laceration, choking and suffocation, ingestion, entrapment and pinch injuries, electric shock, poisoning and chemicals, crashes and collisions, drowning, plus a class for the rest). Each count comes with the number of recalls whose notice reports an injury and the number that report a death, parsed from the notice's own incident text, and with the units the notices give. A recall that names several hazards counts once in each class and once in the totals. The counts come from CPSC's recall API; no firm names, contacts or narratives are kept.",
+      "path": "data/product-recalls/product-recalls.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23779145",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.cpsc.gov",
+          "path": "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information"
+        },
+        {
+          "title": "www.saferproducts.gov",
+          "path": "https://www.saferproducts.gov/RestWebServices/Recall"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US (every record is national)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us (the whole period), year (one recall year) or hazard (one hazard class)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Recall year, on year records"
+          },
+          {
+            "name": "hazard",
+            "type": "string",
+            "description": "Hazard class key, on hazard records"
+          },
+          {
+            "name": "hazardLabel",
+            "type": "string",
+            "description": "Hazard class name, on hazard records"
+          },
+          {
+            "name": "yearsFrom",
+            "type": "integer",
+            "description": "First recall year kept"
+          },
+          {
+            "name": "yearsTo",
+            "type": "integer",
+            "description": "Last recall year kept (the current year is partial)"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "Date of the latest recall announcement read"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Same as recalls"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What the value counts"
+          },
+          {
+            "name": "recalls",
+            "type": "integer",
+            "description": "Recalls CPSC announced (one per recall notice)"
+          },
+          {
+            "name": "injury_recalls",
+            "type": "integer",
+            "description": "Recalls whose notice reports at least one injury (parsed from the notice's incident text; a lower bound, because a notice may describe harm in words the parser does not read as an injury)"
+          },
+          {
+            "name": "death_recalls",
+            "type": "integer",
+            "description": "Recalls whose notice reports at least one death (parsed from the notice's incident text)"
+          },
+          {
+            "name": "units_parsed",
+            "type": "integer",
+            "description": "Units the notices give, summed over the recalls that state a number (parsed; the notices usually round them)"
+          },
+          {
+            "name": "units_recalls",
+            "type": "integer",
+            "description": "Recalls that state a unit count"
+          },
+          {
+            "name": "hazard_fire_burn",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Fire, burn and overheating"
+          },
+          {
+            "name": "hazard_fall_tipover",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Falls and tip-overs"
+          },
+          {
+            "name": "hazard_laceration",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Laceration, cut and amputation"
+          },
+          {
+            "name": "hazard_choking_suffocation",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Choking, suffocation and strangulation"
+          },
+          {
+            "name": "hazard_ingestion",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Ingestion (magnets, batteries, small parts)"
+          },
+          {
+            "name": "hazard_entrapment_crush",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Entrapment, entanglement and pinch injuries"
+          },
+          {
+            "name": "hazard_electric_shock",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Electric shock and electrocution"
+          },
+          {
+            "name": "hazard_poisoning_chemical",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Poisoning, lead and chemical exposure"
+          },
+          {
+            "name": "hazard_crash_collision",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Crash, collision and loss of control"
+          },
+          {
+            "name": "hazard_drowning",
+            "type": "integer",
+            "description": "Recalls whose notice names this hazard: Drowning"
+          },
+          {
+            "name": "hazard_other_hazard",
+            "type": "integer",
+            "description": "Recalls whose hazard text matches none of the named classes"
+          },
+          {
+            "name": "recalls_2010",
+            "type": "integer",
+            "description": "Recalls announced in 2010"
+          },
+          {
+            "name": "recalls_2011",
+            "type": "integer",
+            "description": "Recalls announced in 2011"
+          },
+          {
+            "name": "recalls_2012",
+            "type": "integer",
+            "description": "Recalls announced in 2012"
+          },
+          {
+            "name": "recalls_2013",
+            "type": "integer",
+            "description": "Recalls announced in 2013"
+          },
+          {
+            "name": "recalls_2014",
+            "type": "integer",
+            "description": "Recalls announced in 2014"
+          },
+          {
+            "name": "recalls_2015",
+            "type": "integer",
+            "description": "Recalls announced in 2015"
+          },
+          {
+            "name": "recalls_2016",
+            "type": "integer",
+            "description": "Recalls announced in 2016"
+          },
+          {
+            "name": "recalls_2017",
+            "type": "integer",
+            "description": "Recalls announced in 2017"
+          },
+          {
+            "name": "recalls_2018",
+            "type": "integer",
+            "description": "Recalls announced in 2018"
+          },
+          {
+            "name": "recalls_2019",
+            "type": "integer",
+            "description": "Recalls announced in 2019"
+          },
+          {
+            "name": "recalls_2020",
+            "type": "integer",
+            "description": "Recalls announced in 2020"
+          },
+          {
+            "name": "recalls_2021",
+            "type": "integer",
+            "description": "Recalls announced in 2021"
+          },
+          {
+            "name": "recalls_2022",
+            "type": "integer",
+            "description": "Recalls announced in 2022"
+          },
+          {
+            "name": "recalls_2023",
+            "type": "integer",
+            "description": "Recalls announced in 2023"
+          },
+          {
+            "name": "recalls_2024",
+            "type": "integer",
+            "description": "Recalls announced in 2024"
+          },
+          {
+            "name": "recalls_2025",
+            "type": "integer",
+            "description": "Recalls announced in 2025"
+          },
+          {
+            "name": "recalls_2026",
+            "type": "integer",
+            "description": "Recalls announced in 2026 (partial year)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the first recall year kept"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Date of the latest recall announcement read"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",
@@ -8500,14 +9334,14 @@
     {
       "name": "state-courts",
       "profile": "tabular-data-resource",
-      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow)",
-      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts (criminal, civil, domestic, probate, adoption and parentage, mental illness, juvenile dependency and offender) and district and municipal courts (traffic infractions, DUI, other traffic and non-traffic misdemeanors, civil protection orders, civil and small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type (tort, contract, divorce, paternity, juvenile, felony and more) and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders and domestic violence), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, guardianship, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by county and category (felony, misdemeanor, criminal traffic, traffic, civil, small claims, divorce, other family, paternity, adoption, estates and informal probate, guardianship, commitments, juvenile delinquency and child-welfare), 2020 to 2025. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin), and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Counts only: no lawyer or firm is listed or ranked.",
+      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia",
+      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts (criminal, civil, domestic, probate, adoption and parentage, mental illness, juvenile dependency and offender) and district and municipal courts (traffic infractions, DUI, other traffic and non-traffic misdemeanors, civil protection orders, civil and small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type (tort, contract, divorce, paternity, juvenile, felony and more) and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders and domestic violence), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, guardianship, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by county and category (felony, misdemeanor, criminal traffic, traffic, civil, small claims, divorce, other family, paternity, adoption, estates and informal probate, guardianship, commitments, juvenile delinquency and child-welfare), 2020 to 2025. Virginia (Supreme Court of Virginia, Office of the Executive Secretary): circuit courts (domestic and family, felony, misdemeanor, general civil, probate, protective orders), general district courts (landlord-tenant, garnishment, civil, felony, misdemeanor, infractions, protective orders) and juvenile and domestic relations district courts (custody and visitation, child support, delinquency, child dependency, protective orders) by locality (county or independent city), calendar year 2025. Pennsylvania (Administrative Office of Pennsylvania Courts): courts of common pleas in all 67 counties, civil cases by case type (motor-vehicle and other torts, mass torts, medical malpractice, contract and debt collection, landlord-tenant, mortgage foreclosure) and new criminal, protection from abuse, spousal and child support, custody, divorce, juvenile dependency and delinquency, adoption and guardianship cases, calendar year 2024. Oregon (Oregon Judicial Department): circuit courts in all 36 counties (general civil, landlord-tenant, small claims, felony, misdemeanor, violations, divorce, other domestic relations, protective orders, juvenile, probate, civil commitment), calendar year 2025. West Virginia (Supreme Court of Appeals): circuit courts (general civil, felony, misdemeanor, adoption, guardianship, mental health, juvenile), family courts (divorce, domestic violence, other domestic relations) and magistrate courts (small claims, personal safety and domestic violence protective orders) in all 55 counties, calendar year 2025. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia), and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Every record carries its FIPS code (the state's on a state row, the county's on a county row) so it joins Census and other county data. Counts only: no lawyer or firm is listed or ranked.",
       "path": "data/state-courts/state-courts.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23753032",
+      "version": "1.4.0",
+      "id": "https://doi.org/10.5281/zenodo.23777048",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -8538,6 +9372,22 @@
         {
           "title": "www.wicourts.gov",
           "path": "https://www.wicourts.gov/publications/statistics/circuit/circuitstats.htm"
+        },
+        {
+          "title": "www.vacourts.gov",
+          "path": "https://www.vacourts.gov/courtadmin/aoc/djs/programs/cpss/home"
+        },
+        {
+          "title": "www.pacourts.us",
+          "path": "https://www.pacourts.us/news-and-statistics/research-and-statistics/caseload-statistics"
+        },
+        {
+          "title": "www.courts.oregon.gov",
+          "path": "https://www.courts.oregon.gov/about/Pages/reports-measures.aspx"
+        },
+        {
+          "title": "www.courtswv.gov",
+          "path": "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-05/2025_AnnualReport_R.pdf"
         }
       ],
       "schema": {
@@ -8550,12 +9400,12 @@
           {
             "name": "state",
             "type": "string",
-            "description": "Two-letter state code (TX, WA, MD, IN or WI so far)"
+            "description": "Two-letter state code (TX, WA, MD, IN, WI, VA, PA, OR or WV)"
           },
           {
             "name": "area",
             "type": "string",
-            "description": "The state code for the whole state, or STATE-COUNTYNAME for a county (uppercase, hyphens for spaces), e.g. WA-KING, MD-BALTIMORE-CITY"
+            "description": "The state code for the whole state, or STATE-COUNTYNAME for a county (uppercase, hyphens for spaces), e.g. WA-KING, MD-BALTIMORE-CITY, VA-RICHMOND-CITY, PA-PHILADELPHIA; a Virginia court serving a city and a county together is one area, e.g. VA-WILLIAMSBURG-CITY-AND-JAMES-CITY"
           },
           {
             "name": "areaName",
@@ -8568,9 +9418,14 @@
             "description": "us, state or cbsa"
           },
           {
+            "name": "fips",
+            "type": "string",
+            "description": "FIPS codes of the area: the 2-digit state code on a state row; on a county row the 5-digit county code, or several codes where one court serves a city and a county together (Virginia)"
+          },
+          {
             "name": "courtLevel",
             "type": "string",
-            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit)"
+            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit; Virginia: circuit, gdc (general district) or jdr (juvenile and domestic relations district); Pennsylvania: common-pleas; Oregon: circuit; West Virginia: circuit, family or magistrate)"
           },
           {
             "name": "courtLevelName",
@@ -8613,7 +9468,7 @@
           {
             "name": "fy",
             "type": "string",
-            "description": "The period: a Texas or Maryland fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana)"
+            "description": "The period: a Texas or Maryland fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia)"
           },
           {
             "name": "value",

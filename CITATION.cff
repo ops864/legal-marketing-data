@@ -23,6 +23,9 @@ identifiers:
     value: "10.5281/zenodo.23645750"
     description: "Lawyer advertising rules by state (50 states and DC): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23777036"
+    description: "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23739951"
     description: "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts): concept DOI (all versions)"
   - type: doi
@@ -49,6 +52,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23752983"
     description: "County income and migration from IRS tax returns: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23772521"
+    description: "Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23744205"
     description: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3): concept DOI (all versions)"
@@ -140,6 +146,9 @@ identifiers:
     value: "10.5281/zenodo.23656752"
     description: "Legal ad-platform policy tracker: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23779144"
+    description: "Consumer product recalls by year and hazard (CPSC recall notices): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23753015"
     description: "Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54): concept DOI (all versions)"
   - type: doi
@@ -152,8 +161,8 @@ identifiers:
     value: "10.5281/zenodo.23753028"
     description: "State civil-rights agency complaints and charges: figures printed in state annual reports: concept DOI (all versions)"
   - type: doi
-    value: "10.5281/zenodo.23723925"
-    description: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow): concept DOI (all versions)"
+    value: "10.5281/zenodo.23777047"
+    description: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23753045"
     description: "State labor agency wage claims: figures printed in state reports: concept DOI (all versions)"
@@ -199,6 +208,15 @@ references:
     doi: "10.5281/zenodo.23750572"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23777037"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/attorneys/"
     date-released: "2026-10-29"
   - type: dataset
     title: "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)"
@@ -280,6 +298,15 @@ references:
     doi: "10.5281/zenodo.23752984"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/county-income/"
+    date-released: "2026-10-29"
+  - type: dataset
+    title: "Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23772522"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/crime-data/"
     date-released: "2026-10-29"
   - type: dataset
     title: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)"
@@ -552,6 +579,15 @@ references:
     url: "https://probativegrowth.com/data/platforms/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "Consumer product recalls by year and hazard (CPSC recall notices)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23779145"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/product-recalls/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)"
     authors:
       - name: "Probative Growth"
@@ -588,11 +624,11 @@ references:
     url: "https://probativegrowth.com/data/state-civil-rights/"
     date-released: "2026-10-29"
   - type: dataset
-    title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana and Wisconsin (more states to follow)"
+    title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia"
     authors:
       - name: "Probative Growth"
-    version: "1.1.0"
-    doi: "10.5281/zenodo.23753032"
+    version: "1.4.0"
+    doi: "10.5281/zenodo.23777048"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-courts/"
     date-released: "2026-10-29"
