@@ -1275,6 +1275,140 @@
       }
     },
     {
+      "name": "charge-deadlines",
+      "profile": "tabular-data-resource",
+      "title": "Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit",
+      "description": "How long a worker has to file a charge of employment discrimination: the EEOC's 180-day limit and its 300-day extension, and the limit each covered state's own statute sets for its civil-rights agency. One row per rule, with the statute citation, the official document's URL and the verbatim quote (25 words or fewer) that carries the number.",
+      "path": "data/charge-deadlines/charge-deadlines.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23782861",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.eeoc.gov",
+          "path": "https://www.eeoc.gov/time-limits-filing-charge"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, or US for the federal rule"
+          },
+          {
+            "name": "level",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "agency",
+            "type": "string",
+            "description": "The agency that takes the charge"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "federal-charge-deadline, federal-charge-deadline-extended or state-charge-deadline"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "current law"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The number of the limit"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "days, calendar days, months or years"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The verbatim words (25 or fewer) that carry the limit"
+          },
+          {
+            "name": "document",
+            "type": "string",
+            "description": "The statute or page"
+          },
+          {
+            "name": "documentUrl",
+            "type": "string",
+            "description": "Where it is"
+          },
+          {
+            "name": "verified",
+            "type": "string",
+            "description": "The date the quote was last found in the document"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Exceptions the same text lists, where they matter"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "civil-filings",
       "profile": "tabular-data-resource",
       "title": "Federal civil filings by nature of suit and district, 12-month periods since 2018",
@@ -6475,6 +6609,144 @@
       }
     },
     {
+      "name": "legal-aid-orgs",
+      "profile": "tabular-data-resource",
+      "title": "Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list",
+      "description": "How many legal-aid, public-interest-law and civil-rights nonprofits have an address in each county, state and the nation, from the IRS Exempt Organizations Business Master File. Counts by type (legal services, public interest law, civil rights) and by annual revenue band, with a rate per 100,000 residents. Counts only: no names.",
+      "path": "data/legal-aid-orgs/legal-aid-orgs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23782867",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or county"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "County FIPS code (county rows)"
+          },
+          {
+            "name": "countyName",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "orgs",
+            "type": "integer",
+            "description": "Organizations counted"
+          },
+          {
+            "name": "legal_services",
+            "type": "integer",
+            "description": "NTEE I80"
+          },
+          {
+            "name": "public_interest_law",
+            "type": "integer",
+            "description": "NTEE I83"
+          },
+          {
+            "name": "civil_rights",
+            "type": "integer",
+            "description": "NTEE R20-R26"
+          },
+          {
+            "name": "revenue_under_50k",
+            "type": "integer",
+            "description": "Annual revenue under $50,000 (or none reported)"
+          },
+          {
+            "name": "revenue_50k_1m",
+            "type": "integer",
+            "description": "$50,000 to under $1 million"
+          },
+          {
+            "name": "revenue_1m_10m",
+            "type": "integer",
+            "description": "$1 million to under $10 million"
+          },
+          {
+            "name": "revenue_10m_plus",
+            "type": "integer",
+            "description": "$10 million or more"
+          },
+          {
+            "name": "per_100k",
+            "type": "number",
+            "description": "Organizations per 100,000 residents (2025 population)"
+          },
+          {
+            "name": "population",
+            "type": "integer"
+          },
+          {
+            "name": "asOf",
+            "type": "string",
+            "description": "IRS file date"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "legal-need",
       "profile": "tabular-data-resource",
       "title": "Legal need by county: who may need a lawyer, from the American Community Survey",
@@ -7338,6 +7610,164 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "mortgage-lending",
+      "profile": "tabular-data-resource",
+      "title": "Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA",
+      "description": "How many home-purchase, refinance and cash-out refinance applications lenders reported under the Home Mortgage Disclosure Act in each county, state and the nation, how many became loans (with the dollar amount) and how many were denied, with the denial rate. State and US rows add the year before.",
+      "path": "data/mortgage-lending/mortgage-lending.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23782874",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ffiec.cfpb.gov",
+          "path": "https://ffiec.cfpb.gov/data-browser/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state, county or former-county"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "County FIPS code as HMDA reports it"
+          },
+          {
+            "name": "countyName",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "applications",
+            "type": "integer",
+            "description": "Applications with an action of originated, approved not accepted or denied"
+          },
+          {
+            "name": "originations",
+            "type": "integer",
+            "description": "Loans originated"
+          },
+          {
+            "name": "denials",
+            "type": "integer",
+            "description": "Applications denied"
+          },
+          {
+            "name": "denial_rate",
+            "type": "number",
+            "description": "Denied / applications, percent"
+          },
+          {
+            "name": "originated_dollars",
+            "type": "integer",
+            "description": "Dollar amount of loans originated"
+          },
+          {
+            "name": "applications_purchase",
+            "type": "integer"
+          },
+          {
+            "name": "originations_purchase",
+            "type": "integer"
+          },
+          {
+            "name": "denials_purchase",
+            "type": "integer"
+          },
+          {
+            "name": "applications_refinance",
+            "type": "integer"
+          },
+          {
+            "name": "originations_refinance",
+            "type": "integer"
+          },
+          {
+            "name": "denials_refinance",
+            "type": "integer"
+          },
+          {
+            "name": "applications_cash_out_refinance",
+            "type": "integer"
+          },
+          {
+            "name": "originations_cash_out_refinance",
+            "type": "integer"
+          },
+          {
+            "name": "denials_cash_out_refinance",
+            "type": "integer"
+          },
+          {
+            "name": "originations_prior_year",
+            "type": "integer",
+            "description": "Loans originated the year before (state and US rows)"
+          },
+          {
+            "name": "priorYear",
+            "type": "integer"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Caveats"
           },
           {
             "name": "confidence",
@@ -8321,6 +8751,113 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "practice-official",
+      "profile": "tabular-data-resource",
+      "title": "Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury",
+      "description": "Every official figure quoted on our bankruptcy, employment-law, immigration and personal-injury pages for ten states, one sentence per record, with the federal source it comes from (U.S. Courts, EEOC, the immigration courts and NHTSA's fatal-crash file) and the page it appears on.",
+      "path": "data/practice-official/practice-official.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23782885",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/data-news/data-tables/2026/06/30/bankruptcy-filings/f-5a"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/data-news/data-tables/2025/06/30/bankruptcy-filings/f-5a"
+        },
+        {
+          "title": "www.eeoc.gov",
+          "path": "https://www.eeoc.gov/statistics/enforcement/charges-by-state"
+        },
+        {
+          "title": "www.nhtsa.gov",
+          "path": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "practice",
+            "type": "string",
+            "description": "bankruptcy, employment-law, immigration or personal-injury"
+          },
+          {
+            "name": "page",
+            "type": "string",
+            "description": "The practice page that quotes it"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The sentence as published (English)"
+          },
+          {
+            "name": "textEs",
+            "type": "string",
+            "description": "The sentence as published (Spanish)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",

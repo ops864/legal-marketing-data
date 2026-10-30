@@ -41,6 +41,9 @@ identifiers:
     value: "10.5281/zenodo.23658523"
     description: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23782860"
+    description: "Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23720008"
     description: "Federal civil filings by nature of suit and district, 12-month periods since 2018: concept DOI (all versions)"
   - type: doi
@@ -119,6 +122,9 @@ identifiers:
     value: "10.5281/zenodo.23734839"
     description: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23782866"
+    description: "Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23741885"
     description: "Legal need by county: who may need a lawyer, from the American Community Survey: concept DOI (all versions)"
   - type: doi
@@ -130,6 +136,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23720736"
     description: "Mass-tort docket tracker, federal MDL pending actions by month since 2019: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23782873"
+    description: "Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23741900"
     description: "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations: concept DOI (all versions)"
@@ -145,6 +154,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23656752"
     description: "Legal ad-platform policy tracker: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23782884"
+    description: "Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23779144"
     description: "Consumer product recalls by year and hazard (CPSC recall notices): concept DOI (all versions)"
@@ -263,6 +275,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/ca-courts/"
     date-released: "2026-10-26"
+  - type: dataset
+    title: "Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23782861"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/charge-deadlines/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Federal civil filings by nature of suit and district, 12-month periods since 2018"
     authors:
@@ -498,6 +519,15 @@ references:
     url: "https://probativegrowth.com/data/lawyer-wages/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23782867"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/legal-aid-orgs/"
+    date-released: "2026-10-29"
+  - type: dataset
     title: "Legal need by county: who may need a lawyer, from the American Community Survey"
     authors:
       - name: "Probative Growth"
@@ -533,6 +563,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/mass-tort-mdl-tracker/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23782874"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/mortgage-lending/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations"
     authors:
@@ -578,6 +617,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/platforms/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23782885"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/practice-official/"
+    date-released: "2026-10-29"
   - type: dataset
     title: "Consumer product recalls by year and hazard (CPSC recall notices)"
     authors:

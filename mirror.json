@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "datasets": [
     {
       "id": "rules",
@@ -44,6 +44,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23658524",
       "released": "2026-10-26"
+    },
+    {
+      "id": "charge-deadlines",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23782861",
+      "released": "2026-10-29"
     },
     {
       "id": "civil-filings",
@@ -202,6 +208,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "legal-aid-orgs",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23782867",
+      "released": "2026-10-29"
+    },
+    {
       "id": "legal-need",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23741886",
@@ -224,6 +236,12 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23720737",
       "released": "2026-10-28"
+    },
+    {
+      "id": "mortgage-lending",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23782874",
+      "released": "2026-10-29"
     },
     {
       "id": "nursing-homes",
@@ -254,6 +272,12 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23716831",
       "released": "2026-10-28"
+    },
+    {
+      "id": "practice-official",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23782885",
+      "released": "2026-10-29"
     },
     {
       "id": "product-recalls",

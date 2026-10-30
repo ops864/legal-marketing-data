@@ -15,6 +15,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Probative benchmarks, 2025–2026](https://probativegrowth.com/research/benchmarks/) | `data/benchmarks/` | [10.5281/zenodo.23735849](https://doi.org/10.5281/zenodo.23735849) |
 | [New business applications by county (Census Business Formation Statistics)](https://probativegrowth.com/data/business-applications/) | `data/business-applications/` | [10.5281/zenodo.23752969](https://doi.org/10.5281/zenodo.23752969) |
 | [California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/ca-courts/) | `data/ca-courts/` | [10.5281/zenodo.23658524](https://doi.org/10.5281/zenodo.23658524) |
+| [Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit](https://probativegrowth.com/data/charge-deadlines/) | `data/charge-deadlines/` | [10.5281/zenodo.23782861](https://doi.org/10.5281/zenodo.23782861) |
 | [Federal civil filings by nature of suit and district, 12-month periods since 2018](https://probativegrowth.com/research/federal-civil-filings-by-type/) | `data/civil-filings/` | [10.5281/zenodo.23720009](https://doi.org/10.5281/zenodo.23720009) |
 | [CFPB complaints about debt collection, credit reporting and debt management, by state and month](https://probativegrowth.com/research/consumer-finance-complaints-by-state/) | `data/consumer-complaints/` | [10.5281/zenodo.23733731](https://doi.org/10.5281/zenodo.23733731) |
 | [FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book](https://probativegrowth.com/data/consumer-sentinel/) | `data/consumer-sentinel/` | [10.5281/zenodo.23741876](https://doi.org/10.5281/zenodo.23741876) |
@@ -41,15 +42,18 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022](https://probativegrowth.com/research/law-firm-size-and-revenue/) | `data/law-firm-economy/` | [10.5281/zenodo.23739997](https://doi.org/10.5281/zenodo.23739997) |
 | [Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics](https://probativegrowth.com/research/law-firm-competition-by-county/) | `data/law-offices/` | [10.5281/zenodo.23721415](https://doi.org/10.5281/zenodo.23721415) |
 | [Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)](https://probativegrowth.com/data/lawyer-wages/) | `data/lawyer-wages/` | [10.5281/zenodo.23734840](https://doi.org/10.5281/zenodo.23734840) |
+| [Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list](https://probativegrowth.com/data/legal-aid-orgs/) | `data/legal-aid-orgs/` | [10.5281/zenodo.23782867](https://doi.org/10.5281/zenodo.23782867) |
 | [Legal need by county: who may need a lawyer, from the American Community Survey](https://probativegrowth.com/data/legal-need/) | `data/legal-need/` | [10.5281/zenodo.23741886](https://doi.org/10.5281/zenodo.23741886) |
 | [Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)](https://probativegrowth.com/data/legal-prices/) | `data/legal-prices/` | [10.5281/zenodo.23734854](https://doi.org/10.5281/zenodo.23734854) |
 | [Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage](https://probativegrowth.com/research/statute-of-limitations-by-state/) | `data/limitations/` | [10.5281/zenodo.23743673](https://doi.org/10.5281/zenodo.23743673) |
 | [Mass-tort docket tracker, federal MDL pending actions by month since 2019](https://probativegrowth.com/research/mass-tort-mdl-tracker/) | `data/mdl/` | [10.5281/zenodo.23720737](https://doi.org/10.5281/zenodo.23720737) |
+| [Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA](https://probativegrowth.com/data/mortgage-lending/) | `data/mortgage-lending/` | [10.5281/zenodo.23782874](https://doi.org/10.5281/zenodo.23782874) |
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | `data/nursing-homes/` | [10.5281/zenodo.23741901](https://doi.org/10.5281/zenodo.23741901) |
 | [Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)](https://probativegrowth.com/data/ny-attorneys/) | `data/ny-attorneys/` | [10.5281/zenodo.23753008](https://doi.org/10.5281/zenodo.23753008) |
 | [New York workers' compensation claims by county and accident year](https://probativegrowth.com/data/ny-workers-comp/) | `data/ny-workers-comp/` | [10.5281/zenodo.23753012](https://doi.org/10.5281/zenodo.23753012) |
 | [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | `data/opinions/` | [10.5281/zenodo.23734859](https://doi.org/10.5281/zenodo.23734859) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | `data/platforms/` | [10.5281/zenodo.23716831](https://doi.org/10.5281/zenodo.23716831) |
+| [Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury](https://probativegrowth.com/data/practice-official/) | `data/practice-official/` | [10.5281/zenodo.23782885](https://doi.org/10.5281/zenodo.23782885) |
 | [Consumer product recalls by year and hazard (CPSC recall notices)](https://probativegrowth.com/data/product-recalls/) | `data/product-recalls/` | [10.5281/zenodo.23779145](https://doi.org/10.5281/zenodo.23779145) |
 | [Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)](https://probativegrowth.com/data/rail-casualties/) | `data/rail-casualties/` | [10.5281/zenodo.23753016](https://doi.org/10.5281/zenodo.23753016) |
 | [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23747113](https://doi.org/10.5281/zenodo.23747113) |
@@ -102,6 +106,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, aggregated and rounded.
 - `https://probativegrowth.com/mcp/business-applications`: Census new business applications by county, 2005-2025: latest count, change over a year and since 2019, state sums.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
+- `https://probativegrowth.com/mcp/charge-deadlines`: Deadlines to file an employment-discrimination charge, federal and by state, with the statute and verbatim quote.
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
 - `https://probativegrowth.com/mcp/consumer-sentinel`: FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams per 100,000 people (2024 Data Book).
@@ -128,15 +133,18 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/law-firm-economy`: Law firms by size and state (Census SUSB, Nonemployer Statistics, Economic Census): firm counts, receipts and solo practices.
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
+- `https://probativegrowth.com/mcp/legal-aid-orgs`: Legal-aid, public-interest-law and civil-rights nonprofits per county, state and US, by type and revenue band (IRS EO BMF).
 - `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
 - `https://probativegrowth.com/mcp/limitations`: Statutes of limitations by state for five kinds of civil claim, quoted from the code.
 - `https://probativegrowth.com/mcp/mdl`: Pending actions in every federal MDL, monthly since 2019.
+- `https://probativegrowth.com/mcp/mortgage-lending`: HMDA home-purchase and refinance applications, loans, dollars and denial rates by county, state and US.
 - `https://probativegrowth.com/mcp/nursing-homes`: Nursing home fines, harm and abuse citations by county and state, from CMS, monthly.
 - `https://probativegrowth.com/mcp/ny-attorneys`: New York attorneys by county of office, registration status and admission decade, per 10,000 residents, from the court registry.
 - `https://probativegrowth.com/mcp/ny-workers-comp`: New York workers' compensation claims by county and accident year: attorney share, controverted, hearings, permanent disability.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
+- `https://probativegrowth.com/mcp/practice-official`: Official statistics (U.S. Courts, EEOC, EOIR, NHTSA FARS) quoted on the practice x state pages, one sourced sentence per record.
 - `https://probativegrowth.com/mcp/product-recalls`: CPSC consumer product recalls by year and hazard class, with the notices that report an injury or a death.
 - `https://probativegrowth.com/mcp/rail-casualties`: Railroad casualties, crossing incidents and train accidents by county from FRA Forms 55a, 57 and 54, by who was hurt.
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
