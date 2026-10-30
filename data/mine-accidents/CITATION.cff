@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026"
+type: dataset
+authors:
+  - name: "Probative Growth"
+version: "1.0.0"
+doi: "10.5281/zenodo.23792833"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23792832"
+    description: "Concept DOI (all versions)"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/data/mine-accidents/"
+repository-code: "https://github.com/ops864/legal-marketing-data"

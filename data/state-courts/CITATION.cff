@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
-title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia"
+title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine and California"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.4.0"
+version: "1.7.0"
 doi: "10.5281/zenodo.23777048"
 identifiers:
   - type: doi

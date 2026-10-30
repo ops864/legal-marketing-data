@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-10-29",
-  "created": "2026-10-29T00:00:00Z",
+  "version": "2026-10-30",
+  "created": "2026-10-30T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -459,6 +459,210 @@
       }
     },
     {
+      "name": "aviation-accidents",
+      "profile": "tabular-data-resource",
+      "title": "Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026",
+      "description": "Civil aviation accidents in the United States investigated by the National Transportation Safety Board, for the nation and for each state, DC, Puerto Rico and Guam in each year from 2008 to September 2026: accidents, fatal accidents, deaths, serious and minor injuries, and the accidents and deaths by type of operation of the first aircraft (general aviation, airlines, commuter and on-demand, agricultural, other). NTSB incidents, accidents abroad, narratives and probable causes are not included. Accidents offshore or with no state are counted in the national record only.",
+      "path": "data/aviation-accidents/aviation-accidents.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792734",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.ntsb.gov",
+          "path": "https://data.ntsb.gov/avdata"
+        },
+        {
+          "title": "www.ntsb.gov",
+          "path": "https://www.ntsb.gov/about/Policies/Pages/Policies.aspx"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state or us"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year of the accident"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the NTSB's own record"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Accidents (the same as accidents)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "accidents",
+            "type": "integer",
+            "description": "Civil aviation accidents recorded by the NTSB (not incidents)"
+          },
+          {
+            "name": "fatal_accidents",
+            "type": "integer",
+            "description": "Accidents with at least one death"
+          },
+          {
+            "name": "fatalities",
+            "type": "integer",
+            "description": "Deaths in those accidents"
+          },
+          {
+            "name": "serious_injuries",
+            "type": "integer",
+            "description": "Serious injuries"
+          },
+          {
+            "name": "minor_injuries",
+            "type": "integer",
+            "description": "Minor injuries"
+          },
+          {
+            "name": "accidents_ga",
+            "type": "integer",
+            "description": "Accidents of general aviation (FAR Part 91)"
+          },
+          {
+            "name": "accidents_airline",
+            "type": "integer",
+            "description": "Accidents of scheduled airlines (Part 121)"
+          },
+          {
+            "name": "accidents_ondemand",
+            "type": "integer",
+            "description": "Accidents of commuter and on-demand operations (Part 135)"
+          },
+          {
+            "name": "accidents_agri",
+            "type": "integer",
+            "description": "Accidents of agricultural operations (Part 137)"
+          },
+          {
+            "name": "accidents_other",
+            "type": "integer",
+            "description": "Accidents of all other operations (non-U.S.-registered, public, military, unmanned, unclassified)"
+          },
+          {
+            "name": "fatalities_ga",
+            "type": "integer",
+            "description": "Deaths in general aviation accidents"
+          },
+          {
+            "name": "fatalities_airline",
+            "type": "integer",
+            "description": "Deaths in airline accidents"
+          },
+          {
+            "name": "fatalities_ondemand",
+            "type": "integer",
+            "description": "Deaths in commuter and on-demand accidents"
+          },
+          {
+            "name": "fatalities_agri",
+            "type": "integer",
+            "description": "Deaths in agricultural accidents"
+          },
+          {
+            "name": "fatalities_other",
+            "type": "integer",
+            "description": "Deaths in other accidents"
+          },
+          {
+            "name": "accidents_outside_states",
+            "type": "integer",
+            "description": "US records: accidents offshore or with no state, counted in the US total only"
+          },
+          {
+            "name": "fatalities_outside_states",
+            "type": "integer",
+            "description": "US records: deaths in those accidents"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "Last date in the NTSB file"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "bankruptcy",
       "profile": "tabular-data-resource",
       "title": "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)",
@@ -853,6 +1057,161 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "The methods page URL"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "boating-accidents",
+      "profile": "tabular-data-resource",
+      "title": "Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024",
+      "description": "Recreational boating incidents reported to the U.S. Coast Guard, for the nation and for each state, DC and territory in each year from 2019 to 2024: incidents, fatal incidents, incidents with a non-fatal injury, property-damage-only incidents, deaths, people injured and property damage in dollars. The Coast Guard called these accidents until its 2024 report and now calls them incidents. Incidents offshore (Atlantic, Pacific, Gulf) are in the national record only. Each year comes from that year's Coast Guard report.",
+      "path": "data/boating-accidents/boating-accidents.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792748",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "uscgboating.org",
+          "path": "https://uscgboating.org/statistics/accident_statistics.php"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state or us"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year of the report"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the Coast Guard's own published figure"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Incidents (the same as incidents)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "incidents",
+            "type": "integer",
+            "description": "Recreational boating incidents reported to the Coast Guard"
+          },
+          {
+            "name": "fatal_incidents",
+            "type": "integer",
+            "description": "Incidents with at least one death"
+          },
+          {
+            "name": "injury_incidents",
+            "type": "integer",
+            "description": "Incidents with a non-fatal injury and no death"
+          },
+          {
+            "name": "property_damage_incidents",
+            "type": "integer",
+            "description": "Incidents with property damage only"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "description": "Deaths"
+          },
+          {
+            "name": "injured",
+            "type": "integer",
+            "description": "People injured"
+          },
+          {
+            "name": "damages_usd",
+            "type": "integer",
+            "description": "Property damage in dollars (rounded)"
+          },
+          {
+            "name": "incidents_outside_states",
+            "type": "integer",
+            "description": "US records: incidents offshore, counted in the US total only"
+          },
+          {
+            "name": "deaths_outside_states",
+            "type": "integer",
+            "description": "US records: deaths in those incidents"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",
@@ -2116,6 +2475,139 @@
             "name": "lastChecked",
             "type": "string",
             "description": "Date the IRS files were last read"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "court-fees",
+      "profile": "tabular-data-resource",
+      "title": "Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court",
+      "description": "The most money a claim can seek in each state's small-claims court, or in the court that hears small claims where the state names it differently (magistrate, justice or city court). One row per state with the figure, the court, the statute or court page it comes from, and the verbatim sentence.",
+      "path": "data/court-fees/court-fees.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792752",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.courts.ca.gov",
+          "path": "https://www.courts.ca.gov/selfhelp-smallclaims.htm"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "level",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "agency",
+            "type": "string",
+            "description": "The body that publishes the source"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "small-claims-limit"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "current law"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The limit in dollars"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "dollars"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The verbatim words (25 or fewer) that carry the figure"
+          },
+          {
+            "name": "document",
+            "type": "string",
+            "description": "The document the quote comes from"
+          },
+          {
+            "name": "documentUrl",
+            "type": "string",
+            "description": "Link to that document"
+          },
+          {
+            "name": "verified",
+            "type": "string"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "An exception or second limit stated in the same source"
           },
           {
             "name": "sourceLabels",
@@ -3898,6 +4390,246 @@
       }
     },
     {
+      "name": "eviction-laws",
+      "profile": "tabular-data-resource",
+      "title": "Eviction laws by state and territory: notice, cure, just cause, fees and timing (LSC)",
+      "description": "How the law of each U.S. state, the District of Columbia and five territories regulates residential evictions as of January 1, 2021, coded from the statutes by the Legal Services Corporation and Temple University's Center for Public Health Law Research: the notice a landlord must give before filing for nonpayment, whether a tenant may cure, whether a landlord needs a stated cause, caps on late fees, the filing fee the law sets, the days to answer, to appeal and between writ and removal, mediation, and the statute cited for the notice rule. One record per jurisdiction plus a national summary.",
+      "path": "data/eviction-laws/eviction-laws.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792754",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.lsc.gov",
+          "path": "https://www.lsc.gov/initiatives/effect-state-local-laws-evictions/lsc-eviction-laws-database"
+        },
+        {
+          "title": "www.lsc.gov",
+          "path": "https://www.lsc.gov/terms-use"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US for the national summary"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state, or us for the national summary"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "S: a compilation of the law made by LSC and Temple University, not the statute text"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Days of notice before an eviction filing for nonpayment (the shortest period where the law gives more than one); on the national record, the number of jurisdictions"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "noticeNonpayment",
+            "type": "string",
+            "description": "The notice rule for nonpayment of rent, in words"
+          },
+          {
+            "name": "noticeNonpaymentDays",
+            "type": "integer",
+            "description": "Shortest notice period in days"
+          },
+          {
+            "name": "noticeOtherCauses",
+            "type": "boolean",
+            "description": "True when the law also requires notice for reasons other than nonpayment"
+          },
+          {
+            "name": "cureNonpayment",
+            "type": "boolean",
+            "description": "True when a tenant may cure a nonpayment default"
+          },
+          {
+            "name": "cureCauses",
+            "type": "string",
+            "description": "The defaults a tenant may cure"
+          },
+          {
+            "name": "justCause",
+            "type": "boolean",
+            "description": "True when the law requires a landlord to have a stated cause to evict"
+          },
+          {
+            "name": "lateFeeRegulated",
+            "type": "boolean",
+            "description": "True when the law regulates late fees"
+          },
+          {
+            "name": "lateFeeCap",
+            "type": "string",
+            "description": "The cap, in the law's own terms"
+          },
+          {
+            "name": "filingFeeUsd",
+            "type": "integer",
+            "description": "Eviction filing fee in dollars where the state law sets one"
+          },
+          {
+            "name": "summonsDays",
+            "type": "integer",
+            "description": "Shortest time in days the law gives a tenant between summons and hearing"
+          },
+          {
+            "name": "appealDays",
+            "type": "integer",
+            "description": "Days after judgment to appeal (shortest where more than one)"
+          },
+          {
+            "name": "writWaitDays",
+            "type": "integer",
+            "description": "Days between issuing the writ and carrying it out (0 = at once)"
+          },
+          {
+            "name": "mediation",
+            "type": "string",
+            "description": "Whether the law has a mediation rule"
+          },
+          {
+            "name": "rightToCounsel",
+            "type": "boolean",
+            "description": "True when the law gives tenants a right to free counsel"
+          },
+          {
+            "name": "courts",
+            "type": "string",
+            "description": "Courts that first hear eviction cases"
+          },
+          {
+            "name": "service",
+            "type": "string",
+            "description": "How the summons is served"
+          },
+          {
+            "name": "citation",
+            "type": "string",
+            "description": "The statute the notice rule comes from"
+          },
+          {
+            "name": "effectiveDate",
+            "type": "string",
+            "description": "Date the coded law took effect"
+          },
+          {
+            "name": "validThrough",
+            "type": "string",
+            "description": "Last date the coded law is known to be in force (January 1, 2021)"
+          },
+          {
+            "name": "jurisdictions",
+            "type": "integer"
+          },
+          {
+            "name": "justCauseCount",
+            "type": "integer"
+          },
+          {
+            "name": "cureNonpaymentCount",
+            "type": "integer"
+          },
+          {
+            "name": "lateFeeRegulatedCount",
+            "type": "integer"
+          },
+          {
+            "name": "noNoticeNonpaymentCount",
+            "type": "integer"
+          },
+          {
+            "name": "mediationCount",
+            "type": "integer"
+          },
+          {
+            "name": "rightToCounselCount",
+            "type": "integer"
+          },
+          {
+            "name": "notice3DaysCount",
+            "type": "integer"
+          },
+          {
+            "name": "notice14PlusCount",
+            "type": "integer"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "evictions",
       "profile": "tabular-data-resource",
       "title": "Eviction filings by county and year (LSC Civil Court Data Initiative)",
@@ -4075,6 +4807,249 @@
             "name": "effectiveTo",
             "type": "string",
             "description": "Last month reported"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "fair-housing",
+      "profile": "tabular-data-resource",
+      "title": "Fair housing complaints by county and basis: Fair Housing Act cases filed with HUD, 2006 to June 2020",
+      "description": "Fair Housing Act (Title VIII) cases filed with the U.S. Department of Housing and Urban Development, January 2006 through June 2020: 130,661 cases counted for the nation, for each state and territory by calendar year, and for each county with at least one case, with the cases that cite each basis (race, color, national origin, disability, familial status, religion, sex, retaliation). HUD's list is one row per filed case; only counts are kept. A case can cite several bases, so the bases add up to more than the cases.",
+      "path": "data/fair-housing/fair-housing.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792758",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "inventory.data.gov",
+          "path": "https://inventory.data.gov/dataset/c592e01e-3ce8-4fb7-b112-8b5819fd2072/resource/94b8f073-7d71-4519-8a2b-2cec554e3dcd/download/fheo-filed-cases.xlsx"
+        },
+        {
+          "title": "inventory.data.gov",
+          "path": "https://inventory.data.gov/dataset/e854e346-4d53-4ff7-9686-93e83715cede/resource/4733787f-1b35-4637-b41b-8d7ea18c0597/download/fhacasesbyyear.xls"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state, county, former-county or county-not-recorded"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "Five-digit county FIPS code (or a retired code HUD still uses)"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name"
+          },
+          {
+            "name": "states",
+            "type": "integer",
+            "description": "On the US record: the number of states and territories in the file"
+          },
+          {
+            "name": "yearsFrom",
+            "type": "integer"
+          },
+          {
+            "name": "yearsTo",
+            "type": "integer"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "Last filing date in HUD's file (June 30, 2020)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Cases filed (the same as cases)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "cases",
+            "type": "integer",
+            "description": "Fair Housing Act cases filed with HUD in the period"
+          },
+          {
+            "name": "race",
+            "type": "integer",
+            "description": "Cases that cite a race basis"
+          },
+          {
+            "name": "color",
+            "type": "integer",
+            "description": "Cases that cite a color basis"
+          },
+          {
+            "name": "nationalOrigin",
+            "type": "integer",
+            "description": "Cases that cite a national origin basis"
+          },
+          {
+            "name": "disability",
+            "type": "integer",
+            "description": "Cases that cite a disability basis"
+          },
+          {
+            "name": "familialStatus",
+            "type": "integer",
+            "description": "Cases that cite a familial status basis"
+          },
+          {
+            "name": "religion",
+            "type": "integer",
+            "description": "Cases that cite a religion basis"
+          },
+          {
+            "name": "sex",
+            "type": "integer",
+            "description": "Cases that cite a sex basis"
+          },
+          {
+            "name": "retaliation",
+            "type": "integer",
+            "description": "Cases that cite retaliation"
+          },
+          {
+            "name": "cases_2006",
+            "type": "integer",
+            "description": "State records: cases filed in each calendar year, 2006 to 2020 (2020 runs to June 30)"
+          },
+          {
+            "name": "cases_2007",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2008",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2009",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2010",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2011",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2012",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2013",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2014",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2015",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2016",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2017",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2018",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2019",
+            "type": "integer"
+          },
+          {
+            "name": "cases_2020",
+            "type": "integer"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
           },
           {
             "name": "lastChecked",
@@ -5604,6 +6579,275 @@
       }
     },
     {
+      "name": "hospital-safety",
+      "profile": "tabular-data-resource",
+      "title": "Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare)",
+      "description": "How Medicare's Care Compare rates hospitals on patient safety, for each state, DC and territory and for each county with at least three hospitals: how many hospitals are rated worse, the same or better than the national benchmark on the PSI 90 patient-safety and adverse-events composite (claims July 2022 to June 2024), and on the six healthcare-associated infection ratios (October 2024 to September 2025), with each state's own infection ratios and confidence limits as CMS prints them. Counties with fewer than three hospitals are combined. Hospital names are not kept. A figure CMS does not print is left out.",
+      "path": "data/hospital-safety/hospital-safety.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792821",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.cms.gov",
+          "path": "https://data.cms.gov/provider-data/topics/hospitals"
+        },
+        {
+          "title": "data.cms.gov",
+          "path": "https://data.cms.gov/provider-data/dataset/ynj2-r877"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state, county or small-counties"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "Five-digit county FIPS code"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: CMS's own published figure"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Hospitals in Care Compare (the same as hospitals)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "hospitals",
+            "type": "integer",
+            "description": "Hospitals in the CMS Care Compare hospital file"
+          },
+          {
+            "name": "counties",
+            "type": "integer",
+            "description": "On small-counties records: the number of counties combined"
+          },
+          {
+            "name": "psi90_rated",
+            "type": "integer",
+            "description": "Hospitals with a PSI 90 rating against the national benchmark"
+          },
+          {
+            "name": "psi90_worse",
+            "type": "integer",
+            "description": "Hospitals rated worse than the national benchmark on PSI 90"
+          },
+          {
+            "name": "psi90_same",
+            "type": "integer",
+            "description": "Hospitals rated no different on PSI 90"
+          },
+          {
+            "name": "psi90_better",
+            "type": "integer",
+            "description": "Hospitals rated better on PSI 90"
+          },
+          {
+            "name": "cms_psi90_worse",
+            "type": "integer",
+            "description": "State records: CMS's own state count of hospitals worse on PSI 90"
+          },
+          {
+            "name": "cms_psi90_same",
+            "type": "integer",
+            "description": "State records: CMS's state count no different"
+          },
+          {
+            "name": "cms_psi90_better",
+            "type": "integer",
+            "description": "State records: CMS's state count better"
+          },
+          {
+            "name": "cms_psi90_too_few",
+            "type": "string",
+            "description": "State records: CMS's state count with too few cases"
+          },
+          {
+            "name": "hai_rated",
+            "type": "integer",
+            "description": "Hospital infection ratings (six measures) against the national benchmark"
+          },
+          {
+            "name": "hai_worse",
+            "type": "integer",
+            "description": "Hospital infection ratings worse than the benchmark"
+          },
+          {
+            "name": "hai_same",
+            "type": "integer",
+            "description": "Hospital infection ratings no different"
+          },
+          {
+            "name": "hai_better",
+            "type": "integer",
+            "description": "Hospital infection ratings better"
+          },
+          {
+            "name": "hai1_sir",
+            "type": "number",
+            "description": "State standardized infection ratio, central line bloodstream infections (1.0 is the national benchmark)"
+          },
+          {
+            "name": "hai1_lower",
+            "type": "number",
+            "description": "Lower 95% confidence limit of the ratio (hai2 to hai6 likewise)"
+          },
+          {
+            "name": "hai1_upper",
+            "type": "number",
+            "description": "Upper 95% confidence limit of the ratio (hai2 to hai6 likewise)"
+          },
+          {
+            "name": "hai2_sir",
+            "type": "number",
+            "description": "State ratio, catheter-associated urinary tract infections"
+          },
+          {
+            "name": "hai2_lower",
+            "type": "number"
+          },
+          {
+            "name": "hai2_upper",
+            "type": "number"
+          },
+          {
+            "name": "hai3_sir",
+            "type": "number",
+            "description": "State ratio, colon surgery site infections"
+          },
+          {
+            "name": "hai3_lower",
+            "type": "number"
+          },
+          {
+            "name": "hai3_upper",
+            "type": "number"
+          },
+          {
+            "name": "hai4_sir",
+            "type": "number",
+            "description": "State ratio, abdominal hysterectomy site infections"
+          },
+          {
+            "name": "hai4_lower",
+            "type": "number"
+          },
+          {
+            "name": "hai4_upper",
+            "type": "number"
+          },
+          {
+            "name": "hai5_sir",
+            "type": "number",
+            "description": "State ratio, MRSA bloodstream infections"
+          },
+          {
+            "name": "hai5_lower",
+            "type": "number"
+          },
+          {
+            "name": "hai5_upper",
+            "type": "number"
+          },
+          {
+            "name": "hai6_sir",
+            "type": "number",
+            "description": "State ratio, C. difficile infections"
+          },
+          {
+            "name": "hai6_lower",
+            "type": "number"
+          },
+          {
+            "name": "hai6_upper",
+            "type": "number"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "idb-civil",
       "profile": "tabular-data-resource",
       "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year",
@@ -5914,6 +7158,230 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "irs-databook",
+      "profile": "tabular-data-resource",
+      "title": "IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025",
+      "description": "Returns and other forms filed, gross tax collections and refunds issued, from the Internal Revenue Service Data Book state tables, for the nation, each state, DC and Puerto Rico and each fiscal year (October to September) from 2019 to 2025: returns by form type (individual, employment, C corporation, S corporation, partnership), collections by type of tax (individual income and employment, withheld, business income, estate, gift, excise) and the number and amount of refunds. Dollar amounts are in dollars; IRS prints them in thousands. The national record also holds what IRS counts in the nation but assigns to no state.",
+      "path": "data/irs-databook/irs-databook.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792826",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/statistics/soi-tax-stats-irs-data-book"
+        },
+        {
+          "title": "www.irs.gov",
+          "path": "https://www.irs.gov/statistics/soi-tax-stats-irs-data-book-index-of-tables"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states, DC, PR), or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state or us"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "IRS fiscal year, October of the prior year to September (2025 = October 2024 to September 2025)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: IRS's own published figure"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Gross tax collections in dollars (the same as collections_total)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "returns_total",
+            "type": "integer",
+            "description": "Returns and other forms filed (excludes information returns)"
+          },
+          {
+            "name": "returns_individual",
+            "type": "integer",
+            "description": "Individual income tax returns (Form 1040 series)"
+          },
+          {
+            "name": "returns_employment",
+            "type": "integer",
+            "description": "Employment tax returns"
+          },
+          {
+            "name": "returns_c_corp",
+            "type": "integer",
+            "description": "C or other corporation income tax returns"
+          },
+          {
+            "name": "returns_s_corp",
+            "type": "integer",
+            "description": "S corporation returns"
+          },
+          {
+            "name": "returns_partnership",
+            "type": "integer",
+            "description": "Partnership returns"
+          },
+          {
+            "name": "collections_total",
+            "type": "integer",
+            "description": "Gross collections in dollars, including penalties and interest"
+          },
+          {
+            "name": "collections_business",
+            "type": "integer",
+            "description": "Business income taxes"
+          },
+          {
+            "name": "collections_individual_employment",
+            "type": "integer",
+            "description": "Individual income, employment and estate and trust income taxes"
+          },
+          {
+            "name": "collections_withheld",
+            "type": "integer",
+            "description": "Individual income tax withheld, including Social Security and Medicare"
+          },
+          {
+            "name": "collections_individual_payments",
+            "type": "integer",
+            "description": "Individual income tax payments"
+          },
+          {
+            "name": "collections_estate",
+            "type": "integer",
+            "description": "Estate tax"
+          },
+          {
+            "name": "collections_gift",
+            "type": "integer",
+            "description": "Gift tax"
+          },
+          {
+            "name": "collections_excise",
+            "type": "integer",
+            "description": "Excise taxes"
+          },
+          {
+            "name": "refunds_number_total",
+            "type": "integer",
+            "description": "Number of refunds issued"
+          },
+          {
+            "name": "refunds_number_individual",
+            "type": "integer",
+            "description": "Number of individual income tax refunds"
+          },
+          {
+            "name": "refunds_amount_total",
+            "type": "integer",
+            "description": "Amount of refunds issued, in dollars, including interest"
+          },
+          {
+            "name": "refunds_amount_individual",
+            "type": "integer",
+            "description": "Individual income tax refunds, in dollars"
+          },
+          {
+            "name": "collections_outside_states",
+            "type": "integer",
+            "description": "US record: collections IRS counts in the nation but assigns to no state (armed forces overseas, international, undistributed, other areas)"
+          },
+          {
+            "name": "returns_outside_states",
+            "type": "integer",
+            "description": "US record: returns assigned to no state"
+          },
+          {
+            "name": "refunds_number_outside_states",
+            "type": "integer",
+            "description": "US record: refunds assigned to no state"
+          },
+          {
+            "name": "refunds_amount_outside_states",
+            "type": "integer",
+            "description": "US record: refund dollars assigned to no state"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -7600,6 +9068,190 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "mine-accidents",
+      "profile": "tabular-data-resource",
+      "title": "Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026",
+      "description": "Accident, injury and illness reports that U.S. mine operators and contractors file with the Mine Safety and Health Administration, counted for the nation and for each state and calendar year from 2000 to October 2026, and for each county over the last ten full years (2016 to 2025), by degree of injury: deaths, permanent disabilities, lost-time injuries, restricted-activity injuries, injuries with no lost time and all other reports. State and national records also split reports and deaths between coal and metal/nonmetal mines. Counts only: no narratives, names of operators, occupations or ages are kept.",
+      "path": "data/mine-accidents/mine-accidents.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792833",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "arlweb.msha.gov",
+          "path": "https://arlweb.msha.gov/OpenGovernmentData/OGIMSHA.asp"
+        },
+        {
+          "title": "www.msha.gov",
+          "path": "https://www.msha.gov/accident-injuries-and-illnesses-data-set"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state, county or county-not-recorded"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "Five-digit county FIPS code of the mine"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year of the accident (state and US records)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: MSHA's own record"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Reports (the same as reports)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "reports",
+            "type": "integer",
+            "description": "Accident, injury and illness reports filed with MSHA"
+          },
+          {
+            "name": "fatalities",
+            "type": "integer",
+            "description": "Reports with degree of injury fatality"
+          },
+          {
+            "name": "permanent_disability",
+            "type": "integer",
+            "description": "Permanent total or partial disability"
+          },
+          {
+            "name": "lost_time",
+            "type": "integer",
+            "description": "Days away from work, with or without restricted activity"
+          },
+          {
+            "name": "restricted_only",
+            "type": "integer",
+            "description": "Days of restricted activity only"
+          },
+          {
+            "name": "no_lost_time",
+            "type": "integer",
+            "description": "No days away and no restricted activity"
+          },
+          {
+            "name": "other",
+            "type": "integer",
+            "description": "All other reports: accident only, occupational illness, natural causes, nonemployees, first aid"
+          },
+          {
+            "name": "reports_coal",
+            "type": "integer",
+            "description": "Reports at coal mines"
+          },
+          {
+            "name": "reports_metal",
+            "type": "integer",
+            "description": "Reports at metal and nonmetal mines"
+          },
+          {
+            "name": "fatalities_coal",
+            "type": "integer",
+            "description": "Deaths at coal mines"
+          },
+          {
+            "name": "fatalities_metal",
+            "type": "integer",
+            "description": "Deaths at metal and nonmetal mines"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "Date of the last accident in the file"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -9871,13 +11523,13 @@
     {
       "name": "state-courts",
       "profile": "tabular-data-resource",
-      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon and West Virginia",
-      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts (criminal, civil, domestic, probate, adoption and parentage, mental illness, juvenile dependency and offender) and district and municipal courts (traffic infractions, DUI, other traffic and non-traffic misdemeanors, civil protection orders, civil and small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type (tort, contract, divorce, paternity, juvenile, felony and more) and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders and domestic violence), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, guardianship, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by county and category (felony, misdemeanor, criminal traffic, traffic, civil, small claims, divorce, other family, paternity, adoption, estates and informal probate, guardianship, commitments, juvenile delinquency and child-welfare), 2020 to 2025. Virginia (Supreme Court of Virginia, Office of the Executive Secretary): circuit courts (domestic and family, felony, misdemeanor, general civil, probate, protective orders), general district courts (landlord-tenant, garnishment, civil, felony, misdemeanor, infractions, protective orders) and juvenile and domestic relations district courts (custody and visitation, child support, delinquency, child dependency, protective orders) by locality (county or independent city), calendar year 2025. Pennsylvania (Administrative Office of Pennsylvania Courts): courts of common pleas in all 67 counties, civil cases by case type (motor-vehicle and other torts, mass torts, medical malpractice, contract and debt collection, landlord-tenant, mortgage foreclosure) and new criminal, protection from abuse, spousal and child support, custody, divorce, juvenile dependency and delinquency, adoption and guardianship cases, calendar year 2024. Oregon (Oregon Judicial Department): circuit courts in all 36 counties (general civil, landlord-tenant, small claims, felony, misdemeanor, violations, divorce, other domestic relations, protective orders, juvenile, probate, civil commitment), calendar year 2025. West Virginia (Supreme Court of Appeals): circuit courts (general civil, felony, misdemeanor, adoption, guardianship, mental health, juvenile), family courts (divorce, domestic violence, other domestic relations) and magistrate courts (small claims, personal safety and domestic violence protective orders) in all 55 counties, calendar year 2025. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia), and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Every record carries its FIPS code (the state's on a state row, the county's on a county row) so it joins Census and other county data. Counts only: no lawyer or firm is listed or ranked.",
+      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine and California",
+      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts and district and municipal courts (criminal, civil, domestic, probate, juvenile, traffic, DUI, protection orders, small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by category, felony to juvenile, 2020 to 2025. Virginia (Office of the Executive Secretary): circuit, general district and juvenile and domestic relations district courts by locality (county or independent city), calendar year 2025. Pennsylvania (Administrative Office of Pennsylvania Courts): courts of common pleas in all 67 counties, civil cases by type (motor-vehicle and other torts, mass torts, malpractice, contract and debt, landlord-tenant, foreclosure) and criminal, protection from abuse, support, custody, divorce, juvenile, adoption and guardianship cases, calendar year 2024. Oregon (Oregon Judicial Department): circuit courts in all 36 counties, calendar year 2025. West Virginia (Supreme Court of Appeals): circuit, family and magistrate courts in all 55 counties, calendar year 2025. Nebraska (Judicial Branch): county and district courts in all 93 counties and the separate juvenile courts of three of them, fiscal year 2024–25. Maine (Judicial Branch): superior courts, unified criminal dockets and district courts in all 16 counties, fiscal years 2021–22 to 2025–26. California (Judicial Council): superior courts in all 58 counties (motor-vehicle and other injury, limited civil, eviction, small claims, felony, misdemeanor, traffic, marital, parentage, domestic violence, child support, juvenile delinquency and dependency, guardianship, other probate, mental health), fiscal year 2024–25. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska), and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Every record carries its FIPS code (the state's on a state row, the county's on a county row) so it joins Census and other county data. Counts only: no lawyer or firm is listed or ranked.",
       "path": "data/state-courts/state-courts.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "id": "https://doi.org/10.5281/zenodo.23777048",
       "licenses": [
         {
@@ -9925,6 +11577,34 @@
         {
           "title": "www.courtswv.gov",
           "path": "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-05/2025_AnnualReport_R.pdf"
+        },
+        {
+          "title": "nebraskajudicial.gov",
+          "path": "https://nebraskajudicial.gov/sites/default/files/publication-report-files/FY2025-Annual-County-Court-Caseload-Report.pdf"
+        },
+        {
+          "title": "nebraskajudicial.gov",
+          "path": "https://nebraskajudicial.gov/sites/default/files/publication-report-files/FY2025-Annual-District-Court-Caseload-Report.pdf"
+        },
+        {
+          "title": "nebraskajudicial.gov",
+          "path": "https://nebraskajudicial.gov/sites/default/files/publication-report-files/FY2025-Annual-Separate-Juvenile-Court-Caseload-Report.pdf"
+        },
+        {
+          "title": "www.courts.maine.gov",
+          "path": "https://www.courts.maine.gov/about/reports-data.html"
+        },
+        {
+          "title": "www.courts.maine.gov",
+          "path": "https://www.courts.maine.gov/about/stats/statewide.pdf"
+        },
+        {
+          "title": "courts.ca.gov",
+          "path": "https://courts.ca.gov/system/files/file/csr_2026.pdf"
+        },
+        {
+          "title": "courts.ca.gov",
+          "path": "https://courts.ca.gov/system/files/file/2025-court-statistics-report_0.pdf"
         }
       ],
       "schema": {
@@ -9937,7 +11617,7 @@
           {
             "name": "state",
             "type": "string",
-            "description": "Two-letter state code (TX, WA, MD, IN, WI, VA, PA, OR or WV)"
+            "description": "Two-letter state code (TX, WA, MD, IN, WI, VA, PA, OR, WV, NE, ME or CA)"
           },
           {
             "name": "area",
@@ -9962,7 +11642,7 @@
           {
             "name": "courtLevel",
             "type": "string",
-            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit; Virginia: circuit, gdc (general district) or jdr (juvenile and domestic relations district); Pennsylvania: common-pleas; Oregon: circuit; West Virginia: circuit, family or magistrate)"
+            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit; Virginia: circuit, gdc (general district) or jdr (juvenile and domestic relations district); Pennsylvania: common-pleas; Oregon: circuit; West Virginia: circuit, family or magistrate; Nebraska: county, district or juvenile (separate juvenile courts); Maine: superior, ucd (unified criminal docket) or district; California: superior)"
           },
           {
             "name": "courtLevelName",
@@ -10005,7 +11685,7 @@
           {
             "name": "fy",
             "type": "string",
-            "description": "The period: a Texas or Maryland fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia)"
+            "description": "The period: a Texas, Maryland, Nebraska, Maine or California fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia)"
           },
           {
             "name": "value",
@@ -10636,6 +12316,190 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "tx-nonsubscribers",
+      "profile": "tabular-data-resource",
+      "title": "Texas employers without workers' compensation coverage (non-subscribers), by county",
+      "description": "Texas does not require most private employers to carry workers' compensation insurance. Employers that opt out file a notice of no coverage (DWC Form-005) with the state each year. This dataset counts those filings from October 2024 to September 2026: for the state, and for each county with at least five non-subscribing employers, the employers with a location in the county, their locations and the filings by year. Counties with fewer than five are combined. Employers are businesses: no company names or addresses are kept. A ZIP code is placed in the county that holds most of its land.",
+      "path": "data/tx-nonsubscribers/tx-nonsubscribers.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792847",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.texas.gov",
+          "path": "https://data.texas.gov/Business-and-Economy/Workers-compensation-non-subscriber-employer-informa/azae-8krr"
+        },
+        {
+          "title": "data.texas.gov",
+          "path": "https://data.texas.gov/resource/azae-8krr.json"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "TX"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "state, county, small-counties or county-not-recorded"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "county",
+            "type": "integer",
+            "description": "Five-digit county FIPS code"
+          },
+          {
+            "name": "countyName",
+            "type": "string",
+            "description": "County name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the state agency's own filings"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Filings (state), non-subscribing employers (county), employers in small counties, or locations with no county"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "employers",
+            "type": "integer",
+            "description": "Employers with at least one Texas location in the county (an employer in two counties counts in both)"
+          },
+          {
+            "name": "locations",
+            "type": "integer",
+            "description": "Location rows of those employers in the county"
+          },
+          {
+            "name": "employers_2024",
+            "type": "integer",
+            "description": "Employers whose notice was received in 2024 (October to December)"
+          },
+          {
+            "name": "employers_2025",
+            "type": "integer",
+            "description": "Employers whose notice was received in 2025"
+          },
+          {
+            "name": "employers_2026",
+            "type": "integer",
+            "description": "Employers whose notice was received in 2026 (to September)"
+          },
+          {
+            "name": "filings",
+            "type": "integer",
+            "description": "State record: notices of no coverage (DWC Form-005) in the file"
+          },
+          {
+            "name": "filings_texas",
+            "type": "integer",
+            "description": "State record: filings with at least one Texas address"
+          },
+          {
+            "name": "filings_no_texas_address",
+            "type": "integer",
+            "description": "State record: filings with no Texas address"
+          },
+          {
+            "name": "counties",
+            "type": "integer",
+            "description": "Number of counties with at least one non-subscribing employer (state record) or in the small-counties record"
+          },
+          {
+            "name": "filings_2024",
+            "type": "integer",
+            "description": "State record: filings received in 2024"
+          },
+          {
+            "name": "filings_2025",
+            "type": "integer",
+            "description": "State record: filings received in 2025"
+          },
+          {
+            "name": "filings_2026",
+            "type": "integer",
+            "description": "State record: filings received in 2026"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "Last filing date in the data"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -12407,6 +14271,139 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "wc-benefits",
+      "profile": "tabular-data-resource",
+      "title": "Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state",
+      "description": "The most a state pays each week in workers' compensation for total disability, for the injury period the state's own agency names. One row per state with the dollar figure, the period, the agency page or notice it comes from, and the verbatim sentence or table row.",
+      "path": "data/wc-benefits/wc-benefits.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23792850",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.dir.ca.gov",
+          "path": "https://www.dir.ca.gov/DIRNews/2025/2025-116.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "level",
+            "type": "string"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "agency",
+            "type": "string",
+            "description": "The agency that publishes the source"
+          },
+          {
+            "name": "measure",
+            "type": "string",
+            "description": "max-weekly-benefit"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "current law"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The maximum in dollars per week"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "dollars per week"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The verbatim words (25 or fewer) that carry the figure"
+          },
+          {
+            "name": "document",
+            "type": "string",
+            "description": "The document the quote comes from"
+          },
+          {
+            "name": "documentUrl",
+            "type": "string",
+            "description": "Link to that document"
+          },
+          {
+            "name": "verified",
+            "type": "string"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "A qualification stated in the same source"
           },
           {
             "name": "sourceLabels",

@@ -16,6 +16,12 @@
       "released": "2026-10-29"
     },
     {
+      "id": "aviation-accidents",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792734",
+      "released": "2026-10-30"
+    },
+    {
       "id": "bankruptcy",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739952",
@@ -32,6 +38,12 @@
       "version": "4.0.1",
       "doi": "10.5281/zenodo.23735849",
       "released": "2026-10-28"
+    },
+    {
+      "id": "boating-accidents",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792748",
+      "released": "2026-10-30"
     },
     {
       "id": "business-applications",
@@ -74,6 +86,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752984",
       "released": "2026-10-29"
+    },
+    {
+      "id": "court-fees",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792752",
+      "released": "2026-10-30"
     },
     {
       "id": "crime-data",
@@ -124,10 +142,22 @@
       "released": "2026-10-28"
     },
     {
+      "id": "eviction-laws",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792754",
+      "released": "2026-10-30"
+    },
+    {
       "id": "evictions",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752996",
       "released": "2026-10-29"
+    },
+    {
+      "id": "fair-housing",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792758",
+      "released": "2026-10-30"
     },
     {
       "id": "fatal-crashes",
@@ -172,6 +202,12 @@
       "released": "2026-10-29"
     },
     {
+      "id": "hospital-safety",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792821",
+      "released": "2026-10-30"
+    },
+    {
       "id": "idb-civil",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739969",
@@ -182,6 +218,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739986",
       "released": "2026-10-28"
+    },
+    {
+      "id": "irs-databook",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792826",
+      "released": "2026-10-30"
     },
     {
       "id": "language",
@@ -236,6 +278,12 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23720737",
       "released": "2026-10-28"
+    },
+    {
+      "id": "mine-accidents",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792833",
+      "released": "2026-10-30"
     },
     {
       "id": "mortgage-lending",
@@ -311,7 +359,7 @@
     },
     {
       "id": "state-courts",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "doi": "10.5281/zenodo.23777048",
       "released": "2026-10-29"
     },
@@ -332,6 +380,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23743677",
       "released": "2026-10-28"
+    },
+    {
+      "id": "tx-nonsubscribers",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792847",
+      "released": "2026-10-30"
     },
     {
       "id": "unemployment",
@@ -380,6 +434,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753097",
       "released": "2026-10-29"
+    },
+    {
+      "id": "wc-benefits",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23792850",
+      "released": "2026-10-30"
     },
     {
       "id": "work-injuries",
