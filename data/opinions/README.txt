@@ -25,8 +25,8 @@ Columns:
   title: The opinion’s title
   topics: Topic keys, separated by "; "
   rules: The professional conduct rules it applies, separated by "; "
-  opinionStatus: in-force, modified, withdrawn or unknown
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  opinionStatus: in-force, modified or withdrawn
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   whatToDo: What a law firm should do about it, in one sentence
   url: The official link

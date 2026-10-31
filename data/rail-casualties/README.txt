@@ -24,7 +24,7 @@ Columns:
   yearsFrom: First incident year kept
   yearsTo: Last incident year kept
   dataThrough: Date of the latest casualty in FRA's Form 55a view
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as casualties
   unit: What the value counts

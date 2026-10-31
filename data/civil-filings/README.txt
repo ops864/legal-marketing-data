@@ -22,7 +22,7 @@ Columns:
   category: The case type: a Table C-3 column id (for example priv-motor-vehicle-pi) or a Table C-2 row id (for example health-care-pharma)
   categoryLabel: The case type as the table prints it
   group: all, us (the U.S. government is a party), priv (private cases) or nos (a Table C-2 nature-of-suit row)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The machine value (see unit)
   unit: Unit of value

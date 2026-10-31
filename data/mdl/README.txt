@@ -18,7 +18,7 @@ Columns:
   mdl: The MDL docket number, e.g. MDL-2738
   title: The docket title as the court prints it
   district: The transferee district (two-letter state code of the district court)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: The machine value (see unit)
   unit: Unit of value
   totalActions: Every action ever part of the MDL

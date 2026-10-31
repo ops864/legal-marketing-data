@@ -24,7 +24,7 @@ Columns:
   addressPlace: Name of that place, address-outside-ny records
   department: Department records: 1, 2, 3 or 4 (the Appellate Division department of admission, not the office location)
   year: Year the court file was last updated
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Attorneys currently registered in the record's group
   unit: Unit of value

@@ -21,7 +21,7 @@ Columns:
   agency: The body that publishes the source
   measure: small-claims-limit
   period: current law
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The limit in dollars
   unit: dollars
@@ -30,7 +30,6 @@ Columns:
   documentUrl: Link to that document
   verified: 
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: An exception or second limit stated in the same source
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)

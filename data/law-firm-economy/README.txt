@@ -20,7 +20,7 @@ Columns:
   sizeClass: all, lt5, 5-9, 10-19, 20-99, 100-499 or 500+ (employees in the firm, SUSB); nonemployer (no employees, NES); econ-census (Economic Census 2022); and, for the US only, nes-<receipts band>, ec-top4/8/20/50 and ec-rcpt-<receipts band>
   sizeLabel: The class in plain words
   survey: SUSB (Statistics of U.S. Businesses 2022), NES (Nonemployer Statistics 2024) or EC (Economic Census 2022)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Firms in the class (businesses for nonemployer); for ec-top records, the share of all law-firm receipts in percent. Empty where the Census Bureau published no figure (flags.suppressed)
   unit: Unit of value
   firms: Employer law firms (SUSB, EC) or nonemployer businesses (NES). A firm is counted once in each state where it has an office

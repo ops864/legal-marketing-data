@@ -20,7 +20,7 @@ Columns:
   areaType: county, state or us
   state: Two-letter state code (empty for the US)
   year: The newest FARS year in this record (the other years are under `years` in the JSON and in fatal_crashes_YYYY)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Fatal crashes in that year
   unit: Unit of value

@@ -20,7 +20,7 @@ Columns:
   areaType: us, state or cbsa
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   measure: What the estimate measures
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   estimate: The survey estimate
   moe90: 90% margin of error
   cv: Coefficient of variation

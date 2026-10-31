@@ -33,7 +33,7 @@ Columns:
   bar_lawyers_per_1k: bar_lawyers per 1,000 residents
   desert_flag_lawyers: true when bar_lawyers_per_1k is under 1 (the ABA 2020 threshold); empty where no state count is published
   bar_status_definition: Which lawyers the state's count includes, and how the state defines the county
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The machine value (see unit)
   unit: Unit of value

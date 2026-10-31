@@ -17,7 +17,7 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   jurisdictionName: Jurisdiction name
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   year: The year the figures are for
   pass_rate_pct: Overall bar exam pass rate for the year (February and July together), in percent: passers divided by takers, as we compute it from NCBE's table. Empty when NCBE shows no results for the jurisdiction.
   admitted: New lawyers admitted in the year: the sum of the pathways NCBE shows (by examination, by transferred UBE score, on motion). Where NCBE shows a dash for a pathway it is left out and named in admitted_pathways_reported.

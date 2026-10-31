@@ -22,7 +22,7 @@ Columns:
   stateName: 
   period: 
   year: 
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Notices received in the 12 months to the end of the file
   unit: Unit of value

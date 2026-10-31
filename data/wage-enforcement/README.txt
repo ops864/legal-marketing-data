@@ -26,7 +26,7 @@ Columns:
   sectorName: Industry records: the NAICS sector name
   year: The latest complete federal fiscal year in the record (FY N runs October 1 of N-1 to September 30 of N)
   fiscalYears: The ten fiscal years covered
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Back wages WHD found owed over the ten fiscal years, in dollars (null where suppressed)
   unit: Unit of value

@@ -20,7 +20,7 @@ Columns:
   basis: all, race, sex, national-origin, religion, color, retaliation (all statutes), retaliation-title-vii, age, disability, equal-pay, genetic-information or pregnancy-pwfa
   basisLabel: The basis in plain words
   fy: The EEOC fiscal year (October 1 to September 30)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Charges received; empty when the EEOC suppressed the cell (flags.suppressed)
   unit: Unit of value
   shareOfStateTotal: Charges for the basis divided by the jurisdiction's total charges that year (a charge can name several bases)

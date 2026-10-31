@@ -34,7 +34,7 @@ Columns:
   active_no_county: Ohio state record: active attorneys with no county on file
   population: Residents, Census estimate of July 1, 2025
   year: Year of the source's as-of date
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   effectiveFrom: As-of date as a day
   effectiveTo: As-of date as a day
   asOf: The source's as-of date: a day, a month or a year (California's page shows none, so it is the day it was read)

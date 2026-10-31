@@ -37,7 +37,7 @@ Columns:
   solos_per_10k: nes_firms per 10,000 residents
   employees_per_10k: qcew_employment per 10,000 residents
   solos_per_office: nes_firms divided by qcew_estabs; empty when there are no establishments
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The machine value (see unit)
   unit: Unit of value

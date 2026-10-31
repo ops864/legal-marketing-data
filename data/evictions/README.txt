@@ -20,7 +20,7 @@ Columns:
   countyName: County name as the Census Bureau writes it
   stateName: State name
   level: county, state (states and territories LSC reports on) or us
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Eviction filings in the last twelve months where all twelve are present; otherwise the filings in the months LSC reports (unit says which)
   unit: What the value counts

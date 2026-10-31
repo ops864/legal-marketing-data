@@ -20,7 +20,7 @@ Columns:
   level: us (all drugs together) or ingredient
   rank: Rank by reports in the window among the published ingredients (0 for the all-drug record)
   quarters: The eight calendar quarters of the window, oldest first, comma separated
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as reports: FAERS reports received in the window that list the ingredient
   unit: What the value counts

@@ -18,7 +18,7 @@ Columns:
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   jurisdictionName: Jurisdiction name
   measure: debt-collection, credit-reporting (credit reporting and credit repair, all product names the CFPB has used since 2018) or debt-management (debt or credit management)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Complaints received in the last 12 complete months
   unit: Unit of value
   per100k: Complaints per 100,000 residents (Census Vintage 2025 estimate for July 1, 2025); empty for territories the Census file does not cover

@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "datasets": [
     {
       "id": "rules",
@@ -196,6 +196,12 @@
       "released": "2026-10-29"
     },
     {
+      "id": "flood-claims",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23845801",
+      "released": "2026-10-31"
+    },
+    {
       "id": "green-cards",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753002",
@@ -257,9 +263,9 @@
     },
     {
       "id": "legal-need",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23741886",
-      "released": "2026-10-28"
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23845845",
+      "released": "2026-10-31"
     },
     {
       "id": "legal-prices",
@@ -274,6 +280,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "marriage-divorce",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23845898",
+      "released": "2026-10-31"
+    },
+    {
       "id": "mdl",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23720737",
@@ -284,6 +296,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792833",
       "released": "2026-10-30"
+    },
+    {
+      "id": "mortgage-delinquency",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23845905",
+      "released": "2026-10-31"
     },
     {
       "id": "mortgage-lending",
@@ -320,6 +338,12 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23716831",
       "released": "2026-10-28"
+    },
+    {
+      "id": "population-change",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23845912",
+      "released": "2026-10-31"
     },
     {
       "id": "practice-official",
@@ -359,9 +383,9 @@
     },
     {
       "id": "state-courts",
-      "version": "1.7.0",
+      "version": "1.8.0",
       "doi": "10.5281/zenodo.23777048",
-      "released": "2026-10-29"
+      "released": "2026-10-30"
     },
     {
       "id": "state-wage-claims",
@@ -392,6 +416,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753061",
       "released": "2026-10-29"
+    },
+    {
+      "id": "union-membership",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23845987",
+      "released": "2026-10-31"
     },
     {
       "id": "uscis-offices",
@@ -437,9 +467,9 @@
     },
     {
       "id": "wc-benefits",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23792850",
-      "released": "2026-10-30"
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23844619",
+      "released": "2026-10-31"
     },
     {
       "id": "work-injuries",

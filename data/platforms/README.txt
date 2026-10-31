@@ -18,7 +18,7 @@ Columns:
   platform: Ad platform key
   policyName: The policy’s name
   policyArea: eligibility, restricted-category, creative, targeting, measurement and the other policy areas
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   ruleState: in-force or testing
   text: The record in one plain-English sentence
   whatToDo: What a law firm should do about it, in one sentence

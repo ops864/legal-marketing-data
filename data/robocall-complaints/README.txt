@@ -18,7 +18,7 @@ Columns:
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   jurisdictionName: Jurisdiction name
   measure: text (text-message complaints) or call (phone-call complaints, including those with no method given)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Complaints in the last 12 complete months
   unit: Unit of value
   per100k: Complaints per 100,000 residents (Census Vintage 2025 estimate for July 1, 2025); empty for territories the Census file does not cover

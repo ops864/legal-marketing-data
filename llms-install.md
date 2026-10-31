@@ -56,6 +56,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
 - `https://probativegrowth.com/mcp/findings`: Headline US legal-market counts, each with its denominator, limits and source dataset DOI.
 - `https://probativegrowth.com/mcp/firm-web-census`: US law firms by state, county and practice: firms per practice, Spanish pages, 24/7 intake, coverage vs Census counts.
+- `https://probativegrowth.com/mcp/flood-claims`: FEMA NFIP flood insurance claims and dollars paid by county, state and year of loss, 1978-2026, with the top storm since 2016.
 - `https://probativegrowth.com/mcp/green-cards`: New green cards (lawful permanent residents) in the top 200 counties by class of admission and country of birth, with state totals.
 - `https://probativegrowth.com/mcp/hospital-safety`: CMS Care Compare hospital patient-safety (PSI 90) and infection ratings by state and county, rated against the national benchmark.
 - `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
@@ -66,29 +67,33 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-aid-orgs`: Legal-aid, public-interest-law and civil-rights nonprofits per county, state and US, by type and revenue band (IRS EO BMF).
-- `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, noncitizens, LEP, divorced, veterans, renters.
+- `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, 75+, 85+, living alone, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
 - `https://probativegrowth.com/mcp/limitations`: Statutes of limitations by state for five kinds of civil claim, quoted from the code.
+- `https://probativegrowth.com/mcp/marriage-divorce`: CDC NCHS divorce and marriage rates per 1,000 residents by state, 1990-2024, and national divorce and marriage counts since 2000.
 - `https://probativegrowth.com/mcp/mdl`: Pending actions in every federal MDL, monthly since 2019.
 - `https://probativegrowth.com/mcp/mine-accidents`: MSHA mine accident, injury and illness reports by state, county and degree of injury, 2000 to 2026, coal and metal/nonmetal.
+- `https://probativegrowth.com/mcp/mortgage-delinquency`: CFPB share of mortgages 90+ and 30-89 days delinquent by county and state, monthly since 2008, with the change and the 2008-2025 high.
 - `https://probativegrowth.com/mcp/mortgage-lending`: HMDA home-purchase and refinance applications, loans, dollars and denial rates by county, state and US.
 - `https://probativegrowth.com/mcp/nursing-homes`: Nursing home fines, harm and abuse citations by county and state, from CMS, monthly.
 - `https://probativegrowth.com/mcp/ny-attorneys`: New York attorneys by county of office, registration status and admission decade, per 10,000 residents, from the court registry.
 - `https://probativegrowth.com/mcp/ny-workers-comp`: New York workers' compensation claims by county and accident year: attorney share, controverted, hearings, permanent disability.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
+- `https://probativegrowth.com/mcp/population-change`: Census county deaths, births, international and domestic migration, and residents 65+, 75+ and 85+, Vintage 2025 (years 2020 to 2025).
 - `https://probativegrowth.com/mcp/practice-official`: Official statistics (U.S. Courts, EEOC, EOIR, NHTSA FARS) quoted on the practice x state pages, one sourced sentence per record.
 - `https://probativegrowth.com/mcp/product-recalls`: CPSC consumer product recalls by year and hazard class, with the notices that report an injury or a death.
 - `https://probativegrowth.com/mcp/rail-casualties`: Railroad casualties, crossing incidents and train accidents by county from FRA Forms 55a, 57 and 54, by who was hurt.
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-civil-rights`: State civil-rights agency complaint and charge counts with the source document and quote for each figure.
-- `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA), by practice area, with county FIPS.
+- `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA LA HI), by practice area, with county FIPS.
 - `https://probativegrowth.com/mcp/state-wage-claims`: State labor agency wage claim counts with the source document and quote for each figure.
 - `https://probativegrowth.com/mcp/toxic-releases`: EPA TRI toxic chemical releases by county: facilities, pounds on site, carcinogens, PFAS, benzene, lead, ethylene oxide.
 - `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.
 - `https://probativegrowth.com/mcp/tx-nonsubscribers`: Texas employers with no workers' compensation coverage (DWC Form-005 filings), counted by county, 2024 to 2026.
 - `https://probativegrowth.com/mcp/unemployment`: BLS county and state unemployment rate, unemployed and labor force, annual averages and the latest month.
+- `https://probativegrowth.com/mcp/union-membership`: BLS union members and workers represented by unions by state, 2024-2025: thousands and percent of employed wage and salary workers.
 - `https://probativegrowth.com/mcp/uscis-offices`: USCIS naturalization (N-400) and green card (I-485) applications received, decided and pending, by field office and quarter.
 - `https://probativegrowth.com/mcp/va-compensation`: VA disability compensation recipients by county and combined rating (0-20% to 100%), age, sex, FY2025 vs FY2024.
 - `https://probativegrowth.com/mcp/va-spending`: VA compensation, pension and survivor benefit dollars by county, FY2025, with the year-earlier change.

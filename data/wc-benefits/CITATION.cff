@@ -4,8 +4,8 @@ title: "Workers' compensation maximum weekly benefit by state: the cap on total-
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23792850"
+version: "1.1.0"
+doi: "10.5281/zenodo.23844619"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23792849"

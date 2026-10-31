@@ -19,7 +19,7 @@ Columns:
   stateName: 
   practice: bankruptcy, employment-law, immigration or personal-injury
   page: The practice page that quotes it
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The sentence as published (English)
   textEs: The sentence as published (Spanish)
   lastChecked: The day it was last confirmed (YYYY-MM-DD)

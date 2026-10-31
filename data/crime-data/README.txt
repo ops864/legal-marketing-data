@@ -22,7 +22,7 @@ Columns:
   stateName: State name
   year: The latest full calendar year in the record
   window: The five calendar years covered
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: DUI arrests reported in the latest year
   unit: Unit of value

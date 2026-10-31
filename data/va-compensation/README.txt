@@ -22,7 +22,7 @@ Columns:
   stateName: State name
   fiscalYear: VA fiscal year of the count (it ends September 30)
   asOf: The day the count describes: veterans receiving compensation on September 30 of the fiscal year
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as recipients
   unit: Unit of value

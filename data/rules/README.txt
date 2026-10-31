@@ -18,7 +18,7 @@ Columns:
   stateName: Jurisdiction name
   topic: Rule topic key: filing, requiredContent, waitingPeriod, claims, referral, language, recording, texting, privacy
   label: Rule topic, in words
-  status: P primary source, S secondary source, D ABA model default, U open question
+  status: P primary source, S secondary source
   statusLabel: The status, in words
   text: The rule in plain English
   note: Caveats
@@ -28,6 +28,5 @@ Columns:
   sourceUrls: Source URLs, in the same order
   sourcesAccessed: The day each source was read, in the same order
   sourceQuotes: v1.3: the words quoted from each source, in the same order (P cells quote every source)
-  reason: v1.3: why a D or U cell is not read at an official source
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase

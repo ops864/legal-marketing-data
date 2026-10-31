@@ -20,7 +20,7 @@ Columns:
   level: county, state or us
   county: 5-digit county FIPS code (vintage 2025; Connecticut planning regions), empty for state and US records
   countyName: County name as in the crosswalks dataset
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as fines_total_usd
   unit: What value measures

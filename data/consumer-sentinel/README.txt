@@ -20,7 +20,7 @@ Columns:
   measure: fraud-other, identity-theft, imposter-scams or fraud-losses
   measureLabel: The measure in plain words
   year: The calendar year the reports were made (the Data Book year)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Reports (the count as the FTC prints it, except imposter-scams, which is derived); empty for imposter-scams when the FTC prints no share for the state (flags.suppressed)
   unit: Unit of value
   per100k: Reports per 100,000 people as the FTC prints it (fraud-other, identity-theft), or derived (imposter-scams)

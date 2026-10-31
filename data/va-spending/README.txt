@@ -21,7 +21,7 @@ Columns:
   stateName: State name
   level: county, state (states, DC, Puerto Rico and Guam), foreign, fas, other-territories, unknown or us
   fiscalYear: VA fiscal year of the dollars (it ends September 30)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as totalDirect: dollars of VA direct benefit expenditures
   unit: What the value counts

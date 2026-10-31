@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-10-30",
-  "created": "2026-10-30T00:00:00Z",
+  "version": "2026-10-31",
+  "created": "2026-10-31T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -91,7 +91,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D ABA model default, U open question"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "statusLabel",
@@ -137,11 +137,6 @@
             "name": "sourceQuotes",
             "type": "string",
             "description": "v1.3: the words quoted from each source, in the same order (P cells quote every source)"
-          },
-          {
-            "name": "reason",
-            "type": "string",
-            "description": "v1.3: why a D or U cell is not read at an official source"
           },
           {
             "name": "confidence",
@@ -311,7 +306,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "effectiveFrom",
@@ -724,7 +719,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -885,7 +880,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "year",
@@ -1694,7 +1689,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -1735,11 +1730,6 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": "Exceptions the same text lists, where they matter"
           },
           {
             "name": "sourceLabels",
@@ -1843,7 +1833,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -1988,7 +1978,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -2147,7 +2137,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -2563,7 +2553,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -2603,11 +2593,6 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": "An exception or second limit stated in the same source"
           },
           {
             "name": "sourceLabels",
@@ -2707,7 +2692,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -2952,7 +2937,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -3637,7 +3622,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -3976,7 +3961,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -4081,7 +4066,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -4316,7 +4301,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -4691,7 +4676,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -4918,7 +4903,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -5148,7 +5133,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -5437,7 +5422,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -5681,7 +5666,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "capType",
@@ -5773,7 +5758,7 @@
       "name": "filing",
       "profile": "tabular-data-resource",
       "title": "What US state bars charge, and require, to file or review lawyer advertising",
-      "description": "What each US state bar asks of a lawyer who advertises: whether ads or solicitations must be filed or reviewed, when, the standard, late and advisory fees, the portal or method, whether an expedited review exists, and how long copies must be kept, and, where a bar states it, how many ads it reviews in a year. Every recorded field is backed by a short quote from the bar's or court's own rule or page, with the date read; a field we could not read from a primary source is marked unknown.",
+      "description": "What each US state bar asks of a lawyer who advertises: whether ads or solicitations must be filed or reviewed, when, the standard, late and advisory fees, the portal or method, whether an expedited review exists, and how long copies must be kept, and, where a bar states it, how many ads it reviews in a year. Every recorded field is backed by a short quote from the bar's or court's own rule or page, with the date read.",
       "path": "data/filing/filing.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -5820,7 +5805,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "category",
@@ -6011,8 +5996,8 @@
           "path": "https://probativegrowth.com/data/v1/immigration-courts/jurisdictions/US.json"
         },
         {
-          "title": "data.bls.gov",
-          "path": "https://data.bls.gov/cew/data/api/2026/1/industry/541110.csv"
+          "title": "api.bls.gov",
+          "path": "https://api.bls.gov/"
         },
         {
           "title": "www.justice.gov",
@@ -6124,7 +6109,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "lastChecked",
@@ -6217,7 +6202,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -6353,6 +6338,205 @@
             "name": "exits_week",
             "type": "string",
             "description": "Aggregate rows: firms not readable in the latest run that were read the week before (filled once two runs exist)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "flood-claims",
+      "profile": "tabular-data-resource",
+      "title": "Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026",
+      "description": "Every National Flood Insurance Program claim in FEMA's public NFIP claims file, counted for the nation, each state and territory and each county by the year of the loss: claims, claims with a payment and dollars paid (building, contents and increased cost of compliance), over all years since 1978, the ten full years 2016 to 2025, the latest full year and the current, partial year, with the flood event that brought the most claims since 2016 in each state. Counts and sums only; no policy, address or claimant detail is kept.",
+      "path": "data/flood-claims/flood-claims.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23845801",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.fema.gov",
+          "path": "https://www.fema.gov/api/open/v1/OpenFemaDataSets?$filter=name%20eq%20%27NfipClaims%27%20and%20version%20eq%203"
+        },
+        {
+          "title": "www.fema.gov",
+          "path": "https://www.fema.gov/api/open/v3/NfipClaims"
+        },
+        {
+          "title": "www.fema.gov",
+          "path": "https://www.fema.gov/about/openfema/terms-conditions"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or county"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, the 2-digit state FIPS code or the 5-digit county FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "County and state, state name, or United States"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on the national record)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: FEMA's own file"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Claims with a loss in the ten full years (the same as claims_10y)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "firstYear",
+            "type": "integer",
+            "description": "First year of loss with a claim for this place"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "FEMA's as-of date for the file"
+          },
+          {
+            "name": "claims_total",
+            "type": "integer",
+            "description": "NFIP claims, every year of loss in the file"
+          },
+          {
+            "name": "paid_claims_total",
+            "type": "integer",
+            "description": "Claims with a payment above zero"
+          },
+          {
+            "name": "paid_usd_total",
+            "type": "integer",
+            "description": "Dollars paid: building, contents and increased cost of compliance"
+          },
+          {
+            "name": "tenYears",
+            "type": "string",
+            "description": "The ten full years of loss counted in the _10y columns"
+          },
+          {
+            "name": "claims_10y",
+            "type": "integer",
+            "description": "Claims with a loss in those ten years"
+          },
+          {
+            "name": "paid_claims_10y",
+            "type": "integer",
+            "description": "Of them, claims with a payment"
+          },
+          {
+            "name": "paid_usd_10y",
+            "type": "integer",
+            "description": "Dollars paid on them"
+          },
+          {
+            "name": "latestYear",
+            "type": "integer",
+            "description": "The latest full year of loss"
+          },
+          {
+            "name": "claims_latest",
+            "type": "integer",
+            "description": "Claims with a loss in the latest full year"
+          },
+          {
+            "name": "paid_usd_latest",
+            "type": "integer",
+            "description": "Dollars paid on them"
+          },
+          {
+            "name": "currentYear",
+            "type": "integer",
+            "description": "The current year (partial: losses to the as-of date)"
+          },
+          {
+            "name": "claims_current",
+            "type": "integer",
+            "description": "Claims with a loss so far this year"
+          },
+          {
+            "name": "paid_usd_current",
+            "type": "integer",
+            "description": "Dollars paid on them so far"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
           },
           {
             "name": "lastChecked",
@@ -6928,7 +7112,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -7102,7 +7286,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -7467,7 +7651,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "estimate",
@@ -7601,7 +7785,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -7869,7 +8053,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -8218,13 +8402,13 @@
       "name": "legal-need",
       "profile": "tabular-data-resource",
       "title": "Legal need by county: who may need a lawyer, from the American Community Survey",
-      "description": "The people in every U.S. county who may need a lawyer, counted from the Census Bureau's American Community Survey 2020 to 2024 5-year estimates: residents aged 65 and over, residents who are not U.S. citizens, foreign-born residents who arrived since 2010, residents who speak English less than very well (and Spanish speakers among them), divorced residents (and, for states, people divorced in the last year), veterans and veterans with a VA disability rating, residents with a disability, households on SSI, renter households and renters paying 30 or 50 percent of income on rent, residents without health insurance, workers who drive to work and median household income. One record per county (3,144, in the 50 states and DC), per state and for the US, each measure with its 90% margin of error and its share of the population it is counted in.",
+      "description": "The people in every U.S. county who may need a lawyer, counted from the Census Bureau's American Community Survey 2020 to 2024 5-year estimates: residents aged 65 and over (and 75 and over and 85 and over), people aged 65 or over living alone and those below the poverty level, residents who are not U.S. citizens, foreign-born residents who arrived since 2010, residents who speak English less than very well (and Spanish speakers among them), divorced residents (and, for states, people divorced in the last year), veterans and veterans with a VA disability rating, residents with a disability, households on SSI, renter households and renters paying 30 or 50 percent of income on rent, residents without health insurance, workers who drive to work and median household income. One record per county (3,144, in the 50 states and DC), per state and for the US, each measure with its 90% margin of error and its share of the population it is counted in.",
       "path": "data/legal-need/legal-need.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23741886",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23845845",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -8258,11 +8442,6 @@
             "description": "Two-letter state code (50 states and DC), or US for the national row"
           },
           {
-            "name": "county",
-            "type": "string",
-            "description": "5-digit county FIPS code (2025 county list, as in the crosswalks dataset); empty on state and US rows"
-          },
-          {
             "name": "level",
             "type": "string",
             "description": "county, state or us"
@@ -8275,7 +8454,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -8323,6 +8502,66 @@
             "description": "age_65plus as a percentage of its universe (pop_total), one decimal"
           },
           {
+            "name": "age_75plus",
+            "type": "integer",
+            "description": "Residents aged 75 and over (B01001 lines 23-25 and 47-49); share of total residents"
+          },
+          {
+            "name": "age_75plus_moe90",
+            "type": "integer",
+            "description": "90% margin of error of age_75plus (root of the summed squares)"
+          },
+          {
+            "name": "age_75plus_pct",
+            "type": "number",
+            "description": "age_75plus as a percentage of pop_total, one decimal"
+          },
+          {
+            "name": "age_85plus",
+            "type": "integer",
+            "description": "Residents aged 85 and over (B01001 lines 25 and 49); share of total residents"
+          },
+          {
+            "name": "age_85plus_moe90",
+            "type": "integer",
+            "description": "90% margin of error of age_85plus (root of the summed squares)"
+          },
+          {
+            "name": "age_85plus_pct",
+            "type": "number",
+            "description": "age_85plus as a percentage of pop_total, one decimal"
+          },
+          {
+            "name": "age_65plus_alone",
+            "type": "integer",
+            "description": "One-person households whose one resident is aged 65 or over (B11007 line 3); share of households"
+          },
+          {
+            "name": "age_65plus_alone_moe90",
+            "type": "integer",
+            "description": "90% margin of error of age_65plus_alone"
+          },
+          {
+            "name": "age_65plus_alone_pct",
+            "type": "number",
+            "description": "age_65plus_alone as a percentage of households, one decimal"
+          },
+          {
+            "name": "age_65plus_poverty",
+            "type": "integer",
+            "description": "Residents aged 65 and over with income in the past 12 months below the poverty level (B17001 lines 15, 16, 29, 30); share of pov_65plus"
+          },
+          {
+            "name": "age_65plus_poverty_moe90",
+            "type": "integer",
+            "description": "90% margin of error of age_65plus_poverty (root of the summed squares)"
+          },
+          {
+            "name": "age_65plus_poverty_pct",
+            "type": "number",
+            "description": "age_65plus_poverty as a percentage of pov_65plus, one decimal"
+          },
+          {
             "name": "noncitizens",
             "type": "integer",
             "description": "Residents who are not U.S. citizens (B05001 line 6); share of total residents"
@@ -8346,11 +8585,6 @@
             "name": "recent_arrivals_moe90",
             "type": "integer",
             "description": "90% margin of error of recent_arrivals (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
-          },
-          {
-            "name": "recent_arrivals_pct",
-            "type": "number",
-            "description": "recent_arrivals as a percentage of its universe (born_abroad), one decimal"
           },
           {
             "name": "lep",
@@ -8398,21 +8632,6 @@
             "description": "divorced as a percentage of its universe (pop_15plus), one decimal"
           },
           {
-            "name": "divorced_last_year",
-            "type": "integer",
-            "description": "Residents aged 15+ divorced in the last 12 months (B12503 lines 5 and 10); the Census Bureau publishes this table for states and the US only, so county rows are empty"
-          },
-          {
-            "name": "divorced_last_year_moe90",
-            "type": "integer",
-            "description": "90% margin of error of divorced_last_year (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
-          },
-          {
-            "name": "divorced_last_year_pct",
-            "type": "number",
-            "description": "divorced_last_year as a percentage of its universe (pop_15plus), one decimal"
-          },
-          {
             "name": "veterans",
             "type": "integer",
             "description": "Civilian veterans aged 18+ (B21001 line 2); share of civilians aged 18+"
@@ -8438,11 +8657,6 @@
             "description": "90% margin of error of va_rated (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
           },
           {
-            "name": "va_rated_pct",
-            "type": "number",
-            "description": "va_rated as a percentage of its universe (civ_veterans), one decimal"
-          },
-          {
             "name": "va_rated_70plus",
             "type": "integer",
             "description": "Civilian veterans rated 70 percent or higher (B21100 line 8); share of civilian veterans"
@@ -8451,11 +8665,6 @@
             "name": "va_rated_70plus_moe90",
             "type": "integer",
             "description": "90% margin of error of va_rated_70plus (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
-          },
-          {
-            "name": "va_rated_70plus_pct",
-            "type": "number",
-            "description": "va_rated_70plus as a percentage of its universe (civ_veterans), one decimal"
           },
           {
             "name": "disability",
@@ -8548,16 +8757,6 @@
             "description": "uninsured as a percentage of its universe (B27010 line 1), one decimal"
           },
           {
-            "name": "median_household_income",
-            "type": "integer",
-            "description": "Median household income in the past 12 months, in 2024 inflation-adjusted dollars (B19013 line 1); not a count, so not summed"
-          },
-          {
-            "name": "median_household_income_moe90",
-            "type": "integer",
-            "description": "90% margin of error of median_household_income (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled"
-          },
-          {
             "name": "commute_vehicle",
             "type": "integer",
             "description": "Workers aged 16+ who commute by car, truck or van, driving alone or carpooling (B08301 line 2); share of workers aged 16+"
@@ -8623,14 +8822,9 @@
             "description": "Universe: workers aged 16 and over (B08301 line 1)"
           },
           {
-            "name": "noisy",
-            "type": "string",
-            "description": "Measures whose 90% margin of error is more than half the estimate (or whose estimate is 0 with a margin above 0): read them as rough"
-          },
-          {
-            "name": "suppressedMeasures",
-            "type": "string",
-            "description": "Measures the Census Bureau did not publish for this place (sample too small); their value is empty"
+            "name": "pov_65plus",
+            "type": "integer",
+            "description": "Residents aged 65 and over whose poverty status is determined (B17001 65-74 and 75+ lines, below and at or above poverty): the universe of age_65plus_poverty"
           },
           {
             "name": "lastChecked",
@@ -8728,7 +8922,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -8805,7 +8999,7 @@
       "name": "limitations",
       "profile": "tabular-data-resource",
       "title": "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage",
-      "description": "The filing deadline the statute sets for five kinds of civil claims in every US state and DC: personal injury, medical malpractice, wrongful death, product liability and property damage. Each record gives the period in the statute's own words, the citation, a link to the state's official code site, a verbatim quote, and the date read; where the same text says so, it adds whether the period runs from discovery and any outer limit (statute of repose). Where the official code could not be read, a cell may come from a court opinion that quotes or applies the statute; it is marked S (secondary) and names the court, case and date. Cells with neither are marked U and left blank. No calculator and no deadline arithmetic: tolling and exceptions apply.",
+      "description": "The filing deadline the statute sets for five kinds of civil claims in every US state and DC: personal injury, medical malpractice, wrongful death, product liability and property damage. Each record gives the period in the statute's own words, the citation, a link to the state's official code site, a verbatim quote, and the date read; where the same text says so, it adds whether the period runs from discovery and any outer limit (statute of repose). Some cells come from a court opinion that quotes or applies the statute; they are marked S (secondary) and name the court, case and date. No calculator and no deadline arithmetic: tolling and exceptions apply.",
       "path": "data/limitations/limitations.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -8866,12 +9060,12 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "years",
             "type": "number",
-            "description": "The period in years as the statute states it (fractions for periods stated in months); blank when U"
+            "description": "The period in years as the statute states it (fractions for periods stated in months)"
           },
           {
             "name": "period",
@@ -8891,17 +9085,12 @@
           {
             "name": "discoveryRule",
             "type": "string",
-            "description": "Y when the quoted text runs the period from discovery, N when it expressly runs from the act, U when the text read does not say"
+            "description": "Y when the quoted text runs the period from discovery, N when it expressly runs from the act; present only when the quoted text states it"
           },
           {
             "name": "reposeYears",
             "type": "integer",
-            "description": "An outer time limit (statute of repose) stated in the text read, in years; blank when none was read"
-          },
-          {
-            "name": "governmentNoticeDays",
-            "type": "string",
-            "description": "Notice-of-claim deadlines for claims against a government body are not covered in version 1.0 (always blank, U)"
+            "description": "An outer time limit (statute of repose) stated in the text read, in years; present only when the quoted text states one"
           },
           {
             "name": "basis",
@@ -8912,11 +9101,6 @@
             "name": "readBy",
             "type": "string",
             "description": "script when the page was fetched and the quote string-matched by machine; browser when the official site refuses scripts and the page was read in a browser"
-          },
-          {
-            "name": "uReason",
-            "type": "string",
-            "description": "For a U cell: vendor (the official code is published only on a commercial publisher's site), none-specific (no statute specific to this claim type was found), or unconfirmed"
           },
           {
             "name": "quote",
@@ -8937,6 +9121,164 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "marriage-divorce",
+      "profile": "tabular-data-resource",
+      "title": "Marriage and divorce rates by state (CDC NCHS), 1990 to 2024",
+      "description": "Divorce rates (divorces and annulments per 1,000 residents, by state of occurrence) and marriage rates for every state that reports them to the CDC's National Center for Health Statistics, for 1990, 1995 and each year 2000 to 2024, with each reporting state's latest rate, its 2019 rate and its rate in 2000 (or its first reported year after 2000) and the change since; and the national provisional counts of divorces and marriages each year since 2000, with the states the national divorce count leaves out. Rates and counts only, as NCHS publishes them.",
+      "path": "data/marriage-divorce/marriage-divorce.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23845898",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.cdc.gov",
+          "path": "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm"
+        },
+        {
+          "title": "www.cdc.gov",
+          "path": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/state-divorce-rates-90-95-00-24.xlsx"
+        },
+        {
+          "title": "www.cdc.gov",
+          "path": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/state-marriage-rates-90-95-00-24.xlsx"
+        },
+        {
+          "title": "www.cdc.gov",
+          "path": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.xlsx"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states and DC), or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or state"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "divorce (divorces and annulments) or marriage"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on the national records)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest year of the NCHS table (states without a rate that year have no record of that kind)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the NCHS figure as published"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The rate in that year (the same as rate)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "description": "Per 1,000 residents in the latest year"
+          },
+          {
+            "name": "rate_2019",
+            "type": "number",
+            "description": "Per 1,000 residents in 2019"
+          },
+          {
+            "name": "base_year",
+            "type": "integer",
+            "description": "The first year from 2000 on with a published rate (2000 for most states)"
+          },
+          {
+            "name": "rate_base",
+            "type": "number",
+            "description": "Per 1,000 residents in base_year"
+          },
+          {
+            "name": "change_since_base",
+            "type": "number",
+            "description": "rate minus rate_base"
+          },
+          {
+            "name": "years_published",
+            "type": "integer",
+            "description": "How many years have a published rate (1990, 1995 and 2000 onward for states; 2000 onward for the US)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -9012,7 +9354,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -9237,6 +9579,206 @@
             "name": "dataThrough",
             "type": "string",
             "description": "Date of the last accident in the file"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "mortgage-delinquency",
+      "profile": "tabular-data-resource",
+      "title": "Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008",
+      "description": "The share of mortgages 90 or more days delinquent and 30 to 89 days delinquent, from the Consumer Financial Protection Bureau's Mortgage Performance Trends, for the nation, every state and DC and each county the CFPB publishes (counties with at least 1,000 mortgages in its sample): the latest month, the same month a year earlier, the change in percentage points, the highest and lowest 90-day share since January 2008 and each year's December values. Percents only, as the CFPB publishes them.",
+      "path": "data/mortgage-delinquency/mortgage-delinquency.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23845905",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.consumerfinance.gov",
+          "path": "https://www.consumerfinance.gov/data-research/mortgage-performance-trends/download-the-data/"
+        },
+        {
+          "title": "www.consumerfinance.gov",
+          "path": "https://www.consumerfinance.gov/data-research/mortgage-performance-trends/about-the-data/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states and DC), or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or county"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, the 2-digit state FIPS code or the 5-digit county FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "County and state, state name, or United States"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on the national record)"
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "The latest month in the CFPB's files (YYYY-MM)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the CFPB's own published figure"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Percent of mortgages 90 or more days delinquent in the latest month (the same as pct_90plus)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "pct_90plus",
+            "type": "number",
+            "description": "Percent of mortgages 90 or more days delinquent, latest month"
+          },
+          {
+            "name": "pct_90plus_year_ago",
+            "type": "number",
+            "description": "The same, twelve months earlier"
+          },
+          {
+            "name": "change_90plus_pts",
+            "type": "number",
+            "description": "Change over the twelve months, in percentage points"
+          },
+          {
+            "name": "pct_30_89",
+            "type": "number",
+            "description": "Percent of mortgages 30 to 89 days delinquent, latest month"
+          },
+          {
+            "name": "pct_30_89_year_ago",
+            "type": "number",
+            "description": "The same, twelve months earlier"
+          },
+          {
+            "name": "change_30_89_pts",
+            "type": "number",
+            "description": "Change over the twelve months, in percentage points"
+          },
+          {
+            "name": "peak_90plus",
+            "type": "number",
+            "description": "Highest monthly 90-day share since January 2008"
+          },
+          {
+            "name": "peak_90plus_month",
+            "type": "string",
+            "description": "First month the highest share was reached"
+          },
+          {
+            "name": "peak_90plus_last_month",
+            "type": "string",
+            "description": "Last month at the highest share (the same as peak_90plus_month when it held one month)"
+          },
+          {
+            "name": "peak_90plus_months",
+            "type": "integer",
+            "description": "How many months the share stood at its highest value"
+          },
+          {
+            "name": "low_90plus",
+            "type": "number",
+            "description": "Lowest monthly 90-day share since January 2008"
+          },
+          {
+            "name": "low_90plus_month",
+            "type": "string",
+            "description": "First month the lowest share was reached"
+          },
+          {
+            "name": "low_90plus_last_month",
+            "type": "string",
+            "description": "Last month at the lowest share"
+          },
+          {
+            "name": "low_90plus_months",
+            "type": "integer",
+            "description": "How many months the share stood at its lowest value"
+          },
+          {
+            "name": "months_published",
+            "type": "integer",
+            "description": "Months with a published value since January 2008"
           },
           {
             "name": "effectiveFrom",
@@ -9507,7 +10049,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -9767,7 +10309,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -10208,12 +10750,12 @@
           {
             "name": "opinionStatus",
             "type": "string",
-            "description": "in-force, modified, withdrawn or unknown"
+            "description": "in-force, modified or withdrawn"
           },
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -10347,7 +10889,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "ruleState",
@@ -10403,6 +10945,264 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "population-change",
+      "profile": "tabular-data-resource",
+      "title": "Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025",
+      "description": "The Census Bureau's population estimates for every U.S. county, every state and DC and the nation: deaths, births, international migration and domestic migration in the year to July 1, 2025 and summed over the five years since July 1, 2020, with the Bureau's own rates per 1,000 residents; residents on July 1, 2025 and on the April 1, 2020 estimates base; and residents aged 65 and over, 75 and over and 85 and over, with their share of all residents and the growth of the 65-and-over population since 2020. Counts only, from the Bureau's public Vintage 2025 files.",
+      "path": "data/population-change/population-change.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23845912",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/asrh/cc-est2025-agesex-all.csv"
+        },
+        {
+          "title": "www2.census.gov",
+          "path": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states and DC), or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or county"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, the 2-digit state FIPS code or the 5-digit county FIPS code (Connecticut: planning regions)"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "County and state, state name, or United States"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on the national record)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The estimates vintage: figures run to July 1 of this year"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "The latest estimate year: July 1 of the year before to June 30 of the vintage year"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the Census Bureau's own estimate"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Deaths in the latest estimate year (the same as deaths)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Residents on July 1 of the vintage year"
+          },
+          {
+            "name": "population_base",
+            "type": "integer",
+            "description": "Residents on the April 1, 2020 estimates base"
+          },
+          {
+            "name": "population_change_pct",
+            "type": "number",
+            "description": "Change in residents since April 1, 2020, percent"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "description": "Deaths in the latest estimate year"
+          },
+          {
+            "name": "deaths_5y",
+            "type": "integer",
+            "description": "Deaths in the five estimate years from July 1, 2020"
+          },
+          {
+            "name": "death_rate",
+            "type": "number",
+            "description": "Deaths per 1,000 residents in the latest year (Census Bureau rate)"
+          },
+          {
+            "name": "births",
+            "type": "integer",
+            "description": "Births in the latest estimate year"
+          },
+          {
+            "name": "births_5y",
+            "type": "integer",
+            "description": "Births in the five estimate years from July 1, 2020"
+          },
+          {
+            "name": "birth_rate",
+            "type": "number",
+            "description": "Births per 1,000 residents in the latest year (Census Bureau rate)"
+          },
+          {
+            "name": "natural_change",
+            "type": "integer",
+            "description": "Births minus deaths in the latest year"
+          },
+          {
+            "name": "international_migration",
+            "type": "integer",
+            "description": "Net international migration in the latest year"
+          },
+          {
+            "name": "international_migration_5y",
+            "type": "integer",
+            "description": "Net international migration over the five estimate years"
+          },
+          {
+            "name": "international_migration_rate",
+            "type": "number",
+            "description": "Net international migration per 1,000 residents (Census Bureau rate)"
+          },
+          {
+            "name": "net_migration",
+            "type": "integer",
+            "description": "International plus domestic migration in the latest year"
+          },
+          {
+            "name": "net_migration_5y",
+            "type": "integer",
+            "description": "Net migration over the five estimate years"
+          },
+          {
+            "name": "net_migration_rate",
+            "type": "number",
+            "description": "Net migration per 1,000 residents (Census Bureau rate)"
+          },
+          {
+            "name": "age_65plus",
+            "type": "integer",
+            "description": "Residents aged 65 and over on July 1 of the vintage year"
+          },
+          {
+            "name": "age_65plus_pct",
+            "type": "number",
+            "description": "age_65plus as a percentage of residents"
+          },
+          {
+            "name": "age_65plus_base",
+            "type": "integer",
+            "description": "Residents aged 65 and over on April 1, 2020"
+          },
+          {
+            "name": "age_65plus_change_pct",
+            "type": "number",
+            "description": "Change in residents 65 and over since April 1, 2020, percent"
+          },
+          {
+            "name": "age_75plus",
+            "type": "integer",
+            "description": "Residents aged 75 and over"
+          },
+          {
+            "name": "age_75plus_pct",
+            "type": "number",
+            "description": "age_75plus as a percentage of residents"
+          },
+          {
+            "name": "age_85plus",
+            "type": "integer",
+            "description": "Residents aged 85 and over"
+          },
+          {
+            "name": "age_85plus_pct",
+            "type": "number",
+            "description": "age_85plus as a percentage of residents"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",
@@ -10484,7 +11284,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -10604,7 +11404,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -10921,7 +11721,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -11093,7 +11893,7 @@
       "name": "referral",
       "profile": "tabular-data-resource",
       "title": "Referral-fee and fee-splitting rules for lawyers, by state",
-      "description": "When lawyers in different firms may split a fee, and what a lawyer may pay for a referral, in every US state and DC. Each record gives the state's fee-division rule (ABA Model Rule 1.5(e) or its equivalent: the proportion or joint-responsibility test, how the client must agree, whether each share is disclosed, any cap) and its rule on paying for recommendations (Model Rule 7.2(b) or its equivalent: referral-service charges, reciprocal referral agreements, nominal gifts), each quoted from the official rules text with the date read. Cells we could not read at an official source are blank and marked U.",
+      "description": "When lawyers in different firms may split a fee, and what a lawyer may pay for a referral, in the US states and DC it covers. Each record gives the state's fee-division rule (ABA Model Rule 1.5(e) or its equivalent: the proportion or joint-responsibility test, how the client must agree, whether each share is disclosed, any cap) and its rule on paying for recommendations (Model Rule 7.2(b) or its equivalent: referral-service charges, reciprocal referral agreements, nominal gifts), each quoted from the official rules text with the date read.",
       "path": "data/referral/referral.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -11140,7 +11940,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "feeRule",
@@ -11291,7 +12091,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -11447,7 +12247,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -11523,13 +12323,13 @@
     {
       "name": "state-courts",
       "profile": "tabular-data-resource",
-      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine and California",
-      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts and district and municipal courts (criminal, civil, domestic, probate, juvenile, traffic, DUI, protection orders, small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by category, felony to juvenile, 2020 to 2025. Virginia (Office of the Executive Secretary): circuit, general district and juvenile and domestic relations district courts by locality (county or independent city), calendar year 2025. Pennsylvania (Administrative Office of Pennsylvania Courts): courts of common pleas in all 67 counties, civil cases by type (motor-vehicle and other torts, mass torts, malpractice, contract and debt, landlord-tenant, foreclosure) and criminal, protection from abuse, support, custody, divorce, juvenile, adoption and guardianship cases, calendar year 2024. Oregon (Oregon Judicial Department): circuit courts in all 36 counties, calendar year 2025. West Virginia (Supreme Court of Appeals): circuit, family and magistrate courts in all 55 counties, calendar year 2025. Nebraska (Judicial Branch): county and district courts in all 93 counties and the separate juvenile courts of three of them, fiscal year 2024–25. Maine (Judicial Branch): superior courts, unified criminal dockets and district courts in all 16 counties, fiscal years 2021–22 to 2025–26. California (Judicial Council): superior courts in all 58 counties (motor-vehicle and other injury, limited civil, eviction, small claims, felony, misdemeanor, traffic, marital, parentage, domestic violence, child support, juvenile delinquency and dependency, guardianship, other probate, mental health), fiscal year 2024–25. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska), and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Every record carries its FIPS code (the state's on a state row, the county's on a county row) so it joins Census and other county data. Counts only: no lawyer or firm is listed or ranked.",
+      "title": "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii",
+      "description": "How many cases are filed in state trial courts, by county, court level and case group, from each state court system's own published statistics. Texas (Office of Court Administration): district, constitutional county and statutory county courts, fiscal years 2023–24 and 2024–25, with district-court filings by case type. Washington (Administrative Office of the Courts): superior courts and district and municipal courts (criminal, civil, domestic, probate, juvenile, traffic, DUI, protection orders, small claims), calendar year 2025. Maryland (Judiciary data dashboard): circuit-court filings by case type and District Court filings (landlord-tenant, civil, criminal, DUI, traffic citations, peace orders), fiscal years 2012 to 2025. Indiana (Office of Judicial Administration): circuit and superior court new filings by Rule 8 case type (felony, misdemeanor, tort, collection, small claims, eviction, foreclosure, domestic relations, estates, juvenile), calendar year 2025 (provisional) beside 2024. Wisconsin (Director of State Courts Office): circuit-court cases opened by category, felony to juvenile, 2020 to 2025. Virginia (Office of the Executive Secretary): circuit, general district and juvenile and domestic relations district courts by locality (county or independent city), calendar year 2025. Pennsylvania (Administrative Office of Pennsylvania Courts): courts of common pleas in all 67 counties, civil cases by type (motor-vehicle and other torts, mass torts, malpractice, contract and debt, landlord-tenant, foreclosure) and criminal, protection from abuse, support, custody, divorce, juvenile, adoption and guardianship cases, calendar year 2024. Oregon (Oregon Judicial Department): circuit courts in all 36 counties, calendar year 2025. West Virginia (Supreme Court of Appeals): circuit, family and magistrate courts in all 55 counties, calendar year 2025. Nebraska (Judicial Branch): county and district courts in all 93 counties and the separate juvenile courts of three of them, fiscal year 2024–25. Maine (Judicial Branch): superior courts, unified criminal dockets and district courts in all 16 counties, fiscal years 2021–22 to 2025–26. California (Judicial Council): superior courts in all 58 counties (motor-vehicle and other injury, limited civil, eviction, small claims, felony, misdemeanor, traffic, marital, parentage, domestic violence, child support, juvenile delinquency and dependency, guardianship, other probate, mental health), fiscal year 2024–25. Louisiana (Supreme Court of Louisiana, Judicial Administrator's Office): district courts in 61 of the state's 64 parishes (civil, criminal, traffic and juvenile cases), calendar year 2025 beside 2024 where the 2024 report's row matches. Hawaii (Hawaii State Judiciary): circuit courts in all four circuits, each mapped to its county (motor-vehicle and other injury, contract, foreclosure, probate proceedings, circuit criminal cases), fiscal year 2024–25. Every record keeps the state's own category names and the numbers added into each group (components), and carries a harmonized group and the practice areas it bears on, so a county's filings can be read as demand for personal injury, family, landlord-tenant, small claims and debt, probate, criminal and DUI, juvenile and traffic work. In every source the counties add up to the state's own printed total where it prints one (Texas, Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Hawaii), Louisiana's parish records are the parishes whose rows add up to the printed district totals and its state row is the state's printed total, and the state rows for Maryland are the sum of the counties because the file prints no statewide row. Every record carries its FIPS code (the state's on a state row, the county's on a county row) so it joins Census and other county data. Counts only: no lawyer or firm is listed or ranked.",
       "path": "data/state-courts/state-courts.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.7.0",
+      "version": "1.8.0",
       "id": "https://doi.org/10.5281/zenodo.23777048",
       "licenses": [
         {
@@ -11605,6 +12405,18 @@
         {
           "title": "courts.ca.gov",
           "path": "https://courts.ca.gov/system/files/file/2025-court-statistics-report_0.pdf"
+        },
+        {
+          "title": "www.lasc.org",
+          "path": "https://www.lasc.org/press_room/annual_reports/reports/2025_Annual_Report.pdf"
+        },
+        {
+          "title": "www.lasc.org",
+          "path": "https://www.lasc.org/press_room/annual_reports/reports/2024_Annual_Report.pdf"
+        },
+        {
+          "title": "www.courts.state.hi.us",
+          "path": "https://www.courts.state.hi.us/wp-content/uploads/2026/02/FY2025_annual_report_statistical_supplement_Final_Draft-2.pdf"
         }
       ],
       "schema": {
@@ -11617,7 +12429,7 @@
           {
             "name": "state",
             "type": "string",
-            "description": "Two-letter state code (TX, WA, MD, IN, WI, VA, PA, OR, WV, NE, ME or CA)"
+            "description": "Two-letter state code (TX, WA, MD, IN, WI, VA, PA, OR, WV, NE, ME, CA, LA or HI)"
           },
           {
             "name": "area",
@@ -11642,7 +12454,7 @@
           {
             "name": "courtLevel",
             "type": "string",
-            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit; Virginia: circuit, gdc (general district) or jdr (juvenile and domestic relations district); Pennsylvania: common-pleas; Oregon: circuit; West Virginia: circuit, family or magistrate; Nebraska: county, district or juvenile (separate juvenile courts); Maine: superior, ucd (unified criminal docket) or district; California: superior)"
+            "description": "The court level the count is for (Texas: district, constitutional-county or statutory-county; Washington: superior or limited; Maryland: circuit or district; Indiana: trial; Wisconsin: circuit; Virginia: circuit, gdc (general district) or jdr (juvenile and domestic relations district); Pennsylvania: common-pleas; Oregon: circuit; West Virginia: circuit, family or magistrate; Nebraska: county, district or juvenile (separate juvenile courts); Maine: superior, ucd (unified criminal docket) or district; California: superior; Louisiana: district; Hawaii: circuit)"
           },
           {
             "name": "courtLevelName",
@@ -11685,7 +12497,7 @@
           {
             "name": "fy",
             "type": "string",
-            "description": "The period: a Texas, Maryland, Nebraska, Maine or California fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia)"
+            "description": "The period: a Texas, Maryland, Nebraska, Maine, California or Hawaii fiscal year (e.g. 2024-25) or a calendar year (Washington, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Louisiana)"
           },
           {
             "name": "value",
@@ -11752,7 +12564,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -11870,7 +12682,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -12020,7 +12832,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -12225,7 +13037,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -12597,7 +13409,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -12688,6 +13500,185 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "union-membership",
+      "profile": "tabular-data-resource",
+      "title": "Union membership and representation by state (BLS Union Members), 2024 and 2025",
+      "description": "Employed wage and salary workers, union members and workers represented by unions (members plus workers covered by a union contract) in every state, DC and the nation, from the Bureau of Labor Statistics' annual Union Members release (Current Population Survey): numbers in thousands as BLS prints them, each as a percent of employed workers, for the latest year and the year before, with the change in the members' percent. The 2025 annual figures average the 11 months BLS published (January to September, November and December).",
+      "path": "data/union-membership/union-membership.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23845987",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/news.release/union2.t05.htm"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/news.release/union2.t01.htm"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/news.release/archives/union2_01282025.htm"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code (50 states and DC), or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or state"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on the national record)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest year in the BLS release"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the BLS figure as printed"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Percent of employed wage and salary workers who are union members (the same as members_pct)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "employed_k",
+            "type": "integer",
+            "description": "Employed wage and salary workers, thousands (sole or principal job; self-employed excluded)"
+          },
+          {
+            "name": "members_k",
+            "type": "integer",
+            "description": "Members of a labor union or an employee association similar to a union, thousands"
+          },
+          {
+            "name": "members_pct",
+            "type": "number",
+            "description": "members_k as a percent of employed_k (BLS)"
+          },
+          {
+            "name": "represented_k",
+            "type": "integer",
+            "description": "Union members plus workers with no union affiliation whose jobs are covered by a union or employee association contract, thousands"
+          },
+          {
+            "name": "represented_pct",
+            "type": "number",
+            "description": "represented_k as a percent of employed_k (BLS)"
+          },
+          {
+            "name": "previousYear",
+            "type": "integer",
+            "description": "The year before (the second year of the release)"
+          },
+          {
+            "name": "employed_k_prev",
+            "type": "integer",
+            "description": "employed_k in previousYear"
+          },
+          {
+            "name": "members_k_prev",
+            "type": "integer",
+            "description": "members_k in previousYear"
+          },
+          {
+            "name": "members_pct_prev",
+            "type": "number",
+            "description": "members_pct in previousYear"
+          },
+          {
+            "name": "represented_k_prev",
+            "type": "integer",
+            "description": "represented_k in previousYear"
+          },
+          {
+            "name": "represented_pct_prev",
+            "type": "number",
+            "description": "represented_pct in previousYear"
+          },
+          {
+            "name": "change_members_pct_pts",
+            "type": "number",
+            "description": "members_pct minus members_pct_prev, percentage points"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -13104,7 +14095,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -13334,7 +14325,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -13504,7 +14495,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -13681,7 +14672,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "value",
@@ -13939,7 +14930,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -14190,7 +15181,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -14307,8 +15298,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23792850",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.23844619",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -14359,7 +15350,7 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P primary source, S secondary source, D default (no specific rule found), U open question or withheld"
+            "description": "P primary source, S secondary source"
           },
           {
             "name": "text",
@@ -14399,11 +15390,6 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": "A qualification stated in the same source"
           },
           {
             "name": "sourceLabels",

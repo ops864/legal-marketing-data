@@ -17,7 +17,7 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   jurisdictionName: Jurisdiction name
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   category: Filing category: files_ads, files_solicitations_only, voluntary_review_only, no_filing or unknown
   category_label: The category in words
   filing_required: yes, no, solicitations_only, voluntary_only or unknown

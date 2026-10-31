@@ -1,12 +1,12 @@
 Legal need by county: who may need a lawyer, from the American Community Survey
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23741886
+Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23845845
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal need by county: who may need a lawyer, from the American Community Survey, version 1.0.0, https://doi.org/10.5281/zenodo.23741886, licensed CC BY 4.0.
+Source: Probative, Legal need by county: who may need a lawyer, from the American Community Survey, version 1.1.0, https://doi.org/10.5281/zenodo.23845845, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal need by county: who may need a lawyer, from the American Community Survey (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23741886
+Probative. (2026). Legal need by county: who may need a lawyer, from the American Community Survey (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23845845
 
 Not legal advice. These are survey estimates of people with a characteristic, not counts of legal problems or cases: a renter, a veteran or a noncitizen does not necessarily need a lawyer. Each estimate has a margin of error, and small counties' estimates are rough.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -16,10 +16,9 @@ Human page: https://probativegrowth.com/data/legal-need/
 Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state code (50 states and DC), or US for the national row
-  county: 5-digit county FIPS code (2025 county list, as in the crosswalks dataset); empty on state and US rows
   level: county, state or us
   name: County and state, state name, or United States
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Total residents (ACS 2020-2024 5-year estimate, table B01001)
   unit: Unit of value
@@ -29,12 +28,23 @@ Columns:
   age_65plus: Residents aged 65 and over (B01001 lines 20-25 and 44-49); share of total residents
   age_65plus_moe90: 90% margin of error of age_65plus (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   age_65plus_pct: age_65plus as a percentage of its universe (pop_total), one decimal
+  age_75plus: Residents aged 75 and over (B01001 lines 23-25 and 47-49); share of total residents
+  age_75plus_moe90: 90% margin of error of age_75plus (root of the summed squares)
+  age_75plus_pct: age_75plus as a percentage of pop_total, one decimal
+  age_85plus: Residents aged 85 and over (B01001 lines 25 and 49); share of total residents
+  age_85plus_moe90: 90% margin of error of age_85plus (root of the summed squares)
+  age_85plus_pct: age_85plus as a percentage of pop_total, one decimal
+  age_65plus_alone: One-person households whose one resident is aged 65 or over (B11007 line 3); share of households
+  age_65plus_alone_moe90: 90% margin of error of age_65plus_alone
+  age_65plus_alone_pct: age_65plus_alone as a percentage of households, one decimal
+  age_65plus_poverty: Residents aged 65 and over with income in the past 12 months below the poverty level (B17001 lines 15, 16, 29, 30); share of pov_65plus
+  age_65plus_poverty_moe90: 90% margin of error of age_65plus_poverty (root of the summed squares)
+  age_65plus_poverty_pct: age_65plus_poverty as a percentage of pov_65plus, one decimal
   noncitizens: Residents who are not U.S. citizens (B05001 line 6); share of total residents
   noncitizens_moe90: 90% margin of error of noncitizens (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   noncitizens_pct: noncitizens as a percentage of its universe (pop_total), one decimal
   recent_arrivals: Foreign-born residents who entered the U.S. in 2010 or later (B05005 line 4); share of residents born outside the U.S.
   recent_arrivals_moe90: 90% margin of error of recent_arrivals (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
-  recent_arrivals_pct: recent_arrivals as a percentage of its universe (born_abroad), one decimal
   lep: Residents aged 5+ who speak English less than "very well", any language (B16005, the well / not well / not at all lines); share of residents aged 5+
   lep_moe90: 90% margin of error of lep (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   lep_pct: lep as a percentage of its universe (pop_5plus), one decimal
@@ -44,18 +54,13 @@ Columns:
   divorced: Residents aged 15+ whose current marital status is divorced (B12001 lines 10 and 19); share of residents aged 15+
   divorced_moe90: 90% margin of error of divorced (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   divorced_pct: divorced as a percentage of its universe (pop_15plus), one decimal
-  divorced_last_year: Residents aged 15+ divorced in the last 12 months (B12503 lines 5 and 10); the Census Bureau publishes this table for states and the US only, so county rows are empty
-  divorced_last_year_moe90: 90% margin of error of divorced_last_year (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
-  divorced_last_year_pct: divorced_last_year as a percentage of its universe (pop_15plus), one decimal
   veterans: Civilian veterans aged 18+ (B21001 line 2); share of civilians aged 18+
   veterans_moe90: 90% margin of error of veterans (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   veterans_pct: veterans as a percentage of its universe (civ_pop_18plus), one decimal
   va_rated: Civilian veterans with a VA service-connected disability rating, any percentage (B21100 line 3); share of civilian veterans
   va_rated_moe90: 90% margin of error of va_rated (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
-  va_rated_pct: va_rated as a percentage of its universe (civ_veterans), one decimal
   va_rated_70plus: Civilian veterans rated 70 percent or higher (B21100 line 8); share of civilian veterans
   va_rated_70plus_moe90: 90% margin of error of va_rated_70plus (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
-  va_rated_70plus_pct: va_rated_70plus as a percentage of its universe (civ_veterans), one decimal
   disability: Civilian noninstitutionalized residents with a disability (B18101, the 12 'with a disability' lines); share of that population
   disability_moe90: 90% margin of error of disability (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   disability_pct: disability as a percentage of its universe (civ_noninst_pop), one decimal
@@ -74,8 +79,6 @@ Columns:
   uninsured: Civilian noninstitutionalized residents with no health insurance coverage (B27010 lines 17, 33, 50 and 66); share of that population (B27010 line 1)
   uninsured_moe90: 90% margin of error of uninsured (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   uninsured_pct: uninsured as a percentage of its universe (B27010 line 1), one decimal
-  median_household_income: Median household income in the past 12 months, in 2024 inflation-adjusted dollars (B19013 line 1); not a count, so not summed
-  median_household_income_moe90: 90% margin of error of median_household_income (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   commute_vehicle: Workers aged 16+ who commute by car, truck or van, driving alone or carpooling (B08301 line 2); share of workers aged 16+
   commute_vehicle_moe90: 90% margin of error of commute_vehicle (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled
   commute_vehicle_pct: commute_vehicle as a percentage of its universe (workers_16plus), one decimal
@@ -89,10 +92,19 @@ Columns:
   occupied_units: Universe: occupied housing units (B25003 line 1)
   renter_units: Universe: renter-occupied units whose rent share of income is computed (B25070 line 1 minus line 11)
   workers_16plus: Universe: workers aged 16 and over (B08301 line 1)
-  noisy: Measures whose 90% margin of error is more than half the estimate (or whose estimate is 0 with a margin above 0): read them as rough
-  suppressedMeasures: Measures the Census Bureau did not publish for this place (sample too small); their value is empty
+  pov_65plus: Residents aged 65 and over whose poverty status is determined (B17001 65-74 and 75+ lines, below and at or above poverty): the universe of age_65plus_poverty
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  county: 5-digit county FIPS code (2025 county list, as in the crosswalks dataset), on county records (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  recent_arrivals_pct: recent_arrivals as a percentage of its universe (born_abroad), one decimal (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  divorced_last_year: Residents aged 15+ divorced in the last 12 months (B12503 lines 5 and 10), on state and US records, the levels for which the Census Bureau publishes this table (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  divorced_last_year_moe90: 90% margin of error of divorced_last_year (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  divorced_last_year_pct: divorced_last_year as a percentage of its universe (pop_15plus), one decimal (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  va_rated_pct: va_rated as a percentage of its universe (civ_veterans), one decimal (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  va_rated_70plus_pct: va_rated_70plus as a percentage of its universe (civ_veterans), one decimal (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  median_household_income: Median household income in the past 12 months, in 2024 inflation-adjusted dollars (B19013 line 1); not a count, so not summed (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  median_household_income_moe90: 90% margin of error of median_household_income (a sum of lines: root of the summed squares, the Census Bureau's approximation); 0 where the estimate is controlled (in legal-need-values.csv: one row per record that has it, columns id, column, value)
+  noisy: Measures whose 90% margin of error is more than half the estimate (or whose estimate is 0 with a margin above 0): read them as rough (in legal-need-values.csv: one row per record that has it, columns id, column, value)

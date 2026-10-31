@@ -19,7 +19,7 @@ Columns:
   level: us, state, state-not-given (complaints whose state is blank, military mail or outside the states and territories), make (one make in one state) or us-make (one make nationally)
   stateName: State or territory name
   make: Vehicle make as NHTSA writes it (FORD, HONDA, TESLA ...); empty on state and US totals
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Complaints (same as complaints)
   unit: Unit of value

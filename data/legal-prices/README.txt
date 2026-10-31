@@ -19,7 +19,7 @@ Columns:
   measure: What the series measures
   program: cpi (consumer prices), ppi (producer prices) or ces (employment)
   month: The reference month, YYYY-MM
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: The published index value, or jobs in thousands, dollars or hours (see unit)
   unit: Unit of value
   baseNote: The index base period as BLS publishes it

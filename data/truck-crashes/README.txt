@@ -21,7 +21,7 @@ Columns:
   countyName: County name as the Census Bureau writes it
   stateName: State or territory name
   year: The latest complete calendar year in the record (the others are under `years` in the JSON)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Crashes in that year (same as crashes)
   unit: Unit of value

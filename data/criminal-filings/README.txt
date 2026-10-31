@@ -24,7 +24,7 @@ Columns:
   periodStart: First day of the 12-month period
   periodEnd: Last day of the 12-month period (June 30 or December 31)
   latest: true for the newest period the Courts have published
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Criminal defendants commenced in the period (same as defendants)
   unit: Unit of value

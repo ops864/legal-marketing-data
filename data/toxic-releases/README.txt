@@ -23,7 +23,7 @@ Columns:
   unplaced_lbs: State records: pounds on forms whose county could not be matched to a county code (included in the state total)
   level: county, state (states and territories) or us
   reportingYear: TRI reporting year of the figures
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as onsite_lbs: pounds released on site in the latest reporting year
   unit: What the value counts

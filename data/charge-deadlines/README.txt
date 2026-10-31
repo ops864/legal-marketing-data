@@ -21,7 +21,7 @@ Columns:
   agency: The agency that takes the charge
   measure: federal-charge-deadline, federal-charge-deadline-extended or state-charge-deadline
   period: current law
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The number of the limit
   unit: days, calendar days, months or years
@@ -30,7 +30,6 @@ Columns:
   documentUrl: Where it is
   verified: The date the quote was last found in the document
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Exceptions the same text lists, where they matter
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)

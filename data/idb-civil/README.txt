@@ -23,7 +23,7 @@ Columns:
   kind: district-group (a district and a group) or nos (the whole US for one nature-of-suit code)
   nos: The nature-of-suit code on the civil cover sheet (nos records only)
   nosLabel: 
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Median days from filing to disposition, over cases the district itself resolved in the window; empty when fewer than 10
   unit: Unit of value
   window: The fiscal years pooled in the record (three years, October to September)

@@ -19,17 +19,15 @@ Columns:
   jurisdictionName: Jurisdiction name
   claimType: pi (personal injury), medmal (medical malpractice), wd (wrongful death), product (product liability) or property (property damage)
   claimTypeName: The claim type in words
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
-  years: The period in years as the statute states it (fractions for periods stated in months); blank when U
+  status: P primary source, S secondary source
+  years: The period in years as the statute states it (fractions for periods stated in months)
   period: The period in the statute's own terms, e.g. 2 years or 2 years and 6 months
   statuteCite: The statute section the period comes from
   officialUrl: The page on the state's official code site the quote was read from
-  discoveryRule: Y when the quoted text runs the period from discovery, N when it expressly runs from the act, U when the text read does not say
-  reposeYears: An outer time limit (statute of repose) stated in the text read, in years; blank when none was read
-  governmentNoticeDays: Notice-of-claim deadlines for claims against a government body are not covered in version 1.0 (always blank, U)
+  discoveryRule: Y when the quoted text runs the period from discovery, N when it expressly runs from the act; present only when the quoted text states it
+  reposeYears: An outer time limit (statute of repose) stated in the text read, in years; present only when the quoted text states one
   basis: specific when the statute names the claim type; general when the period is the state's general or residual period and the statute's words do not name the claim type
   readBy: script when the page was fetched and the quote string-matched by machine; browser when the official site refuses scripts and the page was read in a browser
-  uReason: For a U cell: vendor (the official code is published only on a commercial publisher's site), none-specific (no statute specific to this claim type was found), or unconfirmed
   quote: A verbatim quote from the official statute text
   text: The record in one plain-English sentence
   lastChecked: The day it was last confirmed (YYYY-MM-DD)

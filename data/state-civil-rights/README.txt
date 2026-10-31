@@ -21,7 +21,7 @@ Columns:
   agency: The state agency that published the figure
   measure: What is counted: intake-forms, immediate-right-to-sue, charges-received, employment-charges, charges-docketed or employment-allegations
   period: Calendar or state fiscal year the figure covers
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The figure as the agency prints it
   unit: What the figure counts (units differ by state)

@@ -24,7 +24,7 @@ Columns:
   districtName: District records: the district court's name
   year: The latest complete federal fiscal year in the record (FY N runs October 1 of N-1 to September 30 of N, by filing date)
   fiscalYears: The ten fiscal years covered
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Federal civil cases filed over the ten fiscal years
   unit: Unit of value

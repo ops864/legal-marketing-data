@@ -20,7 +20,7 @@ Columns:
   scope: national, state, court or nationality
   measure: What is counted, in plain words
   period: The fiscal year (2025), the fiscal year to a quarter end (2026Q3, the fiscal year runs October 1 to September 30) or the date of the case-data file (2026-10-01)
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: The count, or a percent for the representation rate and the grant share (see unit); empty when suppressed (flags.suppressed)
   unit: Unit of value
   perMonth: The average a month, for new cases and completions

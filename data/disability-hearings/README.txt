@@ -30,7 +30,7 @@ Columns:
   pending: Cases pending at the end of the period
   month: The month of the wait-time report (YYYY-MM)
   fyThrough: The last day of the fiscal-year-to-date period
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
   note: Caveats

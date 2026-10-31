@@ -17,7 +17,7 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state code, DC, US (federal), ABA, or PLATFORM:<name>
   jurisdictionName: Jurisdiction name
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   feeRule: 
   feeStatus: 
   basis: 

@@ -34,7 +34,7 @@ Columns:
   anchor: The finding's link on the report page (the 'cite this figure' link)
   ogImage: A 1200 x 630 share image of the finding
   computed: The date the finding was computed
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase

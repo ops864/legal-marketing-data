@@ -20,7 +20,7 @@ Columns:
   county: 5-digit county FIPS code (county rows)
   countyName: County name as the Census Bureau writes it
   practice: Practice id from the shared practice taxonomy (/data/crosswalks/), for practice rows
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Law firms found (website or registry; small groups suppressed)
   unit: Unit of value

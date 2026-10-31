@@ -20,7 +20,7 @@ Columns:
   areaType: us, state, district or county
   state: Two-letter state or territory code; empty for the United States
   period: The 12 months end on this date (YYYY-MM-DD); the window starts on the first day of the 12th month before
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: The machine value (see unit)
   unit: Unit of value

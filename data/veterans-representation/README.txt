@@ -20,7 +20,7 @@ Columns:
   areaType: us, state, dc, territory, other, or bva (a Board of Veterans' Appeals row)
   state: 
   fips: 
-  status: P primary source, S secondary source, D default (no specific rule found), U open question or withheld
+  status: P primary source, S secondary source
   value: Accredited attorneys plus accredited claims agents (the people on the VA lists); for a bva row, the Board's decisions in that row
   unit: Unit of value
   attorneys: Attorneys on the VA Office of General Counsel's list whose business address is in the state
