@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is"
+type: dataset
+authors:
+  - name: "Probative Growth"
+version: "1.0.0"
+doi: "10.5281/zenodo.23851322"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23851321"
+    description: "Concept DOI (all versions)"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/data/serp-landscape/"
+repository-code: "https://github.com/ops864/legal-marketing-data"

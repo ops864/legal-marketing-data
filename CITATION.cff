@@ -23,6 +23,9 @@ identifiers:
     value: "10.5281/zenodo.23645750"
     description: "Lawyer advertising rules by state (50 states and DC): concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23851277"
+    description: "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner): concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23777036"
     description: "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts: concept DOI (all versions)"
   - type: doi
@@ -76,6 +79,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23741881"
     description: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23851280"
+    description: "Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23721429"
     description: "Legal deserts: law offices and lawyers per resident in every U.S. county: concept DOI (all versions)"
@@ -143,6 +149,9 @@ identifiers:
     value: "10.5281/zenodo.23739996"
     description: "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022: concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23851284"
+    description: "US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area: concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.23721414"
     description: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics: concept DOI (all versions)"
   - type: doi
@@ -157,6 +166,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23734853"
     description: "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23851291"
+    description: "Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23721435"
     description: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage: concept DOI (all versions)"
@@ -214,6 +226,12 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23733009"
     description: "Unwanted-call and text-message complaints to the FCC, by state and month: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23851293"
+    description: "Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete): concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23851321"
+    description: "Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is: concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23753028"
     description: "State civil-rights agency complaints and charges: figures printed in state annual reports: concept DOI (all versions)"
@@ -275,6 +293,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
     date-released: "2026-10-29"
+  - type: dataset
+    title: "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23851278"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/ad-costs/"
+    date-released: "2026-11-01"
   - type: dataset
     title: "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts"
     authors:
@@ -437,6 +464,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/crosswalks/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23851281"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/demand-per-law-office/"
+    date-released: "2026-11-01"
   - type: dataset
     title: "Legal deserts: law offices and lawyers per resident in every U.S. county"
     authors:
@@ -636,6 +672,15 @@ references:
     url: "https://probativegrowth.com/research/law-firm-size-and-revenue/"
     date-released: "2026-10-28"
   - type: dataset
+    title: "US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23851285"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/law-firm-websites/"
+    date-released: "2026-11-01"
+  - type: dataset
     title: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics"
     authors:
       - name: "Probative Growth"
@@ -680,6 +725,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/legal-prices/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23851292"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/legal-profession-figures/"
+    date-released: "2026-11-01"
   - type: dataset
     title: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage"
     authors:
@@ -851,6 +905,24 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/robocall-complaints/"
     date-released: "2026-10-28"
+  - type: dataset
+    title: "Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23851294"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/search-demand/"
+    date-released: "2026-11-01"
+  - type: dataset
+    title: "Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23851322"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/serp-landscape/"
+    date-released: "2026-11-01"
   - type: dataset
     title: "State civil-rights agency complaints and charges: figures printed in state annual reports"
     authors:

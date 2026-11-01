@@ -155,6 +155,107 @@
       }
     },
     {
+      "name": "ad-costs",
+      "profile": "tabular-data-resource",
+      "title": "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)",
+      "description": "What advertisers bid to show at the top of Google for lawyer searches, practice by practice. For 86 query families (English and Spanish) in the whole US, all 50 states and DC, the file gives the top-of-page bid band of each family's English and Spanish head query (Google Keyword Planner's low and high top-of-page bid estimates: the range advertisers have historically bid to show above the results), the competition level and index, plus the family's median low and high bids across its queries. Figures come from Google Ads Keyword Planner (October 2025 to September 2026) and are shown as bands with that period; for the US and 27 states, a DataForSEO pull of the same Google Ads data agrees on every bid band it shares. For the US, families are grouped into demand tiers by searches a month with the median high bid of each tier. Our own anonymized benchmark of what law-firm clicks actually cost is linked as a separate measure and never mixed into these figures.",
+      "path": "data/ad-costs/ad-costs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23851278",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ads.google.com",
+          "path": "https://ads.google.com/home/tools/keyword-planner/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US for the whole country, else the two-letter code of a state or DC; together the records cover the whole US, all 50 states and DC"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "The place's name: United States, or the name of the state or DC"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "family (one query family in one place) or tier (US: families grouped by searches a month)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The machine value (see unit)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "asOf",
+            "type": "string",
+            "description": "Date of the Keyword Planner export the figures come from"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "attorneys",
       "profile": "tabular-data-resource",
       "title": "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts",
@@ -967,7 +1068,7 @@
       "name": "benchmarks",
       "profile": "tabular-data-resource",
       "title": "Probative benchmarks, 2025–2026",
-      "description": "Probative benchmarks, 2025–2026: aggregated, rounded, and small groups suppressed. Our data on law-firm marketing, shown as bands, named tiers and rounded values, one table per file. The public tables cover how quickly inquiries become signed clients, phone calls and signed clients, AI answers and organic search clicks, search-ad click costs, what people type, calls from ads, Local Services Ads leads, inquiries by quarter and ad cost per signed client. Each row gives the measure, the band or tier, its unit and a rough size band. Every value is aggregated across many observations; values resting on too few observations, or resting mostly on a few, are suppressed for privacy. Values are approximate, so read the band, not a point. The methods page defines every measure and the protection steps.",
+      "description": "Probative benchmarks, 2025–2026: aggregated, rounded, and small groups suppressed. Our data on law-firm marketing, shown as bands, named tiers and rounded values, one table per file. The public tables cover how quickly inquiries become signed clients, phone calls and signed clients, AI answers and organic search clicks, search-ad click costs, what people type, calls from ads, Local Services Ads leads, inquiries by quarter and ad cost per signed client. Each row gives the measure, the band or tier, its unit and a rough size band. Every value is aggregated across many observations; values resting on too few observations, or resting mostly on a few, are suppressed for privacy. Values are approximate, so read the band, not a point. The methods page defines every measure and the protection steps. Five injury-case tables were added in version 5.0.0 (each row states its version): Google Ads cost per click-traced lead and signed client, the non-brand click cost and the fourth-quarter dip, the Google Ads budget split, and Local Services Ads lead timing, charges and call lengths.",
       "path": "data/benchmarks/benchmarks.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -3596,6 +3697,117 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "demand-per-law-office",
+      "profile": "tabular-data-resource",
+      "title": "Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office",
+      "description": "Where there is the most legal demand for each law office. Five public datasets joined by state: private law-office establishments (2026 Q1, 177,138 in the 51 states) against residents, bankruptcy cases commenced (12 months ending 2026-09-30), fatal crashes (2024), divorces in the last 12 months and Spanish speakers with limited English (ACS 2020-2024), and eviction filings for the 23 states with recent eviction data. Each state is placed in the highest, middle or lowest third on every ratio and overall.",
+      "path": "data/demand-per-law-office/demand-per-law-office.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23851281",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/cbp.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row id"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "<area>-<measure>: US or STATE-<code>, then RESIDENTS, BANKRUPTCY, FATAL-CRASHES, DIVORCES, SPANISH-LEP, EVICTIONS or OVERALL"
+          },
+          {
+            "name": "groupType",
+            "type": "string",
+            "description": "The measure (column key)"
+          },
+          {
+            "name": "segment",
+            "type": "string",
+            "description": "US or the state code"
+          },
+          {
+            "name": "areaType",
+            "type": "string",
+            "description": "us or state"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The measure: a ratio rounded to one decimal (residents per office as a whole number), or the state's overall rank"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value measures, with its period"
+          },
+          {
+            "name": "tier",
+            "type": "string",
+            "description": "Third of states on this measure (highest third = most demand per law office); national total on the US rows; for evictions, a third of the states whose eviction data is recent"
+          },
+          {
+            "name": "law_offices",
+            "type": "integer",
+            "description": "Private law-office establishments, 2026 Q1 (the denominator of every ratio)"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The row in one sentence"
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Dataset version"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date computed"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Source label"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URL"
           },
           {
             "name": "confidence",
@@ -8033,6 +8245,112 @@
       }
     },
     {
+      "name": "law-firm-websites",
+      "profile": "tabular-data-resource",
+      "title": "US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area",
+      "description": "What US law-firm websites offer, from 123,823 law-firm websites read (out of 1,101,164 websites visited, 2026-10-28 to 2026-10-30): the share that show Spanish-language pages, an online booking tool, live chat, LegalService or Attorney structured data, review markup, HTTPS and a 24/7 intake statement, for every state with at least 100 websites and every practice area with at least 100, plus the number of websites with Spanish pages for each 100,000 Spanish-speaking residents with limited English. No firm is named.",
+      "path": "data/law-firm-websites/law-firm-websites.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23851285",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.census.gov",
+          "path": "https://data.census.gov/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row id"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "The group key (ALL, STATE-<code> or PRACTICE-<practice>), then the measure"
+          },
+          {
+            "name": "groupType",
+            "type": "string",
+            "description": "The measure"
+          },
+          {
+            "name": "segmentType",
+            "type": "string",
+            "description": "all, state or practice"
+          },
+          {
+            "name": "segment",
+            "type": "string",
+            "description": "The state code or practice the row is about"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The measure: a share in percent rounded to one decimal, a count, or websites per 100,000 residents"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value measures"
+          },
+          {
+            "name": "websites",
+            "type": "integer",
+            "description": "US law-firm websites in the group (N); every state and practice group has at least 100"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The row in one sentence (the per-100,000 rows also name the state's third)"
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Dataset version"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the websites were last read"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Source label"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URL"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "law-offices",
       "profile": "tabular-data-resource",
       "title": "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics",
@@ -9112,6 +9430,136 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "legal-profession-figures",
+      "profile": "tabular-data-resource",
+      "title": "Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source",
+      "description": "7 public figures a law firm uses to size its market: lawyer and paralegal jobs and pay from the U.S. Bureau of Labor Statistics, and how much of low-income Americans' civil legal need goes without help from the Legal Services Corporation. Each row carries the series code or verbatim sentence from the issuing agency's own source and the date it was read.",
+      "path": "data/legal-profession-figures/legal-profession-figures.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23851292",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/developers/"
+        },
+        {
+          "title": "justicegap.lsc.gov",
+          "path": "https://justicegap.lsc.gov/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row id"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "FIGURE-<id>"
+          },
+          {
+            "name": "groupType",
+            "type": "string",
+            "description": "lawyers, paralegals or access"
+          },
+          {
+            "name": "segment",
+            "type": "string",
+            "description": "The figure id"
+          },
+          {
+            "name": "displayValue",
+            "type": "string",
+            "description": "The figure as the source prints it"
+          },
+          {
+            "name": "figure",
+            "type": "string",
+            "description": "What the figure measures"
+          },
+          {
+            "name": "sourceName",
+            "type": "string",
+            "description": "The issuing source"
+          },
+          {
+            "name": "sourceUrl",
+            "type": "string",
+            "description": "The source the figure was re-read at"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The series code or verbatim words that carry the figure at the source"
+          },
+          {
+            "name": "read",
+            "type": "string",
+            "description": "Date the source was read"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "The number alone"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "The figure with its unit"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The row in one sentence"
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Dataset version"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date checked"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Source label"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URL"
           },
           {
             "name": "confidence",
@@ -12400,8 +12848,8 @@
           "path": "https://www.calbar.ca.gov/Portals/0/documents/rules/Rules-of-Professional-Conduct.pdf"
         },
         {
-          "title": "www.wicourts.gov",
-          "path": "https://www.wicourts.gov/sc/rules/chap20a.pdf"
+          "title": "www.gabar.org",
+          "path": "https://www.gabar.org/handbook?rule=rule105"
         }
       ],
       "schema": {
@@ -12645,6 +13093,231 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "search-demand",
+      "profile": "tabular-data-resource",
+      "title": "Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete)",
+      "description": "How many people search Google for a lawyer each month, practice by practice: 86 query families (personal injury and its niches such as truck accidents, mesothelioma and birth injury; immigration subtypes; bankruptcy chapters; estate planning; intellectual property; employment subtypes and more), each asked in the plain English and Spanish words people type. For the whole US, all 50 states and DC, the file gives the searches a month in English and in Spanish (12-month average), the head query of each language and the month-by-month series, from Google Ads Keyword Planner (October 2025 to September 2026). Google reports close variants with one combined figure, so a family total counts each distinct monthly series once, and every query's own figure is listed. A second measured source, a DataForSEO pull of the same Google Ads data for the US and 27 states, is kept as a cross-check: a record per place counts the queries on which the two agree. Free Google sources add, for the head queries with enough data, Google Trends interest by state over the last 12 months (a relative index, never mixed with counts) and the Google Autocomplete suggestions for the head queries whose suggestions pass the filter (only suggestions in which every word is a common word, so no firm, brand, person or place is named). Where our firm census holds 100 or more firm websites for a practice in a state, a ratio gives the searches a month per firm website, with both inputs.",
+      "path": "data/search-demand/search-demand.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23851294",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ads.google.com",
+          "path": "https://ads.google.com/home/tools/keyword-planner/"
+        },
+        {
+          "title": "trends.google.com",
+          "path": "https://trends.google.com/trends/"
+        },
+        {
+          "title": "probativegrowth.com",
+          "path": "https://probativegrowth.com/data/firm-web-census/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US for the whole country, else the two-letter code of a state or DC; together the records cover the whole US, all 50 states and DC"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "The place's name: United States, or the name of the state or DC"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "family (measured searches for one query family in one place), crosscheck (agreement of the two measured sources in one place), trends (US: Google Trends interest by state over 12 months for one head query), autocomplete (US: Google's suggestions for one head query) or opportunity (searches a month per firm website advertising the practice)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The record's main figure, in `unit` (every other measure is in the JSON record and its text)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "asOf",
+            "type": "string",
+            "description": "Date of the Keyword Planner export the figures come from (or of the DataForSEO pull, crosscheck rows)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "serp-landscape",
+      "profile": "tabular-data-resource",
+      "title": "Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is",
+      "description": "What a person sees when they search Google for a lawyer or legal help in the United States: how often lawyer directories (FindLaw, Justia, Avvo, Super Lawyers and others), videos and the People Also Ask box appear, how many of the top-10 results are directories, and how concentrated the results are in a few websites, by practice area, search type (cost, near me, best, versus, how-to) and language (English, Spanish). Built from 2,240 legal searches (22,089 top-10 results) saved from Google on 2026-10-29 and 30; every group has at least 30 searches and no firm or person is named.",
+      "path": "data/serp-landscape/serp-landscape.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23851322",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.google.com",
+          "path": "https://www.google.com/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row id"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "The group key: group type, segment and language, then the measure"
+          },
+          {
+            "name": "groupType",
+            "type": "string",
+            "description": "The measure (column key of the long-format CSV)"
+          },
+          {
+            "name": "segmentType",
+            "type": "string",
+            "description": "all, language, practice, query-type, practice-by-language, query-type-by-language or publisher"
+          },
+          {
+            "name": "segment",
+            "type": "string",
+            "description": "The practice, search type, language or website the row is about"
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "en, es or all"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The measure (a share in percent rounded to one decimal, an average, or a count of websites)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value measures"
+          },
+          {
+            "name": "queries",
+            "type": "integer",
+            "description": "Legal searches in the group (N); every group has at least 30"
+          },
+          {
+            "name": "slots",
+            "type": "integer",
+            "description": "Top-10 results in the group (N)"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The row in one sentence"
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Dataset version"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the saved results were last checked"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Source label"
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URL"
           },
           {
             "name": "confidence",

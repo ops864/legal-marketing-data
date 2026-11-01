@@ -25,6 +25,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 ## Smaller servers, one per dataset
 
 - `https://probativegrowth.com/mcp/rules`: Lawyer advertising rules for all 50 states and DC, each with its source and status.
+- `https://probativegrowth.com/mcp/ad-costs`: Google search-ad top-of-page bid bands and competition for lawyer searches, for the whole US, all 50 states and DC.
 - `https://probativegrowth.com/mcp/attorneys`: Attorneys by county for OH, CA, MI, ID, AZ, WA and PA from each bar's public counts, per 10,000 residents, with status and as-of date.
 - `https://probativegrowth.com/mcp/aviation-accidents`: NTSB civil aviation accidents by state and year, 2008 to 2026: accidents, deaths, injuries and type of operation.
 - `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
@@ -43,6 +44,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/crime-data`: FBI violent and property crime, DUI and drug arrests by county and state, five years, with how many agencies reported.
 - `https://probativegrowth.com/mcp/criminal-filings`: Federal criminal defendants by offense and district, U.S. Courts Tables D-1 to D-3, every half-year since 2017.
 - `https://probativegrowth.com/mcp/crosswalks`: Join keys for every dataset: practice areas, federal case codes, states, federal districts and counties.
+- `https://probativegrowth.com/mcp/demand-per-law-office`: Demand per law office by state: residents, bankruptcies, fatal crashes, divorces, Spanish speakers and evictions per law office, in thirds.
 - `https://probativegrowth.com/mcp/deserts`: Law offices and lawyers per resident in every US county (legal deserts).
 - `https://probativegrowth.com/mcp/device-events`: FDA medical device adverse event reports by product code and quarter: reports, deaths, injuries, malfunctions (top 300 codes).
 - `https://probativegrowth.com/mcp/disability-hearings`: SSA disability hearing waits, cases pending and processing times by hearing office.
@@ -65,11 +67,13 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/irs-databook`: IRS Data Book by state, fiscal years 2019 to 2025: returns filed, gross collections and refunds issued.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.
 - `https://probativegrowth.com/mcp/law-firm-economy`: Law firms by size and state (Census SUSB, Nonemployer Statistics, Economic Census): firm counts, receipts and solo practices.
+- `https://probativegrowth.com/mcp/law-firm-websites`: US law-firm website census: Spanish pages, booking, chat, schema and HTTPS by state and practice, with Spanish demand per website.
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-aid-orgs`: Legal-aid, public-interest-law and civil-rights nonprofits per county, state and US, by type and revenue band (IRS EO BMF).
 - `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, 75+, 85+, living alone, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
+- `https://probativegrowth.com/mcp/legal-profession-figures`: Legal profession figures: BLS lawyer and paralegal jobs and pay, LSC justice gap, each re-read at source with its quote.
 - `https://probativegrowth.com/mcp/limitations`: Statutes of limitations by state for five kinds of civil claim, quoted from the code.
 - `https://probativegrowth.com/mcp/marriage-divorce`: CDC NCHS divorce and marriage rates per 1,000 residents by state, 1990-2024, and national divorce and marriage counts since 2000.
 - `https://probativegrowth.com/mcp/mdl`: Pending actions in every federal MDL, monthly since 2019.
@@ -89,6 +93,8 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/rail-casualties`: Railroad casualties, crossing incidents and train accidents by county from FRA Forms 55a, 57 and 54, by who was hurt.
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
+- `https://probativegrowth.com/mcp/search-demand`: Monthly Google lawyer searches by practice, EN and ES, for the whole US, all 50 states and DC, with suggestions and searches per firm.
+- `https://probativegrowth.com/mcp/serp-landscape`: Google search landscape for legal searches: directories, videos, People Also Ask and concentration, by practice, search type and language.
 - `https://probativegrowth.com/mcp/state-civil-rights`: State civil-rights agency complaint and charge counts with the source document and quote for each figure.
 - `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA LA HI), by practice area, with county FIPS.
 - `https://probativegrowth.com/mcp/state-wage-claims`: State labor agency wage claim counts with the source document and quote for each figure.

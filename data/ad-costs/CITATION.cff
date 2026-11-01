@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)"
+type: dataset
+authors:
+  - name: "Probative Growth"
+version: "1.0.0"
+doi: "10.5281/zenodo.23851278"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23851277"
+    description: "Concept DOI (all versions)"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/data/ad-costs/"
+repository-code: "https://github.com/ops864/legal-marketing-data"

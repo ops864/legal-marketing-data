@@ -10,6 +10,12 @@
       "released": "2026-10-29"
     },
     {
+      "id": "ad-costs",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23851278",
+      "released": "2026-11-01"
+    },
+    {
       "id": "attorneys",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23777037",
@@ -116,6 +122,12 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23744618",
       "released": "2026-10-28"
+    },
+    {
+      "id": "demand-per-law-office",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23851281",
+      "released": "2026-11-01"
     },
     {
       "id": "deserts",
@@ -250,6 +262,12 @@
       "released": "2026-10-28"
     },
     {
+      "id": "law-firm-websites",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23851285",
+      "released": "2026-11-01"
+    },
+    {
       "id": "law-offices",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23721415",
@@ -278,6 +296,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23734854",
       "released": "2026-10-28"
+    },
+    {
+      "id": "legal-profession-figures",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23851292",
+      "released": "2026-11-01"
     },
     {
       "id": "limitations",
@@ -392,6 +416,18 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23733010",
       "released": "2026-10-28"
+    },
+    {
+      "id": "search-demand",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23851294",
+      "released": "2026-11-01"
+    },
+    {
+      "id": "serp-landscape",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23851322",
+      "released": "2026-11-01"
     },
     {
       "id": "state-civil-rights",
