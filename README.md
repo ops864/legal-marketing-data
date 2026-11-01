@@ -17,6 +17,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024](https://probativegrowth.com/data/boating-accidents/) | `data/boating-accidents/` | [10.5281/zenodo.23792748](https://doi.org/10.5281/zenodo.23792748) |
 | [New business applications by county (Census Business Formation Statistics)](https://probativegrowth.com/data/business-applications/) | `data/business-applications/` | [10.5281/zenodo.23752969](https://doi.org/10.5281/zenodo.23752969) |
 | [California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25](https://probativegrowth.com/data/ca-courts/) | `data/ca-courts/` | [10.5281/zenodo.23658524](https://doi.org/10.5281/zenodo.23658524) |
+| [Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota)](https://probativegrowth.com/data/certified-specialists/) | `data/certified-specialists/` | [10.5281/zenodo.23850651](https://doi.org/10.5281/zenodo.23850651) |
 | [Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit](https://probativegrowth.com/data/charge-deadlines/) | `data/charge-deadlines/` | [10.5281/zenodo.23782861](https://doi.org/10.5281/zenodo.23782861) |
 | [Federal civil filings by nature of suit and district, 12-month periods since 2018](https://probativegrowth.com/research/federal-civil-filings-by-type/) | `data/civil-filings/` | [10.5281/zenodo.23720009](https://doi.org/10.5281/zenodo.23720009) |
 | [CFPB complaints about debt collection, credit reporting and debt management, by state and month](https://probativegrowth.com/research/consumer-finance-complaints-by-state/) | `data/consumer-complaints/` | [10.5281/zenodo.23733731](https://doi.org/10.5281/zenodo.23733731) |
@@ -59,10 +60,12 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026](https://probativegrowth.com/data/mine-accidents/) | `data/mine-accidents/` | [10.5281/zenodo.23792833](https://doi.org/10.5281/zenodo.23792833) |
 | [Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008](https://probativegrowth.com/data/mortgage-delinquency/) | `data/mortgage-delinquency/` | [10.5281/zenodo.23845905](https://doi.org/10.5281/zenodo.23845905) |
 | [Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA](https://probativegrowth.com/data/mortgage-lending/) | `data/mortgage-lending/` | [10.5281/zenodo.23782874](https://doi.org/10.5281/zenodo.23782874) |
+| [Noncitizen population by state and county (Census ACS, table B05001)](https://probativegrowth.com/data/noncitizen-population/) | `data/noncitizen-population/` | [10.5281/zenodo.23850653](https://doi.org/10.5281/zenodo.23850653) |
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | `data/nursing-homes/` | [10.5281/zenodo.23741901](https://doi.org/10.5281/zenodo.23741901) |
 | [Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)](https://probativegrowth.com/data/ny-attorneys/) | `data/ny-attorneys/` | [10.5281/zenodo.23753008](https://doi.org/10.5281/zenodo.23753008) |
 | [New York workers' compensation claims by county and accident year](https://probativegrowth.com/data/ny-workers-comp/) | `data/ny-workers-comp/` | [10.5281/zenodo.23753012](https://doi.org/10.5281/zenodo.23753012) |
 | [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | `data/opinions/` | [10.5281/zenodo.23734859](https://doi.org/10.5281/zenodo.23734859) |
+| [OSHA inspections and penalties by state and industry (DOL enforcement data)](https://probativegrowth.com/data/osha-enforcement/) | `data/osha-enforcement/` | [10.5281/zenodo.23850661](https://doi.org/10.5281/zenodo.23850661) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | `data/platforms/` | [10.5281/zenodo.23716831](https://doi.org/10.5281/zenodo.23716831) |
 | [Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025](https://probativegrowth.com/data/population-change/) | `data/population-change/` | [10.5281/zenodo.23845912](https://doi.org/10.5281/zenodo.23845912) |
 | [Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury](https://probativegrowth.com/data/practice-official/) | `data/practice-official/` | [10.5281/zenodo.23782885](https://doi.org/10.5281/zenodo.23782885) |
@@ -123,6 +126,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/boating-accidents`: USCG recreational boating incidents by state and year, 2019 to 2024: incidents, deaths, injuries and damage in dollars.
 - `https://probativegrowth.com/mcp/business-applications`: Census new business applications by county, 2005-2025: latest count, change over a year and since 2019, state sums.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
+- `https://probativegrowth.com/mcp/certified-specialists`: Board-certified lawyer counts by practice area and state from official state lists (Tennessee, Minnesota).
 - `https://probativegrowth.com/mcp/charge-deadlines`: Deadlines to file an employment-discrimination charge, federal and by state, with the statute and verbatim quote.
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
@@ -165,10 +169,12 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/mine-accidents`: MSHA mine accident, injury and illness reports by state, county and degree of injury, 2000 to 2026, coal and metal/nonmetal.
 - `https://probativegrowth.com/mcp/mortgage-delinquency`: CFPB share of mortgages 90+ and 30-89 days delinquent by county and state, monthly since 2008, with the change and the 2008-2025 high.
 - `https://probativegrowth.com/mcp/mortgage-lending`: HMDA home-purchase and refinance applications, loans, dollars and denial rates by county, state and US.
+- `https://probativegrowth.com/mcp/noncitizen-population`: Noncitizen and naturalized-citizen residents by state and county from Census ACS table B05001, with margins of error.
 - `https://probativegrowth.com/mcp/nursing-homes`: Nursing home fines, harm and abuse citations by county and state, from CMS, monthly.
 - `https://probativegrowth.com/mcp/ny-attorneys`: New York attorneys by county of office, registration status and admission decade, per 10,000 residents, from the court registry.
 - `https://probativegrowth.com/mcp/ny-workers-comp`: New York workers' compensation claims by county and accident year: attorney share, controverted, hearings, permanent disability.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
+- `https://probativegrowth.com/mcp/osha-enforcement`: OSHA inspections, violations and current penalties by state and industry from the DOL enforcement files, latest year and ten-year window.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
 - `https://probativegrowth.com/mcp/population-change`: Census county deaths, births, international and domestic migration, and residents 65+, 75+ and 85+, Vintage 2025 (years 2020 to 2025).
 - `https://probativegrowth.com/mcp/practice-official`: Official statistics (U.S. Courts, EEOC, EOIR, NHTSA FARS) quoted on the practice x state pages, one sourced sentence per record.

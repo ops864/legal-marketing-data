@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "datasets": [
     {
       "id": "rules",
@@ -56,6 +56,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23658524",
       "released": "2026-10-26"
+    },
+    {
+      "id": "certified-specialists",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23850651",
+      "released": "2026-11-01"
     },
     {
       "id": "charge-deadlines",
@@ -310,6 +316,12 @@
       "released": "2026-10-29"
     },
     {
+      "id": "noncitizen-population",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23850653",
+      "released": "2026-11-01"
+    },
+    {
       "id": "nursing-homes",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23741901",
@@ -332,6 +344,12 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23734859",
       "released": "2026-10-28"
+    },
+    {
+      "id": "osha-enforcement",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23850661",
+      "released": "2026-11-01"
     },
     {
       "id": "platforms",

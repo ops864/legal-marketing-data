@@ -33,6 +33,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/boating-accidents`: USCG recreational boating incidents by state and year, 2019 to 2024: incidents, deaths, injuries and damage in dollars.
 - `https://probativegrowth.com/mcp/business-applications`: Census new business applications by county, 2005-2025: latest count, change over a year and since 2019, state sums.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
+- `https://probativegrowth.com/mcp/certified-specialists`: Board-certified lawyer counts by practice area and state from official state lists (Tennessee, Minnesota).
 - `https://probativegrowth.com/mcp/charge-deadlines`: Deadlines to file an employment-discrimination charge, federal and by state, with the statute and verbatim quote.
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
@@ -75,10 +76,12 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/mine-accidents`: MSHA mine accident, injury and illness reports by state, county and degree of injury, 2000 to 2026, coal and metal/nonmetal.
 - `https://probativegrowth.com/mcp/mortgage-delinquency`: CFPB share of mortgages 90+ and 30-89 days delinquent by county and state, monthly since 2008, with the change and the 2008-2025 high.
 - `https://probativegrowth.com/mcp/mortgage-lending`: HMDA home-purchase and refinance applications, loans, dollars and denial rates by county, state and US.
+- `https://probativegrowth.com/mcp/noncitizen-population`: Noncitizen and naturalized-citizen residents by state and county from Census ACS table B05001, with margins of error.
 - `https://probativegrowth.com/mcp/nursing-homes`: Nursing home fines, harm and abuse citations by county and state, from CMS, monthly.
 - `https://probativegrowth.com/mcp/ny-attorneys`: New York attorneys by county of office, registration status and admission decade, per 10,000 residents, from the court registry.
 - `https://probativegrowth.com/mcp/ny-workers-comp`: New York workers' compensation claims by county and accident year: attorney share, controverted, hearings, permanent disability.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
+- `https://probativegrowth.com/mcp/osha-enforcement`: OSHA inspections, violations and current penalties by state and industry from the DOL enforcement files, latest year and ten-year window.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
 - `https://probativegrowth.com/mcp/population-change`: Census county deaths, births, international and domestic migration, and residents 65+, 75+ and 85+, Vintage 2025 (years 2020 to 2025).
 - `https://probativegrowth.com/mcp/practice-official`: Official statistics (U.S. Courts, EEOC, EOIR, NHTSA FARS) quoted on the practice x state pages, one sourced sentence per record.

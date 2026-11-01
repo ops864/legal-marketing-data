@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-10-31",
-  "created": "2026-10-31T00:00:00Z",
+  "version": "2026-11-01",
+  "created": "2026-11-01T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -1601,6 +1601,140 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "certified-specialists",
+      "profile": "tabular-data-resource",
+      "title": "Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota)",
+      "description": "How many lawyers hold a board certification in each practice area, state by state, counted from the official lists of certified specialists that Tennessee's Commission on Continuing Legal Education and Minnesota's Board of Legal Certification publish. Each row is a state, a practice area and a certifying body, with the number of certified specialists. Minnesota's rows run by year; Tennessee's are the roll as read on the date shown. Counts only: no names or personal details.",
+      "path": "data/certified-specialists/certified-specialists.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23850651",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "cle.tncourts.gov",
+          "path": "https://cle.tncourts.gov/about-us-main/specialists/"
+        },
+        {
+          "title": "blc.mn.gov",
+          "path": "https://blc.mn.gov/about/annual-reports/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "practice (one practice area and certifying body) or state (all areas together)"
+          },
+          {
+            "name": "stateName",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of the count: Minnesota's year end, Tennessee's read date"
+          },
+          {
+            "name": "practice",
+            "type": "string",
+            "description": "Our practice-area id (all-areas on state rows)"
+          },
+          {
+            "name": "practiceLabel",
+            "type": "string",
+            "description": "Practice area in plain words"
+          },
+          {
+            "name": "specialty",
+            "type": "string",
+            "description": "The area as the source words it"
+          },
+          {
+            "name": "certifier",
+            "type": "string",
+            "description": "The certifying body, as the source names it"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the official list's own figure"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Certified specialists (certifications held)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value counts"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
             "name": "sourceLabels",
@@ -9980,6 +10114,169 @@
       }
     },
     {
+      "name": "noncitizen-population",
+      "profile": "tabular-data-resource",
+      "title": "Noncitizen population by state and county (Census ACS, table B05001)",
+      "description": "How many residents of each state, DC and county are not U.S. citizens, with the margin of error and the share of the population, from the Census Bureau's American Community Survey 5-year estimates (2020-2024), table B05001 (nativity and citizenship status). Each record also splits the citizens into born in the US, born in a U.S. territory, born abroad of American parents and naturalized. These are survey estimates of residents, not of legal status: the table does not separate lawful permanent residents, visa holders or anyone else.",
+      "path": "data/noncitizen-population/noncitizen-population.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23850653",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.census.gov",
+          "path": "https://www.census.gov/programs-surveys/acs/"
+        },
+        {
+          "title": "api.census.gov",
+          "path": "https://api.census.gov/data/2024/acs/acs5"
+        },
+        {
+          "title": "api.census.gov",
+          "path": "https://api.census.gov/data/2024/acs/acs5/groups/B05001.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US or the two-letter state code (DC included); a county's state"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or county"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, the state code or the 5-digit county FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "5-digit county FIPS code (county rows)"
+          },
+          {
+            "name": "countyName",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The last year of the ACS 5-year period (2024 = 2020-2024)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P published by the Census Bureau"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "Total residents (B05001_001)"
+          },
+          {
+            "name": "citizenBornUS",
+            "type": "integer",
+            "description": "U.S. citizens born in the United States (B05001_002)"
+          },
+          {
+            "name": "citizenBornTerritory",
+            "type": "integer",
+            "description": "U.S. citizens born in Puerto Rico or U.S. Island Areas (B05001_003)"
+          },
+          {
+            "name": "citizenBornAbroad",
+            "type": "integer",
+            "description": "U.S. citizens born abroad of American parent(s) (B05001_004)"
+          },
+          {
+            "name": "naturalized",
+            "type": "integer",
+            "description": "U.S. citizens by naturalization (B05001_005)"
+          },
+          {
+            "name": "naturalizedMoe",
+            "type": "integer",
+            "description": "Margin of error of the naturalized count, 90% confidence"
+          },
+          {
+            "name": "noncitizen",
+            "type": "integer",
+            "description": "Residents who are not U.S. citizens (B05001_006)"
+          },
+          {
+            "name": "noncitizenMoe",
+            "type": "integer",
+            "description": "Margin of error of the noncitizen count, 90% confidence"
+          },
+          {
+            "name": "noncitizenPct",
+            "type": "number",
+            "description": "Noncitizens as a percent of total residents, one decimal"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "nursing-homes",
       "profile": "tabular-data-resource",
       "title": "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations",
@@ -10816,6 +11113,193 @@
             "name": "fees_for_ai",
             "type": "string",
             "description": "AI opinions only: does it say how AI affects fees and charges? yes, brief, no, excluded, or blank"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "osha-enforcement",
+      "profile": "tabular-data-resource",
+      "title": "OSHA inspections and penalties by state and industry (DOL enforcement data)",
+      "description": "How many workplace safety inspections OSHA opened in each state and industry, how many ended in citations, how many violations were found (serious, willful, repeat) and the current penalties, from the Department of Labor's OSHA enforcement files (federal and state-plan), by fiscal year: the latest year and the ten-year window, for the US, every state and territory with inspections, and each state's NAICS sectors. Only counts and dollar totals: no employer, address or inspection number is in the dataset.",
+      "path": "data/osha-enforcement/osha-enforcement.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23850661",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.dol.gov",
+          "path": "https://data.dol.gov/data-catalog/OSHA/inspection"
+        },
+        {
+          "title": "data.dol.gov",
+          "path": "https://data.dol.gov/data-catalog/OSHA/violation"
+        },
+        {
+          "title": "enforcedata.dol.gov",
+          "path": "https://enforcedata.dol.gov/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "US or the two-letter state or territory code"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or industry (a state or the US within one NAICS sector)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, the state code, or <state code>-<NAICS sector> such as TX-23"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Area name"
+          },
+          {
+            "name": "sector",
+            "type": "string",
+            "description": "NAICS two-digit sector (all for whole-state rows; unclassified when the file gave none)"
+          },
+          {
+            "name": "sectorName",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "The latest federal fiscal year (October to September) in the file"
+          },
+          {
+            "name": "fiscalYears",
+            "type": "string",
+            "description": "The ten-fiscal-year window of the 10y columns"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P published; the latest year is marked preliminary because citations can follow inspections for up to six months"
+          },
+          {
+            "name": "inspections",
+            "type": "integer",
+            "description": "OSHA inspections opened in the latest fiscal year (federal and state-plan)"
+          },
+          {
+            "name": "inspections10y",
+            "type": "integer",
+            "description": "The same, summed over the ten-year window"
+          },
+          {
+            "name": "inspectionsWithCitations",
+            "type": "integer",
+            "description": "Inspections that ended with at least one citation"
+          },
+          {
+            "name": "inspectionsWithCitations10y",
+            "type": "integer"
+          },
+          {
+            "name": "violations",
+            "type": "integer",
+            "description": "Citation items issued on inspections opened in the year"
+          },
+          {
+            "name": "violations10y",
+            "type": "integer"
+          },
+          {
+            "name": "serious",
+            "type": "integer",
+            "description": "Of the violations, classified serious"
+          },
+          {
+            "name": "serious10y",
+            "type": "integer"
+          },
+          {
+            "name": "willful",
+            "type": "integer",
+            "description": "Of the violations, classified willful"
+          },
+          {
+            "name": "willful10y",
+            "type": "integer"
+          },
+          {
+            "name": "repeat",
+            "type": "integer",
+            "description": "Of the violations, classified repeat"
+          },
+          {
+            "name": "repeat10y",
+            "type": "integer"
+          },
+          {
+            "name": "currentPenalties",
+            "type": "number",
+            "description": "Current penalties in US dollars: the amount after later contest and settlement changes, as the DOL file reports it"
+          },
+          {
+            "name": "currentPenalties10y",
+            "type": "number"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",
