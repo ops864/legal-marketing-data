@@ -291,11 +291,11 @@ references:
     title: "Lawyer advertising rules by state (50 states and DC)"
     authors:
       - name: "Probative Growth"
-    version: "1.4.0"
-    doi: "10.5281/zenodo.23750572"
+    version: "1.4.1"
+    doi: "10.5281/zenodo.23645750"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-01"
   - type: dataset
     title: "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)"
     authors:
@@ -949,10 +949,10 @@ references:
     authors:
       - name: "Probative Growth"
     version: "1.8.0"
-    doi: "10.5281/zenodo.23777048"
+    doi: "10.5281/zenodo.23881230"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-courts/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-02"
   - type: dataset
     title: "State labor agency wage claims: figures printed in state reports"
     authors:

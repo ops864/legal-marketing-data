@@ -5,537 +5,626 @@
   "datasets": [
     {
       "id": "rules",
-      "version": "1.4.0",
-      "doi": "10.5281/zenodo.23750572",
-      "released": "2026-10-29"
+      "version": "1.4.1",
+      "doi": "10.5281/zenodo.23645750",
+      "released": "2026-11-01",
+      "rows": 426
     },
     {
       "id": "ad-costs",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851278",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 2725
     },
     {
       "id": "attorneys",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23777037",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 312
     },
     {
       "id": "aviation-accidents",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792734",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 985
     },
     {
       "id": "bankruptcy",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739952",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3284
     },
     {
       "id": "bar-pipeline",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23721443",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 56
     },
     {
       "id": "benchmarks",
       "version": "4.0.1",
       "doi": "10.5281/zenodo.23735849",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 58
     },
     {
       "id": "boating-accidents",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792748",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 342
     },
     {
       "id": "business-applications",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752969",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3208
     },
     {
       "id": "ca-courts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23658524",
-      "released": "2026-10-26"
+      "released": "2026-10-26",
+      "rows": 2301
     },
     {
       "id": "certified-specialists",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23850651",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 115
     },
     {
       "id": "charge-deadlines",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23782861",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 37
     },
     {
       "id": "civil-filings",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23720009",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3239
     },
     {
       "id": "consumer-complaints",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23733731",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 171
     },
     {
       "id": "consumer-sentinel",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23741876",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 212
     },
     {
       "id": "county-income",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752984",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3195
     },
     {
       "id": "court-fees",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792752",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 51
     },
     {
       "id": "crime-data",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23772522",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3078
     },
     {
       "id": "criminal-filings",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744206",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 2023
     },
     {
       "id": "crosswalks",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23744618",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3696
     },
     {
       "id": "demand-per-law-office",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851281",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 334
     },
     {
       "id": "deserts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23721430",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3196
     },
     {
       "id": "device-events",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752988",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 2079
     },
     {
       "id": "disability-hearings",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23741884",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 159
     },
     {
       "id": "drug-events",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752994",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 313
     },
     {
       "id": "eeoc-charges",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23733005",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 806
     },
     {
       "id": "eviction-laws",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792754",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 57
     },
     {
       "id": "evictions",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23752996",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 1499
     },
     {
       "id": "fair-housing",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792758",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 2790
     },
     {
       "id": "fatal-crashes",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23733739",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3197
     },
     {
       "id": "federal-filings-county",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23750628",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3560
     },
     {
       "id": "fees",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23739965",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 79
     },
     {
       "id": "filing",
       "version": "1.2.0",
       "doi": "10.5281/zenodo.23721409",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 49
     },
     {
       "id": "findings",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23748830",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 20
     },
     {
       "id": "firm-web-census",
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23750638",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 5129
     },
     {
       "id": "flood-claims",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845801",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 2988
     },
     {
       "id": "green-cards",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753002",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 483
     },
     {
       "id": "hospital-safety",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792821",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 473
     },
     {
       "id": "idb-civil",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739969",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 1875
     },
     {
       "id": "immigration-courts",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739986",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 155
     },
     {
       "id": "irs-databook",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792826",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 371
     },
     {
       "id": "language",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23656758",
-      "released": "2026-10-26"
+      "released": "2026-10-26",
+      "rows": 3512
     },
     {
       "id": "law-firm-economy",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23739997",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 492
     },
     {
       "id": "law-firm-websites",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851285",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 1088
     },
     {
       "id": "law-offices",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23721415",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3196
     },
     {
       "id": "lawyer-wages",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23734840",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 1264
     },
     {
       "id": "legal-aid-orgs",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23782867",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3196
     },
     {
       "id": "legal-hiring-demand",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23873129",
-      "released": "2026-11-02"
+      "released": "2026-11-02",
+      "rows": 608
     },
     {
       "id": "legal-need",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23845845",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 3196
     },
     {
       "id": "legal-prices",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23734854",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 1871
     },
     {
       "id": "legal-profession-figures",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851292",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 7
     },
     {
       "id": "limitations",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23743673",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 225
     },
     {
       "id": "marriage-divorce",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845898",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 99
     },
     {
       "id": "mdl",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23720737",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 176
     },
     {
       "id": "mine-accidents",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792833",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 3243
     },
     {
       "id": "mortgage-delinquency",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845905",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 559
     },
     {
       "id": "mortgage-lending",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23782874",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3194
     },
     {
       "id": "noncitizen-population",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23850653",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 3196
     },
     {
       "id": "nursing-homes",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23741901",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 2899
     },
     {
       "id": "ny-attorneys",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753008",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 130
     },
     {
       "id": "ny-workers-comp",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753012",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 1728
     },
     {
       "id": "opinions",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23734859",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 258
     },
     {
       "id": "osha-enforcement",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23850661",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 1174
     },
     {
       "id": "platforms",
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23716831",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 64
     },
     {
       "id": "population-change",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845912",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 3196
     },
     {
       "id": "practice-official",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23782885",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 170
     },
     {
       "id": "product-recalls",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23779145",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 29
     },
     {
       "id": "rail-casualties",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753016",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 2366
     },
     {
       "id": "referral",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23747113",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 47
     },
     {
       "id": "robocall-complaints",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23733010",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 114
     },
     {
       "id": "search-demand",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23877019",
-      "released": "2026-11-02"
+      "released": "2026-11-02",
+      "rows": 4694
     },
     {
       "id": "serp-landscape",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851322",
-      "released": "2026-11-01"
+      "released": "2026-11-01",
+      "rows": 855
     },
     {
       "id": "state-civil-rights",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753029",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 10
     },
     {
       "id": "state-courts",
       "version": "1.8.0",
-      "doi": "10.5281/zenodo.23777048",
-      "released": "2026-10-30"
+      "doi": "10.5281/zenodo.23881230",
+      "released": "2026-11-02",
+      "rows": 13180
     },
     {
       "id": "state-wage-claims",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753046",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3
     },
     {
       "id": "toxic-releases",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753052",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 2494
     },
     {
       "id": "truck-crashes",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23743677",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3255
     },
     {
       "id": "tx-nonsubscribers",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792847",
-      "released": "2026-10-30"
+      "released": "2026-10-30",
+      "rows": 239
     },
     {
       "id": "unemployment",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753061",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3273
     },
     {
       "id": "union-membership",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845987",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 52
     },
     {
       "id": "uscis-offices",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753086",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 200
     },
     {
       "id": "va-compensation",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744210",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3200
     },
     {
       "id": "va-spending",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753088",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 3281
     },
     {
       "id": "vehicle-complaints",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744214",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 4040
     },
     {
       "id": "veterans-representation",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23740008",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 73
     },
     {
       "id": "wage-enforcement",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23744226",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 5217
     },
     {
       "id": "warn-layoffs",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753097",
-      "released": "2026-10-29"
+      "released": "2026-10-29",
+      "rows": 315
     },
     {
       "id": "wc-benefits",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23844619",
-      "released": "2026-10-31"
+      "released": "2026-10-31",
+      "rows": 35
     },
     {
       "id": "work-injuries",
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23740010",
-      "released": "2026-10-28"
+      "released": "2026-10-28",
+      "rows": 3512
     }
   ]
 }

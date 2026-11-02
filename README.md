@@ -8,7 +8,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 
 | Dataset | Files | DOI |
 |---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23750572](https://doi.org/10.5281/zenodo.23750572) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23645750](https://doi.org/10.5281/zenodo.23645750) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | `data/ad-costs/` | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | `data/attorneys/` | [10.5281/zenodo.23777037](https://doi.org/10.5281/zenodo.23777037) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | `data/aviation-accidents/` | [10.5281/zenodo.23792734](https://doi.org/10.5281/zenodo.23792734) |
@@ -81,7 +81,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete)](https://probativegrowth.com/data/search-demand/) | `data/search-demand/` | [10.5281/zenodo.23877019](https://doi.org/10.5281/zenodo.23877019) |
 | [Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is](https://probativegrowth.com/data/serp-landscape/) | `data/serp-landscape/` | [10.5281/zenodo.23851322](https://doi.org/10.5281/zenodo.23851322) |
 | [State civil-rights agency complaints and charges: figures printed in state annual reports](https://probativegrowth.com/data/state-civil-rights/) | `data/state-civil-rights/` | [10.5281/zenodo.23753029](https://doi.org/10.5281/zenodo.23753029) |
-| [State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23777048](https://doi.org/10.5281/zenodo.23777048) |
+| [State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23881230](https://doi.org/10.5281/zenodo.23881230) |
 | [State labor agency wage claims: figures printed in state reports](https://probativegrowth.com/data/state-wage-claims/) | `data/state-wage-claims/` | [10.5281/zenodo.23753046](https://doi.org/10.5281/zenodo.23753046) |
 | [Toxic chemical releases by county (EPA Toxics Release Inventory)](https://probativegrowth.com/data/toxic-releases/) | `data/toxic-releases/` | [10.5281/zenodo.23753052](https://doi.org/10.5281/zenodo.23753052) |
 | [Truck and bus crashes by county, state and year (FMCSA crash file)](https://probativegrowth.com/data/truck-crashes/) | `data/truck-crashes/` | [10.5281/zenodo.23743677](https://doi.org/10.5281/zenodo.23743677) |
@@ -130,7 +130,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/aviation-accidents`: NTSB civil aviation accidents by state and year, 2008 to 2026: accidents, deaths, injuries and type of operation.
 - `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
 - `https://probativegrowth.com/mcp/bar-pipeline`: New lawyers by jurisdiction: bar exam pass rates and admissions, 2025.
-- `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, aggregated and rounded.
+- `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, approximate and shown as ranges.
 - `https://probativegrowth.com/mcp/boating-accidents`: USCG recreational boating incidents by state and year, 2019 to 2024: incidents, deaths, injuries and damage in dollars.
 - `https://probativegrowth.com/mcp/business-applications`: Census new business applications by county, 2005-2025: latest count, change over a year and since 2019, state sums.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.

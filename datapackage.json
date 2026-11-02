@@ -39,13 +39,13 @@
       "name": "rules",
       "profile": "tabular-data-resource",
       "title": "Lawyer advertising rules by state (50 states and DC)",
-      "description": "The lawyer advertising rules of every US state and DC, in plain English: ad filing, what each ad must include, waiting periods for injury contact, claims and testimonials, referral and lead rules, ads in other languages, call-recording consent, texting law and privacy law, plus state laws on drug and medical-device ads. Each cell cites its official source with the words quoted, and says how it was checked (P, D or U).",
+      "description": "The lawyer advertising rules of every US state and DC, in plain English: ad filing, what each ad must include, waiting periods for injury contact, claims and testimonials, referral and lead rules, ads in other languages, call-recording consent, texting law and privacy law, plus state laws on drug and medical-device ads. Each cell cites its official source with the words quoted, and is marked P: read at the official source.",
       "path": "data/rules/rules.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.4.0",
-      "id": "https://doi.org/10.5281/zenodo.23750572",
+      "version": "1.4.1",
+      "id": "https://doi.org/10.5281/zenodo.23645750",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1068,7 +1068,7 @@
       "name": "benchmarks",
       "profile": "tabular-data-resource",
       "title": "Probative benchmarks, 2025–2026",
-      "description": "Probative benchmarks, 2025–2026: aggregated, rounded, and small groups suppressed. Our data on law-firm marketing, shown as bands, named tiers and rounded values, one table per file. The public tables cover how quickly inquiries become signed clients, phone calls and signed clients, AI answers and organic search clicks, search-ad click costs, what people type, calls from ads, Local Services Ads leads, inquiries by quarter and ad cost per signed client. Each row gives the measure, the band or tier, its unit and a rough size band. Every value is aggregated across many observations; values resting on too few observations, or resting mostly on a few, are suppressed for privacy. Values are approximate, so read the band, not a point. The methods page defines every measure and the protection steps. Five injury-case tables were added in version 5.0.0 (each row states its version): Google Ads cost per click-traced lead and signed client, the non-brand click cost and the fourth-quarter dip, the Google Ads budget split, and Local Services Ads lead timing, charges and call lengths.",
+      "description": "Probative benchmarks, 2025–2026: our data on law-firm marketing. Figures are approximate and shown as ranges: bands, named tiers and rounded values, one table per file. The public tables cover how quickly inquiries become signed clients, phone calls and signed clients, AI answers and organic search clicks, search-ad click costs, what people type, calls from ads, Local Services Ads leads, inquiries by quarter and ad cost per signed client. Each row gives the measure, the band or tier, its unit and a rough size band. Read the band, not a point. The methods page defines every measure. Five injury-case tables were added in version 5.0.0 (each row states its version): Google Ads cost per click-traced lead and signed client, the non-brand click cost and the fourth-quarter dip, the Google Ads budget split, and Local Services Ads lead timing, charges and call lengths.",
       "path": "data/benchmarks/benchmarks.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -1127,7 +1127,7 @@
           {
             "name": "n_band",
             "type": "string",
-            "description": "A rough size band for the row (30+ or 100+); smaller rows are suppressed for privacy"
+            "description": "A rough size band for the row (30+ or 100+)"
           },
           {
             "name": "note",
@@ -5960,7 +5960,7 @@
       "name": "fees",
       "profile": "tabular-data-resource",
       "title": "Attorney fee caps and contingency-fee rules, by state and federal program",
-      "description": "Legal limits on what a lawyer may charge, by program and jurisdiction: workers' compensation in every US state and DC, Social Security (SSDI and SSI), the Federal Tort Claims Act, VA benefits, Longshore, FECA and black lung, plus medical-malpractice and general contingency-fee rules in the states read so far. Each record gives the cap type, percent, dollar cap or sliding-scale tiers, what the percent applies to and who approves the fee, and cites the statute, rule or agency page with an exact quote and the date read (P, D or U; no secondary sources). A lookup, not a fee calculator.",
+      "description": "Legal limits on what a lawyer may charge, by program and jurisdiction: workers' compensation in every US state and DC, Social Security (SSDI and SSI), the Federal Tort Claims Act, VA benefits, Longshore, FECA and black lung, plus medical-malpractice and general contingency-fee rules in the states covered. Each record gives the cap type, percent, dollar cap or sliding-scale tiers, what the percent applies to and who approves the fee, and cites the statute, rule or agency page with an exact quote and the date read (primary sources only). A lookup, not a fee calculator.",
       "path": "data/fees/fees.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -13620,7 +13620,7 @@
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "version": "1.8.0",
-      "id": "https://doi.org/10.5281/zenodo.23777048",
+      "id": "https://doi.org/10.5281/zenodo.23881230",
       "licenses": [
         {
           "name": "CC-BY-4.0",

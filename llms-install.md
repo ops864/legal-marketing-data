@@ -30,7 +30,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/aviation-accidents`: NTSB civil aviation accidents by state and year, 2008 to 2026: accidents, deaths, injuries and type of operation.
 - `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
 - `https://probativegrowth.com/mcp/bar-pipeline`: New lawyers by jurisdiction: bar exam pass rates and admissions, 2025.
-- `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, aggregated and rounded.
+- `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, approximate and shown as ranges.
 - `https://probativegrowth.com/mcp/boating-accidents`: USCG recreational boating incidents by state and year, 2019 to 2024: incidents, deaths, injuries and damage in dollars.
 - `https://probativegrowth.com/mcp/business-applications`: Census new business applications by county, 2005-2025: latest count, change over a year and since 2019, state sums.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.

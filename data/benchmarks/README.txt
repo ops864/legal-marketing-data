@@ -22,7 +22,7 @@ Columns:
   unit: Unit of the value; "(band)" or "(tier)" means the figure is a range, not a point
   display: The figure as published: a band, a named tier or a rounded value
   kind: band, tier or rounded
-  n_band: A rough size band for the row (30+ or 100+); smaller rows are suppressed for privacy
+  n_band: A rough size band for the row (30+ or 100+)
   note: The band or tier again, and what the figure counts
   version: Release version of the benchmarks
   lastChecked: The release date (YYYY-MM-DD)

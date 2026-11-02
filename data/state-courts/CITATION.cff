@@ -5,7 +5,7 @@ type: dataset
 authors:
   - name: "Probative Growth"
 version: "1.8.0"
-doi: "10.5281/zenodo.23777048"
+doi: "10.5281/zenodo.23881230"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23777047"
