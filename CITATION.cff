@@ -921,11 +921,11 @@ references:
     title: "Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23851294"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23877019"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/search-demand/"
-    date-released: "2026-11-01"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is"
     authors:
