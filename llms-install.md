@@ -71,6 +71,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-aid-orgs`: Legal-aid, public-interest-law and civil-rights nonprofits per county, state and US, by type and revenue band (IRS EO BMF).
+- `https://probativegrowth.com/mcp/legal-hiring-demand`: Pay bands and headcounts for law-firm marketing, web and intake roles by state, plus monthly legal services employment and openings.
 - `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, 75+, 85+, living alone, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
 - `https://probativegrowth.com/mcp/legal-profession-figures`: Legal profession figures: BLS lawyer and paralegal jobs and pay, LSC justice gap, each re-read at source with its quote.

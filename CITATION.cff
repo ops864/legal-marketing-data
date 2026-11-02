@@ -16,8 +16,8 @@ keywords:
 license: CC-BY-4.0
 url: "https://probativegrowth.com/data/"
 repository-code: "https://github.com/ops864/legal-marketing-data"
-date-released: "2026-11-01"
-version: "2026-11-01"
+date-released: "2026-11-02"
+version: "2026-11-02"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23645750"
@@ -160,6 +160,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23782866"
     description: "Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list: concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23873128"
+    description: "Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics): concept DOI (all versions)"
   - type: doi
     value: "10.5281/zenodo.23741885"
     description: "Legal need by county: who may need a lawyer, from the American Community Survey: concept DOI (all versions)"
@@ -707,6 +710,15 @@ references:
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/legal-aid-orgs/"
     date-released: "2026-10-29"
+  - type: dataset
+    title: "Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics)"
+    authors:
+      - name: "Probative Growth"
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23873129"
+    license: CC-BY-4.0
+    url: "https://probativegrowth.com/data/legal-hiring-demand/"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Legal need by county: who may need a lawyer, from the American Community Survey"
     authors:

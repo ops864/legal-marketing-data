@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-01",
+  "generated": "2026-11-02",
   "datasets": [
     {
       "id": "rules",
@@ -284,6 +284,12 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23782867",
       "released": "2026-10-29"
+    },
+    {
+      "id": "legal-hiring-demand",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.23873129",
+      "released": "2026-11-02"
     },
     {
       "id": "legal-need",

@@ -55,6 +55,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics](https://probativegrowth.com/research/law-firm-competition-by-county/) | `data/law-offices/` | [10.5281/zenodo.23721415](https://doi.org/10.5281/zenodo.23721415) |
 | [Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)](https://probativegrowth.com/data/lawyer-wages/) | `data/lawyer-wages/` | [10.5281/zenodo.23734840](https://doi.org/10.5281/zenodo.23734840) |
 | [Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list](https://probativegrowth.com/data/legal-aid-orgs/) | `data/legal-aid-orgs/` | [10.5281/zenodo.23782867](https://doi.org/10.5281/zenodo.23782867) |
+| [Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics)](https://probativegrowth.com/data/legal-hiring-demand/) | `data/legal-hiring-demand/` | [10.5281/zenodo.23873129](https://doi.org/10.5281/zenodo.23873129) |
 | [Legal need by county: who may need a lawyer, from the American Community Survey](https://probativegrowth.com/data/legal-need/) | `data/legal-need/` | [10.5281/zenodo.23845845](https://doi.org/10.5281/zenodo.23845845) |
 | [Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)](https://probativegrowth.com/data/legal-prices/) | `data/legal-prices/` | [10.5281/zenodo.23734854](https://doi.org/10.5281/zenodo.23734854) |
 | [Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source](https://probativegrowth.com/data/legal-profession-figures/) | `data/legal-profession-figures/` | [10.5281/zenodo.23851292](https://doi.org/10.5281/zenodo.23851292) |
@@ -170,6 +171,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-aid-orgs`: Legal-aid, public-interest-law and civil-rights nonprofits per county, state and US, by type and revenue band (IRS EO BMF).
+- `https://probativegrowth.com/mcp/legal-hiring-demand`: Pay bands and headcounts for law-firm marketing, web and intake roles by state, plus monthly legal services employment and openings.
 - `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, 75+, 85+, living alone, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
 - `https://probativegrowth.com/mcp/legal-profession-figures`: Legal profession figures: BLS lawyer and paralegal jobs and pay, LSC justice gap, each re-read at source with its quote.

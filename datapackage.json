@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-01",
-  "created": "2026-11-01T00:00:00Z",
+  "version": "2026-11-02",
+  "created": "2026-11-02T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -8833,6 +8833,139 @@
             "name": "note",
             "type": "string",
             "description": "Caveats"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "legal-hiring-demand",
+      "profile": "tabular-data-resource",
+      "title": "Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics)",
+      "description": "What the roles around a law firm's growth work pay and how many people hold them, and how hiring is moving. Annual pay bands and headcounts (10th, 25th, median, 75th and 90th percentile and mean annual wage) for marketing managers, marketing and market-research specialists, public relations specialists, writers, web designers, web developers, receptionists and customer service representatives from the Bureau of Labor Statistics' Occupational Employment and Wage Statistics (OEWS): nationally within legal services, nationally across all industries, and in every state and DC. Monthly series add legal services employment and average hourly earnings, job openings, hires and quits in professional and business services, and each state's average job-openings and hires rates over the latest year for all nonfarm employers. Aggregates only: no firm, job posting or person.",
+      "path": "data/legal-hiring-demand/legal-hiring-demand.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23873129",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/oes/"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/ces/"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/jlt/"
+        },
+        {
+          "title": "www.bls.gov",
+          "path": "https://www.bls.gov/developers/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or state"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on national records)"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "pay (annual role pay and headcount), month (a national monthly series) or state-demand (a state's job-openings and hires rates)"
+          },
+          {
+            "name": "scope",
+            "type": "string",
+            "description": "legal-services or all-industries for pay records; national-monthly or state-monthly for the monthly records"
+          },
+          {
+            "name": "seriesId",
+            "type": "string",
+            "description": "The statistics bureau's series id behind the record (for pay records, the median annual wage series)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the figure as published by the bureau"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The headline figure: median annual wage (pay), the month's value (month) or the average job-openings rate over the latest year (state-demand)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value is measured in"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",
