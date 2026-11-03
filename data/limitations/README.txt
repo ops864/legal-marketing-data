@@ -27,11 +27,10 @@ Columns:
   discoveryRule: Y when the quoted text runs the period from discovery, N when it expressly runs from the act; present only when the quoted text states it
   reposeYears: An outer time limit (statute of repose) stated in the text read, in years; present only when the quoted text states one
   basis: specific when the statute names the claim type; general when the period is the state's general or residual period and the statute's words do not name the claim type
-  readBy: script when the page was fetched and the quote string-matched by machine; browser when the official site refuses scripts and the page was read in a browser
   quote: A verbatim quote from the official statute text
   text: The record in one plain-English sentence
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
+  detail: A short sourced detail on the record
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)

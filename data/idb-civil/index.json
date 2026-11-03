@@ -42,17 +42,12 @@
   "period",
   "filed",
   "classActions",
-  "classPct",
   "proseKnown",
   "proSePlaintiffs",
-  "proSePlaintiffPct",
   "terminated",
   "resolved",
-  "medianDaysToDisposition",
   "trials",
-  "trialPct",
   "trialsWithDate",
-  "medianDaysToTrial",
   "outSettled",
   "outVoluntary",
   "outDismissed",
@@ -61,8 +56,7 @@
   "outTrial",
   "outOtherJudgment",
   "outMovedOut",
-  "outStatClosed",
-  "flags"
+  "outStatClosed"
  ],
  "nosColumns": [
   "scope",
@@ -70,17 +64,12 @@
   "period",
   "filed",
   "classActions",
-  "classPct",
   "proseKnown",
   "proSePlaintiffs",
-  "proSePlaintiffPct",
   "terminated",
   "resolved",
-  "medianDaysToDisposition",
   "trials",
-  "trialPct",
   "trialsWithDate",
-  "medianDaysToTrial",
   "outSettled",
   "outVoluntary",
   "outDismissed",
@@ -89,24 +78,53 @@
   "outTrial",
   "outOtherJudgment",
   "outMovedOut",
-  "outStatClosed",
-  "flags"
+  "outStatClosed"
  ],
  "files": [
+  {
+   "name": "district-group-year-values.csv",
+   "url": "https://probativegrowth.com/data/v1/idb-civil/district-group-year-values.csv",
+   "rows": 76960,
+   "bytes": 3206346,
+   "sha256": "cb70c5943fe9a6ba5e95ec14b83beac0b536f37c97e12cca79ceb1f46e94b894"
+  },
   {
    "name": "district-group-year.csv",
    "url": "https://probativegrowth.com/data/v1/idb-civil/district-group-year.csv",
    "rows": 21196,
-   "bytes": 1832703,
-   "sha256": "e34768599ae5c2e5e927bd50b8262ae3952040af179dc2a2039ccc1dc044b47b"
+   "bytes": 1467126,
+   "sha256": "c1bfa6e4218f680676d5fb5180262bda93f8f46ad1988dd8598723e0deffb4cd"
+  },
+  {
+   "name": "nos-year-values.csv",
+   "url": "https://probativegrowth.com/data/v1/idb-civil/nos-year-values.csv",
+   "rows": 4653,
+   "bytes": 149635,
+   "sha256": "1e7b0e35f9a7ddc1fdf707e9dda1113386c3f1a72720a03d816d2c57cdc13aad"
   },
   {
    "name": "nos-year.csv",
    "url": "https://probativegrowth.com/data/v1/idb-civil/nos-year.csv",
    "rows": 1113,
-   "bytes": 100047,
-   "sha256": "ae532b086b6d8c09df7f406e7ff281ef8066496cfed4660b3d4579914c6d6344"
+   "bytes": 78714,
+   "sha256": "0ff9118a8cc89bed6a7fd9c82722df3120a0a0035390ff86dc73464ae197daef"
   }
  ],
- "howToJoin": "district-group-year.csv: scope is a district key (NYN, CAC, ...) or US; group is one of our nature-of-suit groups or 'all'. nos-year.csv: one row per nature-of-suit code for the whole US. period is a fiscal year (October to September) or the pooled window."
+ "howToJoin": "district-group-year.csv: scope is a district key (NYN, CAC, ...) or US; group is one of our nature-of-suit groups or 'all'. nos-year.csv: one row per nature-of-suit code for the whole US. period is a fiscal year (October to September) or the pooled window. Each <table>-values.csv holds the table's other columns, one row per value (the key columns, then column and value); join it to the table on its key columns.",
+ "districtValueColumns": [
+  "classPct",
+  "proSePlaintiffPct",
+  "medianDaysToDisposition",
+  "trialPct",
+  "medianDaysToTrial",
+  "flags"
+ ],
+ "nosValueColumns": [
+  "classPct",
+  "proSePlaintiffPct",
+  "medianDaysToDisposition",
+  "trialPct",
+  "medianDaysToTrial",
+  "flags"
+ ]
 }

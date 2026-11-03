@@ -1,12 +1,12 @@
 Social Security disability hearing waits and workloads by hearing office
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23741884
+Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898096
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Social Security disability hearing waits and workloads by hearing office, version 1.0.0, https://doi.org/10.5281/zenodo.23741884, licensed CC BY 4.0.
+Source: Probative, Social Security disability hearing waits and workloads by hearing office, version 1.0.1, https://doi.org/10.5281/zenodo.23898096, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Social Security disability hearing waits and workloads by hearing office (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23741884
+Probative. (2026). Social Security disability hearing waits and workloads by hearing office (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898096
 
 Not legal advice. These are the Social Security Administration's published hearing-office statistics, kept for marketing planning. An average wait describes cases already closed, not how long any claimant will wait. Check SSA's current reports.
 Probative is a marketing firm, not a law firm; not legal advice.

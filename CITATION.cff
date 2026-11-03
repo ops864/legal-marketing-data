@@ -363,11 +363,11 @@ references:
     title: "New business applications by county (Census Business Formation Statistics)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23752969"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898091"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/business-applications/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-02"
   - type: dataset
     title: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25"
     authors:
@@ -498,11 +498,11 @@ references:
     title: "Social Security disability hearing waits and workloads by hearing office"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23741884"
+    version: "1.0.1"
+    doi: "10.5281/zenodo.23898096"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/disability-hearings/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Serious drug adverse event reports by active ingredient (openFDA FAERS)"
     authors:
@@ -516,11 +516,11 @@ references:
     title: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23733005"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898101"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/eeoc-charges/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Eviction laws by state and territory: notice, cure, just cause, fees and timing (LSC)"
     authors:
@@ -570,20 +570,20 @@ references:
     title: "Attorney fee caps and contingency-fee rules, by state and federal program"
     authors:
       - name: "Probative Growth"
-    version: "1.1.0"
-    doi: "10.5281/zenodo.23739965"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898103"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/attorney-fee-caps-by-state/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "What US state bars charge, and require, to file or review lawyer advertising"
     authors:
       - name: "Probative Growth"
-    version: "1.2.0"
-    doi: "10.5281/zenodo.23721409"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898106"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/lawyer-ad-filing-fees/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "The US legal market in numbers: headline findings from Probative's open datasets"
     authors:
@@ -597,11 +597,11 @@ references:
     title: "US law firm websites: practices, Spanish, intake, by state, county and practice area"
     authors:
       - name: "Probative Growth"
-    version: "2.0.0"
-    doi: "10.5281/zenodo.23750638"
+    version: "3.0.0"
+    doi: "10.5281/zenodo.23898107"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/firm-web-census/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026"
     authors:
@@ -633,11 +633,11 @@ references:
     title: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23739969"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898111"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/how-long-federal-civil-cases-take/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)"
     authors:
@@ -660,20 +660,20 @@ references:
     title: "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro"
     authors:
       - name: "Probative Growth"
-    version: "1.1.0"
-    doi: "10.5281/zenodo.23656758"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898117"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/language/"
-    date-released: "2026-10-26"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23739997"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898123"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/law-firm-size-and-revenue/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area"
     authors:
@@ -696,11 +696,11 @@ references:
     title: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23734840"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898132"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/lawyer-wages/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list"
     authors:
@@ -858,11 +858,11 @@ references:
     title: "Legal ad-platform policy tracker"
     authors:
       - name: "Probative Growth"
-    version: "1.0.1"
-    doi: "10.5281/zenodo.23716831"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898135"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/platforms/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025"
     authors:
@@ -1020,11 +1020,11 @@ references:
     title: "VA disability compensation recipients by county and combined rating"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23744210"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898138"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/va-compensation/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "VA disability compensation, pension and survivor dollars by county (VA GDX report)"
     authors:
@@ -1056,11 +1056,11 @@ references:
     title: "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23744226"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898146"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/wage-enforcement/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"
   - type: dataset
     title: "WARN Act layoff and closure notices by county: California and Texas"
     authors:
@@ -1083,8 +1083,8 @@ references:
     title: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23740010"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23898154"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/work-injuries/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-02"

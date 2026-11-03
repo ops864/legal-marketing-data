@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this dataset, please cite it as: Probative Growth, Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS), 2026, https://doi.org/10.5281/zenodo.23898132."
 title: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23734840"
+version: "2.0.0"
+doi: "10.5281/zenodo.23898132"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23734839"

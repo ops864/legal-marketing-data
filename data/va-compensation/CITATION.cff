@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this dataset, please cite it as: Probative Growth, VA disability compensation recipients by county and combined rating, 2026, https://doi.org/10.5281/zenodo.23898138."
 title: "VA disability compensation recipients by county and combined rating"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23744210"
+version: "2.0.0"
+doi: "10.5281/zenodo.23898138"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23744209"

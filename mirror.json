@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "datasets": [
     {
       "id": "rules",
@@ -61,10 +61,13 @@
     },
     {
       "id": "business-applications",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23752969",
-      "released": "2026-10-29",
-      "rows": 3208
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898091",
+      "released": "2026-11-02",
+      "rows": 3208,
+      "files": [
+        "business-applications-values.csv"
+      ]
     },
     {
       "id": "ca-courts",
@@ -166,9 +169,9 @@
     },
     {
       "id": "disability-hearings",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23741884",
-      "released": "2026-10-28",
+      "version": "1.0.1",
+      "doi": "10.5281/zenodo.23898096",
+      "released": "2026-11-02",
       "rows": 159
     },
     {
@@ -180,10 +183,13 @@
     },
     {
       "id": "eeoc-charges",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23733005",
-      "released": "2026-10-28",
-      "rows": 806
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898101",
+      "released": "2026-11-02",
+      "rows": 658,
+      "files": [
+        "eeoc-charges-values.csv"
+      ]
     },
     {
       "id": "eviction-laws",
@@ -222,16 +228,16 @@
     },
     {
       "id": "fees",
-      "version": "1.1.0",
-      "doi": "10.5281/zenodo.23739965",
-      "released": "2026-10-28",
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898103",
+      "released": "2026-11-02",
       "rows": 79
     },
     {
       "id": "filing",
-      "version": "1.2.0",
-      "doi": "10.5281/zenodo.23721409",
-      "released": "2026-10-28",
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898106",
+      "released": "2026-11-02",
       "rows": 49
     },
     {
@@ -243,10 +249,13 @@
     },
     {
       "id": "firm-web-census",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23750638",
-      "released": "2026-10-29",
-      "rows": 5129
+      "version": "3.0.0",
+      "doi": "10.5281/zenodo.23898107",
+      "released": "2026-11-02",
+      "rows": 4554,
+      "files": [
+        "firm-web-census-values.csv"
+      ]
     },
     {
       "id": "flood-claims",
@@ -271,10 +280,17 @@
     },
     {
       "id": "idb-civil",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23739969",
-      "released": "2026-10-28",
-      "rows": 1875
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898111",
+      "released": "2026-11-02",
+      "rows": 1709,
+      "files": [
+        "idb-civil-values.csv",
+        "district-group-year-values.csv",
+        "district-group-year.csv",
+        "nos-year-values.csv",
+        "nos-year.csv"
+      ]
     },
     {
       "id": "immigration-courts",
@@ -292,17 +308,23 @@
     },
     {
       "id": "language",
-      "version": "1.1.0",
-      "doi": "10.5281/zenodo.23656758",
-      "released": "2026-10-26",
-      "rows": 3512
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898117",
+      "released": "2026-11-02",
+      "rows": 2069,
+      "files": [
+        "language-values.csv"
+      ]
     },
     {
       "id": "law-firm-economy",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23739997",
-      "released": "2026-10-28",
-      "rows": 492
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898123",
+      "released": "2026-11-02",
+      "rows": 481,
+      "files": [
+        "law-firm-economy-values.csv"
+      ]
     },
     {
       "id": "law-firm-websites",
@@ -320,10 +342,13 @@
     },
     {
       "id": "lawyer-wages",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23734840",
-      "released": "2026-10-28",
-      "rows": 1264
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898132",
+      "released": "2026-11-02",
+      "rows": 1239,
+      "files": [
+        "lawyer-wages-values.csv"
+      ]
     },
     {
       "id": "legal-aid-orgs",
@@ -337,14 +362,20 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23873129",
       "released": "2026-11-02",
-      "rows": 608
+      "rows": 608,
+      "files": [
+        "legal-hiring-demand-values.csv"
+      ]
     },
     {
       "id": "legal-need",
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23845845",
       "released": "2026-10-31",
-      "rows": 3196
+      "rows": 3196,
+      "files": [
+        "legal-need-values.csv"
+      ]
     },
     {
       "id": "legal-prices",
@@ -446,10 +477,13 @@
     },
     {
       "id": "platforms",
-      "version": "1.0.1",
-      "doi": "10.5281/zenodo.23716831",
-      "released": "2026-10-28",
-      "rows": 64
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898135",
+      "released": "2026-11-02",
+      "rows": 58,
+      "files": [
+        "platforms-values.csv"
+      ]
     },
     {
       "id": "population-change",
@@ -572,10 +606,13 @@
     },
     {
       "id": "va-compensation",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23744210",
-      "released": "2026-10-28",
-      "rows": 3200
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898138",
+      "released": "2026-11-02",
+      "rows": 3187,
+      "files": [
+        "va-compensation-values.csv"
+      ]
     },
     {
       "id": "va-spending",
@@ -600,10 +637,13 @@
     },
     {
       "id": "wage-enforcement",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23744226",
-      "released": "2026-10-28",
-      "rows": 5217
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898146",
+      "released": "2026-11-02",
+      "rows": 5008,
+      "files": [
+        "wage-enforcement-values.csv"
+      ]
     },
     {
       "id": "warn-layoffs",
@@ -621,10 +661,13 @@
     },
     {
       "id": "work-injuries",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23740010",
-      "released": "2026-10-28",
-      "rows": 3512
+      "version": "2.0.0",
+      "doi": "10.5281/zenodo.23898154",
+      "released": "2026-11-02",
+      "rows": 2942,
+      "files": [
+        "work-injuries-values.csv"
+      ]
     }
   ]
 }

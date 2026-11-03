@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this dataset, please cite it as: Probative Growth, Toxic chemical releases by county (EPA Toxics Release Inventory), 2026, https://doi.org/10.5281/zenodo.23753052."
 title: "Toxic chemical releases by county (EPA Toxics Release Inventory)"
 type: dataset
 authors:

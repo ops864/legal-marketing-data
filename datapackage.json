@@ -104,9 +104,9 @@
             "description": "The rule in plain English"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the rule"
           },
           {
             "name": "lastChecked",
@@ -1334,8 +1334,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23752969",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898091",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1378,16 +1378,6 @@
             "description": "county, state or us"
           },
           {
-            "name": "county",
-            "type": "string",
-            "description": "5-digit county FIPS code (vintage 2025; the old Connecticut counties and planning regions both appear, for the years each is published); empty for state and US"
-          },
-          {
-            "name": "countyName",
-            "type": "string",
-            "description": "County or county-equivalent name"
-          },
-          {
             "name": "latestYear",
             "type": "integer",
             "description": "Latest year in the file"
@@ -1411,121 +1401,6 @@
             "name": "unit",
             "type": "string",
             "description": "What value counts"
-          },
-          {
-            "name": "ba_2005",
-            "type": "integer",
-            "description": "Business applications in 2005; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2006",
-            "type": "integer",
-            "description": "Business applications in 2006; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2007",
-            "type": "integer",
-            "description": "Business applications in 2007; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2008",
-            "type": "integer",
-            "description": "Business applications in 2008; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2009",
-            "type": "integer",
-            "description": "Business applications in 2009; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2010",
-            "type": "integer",
-            "description": "Business applications in 2010; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2011",
-            "type": "integer",
-            "description": "Business applications in 2011; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2012",
-            "type": "integer",
-            "description": "Business applications in 2012; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2013",
-            "type": "integer",
-            "description": "Business applications in 2013; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2014",
-            "type": "integer",
-            "description": "Business applications in 2014; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2015",
-            "type": "integer",
-            "description": "Business applications in 2015; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2016",
-            "type": "integer",
-            "description": "Business applications in 2016; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2017",
-            "type": "integer",
-            "description": "Business applications in 2017; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2018",
-            "type": "integer",
-            "description": "Business applications in 2018; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2019",
-            "type": "integer",
-            "description": "Business applications in 2019; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2020",
-            "type": "integer",
-            "description": "Business applications in 2020; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2021",
-            "type": "integer",
-            "description": "Business applications in 2021; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2022",
-            "type": "integer",
-            "description": "Business applications in 2022; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2023",
-            "type": "integer",
-            "description": "Business applications in 2023; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2024",
-            "type": "integer",
-            "description": "Business applications in 2024; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "ba_2025",
-            "type": "integer",
-            "description": "Business applications in 2025; null where the county has no figure under this code for that year"
-          },
-          {
-            "name": "change_pct_1y",
-            "type": "number",
-            "description": "Percent change from the previous year"
-          },
-          {
-            "name": "change_pct_since_2019",
-            "type": "number",
-            "description": "Percent change since 2019, the last year before the pandemic"
           },
           {
             "name": "effectiveFrom",
@@ -1565,6 +1440,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "business-applications-values",
+      "profile": "tabular-data-resource",
+      "title": "New business applications by county (Census Business Formation Statistics): business-applications-values.csv",
+      "description": "The columns listed in README.txt as being in business-applications-values.csv, one row per id, column and value; join it to business-applications.csv on id.",
+      "path": "data/business-applications/business-applications-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
@@ -4208,8 +4116,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23741884",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.23898096",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -4589,13 +4497,13 @@
       "name": "eeoc-charges",
       "profile": "tabular-data-resource",
       "title": "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025",
-      "description": "Charges of workplace discrimination received by the U.S. Equal Employment Opportunity Commission (EEOC), by state, DC, Puerto Rico and territory, fiscal year and basis (race, sex, national origin, religion, color, retaliation, age, disability, equal pay, genetic information and pregnancy under the Pregnant Workers Fairness Act), from the EEOC's Tables E1b and E1a. One record per jurisdiction and basis for the latest fiscal year, each with its count, its share of the state's charges, the rate per 100,000 private-sector workers (BLS Quarterly Census of Employment and Wages, from fiscal year 2014) and the whole FY 2009 to FY 2025 history. Counts the EEOC suppressed are left empty and flagged, never filled in. A charge can name more than one basis, so bases add up to more than the total, and charges filed only with a state or local fair-employment agency are not counted.",
+      "description": "Charges of workplace discrimination received by the U.S. Equal Employment Opportunity Commission (EEOC), by state, DC, Puerto Rico and territory, fiscal year and basis (race, sex, national origin, religion, color, retaliation, age, disability, equal pay, genetic information and pregnancy under the Pregnant Workers Fairness Act), from the EEOC's Tables E1b and E1a. One record per jurisdiction and basis for the latest fiscal year, each with its count, its share of the state's charges, the rate per 100,000 private-sector workers (BLS Quarterly Census of Employment and Wages, from fiscal year 2014) and the whole FY 2009 to FY 2025 history. A charge can name more than one basis, so bases add up to more than the total, and charges filed only with a state or local fair-employment agency are not counted.",
       "path": "data/eeoc-charges/eeoc-charges.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23733005",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898101",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -4652,22 +4560,12 @@
           {
             "name": "value",
             "type": "integer",
-            "description": "Charges received; empty when the EEOC suppressed the cell (flags.suppressed)"
+            "description": "Charges received"
           },
           {
             "name": "unit",
             "type": "string",
             "description": "Unit of value"
-          },
-          {
-            "name": "shareOfStateTotal",
-            "type": "number",
-            "description": "Charges for the basis divided by the jurisdiction's total charges that year (a charge can name several bases)"
-          },
-          {
-            "name": "per100kWorkers",
-            "type": "number",
-            "description": "Charges per 100,000 private-sector workers (BLS QCEW annual average employment, the calendar year the fiscal year ends in); empty before fiscal year 2014 and where QCEW has no figure"
           },
           {
             "name": "text",
@@ -4717,6 +4615,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "eeoc-charges-values",
+      "profile": "tabular-data-resource",
+      "title": "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025: eeoc-charges-values.csv",
+      "description": "The columns listed in README.txt as being in eeoc-charges-values.csv, one row per id, column and value; join it to eeoc-charges.csv on id.",
+      "path": "data/eeoc-charges/eeoc-charges-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
         ]
       }
     },
@@ -5965,8 +5896,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23739965",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898103",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6070,9 +6001,9 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the record"
           },
           {
             "name": "sourceLabels",
@@ -6109,8 +6040,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.2.0",
-      "id": "https://doi.org/10.5281/zenodo.23721409",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898106",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6289,9 +6220,9 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the record"
           },
           {
             "name": "sourceLabels",
@@ -6487,8 +6418,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23750638",
+      "version": "3.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898107",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6531,21 +6462,6 @@
             "description": "state, state-practice or county (county x practice cells nested in practiceCells)"
           },
           {
-            "name": "county",
-            "type": "string",
-            "description": "5-digit county FIPS code (county rows)"
-          },
-          {
-            "name": "countyName",
-            "type": "string",
-            "description": "County name as the Census Bureau writes it"
-          },
-          {
-            "name": "practice",
-            "type": "string",
-            "description": "Practice id from the shared practice taxonomy (/data/crosswalks/), for practice rows"
-          },
-          {
             "name": "status",
             "type": "string",
             "description": "P primary source, S secondary source"
@@ -6558,7 +6474,7 @@
           {
             "name": "value",
             "type": "integer",
-            "description": "Law firms found (website or registry; small groups suppressed)"
+            "description": "Law firms found (website or registry; counties and cells of 3 or more firms)"
           },
           {
             "name": "unit",
@@ -6578,112 +6494,12 @@
           {
             "name": "firms_registry_only",
             "type": "integer",
-            "description": "Of those, firms found only in an official open registry (no website read)"
-          },
-          {
-            "name": "cbp_offices",
-            "type": "integer",
-            "description": "Employer law offices (NAICS 541110) in Census County Business Patterns 2023 for the state or county: the coverage base"
-          },
-          {
-            "name": "coverage_cbp",
-            "type": "number",
-            "description": "Coverage (b): firms found / cbp_offices. Firms and establishments differ (a firm can have several offices; registries include solo practices without employees, which CBP leaves out), so it can pass 1"
-          },
-          {
-            "name": "est_firms_with_website",
-            "type": "integer",
-            "description": "Estimated law firms with a website (capture-recapture between the OpenStreetMap and Common Crawl site lists; provisional until the first full pass ends)"
-          },
-          {
-            "name": "coverage_web",
-            "type": "number",
-            "description": "Coverage (a): firms with a website read / est_firms_with_website"
+            "description": "Of those, firms found only in an official open registry (registry facts only)"
           },
           {
             "name": "coverage_label",
             "type": "string",
             "description": "sample, or census once coverage_cbp is 0.70 or more"
-          },
-          {
-            "name": "share_spanish",
-            "type": "number",
-            "description": "Percent of the firm websites read with Spanish-language pages (hreflang, a page read in Spanish or a link labelled Español); withheld under 5 firms"
-          },
-          {
-            "name": "share_intake247",
-            "type": "number",
-            "description": "Percent of the firm websites read with a 24/7 intake statement on the pages read (for example 'available 24/7'); withheld under 5 firms"
-          },
-          {
-            "name": "share_structured",
-            "type": "number",
-            "description": "Percent of the firm websites read whose pages carry schema.org LegalService or Attorney structured data; withheld under 5 firms"
-          },
-          {
-            "name": "share_free_consult",
-            "type": "number",
-            "description": "Percent of the firm websites read stating a free consultation (or free case review); withheld under 5 firms"
-          },
-          {
-            "name": "share_contingency",
-            "type": "number",
-            "description": "Percent of the firm websites read stating no fee unless they win, or a contingency fee; withheld under 5 firms"
-          },
-          {
-            "name": "share_chat",
-            "type": "number",
-            "description": "Percent of the firm websites read with a chat tool on the site; withheld under 5 firms"
-          },
-          {
-            "name": "share_booking",
-            "type": "number",
-            "description": "Percent of the firm websites read with an online booking tool linked or embedded; withheld under 5 firms"
-          },
-          {
-            "name": "share_reviews_schema",
-            "type": "number",
-            "description": "Percent of the firm websites read whose pages carry review or rating structured data (schema.org Review or AggregateRating); withheld under 5 firms"
-          },
-          {
-            "name": "share_llms",
-            "type": "number",
-            "description": "Percent of the firm websites read publishing an llms.txt file; withheld under 5 firms"
-          },
-          {
-            "name": "median_practice_pages",
-            "type": "number",
-            "description": "Practice rows: median number of sitemap pages about the practice per firm, among firms whose sitemap was read"
-          },
-          {
-            "name": "firms_with_sitemap",
-            "type": "integer",
-            "description": "Practice rows: firms whose sitemap could be read (the base of the median)"
-          },
-          {
-            "name": "practiceCells",
-            "type": "string",
-            "description": "County rows: one cell per practice advertised by at least 3 firms with an office in the county: firms, the shares and median_practice_pages (cells under 3 firms are left out)"
-          },
-          {
-            "name": "registries",
-            "type": "string",
-            "description": "State rows: the official open registries used for the state"
-          },
-          {
-            "name": "firms_listed",
-            "type": "integer",
-            "description": "State rows: candidate sites listed for the state in the open sources before reading (web-graph candidates carry no state and are not included)"
-          },
-          {
-            "name": "new_entrants_week",
-            "type": "string",
-            "description": "Aggregate rows: firms first seen in the latest weekly run (filled once two runs exist)"
-          },
-          {
-            "name": "exits_week",
-            "type": "string",
-            "description": "Aggregate rows: firms not readable in the latest run that were read the week before (filled once two runs exist)"
           },
           {
             "name": "lastChecked",
@@ -6713,6 +6529,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "firm-web-census-values",
+      "profile": "tabular-data-resource",
+      "title": "US law firm websites: practices, Spanish, intake, by state, county and practice area: firm-web-census-values.csv",
+      "description": "The columns listed in README.txt as being in firm-web-census-values.csv, one row per id, column and value; join it to firm-web-census.csv on id.",
+      "path": "data/firm-web-census/firm-web-census-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "3.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
@@ -7386,8 +7235,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23739969",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898111",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7429,10 +7278,6 @@
             "type": "string"
           },
           {
-            "name": "circuit",
-            "type": "string"
-          },
-          {
             "name": "group",
             "type": "string",
             "description": "Our nature-of-suit group (personal-injury, employment, ...) or all"
@@ -7447,15 +7292,6 @@
             "description": "district-group (a district and a group) or nos (the whole US for one nature-of-suit code)"
           },
           {
-            "name": "nos",
-            "type": "integer",
-            "description": "The nature-of-suit code on the civil cover sheet (nos records only)"
-          },
-          {
-            "name": "nosLabel",
-            "type": "string"
-          },
-          {
             "name": "status",
             "type": "string",
             "description": "P primary source, S secondary source"
@@ -7463,7 +7299,7 @@
           {
             "name": "value",
             "type": "integer",
-            "description": "Median days from filing to disposition, over cases the district itself resolved in the window; empty when fewer than 10"
+            "description": "Median days from filing to disposition, over cases the district itself resolved in the window; from 10 or more cases"
           },
           {
             "name": "unit",
@@ -7496,16 +7332,6 @@
             "description": "Filed cases flagged as alleging a class action (Rule 23)"
           },
           {
-            "name": "classPct",
-            "type": "number",
-            "description": "Class-action share of filed cases, percent; empty when fewer than 10"
-          },
-          {
-            "name": "proSePlaintiffPct",
-            "type": "number",
-            "description": "Share of filed cases with a pro se plaintiff, percent; empty when fewer than 10"
-          },
-          {
             "name": "trials",
             "type": "integer",
             "description": "Resolved cases that ended in a jury verdict, directed verdict or court trial"
@@ -7513,22 +7339,12 @@
           {
             "name": "trialPct",
             "type": "number",
-            "description": "Trials as a percent of resolved cases; empty when fewer than 10"
-          },
-          {
-            "name": "medianDaysToTrial",
-            "type": "integer",
-            "description": "Median days from filing to the start of trial, for jury and court trials with a recorded start date; empty when fewer than 10"
+            "description": "Trials as a percent of resolved cases; from 10 or more cases"
           },
           {
             "name": "trialsWithDate",
             "type": "integer",
             "description": "Trials with a usable start date"
-          },
-          {
-            "name": "medianDaysToTrialAllYears",
-            "type": "integer",
-            "description": "The same median over all ten fiscal years"
           },
           {
             "name": "effectiveFrom",
@@ -7563,6 +7379,323 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "idb-civil-values",
+      "profile": "tabular-data-resource",
+      "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: idb-civil-values.csv",
+      "description": "The columns listed in README.txt as being in idb-civil-values.csv, one row per id, column and value; join it to idb-civil.csv on id.",
+      "path": "data/idb-civil/idb-civil-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "district-group-year-values",
+      "profile": "tabular-data-resource",
+      "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: district-group-year-values.csv",
+      "description": "The other columns of district-group-year.csv, one row per key, column and value (index.json names the key columns).",
+      "path": "data/idb-civil/district-group-year-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "scope",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "district-group-year",
+      "profile": "tabular-data-resource",
+      "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: district-group-year.csv",
+      "description": "An aggregate table of the dataset (index.json lists its columns); its other columns are in district-group-year-values.csv.",
+      "path": "data/idb-civil/district-group-year.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "scope",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string"
+          },
+          {
+            "name": "filed",
+            "type": "integer"
+          },
+          {
+            "name": "classActions",
+            "type": "integer"
+          },
+          {
+            "name": "proseKnown",
+            "type": "integer"
+          },
+          {
+            "name": "proSePlaintiffs",
+            "type": "integer"
+          },
+          {
+            "name": "terminated",
+            "type": "integer"
+          },
+          {
+            "name": "resolved",
+            "type": "integer"
+          },
+          {
+            "name": "trials",
+            "type": "integer"
+          },
+          {
+            "name": "trialsWithDate",
+            "type": "integer"
+          },
+          {
+            "name": "outSettled",
+            "type": "integer"
+          },
+          {
+            "name": "outVoluntary",
+            "type": "integer"
+          },
+          {
+            "name": "outDismissed",
+            "type": "integer"
+          },
+          {
+            "name": "outDefaultConsent",
+            "type": "integer"
+          },
+          {
+            "name": "outMotion",
+            "type": "integer"
+          },
+          {
+            "name": "outTrial",
+            "type": "integer"
+          },
+          {
+            "name": "outOtherJudgment",
+            "type": "integer"
+          },
+          {
+            "name": "outMovedOut",
+            "type": "integer"
+          },
+          {
+            "name": "outStatClosed",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nos-year-values",
+      "profile": "tabular-data-resource",
+      "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: nos-year-values.csv",
+      "description": "The other columns of nos-year.csv, one row per key, column and value (index.json names the key columns).",
+      "path": "data/idb-civil/nos-year-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "scope",
+            "type": "string"
+          },
+          {
+            "name": "nos",
+            "type": "integer"
+          },
+          {
+            "name": "period",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nos-year",
+      "profile": "tabular-data-resource",
+      "title": "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year: nos-year.csv",
+      "description": "An aggregate table of the dataset (index.json lists its columns); its other columns are in nos-year-values.csv.",
+      "path": "data/idb-civil/nos-year.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "scope",
+            "type": "string"
+          },
+          {
+            "name": "nos",
+            "type": "integer"
+          },
+          {
+            "name": "period",
+            "type": "string"
+          },
+          {
+            "name": "filed",
+            "type": "integer"
+          },
+          {
+            "name": "classActions",
+            "type": "integer"
+          },
+          {
+            "name": "proseKnown",
+            "type": "integer"
+          },
+          {
+            "name": "proSePlaintiffs",
+            "type": "integer"
+          },
+          {
+            "name": "terminated",
+            "type": "integer"
+          },
+          {
+            "name": "resolved",
+            "type": "integer"
+          },
+          {
+            "name": "trials",
+            "type": "integer"
+          },
+          {
+            "name": "trialsWithDate",
+            "type": "integer"
+          },
+          {
+            "name": "outSettled",
+            "type": "integer"
+          },
+          {
+            "name": "outVoluntary",
+            "type": "integer"
+          },
+          {
+            "name": "outDismissed",
+            "type": "integer"
+          },
+          {
+            "name": "outDefaultConsent",
+            "type": "integer"
+          },
+          {
+            "name": "outMotion",
+            "type": "integer"
+          },
+          {
+            "name": "outTrial",
+            "type": "integer"
+          },
+          {
+            "name": "outOtherJudgment",
+            "type": "integer"
+          },
+          {
+            "name": "outMovedOut",
+            "type": "integer"
+          },
+          {
+            "name": "outStatClosed",
+            "type": "integer"
+          }
         ]
       }
     },
@@ -7943,13 +8076,13 @@
       "name": "language",
       "profile": "tabular-data-resource",
       "title": "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro",
-      "description": "How many people who speak Spanish at home, and how many who speak English less than very well, there are for each lawyer who speaks Spanish at home: for the US, every state and DC, and every metro area. Computed from the Census Bureau's American Community Survey (2020 to 2024 five-year tables and microdata), each figure with its 90% margin of error and a reliability flag; estimates too unreliable to publish are withheld. Aggregates only: no lawyer or firm is listed or ranked.",
+      "description": "How many people speak Spanish at home in the US, each state and DC, and the metro areas, how many of them speak English less than very well, and how many there are for each lawyer who speaks Spanish at home. Computed from the Census Bureau's American Community Survey (2020 to 2024 five-year tables and microdata), each figure with its 90% margin of error and a reliability grade. Aggregates only: no lawyer or firm is listed or ranked.",
       "path": "data/language/language.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23656758",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898117",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7959,7 +8092,7 @@
       "sources": [
         {
           "title": "api.census.gov",
-          "path": "https://api.census.gov/data/2024/acs/acs5/pums/variables.html"
+          "path": "https://api.census.gov/data/2024/acs/acs5/groups/C16001.html"
         }
       ],
       "schema": {
@@ -8017,17 +8150,12 @@
           {
             "name": "reliability",
             "type": "string",
-            "description": "reliable (CV under 15%), caution (15-30%) or suppressed"
+            "description": "reliable (CV under 15%) or caution (15-30%)"
           },
           {
             "name": "unit",
             "type": "string",
             "description": "Unit of value"
-          },
-          {
-            "name": "approximate",
-            "type": "boolean",
-            "description": "true when a metro figure is built from survey areas that do not line up exactly with the metro’s borders"
           },
           {
             "name": "text",
@@ -8045,9 +8173,9 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the record"
           },
           {
             "name": "confidence",
@@ -8066,16 +8194,49 @@
       }
     },
     {
+      "name": "language-values",
+      "profile": "tabular-data-resource",
+      "title": "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro: language-values.csv",
+      "description": "The columns listed in README.txt as being in language-values.csv, one row per id, column and value; join it to language.csv on id.",
+      "path": "data/language/language-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "boolean"
+          }
+        ]
+      }
+    },
+    {
       "name": "law-firm-economy",
       "profile": "tabular-data-resource",
       "title": "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022",
-      "description": "How big U.S. law firms are and what they take in, for the US, every state and DC, from three Census Bureau sources. Employer law firms (NAICS 541110, offices of lawyers) by number of employees (fewer than 5, 5 to 9, 10 to 19, 20 to 99, 100 to 499, 500 or more) with their employees, payroll and receipts, from the Statistics of U.S. Businesses (SUSB) 2022. Businesses with no employees (mostly sole practitioners) and their receipts, by legal form, from Nonemployer Statistics 2024, which publishes legal services (NAICS 5411) as one group. Firm counts, receipts, the share of receipts held by the largest firms and firms by receipts size from the Economic Census 2022. One record per jurisdiction and class. Every size-class row adds up to its total row; classes the Census Bureau does not publish are left empty and flagged, never estimated.",
+      "description": "How big U.S. law firms are and what they take in, for the US, every state and DC, from three Census Bureau sources. Employer law firms (NAICS 541110, offices of lawyers) by number of employees (fewer than 5, 5 to 9, 10 to 19, 20 to 99, 100 to 499, 500 or more) with their employees, payroll and receipts, from the Statistics of U.S. Businesses (SUSB) 2022. Businesses with no employees (mostly sole practitioners) and their receipts, by legal form, from Nonemployer Statistics 2024, which publishes legal services (NAICS 5411) as one group. Firm counts, receipts, the share of receipts held by the largest firms and firms by receipts size from the Economic Census 2022. One record per jurisdiction and class. Every size-class row the Census Bureau publishes adds up to its total row, and every figure is the Bureau's own, never estimated.",
       "path": "data/law-firm-economy/law-firm-economy.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23739997",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898123",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -8136,7 +8297,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Firms in the class (businesses for nonemployer); for ec-top records, the share of all law-firm receipts in percent. Empty where the Census Bureau published no figure (flags.suppressed)"
+            "description": "Firms in the class (businesses for nonemployer); for ec-top records, the share of all law-firm receipts in percent"
           },
           {
             "name": "unit",
@@ -8147,51 +8308,6 @@
             "name": "firms",
             "type": "integer",
             "description": "Employer law firms (SUSB, EC) or nonemployer businesses (NES). A firm is counted once in each state where it has an office"
-          },
-          {
-            "name": "establishments",
-            "type": "integer",
-            "description": "Offices (establishments) of those firms"
-          },
-          {
-            "name": "employees",
-            "type": "integer",
-            "description": "Paid employees in March (SUSB) or at the pay period including March 12 (EC); 0 for nonemployers"
-          },
-          {
-            "name": "payrollUsd",
-            "type": "integer",
-            "description": "Annual payroll in whole dollars (the tables print $1,000)"
-          },
-          {
-            "name": "receiptsUsd",
-            "type": "integer",
-            "description": "Receipts (revenue) in whole dollars (the tables print $1,000)"
-          },
-          {
-            "name": "shareOfFirms",
-            "type": "number",
-            "description": "The class's firms divided by all employer firms in the same jurisdiction (US records: of the US total)"
-          },
-          {
-            "name": "shareOfReceipts",
-            "type": "number",
-            "description": "The class's receipts divided by all receipts in the same jurisdiction"
-          },
-          {
-            "name": "receiptsPerFirmUsd",
-            "type": "integer",
-            "description": "Receipts divided by firms, in whole dollars"
-          },
-          {
-            "name": "employeesPerFirm",
-            "type": "number",
-            "description": "Employees divided by firms, one decimal"
-          },
-          {
-            "name": "withheld",
-            "type": "string",
-            "description": "Economic Census records: the figures the Census Bureau withheld (printed as 0 in its table) and left empty here: firms, employees, payrollUsd, receiptsUsd"
           },
           {
             "name": "text",
@@ -8241,6 +8357,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "law-firm-economy-values",
+      "profile": "tabular-data-resource",
+      "title": "Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022: law-firm-economy-values.csv",
+      "description": "The columns listed in README.txt as being in law-firm-economy-values.csv, one row per id, column and value; join it to law-firm-economy.csv on id.",
+      "path": "data/law-firm-economy/law-firm-economy-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
         ]
       }
     },
@@ -8557,13 +8706,13 @@
       "name": "lawyer-wages",
       "profile": "tabular-data-resource",
       "title": "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)",
-      "description": "How many lawyers, paralegals and legal assistants work in the US, in each state and DC, and in the larger metro areas, and what they are paid: the mean annual wage, the median and the 10th, 25th, 75th and 90th percentile wages, from the Bureau of Labor Statistics' Occupational Employment and Wage Statistics (OEWS) survey, May 2025. Every figure carries its BLS series id; figures BLS does not release are marked suppressed and never filled in. OEWS counts employees only: it leaves out owners, partners and the self-employed, so it is not what a firm's owners earn.",
+      "description": "How many lawyers, paralegals and legal assistants work in the US, in each state and DC, and in the larger metro areas, and what they are paid: the mean annual wage, the median and the 10th, 25th, 75th and 90th percentile wages, from the Bureau of Labor Statistics' Occupational Employment and Wage Statistics (OEWS) survey, May 2025. Every figure carries its BLS series id and is the one BLS publishes. OEWS counts employees only, not owners, partners or the self-employed, so it is not what a firm's owners earn.",
       "path": "data/lawyer-wages/lawyer-wages.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23734840",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898132",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -8619,17 +8768,12 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P published by BLS; U suppressed (BLS did not release the estimate)"
-          },
-          {
-            "name": "employment",
-            "type": "integer",
-            "description": "Employees in the occupation (BLS rounds these)"
+            "description": "P: published by BLS"
           },
           {
             "name": "meanAnnual",
             "type": "integer",
-            "description": "Mean annual wage in US dollars; empty when suppressed"
+            "description": "Mean annual wage in US dollars"
           },
           {
             "name": "p10",
@@ -8644,7 +8788,7 @@
           {
             "name": "medianAnnual",
             "type": "integer",
-            "description": "Median annual wage in US dollars; empty when suppressed"
+            "description": "Median annual wage in US dollars"
           },
           {
             "name": "p75",
@@ -8655,16 +8799,6 @@
             "name": "p90",
             "type": "integer",
             "description": "90th percentile annual wage"
-          },
-          {
-            "name": "locationQuotient",
-            "type": "number",
-            "description": "Share of the area's jobs in the occupation relative to the US (1.0 = the US share); not published for the US"
-          },
-          {
-            "name": "employmentRsePct",
-            "type": "number",
-            "description": "BLS relative standard error of the employment estimate, percent"
           },
           {
             "name": "wageRsePct",
@@ -8709,6 +8843,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "lawyer-wages-values",
+      "profile": "tabular-data-resource",
+      "title": "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS): lawyer-wages-values.csv",
+      "description": "The columns listed in README.txt as being in lawyer-wages-values.csv, one row per id, column and value; join it to lawyer-wages.csv on id.",
+      "path": "data/lawyer-wages/lawyer-wages-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
         ]
       }
     },
@@ -8980,6 +9147,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "legal-hiring-demand-values",
+      "profile": "tabular-data-resource",
+      "title": "Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics): legal-hiring-demand-values.csv",
+      "description": "The columns listed in README.txt as being in legal-hiring-demand-values.csv, one row per id, column and value; join it to legal-hiring-demand.csv on id.",
+      "path": "data/legal-hiring-demand/legal-hiring-demand-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
@@ -9443,10 +9643,43 @@
       }
     },
     {
+      "name": "legal-need-values",
+      "profile": "tabular-data-resource",
+      "title": "Legal need by county: who may need a lawyer, from the American Community Survey: legal-need-values.csv",
+      "description": "The columns listed in README.txt as being in legal-need-values.csv, one row per id, column and value; join it to legal-need.csv on id.",
+      "path": "data/legal-need/legal-need-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.1.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
       "name": "legal-prices",
       "profile": "tabular-data-resource",
       "title": "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)",
-      "description": "Month by month since 2017, what consumers pay for legal services (Consumer Price Index), what law offices receive for their work (Producer Price Index for offices of lawyers, overall and by type of work where BLS publishes it), and how many people work in legal services (Current Employment Statistics), each next to the all-items or services index where that helps. Every value is read from the Bureau of Labor Statistics' own database with its series id, base period, and a preliminary flag while BLS may still revise it. The consumer index measures a basket item, not a law firm's billing rate. Counts and index values only.",
+      "description": "Month by month since 2017, what consumers pay for legal services (Consumer Price Index), what law offices receive for their work (Producer Price Index for offices of lawyers, overall and by type of work), and how many people work in legal services (Current Employment Statistics), each next to the all-items or services index where that helps. Every value is read from the Bureau of Labor Statistics' own database with its series id, base period, and a preliminary flag while BLS may still revise it. The consumer index measures a basket item, not a law firm's billing rate. Counts and index values only.",
       "path": "data/legal-prices/legal-prices.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -9813,11 +10046,6 @@
             "description": "specific when the statute names the claim type; general when the period is the state's general or residual period and the statute's words do not name the claim type"
           },
           {
-            "name": "readBy",
-            "type": "string",
-            "description": "script when the page was fetched and the quote string-matched by machine; browser when the official site refuses scripts and the page was read in a browser"
-          },
-          {
             "name": "quote",
             "type": "string",
             "description": "A verbatim quote from the official statute text"
@@ -9833,9 +10061,9 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the record"
           },
           {
             "name": "sourceLabels",
@@ -11661,9 +11889,9 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the record"
           },
           {
             "name": "ai_chatbot_disclosure",
@@ -11907,8 +12135,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.1",
-      "id": "https://doi.org/10.5281/zenodo.23716831",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898135",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11925,8 +12153,8 @@
           "path": "https://help.ads.microsoft.com/"
         },
         {
-          "title": "openai.com",
-          "path": "https://openai.com/policies/ad-policies/"
+          "title": "transparency.meta.com",
+          "path": "https://transparency.meta.com/policies/ad-standards/"
         }
       ],
       "schema": {
@@ -11977,16 +12205,6 @@
             "description": "The practice areas or uses it applies to, separated by \"; \" (all = every one)"
           },
           {
-            "name": "effectiveDate",
-            "type": "string",
-            "description": "The day the rule took effect (YYYY-MM-DD, or the month), if the platform states it"
-          },
-          {
-            "name": "lastChanged",
-            "type": "string",
-            "description": "The day the platform last changed the rule, if known"
-          },
-          {
             "name": "regions",
             "type": "string",
             "description": "Where it applies, separated by \"; \""
@@ -12007,11 +12225,6 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
-            "type": "string",
-            "description": "Caveats"
-          },
-          {
             "name": "confidence",
             "type": "string",
             "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
@@ -12024,6 +12237,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "platforms-values",
+      "profile": "tabular-data-resource",
+      "title": "Legal ad-platform policy tracker: platforms-values.csv",
+      "description": "The columns listed in README.txt as being in platforms-values.csv, one row per id, column and value; join it to platforms.csv on id.",
+      "path": "data/platforms/platforms-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
@@ -13074,9 +13320,9 @@
             "description": "The day it was last confirmed (YYYY-MM-DD)"
           },
           {
-            "name": "note",
+            "name": "detail",
             "type": "string",
-            "description": "Caveats"
+            "description": "A short sourced detail on the record"
           },
           {
             "name": "sourceLabels",
@@ -13472,7 +13718,7 @@
       "name": "state-civil-rights",
       "profile": "tabular-data-resource",
       "title": "State civil-rights agency complaints and charges: figures printed in state annual reports",
-      "description": "Complaint and charge counts that state civil-rights agencies print in their own annual reports or publish as open data, one row per figure with the document's URL and a verbatim quote: California Civil Rights Department (2024 intake forms and immediate right-to-sue requests), Illinois Department of Human Rights (charges received and employment charges in fiscal year 2024, charges docketed in 2025) and the Pennsylvania Human Relations Commission (allegations in employment complaints, fiscal years 2021-22 to 2024-25 and the part of 2025-26 so far). Each quote is re-checked against the document, and each Pennsylvania figure against the portal's own aggregate. States that block the fetcher or publish no count are not included.",
+      "description": "Complaint and charge counts that state civil-rights agencies print in their own annual reports or publish as open data, one row per figure with the document's URL and a verbatim quote: California Civil Rights Department (2024 intake forms and immediate right-to-sue requests), Illinois Department of Human Rights (charges received and employment charges in fiscal year 2024, charges docketed in 2025) and the Pennsylvania Human Relations Commission (allegations in employment complaints, fiscal years 2021-22 to 2024-25 and the part of 2025-26 so far). Each quote is re-checked against the document, and each Pennsylvania figure against the portal's own aggregate.",
       "path": "data/state-civil-rights/state-civil-rights.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -13911,7 +14157,7 @@
       "name": "state-wage-claims",
       "profile": "tabular-data-resource",
       "title": "State labor agency wage claims: figures printed in state reports",
-      "description": "Wage-claim counts that state labor agencies print in their own reports, one row per figure with the document's URL and a verbatim quote: the California Labor Commissioner's Office (wage claims filed in 2021, from its Labor Code section 96.1 report) and the Washington Department of Labor & Industries (wage complaints in state fiscal years 2024 and 2025, from its Workplace Rights Investigations reports). Each quote is re-checked against the document at each refresh. States whose pages block the fetcher or publish no count are not included.",
+      "description": "Wage-claim counts that state labor agencies print in their own reports, one row per figure with the document's URL and a verbatim quote: the California Labor Commissioner's Office (wage claims filed in 2021, from its Labor Code section 96.1 report) and the Washington Department of Labor & Industries (wage complaints in state fiscal years 2024 and 2025, from its Workplace Rights Investigations reports). Each quote is re-checked against the document at each refresh.",
       "path": "data/state-wage-claims/state-wage-claims.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -15313,13 +15559,13 @@
       "name": "va-compensation",
       "profile": "tabular-data-resource",
       "title": "VA disability compensation recipients by county and combined rating",
-      "description": "Veterans receiving VA disability compensation in every U.S. county on September 30, 2025 (fiscal year 2025), from the Department of Veterans Affairs county file on data.va.gov: the total and the count in each combined service-connected rating band (0 to 20%, 30 to 40%, 50 to 60%, 70 to 90% and 100%), by age group (17 to 44, 45 to 64, 65 and over) and by sex, with the same county's total and 100% count a year earlier. One record per county (3,144, in the 50 states and DC), per state and DC (the sum of its counties), for Puerto Rico, for the other territories, for veterans paid abroad, for unknown addresses and for the US. Cells VA suppressed to protect privacy are left empty and marked suppressed, never estimated.",
+      "description": "Veterans receiving VA disability compensation in every U.S. county on September 30, 2025 (fiscal year 2025), from the Department of Veterans Affairs county file on data.va.gov: the total and the count in each combined service-connected rating band (0 to 20%, 30 to 40%, 50 to 60%, 70 to 90% and 100%), by age group (17 to 44, 45 to 64, 65 and over) and by sex, with the same county's total and 100% count a year earlier. One record per county (3,144, in the 50 states and DC), per state and DC (the sum of its counties), for Puerto Rico, for the other territories, for veterans paid abroad, for unknown addresses and for the US. Every figure is one VA publishes; none is estimated.",
       "path": "data/va-compensation/va-compensation.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23744210",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898138",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15358,21 +15604,6 @@
             "description": "county, state (states, DC and Puerto Rico), other-territories, abroad, unknown or us"
           },
           {
-            "name": "county",
-            "type": "string",
-            "description": "5-digit county FIPS code (vintage 2025; Connecticut planning regions); empty for other levels"
-          },
-          {
-            "name": "countyName",
-            "type": "string",
-            "description": "County name as the Census Bureau writes it"
-          },
-          {
-            "name": "stateName",
-            "type": "string",
-            "description": "State name"
-          },
-          {
             "name": "fiscalYear",
             "type": "integer",
             "description": "VA fiscal year of the count (it ends September 30)"
@@ -15405,102 +15636,7 @@
           {
             "name": "recipients",
             "type": "integer",
-            "description": "Veterans receiving VA disability compensation; null where VA suppressed the count"
-          },
-          {
-            "name": "rating_0_20",
-            "type": "integer",
-            "description": "Recipients with a combined service-connected rating of 0% to 20%"
-          },
-          {
-            "name": "rating_30_40",
-            "type": "integer",
-            "description": "Combined rating 30% to 40%"
-          },
-          {
-            "name": "rating_50_60",
-            "type": "integer",
-            "description": "Combined rating 50% to 60%"
-          },
-          {
-            "name": "rating_70_90",
-            "type": "integer",
-            "description": "Combined rating 70% to 90%"
-          },
-          {
-            "name": "rating_100",
-            "type": "integer",
-            "description": "Combined rating 100%. VA's Annual Benefits Report counts veterans paid at the 100% rate for individual unemployability at their combined rating, and this file's bands match that report within 1%"
-          },
-          {
-            "name": "rating_suppressed",
-            "type": "integer",
-            "description": "Recipients in rating cells VA suppressed: the total less the published bands (0 when all five are published)"
-          },
-          {
-            "name": "age_17_44",
-            "type": "integer",
-            "description": "Recipients aged 17 to 44"
-          },
-          {
-            "name": "age_45_64",
-            "type": "integer",
-            "description": "Recipients aged 45 to 64"
-          },
-          {
-            "name": "age_65_plus",
-            "type": "integer",
-            "description": "Recipients aged 65 or older"
-          },
-          {
-            "name": "male",
-            "type": "integer",
-            "description": "Male recipients"
-          },
-          {
-            "name": "female",
-            "type": "integer",
-            "description": "Female recipients (age and sex groups can fall short of the total where VA has no birth date or sex on file)"
-          },
-          {
-            "name": "share_rated_70_plus",
-            "type": "number",
-            "description": "Percent of recipients rated 70% or higher (70-90% plus 100%), where both cells are published"
-          },
-          {
-            "name": "share_rated_100",
-            "type": "number",
-            "description": "Percent of recipients rated 100%"
-          },
-          {
-            "name": "recipients_prev",
-            "type": "integer",
-            "description": "Recipients a year earlier (previous fiscal year's county file)"
-          },
-          {
-            "name": "rating_100_prev",
-            "type": "integer",
-            "description": "Recipients rated 100% a year earlier"
-          },
-          {
-            "name": "change_recipients",
-            "type": "integer",
-            "description": "recipients less recipients_prev"
-          },
-          {
-            "name": "change_pct",
-            "type": "number",
-            "description": "change_recipients as a percent of recipients_prev"
-          },
-          {
-            "name": "countiesSuppressed",
-            "type": "integer",
-            "description": "State and US records: counties whose total VA suppressed (their veterans are missing from the sum)"
-          },
-          {
-            "name": "suppressedFields",
-            "type": "string",
-            "description": "Fields VA left blank for this row (suppressed to protect privacy)"
+            "description": "Veterans receiving VA disability compensation"
           },
           {
             "name": "effectiveFrom",
@@ -15516,11 +15652,6 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": "Caveats"
           },
           {
             "name": "sourceLabels",
@@ -15545,6 +15676,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "va-compensation-values",
+      "profile": "tabular-data-resource",
+      "title": "VA disability compensation recipients by county and combined rating: va-compensation-values.csv",
+      "description": "The columns listed in README.txt as being in va-compensation-values.csv, one row per id, column and value; join it to va-compensation.csv on id.",
+      "path": "data/va-compensation/va-compensation-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
@@ -16128,13 +16292,13 @@
       "name": "wage-enforcement",
       "profile": "tabular-data-resource",
       "title": "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)",
-      "description": "What the U.S. Department of Labor found when it enforced wage and safety laws, counted for every county, state and territory and the US over the last ten complete federal fiscal years. From the Wage and Hour Division (WHD): concluded cases, cases with violations, back wages found owed, employees owed back wages, civil money penalties, Fair Labor Standards Act overtime and minimum wage back wages, and child labor violations. From the Occupational Safety and Health Administration (OSHA), federal and state-plan offices: inspections (and how many followed a complaint, a referral, an accident or a fatality or catastrophe), violations cited (serious, willful, repeat), and penalties. State and US records add one record per law WHD enforces (FLSA, FMLA, Davis-Bacon, the Service Contract Act, H-2A, H-2B, H-1B, MSPA and others) and one per industry sector. Only counts and sums are published: no employer name, address or case number, and back wages are suppressed wherever 1 or 2 employees were owed.",
+      "description": "What the U.S. Department of Labor found when it enforced wage and safety laws, counted by county, state and territory and for the US over the last ten complete federal fiscal years. From the Wage and Hour Division (WHD): concluded cases, cases with violations, back wages found owed, employees owed back wages, civil money penalties, Fair Labor Standards Act overtime and minimum wage back wages, and child labor violations. From the Occupational Safety and Health Administration (OSHA), federal and state-plan offices: inspections (and how many followed a complaint, a referral, an accident or a fatality or catastrophe), violations cited (serious, willful, repeat), and penalties. State and US records add one record per law WHD enforces (FLSA, FMLA, Davis-Bacon, the Service Contract Act, H-2A, H-2B, H-1B, MSPA and others) and one per industry sector. Only counts and sums are published: no employer name, address or case number, and back wages only where 3 or more employees were owed.",
       "path": "data/wage-enforcement/wage-enforcement.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23744226",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898146",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -16173,41 +16337,6 @@
             "description": "county, county-not-given (cases and inspections in the state whose ZIP code places them in no county of it), state, state-not-given (no usable state code), us, act (one law WHD enforces, state or US) or industry (one NAICS sector, state or US)"
           },
           {
-            "name": "county",
-            "type": "string",
-            "description": "5-digit county FIPS code (vintage 2025; Connecticut by planning region), placed by ZIP code; empty for other levels"
-          },
-          {
-            "name": "countyName",
-            "type": "string",
-            "description": "County name as the Census Bureau writes it"
-          },
-          {
-            "name": "stateName",
-            "type": "string",
-            "description": "State or territory name"
-          },
-          {
-            "name": "act",
-            "type": "string",
-            "description": "Act records: the law's short id (flsa, flsa-overtime, flsa-minimum-wage, flsa-retaliation, child-labor, fmla, davis-bacon, service-contract, contract-work-hours, h-2a, h-2b, h-1b, mspa, garnishment, polygraph, other)"
-          },
-          {
-            "name": "actName",
-            "type": "string",
-            "description": "Act records: the law's name"
-          },
-          {
-            "name": "sector",
-            "type": "string",
-            "description": "Industry records: the NAICS sector code (2 digits, or 31-33, 44-45, 48-49), or unclassified"
-          },
-          {
-            "name": "sectorName",
-            "type": "string",
-            "description": "Industry records: the NAICS sector name"
-          },
-          {
             "name": "year",
             "type": "integer",
             "description": "The latest complete federal fiscal year in the record (FY N runs October 1 of N-1 to September 30 of N)"
@@ -16230,52 +16359,12 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Back wages WHD found owed over the ten fiscal years, in dollars (null where suppressed)"
+            "description": "Back wages WHD found owed over the ten fiscal years, in dollars"
           },
           {
             "name": "unit",
             "type": "string",
             "description": "Unit of value"
-          },
-          {
-            "name": "whd_cases",
-            "type": "integer",
-            "description": "Latest fiscal year: concluded WHD compliance actions (cases) whose findings ended in that year; for act records, cases with a finding under that law"
-          },
-          {
-            "name": "whd_cases_with_violations",
-            "type": "integer",
-            "description": "Of those, cases where WHD recorded at least one violation"
-          },
-          {
-            "name": "whd_back_wages",
-            "type": "number",
-            "description": "Back wages the employers agreed to pay or were found to owe, in dollars (null where 1 or 2 employees were owed)"
-          },
-          {
-            "name": "whd_employees_owed",
-            "type": "integer",
-            "description": "Employees due back wages (null where 1 or 2)"
-          },
-          {
-            "name": "whd_penalties",
-            "type": "number",
-            "description": "Civil money penalties assessed, in dollars"
-          },
-          {
-            "name": "whd_flsa_overtime_back_wages",
-            "type": "number",
-            "description": "Back wages for Fair Labor Standards Act overtime violations, in dollars"
-          },
-          {
-            "name": "whd_flsa_minimum_wage_back_wages",
-            "type": "number",
-            "description": "Back wages for FLSA minimum wage violations, in dollars"
-          },
-          {
-            "name": "whd_child_labor_violations",
-            "type": "integer",
-            "description": "FLSA child labor violations"
           },
           {
             "name": "whd_cases_10y",
@@ -16298,66 +16387,6 @@
             "description": "Civil money penalties over the ten fiscal years, in dollars"
           },
           {
-            "name": "osha_inspections",
-            "type": "integer",
-            "description": "Latest fiscal year: OSHA inspections opened (federal OSHA and state-plan offices; records of no inspection left out)"
-          },
-          {
-            "name": "osha_complaint_inspections",
-            "type": "integer",
-            "description": "Of those, inspections that followed a complaint"
-          },
-          {
-            "name": "osha_fatality_catastrophe_inspections",
-            "type": "integer",
-            "description": "Of those, inspections that followed a fatality or catastrophe (OSHA's Fat/Cat type; the separate Accident type is in osha_accident_inspections in the JSON)"
-          },
-          {
-            "name": "osha_violations",
-            "type": "integer",
-            "description": "Citation items from those inspections (deleted items left out)"
-          },
-          {
-            "name": "osha_serious",
-            "type": "integer",
-            "description": "Serious violations cited"
-          },
-          {
-            "name": "osha_willful",
-            "type": "integer",
-            "description": "Willful violations cited"
-          },
-          {
-            "name": "osha_repeat",
-            "type": "integer",
-            "description": "Repeat violations cited"
-          },
-          {
-            "name": "osha_current_penalties",
-            "type": "number",
-            "description": "Current OSHA penalties on those citations (after any settlement or decision), in dollars"
-          },
-          {
-            "name": "osha_inspections_10y",
-            "type": "integer",
-            "description": "OSHA inspections over the ten fiscal years"
-          },
-          {
-            "name": "osha_violations_10y",
-            "type": "integer",
-            "description": "Violations cited over the ten fiscal years"
-          },
-          {
-            "name": "osha_serious_10y",
-            "type": "integer",
-            "description": "Serious violations over the ten fiscal years"
-          },
-          {
-            "name": "osha_current_penalties_10y",
-            "type": "number",
-            "description": "Current OSHA penalties over the ten fiscal years, in dollars"
-          },
-          {
             "name": "effectiveFrom",
             "type": "string",
             "description": "When the fact took effect (YYYY-MM-DD), if known"
@@ -16371,11 +16400,6 @@
             "name": "lastChecked",
             "type": "string",
             "description": "The day it was last confirmed (YYYY-MM-DD)"
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": "Caveats"
           },
           {
             "name": "sourceLabels",
@@ -16400,6 +16424,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "wage-enforcement-values",
+      "profile": "tabular-data-resource",
+      "title": "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor): wage-enforcement-values.csv",
+      "description": "The columns listed in README.txt as being in wage-enforcement-values.csv, one row per id, column and value; join it to wage-enforcement.csv on id.",
+      "path": "data/wage-enforcement/wage-enforcement-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
@@ -16711,13 +16768,13 @@
       "name": "work-injuries",
       "profile": "tabular-data-resource",
       "title": "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)",
-      "description": "How often workers are hurt on the job in each state and industry, and how many die: the nonfatal injury and illness rate per 100 full-time workers for private-industry sectors and detailed industries in the states BLS publishes (Survey of Occupational Injuries and Illnesses, 2024), and the number and rate of fatal work injuries in every state and DC, with the major cause and the industry rate (Census of Fatal Occupational Injuries, 2024). Every record carries its BLS series or table. Survey estimates carry a relative standard error and a noise flag; figures BLS does not publish are marked suppressed and never filled in. It is statistics about industries and states, never about a named employer.",
+      "description": "How often workers are hurt on the job in each state and industry, and how many die: the nonfatal injury and illness rate per 100 full-time workers for private-industry sectors and detailed industries in 42 states and DC (Survey of Occupational Injuries and Illnesses, 2024), and the number and rate of fatal work injuries in every state and DC, with the major cause and the industry rate (Census of Fatal Occupational Injuries, 2024). Every record carries its BLS series or table. Survey estimates carry a relative standard error and a noise flag, and every figure is the one BLS publishes. It is statistics about industries and states, never about a named employer.",
       "path": "data/work-injuries/work-injuries.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23740010",
+      "version": "2.0.0",
+      "id": "https://doi.org/10.5281/zenodo.23898154",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -16781,11 +16838,6 @@
             "description": "Industry name, as BLS words it"
           },
           {
-            "name": "event",
-            "type": "string",
-            "description": "Cause of the fatal injury (cfoi-event records)"
-          },
-          {
             "name": "year",
             "type": "integer",
             "description": "The reference year"
@@ -16793,12 +16845,12 @@
           {
             "name": "status",
             "type": "string",
-            "description": "P published by BLS; U suppressed (BLS did not publish it)"
+            "description": "P: published by BLS"
           },
           {
             "name": "value",
             "type": "number",
-            "description": "The headline number of the record (see unit); empty when suppressed"
+            "description": "The headline number of the record (see unit)"
           },
           {
             "name": "unit",
@@ -16806,39 +16858,9 @@
             "description": "What value counts"
           },
           {
-            "name": "rate",
-            "type": "number",
-            "description": "Injury and illness cases per 100 full-time workers (soii-industry) or fatal injuries per 100,000 full-time equivalent workers (cfoi records)"
-          },
-          {
-            "name": "dartRate",
-            "type": "number",
-            "description": "Cases with days away from work, job restriction or transfer, per 100 full-time workers"
-          },
-          {
-            "name": "casesThousands",
-            "type": "number",
-            "description": "Estimated recordable cases, in thousands (BLS rounds to 100)"
-          },
-          {
-            "name": "rse",
-            "type": "number",
-            "description": "Relative standard error of the rate, in percent; 20 or more is flagged as noisy"
-          },
-          {
-            "name": "count2023",
-            "type": "integer",
-            "description": "The previous year's count (cfoi-total and cfoi-event records)"
-          },
-          {
             "name": "text",
             "type": "string",
             "description": "The record in one plain-English sentence"
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": "Caveats"
           },
           {
             "name": "lastChecked",
@@ -16868,6 +16890,39 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "work-injuries-values",
+      "profile": "tabular-data-resource",
+      "title": "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI): work-injuries-values.csv",
+      "description": "The columns listed in README.txt as being in work-injuries-values.csv, one row per id, column and value; join it to work-injuries.csv on id.",
+      "path": "data/work-injuries/work-injuries-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     }

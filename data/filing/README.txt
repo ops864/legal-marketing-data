@@ -1,12 +1,12 @@
 What US state bars charge, and require, to file or review lawyer advertising
 
-Version 1.2.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23721409
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898106
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, What US state bars charge, and require, to file or review lawyer advertising, version 1.2.0, https://doi.org/10.5281/zenodo.23721409, licensed CC BY 4.0.
+Source: Probative, What US state bars charge, and require, to file or review lawyer advertising, version 2.0.0, https://doi.org/10.5281/zenodo.23898106, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). What US state bars charge, and require, to file or review lawyer advertising (Version 1.2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23721409
+Probative. (2026). What US state bars charge, and require, to file or review lawyer advertising (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898106
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -45,7 +45,7 @@ Columns:
   text: The record in one plain-English sentence
   effectiveFrom: When the fact took effect (YYYY-MM-DD), if known
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
+  detail: A short sourced detail on the record
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)

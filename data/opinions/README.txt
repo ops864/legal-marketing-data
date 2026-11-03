@@ -32,7 +32,7 @@ Columns:
   url: The official link
   quote: A short exact quote from the source (25 words or fewer)
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
+  detail: A short sourced detail on the record
   ai_chatbot_disclosure: AI opinions only: must a chatbot or AI agent say it is not a lawyer or is an AI? yes, brief, no, excluded, or blank
   ai_generated_ads: AI opinions only: do the advertising rules reach AI-made ad content (copy, images, voice)? yes, brief, no, excluded, or blank
   ai_intake_solicitation: AI opinions only: does AI intake or outreach raise solicitation limits (Rule 7.3)? yes, brief, no, excluded, or blank

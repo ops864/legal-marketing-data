@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this dataset, please cite it as: Probative Growth, IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025, 2026, https://doi.org/10.5281/zenodo.23792826."
 title: "IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025"
 type: dataset
 authors:

@@ -21,7 +21,7 @@ Columns:
   status: P primary source, S secondary source
   statusLabel: The status, in words
   text: The rule in plain English
-  note: Caveats
+  detail: A short sourced detail on the rule
   lastChecked: The day the state was last checked (YYYY-MM-DD)
   humanUrl: The state page anchor to cite for this cell
   sourceLabels: Sources, separated by " | "

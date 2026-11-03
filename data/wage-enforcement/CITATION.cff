@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this dataset, please cite it as: Probative Growth, Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor), 2026, https://doi.org/10.5281/zenodo.23898146."
 title: "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23744226"
+version: "2.0.0"
+doi: "10.5281/zenodo.23898146"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23744225"
