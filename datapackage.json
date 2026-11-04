@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-03",
-  "created": "2026-11-03T00:00:00Z",
+  "version": "2026-11-04",
+  "created": "2026-11-04T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -3372,8 +3372,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23744618",
+      "version": "1.2.0",
+      "id": "https://doi.org/10.5281/zenodo.23934160",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -9952,8 +9952,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23743673",
+      "version": "1.2.0",
+      "id": "https://doi.org/10.5281/zenodo.23934163",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13209,8 +13209,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23747113",
+      "version": "1.2.0",
+      "id": "https://doi.org/10.5281/zenodo.23934167",
       "licenses": [
         {
           "name": "CC-BY-4.0",
