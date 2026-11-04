@@ -8,7 +8,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 
 | Dataset | Files | DOI |
 |---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23645750](https://doi.org/10.5281/zenodo.23645750) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23933500](https://doi.org/10.5281/zenodo.23933500) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | `data/ad-costs/` | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | `data/attorneys/` | [10.5281/zenodo.23777037](https://doi.org/10.5281/zenodo.23777037) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | `data/aviation-accidents/` | [10.5281/zenodo.23792734](https://doi.org/10.5281/zenodo.23792734) |

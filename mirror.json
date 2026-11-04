@@ -1,13 +1,13 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "datasets": [
     {
       "id": "rules",
       "version": "1.4.1",
-      "doi": "10.5281/zenodo.23645750",
-      "released": "2026-11-01",
+      "doi": "10.5281/zenodo.23933500",
+      "released": "2026-11-03",
       "rows": 426
     },
     {

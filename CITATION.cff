@@ -16,8 +16,8 @@ keywords:
 license: CC-BY-4.0
 url: "https://probativegrowth.com/data/"
 repository-code: "https://github.com/ops864/legal-marketing-data"
-date-released: "2026-11-02"
-version: "2026-11-02"
+date-released: "2026-11-03"
+version: "2026-11-03"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23645750"
@@ -292,10 +292,10 @@ references:
     authors:
       - name: "Probative Growth"
     version: "1.4.1"
-    doi: "10.5281/zenodo.23645750"
+    doi: "10.5281/zenodo.23933500"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
-    date-released: "2026-11-01"
+    date-released: "2026-11-03"
   - type: dataset
     title: "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)"
     authors:
