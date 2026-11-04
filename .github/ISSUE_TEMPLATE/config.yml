@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Corrections log / Registro de correcciones"
+    url: https://probativegrowth.com/data/corrections/
+    about: "Every corrected value, and how we check a report. / Cada valor corregido y cómo revisamos un reporte."

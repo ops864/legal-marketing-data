@@ -291,11 +291,11 @@ references:
     title: "Lawyer advertising rules by state (50 states and DC)"
     authors:
       - name: "Probative Growth"
-    version: "1.4.1"
-    doi: "10.5281/zenodo.23933500"
+    version: "1.5.0"
+    doi: "10.5281/zenodo.23645750"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/"
-    date-released: "2026-11-03"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)"
     authors:

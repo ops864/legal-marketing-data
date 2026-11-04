@@ -44,8 +44,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.4.1",
-      "id": "https://doi.org/10.5281/zenodo.23933500",
+      "version": "1.5.0",
+      "id": "https://doi.org/10.5281/zenodo.23645750",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13219,16 +13219,16 @@
       ],
       "sources": [
         {
+          "title": "legacy.utcourts.gov",
+          "path": "https://legacy.utcourts.gov/rules/view.php?type=scrp&rule=3-5.8"
+        },
+        {
           "title": "www-media.floridabar.org",
           "path": "https://www-media.floridabar.org/uploads/2026/10/2027_04-OCT-Chapter-4-RRTFB-1.pdf"
         },
         {
           "title": "www.calbar.ca.gov",
           "path": "https://www.calbar.ca.gov/Portals/0/documents/rules/Rules-of-Professional-Conduct.pdf"
-        },
-        {
-          "title": "www.gabar.org",
-          "path": "https://www.gabar.org/handbook?rule=rule105"
         }
       ],
       "schema": {

@@ -8,7 +8,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 
 | Dataset | Files | DOI |
 |---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23933500](https://doi.org/10.5281/zenodo.23933500) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | `data/rules/` | [10.5281/zenodo.23645750](https://doi.org/10.5281/zenodo.23645750) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | `data/ad-costs/` | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | `data/attorneys/` | [10.5281/zenodo.23777037](https://doi.org/10.5281/zenodo.23777037) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | `data/aviation-accidents/` | [10.5281/zenodo.23792734](https://doi.org/10.5281/zenodo.23792734) |
@@ -98,7 +98,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state](https://probativegrowth.com/data/wc-benefits/) | `data/wc-benefits/` | [10.5281/zenodo.23844619](https://doi.org/10.5281/zenodo.23844619) |
 | [Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)](https://probativegrowth.com/data/work-injuries/) | `data/work-injuries/` | [10.5281/zenodo.23898154](https://doi.org/10.5281/zenodo.23898154) |
 
-Each folder holds the full CSV and JSON, a `README.txt` with the fields, `changes.json` (the change log), `openapi.json`, and `CITATION.cff`. The root has a `CITATION.cff` (GitHub's "Cite this repository" button) and a [Frictionless](https://frictionlessdata.io/) `datapackage.json` that describes every CSV and its fields. Each dataset version has a tagged release.
+Each folder holds the full CSV and JSON, a `README.txt` with the fields, `changes.json` (the change log), `openapi.json`, `CITATION.cff` and `starter.ipynb` (a notebook that loads the data and works through example questions; on Kaggle, import it from its GitHub link). Found a wrong value? [Report it here](https://github.com/ops864/legal-marketing-data/issues/new?template=correction.yml). The root has a `CITATION.cff` (GitHub's "Cite this repository" button) and a [Frictionless](https://frictionlessdata.io/) `datapackage.json` that describes every CSV and its fields. Each dataset version has a tagged release.
 
 ## Live API and MCP server
 

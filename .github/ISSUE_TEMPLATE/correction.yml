@@ -1,0 +1,133 @@
+name: "Report a wrong value / Reportar un valor incorrecto"
+description: "A value in a published dataset that does not match its source. / Un valor publicado que no coincide con su fuente."
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We check every report against the official source. If the data is wrong, we fix it, publish a new patch version and add a row to the [corrections log](https://probativegrowth.com/data/corrections/). Please leave out personal details and anything about a client or a case.
+
+        Revisamos cada reporte con la fuente oficial. Si el dato está mal, lo corregimos, publicamos una nueva versión y agregamos una fila al [registro de correcciones](https://probativegrowth.com/es/datos/correcciones/). No incluya datos personales ni información de clientes o casos.
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: "Dataset / Conjunto de datos"
+      options:
+        - ad-costs
+        - attorneys
+        - aviation-accidents
+        - bankruptcy
+        - bar-pipeline
+        - benchmarks
+        - boating-accidents
+        - business-applications
+        - ca-courts
+        - certified-specialists
+        - charge-deadlines
+        - civil-filings
+        - consumer-complaints
+        - consumer-sentinel
+        - county-income
+        - court-fees
+        - crime-data
+        - criminal-filings
+        - crosswalks
+        - demand-per-law-office
+        - deserts
+        - device-events
+        - disability-hearings
+        - drug-events
+        - eeoc-charges
+        - eviction-laws
+        - evictions
+        - fair-housing
+        - fatal-crashes
+        - federal-filings-county
+        - fees
+        - filing
+        - findings
+        - firm-web-census
+        - flood-claims
+        - green-cards
+        - hospital-safety
+        - idb-civil
+        - immigration-courts
+        - irs-databook
+        - language
+        - law-firm-economy
+        - law-firm-websites
+        - law-offices
+        - lawyer-wages
+        - legal-aid-orgs
+        - legal-hiring-demand
+        - legal-need
+        - legal-prices
+        - legal-profession-figures
+        - limitations
+        - marriage-divorce
+        - mdl
+        - mine-accidents
+        - mortgage-delinquency
+        - mortgage-lending
+        - noncitizen-population
+        - nursing-homes
+        - ny-attorneys
+        - ny-workers-comp
+        - opinions
+        - osha-enforcement
+        - platforms
+        - population-change
+        - practice-official
+        - product-recalls
+        - rail-casualties
+        - referral
+        - robocall-complaints
+        - rules
+        - search-demand
+        - serp-landscape
+        - state-civil-rights
+        - state-courts
+        - state-wage-claims
+        - toxic-releases
+        - truck-crashes
+        - tx-nonsubscribers
+        - unemployment
+        - union-membership
+        - uscis-offices
+        - va-compensation
+        - va-spending
+        - vehicle-complaints
+        - veterans-representation
+        - wage-enforcement
+        - warn-layoffs
+        - wc-benefits
+        - work-injuries
+    validations:
+      required: true
+  - type: input
+    id: record
+    attributes:
+      label: "Record id / Identificador del registro"
+      description: "The `id` column of the row. / La columna `id` de la fila."
+    validations:
+      required: true
+  - type: input
+    id: published
+    attributes:
+      label: "What the file says / Lo que dice el archivo"
+    validations:
+      required: true
+  - type: input
+    id: correct
+    attributes:
+      label: "What it should say / Lo que debería decir"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Source page or table that shows it / Página o tabla de la fuente que lo muestra"
+      description: "An official source if there is one. / Una fuente oficial, si existe."
+    validations:
+      required: true
