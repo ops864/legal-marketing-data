@@ -261,7 +261,6 @@ cg-nh,detail,"Last amended 2002, effective January 1, 2003."
 cg-nj,percent,33.33
 cg-nj,percentKind,ceiling
 cg-nj,base,the net sum recovered
-cg-nj,detail,"Amounts above $3,000,000 need a fee application to the court (para. (f)); a lower limit (25%) applies to some settlements for minors or incapacitated clients."
 cg-ok,percent,50
 cg-ok,percentKind,ceiling
 cg-ok,base,the net amount of the judgment or compromise

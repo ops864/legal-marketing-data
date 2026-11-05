@@ -5456,8 +5456,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963650",
+      "version": "3.0.1",
+      "id": "https://doi.org/10.5281/zenodo.23969434",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5565,7 +5565,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11104,8 +11104,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964080",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.23969437",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11223,7 +11223,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15727,8 +15727,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23844619",
+      "version": "1.1.1",
+      "id": "https://doi.org/10.5281/zenodo.23969440",
       "licenses": [
         {
           "name": "CC-BY-4.0",

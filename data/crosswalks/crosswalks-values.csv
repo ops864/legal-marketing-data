@@ -797,9 +797,10 @@ cw-dataset-fatal-crashes,dimensions,demand
 cw-dataset-fatal-crashes,doi,10.5281/zenodo.23963480
 cw-dataset-federal-filings-county,practices,antitrust; assault-defamation; auto-accidents; aviation-accidents; bankruptcy; birth-injury; business-law; catastrophic-injury; civil-rights; consumer-fraud; consumer-protection; contract-disputes; copyright; credit-reporting; debt-collection-defense; disability-access; dog-bites; drug-device-injury; education-law; employee-benefits; employment-discrimination; employment-law; foreclosure-defense; franchise; housing-discrimination; immigration; insurance-claims; intellectual-property; investor-claims; labor-relations; landlord-tenant; lemon-law; maritime-injury; mass-tort; medical-malpractice; motorcycle-accidents; naturalization; nursing-home-abuse; patent; pedestrian-bicycle-accidents; personal-injury; police-misconduct; premises-liability; product-liability; railroad-injury; real-estate; removal-defense; rideshare-accidents; special-education; ssdi; tax; tcpa-robocalls; toxic-exposure; trademark; truck-accidents; va-disability; wage-and-hour; whistleblower; wrongful-death; wrongful-termination
 cw-dataset-federal-filings-county,dimensions,demand
+cw-dataset-federal-filings-county,doi,10.5281/zenodo.23963548
 cw-dataset-fees,practices,bankruptcy; medical-malpractice; personal-injury; ssdi; va-disability; workers-compensation
 cw-dataset-fees,dimensions,rules
-cw-dataset-fees,doi,10.5281/zenodo.23963650
+cw-dataset-fees,doi,10.5281/zenodo.23969434
 cw-dataset-filing,dimensions,rules
 cw-dataset-filing,doi,10.5281/zenodo.23963654
 cw-dataset-findings,practices,bankruptcy; employment-law; immigration; mass-tort; nursing-home-abuse; personal-injury; ssdi; truck-accidents; va-disability; wage-and-hour
@@ -884,7 +885,7 @@ cw-dataset-ny-workers-comp,practices,personal-injury; workers-compensation
 cw-dataset-ny-workers-comp,dimensions,demand; supply
 cw-dataset-ny-workers-comp,doi,10.5281/zenodo.23964068
 cw-dataset-opinions,dimensions,rules
-cw-dataset-opinions,doi,10.5281/zenodo.23964080
+cw-dataset-opinions,doi,10.5281/zenodo.23969437
 cw-dataset-osha-enforcement,practices,employment-law; personal-injury; workers-compensation; wrongful-death
 cw-dataset-osha-enforcement,dimensions,demand
 cw-dataset-osha-enforcement,doi,10.5281/zenodo.23850661
@@ -949,6 +950,7 @@ cw-dataset-va-spending,dimensions,demand; money
 cw-dataset-va-spending,doi,10.5281/zenodo.23964263
 cw-dataset-vehicle-complaints,practices,auto-accidents; lemon-law; product-liability
 cw-dataset-vehicle-complaints,dimensions,demand
+cw-dataset-vehicle-complaints,doi,10.5281/zenodo.23964283
 cw-dataset-veterans-representation,practices,va-disability
 cw-dataset-veterans-representation,dimensions,demand; supply
 cw-dataset-veterans-representation,doi,10.5281/zenodo.23964365
@@ -960,7 +962,7 @@ cw-dataset-warn-layoffs,dimensions,demand
 cw-dataset-warn-layoffs,doi,10.5281/zenodo.23964377
 cw-dataset-wc-benefits,practices,personal-injury; workers-compensation
 cw-dataset-wc-benefits,dimensions,demand
-cw-dataset-wc-benefits,doi,10.5281/zenodo.23844619
+cw-dataset-wc-benefits,doi,10.5281/zenodo.23969440
 cw-dataset-work-injuries,practices,railroad-injury; workers-compensation; wrongful-death
 cw-dataset-work-injuries,dimensions,demand
 cw-dataset-work-injuries,doi,10.5281/zenodo.23898154

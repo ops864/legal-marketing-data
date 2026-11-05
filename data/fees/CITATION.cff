@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Attorney fee caps and contingency-fee rules, by state and federal program, 2026, https://doi.org/10.5281/zenodo.23963650."
+message: "If you use this dataset, please cite it as: Probative Growth, Attorney fee caps and contingency-fee rules, by state and federal program, 2026, https://doi.org/10.5281/zenodo.23969434."
 title: "Attorney fee caps and contingency-fee rules, by state and federal program"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "3.0.0"
-doi: "10.5281/zenodo.23963650"
+version: "3.0.1"
+doi: "10.5281/zenodo.23969434"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23656737"

@@ -1,12 +1,12 @@
 Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state
 
-Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23844619
+Version 1.1.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23969440
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state, version 1.1.0, https://doi.org/10.5281/zenodo.23844619, licensed CC BY 4.0.
+Source: Probative, Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state, version 1.1.1, https://doi.org/10.5281/zenodo.23969440, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23844619
+Probative. (2026). Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state (Version 1.1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23969440
 
 Not legal advice. These are the maximums as each state agency states them, kept for research and marketing planning. The maximum that applies to a claim is the one in force on the date of injury; an injured worker should ask a lawyer or the state agency.
 Probative is a marketing firm, not a law firm; not legal advice.

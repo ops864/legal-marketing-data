@@ -325,10 +325,10 @@
     },
     {
       "id": "fees",
-      "version": "3.0.0",
-      "doi": "10.5281/zenodo.23963650",
-      "released": "2026-11-04",
-      "cardSha": "7aa96d1c5bd545c7",
+      "version": "3.0.1",
+      "doi": "10.5281/zenodo.23969434",
+      "released": "2026-11-05",
+      "cardSha": "ff9aee43539c5286",
       "rows": 79,
       "files": [
         "fees-values.csv"
@@ -641,10 +641,10 @@
     },
     {
       "id": "opinions",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23964080",
-      "released": "2026-11-04",
-      "cardSha": "5bc62ef59b273517",
+      "version": "2.0.1",
+      "doi": "10.5281/zenodo.23969437",
+      "released": "2026-11-05",
+      "cardSha": "bfec23242fdbf9bc",
       "rows": 261,
       "files": [
         "opinions-values.csv"
@@ -906,10 +906,10 @@
     },
     {
       "id": "wc-benefits",
-      "version": "1.1.0",
-      "doi": "10.5281/zenodo.23844619",
-      "released": "2026-10-31",
-      "cardSha": "49af3d482dd33195",
+      "version": "1.1.1",
+      "doi": "10.5281/zenodo.23969440",
+      "released": "2026-11-05",
+      "cardSha": "94c8a61af45c0b8f",
       "rows": 35
     },
     {

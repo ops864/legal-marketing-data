@@ -570,11 +570,11 @@ references:
     title: "Attorney fee caps and contingency-fee rules, by state and federal program"
     authors:
       - name: "Probative Growth"
-    version: "3.0.0"
-    doi: "10.5281/zenodo.23963650"
+    version: "3.0.1"
+    doi: "10.5281/zenodo.23969434"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/attorney-fee-caps-by-state/"
-    date-released: "2026-11-04"
+    date-released: "2026-11-05"
   - type: dataset
     title: "What US state bars charge, and require, to file or review lawyer advertising"
     authors:
@@ -840,11 +840,11 @@ references:
     title: "Legal-marketing ethics opinions, 2004–2026"
     authors:
       - name: "Probative Growth"
-    version: "2.0.0"
-    doi: "10.5281/zenodo.23964080"
+    version: "2.0.1"
+    doi: "10.5281/zenodo.23969437"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/opinions/"
-    date-released: "2026-11-04"
+    date-released: "2026-11-05"
   - type: dataset
     title: "OSHA inspections and penalties by state and industry (DOL enforcement data)"
     authors:
@@ -1074,11 +1074,11 @@ references:
     title: "Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state"
     authors:
       - name: "Probative Growth"
-    version: "1.1.0"
-    doi: "10.5281/zenodo.23844619"
+    version: "1.1.1"
+    doi: "10.5281/zenodo.23969440"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/wc-benefits/"
-    date-released: "2026-10-31"
+    date-released: "2026-11-05"
   - type: dataset
     title: "Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)"
     authors:
