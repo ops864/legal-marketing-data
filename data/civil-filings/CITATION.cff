@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Federal civil filings by nature of suit and district, 12-month periods since 2018, 2026, https://doi.org/10.5281/zenodo.23720009."
+message: "If you use this dataset, please cite it as: Probative Growth, Federal civil filings by nature of suit and district, 12-month periods since 2018, 2026, https://doi.org/10.5281/zenodo.23963129."
 title: "Federal civil filings by nature of suit and district, 12-month periods since 2018"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23720009"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963129"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23720008"

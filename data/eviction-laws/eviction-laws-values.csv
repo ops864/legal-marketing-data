@@ -1,0 +1,1105 @@
+id,column,value
+eviction-laws:US,value,56
+eviction-laws:US,unit,jurisdictions with a coded residential eviction law
+eviction-laws:US,jurisdictions,56
+eviction-laws:US,justCauseCount,5
+eviction-laws:US,cureNonpaymentCount,42
+eviction-laws:US,lateFeeRegulatedCount,16
+eviction-laws:US,noNoticeNonpaymentCount,4
+eviction-laws:US,mediationCount,5
+eviction-laws:US,rightToCounselCount,0
+eviction-laws:US,notice3DaysCount,17
+eviction-laws:US,notice14PlusCount,9
+eviction-laws:AL,stateName,Alabama
+eviction-laws:AL,value,7
+eviction-laws:AL,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:AL,noticeNonpayment,7 days' notice before filing
+eviction-laws:AL,noticeNonpaymentDays,7
+eviction-laws:AL,noticeOtherCauses,true
+eviction-laws:AL,cureNonpayment,true
+eviction-laws:AL,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations, substantial damage to property"
+eviction-laws:AL,justCause,false
+eviction-laws:AL,lateFeeRegulated,false
+eviction-laws:AL,appealDays,7
+eviction-laws:AL,mediation,no mediation rule
+eviction-laws:AL,rightToCounsel,false
+eviction-laws:AL,courts,District court
+eviction-laws:AL,service,Personal service
+eviction-laws:AL,citation,Ala. Code § 35-9A-421. Noncompliance with rental agreement; failure to pay rent.
+eviction-laws:AL,effectiveDate,2020-10-01
+eviction-laws:AL,validThrough,2021-01-01
+eviction-laws:AK,stateName,Alaska
+eviction-laws:AK,value,7
+eviction-laws:AK,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:AK,noticeNonpayment,7 days' notice before filing
+eviction-laws:AK,noticeNonpaymentDays,7
+eviction-laws:AK,noticeOtherCauses,true
+eviction-laws:AK,cureNonpayment,true
+eviction-laws:AK,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:AK,justCause,false
+eviction-laws:AK,lateFeeRegulated,false
+eviction-laws:AK,filingFeeUsd,150
+eviction-laws:AK,summonsDays,2
+eviction-laws:AK,appealDays,30
+eviction-laws:AK,mediation,no mediation rule
+eviction-laws:AK,rightToCounsel,false
+eviction-laws:AK,courts,"District court, Superior court"
+eviction-laws:AK,service,"Personal service, Certified mail, Personal service to suitable person other than defendant"
+eviction-laws:AK,citation,Alaska Stat. § 09.45.100. Notice to quit; Alaska Stat. § 34.03.220. Noncompliance with rental agreement; failure to pay rent
+eviction-laws:AK,effectiveDate,2020-06-01
+eviction-laws:AK,validThrough,2021-01-01
+eviction-laws:AS,stateName,American Samoa
+eviction-laws:AS,value,7
+eviction-laws:AS,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:AS,noticeNonpayment,7 days' notice before filing
+eviction-laws:AS,noticeNonpaymentDays,7
+eviction-laws:AS,noticeOtherCauses,true
+eviction-laws:AS,cureNonpayment,true
+eviction-laws:AS,cureCauses,"nonpayment of rent, material breach, substantial damage to property"
+eviction-laws:AS,justCause,false
+eviction-laws:AS,lateFeeRegulated,false
+eviction-laws:AS,summonsDays,3
+eviction-laws:AS,appealDays,10
+eviction-laws:AS,mediation,no mediation rule
+eviction-laws:AS,rightToCounsel,false
+eviction-laws:AS,courts,High court
+eviction-laws:AS,service,"Personal service, Certified mail, Publication"
+eviction-laws:AS,citation,Am. Sam. Code Ann. § 43.1405 Grounds for summary recovery of possession.
+eviction-laws:AS,effectiveDate,2021-01-01
+eviction-laws:AS,validThrough,2021-01-01
+eviction-laws:AZ,stateName,Arizona
+eviction-laws:AZ,value,5
+eviction-laws:AZ,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:AZ,noticeNonpayment,5 days' notice before filing
+eviction-laws:AZ,noticeNonpaymentDays,5
+eviction-laws:AZ,noticeOtherCauses,true
+eviction-laws:AZ,cureNonpayment,true
+eviction-laws:AZ,cureCauses,"nonpayment of rent, material breach, statutory tenant obligations"
+eviction-laws:AZ,justCause,false
+eviction-laws:AZ,lateFeeRegulated,true
+eviction-laws:AZ,lateFeeCap,"regulated, no single cap stated"
+eviction-laws:AZ,filingFeeUsd,35
+eviction-laws:AZ,summonsDays,2
+eviction-laws:AZ,appealDays,5
+eviction-laws:AZ,writWaitDays,0
+eviction-laws:AZ,mediation,no mediation rule
+eviction-laws:AZ,rightToCounsel,false
+eviction-laws:AZ,courts,Justice of the Peace court
+eviction-laws:AZ,service,Personal service
+eviction-laws:AZ,citation,Ariz. Rev. Stat. § 33-1368. Noncompliance with rental agreement by tenant; failure to pay rent; utility discontinuation; liability for guests; definition
+eviction-laws:AZ,effectiveDate,2020-01-01
+eviction-laws:AZ,validThrough,2021-01-01
+eviction-laws:AR,stateName,Arkansas
+eviction-laws:AR,value,3
+eviction-laws:AR,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:AR,noticeNonpayment,3 or 10 days' notice before filing (the law gives more than one period)
+eviction-laws:AR,noticeNonpaymentDays,3
+eviction-laws:AR,noticeOtherCauses,true
+eviction-laws:AR,cureNonpayment,true
+eviction-laws:AR,cureCauses,"nonpayment of rent, breach, nuisance activities, statutory tenant obligations, substantial damage to property"
+eviction-laws:AR,justCause,false
+eviction-laws:AR,lateFeeRegulated,false
+eviction-laws:AR,filingFeeUsd,65
+eviction-laws:AR,appealDays,30
+eviction-laws:AR,writWaitDays,1
+eviction-laws:AR,mediation,no mediation rule
+eviction-laws:AR,rightToCounsel,false
+eviction-laws:AR,courts,"Circuit court, District court"
+eviction-laws:AR,service,"Personal service, Mail, Certified mail, Delivery by commercial carrier, Personal service to suitable person other than defendant"
+eviction-laws:AR,citation,Ark. Code § 18-17-901. Grounds for eviction of tenant; Ark. Code § 18-16-101. Failure to pay rent — Refusal to vacate upon notice — Penalty; Ark. Code § 18-60-304. Actions constituting unlawful detainer
+eviction-laws:AR,effectiveDate,2019-07-24
+eviction-laws:AR,validThrough,2021-01-01
+eviction-laws:CA,stateName,California
+eviction-laws:CA,value,3
+eviction-laws:CA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:CA,noticeNonpayment,3 days' notice before filing
+eviction-laws:CA,noticeNonpaymentDays,3
+eviction-laws:CA,noticeOtherCauses,true
+eviction-laws:CA,cureNonpayment,true
+eviction-laws:CA,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:CA,justCause,true
+eviction-laws:CA,lateFeeRegulated,false
+eviction-laws:CA,filingFeeUsd,220
+eviction-laws:CA,appealDays,30
+eviction-laws:CA,mediation,no mediation rule
+eviction-laws:CA,rightToCounsel,false
+eviction-laws:CA,courts,Superior court
+eviction-laws:CA,service,"Personal service, Mail, Certified mail, Personal service to suitable person other than defendant"
+eviction-laws:CA,citation,Cal. Civil Procedure Code § 1161. Unlawful detainer defined
+eviction-laws:CA,effectiveDate,2021-01-01
+eviction-laws:CA,validThrough,2021-01-01
+eviction-laws:CO,stateName,Colorado
+eviction-laws:CO,value,10
+eviction-laws:CO,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:CO,noticeNonpayment,10 days' notice before filing
+eviction-laws:CO,noticeNonpaymentDays,10
+eviction-laws:CO,noticeOtherCauses,true
+eviction-laws:CO,cureNonpayment,true
+eviction-laws:CO,cureCauses,"nonpayment of rent, breach"
+eviction-laws:CO,justCause,false
+eviction-laws:CO,lateFeeRegulated,false
+eviction-laws:CO,filingFeeUsd,85
+eviction-laws:CO,summonsDays,7
+eviction-laws:CO,appealDays,14
+eviction-laws:CO,mediation,no mediation rule
+eviction-laws:CO,rightToCounsel,false
+eviction-laws:CO,courts,"County court, District court"
+eviction-laws:CO,service,Personal service
+eviction-laws:CO,citation,Colo. Rev. Stat. § 13-40-104. Unlawful detention defined
+eviction-laws:CO,effectiveDate,2021-01-01
+eviction-laws:CO,validThrough,2021-01-01
+eviction-laws:CT,stateName,Connecticut
+eviction-laws:CT,value,3
+eviction-laws:CT,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:CT,noticeNonpayment,3 days' notice before filing
+eviction-laws:CT,noticeNonpaymentDays,3
+eviction-laws:CT,noticeOtherCauses,true
+eviction-laws:CT,cureNonpayment,false
+eviction-laws:CT,cureCauses,"material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:CT,justCause,false
+eviction-laws:CT,lateFeeRegulated,false
+eviction-laws:CT,filingFeeUsd,175
+eviction-laws:CT,appealDays,5
+eviction-laws:CT,writWaitDays,1
+eviction-laws:CT,mediation,mediation is required in some cases
+eviction-laws:CT,rightToCounsel,false
+eviction-laws:CT,courts,Superior court
+eviction-laws:CT,service,"Personal service, Posting"
+eviction-laws:CT,citation,Conn. Gen. Stat. § 47a-23. Notice to quit possession or occupancy of premises. Form. Delivery. Federal termination notice
+eviction-laws:CT,effectiveDate,2020-12-23
+eviction-laws:CT,validThrough,2021-01-01
+eviction-laws:DE,stateName,Delaware
+eviction-laws:DE,value,5
+eviction-laws:DE,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:DE,noticeNonpayment,5 days' notice before filing
+eviction-laws:DE,noticeNonpaymentDays,5
+eviction-laws:DE,noticeOtherCauses,true
+eviction-laws:DE,cureNonpayment,true
+eviction-laws:DE,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:DE,justCause,false
+eviction-laws:DE,lateFeeRegulated,true
+eviction-laws:DE,lateFeeCap,5% of monthly rent amount
+eviction-laws:DE,filingFeeUsd,35
+eviction-laws:DE,summonsDays,5
+eviction-laws:DE,appealDays,5
+eviction-laws:DE,writWaitDays,10
+eviction-laws:DE,mediation,no mediation rule
+eviction-laws:DE,rightToCounsel,false
+eviction-laws:DE,courts,Justice of the Peace court
+eviction-laws:DE,service,Personal service
+eviction-laws:DE,citation,Del Code tit. 25 § 5502. Landlord remedies for failure to pay rent
+eviction-laws:DE,effectiveDate,2020-03-24
+eviction-laws:DE,validThrough,2021-01-01
+eviction-laws:DC,stateName,District of Columbia
+eviction-laws:DC,value,30
+eviction-laws:DC,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:DC,noticeNonpayment,30 days' notice before filing
+eviction-laws:DC,noticeNonpaymentDays,30
+eviction-laws:DC,noticeOtherCauses,true
+eviction-laws:DC,cureNonpayment,true
+eviction-laws:DC,cureCauses,"nonpayment of rent, breach"
+eviction-laws:DC,justCause,true
+eviction-laws:DC,lateFeeRegulated,true
+eviction-laws:DC,lateFeeCap,5% of rent due
+eviction-laws:DC,summonsDays,5
+eviction-laws:DC,appealDays,30
+eviction-laws:DC,writWaitDays,21
+eviction-laws:DC,mediation,mediation is optional
+eviction-laws:DC,rightToCounsel,false
+eviction-laws:DC,courts,Superior court
+eviction-laws:DC,citation,D.C. Code § 16-1124. Ejectment for non-payment of rent; time limitation on relief from judgment; set-off; dismissal upon payment; D.C. Code § 42-3505.01. Evictions.; D.C. Code § 42-3505.01. Evictions.
+eviction-laws:DC,effectiveDate,2020-12-23
+eviction-laws:DC,validThrough,2021-01-01
+eviction-laws:FL,stateName,Florida
+eviction-laws:FL,value,3
+eviction-laws:FL,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:FL,noticeNonpayment,3 days' notice before filing
+eviction-laws:FL,noticeNonpaymentDays,3
+eviction-laws:FL,noticeOtherCauses,true
+eviction-laws:FL,cureNonpayment,true
+eviction-laws:FL,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:FL,justCause,false
+eviction-laws:FL,lateFeeRegulated,false
+eviction-laws:FL,filingFeeUsd,180
+eviction-laws:FL,summonsDays,5
+eviction-laws:FL,appealDays,30
+eviction-laws:FL,writWaitDays,1
+eviction-laws:FL,mediation,no mediation rule
+eviction-laws:FL,rightToCounsel,false
+eviction-laws:FL,courts,"County court, Circuit court"
+eviction-laws:FL,service,"Personal service, Certified mail, Publication"
+eviction-laws:FL,citation,Fla. Stat. § 83.56. Termination of rental agreement
+eviction-laws:FL,effectiveDate,2020-07-01
+eviction-laws:FL,validThrough,2021-01-01
+eviction-laws:GA,stateName,Georgia
+eviction-laws:GA,noticeNonpayment,a notice is required before filing for nonpayment; the law sets no minimum length
+eviction-laws:GA,noticeOtherCauses,true
+eviction-laws:GA,cureNonpayment,false
+eviction-laws:GA,justCause,false
+eviction-laws:GA,lateFeeRegulated,false
+eviction-laws:GA,appealDays,7
+eviction-laws:GA,writWaitDays,7
+eviction-laws:GA,mediation,no mediation rule
+eviction-laws:GA,rightToCounsel,false
+eviction-laws:GA,courts,"State court, Magistrates court, Superior court"
+eviction-laws:GA,service,Personal service
+eviction-laws:GA,citation,Ga. Code § 44-7-10. Delivery of possession
+eviction-laws:GA,effectiveDate,2021-01-01
+eviction-laws:GA,validThrough,2021-01-01
+eviction-laws:GU,stateName,Guam
+eviction-laws:GU,value,30
+eviction-laws:GU,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:GU,noticeNonpayment,30 days' notice before filing
+eviction-laws:GU,noticeNonpaymentDays,30
+eviction-laws:GU,noticeOtherCauses,true
+eviction-laws:GU,cureNonpayment,true
+eviction-laws:GU,cureCauses,"nonpayment of rent, breach, material breach, statutory tenant obligations"
+eviction-laws:GU,justCause,false
+eviction-laws:GU,lateFeeRegulated,false
+eviction-laws:GU,appealDays,30
+eviction-laws:GU,writWaitDays,10
+eviction-laws:GU,mediation,no mediation rule
+eviction-laws:GU,rightToCounsel,false
+eviction-laws:GU,courts,Superior court
+eviction-laws:GU,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:GU,citation,21 Guam Code Ann. § 48401. Noncompliance with rental agreement; failure to pay rent
+eviction-laws:GU,effectiveDate,2020-06-26
+eviction-laws:GU,validThrough,2021-01-01
+eviction-laws:HI,stateName,Hawaii
+eviction-laws:HI,value,5
+eviction-laws:HI,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:HI,noticeNonpayment,5 days' notice before filing
+eviction-laws:HI,noticeNonpaymentDays,5
+eviction-laws:HI,noticeOtherCauses,true
+eviction-laws:HI,cureNonpayment,false
+eviction-laws:HI,cureCauses,"nuisance activities, statutory tenant obligations"
+eviction-laws:HI,justCause,false
+eviction-laws:HI,lateFeeRegulated,true
+eviction-laws:HI,lateFeeCap,8% of rent due
+eviction-laws:HI,filingFeeUsd,120
+eviction-laws:HI,appealDays,30
+eviction-laws:HI,writWaitDays,10
+eviction-laws:HI,mediation,no mediation rule
+eviction-laws:HI,rightToCounsel,false
+eviction-laws:HI,courts,District court
+eviction-laws:HI,service,Personal service
+eviction-laws:HI,citation,Haw. Rev. Stat. § 521-68. Landlord’s remedies for failure by tenant to pay rent.
+eviction-laws:HI,effectiveDate,2021-01-01
+eviction-laws:HI,validThrough,2021-01-01
+eviction-laws:ID,stateName,Idaho
+eviction-laws:ID,value,3
+eviction-laws:ID,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:ID,noticeNonpayment,3 days' notice before filing
+eviction-laws:ID,noticeNonpaymentDays,3
+eviction-laws:ID,noticeOtherCauses,true
+eviction-laws:ID,cureNonpayment,true
+eviction-laws:ID,cureCauses,"nonpayment of rent, breach"
+eviction-laws:ID,justCause,false
+eviction-laws:ID,lateFeeRegulated,false
+eviction-laws:ID,filingFeeUsd,166
+eviction-laws:ID,summonsDays,5
+eviction-laws:ID,appealDays,42
+eviction-laws:ID,mediation,no mediation rule
+eviction-laws:ID,rightToCounsel,false
+eviction-laws:ID,courts,District court
+eviction-laws:ID,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:ID,citation,Idaho Code § 6-303. Unlawful detainer defined
+eviction-laws:ID,effectiveDate,2020-07-01
+eviction-laws:ID,validThrough,2021-01-01
+eviction-laws:IL,stateName,Illinois
+eviction-laws:IL,value,5
+eviction-laws:IL,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:IL,noticeNonpayment,5 days' notice before filing
+eviction-laws:IL,noticeNonpaymentDays,5
+eviction-laws:IL,noticeOtherCauses,true
+eviction-laws:IL,cureNonpayment,true
+eviction-laws:IL,cureCauses,nonpayment of rent
+eviction-laws:IL,justCause,false
+eviction-laws:IL,lateFeeRegulated,false
+eviction-laws:IL,summonsDays,7
+eviction-laws:IL,appealDays,30
+eviction-laws:IL,writWaitDays,0
+eviction-laws:IL,mediation,no mediation rule
+eviction-laws:IL,rightToCounsel,false
+eviction-laws:IL,courts,Circuit court
+eviction-laws:IL,service,Personal service
+eviction-laws:IL,citation,735 Ill. Comp. Stat. 5/9-209 Demand for rent – eviction action
+eviction-laws:IL,effectiveDate,2020-11-13
+eviction-laws:IL,validThrough,2021-01-01
+eviction-laws:IN,stateName,Indiana
+eviction-laws:IN,value,10
+eviction-laws:IN,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:IN,noticeNonpayment,10 days' notice before filing
+eviction-laws:IN,noticeNonpaymentDays,10
+eviction-laws:IN,noticeOtherCauses,true
+eviction-laws:IN,cureNonpayment,true
+eviction-laws:IN,cureCauses,"nonpayment of rent, breach, statutory tenant obligations, substantial damage to property"
+eviction-laws:IN,justCause,false
+eviction-laws:IN,lateFeeRegulated,false
+eviction-laws:IN,summonsDays,5
+eviction-laws:IN,writWaitDays,0
+eviction-laws:IN,mediation,no mediation rule
+eviction-laws:IN,rightToCounsel,false
+eviction-laws:IN,courts,"Circuit court, Superior court"
+eviction-laws:IN,service,"Personal service, Certified mail, Posting and mail, Personal service and mail"
+eviction-laws:IN,citation,Ind. Code § 32-31-1-6 Rent; refusal or neglect to pay
+eviction-laws:IN,effectiveDate,2020-07-01
+eviction-laws:IN,validThrough,2021-01-01
+eviction-laws:IA,stateName,Iowa
+eviction-laws:IA,value,3
+eviction-laws:IA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:IA,noticeNonpayment,3 days' notice before filing
+eviction-laws:IA,noticeNonpaymentDays,3
+eviction-laws:IA,noticeOtherCauses,true
+eviction-laws:IA,cureNonpayment,true
+eviction-laws:IA,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:IA,justCause,false
+eviction-laws:IA,lateFeeRegulated,true
+eviction-laws:IA,lateFeeCap,$60 per month or $100 per month
+eviction-laws:IA,filingFeeUsd,95
+eviction-laws:IA,summonsDays,3
+eviction-laws:IA,writWaitDays,0
+eviction-laws:IA,mediation,no mediation rule
+eviction-laws:IA,rightToCounsel,false
+eviction-laws:IA,courts,District court
+eviction-laws:IA,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:IA,citation,Iowa Code § 648.4. Notice terminating tenancy; Iowa Code § 648.3. Notice to quit; Iowa Code § 562A.27. Noncompliance with rental agreement—failure to pay rent—violation of federal regulation
+eviction-laws:IA,effectiveDate,2020-07-15
+eviction-laws:IA,validThrough,2021-01-01
+eviction-laws:KS,stateName,Kansas
+eviction-laws:KS,value,3
+eviction-laws:KS,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:KS,noticeNonpayment,3 days' notice before filing
+eviction-laws:KS,noticeNonpaymentDays,3
+eviction-laws:KS,noticeOtherCauses,true
+eviction-laws:KS,cureNonpayment,true
+eviction-laws:KS,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:KS,justCause,false
+eviction-laws:KS,lateFeeRegulated,false
+eviction-laws:KS,filingFeeUsd,35
+eviction-laws:KS,appealDays,7
+eviction-laws:KS,writWaitDays,0
+eviction-laws:KS,mediation,no mediation rule
+eviction-laws:KS,rightToCounsel,false
+eviction-laws:KS,courts,District court
+eviction-laws:KS,service,"Personal service, Mail, Certified mail, Delivery by commercial carrier, Publication, Personal service to suitable person other than defendant"
+eviction-laws:KS,citation,Kan. Stat. § 58-2508. Termination of tenancy of less than three months for nonpayment of rent; notice; Kan. Stat. § 58-2564 Material noncompliance by tenant; notice; termination of rental agreement; limitations; nonpayment of rent; remedies; Kan. Stat. § 61-3803. Notice to leave premises
+eviction-laws:KS,effectiveDate,2021-01-01
+eviction-laws:KS,validThrough,2021-01-01
+eviction-laws:KY,stateName,Kentucky
+eviction-laws:KY,value,7
+eviction-laws:KY,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:KY,noticeNonpayment,7 days' notice before filing
+eviction-laws:KY,noticeNonpaymentDays,7
+eviction-laws:KY,noticeOtherCauses,true
+eviction-laws:KY,cureNonpayment,true
+eviction-laws:KY,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations, substantial damage to property"
+eviction-laws:KY,justCause,false
+eviction-laws:KY,lateFeeRegulated,false
+eviction-laws:KY,summonsDays,3
+eviction-laws:KY,appealDays,7
+eviction-laws:KY,mediation,no mediation rule
+eviction-laws:KY,rightToCounsel,false
+eviction-laws:KY,courts,District court
+eviction-laws:KY,service,Personal service
+eviction-laws:KY,citation,Ky. Rev. Stat. § 383.660. Tenant's noncompliance with rental agreement -- Failure to pay rent.
+eviction-laws:KY,effectiveDate,2020-12-28
+eviction-laws:KY,validThrough,2021-01-01
+eviction-laws:LA,stateName,Louisiana
+eviction-laws:LA,value,5
+eviction-laws:LA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:LA,noticeNonpayment,5 days' notice before filing
+eviction-laws:LA,noticeNonpaymentDays,5
+eviction-laws:LA,noticeOtherCauses,true
+eviction-laws:LA,cureNonpayment,false
+eviction-laws:LA,justCause,false
+eviction-laws:LA,lateFeeRegulated,false
+eviction-laws:LA,summonsDays,3
+eviction-laws:LA,mediation,no mediation rule
+eviction-laws:LA,rightToCounsel,false
+eviction-laws:LA,courts,"Municipal court, County court, District court, Justice of the Peace court"
+eviction-laws:LA,service,Personal service
+eviction-laws:LA,citation,La. Code of Civil Proc. Art. 4701. Termination of lease; notice to vacate; waiver of notice
+eviction-laws:LA,effectiveDate,2020-06-11
+eviction-laws:LA,validThrough,2021-01-01
+eviction-laws:ME,stateName,Maine
+eviction-laws:ME,value,7
+eviction-laws:ME,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:ME,noticeNonpayment,7 days' notice before filing
+eviction-laws:ME,noticeNonpaymentDays,7
+eviction-laws:ME,noticeOtherCauses,true
+eviction-laws:ME,cureNonpayment,true
+eviction-laws:ME,cureCauses,nonpayment of rent
+eviction-laws:ME,justCause,false
+eviction-laws:ME,lateFeeRegulated,true
+eviction-laws:ME,lateFeeCap,4% of monthly rent amount
+eviction-laws:ME,summonsDays,7
+eviction-laws:ME,appealDays,7
+eviction-laws:ME,writWaitDays,2
+eviction-laws:ME,mediation,mediation is required in some cases
+eviction-laws:ME,rightToCounsel,false
+eviction-laws:ME,courts,District court
+eviction-laws:ME,service,"Personal service, Mail, Personal service to suitable person other than defendant"
+eviction-laws:ME,citation,"Me. Rev. Stat. tit. 14, § 6002. Tenancy at will; buildings on land of another"
+eviction-laws:ME,effectiveDate,2020-12-14
+eviction-laws:ME,validThrough,2021-01-01
+eviction-laws:MD,stateName,Maryland
+eviction-laws:MD,noticeNonpayment,the law requires no notice before filing for nonpayment
+eviction-laws:MD,noticeOtherCauses,true
+eviction-laws:MD,cureNonpayment,false
+eviction-laws:MD,justCause,false
+eviction-laws:MD,lateFeeRegulated,true
+eviction-laws:MD,lateFeeCap,5% of rent due
+eviction-laws:MD,filingFeeUsd,15
+eviction-laws:MD,appealDays,4
+eviction-laws:MD,writWaitDays,0
+eviction-laws:MD,mediation,no mediation rule
+eviction-laws:MD,rightToCounsel,false
+eviction-laws:MD,courts,District court
+eviction-laws:MD,service,"Personal service, Posting and mail, Personal service and mail"
+eviction-laws:MD,citation,"Md. Code, Real Property § 8A-101. Definitions; Md. Code, Real Property § 8-401. Nonpayment of rent"
+eviction-laws:MD,effectiveDate,2020-12-17
+eviction-laws:MD,validThrough,2021-01-01
+eviction-laws:MA,stateName,Massachusetts
+eviction-laws:MA,value,14
+eviction-laws:MA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:MA,noticeNonpayment,14 or 30 days' notice before filing (the law gives more than one period)
+eviction-laws:MA,noticeNonpaymentDays,14
+eviction-laws:MA,noticeOtherCauses,true
+eviction-laws:MA,cureNonpayment,true
+eviction-laws:MA,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:MA,justCause,false
+eviction-laws:MA,lateFeeRegulated,false
+eviction-laws:MA,filingFeeUsd,120
+eviction-laws:MA,appealDays,10
+eviction-laws:MA,writWaitDays,2
+eviction-laws:MA,mediation,no mediation rule
+eviction-laws:MA,rightToCounsel,false
+eviction-laws:MA,courts,"District court, Housing court"
+eviction-laws:MA,service,"Personal service, Posting"
+eviction-laws:MA,citation,Mass. Gen. Laws ch. 186 § 11. Determination of lease for nonpayment of rent.; Mass. Gen. Laws ch. 186 § 12. Notice to determine estate at will; Mass. Gen. Laws ch. 186A § 4. Just cause eviction; prerequisites
+eviction-laws:MA,effectiveDate,2020-12-11
+eviction-laws:MA,validThrough,2021-01-01
+eviction-laws:MI,stateName,Michigan
+eviction-laws:MI,value,7
+eviction-laws:MI,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:MI,noticeNonpayment,7 days' notice before filing
+eviction-laws:MI,noticeNonpaymentDays,7
+eviction-laws:MI,noticeOtherCauses,true
+eviction-laws:MI,cureNonpayment,true
+eviction-laws:MI,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:MI,justCause,false
+eviction-laws:MI,lateFeeRegulated,false
+eviction-laws:MI,filingFeeUsd,45
+eviction-laws:MI,summonsDays,3
+eviction-laws:MI,appealDays,10
+eviction-laws:MI,writWaitDays,0
+eviction-laws:MI,mediation,no mediation rule
+eviction-laws:MI,rightToCounsel,false
+eviction-laws:MI,courts,"Municipal court, District court, Court of common pleas"
+eviction-laws:MI,service,"Personal service, Mail, Certified mail, Delivery by commercial carrier, Personal service to suitable person other than defendant"
+eviction-laws:MI,citation,Mich. Comp. Laws §554.134. Termination of estate at will or by sufferance of tenancy from year to year
+eviction-laws:MI,effectiveDate,2020-01-01
+eviction-laws:MI,validThrough,2021-01-01
+eviction-laws:MN,stateName,Minnesota
+eviction-laws:MN,noticeNonpayment,the law requires no notice before filing for nonpayment
+eviction-laws:MN,noticeOtherCauses,true
+eviction-laws:MN,cureNonpayment,false
+eviction-laws:MN,justCause,false
+eviction-laws:MN,lateFeeRegulated,true
+eviction-laws:MN,lateFeeCap,8% of rent due
+eviction-laws:MN,filingFeeUsd,285
+eviction-laws:MN,summonsDays,4
+eviction-laws:MN,appealDays,15
+eviction-laws:MN,mediation,no mediation rule
+eviction-laws:MN,rightToCounsel,false
+eviction-laws:MN,courts,District court
+eviction-laws:MN,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:MN,citation,Minn. Stat. § 504B.171 Covenant of landlord and tenant not to allow unlawful activities; Minn. Stat. § 504B.171 Covenant of landlord and tenant not to allow unlawful activities
+eviction-laws:MN,effectiveDate,2020-08-04
+eviction-laws:MN,validThrough,2021-01-01
+eviction-laws:MS,stateName,Mississippi
+eviction-laws:MS,value,3
+eviction-laws:MS,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:MS,noticeNonpayment,3 days' notice before filing
+eviction-laws:MS,noticeNonpaymentDays,3
+eviction-laws:MS,noticeOtherCauses,true
+eviction-laws:MS,cureNonpayment,true
+eviction-laws:MS,cureCauses,"nonpayment of rent, material breach, criminal activities, nuisance activities, statutory tenant obligations, substantial damage to property"
+eviction-laws:MS,justCause,false
+eviction-laws:MS,lateFeeRegulated,false
+eviction-laws:MS,summonsDays,5
+eviction-laws:MS,appealDays,5
+eviction-laws:MS,writWaitDays,0
+eviction-laws:MS,mediation,no mediation rule
+eviction-laws:MS,rightToCounsel,false
+eviction-laws:MS,courts,"County court, Justice court"
+eviction-laws:MS,service,Personal service
+eviction-laws:MS,citation,Miss. Code § 89-7-27. Proceedings against tenant holding over.; Miss. Code § 89-8-13. Right to terminate tenancy for breach; notice of breach; return of prepaid rent and security; disposition of tenant’s abandoned personal property.
+eviction-laws:MS,effectiveDate,2020-06-01
+eviction-laws:MS,validThrough,2021-01-01
+eviction-laws:MO,stateName,Missouri
+eviction-laws:MO,value,10
+eviction-laws:MO,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:MO,noticeNonpayment,10 days' notice before filing
+eviction-laws:MO,noticeNonpaymentDays,10
+eviction-laws:MO,noticeOtherCauses,true
+eviction-laws:MO,cureNonpayment,true
+eviction-laws:MO,cureCauses,nonpayment of rent
+eviction-laws:MO,justCause,false
+eviction-laws:MO,lateFeeRegulated,false
+eviction-laws:MO,filingFeeUsd,22
+eviction-laws:MO,summonsDays,4
+eviction-laws:MO,appealDays,10
+eviction-laws:MO,writWaitDays,0
+eviction-laws:MO,mediation,no mediation rule
+eviction-laws:MO,rightToCounsel,false
+eviction-laws:MO,courts,Circuit court
+eviction-laws:MO,service,"Personal service, Mail, Personal service to suitable person other than defendant"
+eviction-laws:MO,citation,"Mo. Rev. Stat. § 441.040 Landlord may take possession, when--landlord liable, when, burden of proof; Mo. Rev. Stat. § 441.030 Tenant not to assign without consent--nor violate conditions--nor commit waste"
+eviction-laws:MO,effectiveDate,2021-01-01
+eviction-laws:MO,validThrough,2021-01-01
+eviction-laws:MT,stateName,Montana
+eviction-laws:MT,value,3
+eviction-laws:MT,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:MT,noticeNonpayment,3 days' notice before filing
+eviction-laws:MT,noticeNonpaymentDays,3
+eviction-laws:MT,noticeOtherCauses,true
+eviction-laws:MT,cureNonpayment,true
+eviction-laws:MT,cureCauses,"nonpayment of rent, breach, statutory tenant obligations"
+eviction-laws:MT,justCause,false
+eviction-laws:MT,lateFeeRegulated,false
+eviction-laws:MT,appealDays,30
+eviction-laws:MT,mediation,no mediation rule
+eviction-laws:MT,rightToCounsel,false
+eviction-laws:MT,courts,"Municipal court, County court, District court, Justice of the Peace court"
+eviction-laws:MT,service,"Personal service, Mail"
+eviction-laws:MT,citation,Mont. Code § 70-24-422. Noncompliance of tenant generally—landlord’s right of termination—damages—injunction
+eviction-laws:MT,effectiveDate,2017-10-01
+eviction-laws:MT,validThrough,2021-01-01
+eviction-laws:NE,stateName,Nebraska
+eviction-laws:NE,value,7
+eviction-laws:NE,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:NE,noticeNonpayment,7 days' notice before filing
+eviction-laws:NE,noticeNonpaymentDays,7
+eviction-laws:NE,noticeOtherCauses,true
+eviction-laws:NE,cureNonpayment,true
+eviction-laws:NE,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:NE,justCause,false
+eviction-laws:NE,lateFeeRegulated,false
+eviction-laws:NE,filingFeeUsd,20
+eviction-laws:NE,summonsDays,10
+eviction-laws:NE,appealDays,30
+eviction-laws:NE,writWaitDays,0
+eviction-laws:NE,mediation,no mediation rule
+eviction-laws:NE,rightToCounsel,false
+eviction-laws:NE,courts,"County court, District court"
+eviction-laws:NE,service,"Personal service, Certified mail, Delivery by commercial carrier, Personal service to suitable person other than defendant"
+eviction-laws:NE,citation,Neb. Rev. Stat. § 76-1431. Noncompliance; failure to pay rent; effect; violent criminal activity upon premises; landlord; powers
+eviction-laws:NE,effectiveDate,2020-11-14
+eviction-laws:NE,validThrough,2021-01-01
+eviction-laws:NV,stateName,Nevada
+eviction-laws:NV,value,7
+eviction-laws:NV,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:NV,noticeNonpayment,7 days' notice before filing
+eviction-laws:NV,noticeNonpaymentDays,7
+eviction-laws:NV,noticeOtherCauses,true
+eviction-laws:NV,cureNonpayment,true
+eviction-laws:NV,cureCauses,"nonpayment of rent, breach"
+eviction-laws:NV,justCause,false
+eviction-laws:NV,lateFeeRegulated,false
+eviction-laws:NV,filingFeeUsd,56
+eviction-laws:NV,summonsDays,10
+eviction-laws:NV,appealDays,10
+eviction-laws:NV,writWaitDays,1
+eviction-laws:NV,mediation,mediation is required in some cases
+eviction-laws:NV,rightToCounsel,false
+eviction-laws:NV,courts,"District court, Justice of the Peace court"
+eviction-laws:NV,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:NV,citation,Nev. Rev. Stat. § 40.2512. Unlawful detainer: possession after default in payment of rent; exception
+eviction-laws:NV,effectiveDate,2020-10-15
+eviction-laws:NV,validThrough,2021-01-01
+eviction-laws:NH,stateName,New Hampshire
+eviction-laws:NH,value,7
+eviction-laws:NH,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:NH,noticeNonpayment,7 days' notice before filing
+eviction-laws:NH,noticeNonpaymentDays,7
+eviction-laws:NH,noticeOtherCauses,true
+eviction-laws:NH,cureNonpayment,true
+eviction-laws:NH,cureCauses,nonpayment of rent
+eviction-laws:NH,justCause,true
+eviction-laws:NH,lateFeeRegulated,false
+eviction-laws:NH,filingFeeUsd,125
+eviction-laws:NH,appealDays,7
+eviction-laws:NH,mediation,no mediation rule
+eviction-laws:NH,rightToCounsel,false
+eviction-laws:NH,courts,District court
+eviction-laws:NH,service,"Personal service, Posting"
+eviction-laws:NH,citation,N.H. Rev. Stat. § 540:3 Eviction Notice
+eviction-laws:NH,effectiveDate,2021-01-01
+eviction-laws:NH,validThrough,2021-01-01
+eviction-laws:NJ,stateName,New Jersey
+eviction-laws:NJ,noticeNonpayment,the law requires no notice before filing for nonpayment
+eviction-laws:NJ,noticeOtherCauses,true
+eviction-laws:NJ,cureNonpayment,true
+eviction-laws:NJ,cureCauses,"nonpayment of rent, material breach, nuisance activities"
+eviction-laws:NJ,justCause,true
+eviction-laws:NJ,lateFeeRegulated,false
+eviction-laws:NJ,filingFeeUsd,25
+eviction-laws:NJ,writWaitDays,3
+eviction-laws:NJ,mediation,no mediation rule
+eviction-laws:NJ,rightToCounsel,false
+eviction-laws:NJ,courts,"Superior court, Housing court"
+eviction-laws:NJ,service,"Personal service and mail, Personal service to suitable person other than defendant and mail"
+eviction-laws:NJ,citation,N.J. Stat 2A:18-53 Removal of tenant in certain cases; jurisdiction; N.J. Stat 2A:18-61.2 Removal of residential tenants; required notice; contents; service
+eviction-laws:NJ,effectiveDate,2020-12-21
+eviction-laws:NJ,validThrough,2021-01-01
+eviction-laws:NM,stateName,New Mexico
+eviction-laws:NM,value,3
+eviction-laws:NM,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:NM,noticeNonpayment,3 days' notice before filing
+eviction-laws:NM,noticeNonpaymentDays,3
+eviction-laws:NM,noticeOtherCauses,true
+eviction-laws:NM,cureNonpayment,true
+eviction-laws:NM,cureCauses,"nonpayment of rent, breach, material breach"
+eviction-laws:NM,justCause,false
+eviction-laws:NM,lateFeeRegulated,true
+eviction-laws:NM,lateFeeCap,10% of monthly rent amount
+eviction-laws:NM,summonsDays,7
+eviction-laws:NM,appealDays,30
+eviction-laws:NM,writWaitDays,3
+eviction-laws:NM,mediation,no mediation rule
+eviction-laws:NM,rightToCounsel,false
+eviction-laws:NM,courts,"District court, Magistrates court"
+eviction-laws:NM,service,"Personal service, Mail, Delivery by commercial carrier"
+eviction-laws:NM,citation,N.M. Stat. § 47-8-33. Breach of agreement by resident and relief by owner; N.M. Civil Form 4-901. Three (3)-day notice of nonpayment of rent (Uniform Owner-Resident Relations Act)
+eviction-laws:NM,effectiveDate,2020-12-31
+eviction-laws:NM,validThrough,2021-01-01
+eviction-laws:NY,stateName,New York
+eviction-laws:NY,value,14
+eviction-laws:NY,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:NY,noticeNonpayment,14 days' notice before filing
+eviction-laws:NY,noticeNonpaymentDays,14
+eviction-laws:NY,noticeOtherCauses,true
+eviction-laws:NY,cureNonpayment,true
+eviction-laws:NY,cureCauses,nonpayment of rent
+eviction-laws:NY,justCause,false
+eviction-laws:NY,lateFeeRegulated,true
+eviction-laws:NY,lateFeeCap,5% of monthly rent amount or $50
+eviction-laws:NY,summonsDays,10
+eviction-laws:NY,appealDays,30
+eviction-laws:NY,writWaitDays,14
+eviction-laws:NY,mediation,no mediation rule
+eviction-laws:NY,rightToCounsel,false
+eviction-laws:NY,courts,"Municipal court, County court, District court"
+eviction-laws:NY,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:NY,citation,N.Y. Real Prop. Acts. Law § 711. Grounds where landlord-tenant relationship exists
+eviction-laws:NY,effectiveDate,2020-08-24
+eviction-laws:NY,validThrough,2021-01-01
+eviction-laws:NC,stateName,North Carolina
+eviction-laws:NC,value,10
+eviction-laws:NC,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:NC,noticeNonpayment,10 days' notice before filing
+eviction-laws:NC,noticeNonpaymentDays,10
+eviction-laws:NC,noticeOtherCauses,true
+eviction-laws:NC,cureNonpayment,true
+eviction-laws:NC,cureCauses,nonpayment of rent
+eviction-laws:NC,justCause,false
+eviction-laws:NC,lateFeeRegulated,true
+eviction-laws:NC,lateFeeCap,5% of monthly rent amount or $15
+eviction-laws:NC,filingFeeUsd,96
+eviction-laws:NC,summonsDays,2
+eviction-laws:NC,appealDays,10
+eviction-laws:NC,mediation,no mediation rule
+eviction-laws:NC,rightToCounsel,false
+eviction-laws:NC,courts,District court
+eviction-laws:NC,service,"Personal service and mail, Personal service to suitable person other than defendant and mail"
+eviction-laws:NC,citation,N.C. Gen. Stat. § 42-3. Term forfeited for nonpayment of rent
+eviction-laws:NC,effectiveDate,2020-12-31
+eviction-laws:NC,validThrough,2021-01-01
+eviction-laws:ND,stateName,North Dakota
+eviction-laws:ND,value,3
+eviction-laws:ND,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:ND,noticeNonpayment,3 days' notice before filing
+eviction-laws:ND,noticeNonpaymentDays,3
+eviction-laws:ND,noticeOtherCauses,true
+eviction-laws:ND,cureNonpayment,false
+eviction-laws:ND,justCause,false
+eviction-laws:ND,lateFeeRegulated,false
+eviction-laws:ND,filingFeeUsd,80
+eviction-laws:ND,summonsDays,3
+eviction-laws:ND,writWaitDays,0
+eviction-laws:ND,mediation,no mediation rule
+eviction-laws:ND,rightToCounsel,false
+eviction-laws:ND,courts,District court
+eviction-laws:ND,service,"Personal service, Mail, Personal service to suitable person other than defendant"
+eviction-laws:ND,citation,N.D. Cent. Code § 47-32-02. Appearance—Notice of intention to evict—When required—When and how served
+eviction-laws:ND,effectiveDate,2020-04-22
+eviction-laws:ND,validThrough,2021-01-01
+eviction-laws:MP,stateName,Northern Mariana Islands
+eviction-laws:MP,value,3
+eviction-laws:MP,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:MP,noticeNonpayment,3 days' notice before filing
+eviction-laws:MP,noticeNonpaymentDays,3
+eviction-laws:MP,noticeOtherCauses,true
+eviction-laws:MP,cureNonpayment,true
+eviction-laws:MP,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:MP,justCause,false
+eviction-laws:MP,lateFeeRegulated,false
+eviction-laws:MP,appealDays,30
+eviction-laws:MP,writWaitDays,14
+eviction-laws:MP,mediation,no mediation rule
+eviction-laws:MP,rightToCounsel,false
+eviction-laws:MP,courts,Superior court
+eviction-laws:MP,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:MP,citation,2 N. Mar. I. Code § 40204. Causes for Removal of Tenants.
+eviction-laws:MP,effectiveDate,2019-01-09
+eviction-laws:MP,validThrough,2021-01-01
+eviction-laws:OH,stateName,Ohio
+eviction-laws:OH,value,3
+eviction-laws:OH,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:OH,noticeNonpayment,3 days' notice before filing
+eviction-laws:OH,noticeNonpaymentDays,3
+eviction-laws:OH,noticeOtherCauses,true
+eviction-laws:OH,cureNonpayment,false
+eviction-laws:OH,cureCauses,"nuisance activities, statutory tenant obligations"
+eviction-laws:OH,justCause,false
+eviction-laws:OH,lateFeeRegulated,false
+eviction-laws:OH,summonsDays,7
+eviction-laws:OH,writWaitDays,0
+eviction-laws:OH,mediation,no mediation rule
+eviction-laws:OH,rightToCounsel,false
+eviction-laws:OH,courts,"Municipal court, County court, Court of common pleas"
+eviction-laws:OH,service,"Personal service and mail, Certified mail and regular mail"
+eviction-laws:OH,citation,Ohio Rev. Code § 1923.04. Notice - service
+eviction-laws:OH,effectiveDate,2020-01-20
+eviction-laws:OH,validThrough,2021-01-01
+eviction-laws:OK,stateName,Oklahoma
+eviction-laws:OK,value,5
+eviction-laws:OK,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:OK,noticeNonpayment,5 days' notice before filing
+eviction-laws:OK,noticeNonpaymentDays,5
+eviction-laws:OK,noticeOtherCauses,true
+eviction-laws:OK,cureNonpayment,true
+eviction-laws:OK,cureCauses,"nonpayment of rent, breach, material breach, statutory tenant obligations"
+eviction-laws:OK,justCause,false
+eviction-laws:OK,lateFeeRegulated,false
+eviction-laws:OK,filingFeeUsd,58
+eviction-laws:OK,summonsDays,3
+eviction-laws:OK,appealDays,2
+eviction-laws:OK,writWaitDays,2
+eviction-laws:OK,mediation,no mediation rule
+eviction-laws:OK,rightToCounsel,false
+eviction-laws:OK,courts,District court
+eviction-laws:OK,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:OK,citation,Okla. Stat. tit. 41 § 131. Delinquent rent; Okla. Stat. tit. 41 § 132. Tenant’s failure to comply with rental agreement or perform duties—Rights and duties of landlord
+eviction-laws:OK,effectiveDate,2019-11-01
+eviction-laws:OK,validThrough,2021-01-01
+eviction-laws:OR,stateName,Oregon
+eviction-laws:OR,value,10
+eviction-laws:OR,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:OR,noticeNonpayment,10 or 13 days' notice before filing (the law gives more than one period)
+eviction-laws:OR,noticeNonpaymentDays,10
+eviction-laws:OR,noticeOtherCauses,true
+eviction-laws:OR,cureNonpayment,true
+eviction-laws:OR,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:OR,justCause,true
+eviction-laws:OR,lateFeeRegulated,true
+eviction-laws:OR,lateFeeCap,5% of monthly rent amount
+eviction-laws:OR,filingFeeUsd,88
+eviction-laws:OR,summonsDays,7
+eviction-laws:OR,writWaitDays,4
+eviction-laws:OR,mediation,no mediation rule
+eviction-laws:OR,rightToCounsel,false
+eviction-laws:OR,courts,Circuit court
+eviction-laws:OR,service,"Posting and mail, Personal service and mail"
+eviction-laws:OR,citation,Or. Rev. Stat. § 90.155 Service or delivery of written notice.; Or. Rev. Stat. § 90.394 Termination of rental agreement for failure to pay rent.; Or. Rev. Stat. § 90.392 Termination of tenancy for cause; tenant right to cure violation.; Or. Rev. Stat. § 90.392 Termination of tenancy for cause; tenant right to cure violation.
+eviction-laws:OR,effectiveDate,2021-01-01
+eviction-laws:OR,validThrough,2021-01-01
+eviction-laws:PA,stateName,Pennsylvania
+eviction-laws:PA,value,10
+eviction-laws:PA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:PA,noticeNonpayment,10 days' notice before filing
+eviction-laws:PA,noticeNonpaymentDays,10
+eviction-laws:PA,noticeOtherCauses,true
+eviction-laws:PA,cureNonpayment,false
+eviction-laws:PA,justCause,false
+eviction-laws:PA,lateFeeRegulated,false
+eviction-laws:PA,summonsDays,7
+eviction-laws:PA,appealDays,10
+eviction-laws:PA,writWaitDays,11
+eviction-laws:PA,mediation,no mediation rule
+eviction-laws:PA,rightToCounsel,false
+eviction-laws:PA,courts,"District court, Magistrates court, Justice of the Peace court"
+eviction-laws:PA,service,"Personal service, Mail, Posting"
+eviction-laws:PA,citation,68 PA. Cons. Stat. § 250.501. Notice to quit
+eviction-laws:PA,effectiveDate,2021-01-01
+eviction-laws:PA,validThrough,2021-01-01
+eviction-laws:PR,stateName,Puerto Rico
+eviction-laws:PR,noticeNonpayment,the law sets no separate notice rule for nonpayment of rent
+eviction-laws:PR,noticeOtherCauses,false
+eviction-laws:PR,cureNonpayment,false
+eviction-laws:PR,justCause,false
+eviction-laws:PR,lateFeeRegulated,false
+eviction-laws:PR,appealDays,5
+eviction-laws:PR,writWaitDays,0
+eviction-laws:PR,mediation,no mediation rule
+eviction-laws:PR,rightToCounsel,false
+eviction-laws:PR,courts,"Municipal court, District court"
+eviction-laws:PR,service,Personal service
+eviction-laws:PR,citation,32 L. P. R. A. § 2823. Jurisdiction; appearance
+eviction-laws:PR,effectiveDate,2021-01-01
+eviction-laws:PR,validThrough,2021-01-01
+eviction-laws:RI,stateName,Rhode Island
+eviction-laws:RI,value,5
+eviction-laws:RI,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:RI,noticeNonpayment,5 days' notice before filing
+eviction-laws:RI,noticeNonpaymentDays,5
+eviction-laws:RI,noticeOtherCauses,true
+eviction-laws:RI,cureNonpayment,true
+eviction-laws:RI,cureCauses,"nonpayment of rent, material breach, nuisance activities, statutory tenant obligations"
+eviction-laws:RI,justCause,false
+eviction-laws:RI,lateFeeRegulated,false
+eviction-laws:RI,summonsDays,5
+eviction-laws:RI,appealDays,5
+eviction-laws:RI,mediation,no mediation rule
+eviction-laws:RI,rightToCounsel,false
+eviction-laws:RI,courts,"District court, Housing court"
+eviction-laws:RI,service,"Personal service, Personal service and mail, Personal service to suitable person other than defendant"
+eviction-laws:RI,citation,R.I. Gen. Laws § 34-18-35. Eviction for nonpayment of rent
+eviction-laws:RI,effectiveDate,2019-11-01
+eviction-laws:RI,validThrough,2021-01-01
+eviction-laws:SC,stateName,South Carolina
+eviction-laws:SC,value,5
+eviction-laws:SC,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:SC,noticeNonpayment,5 days' notice before filing
+eviction-laws:SC,noticeNonpaymentDays,5
+eviction-laws:SC,noticeOtherCauses,true
+eviction-laws:SC,cureNonpayment,true
+eviction-laws:SC,cureCauses,"nonpayment of rent, breach, nuisance activities, statutory tenant obligations, substantial damage to property"
+eviction-laws:SC,justCause,false
+eviction-laws:SC,lateFeeRegulated,false
+eviction-laws:SC,filingFeeUsd,30
+eviction-laws:SC,appealDays,30
+eviction-laws:SC,writWaitDays,1
+eviction-laws:SC,mediation,no mediation rule
+eviction-laws:SC,rightToCounsel,false
+eviction-laws:SC,courts,Magistrates court
+eviction-laws:SC,service,"Personal service, Certified mail, Delivery by commercial carrier, Personal service to suitable person other than defendant"
+eviction-laws:SC,citation,S.C. Code § 27-40-710. Noncompliance with rental agreement; failure to pay rent; removal of evicted tenant’s personal property; S.C. Code § 27-37-10. Grounds for ejectment of tenant
+eviction-laws:SC,effectiveDate,2021-01-01
+eviction-laws:SC,validThrough,2021-01-01
+eviction-laws:SD,stateName,South Dakota
+eviction-laws:SD,value,3
+eviction-laws:SD,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:SD,noticeNonpayment,3 days' notice before filing
+eviction-laws:SD,noticeNonpaymentDays,3
+eviction-laws:SD,noticeOtherCauses,true
+eviction-laws:SD,cureNonpayment,false
+eviction-laws:SD,justCause,false
+eviction-laws:SD,lateFeeRegulated,false
+eviction-laws:SD,summonsDays,4
+eviction-laws:SD,mediation,no mediation rule
+eviction-laws:SD,rightToCounsel,false
+eviction-laws:SD,courts,"Circuit court, Magistrates court"
+eviction-laws:SD,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:SD,citation,S.D. Codified Laws § 21-16-2. Notice to quit required before commencement of proceedings--Service and return.
+eviction-laws:SD,effectiveDate,2020-07-01
+eviction-laws:SD,validThrough,2021-01-01
+eviction-laws:TN,stateName,Tennessee
+eviction-laws:TN,value,14
+eviction-laws:TN,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:TN,noticeNonpayment,14 days' notice before filing
+eviction-laws:TN,noticeNonpaymentDays,14
+eviction-laws:TN,noticeOtherCauses,true
+eviction-laws:TN,cureNonpayment,true
+eviction-laws:TN,cureCauses,"nonpayment of rent, material breach, statutory tenant obligations, substantial damage to property"
+eviction-laws:TN,justCause,false
+eviction-laws:TN,lateFeeRegulated,true
+eviction-laws:TN,lateFeeCap,10% of rent due
+eviction-laws:TN,filingFeeUsd,227
+eviction-laws:TN,summonsDays,6
+eviction-laws:TN,appealDays,30
+eviction-laws:TN,writWaitDays,0
+eviction-laws:TN,mediation,no mediation rule
+eviction-laws:TN,rightToCounsel,false
+eviction-laws:TN,courts,"County court, Circuit court"
+eviction-laws:TN,service,"Personal service, Certified mail, Personal service to suitable person other than defendant"
+eviction-laws:TN,citation,Tenn. Code § 66-7-109. Notice of termination by landlord.; Tenn. Code § 66-28-505. Noncompliance by tenant —Failure to pay rent.
+eviction-laws:TN,effectiveDate,2020-07-01
+eviction-laws:TN,validThrough,2021-01-01
+eviction-laws:TX,stateName,Texas
+eviction-laws:TX,value,3
+eviction-laws:TX,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:TX,noticeNonpayment,3 days' notice before filing
+eviction-laws:TX,noticeNonpaymentDays,3
+eviction-laws:TX,noticeOtherCauses,true
+eviction-laws:TX,cureNonpayment,true
+eviction-laws:TX,cureCauses,nonpayment of rent
+eviction-laws:TX,justCause,false
+eviction-laws:TX,lateFeeRegulated,true
+eviction-laws:TX,lateFeeCap,10% of monthly rent amount
+eviction-laws:TX,filingFeeUsd,25
+eviction-laws:TX,summonsDays,5
+eviction-laws:TX,appealDays,10
+eviction-laws:TX,mediation,no mediation rule
+eviction-laws:TX,rightToCounsel,false
+eviction-laws:TX,courts,Justice of the Peace court
+eviction-laws:TX,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:TX,citation,Tex. Property Code § 24.005. Notice to Vacate Prior to Filing Eviction Suit.
+eviction-laws:TX,effectiveDate,2019-09-01
+eviction-laws:TX,validThrough,2021-01-01
+eviction-laws:VI,stateName,United States Virgin Islands
+eviction-laws:VI,value,30
+eviction-laws:VI,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:VI,noticeNonpayment,30 days' notice before filing
+eviction-laws:VI,noticeNonpaymentDays,30
+eviction-laws:VI,noticeOtherCauses,true
+eviction-laws:VI,cureNonpayment,false
+eviction-laws:VI,justCause,false
+eviction-laws:VI,lateFeeRegulated,false
+eviction-laws:VI,summonsDays,3
+eviction-laws:VI,appealDays,14
+eviction-laws:VI,writWaitDays,0
+eviction-laws:VI,mediation,no mediation rule
+eviction-laws:VI,rightToCounsel,false
+eviction-laws:VI,courts,"District court, Magistrates court, Superior court"
+eviction-laws:VI,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:VI,citation,28 Virgin Islands Code § 843. Notice to quit as condition precedent to recovery of possession.
+eviction-laws:VI,effectiveDate,2021-01-01
+eviction-laws:VI,validThrough,2021-01-01
+eviction-laws:UT,stateName,Utah
+eviction-laws:UT,value,3
+eviction-laws:UT,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:UT,noticeNonpayment,3 days' notice before filing
+eviction-laws:UT,noticeNonpaymentDays,3
+eviction-laws:UT,noticeOtherCauses,true
+eviction-laws:UT,cureNonpayment,true
+eviction-laws:UT,cureCauses,"nonpayment of rent, breach"
+eviction-laws:UT,justCause,false
+eviction-laws:UT,lateFeeRegulated,false
+eviction-laws:UT,summonsDays,3
+eviction-laws:UT,appealDays,10
+eviction-laws:UT,writWaitDays,0
+eviction-laws:UT,mediation,no mediation rule
+eviction-laws:UT,rightToCounsel,false
+eviction-laws:UT,service,"Personal service, Mail, Personal service to suitable person other than defendant"
+eviction-laws:UT,citation,Utah Code § 78B-6-802. Unlawful detainer by tenant for a term less than life
+eviction-laws:UT,effectiveDate,2021-01-01
+eviction-laws:UT,validThrough,2021-01-01
+eviction-laws:VT,stateName,Vermont
+eviction-laws:VT,value,14
+eviction-laws:VT,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:VT,noticeNonpayment,14 days' notice before filing
+eviction-laws:VT,noticeNonpaymentDays,14
+eviction-laws:VT,noticeOtherCauses,true
+eviction-laws:VT,cureNonpayment,true
+eviction-laws:VT,cureCauses,nonpayment of rent
+eviction-laws:VT,justCause,false
+eviction-laws:VT,lateFeeRegulated,false
+eviction-laws:VT,filingFeeUsd,295
+eviction-laws:VT,appealDays,30
+eviction-laws:VT,writWaitDays,14
+eviction-laws:VT,mediation,no mediation rule
+eviction-laws:VT,rightToCounsel,false
+eviction-laws:VT,courts,Superior court
+eviction-laws:VT,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:VT,citation,"Vt. Stat. tit. 9, §4467 Termination of tenancy; notice"
+eviction-laws:VT,effectiveDate,2020-10-12
+eviction-laws:VT,validThrough,2021-01-01
+eviction-laws:VA,stateName,Virginia
+eviction-laws:VA,value,14
+eviction-laws:VA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:VA,noticeNonpayment,14 days' notice before filing
+eviction-laws:VA,noticeNonpaymentDays,14
+eviction-laws:VA,noticeOtherCauses,true
+eviction-laws:VA,cureNonpayment,true
+eviction-laws:VA,cureCauses,"nonpayment of rent, material breach"
+eviction-laws:VA,justCause,false
+eviction-laws:VA,lateFeeRegulated,true
+eviction-laws:VA,lateFeeCap,10% of rent due or 10% of monthly rent amount
+eviction-laws:VA,summonsDays,10
+eviction-laws:VA,appealDays,10
+eviction-laws:VA,writWaitDays,10
+eviction-laws:VA,mediation,no mediation rule
+eviction-laws:VA,rightToCounsel,false
+eviction-laws:VA,courts,"District court, Magistrates court"
+eviction-laws:VA,service,"Personal service, Personal service to suitable person other than defendant"
+eviction-laws:VA,citation,Va. Code § 55.1-1245. Noncompliance with rental agreement; monetary penalty.
+eviction-laws:VA,effectiveDate,2020-11-09
+eviction-laws:VA,validThrough,2021-01-01
+eviction-laws:WA,stateName,Washington
+eviction-laws:WA,value,14
+eviction-laws:WA,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:WA,noticeNonpayment,14 days' notice before filing
+eviction-laws:WA,noticeNonpaymentDays,14
+eviction-laws:WA,noticeOtherCauses,true
+eviction-laws:WA,cureNonpayment,true
+eviction-laws:WA,cureCauses,"nonpayment of rent, breach, statutory tenant obligations"
+eviction-laws:WA,justCause,false
+eviction-laws:WA,lateFeeRegulated,false
+eviction-laws:WA,filingFeeUsd,45
+eviction-laws:WA,summonsDays,7
+eviction-laws:WA,writWaitDays,3
+eviction-laws:WA,mediation,mediation is optional
+eviction-laws:WA,rightToCounsel,false
+eviction-laws:WA,courts,Superior court
+eviction-laws:WA,service,Personal service
+eviction-laws:WA,citation,Wash. Rev. Code § 59.12.030. Unlawful detainer defined; Wash. Rev. Code § 59.12.030. Unlawful detainer defined
+eviction-laws:WA,effectiveDate,2020-12-31
+eviction-laws:WA,validThrough,2021-01-01
+eviction-laws:WV,stateName,West Virginia
+eviction-laws:WV,noticeNonpayment,the law requires no notice before filing for nonpayment
+eviction-laws:WV,noticeOtherCauses,true
+eviction-laws:WV,cureNonpayment,false
+eviction-laws:WV,justCause,false
+eviction-laws:WV,lateFeeRegulated,false
+eviction-laws:WV,filingFeeUsd,30
+eviction-laws:WV,summonsDays,10
+eviction-laws:WV,appealDays,20
+eviction-laws:WV,mediation,no mediation rule
+eviction-laws:WV,rightToCounsel,false
+eviction-laws:WV,courts,"Circuit court, Magistrates court"
+eviction-laws:WV,service,"Personal service, Mail, Certified mail, Personal service to suitable person other than defendant"
+eviction-laws:WV,citation,W. Va. Code § 37-6-19. Right of reentry; ejectment; unlawful detainer; judgment by default
+eviction-laws:WV,effectiveDate,2018-05-17
+eviction-laws:WV,validThrough,2021-01-01
+eviction-laws:WI,stateName,Wisconsin
+eviction-laws:WI,value,5
+eviction-laws:WI,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:WI,noticeNonpayment,5 or 14 or 30 days' notice before filing (the law gives more than one period)
+eviction-laws:WI,noticeNonpaymentDays,5
+eviction-laws:WI,noticeOtherCauses,true
+eviction-laws:WI,cureNonpayment,true
+eviction-laws:WI,cureCauses,"nonpayment of rent, breach, statutory tenant obligations, waste"
+eviction-laws:WI,justCause,false
+eviction-laws:WI,lateFeeRegulated,true
+eviction-laws:WI,lateFeeCap,"regulated, no single cap stated"
+eviction-laws:WI,filingFeeUsd,22
+eviction-laws:WI,summonsDays,5
+eviction-laws:WI,appealDays,15
+eviction-laws:WI,writWaitDays,0
+eviction-laws:WI,mediation,no mediation rule
+eviction-laws:WI,rightToCounsel,false
+eviction-laws:WI,courts,Circuit court
+eviction-laws:WI,service,"Personal service, Certified mail"
+eviction-laws:WI,citation,Wis. Stat. § 704.17. Notice terminating tenancies for failure to pay rent or other breach by tenant; Wis. Stat. § 704.17. Notice terminating tenancies for failure to pay rent or other breach by tenant; Wis. Stat. § 704.17. Notice terminating tenancies for failure to pay rent or other breach by tenant
+eviction-laws:WI,effectiveDate,2020-03-05
+eviction-laws:WI,validThrough,2021-01-01
+eviction-laws:WY,stateName,Wyoming
+eviction-laws:WY,value,3
+eviction-laws:WY,unit,days of notice before an eviction filing for nonpayment (shortest period)
+eviction-laws:WY,noticeNonpayment,3 days' notice before filing
+eviction-laws:WY,noticeNonpaymentDays,3
+eviction-laws:WY,noticeOtherCauses,true
+eviction-laws:WY,cureNonpayment,false
+eviction-laws:WY,justCause,false
+eviction-laws:WY,lateFeeRegulated,false
+eviction-laws:WY,summonsDays,3
+eviction-laws:WY,writWaitDays,0
+eviction-laws:WY,mediation,no mediation rule
+eviction-laws:WY,rightToCounsel,false
+eviction-laws:WY,courts,Circuit court
+eviction-laws:WY,citation,Wyo. Stat. § 1-21-1003. Notice to quit premises required
+eviction-laws:WY,effectiveDate,2015-07-01
+eviction-laws:WY,validThrough,2021-01-01

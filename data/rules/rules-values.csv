@@ -1,0 +1,12 @@
+state,topic,column,value
+CA,privacy,detail,"The revenue threshold is adjusted every two years; $26,625,000 is the January 1, 2025 amount per the Agency."
+CT,filing,detail,"Some ads are exempt from filing (2-28A(b)), such as directory ads and communications only to current or former clients."
+CT,privacy,detail,"The 2026 supplement of chapter 743jj shows the 35,000 threshold."
+FL,filing,detail,"Rule 4-7.20 was amended effective Oct. 22, 2026 (SC2025-1178); the exemption list quoted is the amended text."
+MD,privacy,detail,"Payment-transaction-only data is excluded from the 35,000 count. The Act also regulates 'consumer health data' inside the same law."
+NE,privacy,detail,The Act exempts HIPAA protected health information and health records.
+NH,requiredContent,detail,The 7.3(c) Advertising label for targeted solicitations is an additional requirement.
+OR,privacy,detail,"Payment-transaction-only data is excluded from the 100,000 count. The Act exempts HIPAA protected health information (646A.572(2)(b))."
+TX,waitingPeriod,detail,"Penal Code 38.12 was last amended by Acts 2025, ch. 419 (HB 2733), effective September 1, 2025."
+WA,referral,detail,WSBA AO 201401 cites former RPC 7.2(b); that payment rule now sits in RPC 7.3(b) because 7.2 is reserved.
+WI,claims,detail,Comment [3] to 7.1 also says an ad reporting achievements may mislead if it suggests the same results for other clients.

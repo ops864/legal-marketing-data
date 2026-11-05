@@ -1,12 +1,12 @@
 WARN Act layoff and closure notices by county: California and Texas
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23753097
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964377
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, WARN Act layoff and closure notices by county: California and Texas, version 1.0.0, https://doi.org/10.5281/zenodo.23753097, licensed CC BY 4.0.
+Source: Probative, WARN Act layoff and closure notices by county: California and Texas, version 2.0.0, https://doi.org/10.5281/zenodo.23964377, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). WARN Act layoff and closure notices by county: California and Texas (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23753097
+Probative. (2026). WARN Act layoff and closure notices by county: California and Texas (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964377
 
 Not legal advice. These are counts of notices employers filed with state agencies, kept for research and marketing planning. A notice is a plan, not a layoff that has happened, and says nothing about whether any worker has a legal claim; rights and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -17,8 +17,6 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state code (CA or TX)
   level: county, county-not-given (blank or out-of-state sites) or state
-  county: 5-digit county FIPS code; empty for other levels
-  countyName: 
   stateName: 
   period: 
   year: 
@@ -38,8 +36,10 @@ Columns:
   effectiveFrom: When the fact took effect (YYYY-MM-DD), if known
   effectiveTo: When it stopped applying; empty while current
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  county: 5-digit county FIPS code; empty for other levels (in warn-layoffs-values.csv, as id, column and value rows)
+  countyName:  (in warn-layoffs-values.csv, as id, column and value rows)
+  note: Caveats (in warn-layoffs-values.csv, as id, column and value rows)

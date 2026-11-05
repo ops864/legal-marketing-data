@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts), 2026, https://doi.org/10.5281/zenodo.23739952."
+message: "If you use this dataset, please cite it as: Probative Growth, Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts), 2026, https://doi.org/10.5281/zenodo.23962892."
 title: "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23739952"
+version: "2.0.0"
+doi: "10.5281/zenodo.23962892"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23739951"

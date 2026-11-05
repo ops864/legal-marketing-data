@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii, 2026, https://doi.org/10.5281/zenodo.23881230."
+message: "If you use this dataset, please cite it as: Probative Growth, State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii, 2026, https://doi.org/10.5281/zenodo.23964136."
 title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.8.0"
-doi: "10.5281/zenodo.23881230"
+version: "2.0.0"
+doi: "10.5281/zenodo.23964136"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23777047"

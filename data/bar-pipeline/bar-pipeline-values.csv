@@ -1,0 +1,162 @@
+id,column,value
+ak-bar-pipeline,admitted_change_2021_2025_pct,-6.2
+ak-bar-pipeline,transfer_share_pct,29.2
+ak-bar-pipeline,motion_share_pct,31.8
+al-bar-pipeline,admitted_change_2021_2025_pct,0.4
+al-bar-pipeline,transfer_share_pct,21.5
+al-bar-pipeline,motion_share_pct,17.1
+ar-bar-pipeline,admitted_change_2021_2025_pct,11.7
+ar-bar-pipeline,transfer_share_pct,15.4
+ar-bar-pipeline,motion_share_pct,19.6
+az-bar-pipeline,admitted_change_2021_2025_pct,5.1
+az-bar-pipeline,transfer_share_pct,17.1
+az-bar-pipeline,motion_share_pct,33.7
+ca-bar-pipeline,admitted_change_2021_2025_pct,-32.9
+ca-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+co-bar-pipeline,admitted_change_2021_2025_pct,3.4
+co-bar-pipeline,transfer_share_pct,19.2
+co-bar-pipeline,motion_share_pct,32.6
+ct-bar-pipeline,admitted_change_2021_2025_pct,9.9
+ct-bar-pipeline,transfer_share_pct,33.2
+ct-bar-pipeline,motion_share_pct,24.8
+dc-bar-pipeline,admitted_change_2021_2025_pct,-13.2
+dc-bar-pipeline,transfer_share_pct,15.9
+dc-bar-pipeline,motion_share_pct,26.2
+de-bar-pipeline,admitted_change_2021_2025_pct,-23.7
+de-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+fl-bar-pipeline,admitted_change_2021_2025_pct,5.5
+fl-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+ga-bar-pipeline,admitted_change_2021_2025_pct,9.7
+ga-bar-pipeline,motion_share_pct,24.6
+ga-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+gu-bar-pipeline,admitted_change_2021_2025_pct,40
+gu-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+hi-bar-pipeline,admitted_change_2021_2025_pct,-2.1
+hi-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+ia-bar-pipeline,admitted_change_2021_2025_pct,-4.6
+ia-bar-pipeline,transfer_share_pct,26
+ia-bar-pipeline,motion_share_pct,26.3
+id-bar-pipeline,admitted_change_2021_2025_pct,-12.1
+id-bar-pipeline,transfer_share_pct,17.3
+id-bar-pipeline,motion_share_pct,38.3
+il-bar-pipeline,admitted_change_2021_2025_pct,-13.5
+il-bar-pipeline,transfer_share_pct,15.7
+il-bar-pipeline,motion_share_pct,6.8
+in-bar-pipeline,admitted_change_2021_2025_pct,-8.1
+in-bar-pipeline,transfer_share_pct,27.4
+in-bar-pipeline,motion_share_pct,21.6
+ks-bar-pipeline,admitted_change_2021_2025_pct,9.1
+ks-bar-pipeline,transfer_share_pct,32.3
+ks-bar-pipeline,motion_share_pct,26.9
+ky-bar-pipeline,admitted_change_2021_2025_pct,17.6
+ky-bar-pipeline,transfer_share_pct,27.1
+ky-bar-pipeline,motion_share_pct,20.4
+la-bar-pipeline,admitted_change_2021_2025_pct,-10.9
+la-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+ma-bar-pipeline,admitted_change_2021_2025_pct,18.9
+ma-bar-pipeline,transfer_share_pct,15
+ma-bar-pipeline,motion_share_pct,10.8
+md-bar-pipeline,admitted_change_2021_2025_pct,-6
+md-bar-pipeline,transfer_share_pct,17.3
+md-bar-pipeline,motion_share_pct,31.3
+me-bar-pipeline,admitted_change_2021_2025_pct,59.8
+me-bar-pipeline,transfer_share_pct,23
+me-bar-pipeline,motion_share_pct,32.7
+mi-bar-pipeline,admitted_change_2021_2025_pct,91.4
+mi-bar-pipeline,transfer_share_pct,15
+mi-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+mn-bar-pipeline,admitted_change_2021_2025_pct,28.7
+mn-bar-pipeline,transfer_share_pct,26.8
+mn-bar-pipeline,motion_share_pct,18.5
+mo-bar-pipeline,admitted_change_2021_2025_pct,30.5
+mo-bar-pipeline,transfer_share_pct,35.3
+mo-bar-pipeline,motion_share_pct,13
+mp-bar-pipeline,admitted_change_2021_2025_pct,50
+mp-bar-pipeline,motion_share_pct,57.1
+mp-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+ms-bar-pipeline,admitted_change_2021_2025_pct,-2.3
+ms-bar-pipeline,motion_share_pct,24
+ms-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+mt-bar-pipeline,admitted_change_2021_2025_pct,-24.2
+mt-bar-pipeline,transfer_share_pct,27.5
+mt-bar-pipeline,motion_share_pct,31.3
+nc-bar-pipeline,admitted_change_2021_2025_pct,-0.7
+nc-bar-pipeline,transfer_share_pct,17.4
+nc-bar-pipeline,motion_share_pct,17
+nd-bar-pipeline,admitted_change_2021_2025_pct,12
+nd-bar-pipeline,transfer_share_pct,29.9
+nd-bar-pipeline,motion_share_pct,28.2
+ne-bar-pipeline,admitted_change_2021_2025_pct,17.9
+ne-bar-pipeline,transfer_share_pct,15.4
+ne-bar-pipeline,motion_share_pct,26
+nh-bar-pipeline,admitted_change_2021_2025_pct,26.8
+nh-bar-pipeline,transfer_share_pct,35.4
+nh-bar-pipeline,motion_share_pct,38.1
+nh-bar-pipeline,note,NCBE's chart leaves out admissions through the University of New Hampshire's Daniel Webster Scholar Honors Program.
+nj-bar-pipeline,admitted_change_2021_2025_pct,-20.9
+nj-bar-pipeline,transfer_share_pct,44.7
+nj-bar-pipeline,motion_share_pct,15.3
+nm-bar-pipeline,admitted_change_2021_2025_pct,39.4
+nm-bar-pipeline,transfer_share_pct,37.7
+nm-bar-pipeline,motion_share_pct,28
+nv-bar-pipeline,admitted_change_2021_2025_pct,-24.7
+nv-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+ny-bar-pipeline,admitted_change_2021_2025_pct,-7.8
+ny-bar-pipeline,transfer_share_pct,12.2
+ny-bar-pipeline,motion_share_pct,7.7
+oh-bar-pipeline,admitted_change_2021_2025_pct,16.8
+oh-bar-pipeline,transfer_share_pct,13.8
+oh-bar-pipeline,motion_share_pct,14.2
+ok-bar-pipeline,admitted_change_2021_2025_pct,13.6
+ok-bar-pipeline,transfer_share_pct,15.6
+ok-bar-pipeline,motion_share_pct,8.6
+or-bar-pipeline,admitted_change_2021_2025_pct,0
+or-bar-pipeline,transfer_share_pct,12.3
+or-bar-pipeline,motion_share_pct,40.8
+or-bar-pipeline,note,NCBE's chart includes two 2025 admissions through Oregon's Provisional Licensing Program and leaves out those admitted through its Supervised Practice Portfolio Examination.
+pa-bar-pipeline,admitted_change_2021_2025_pct,8.5
+pa-bar-pipeline,transfer_share_pct,19
+pa-bar-pipeline,motion_share_pct,17.1
+pr-bar-pipeline,admitted_change_2021_2025_pct,-11.8
+pr-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+pw-bar-pipeline,motion_share_pct,100
+pw-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+ri-bar-pipeline,admitted_change_2021_2025_pct,2.8
+ri-bar-pipeline,transfer_share_pct,52.4
+ri-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+sc-bar-pipeline,admitted_change_2021_2025_pct,31.8
+sc-bar-pipeline,transfer_share_pct,35.7
+sc-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+sd-bar-pipeline,admitted_change_2021_2025_pct,-4.3
+sd-bar-pipeline,motion_share_pct,48.4
+sd-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+tn-bar-pipeline,admitted_change_2021_2025_pct,40.2
+tn-bar-pipeline,transfer_share_pct,13.6
+tn-bar-pipeline,motion_share_pct,20.3
+tx-bar-pipeline,admitted_change_2021_2025_pct,5
+tx-bar-pipeline,transfer_share_pct,13.5
+tx-bar-pipeline,motion_share_pct,19.2
+ut-bar-pipeline,admitted_change_2021_2025_pct,69.7
+ut-bar-pipeline,transfer_share_pct,23.5
+ut-bar-pipeline,motion_share_pct,23.8
+va-bar-pipeline,admitted_change_2021_2025_pct,4.8
+va-bar-pipeline,motion_share_pct,37
+va-bar-pipeline,note,"NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+vi-bar-pipeline,admitted_change_2021_2025_pct,-58.3
+vi-bar-pipeline,transfer_share_pct,35.3
+vi-bar-pipeline,motion_share_pct,41.2
+vt-bar-pipeline,admitted_change_2021_2025_pct,-35.7
+vt-bar-pipeline,transfer_share_pct,22.5
+vt-bar-pipeline,motion_share_pct,46.4
+wa-bar-pipeline,admitted_change_2021_2025_pct,25.9
+wa-bar-pipeline,transfer_share_pct,16.9
+wa-bar-pipeline,motion_share_pct,37
+wi-bar-pipeline,admitted_change_2021_2025_pct,-5.2
+wi-bar-pipeline,motion_share_pct,64.9
+wi-bar-pipeline,note,"NCBE's chart leaves out admissions by diploma privilege, which Wisconsin's in-state law-school graduates may use instead of the bar exam. NCBE shows a dash, not a figure, for one or more admission pathways, so the admitted total counts only the pathways it shows."
+wv-bar-pipeline,admitted_change_2021_2025_pct,24
+wv-bar-pipeline,transfer_share_pct,23.4
+wv-bar-pipeline,motion_share_pct,22
+wy-bar-pipeline,admitted_change_2021_2025_pct,-18
+wy-bar-pipeline,transfer_share_pct,31.3
+wy-bar-pipeline,motion_share_pct,45.2

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center), 2026, https://doi.org/10.5281/zenodo.23750628."
+message: "If you use this dataset, please cite it as: Probative Growth, Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center), 2026, https://doi.org/10.5281/zenodo.23963548."
 title: "Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23750628"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963548"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23750627"

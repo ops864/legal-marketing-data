@@ -1,12 +1,12 @@
 Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23753016
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964086
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54), version 1.0.0, https://doi.org/10.5281/zenodo.23753016, licensed CC BY 4.0.
+Source: Probative, Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54), version 2.0.0, https://doi.org/10.5281/zenodo.23964086, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23753016
+Probative. (2026). Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964086
 
 Not legal advice. These are counts of events railroads reported to the Federal Railroad Administration, kept for research and market sizing. A report is not a finding of fault, and it says nothing about whether anyone has a claim; a railroad employee's injury claim has its own federal rules and deadlines. Questions about an injury are for a licensed attorney.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -16,10 +16,6 @@ Human page: https://probativegrowth.com/data/rail-casualties/
 Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter code of the state, DC or territory, or US
-  county: 5-digit county FIPS code (vintage 2025; Connecticut's retired counties keep their old codes); empty for other levels
-  countyName: County name as the Census Bureau writes it
-  stateName: State name
-  unplaced: State records: reports FRA gives no usable county for (included in the state totals)
   level: county, state (states and DC) or us
   yearsFrom: First incident year kept
   yearsTo: Last incident year kept
@@ -57,3 +53,7 @@ Columns:
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  county: 5-digit county FIPS code (vintage 2025; Connecticut's retired counties keep their old codes); empty for other levels (in rail-casualties-values.csv, as id, column and value rows)
+  countyName: County name as the Census Bureau writes it (in rail-casualties-values.csv, as id, column and value rows)
+  stateName: State name (in rail-casualties-values.csv, as id, column and value rows)
+  unplaced: State records: reports FRA gives no usable county for (included in the state totals) (in rail-casualties-values.csv, as id, column and value rows)

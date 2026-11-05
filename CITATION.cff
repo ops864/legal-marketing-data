@@ -16,8 +16,8 @@ keywords:
 license: CC-BY-4.0
 url: "https://probativegrowth.com/data/"
 repository-code: "https://github.com/ops864/legal-marketing-data"
-date-released: "2026-11-04"
-version: "2026-11-04"
+date-released: "2026-11-05"
+version: "2026-11-05"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23645750"
@@ -309,38 +309,38 @@ references:
     title: "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23777037"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23962861"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/attorneys/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792734"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23962878"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/aviation-accidents/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23739952"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23962892"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/bankruptcy-filings-by-county/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23721443"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23962982"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/bar-pipeline/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Probative benchmarks, 2025–2026"
     authors:
@@ -354,11 +354,11 @@ references:
     title: "Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792748"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23962985"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/boating-accidents/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "New business applications by county (Census Business Formation Statistics)"
     authors:
@@ -372,11 +372,11 @@ references:
     title: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23658524"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963026"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/ca-courts/"
-    date-released: "2026-10-26"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota)"
     authors:
@@ -399,38 +399,38 @@ references:
     title: "Federal civil filings by nature of suit and district, 12-month periods since 2018"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23720009"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963129"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/federal-civil-filings-by-type/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "CFPB complaints about debt collection, credit reporting and debt management, by state and month"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23733731"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963181"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/consumer-finance-complaints-by-state/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23741876"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963186"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/consumer-sentinel/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "County income and migration from IRS tax returns"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23752984"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963195"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/county-income/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court"
     authors:
@@ -444,26 +444,26 @@ references:
     title: "Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23772522"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963245"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/crime-data/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23744206"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963315"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/criminal-filings/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties"
     authors:
       - name: "Probative Growth"
-    version: "1.2.0"
-    doi: "10.5281/zenodo.23934160"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963360"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/crosswalks/"
     date-released: "2026-11-04"
@@ -480,20 +480,20 @@ references:
     title: "Legal deserts: law offices and lawyers per resident in every U.S. county"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23721430"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963393"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/legal-deserts/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23752988"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963431"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/device-events/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Social Security disability hearing waits and workloads by hearing office"
     authors:
@@ -507,11 +507,11 @@ references:
     title: "Serious drug adverse event reports by active ingredient (openFDA FAERS)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23752994"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963449"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/drug-events/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025"
     authors:
@@ -525,65 +525,65 @@ references:
     title: "Eviction laws by state and territory: notice, cure, just cause, fees and timing (LSC)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792754"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963453"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/eviction-laws/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Eviction filings by county and year (LSC Civil Court Data Initiative)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23752996"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963459"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/evictions/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Fair housing complaints by county and basis: Fair Housing Act cases filed with HUD, 2006 to June 2020"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792758"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963466"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/fair-housing/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23733739"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963480"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/fatal-crashes-by-county/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23750628"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963548"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/federal-filings-county/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Attorney fee caps and contingency-fee rules, by state and federal program"
     authors:
       - name: "Probative Growth"
-    version: "2.0.0"
-    doi: "10.5281/zenodo.23898103"
+    version: "3.0.0"
+    doi: "10.5281/zenodo.23963650"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/attorney-fee-caps-by-state/"
-    date-released: "2026-11-02"
+    date-released: "2026-11-04"
   - type: dataset
     title: "What US state bars charge, and require, to file or review lawyer advertising"
     authors:
       - name: "Probative Growth"
-    version: "2.0.0"
-    doi: "10.5281/zenodo.23898106"
+    version: "3.0.0"
+    doi: "10.5281/zenodo.23963654"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/lawyer-ad-filing-fees/"
-    date-released: "2026-11-02"
+    date-released: "2026-11-04"
   - type: dataset
     title: "The US legal market in numbers: headline findings from Probative's open datasets"
     authors:
@@ -615,20 +615,20 @@ references:
     title: "New green cards (lawful permanent residents) by county, country of birth and class of admission"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753002"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963657"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/green-cards/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792821"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963670"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/hospital-safety/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year"
     authors:
@@ -642,20 +642,20 @@ references:
     title: "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23739986"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963673"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/immigration-courts/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792826"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963674"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/irs-databook/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro"
     authors:
@@ -678,20 +678,20 @@ references:
     title: "US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23851285"
+    version: "1.0.1"
+    doi: "10.5281/zenodo.23963678"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/law-firm-websites/"
-    date-released: "2026-11-01"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23721415"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963687"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/law-firm-competition-by-county/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)"
     authors:
@@ -705,20 +705,20 @@ references:
     title: "Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23782867"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963739"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/legal-aid-orgs/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23873129"
+    version: "1.0.1"
+    doi: "10.5281/zenodo.23957260"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/legal-hiring-demand/"
-    date-released: "2026-11-02"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Legal need by county: who may need a lawyer, from the American Community Survey"
     authors:
@@ -732,11 +732,11 @@ references:
     title: "Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23734854"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963786"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/legal-prices/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source"
     authors:
@@ -750,8 +750,8 @@ references:
     title: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage"
     authors:
       - name: "Probative Growth"
-    version: "1.2.0"
-    doi: "10.5281/zenodo.23934163"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963806"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/statute-of-limitations-by-state/"
     date-released: "2026-11-04"
@@ -768,20 +768,20 @@ references:
     title: "Mass-tort docket tracker, federal MDL pending actions by month since 2019"
     authors:
       - name: "Probative Growth"
-    version: "1.1.0"
-    doi: "10.5281/zenodo.23720737"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963811"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/mass-tort-mdl-tracker/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792833"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963820"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/mine-accidents/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008"
     authors:
@@ -795,56 +795,56 @@ references:
     title: "Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23782874"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963883"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/mortgage-lending/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Noncitizen population by state and county (Census ACS, table B05001)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23850653"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23963957"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/noncitizen-population/"
-    date-released: "2026-11-01"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23741901"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964018"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/nursing-homes/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753008"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964055"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/ny-attorneys/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "New York workers' compensation claims by county and accident year"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753012"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964068"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/ny-workers-comp/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Legal-marketing ethics opinions, 2004–2026"
     authors:
       - name: "Probative Growth"
-    version: "1.1.0"
-    doi: "10.5281/zenodo.23734859"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964080"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/opinions/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "OSHA inspections and penalties by state and industry (DOL enforcement data)"
     authors:
@@ -885,26 +885,26 @@ references:
     title: "Consumer product recalls by year and hazard (CPSC recall notices)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23779145"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964084"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/product-recalls/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753016"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964086"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/rail-casualties/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Referral-fee and fee-splitting rules for lawyers, by state"
     authors:
       - name: "Probative Growth"
-    version: "1.2.0"
-    doi: "10.5281/zenodo.23934167"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964121"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/"
     date-released: "2026-11-04"
@@ -912,11 +912,11 @@ references:
     title: "Unwanted-call and text-message complaints to the FCC, by state and month"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23733010"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964125"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/robocall-complaints/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete)"
     authors:
@@ -930,29 +930,29 @@ references:
     title: "Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23851322"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.23964129"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/serp-landscape/"
-    date-released: "2026-11-01"
+    date-released: "2026-11-04"
   - type: dataset
     title: "State civil-rights agency complaints and charges: figures printed in state annual reports"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753029"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964131"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-civil-rights/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii"
     authors:
       - name: "Probative Growth"
-    version: "1.8.0"
-    doi: "10.5281/zenodo.23881230"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964136"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/state-courts/"
-    date-released: "2026-11-02"
+    date-released: "2026-11-04"
   - type: dataset
     title: "State labor agency wage claims: figures printed in state reports"
     authors:
@@ -966,38 +966,38 @@ references:
     title: "Toxic chemical releases by county (EPA Toxics Release Inventory)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753052"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964168"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/toxic-releases/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Truck and bus crashes by county, state and year (FMCSA crash file)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23743677"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964187"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/truck-crashes/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Texas employers without workers' compensation coverage (non-subscribers), by county"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23792847"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964216"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/tx-nonsubscribers/"
-    date-released: "2026-10-30"
+    date-released: "2026-11-04"
   - type: dataset
     title: "County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753061"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964225"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/unemployment/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Union membership and representation by state (BLS Union Members), 2024 and 2025"
     authors:
@@ -1011,11 +1011,11 @@ references:
     title: "USCIS naturalization and green card applications by field office"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753086"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964258"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/uscis-offices/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "VA disability compensation recipients by county and combined rating"
     authors:
@@ -1029,29 +1029,29 @@ references:
     title: "VA disability compensation, pension and survivor dollars by county (VA GDX report)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753088"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964263"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/va-spending/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Vehicle safety complaints by state, make and model year (NHTSA complaint file)"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23744214"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964283"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/vehicle-complaints/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-05"
   - type: dataset
     title: "VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23740008"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964365"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/veterans-representation/"
-    date-released: "2026-10-28"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)"
     authors:
@@ -1065,11 +1065,11 @@ references:
     title: "WARN Act layoff and closure notices by county: California and Texas"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23753097"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23964377"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/warn-layoffs/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-04"
   - type: dataset
     title: "Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state"
     authors:

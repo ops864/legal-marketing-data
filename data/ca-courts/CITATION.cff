@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25, 2026, https://doi.org/10.5281/zenodo.23658524."
+message: "If you use this dataset, please cite it as: Probative Growth, California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25, 2026, https://doi.org/10.5281/zenodo.23963026."
 title: "California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23658524"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963026"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23658523"

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026, 2026, https://doi.org/10.5281/zenodo.23792734."
+message: "If you use this dataset, please cite it as: Probative Growth, Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026, 2026, https://doi.org/10.5281/zenodo.23962878."
 title: "Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23792734"
+version: "2.0.0"
+doi: "10.5281/zenodo.23962878"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23792733"

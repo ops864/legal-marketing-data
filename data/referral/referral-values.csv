@@ -1,0 +1,215 @@
+id,column,value
+referral-ak,shareDisclosed,true
+referral-ak,feeConditions,The rule speaks of 'firms' rather than 'lawyers'; the total fee must be reasonable.
+referral-ak,reciprocalReferrals,true
+referral-ak,nominalGifts,false
+referral-ak,payDifferences,"Alaska has no nominal-gift exception; otherwise the list (ad costs, referral services, practice purchase, non-exclusive reciprocal referrals with client notice) matches ABA 7.2(b)."
+referral-al,shareDisclosed,false
+referral-al,feeConditions,Alabama's third option lets a referring lawyer share in a contingency fee without proportional work or joint responsibility. The total fee must not be 'clearly excessive' (not the ABA 'reasonable' wording). The joint-responsibility option needs a written agreement with the client.
+referral-al,reciprocalReferrals,true
+referral-al,nominalGifts,true
+referral-al,payDifferences,"Alabama's list has no legal-service-plan or practice-purchase (Rule 1.17) item, limits referral services to not-for-profit ones, adds a sponsorship/charitable-contribution item, and bars paying another firm's ad costs unless the two firms jointly represent clients in that matter."
+referral-az,feeConditions,"The total fee must be reasonable, and the division of responsibility among the firms must be reasonable given the client's need for the whole matter to be handled completely and diligently."
+referral-az,reciprocalReferrals,false
+referral-az,nominalGifts,false
+referral-az,payDifferences,"Unlike ABA 7.2(b), Arizona has no ban on giving something of value for a recommendation: the Court's order deletes the old ER 7.2 text and marks the rule reserved, so the ABA exceptions have nothing to except."
+referral-ca,shareDisclosed,true
+referral-ca,feeConditions,"The lawyers need their own written agreement to divide the fee, and the total fee must not be increased solely because of the division. The rule does not apply to a division under a court order (1.5.1(b)). Rule 5.4(a)(4) separately lets a lawyer pay a referral fee to a lawyer referral service operated under the State Bar's Minimum Standards."
+referral-ca,reciprocalReferrals,true
+referral-ca,nominalGifts,true
+referral-ca,payDifferences,"California bars compensating, promising or giving anything of value to secure a recommendation, and its gift exception covers any gift or gratuity after a recommendation led to hiring (no 'nominal' limit) as long as it was not promised or understood in advance."
+referral-ct,feeConditions,Total fee must be reasonable.
+referral-ct,reciprocalReferrals,true
+referral-ct,nominalGifts,true
+referral-ct,payDifferences,Connecticut puts the ban in 7.2(c) and caps nominal thank-you gifts at no more than two per year to any recipient; it has no legal-service-plan item.
+referral-ct,detail,Connecticut numbers its payment ban 7.2(c).
+referral-dc,shareDisclosed,false
+referral-dc,feeConditions,Total fee must be reasonable. Comment [14] says the client need not be told each lawyer's share.
+referral-dc,reciprocalReferrals,true
+referral-dc,nominalGifts,false
+referral-dc,payDifferences,"D.C. has no Rule 7.2; the ban is in 7.1(c), covers only money or 'anything of material value' given in exchange for a recommendation, has no 'not-for-profit or qualified' limit on referral services, and has no nominal-gift exception."
+referral-de,shareDisclosed,false
+referral-de,feeConditions,"Total fee must be reasonable. Rule 7.2(b) opens with 'Except as permitted by Rule 1.5(e)', so fee splits under 1.5(e) are not treated as payment for a recommendation."
+referral-de,reciprocalReferrals,false
+referral-de,nominalGifts,false
+referral-de,payDifferences,"Delaware has no reciprocal-referral or nominal-gift exception, and it opens with 'Except as permitted by Rule 1.5(e)'."
+referral-fl,cap,In contingent-fee cases the lawyer with primary responsibility must get at least 75% and the lawyer with secondary responsibility at most 25% of the total fee; more than 25% is presumed clearly excessive unless a court authorizes it where two or more lawyers take substantially equal active participation.
+referral-fl,feeConditions,"Rule 4-1.5(f)(5) requires a closing statement in contingent-fee cases showing the fee each participating lawyer received, signed by all participating lawyers and the client."
+referral-fl,reciprocalReferrals,false
+referral-fl,nominalGifts,false
+referral-fl,payDifferences,"Florida has no reciprocal-referral or nominal-gift exception; its list covers advertising costs, usual charges of referral services, directories, qualifying providers and legal service organizations, and buying a practice."
+referral-ga,shareDisclosed,true
+referral-ga,feeConditions,Rule 1.5 also requires a written closing statement in a contingent-fee matter showing the amount each lawyer received and how the division was determined.
+referral-ga,reciprocalReferrals,true
+referral-ga,nominalGifts,true
+referral-ga,payDifferences,"Georgia adds conditions on referral services (bar-operated nonprofit services, insurance, no added cost to the client) and lets lawyers pay legal services plans or insurers; the rest tracks ABA 7.2(b)."
+referral-hi,shareDisclosed,false
+referral-hi,reciprocalReferrals,false
+referral-hi,nominalGifts,false
+referral-hi,payDifferences,"Hawaii has no reciprocal-referral, nominal-gift or legal-service-plan exception; it allows only advertising costs, usual charges of nonprofit referral services or qualified legal assistance organizations, and buying a practice."
+referral-hi,detail,Fee rule: the 'and' between proportion and joint responsibility is Hawaii's own (ABA says 'or').
+referral-ia,shareDisclosed,true
+referral-ia,reciprocalReferrals,true
+referral-ia,nominalGifts,true
+referral-id,shareDisclosed,true
+referral-id,reciprocalReferrals,true
+referral-id,nominalGifts,false
+referral-id,payDifferences,"Idaho's referral rule is paragraph (c), has no nominal-gift exception, and defines a qualified referral service as one approved by a regulatory authority."
+referral-il,shareDisclosed,true
+referral-il,reciprocalReferrals,true
+referral-il,nominalGifts,false
+referral-il,payDifferences,"Illinois has no nominal-gift or legal-service-plan exception in (b) and replaces the referral-service exception with the intermediary connecting service rules in (c)-(f), which bar outcome-based or percentage-of-fee charges except for bar association or legal aid services."
+referral-in,shareDisclosed,true
+referral-in,reciprocalReferrals,true
+referral-in,nominalGifts,false
+referral-in,payDifferences,"Indiana also bars giving anything of value for 'advertising' the lawyer's services, has no nominal-gift exception, and ties referral services to Rule 7.3(d)."
+referral-ks,shareDisclosed,false
+referral-ks,feeConditions,The rule expressly allows a portion of the fee to be designated for referring the matter.
+referral-ks,reciprocalReferrals,false
+referral-ks,nominalGifts,false
+referral-ks,payDifferences,Kansas allows only two payments for a recommendation: reasonable ad costs and the usual charges of a not-for-profit lawyer referral service or legal service organization; there is no reciprocal-referral or nominal-gift exception.
+referral-ky,shareDisclosed,false
+referral-ky,reciprocalReferrals,true
+referral-ky,nominalGifts,false
+referral-ky,payDifferences,"Kentucky's ban covers payments to a non-lawyer, names only not-for-profit referral services and has no nominal-gift exception."
+referral-la,shareDisclosed,true
+referral-la,feeConditions,Each lawyer must render meaningful legal services for the client in the matter.
+referral-la,reciprocalReferrals,false
+referral-la,nominalGifts,false
+referral-la,payDifferences,"Only advertising costs and conditioned referral-service charges are allowed; no legal-service-plan, practice-purchase, reciprocal-referral or nominal-gift exception. Rule 7.2(c)(11) also bars paying part of another firm's advertisement."
+referral-la,detail,Louisiana puts the payment-for-recommendations rule in Rule 7.2(c)(13).
+referral-ma,shareDisclosed,false
+referral-ma,feeConditions,Timing: notice comes before or at the time the client signs the fee agreement for the matter. The rule names referral fees expressly.
+referral-ma,reciprocalReferrals,true
+referral-ma,nominalGifts,true
+referral-ma,payDifferences,"Tracks ABA 7.2(b), but names not-for-profit referral services and qualified legal assistance organizations instead of 'qualified lawyer referral service'."
+referral-md,shareDisclosed,false
+referral-md,feeConditions,Comment [7] says joint responsibility means financial and ethical responsibility as if the attorneys were partners.
+referral-md,reciprocalReferrals,true
+referral-md,nominalGifts,false
+referral-md,payDifferences,"The reciprocal-referral exception covers only non-attorney professionals (not other lawyers), there is no nominal-gift exception, and the referral-service exception does not say 'qualified'."
+referral-me,feeConditions,The lawyers' total fee may not exceed reasonable compensation for all the legal services they rendered to the client.
+referral-me,reciprocalReferrals,true
+referral-me,nominalGifts,false
+referral-me,payDifferences,"Matches ABA 7.2(b) except there is no exception for nominal thank-you gifts, and 'qualified lawyer referral service' is defined in the rule."
+referral-mi,shareDisclosed,false
+referral-mi,reciprocalReferrals,false
+referral-mi,nominalGifts,false
+referral-mi,payDifferences,"Only three exceptions (advertising costs, a not-for-profit referral service or other legal service organization meeting Rule 6.3(b), buying a practice); no reciprocal-referral exception, no nominal-gift exception, and no separate legal-service-plan wording."
+referral-mn,shareDisclosed,true
+referral-mn,reciprocalReferrals,true
+referral-mn,nominalGifts,true
+referral-mo,shareDisclosed,false
+referral-mo,reciprocalReferrals,false
+referral-mo,nominalGifts,false
+referral-mo,payDifferences,"Missouri keeps the ban on giving anything of value for a recommendation but has no exception for reciprocal referral agreements or nominal thank-you gifts, and its practice-sale exception covers only the cost of notices."
+referral-ms,shareDisclosed,false
+referral-ms,feeConditions,The comment says joint responsibility carries the obligations stated in Rule 5.1.
+referral-ms,reciprocalReferrals,false
+referral-ms,nominalGifts,false
+referral-ms,payDifferences,"Only two exceptions (reasonable advertising costs; usual charges of a lawyer referral service or other legal service organization); no practice-purchase, reciprocal-referral or nominal-gift exceptions."
+referral-mt,shareDisclosed,true
+referral-mt,reciprocalReferrals,true
+referral-mt,nominalGifts,true
+referral-mt,payDifferences,"Matches ABA 7.2(b) except that Montana's referral-service exception covers a not-for-profit lawyer referral service and does not add ""or qualified""; it also bars promising anything of value."
+referral-nc,shareDisclosed,true
+referral-nc,feeConditions,The total fee must be reasonable.
+referral-nc,reciprocalReferrals,false
+referral-nc,nominalGifts,true
+referral-nc,payDifferences,"It has no reciprocal-referral exception, and it refers to an intermediary organization under Rule 7.4 and a State Bar-regulated prepaid plan instead of a not-for-profit or qualified lawyer referral service."
+referral-nd,shareDisclosed,false
+referral-nd,feeConditions,The lawyers' written agreement must record joint responsibility if the split is not proportional to services; the total fee must be reasonable.
+referral-nd,reciprocalReferrals,false
+referral-nd,nominalGifts,false
+referral-nd,payDifferences,"It has no reciprocal-referral exception and no nominal-gift exception, and it has no separate legal-service-plan item (it lists legal service organizations instead)."
+referral-ne,shareDisclosed,true
+referral-ne,reciprocalReferrals,true
+referral-ne,nominalGifts,false
+referral-ne,payDifferences,Matches ABA 7.2(b) except that Nebraska has no exception for nominal thank-you gifts.
+referral-nh,feeConditions,"The division may not increase the total fee, and the total must be reasonable. A split based on an agreement with the referring lawyer is expressly allowed."
+referral-nh,reciprocalReferrals,false
+referral-nh,nominalGifts,false
+referral-nh,payDifferences,"New Hampshire allows only ad costs, a fee to a 501(c)(3) tax-exempt organization and buying a practice; there is no reciprocal-referral or nominal-gift exception."
+referral-nj,shareDisclosed,false
+referral-nj,feeConditions,"Opens with ""Except as otherwise provided by the Court Rules"". The joint-responsibility route requires a written agreement with the client; the proportion route does not."
+referral-nj,reciprocalReferrals,false
+referral-nj,nominalGifts,false
+referral-nj,payDifferences,"New Jersey allows only three exceptions (reasonable ad costs, notice costs for selling a practice, and usual charges of a not-for-profit lawyer referral service or other legal service organization), with no reciprocal-referral or nominal-gift exception."
+referral-nv,shareDisclosed,true
+referral-nv,feeConditions,"Rule 1.5(e)(1), where the ABA places the proportion-or-joint-responsibility test, is marked ""Reserved""."
+referral-nv,reciprocalReferrals,false
+referral-nv,nominalGifts,false
+referral-nv,payDifferences,"Nevada allows a fee division under Rule 1.5(e) and the exceptions for ad costs and referral-service charges, but has no exception for reciprocal referral agreements, nominal gifts or buying a practice, and does not require the referral service to be not-for-profit or qualified."
+referral-ny,shareDisclosed,true
+referral-ny,feeConditions,"The joint-responsibility route requires a writing given to the client; the fee test is ""not excessive"" rather than ""reasonable"". Rule 1.5(h) exempts payments to a lawyer formerly associated in the firm under a separation or retirement agreement."
+referral-ny,reciprocalReferrals,false
+referral-ny,nominalGifts,false
+referral-ny,payDifferences,"New York's text has only two exceptions (a nonlegal-professional contract under Rule 5.8, and qualified legal assistance organization fees or lawyer referral fees under Rule 1.5(g)) and no listed exception for reciprocal referral agreements or nominal gifts."
+referral-oh,shareDisclosed,false
+referral-oh,feeConditions,In a contingent-fee case a closing statement signed by the client and each lawyer is required (unless a court approves the division); the total fee must be reasonable.
+referral-oh,reciprocalReferrals,false
+referral-oh,nominalGifts,false
+referral-oh,payDifferences,"It has no reciprocal-referral exception and no nominal-gift exception, and it ties the referral-service exception to Gov.Bar Rule XVI."
+referral-or,shareDisclosed,false
+referral-or,feeConditions,The total fee for all services must not be clearly excessive (not 'reasonable' as in the ABA rule); between a lawyer and an LP the division must be in proportion to services performed.
+referral-or,reciprocalReferrals,false
+referral-or,nominalGifts,true
+referral-or,payDifferences,"It has no reciprocal-referral exception, and the referral-service exception does not say 'not-for-profit or qualified'."
+referral-pa,shareDisclosed,false
+referral-pa,feeConditions,The total fee of the lawyers must not be illegal or clearly excessive.
+referral-pa,reciprocalReferrals,false
+referral-pa,nominalGifts,false
+referral-pa,payDifferences,"It has no reciprocal-referral exception and no nominal-gift exception, and does not limit referral services to not-for-profit or qualified ones."
+referral-ri,shareDisclosed,true
+referral-ri,feeConditions,The total fee must be reasonable.
+referral-ri,reciprocalReferrals,true
+referral-ri,nominalGifts,false
+referral-ri,payDifferences,"The ban is in paragraph (c), not (b); it has the reciprocal-referral exception but no nominal-gift exception."
+referral-ri,detail,Rhode Island's referral-payment rule sits in 7.2(c); 7.2(b) is a filing requirement for advertisements.
+referral-sc,shareDisclosed,true
+referral-sc,feeConditions,The total fee must be reasonable.
+referral-sc,reciprocalReferrals,false
+referral-sc,nominalGifts,false
+referral-sc,payDifferences,"The ban is in paragraph (c), has no reciprocal-referral or nominal-gift exception, and adds a condition that the referral service not itself violate the rules; paragraph (e) separately restricts paying for another firm's advertisement."
+referral-sd,shareDisclosed,true
+referral-sd,reciprocalReferrals,true
+referral-sd,nominalGifts,false
+referral-sd,payDifferences,"The paragraph is 7.2(d), has no nominal-gift exception, limits referral services to approved 501(c)(3) or 501(c)(6) nonprofits, and cross-refers to Rule 7.1(c)(13), which allows a paid testimonial if the ad conspicuously discloses the payment."
+referral-tn,shareDisclosed,false
+referral-tn,reciprocalReferrals,true
+referral-tn,nominalGifts,false
+referral-tn,payDifferences,"The ban sits in RPC 7.3(f), not 7.2 (RPC 7.2 is deleted and reserved), has no nominal-gift exception, allows sponsorship fees and charitable contributions that buy publicity, and comment [10] allows lead-generator payments only if the generator does not recommend the lawyer."
+referral-tn,detail,Lawyer-referral payments are in RPC 7.3(f) because RPC 7.2 was deleted.
+referral-tx,shareDisclosed,true
+referral-tx,feeConditions,"Timing: consent must come before the association or referral. Under 1.04(g), if the arrangement is not confirmed this way, the lawyer may collect only the reasonable value of services and the necessary expenses."
+referral-tx,reciprocalReferrals,true
+referral-tx,nominalGifts,true
+referral-tx,payDifferences,Rule 7.03(e) bars payments to a person not licensed to practice law for soliciting or referring clients (payments between lawyers fall under 1.04(f)); the reciprocal exception also requires the lawyer to use independent judgment in making referrals.
+referral-ut,shareDisclosed,true
+referral-ut,feeConditions,"Rule 5.8(b): a lawyer's portion of the fee must be reasonable relative to the total fee that ultimately may be earned. Fee sharing with a nonlawyer is covered by Rule 5.4(e) and Supreme Court Standing Order No. 15, not by Rule 5.8."
+referral-ut,payDifferences,"Since November 1, 2026, Rule 5.4(c) prohibits referral fees, and Rule 7.2 stays reserved, so no ABA-style list of permitted payments exists. The ban does not cover advertising and lead-generation fees (Rule 1.0, cmt. [9]), and small gifts of marginal or minimal value are not compensation under the definition. A lawyer may still permit a person to recommend, retain or pay the lawyer (Rule 5.4(b))."
+referral-va,shareDisclosed,true
+referral-va,feeConditions,Consent must be obtained before the legal services are rendered. Paragraph (f) says (e) does not regulate fee divisions between lawyers previously in the same firm or between successive lawyers on the same matter (the total fee must still be reasonable).
+referral-va,reciprocalReferrals,false
+referral-va,nominalGifts,true
+referral-va,payDifferences,"The ban sits in Rule 7.3(d), and the list of exceptions has no reciprocal-referral-agreement exception; it keeps the nominal-gift exception."
+referral-vt,shareDisclosed,true
+referral-vt,reciprocalReferrals,true
+referral-vt,nominalGifts,false
+referral-vt,payDifferences,Matches ABA 7.2(b) except that it has no exception for nominal thank-you gifts.
+referral-wa,shareDisclosed,true
+referral-wa,reciprocalReferrals,true
+referral-wa,nominalGifts,true
+referral-wa,payDifferences,"The ban sits in RPC 7.3(b) because RPC 7.2 is reserved; it also covers payments for 'securing' services, adds LLLTs to the reciprocal exception, and allows fee sharing with a qualifying not-for-profit referral service."
+referral-wi,feeConditions,On the services route the client must also be told if the overall fee will rise; on the referral route the client must be told whether the overall fee will increase. The share is disclosed only on the referral route.
+referral-wi,reciprocalReferrals,true
+referral-wi,nominalGifts,false
+referral-wi,payDifferences,"Adds safeguards to the reciprocal exception (client informed consent, no interference with independent judgment, client information protected) and has no nominal-gift exception."
+referral-wv,shareDisclosed,false
+referral-wv,feeConditions,No proportion or joint-responsibility test and no written-confirmation rule appears in the text; the general rule that a fee must not be unreasonable (1.5(a)) still applies.
+referral-wv,reciprocalReferrals,true
+referral-wv,nominalGifts,false
+referral-wv,payDifferences,Matches ABA 7.2(b) except that it has no exception for nominal thank-you gifts.
+referral-wy,shareDisclosed,true
+referral-wy,reciprocalReferrals,true
+referral-wy,nominalGifts,true

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts, 2026, https://doi.org/10.5281/zenodo.23777037."
+message: "If you use this dataset, please cite it as: Probative Growth, Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts, 2026, https://doi.org/10.5281/zenodo.23962861."
 title: "Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23777037"
+version: "2.0.0"
+doi: "10.5281/zenodo.23962861"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23777036"

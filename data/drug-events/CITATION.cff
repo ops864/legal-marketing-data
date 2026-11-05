@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Serious drug adverse event reports by active ingredient (openFDA FAERS), 2026, https://doi.org/10.5281/zenodo.23752994."
+message: "If you use this dataset, please cite it as: Probative Growth, Serious drug adverse event reports by active ingredient (openFDA FAERS), 2026, https://doi.org/10.5281/zenodo.23963449."
 title: "Serious drug adverse event reports by active ingredient (openFDA FAERS)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23752994"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963449"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23752993"

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, New green cards (lawful permanent residents) by county, country of birth and class of admission, 2026, https://doi.org/10.5281/zenodo.23753002."
+message: "If you use this dataset, please cite it as: Probative Growth, New green cards (lawful permanent residents) by county, country of birth and class of admission, 2026, https://doi.org/10.5281/zenodo.23963657."
 title: "New green cards (lawful permanent residents) by county, country of birth and class of admission"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23753002"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963657"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23753001"

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, County income and migration from IRS tax returns, 2026, https://doi.org/10.5281/zenodo.23752984."
+message: "If you use this dataset, please cite it as: Probative Growth, County income and migration from IRS tax returns, 2026, https://doi.org/10.5281/zenodo.23963195."
 title: "County income and migration from IRS tax returns"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23752984"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963195"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23752983"

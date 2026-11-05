@@ -1,0 +1,271 @@
+id,column,value
+fed-ssa-406a,percent,25
+fed-ssa-406a,percentKind,ceiling
+fed-ssa-406a,dollarCap,9200
+fed-ssa-406a,base,past-due benefits
+fed-ssa-406a,effectiveFrom,2024-11-30
+fed-ssa-406a,detail,"The statute's own figure is $4,000; the Commissioner raises it by Federal Register notice. Fees outside the agreement process go through a fee petition."
+fed-ssa-406b,percent,25
+fed-ssa-406b,percentKind,ceiling
+fed-ssa-406b,base,past-due benefits awarded because of the court judgment
+fed-ftca-admin,percent,20
+fed-ftca-admin,percentKind,ceiling
+fed-ftca-admin,base,"an administrative award, compromise or settlement (28 U.S.C. 2672)"
+fed-ftca-admin,detail,Charging more is a federal crime under the same section (fine and up to one year).
+fed-ftca-suit,percent,25
+fed-ftca-suit,percentKind,ceiling
+fed-ftca-suit,base,"a judgment, or a settlement after suit is filed (28 U.S.C. 1346(b), 2677)"
+fed-va-direct-pay,percent,20
+fed-va-direct-pay,percentKind,ceiling
+fed-va-direct-pay,base,past-due benefits awarded
+fed-va-reasonableness,percent,33.33
+fed-va-reasonableness,percentKind,presumption
+fed-va-reasonableness,base,past-due benefits awarded
+fed-longshore,base,the compensation award; the fee is usually paid by the employer or carrier
+fed-longshore,detail,The statute's 'deputy commissioner' is now the district director.
+fed-black-lung,base,black lung benefits claims
+fed-feca,base,services before the Office of Workers' Compensation Programs
+wc-al,percent,15
+wc-al,percentKind,ceiling
+wc-al,base,the compensation awarded or paid
+wc-al,detail,The cap covers compensation under Article 3 and Article 4 of the chapter.
+wc-ak,base,compensation
+wc-az,percent,25
+wc-az,percentKind,ceiling
+wc-az,base,"the award, up to ten years from the date of the award (five years where the case involves solely loss of earning capacity)"
+wc-az,detail,"For installment payments, no more than 25% of any one installment may be withheld for the fee. The fee's reasonableness can be reviewed by the commission on application."
+wc-ar,percent,25
+wc-ar,percentKind,ceiling
+wc-ar,base,compensation for indemnity benefits controverted and awarded (not medical benefits)
+wc-ar,detail,The statute also allows an added fee when the worker wins on appeal (§ 11-9-715(b)).
+wc-ca,base,"permanent disability indemnity, death benefit or compromise and release awarded (guideline)"
+wc-ca,detail,"The 9-12% range is a guideline for judges (manual § 1.140, effective October 6, 2003) and fees above 12% are allowed for above-average complexity."
+wc-co,percent,25
+wc-co,percentKind,presumption
+wc-co,base,the amount of contested benefits (unappealed contested cases)
+wc-de,percent,30
+wc-de,percentKind,fee-award
+wc-de,base,the award (fee taxed as costs against a party); alternative cap of 10 times Delaware's average weekly wage
+wc-dc,percent,20
+wc-dc,percentKind,ceiling
+wc-dc,base,"the actual benefit secured through the efforts of the attorney, including settlements"
+wc-dc,detail,Fees are approved by the Mayor (the agency) or the court.
+wc-fl,percent,20
+wc-fl,percentKind,ceiling
+wc-fl,base,the amount of the benefits secured
+wc-fl,detail,Approval is by the judge of compensation claims.
+wc-ga,percent,25
+wc-ga,percentKind,ceiling
+wc-ga,base,the recovery of weekly benefits
+wc-ga,detail,The contract must be filed with the Board as soon as the lawyer is hired. The Board's own rule restates the 25% limit (O.C.G.A. § 34-9-108).
+wc-hi,detail,"Approval considers skill, time, complexity, benefits obtained and customary hourly rates."
+wc-id,percent,30
+wc-id,percentKind,presumption
+wc-id,base,Available Funds
+wc-id,effectiveFrom,2022-03-23
+wc-il,percent,20
+wc-il,percentKind,ceiling
+wc-il,base,the amount of compensation recovered and paid
+wc-il,detail,In death and total or partial disability cases the fee is also capped at 20% of what 364 weeks of permanent total disability would pay.
+wc-in,percent,20
+wc-in,percentKind,ceiling
+wc-in,base,the recovery
+wc-in,detail,"Minimum fee $200; 10% of the value of unpaid, out-of-pocket or future medical expenses. The board keeps continuing jurisdiction over fees."
+wc-ia,base,compensation the attorney shows would not have been paid but for the attorney's efforts
+wc-ks,percent,25
+wc-ks,percentKind,ceiling
+wc-ks,base,the amount of compensation recovered and paid
+wc-ks,detail,In death and total or partial disability cases the 25% is figured on no more than 415 weeks of permanent total disability benefits.
+wc-ky,percent,20
+wc-ky,percentKind,ceiling
+wc-ky,dollarCap,18000
+wc-ky,base,the award
+wc-ky,effectiveFrom,2018-07-14
+wc-ky,detail,"Contracts signed after July 14, 2000 and before July 14, 2018 keep the older scale: 20% / 15% of the next $10,000 / 5%, capped at $12,000."
+wc-la,percent,20
+wc-la,percentKind,ceiling
+wc-la,base,the amount recovered
+wc-me,percent,30
+wc-me,percentKind,ceiling
+wc-me,base,"the benefits accrued, after deducting reasonable expenses"
+wc-me,detail,"Lump-sum settlements: 10% for injuries on or after January 1, 2020 (§325(6)); a 10%-down-to-5% sliding scale for older injuries (§325(4))."
+wc-md,percent,20
+wc-md,percentKind,ceiling
+wc-md,base,"the award of compensation for permanent partial disability (indemnity only, medical excluded)"
+wc-md,detail,Other case types have their own caps: permanent total disability up to 25 times the state average weekly wage; contested temporary benefits 10% of accrued compensation.
+wc-ma,percent,20
+wc-ma,percentKind,ceiling
+wc-ma,base,the amount of a lump-sum settlement under section 48
+wc-ma,detail,"Outside lump sums, Massachusetts sets flat fees paid by the insurer at each stage (for example, $700 or $1,000 base amounts in §13A(1)-(2)), and the statute says those dollar amounts are adjusted each October 1."
+wc-mi,percent,30
+wc-mi,percentKind,ceiling
+wc-mi,base,"the accrued compensation, after deducting reasonable expenses"
+wc-mn,percent,20
+wc-mn,percentKind,ceiling
+wc-mn,dollarCap,55000
+wc-mn,base,"the first $275,000 of compensation awarded"
+wc-mn,detail,"Fees within the formula need no approval; larger fees can be sought from a compensation judge. The same section also prints a retainer 'Notice of Maximum Fee' with the older 20% of the first $130,000 / $26,000 figures."
+wc-ms,percent,25
+wc-ms,percentKind,ceiling
+wc-ms,base,the aggregate present-day value of settlement proceeds (indemnity and fully funded future medical benefits)
+wc-ms,effectiveFrom,2018-01-15
+wc-mo,base,compensation
+wc-mo,detail,Settlement forms must state the attorney's fee (8 CSR 50-2).
+wc-mt,percent,25
+wc-mt,percentKind,ceiling
+wc-mt,base,additional compensation the claimant receives due to the attorney's efforts
+wc-mt,detail,"The 20%/25% schedule comes from the department's retainer form, which follows ARM 24.29.3802. The form also caps hourly arrangements at $100 an hour and at the same percentages, and allows a variance application."
+wc-ne,base,damages or compensation
+wc-ne,detail,§48-125 lets the court award a reasonable fee against an employer that delays payment.
+wc-nv,detail,Rule 1.5 reasonableness applies.
+wc-nh,percent,20
+wc-nh,percentKind,ceiling
+wc-nh,base,"retroactive indemnity benefits ordered, or the permanent impairment award"
+wc-nj,percent,25
+wc-nj,percentKind,ceiling
+wc-nj,base,the judgment
+wc-nj,effectiveFrom,2024-08-22
+wc-nj,detail,"Where compensation was offered or paid in good faith within 26 weeks, the fee is based on the amount awarded above that offer (34:15-64(c))."
+wc-nm,dollarCap,30000
+wc-nm,base,"all attorney fees for a single accidental injury claim, cumulative across all proceedings"
+wc-nm,effectiveFrom,2025-06-20
+wc-nm,detail,"Laws 2025, ch. 18 (effective June 20, 2025) raised the cap. It steps up to $32,000 on January 1, 2027 and $34,000 on January 1, 2029. A judge may add up to $5,000 for bad faith."
+wc-ny,base,the compensation awarded (fee becomes a lien on the award)
+wc-nc,base,the compensation awarded
+wc-nc,detail,Taking an unapproved fee is a Class 1 misdemeanor.
+wc-nd,percent,20
+wc-nd,percentKind,fee-award
+wc-nd,dollarCap,14595
+wc-nd,base,"the additional amount awarded (fees are paid by Workforce Safety and Insurance, not taken from the worker's award)"
+wc-nd,effectiveFrom,2026-01-01
+wc-nd,detail,"North Dakota is a state-fund system: WSI pays the worker's lawyer at $205 an hour, capped at 20% of the extra amount won and at a stage maximum ($4,704 if settled before hearing, $7,455 at hearing, $8,295 to $11,078 in district court, $13,283 to $14,595 in the supreme court; $2,205 for binding dispute resolution)."
+wc-oh,base,the fee for services before the Industrial Commission
+wc-oh,detail,Lump-sum advances for fees are limited to an amount the Commission sets periodically (4121-3-10).
+wc-ok,percent,20
+wc-ok,percentKind,ceiling
+wc-ok,base,temporary disability compensation (10%) or permanent disability or death compensation (20%) awarded on a controverted claim
+wc-ok,effectiveFrom,2014-02-01
+wc-ok,detail,"If the worker rejected a written settlement offer, the fee is limited to 30% of the amount by which the award beat the offer. A change-of-physician fee is a flat $200."
+wc-or,percent,25
+wc-or,percentKind,ceiling
+wc-or,base,the increased compensation (permanent disability) or the settlement proceeds
+wc-or,detail,"These are the out-of-compensation fees paid from the worker's award. Oregon also has separate insurer-paid ('assessed') fees with their own caps adjusted every July 1 (for example $6,555 under ORS 656.262(11)(a) for orders from July 1, 2026). Extraordinary circumstances can justify a higher settlement fee."
+wc-pa,percent,20
+wc-pa,percentKind,ceiling
+wc-pa,base,"the amount awarded, or the compromise and release settlement amount"
+wc-pa,effectiveFrom,2006-11-09
+wc-ri,percent,20
+wc-ri,percentKind,ceiling
+wc-ri,base,the lump sum or the present value of a structured settlement
+wc-ri,detail,"Settlements: the court fixes the fee, capped at 20%."
+wc-sc,percent,33.3
+wc-sc,percentKind,ceiling
+wc-sc,base,the total amount of compensation
+wc-sd,percent,35
+wc-sd,percentKind,ceiling
+wc-sd,base,the disputed amount of compensation benefits secured
+wc-sd,effectiveFrom,2011-04-12
+wc-sd,detail,Fees are subject to Department approval.
+wc-tn,percent,20
+wc-tn,percentKind,ceiling
+wc-tn,base,the amount of the recovery or award
+wc-tn,effectiveFrom,2014-07-01
+wc-tn,detail,"For permanent total cases under § 50-6-207(4), 20% of the first 450 weeks is deemed reasonable."
+wc-tx,percent,25
+wc-tx,percentKind,ceiling
+wc-tx,base,the claimant's recovery
+wc-tx,effectiveFrom,2001-06-17
+wc-tx,detail,Carrier-paid fees when the carrier appeals and loses are outside the 25% limit.
+wc-ut,effectiveFrom,2016-05-18
+wc-vt,percent,20
+wc-vt,percentKind,fee-award
+wc-vt,base,the compensation or benefits awarded
+wc-vt,effectiveFrom,2026-07-01
+wc-va,base,the compensation awarded
+wc-va,detail,The Commission has exclusive jurisdiction over fee disputes and can order an excessive fee repaid.
+wc-wa,percent,30
+wc-wa,percentKind,ceiling
+wc-wa,base,the increase in the award secured by the attorney's services
+wc-wa,detail,"The 30% limit applies to services before the Department; the director fixes the fee on written application. Fees for Board of Industrial Insurance Appeals work are fixed by the Board, and any fee can be reviewed by superior court. Claim resolution settlement agreements are excluded from the 30% limit."
+wc-wv,percent,20
+wc-wv,percentKind,ceiling
+wc-wv,base,"the award, limited to benefits payable over 208 weeks"
+wc-wv,effectiveFrom,2022-07-01
+wc-wv,detail,"On a final settlement the fee may not exceed 20% of the medical and indemnity benefits, again limited to the 208-week figure. For winning back denied medical benefits, the carrier pays hourly fees up to $125 an hour, $500 per issue and $2,500 per claim. § 23-5-16a took effect July 1, 2022 and replaced § 23-5-16."
+wc-wi,percent,20
+wc-wi,percentKind,ceiling
+wc-wi,base,"the amount at which the claim is compromised, awarded, adjudged or collected"
+wc-wi,detail,Higher fees need prior Department authorization. An overcharge can draw a forfeiture of double the amount.
+wc-wy,base,hours of service at a rate set by the Office of Administrative Hearings
+wc-wy,detail,Wyoming is a state-fund system.
+mm-ca,percent,33
+mm-ca,percentKind,ceiling
+mm-ca,base,the dollar amount recovered (net of disbursements and costs)
+mm-ca,effectiveFrom,2023-01-01
+mm-ca,detail,"Tiers are by stage, not by amount. If the case is tried or arbitrated, the lawyer may ask the court or arbitrator for a higher fee for good cause (6146(a)(3)). AB 35 replaced the old MICRA dollar-tier scale (40/33⅓/25/15%)."
+mm-de,percent,35
+mm-de,percentKind,ceiling
+mm-de,base,damages
+mm-de,detail,The client may instead choose a per-diem fee in writing (6865(b)).
+mm-fl,percent,30
+mm-fl,percentKind,ceiling
+mm-fl,base,"all damages received, exclusive of reasonable and customary costs"
+mm-fl,effectiveFrom,2004-11-03
+mm-il,percent,33.33
+mm-il,percentKind,ceiling
+mm-il,base,all sums recovered
+mm-il,effectiveFrom,2013-01-18
+mm-in,percent,32
+mm-in,percentKind,ceiling
+mm-in,base,the recovery from the Patient's Compensation Fund (not the provider's own share)
+mm-in,effectiveFrom,2017-07-01
+mm-me,percent,33.33
+mm-me,percentKind,ceiling
+mm-me,base,"the sum recovered, exclusive of litigation expenses"
+mm-ma,percent,40
+mm-ma,percentKind,ceiling
+mm-ma,base,the amount recovered
+mm-ma,detail,Courts may set fees below the limits.
+mm-ny,percent,30
+mm-ny,percentKind,ceiling
+mm-ny,base,the net sum recovered after expenses and disbursements
+mm-ny,detail,A judge may allow a higher fee in extraordinary circumstances on application with notice (474-a(4)). Infant claims stay under Jud. Law 474.
+mm-tn,percent,33.33
+mm-tn,percentKind,ceiling
+mm-tn,base,all damages awarded to the claimant
+mm-ut,percent,33.33
+mm-ut,percentKind,ceiling
+mm-ut,base,the amount recovered
+mm-ut,detail,"Applies regardless of settlement, arbitration, judgment or appeal (78B-3-411(2))."
+mm-wi,percent,33.33
+mm-wi,percentKind,ceiling
+mm-wi,base,"the amount recovered, plus reasonable costs of prosecution"
+mm-wi,detail,"25% replaces 33 1/3% on the first $1,000,000 if liability is stipulated within 180 days of filing and at least 60 days before trial. A court may approve more on exceptional circumstances (1t). Applies to agreements entered on and after June 14, 1986."
+cg-ct,percent,33.33
+cg-ct,percentKind,ceiling
+cg-ct,base,"damages awarded and received, or the settlement amount received"
+cg-ct,detail,"Applies to all personal-injury, wrongful-death and property-damage claims arising on or after October 1, 1987, including medical malpractice."
+cg-fl,percent,40
+cg-fl,percentKind,ceiling
+cg-fl,base,any recovery
+cg-fl,detail,"Covers personal injury, wrongful death, property damage from torts and product liability. An additional 5% is allowed when an appeal or post-judgment action is needed. The client may petition a court to approve a higher fee."
+cg-hi,base,the tort judgment or settlement
+cg-hi,detail,Court approval is required for judgments and optional (on request) for settlements.
+cg-mi,percent,33.33
+cg-mi,percentKind,ceiling
+cg-mi,base,the net sum recovered after disbursements
+cg-mi,detail,A higher fee is treated as a clearly excessive fee under MRPC 1.5(a).
+cg-nh,base,the settlement or judgment
+cg-nh,effectiveFrom,2003-01-01
+cg-nh,detail,"Last amended 2002, effective January 1, 2003."
+cg-nj,percent,33.33
+cg-nj,percentKind,ceiling
+cg-nj,base,the net sum recovered
+cg-nj,detail,"Amounts above $3,000,000 need a fee application to the court (para. (f)); a lower limit (25%) applies to some settlements for minors or incapacitated clients."
+cg-ok,percent,50
+cg-ok,percentKind,ceiling
+cg-ok,base,the net amount of the judgment or compromise
+cg-ok,detail,"Applies to any cause of action, contract or tort. The bar's Rule 1.5 reasonableness standard still applies below the cap."
+cg-wy,percent,40
+cg-wy,percentKind,presumption
+cg-wy,base,the recovery

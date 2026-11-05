@@ -1,0 +1,455 @@
+id,column,value
+limitations-ak-pi,officialUrl,https://www.akleg.gov/basis/Statutes.asp?media=print&secStart=09.10.070&secEnd=09.10.070
+limitations-ak-pi,detail,Subsection (a)(2) lists personal injury or death; period runs from accrual of the cause of action.
+limitations-ak-wd,officialUrl,https://www.akleg.gov/basis/Statutes.asp?media=print&secStart=09.55.580&secEnd=09.55.580
+limitations-ak-wd,detail,AS 09.10.070(a)(2) also lists 'personal injury or death' with a two-year period from accrual.
+limitations-ak-property,officialUrl,https://www.akleg.gov/basis/Statutes.asp?media=print&secStart=09.10.070&secEnd=09.10.070
+limitations-ak-property,detail,"Item (a)(3) covers taking, detaining, or injuring personal property."
+limitations-al-pi,officialUrl,https://alison.legislature.state.al.us/code-of-alabama?section=6-2-38
+limitations-al-medmal,officialUrl,https://alison.legislature.state.al.us/code-of-alabama?section=6-5-482
+limitations-al-medmal,discoveryRule,Y
+limitations-al-medmal,reposeYears,4
+limitations-al-medmal,detail,Special rule for minors under four.
+limitations-al-wd,officialUrl,https://alison.legislature.state.al.us/code-of-alabama?section=6-2-38
+limitations-al-property,officialUrl,https://alison.legislature.state.al.us/code-of-alabama?section=6-2-34
+limitations-ar-pi,detail,Three years from the negligent act; the opinion states it for tort claims generally.
+limitations-az-pi,officialUrl,https://www.azleg.gov/ars/12/00542.htm
+limitations-az-medmal,officialUrl,https://www.azleg.gov/ars/12/00542.htm
+limitations-az-medmal,detail,Same two-year period as personal injury; within 12-542 with the general list.
+limitations-az-wd,officialUrl,https://www.azleg.gov/ars/12/00542.htm
+limitations-az-wd,detail,Accrues at the death of the injured party; two-year period is in the section lead-in ('within two years after the cause of action accrues').
+limitations-az-product,officialUrl,https://www.azleg.gov/ars/12/00551.htm
+limitations-az-product,reposeYears,12
+limitations-az-product,detail,"Twelve-year outer limit from first sale, with an exception for negligence of the manufacturer/seller or breach of express warranty."
+limitations-az-property,officialUrl,https://www.azleg.gov/ars/12/00542.htm
+limitations-az-property,detail,Two-year lead-in applies; items 4-5 cover taking/detaining/converting goods.
+limitations-ca-pi,officialUrl,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=335.1
+limitations-ca-medmal,officialUrl,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=340.5
+limitations-ca-medmal,discoveryRule,Y
+limitations-ca-medmal,reposeYears,3
+limitations-ca-medmal,detail,Applies to actions for injury or death against a health care provider based on professional negligence. Separate rules for minors are in the same section.
+limitations-ca-wd,officialUrl,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=335.1
+limitations-ca-wd,detail,The same section covers injury to and the death of an individual.
+limitations-ca-property,officialUrl,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=338
+limitations-ca-property,detail,"Item (c)(1) gives the same period for taking, detaining, or injuring goods or chattels."
+limitations-co-pi,officialUrl,https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-13.pdf
+limitations-co-pi,discoveryRule,Y
+limitations-co-pi,detail,Tort actions for bodily injury arising out of motor vehicle use or operation are three years under § 13-80-101(1)(n).
+limitations-co-medmal,officialUrl,https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-13.pdf
+limitations-co-medmal,discoveryRule,Y
+limitations-co-medmal,reposeYears,3
+limitations-co-medmal,detail,Applies to health-care institutions and professionals.
+limitations-co-wd,officialUrl,https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-13.pdf
+limitations-co-wd,detail,Subsection (2): four years for wrongful death against a defendant who committed vehicular homicide and leaving the scene.
+limitations-co-product,officialUrl,https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-13.pdf
+limitations-co-property,officialUrl,https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-13.pdf
+limitations-co-property,discoveryRule,Y
+limitations-co-property,detail,"Tort actions including trespass fall under the two-year tort item; actions for taking, detaining, or converting goods or chattels are three years under § 13-80-101(1)(h)."
+limitations-ct-pi,officialUrl,https://www.cga.ct.gov/current/pub/chap_926.htm
+limitations-ct-pi,discoveryRule,Y
+limitations-ct-pi,reposeYears,3
+limitations-ct-pi,detail,Applies to injury to the person caused by negligence or reckless or wanton misconduct. Runs from the date injury is first sustained or discovered or should have been discovered; three-year outer limit from the act or omission. Other torts fall under 52-577 (three years from the act).
+limitations-ct-medmal,officialUrl,https://www.cga.ct.gov/current/pub/chap_926.htm
+limitations-ct-medmal,discoveryRule,Y
+limitations-ct-medmal,reposeYears,3
+limitations-ct-medmal,detail,"Names malpractice of a physician, surgeon, dentist, podiatrist, chiropractor, advanced practice registered nurse, hospital or sanatorium. Three-year outer limit from the act or omission."
+limitations-ct-wd,officialUrl,https://www.cga.ct.gov/current/pub/chap_925.htm
+limitations-ct-wd,reposeYears,5
+limitations-ct-wd,detail,Two years from date of death; five-year outer limit from the act or omission.
+limitations-ct-product,officialUrl,https://www.cga.ct.gov/current/pub/chap_926.htm
+limitations-ct-product,discoveryRule,Y
+limitations-ct-product,reposeYears,10
+limitations-ct-product,detail,"Ten-year outer limit from the date the party last parted with possession or control of the product, subject to subsections (c)-(e)."
+limitations-ct-property,officialUrl,https://www.cga.ct.gov/current/pub/chap_926.htm
+limitations-ct-property,discoveryRule,Y
+limitations-ct-property,reposeYears,3
+limitations-ct-property,detail,Applies to injury to real or personal property caused by negligence or reckless or wanton misconduct. Three-year outer limit from the act or omission.
+limitations-dc-pi,officialUrl,https://code.dccouncil.gov/us/dc/council/code/sections/12-301
+limitations-dc-pi,detail,Runs from the time the right to maintain the action accrues.
+limitations-dc-medmal,detail,"The court calls the three-year period under the residual item § 12-301(8) the limitations period for medical malpractice actions; it runs from accrual, and a 90-day pre-suit notice (D.C. Code § 16-2802) can extend it."
+limitations-dc-wd,officialUrl,https://code.dccouncil.gov/us/dc/council/code/sections/16-2702
+limitations-dc-wd,detail,Changed from one year to 2 years by D.C. Law 19-177 (2012).
+limitations-dc-property,officialUrl,https://code.dccouncil.gov/us/dc/council/code/sections/12-301
+limitations-dc-property,detail,Item (10) separately gives 5 years from discovery for injury to real property from toxic substances including asbestos products.
+limitations-de-pi,officialUrl,https://delcode.delaware.gov/title10/c081/index.html
+limitations-de-pi,detail,Runs from the date the injuries were sustained.
+limitations-de-medmal,officialUrl,https://delcode.delaware.gov/title18/c068/sc06/index.html
+limitations-de-medmal,discoveryRule,Y
+limitations-de-medmal,reposeYears,3
+limitations-de-medmal,detail,Runs from the date the injury occurred. Additional provisions for child sexual abuse claims and a 90-day tolling notice.
+limitations-de-wd,officialUrl,https://delcode.delaware.gov/title10/c081/index.html
+limitations-de-wd,detail,Runs from accrual of the cause of action.
+limitations-de-property,officialUrl,https://delcode.delaware.gov/title10/c081/index.html
+limitations-de-property,detail,Covers injury to personal property. Section 8106(a) separately gives 3 years from accrual for damages for trespass.
+limitations-fl-pi,officialUrl,https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0095/0095.html
+limitations-fl-pi,detail,Negligence period of two years in the current text (ch. 2023-223).
+limitations-fl-medmal,officialUrl,https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0095/0095.html
+limitations-fl-medmal,discoveryRule,Y
+limitations-fl-medmal,reposeYears,4
+limitations-fl-medmal,detail,Fraud/concealment extends to no more than 7 years from the incident.
+limitations-fl-wd,officialUrl,https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0095/0095.html
+limitations-fl-product,officialUrl,https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0095/0095.html
+limitations-fl-product,detail,Fla. Stat. § 95.031(2)(b) sets a separate 12-year outer limit for products liability actions.
+limitations-fl-property,officialUrl,https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0095/0095.html
+limitations-fl-property,detail,Item (f) gives the same period for trespass on real property.
+limitations-ga-pi,detail,Two years after the right of action accrues for actions for injuries to the person; tolling provisions elsewhere in the article can change this.
+limitations-hi-pi,officialUrl,https://www.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0657/HRS_0657-0007.htm
+limitations-hi-pi,detail,Runs from when the cause of action accrued.
+limitations-hi-medmal,officialUrl,https://www.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0657/HRS_0657-0007_0003.htm
+limitations-hi-medmal,discoveryRule,Y
+limitations-hi-medmal,reposeYears,6
+limitations-hi-medmal,detail,Separate rules for minors are in the same section.
+limitations-hi-wd,officialUrl,https://www.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0663/HRS_0663-0003.htm
+limitations-hi-wd,detail,Runs from the date of death.
+limitations-hi-property,officialUrl,https://www.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0657/HRS_0657-0007.htm
+limitations-ia-pi,officialUrl,https://www.legis.iowa.gov/docs/code/614.1.pdf
+limitations-ia-pi,detail,"Subsection 2 (Injuries to person or reputation): actions founded on injuries to the person or reputation, including injuries to relative rights, whether based on contract or tort, or for a statute penalty. Section 614.1 states the times run 'after their causes accrue'."
+limitations-ia-medmal,officialUrl,https://www.legis.iowa.gov/docs/code/614.1.pdf
+limitations-ia-medmal,discoveryRule,Y
+limitations-ia-medmal,reposeYears,6
+limitations-ia-medmal,detail,Six-year limit excludes a foreign object unintentionally left in the body. Paragraph b sets a minor rule (no later than the minor's tenth birthday or as in paragraph a).
+limitations-ia-property,officialUrl,https://www.legis.iowa.gov/docs/code/614.1.pdf
+limitations-id-pi,officialUrl,https://legislature.idaho.gov/statutesrules/idstat/Title5/T5CH2/SECT5-219/
+limitations-id-pi,discoveryRule,N
+limitations-id-pi,detail,"Subsection 4 covers an action to recover damages for injury to the person. Exceptions in the same subsection (foreign object left in the body, fraudulent concealment) accrue on knowledge or inquiry notice and must be commenced within one (1) year after accrual or two (2) years after the act, whichever is later."
+limitations-id-medmal,officialUrl,https://legislature.idaho.gov/statutesrules/idstat/Title5/T5CH2/SECT5-219/
+limitations-id-medmal,discoveryRule,N
+limitations-id-medmal,detail,"Subsection 4 covers professional malpractice, defined as acts or omissions in professional services by persons licensed under Idaho law. Foreign-object and fraudulent-concealment exceptions accrue on knowledge or inquiry notice, with a one (1) year / two (2) year later-of rule."
+limitations-id-wd,officialUrl,https://legislature.idaho.gov/statutesrules/idstat/Title5/T5CH2/SECT5-219/
+limitations-id-wd,discoveryRule,N
+limitations-id-product,officialUrl,https://legislature.idaho.gov/statutesrules/idstat/Title6/T6CH14/SECT6-1403/
+limitations-id-product,reposeYears,10
+limitations-id-product,detail,Chapter 14 is the Idaho Product Liability Reform Act.
+limitations-id-property,officialUrl,https://legislature.idaho.gov/statutesrules/idstat/Title5/T5CH2/SECT5-218/
+limitations-id-property,detail,"Item 2: an action for trespass upon real property. Item 3: an action for taking, detaining or injuring any goods or chattels."
+limitations-il-pi,officialUrl,https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K13-202.htm
+limitations-il-pi,detail,Section 13-202 (Personal injury - Penalty) covers actions for damages for an injury to the person; runs from when the cause of action accrued.
+limitations-il-medmal,officialUrl,https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K13-212.htm
+limitations-il-medmal,discoveryRule,Y
+limitations-il-medmal,reposeYears,4
+limitations-il-medmal,detail,"Applies to actions for injury or death against a physician, dentist, registered nurse or hospital licensed in Illinois, arising out of patient care. Subsection (b): minors have 8 years from the act, and no later than the person's 22nd birthday."
+limitations-il-wd,officialUrl,https://www.ilga.gov/Documents/legislation/ilcs/documents/074001800K2.htm
+limitations-il-product,officialUrl,https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K13-213.htm
+limitations-il-product,discoveryRule,Y
+limitations-il-product,detail,"Repose in (b): 12 years from first sale/lease/delivery by a seller or 10 years from first delivery to the initial user, whichever expires earlier."
+limitations-il-property,officialUrl,https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K13-205.htm
+limitations-in-pi,officialUrl,https://iga.in.gov/ic/2025/Title_34.html
+limitations-in-pi,detail,Runs from when the cause of action accrues.
+limitations-in-medmal,officialUrl,https://iga.in.gov/ic/2025/Title_34.html
+limitations-in-medmal,detail,"Runs from the date of the alleged act, omission or neglect. A minor under six has until the eighth birthday."
+limitations-in-wd,officialUrl,https://iga.in.gov/ic/2025/Title_34.html
+limitations-in-wd,detail,Brought by the personal representative.
+limitations-in-product,officialUrl,https://iga.in.gov/ic/2025/Title_34.html
+limitations-in-product,reposeYears,10
+limitations-in-product,detail,"Negligence or strict liability product actions. If the action accrues 8 to 10 years after delivery, it may be brought within 2 years of accrual. Asbestos actions follow § 34-20-3-2."
+limitations-in-property,officialUrl,https://iga.in.gov/ic/2025/Title_34.html
+limitations-in-property,detail,"Injury to personal property. Ind. Code § 34-11-2-7 sets a six-year period for other actions, including some real-property claims."
+limitations-ks-pi,officialUrl,https://www.ksrevisor.gov/statutes/chapters/ch60/060_005_0013.html
+limitations-ks-pi,discoveryRule,Y
+limitations-ks-pi,reposeYears,10
+limitations-ks-medmal,officialUrl,https://www.ksrevisor.gov/statutes/chapters/ch60/060_005_0013.html
+limitations-ks-medmal,discoveryRule,Y
+limitations-ks-medmal,reposeYears,4
+limitations-ks-wd,officialUrl,https://www.ksrevisor.gov/statutes/chapters/ch60/060_005_0013.html
+limitations-ks-wd,discoveryRule,Y
+limitations-ks-wd,reposeYears,10
+limitations-ks-property,officialUrl,https://www.ksrevisor.gov/statutes/chapters/ch60/060_005_0013.html
+limitations-ks-property,discoveryRule,Y
+limitations-ks-property,reposeYears,10
+limitations-ks-property,detail,"Item (1): 'An action for trespass upon real property.' Item (2): 'An action for taking, detaining or injuring personal property, including actions for the specific recovery thereof.'"
+limitations-ky-pi,officialUrl,https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58050
+limitations-ky-pi,detail,Runs from when the cause of action accrued.
+limitations-ky-medmal,officialUrl,https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58050
+limitations-ky-medmal,discoveryRule,Y
+limitations-ky-medmal,reposeYears,5
+limitations-ky-medmal,detail,"Subsection (2): the cause of action accrues when the injury is first discovered or should have been discovered, with an outer limit of five years from the negligent act or omission."
+limitations-ky-property,officialUrl,https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44670
+limitations-ky-property,detail,"KRS 413.125 separately states two (2) years for an action for the taking, detaining or injuring of personal property."
+limitations-la-pi,officialUrl,https://legis.la.gov/Legis/Law.aspx?d=1386443
+limitations-la-pi,discoveryRule,N
+limitations-la-pi,detail,Runs from the day injury or damage is sustained.
+limitations-la-medmal,officialUrl,https://legis.la.gov/Legis/Law.aspx?d=108286
+limitations-la-medmal,discoveryRule,Y
+limitations-la-medmal,reposeYears,3
+limitations-la-medmal,detail,"One year from the act, omission or neglect, or one year from discovery, with a three-year outer limit. Applies to minors and interdicts (subsection B)."
+limitations-la-wd,officialUrl,https://legis.la.gov/Legis/Law.aspx?d=109371
+limitations-la-wd,detail,Subsection F: for medical malpractice actions the right of action prescribes one year from the death of the deceased.
+limitations-la-property,officialUrl,https://legis.la.gov/Legis/Law.aspx?d=1386443
+limitations-la-property,detail,Runs from the day injury or damage is sustained.
+limitations-ma-pi,officialUrl,https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleV/Chapter260/Section2A
+limitations-ma-pi,detail,Chapter 260 §4 and other sections state exceptions for particular defendants.
+limitations-ma-medmal,officialUrl,https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleV/Chapter260/Section4
+limitations-ma-medmal,reposeYears,7
+limitations-ma-wd,officialUrl,https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleII/Chapter229/Section2
+limitations-ma-wd,discoveryRule,Y
+limitations-ma-wd,detail,Later-of rule: three years from death or three years from when the executor or administrator knew or should have known of the factual basis.
+limitations-ma-property,officialUrl,https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleV/Chapter260/Section2A
+limitations-md-pi,officialUrl,https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=5-101
+limitations-md-pi,detail,General civil action at law period; runs from the date it accrues.
+limitations-md-medmal,officialUrl,https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=5-109
+limitations-md-medmal,discoveryRule,Y
+limitations-md-medmal,reposeYears,5
+limitations-md-wd,officialUrl,https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=3-904
+limitations-md-wd,detail,"Occupational disease: within 10 years of death or 3 years of discovery of the cause of death, whichever is shorter. Criminal homicide cases: 3 years after the cause of action accrues."
+limitations-md-property,officialUrl,https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&enactments=false&section=5-101
+limitations-me-pi,officialUrl,https://legislature.maine.gov/statutes/14/title14sec752.html
+limitations-me-medmal,officialUrl,https://legislature.maine.gov/statutes/24/title24sec2902-2.html
+limitations-me-medmal,discoveryRule,N
+limitations-me-medmal,detail,"Minors: 6 years after accrual or 3 years after reaching majority, whichever first occurs. Foreign-object cases accrue on discovery."
+limitations-me-wd,officialUrl,https://legislature.maine.gov/statutes/18-C/title18-Csec2-807.html
+limitations-me-wd,detail,Homicide-caused death: 6 years from discovery by the personal representative.
+limitations-me-property,officialUrl,https://legislature.maine.gov/statutes/14/title14sec752.html
+limitations-mi-pi,officialUrl,https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5805
+limitations-mi-pi,detail,Applies to injury to a person; runs 3 years after the time of the injury.
+limitations-mi-medmal,officialUrl,https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5805
+limitations-mi-wd,officialUrl,https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5805
+limitations-mi-wd,detail,Applies to actions for the death of a person; runs 3 years after the time of the death.
+limitations-mi-product,officialUrl,https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5805
+limitations-mi-property,officialUrl,https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5805
+limitations-mi-property,detail,Applies to injury to property.
+limitations-mn-pi,officialUrl,https://www.revisor.mn.gov/statutes/cite/541.05
+limitations-mn-pi,detail,"Minn. Stat. § 541.07(1) separately states 2 years for libel, slander, assault, battery, false imprisonment, or other tort resulting in personal injury."
+limitations-mn-medmal,officialUrl,https://www.revisor.mn.gov/statutes/cite/541.076
+limitations-mn-medmal,detail,Runs from the date the cause of action accrued.
+limitations-mn-wd,officialUrl,https://www.revisor.mn.gov/statutes/cite/573.02
+limitations-mn-wd,reposeYears,6
+limitations-mn-wd,detail,Death caused by an intentional act constituting murder: may be commenced at any time.
+limitations-mn-product,officialUrl,https://www.revisor.mn.gov/statutes/cite/541.05
+limitations-mn-property,officialUrl,https://www.revisor.mn.gov/statutes/cite/541.05
+limitations-mn-property,detail,"Subd. 1(3) covers a trespass upon real estate; subd. 1(4) covers taking, detaining, or injuring personal property."
+limitations-mo-pi,officialUrl,https://revisor.mo.gov/main/OneSection.aspx?section=516.120
+limitations-mo-pi,detail,Section 516.100 says accrual is when damage is sustained and capable of ascertainment.
+limitations-mo-medmal,officialUrl,https://revisor.mo.gov/main/OneSection.aspx?section=516.105
+limitations-mo-medmal,discoveryRule,N
+limitations-mo-medmal,reposeYears,10
+limitations-mo-medmal,detail,Exceptions in the section: foreign object and failure to inform of test results run two years from discovery; minors have until their twentieth birthday.
+limitations-mo-wd,officialUrl,https://revisor.mo.gov/main/OneSection.aspx?section=537.100
+limitations-mo-property,officialUrl,https://revisor.mo.gov/main/OneSection.aspx?section=516.120
+limitations-mo-property,detail,"Subdivision (4) covers taking, detaining or injuring goods or chattels, also five years. Section 516.097 sets a ten-year limit from completion for suits against builders/designers of improvements to real property."
+limitations-ms-medmal,detail,"Two years from the date the act, omission or neglect was or reasonably could have been discovered; the 60-day pre-suit notice extension in § 15-1-36(15) can add 60 days."
+limitations-ms-property,detail,Three years from the date the injury occurred (the fire started); applies as the catch-all to a property damage claim.
+limitations-mt-pi,officialUrl,https://mca.legmt.gov/bills/mca/title_0270/chapter_0020/part_0020/section_0040/0270-0020-0020-0040.html
+limitations-mt-pi,detail,"Subsection (3) sets 2 years for assault, battery and similar actions."
+limitations-mt-medmal,officialUrl,https://mca.legmt.gov/bills/mca/title_0270/chapter_0020/part_0020/section_0050/0270-0020-0020-0050.html
+limitations-mt-medmal,discoveryRule,Y
+limitations-mt-medmal,reposeYears,5
+limitations-mt-wd,officialUrl,https://mca.legmt.gov/bills/mca/title_0270/chapter_0020/part_0020/section_0040/0270-0020-0020-0040.html
+limitations-mt-wd,detail,10 years if the wrongful death is the result of a homicide.
+limitations-mt-property,officialUrl,https://mca.legmt.gov/bills/mca/title_0270/chapter_0020/part_0020/section_0070/0270-0020-0020-0070.html
+limitations-mt-property,detail,Section 27-2-208 sets a 6-year outer limit after completion for actions arising out of work on improvements to real property.
+limitations-nc-pi,officialUrl,https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_1/Article_5.html
+limitations-nc-pi,discoveryRule,Y
+limitations-nc-pi,reposeYears,10
+limitations-nc-pi,detail,Item (16): accrual when bodily harm becomes apparent or ought reasonably to have become apparent; item (16) also states a 10-year outer limit from the last act or omission.
+limitations-nc-medmal,officialUrl,https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_1/GS_1-15.html
+limitations-nc-medmal,reposeYears,4
+limitations-nc-medmal,detail,"Foreign-object cases: one year from discovery, outer limit 10 years from the last act."
+limitations-nc-wd,officialUrl,https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_1/GS_1-53.html
+limitations-nc-wd,detail,Section 1-53 is headed 'Two years' ('Within two years -'); item (4) is the wrongful death item. Accrues on date of death.
+limitations-nc-property,officialUrl,https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_1/Article_5.html
+limitations-nc-property,discoveryRule,Y
+limitations-nc-property,reposeYears,10
+limitations-nc-property,detail,Item (3) trespass upon real property (continuing trespass: three years from the original trespass); item (4) injuring goods or chattels. Under item (16) accrual for physical damage to property is when the damage becomes apparent or ought reasonably to have become apparent; 10-year outer limit from last act or omission.
+limitations-nd-pi,officialUrl,https://ndlegis.gov/cencode/t28c01.pdf
+limitations-nd-pi,detail,"Shorter periods apply to specific claims (e.g. assault and battery, two years under 28-01-18(1))."
+limitations-nd-medmal,officialUrl,https://ndlegis.gov/cencode/t28c01.pdf
+limitations-nd-medmal,reposeYears,6
+limitations-nd-medmal,detail,Section 28-01-18 lists two-year actions ('must be commenced within two years after the claim for relief has accrued').
+limitations-nd-wd,officialUrl,https://ndlegis.gov/cencode/t28c01.pdf
+limitations-nd-wd,detail,Section 28-01-18 lists two-year actions.
+limitations-nd-property,officialUrl,https://ndlegis.gov/cencode/t28c01.pdf
+limitations-nd-property,detail,"Section 28-01-16 items 3 and 4: 'An action for trespass upon real property.' and 'An action for taking, detaining, or injuring any goods or chattels, including actions for the specific recovery of personal property.'"
+limitations-ne-pi,officialUrl,https://nebraskalegislature.gov/laws/statutes.php?statute=25-207
+limitations-ne-medmal,officialUrl,https://nebraskalegislature.gov/laws/statutes.php?statute=25-222
+limitations-ne-medmal,discoveryRule,Y
+limitations-ne-medmal,reposeYears,10
+limitations-ne-wd,officialUrl,https://nebraskalegislature.gov/laws/statutes.php?statute=30-810
+limitations-ne-wd,detail,Runs from the date of death.
+limitations-ne-product,officialUrl,https://nebraskalegislature.gov/laws/statutes.php?statute=25-224
+limitations-ne-product,discoveryRule,N
+limitations-ne-product,reposeYears,10
+limitations-ne-product,detail,"Runs from the date the death, injury or damage occurs. Subsection (2) adds a 10-year outer limit from first sale or lease for Nebraska-made products; subsection (5) sets a separate asbestos rule."
+limitations-ne-property,officialUrl,https://nebraskalegislature.gov/laws/statutes.php?statute=25-207
+limitations-ne-property,detail,"Covers trespass upon real property and taking, detaining or injuring personal property."
+limitations-nh-pi,officialUrl,https://www.gencourt.state.nh.us/rsa/html/LII/508/508-4.htm
+limitations-nh-pi,discoveryRule,Y
+limitations-nh-product,officialUrl,https://www.gencourt.state.nh.us/rsa/html/LII/507-D/507-D-2.htm
+limitations-nh-product,detail,"Chapter 507-D names product liability actions: 3 years from when the injury is, or should with reasonable diligence have been, discovered; item II adds a 12-year outer limit from sale (repose)."
+limitations-nh-property,officialUrl,https://www.gencourt.state.nh.us/rsa/html/LII/508/508-4.htm
+limitations-nh-property,detail,"RSA 508:4-b sets 8 years from substantial completion for actions for injury to property, injury to the person, wrongful death or economic loss arising from deficiency in an improvement to real property."
+limitations-nj-pi,officialUrl,https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu#2A:14-2
+limitations-nj-medmal,officialUrl,https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu#2A:14-2
+limitations-nj-wd,officialUrl,https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu#2A:31-3
+limitations-nj-product,detail,"A product (drug) claim, including Product Liability Act claims, is timed under the two-year personal-injury statute; runs from accrual, with the discovery rule applied."
+limitations-nj-property,officialUrl,https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu#2A:14-1
+limitations-nj-property,detail,Trespass to real property and tortious injury to real or personal property.
+limitations-nm-wd,detail,Three years from the date of death.
+limitations-nm-product,detail,Applies because the negligence and strict liability product claims are tort claims for injury to the person; a tort claim accrues when the plaintiff knows or should know of the injury and its cause; UCC warranty claims have a separate four-year period.
+limitations-nv-pi,officialUrl,https://www.leg.state.nv.us/NRS/NRS-011.html
+limitations-nv-pi,detail,"Paragraph (e) sits under subsection 4, which opens 'Within 2 years:'. Covers injuries to a person and wrongful death."
+limitations-nv-medmal,officialUrl,https://www.leg.state.nv.us/NRS/NRS-041A.html
+limitations-nv-medmal,discoveryRule,Y
+limitations-nv-medmal,reposeYears,3
+limitations-nv-medmal,detail,"Applies to injury on or after October 1, 2023. Earlier injuries: subsection 2 (3 years / 1 year, for injury from Oct 1, 2002 to before Oct 1, 2023). Tolled for concealment; special rule for minors in subsection 5."
+limitations-nv-wd,officialUrl,https://www.leg.state.nv.us/NRS/NRS-011.html
+limitations-nv-wd,detail,Subsection 4 opens 'Within 2 years:'. Paragraph (e) covers 'the death of a person caused by the wrongful act or neglect of another.'
+limitations-nv-property,officialUrl,https://www.leg.state.nv.us/NRS/NRS-011.html
+limitations-nv-property,detail,"Paragraph (c) sets 3 years for taking, detaining or injuring personal property."
+limitations-ny-pi,officialUrl,https://www.nysenate.gov/legislation/laws/CVP/214
+limitations-ny-medmal,officialUrl,https://www.nysenate.gov/legislation/laws/CVP/214-A
+limitations-ny-medmal,detail,"Runs from the act, omission or failure, or from the last treatment where treatment is continuous. Separate rules for foreign objects and failure to diagnose cancer are in the same section."
+limitations-ny-wd,officialUrl,https://www.nysenate.gov/legislation/laws/EPT/5-4.1
+limitations-ny-wd,detail,Runs from the decedent's death.
+limitations-ny-property,officialUrl,https://www.nysenate.gov/legislation/laws/CVP/214
+limitations-oh-pi,officialUrl,https://codes.ohio.gov/ohio-revised-code/section-2305.10
+limitations-oh-medmal,officialUrl,https://codes.ohio.gov/ohio-revised-code/section-2305.113
+limitations-oh-medmal,reposeYears,4
+limitations-oh-medmal,detail,Division (B)(1) allows commencement within one hundred eighty days after written notice of intent given before the one-year period expires.
+limitations-oh-wd,officialUrl,https://codes.ohio.gov/ohio-revised-code/section-2125.02
+limitations-oh-wd,detail,Runs from the decedent's death. Division (F)(2) addresses wrongful death actions involving a product liability claim (ten-year period).
+limitations-oh-product,officialUrl,https://codes.ohio.gov/ohio-revised-code/section-2305.10
+limitations-oh-product,reposeYears,10
+limitations-oh-product,detail,"Division (A) expressly names 'an action based on a product liability claim'. Division (C)(1) states a ten-year outer limit from delivery to the first purchaser or lessee, with exceptions in (C)(2)-(7)."
+limitations-oh-property,officialUrl,https://codes.ohio.gov/ohio-revised-code/section-2305.09
+limitations-oh-property,detail,Four years applies to trespassing upon real property (2305.09(A)). An action for 'injuring personal property' is within the two-year period in 2305.10(A).
+limitations-ok-pi,officialUrl,https://oksenate.gov/sites/default/files/2019-12/os12.pdf
+limitations-ok-pi,detail,Assault and battery: one year under 95(A)(4).
+limitations-ok-medmal,officialUrl,https://oksenate.gov/sites/default/files/2019-12/os76.pdf
+limitations-ok-medmal,discoveryRule,Y
+limitations-ok-medmal,detail,"Applies to actions for damages for injury or death against any physician, health care provider or hospital licensed in the state, arising out of patient care."
+limitations-ok-wd,officialUrl,https://oksenate.gov/sites/default/files/2019-12/os12.pdf
+limitations-ok-property,officialUrl,https://oksenate.gov/sites/default/files/2019-12/os12.pdf
+limitations-ok-property,detail,"Two years for trespass upon real property and for taking, detaining, or injuring personal property."
+limitations-or-pi,officialUrl,https://www.oregonlegislature.gov/bills_laws/ors/ors012.html
+limitations-or-pi,reposeYears,10
+limitations-or-pi,detail,Section 12.115(1) states a 10-year outer limit for negligent injury to person or property.
+limitations-or-medmal,officialUrl,https://www.oregonlegislature.gov/bills_laws/ors/ors012.html
+limitations-or-medmal,discoveryRule,Y
+limitations-or-medmal,reposeYears,5
+limitations-or-medmal,detail,"Outer limit: every such action shall be commenced within five years from the date of the treatment, omission or operation, or within two years of discovery of fraud, deceit or misleading representation that prevented earlier commencement."
+limitations-or-wd,officialUrl,https://www.oregonlegislature.gov/bills_laws/ors/ors030.html
+limitations-or-wd,discoveryRule,Y
+limitations-or-product,officialUrl,https://www.oregonlegislature.gov/bills_laws/ors/ors030.html
+limitations-or-product,discoveryRule,Y
+limitations-or-product,reposeYears,10
+limitations-or-product,detail,Product liability action for personal injury or property damage: two years from discovery; subsection (2): must be commenced before the later of ten years after first purchase for use or consumption or the expiration of an equivalent repose period in the state of manufacture.
+limitations-or-property,officialUrl,https://www.oregonlegislature.gov/bills_laws/ors/ors012.html
+limitations-or-property,reposeYears,10
+limitations-or-property,detail,Section 12.080 provides these actions 'shall be commenced within six years.' Item (3) covers an action for waste or trespass upon or for interference with or injury to any interest of another in real property (same six-year period). Section 12.115(1) states a 10-year outer limit for negligent injury to property.
+limitations-pa-pi,officialUrl,https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/42/00.055.024.000..HTM
+limitations-pa-pi,detail,"Item (2) covers damages for injuries to the person; item (7) covers other actions to recover damages for injury to person or property founded on negligent, intentional or otherwise tortious conduct."
+limitations-pa-medmal,officialUrl,https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/42/00.055.024.000..HTM
+limitations-pa-wd,officialUrl,https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/42/00.055.024.000..HTM
+limitations-pa-wd,detail,Item (2) covers 'the death of an individual caused by the wrongful act or neglect or unlawful violence or negligence of another'.
+limitations-pa-property,officialUrl,https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/42/00.055.024.000..HTM
+limitations-ri-pi,officialUrl,https://webserver.rilegislature.gov/Statutes/TITLE9/9-1/9-1-14.htm
+limitations-ri-pi,detail,"Subsection (a): actions for words spoken, one year. Subsection (c) adds 120 days for certain direct actions against an insurer. Child sexual abuse claims are governed by § 9-1-51."
+limitations-ri-medmal,officialUrl,https://webserver.rilegislature.gov/Statutes/TITLE9/9-1/9-1-14.1.htm
+limitations-ri-medmal,discoveryRule,Y
+limitations-ri-medmal,detail,Mental incompetence or other disability: three years from removal of the disability.
+limitations-ri-wd,officialUrl,https://webserver.rilegislature.gov/Statutes/TITLE10/10-7/10-7-2.htm
+limitations-ri-wd,discoveryRule,Y
+limitations-ri-property,officialUrl,https://webserver.rilegislature.gov/Statutes/TITLE9/9-1/9-1-13.htm
+limitations-sc-pi,officialUrl,https://www.scstatehouse.gov/code/t15c003.php
+limitations-sc-pi,discoveryRule,Y
+limitations-sc-pi,detail,Section 15-3-535 states the period for item (5) actions runs from when the person knew or should have known of the cause of action.
+limitations-sc-medmal,officialUrl,https://www.scstatehouse.gov/code/t15c003.php
+limitations-sc-medmal,discoveryRule,Y
+limitations-sc-medmal,reposeYears,6
+limitations-sc-medmal,detail,"Applies to injury to the person arising out of medical, surgical or dental treatment, omission or operation by a licensed health care provider. Foreign object or appliance cases (subsection B): two years from discovery, but not less than three years after placement."
+limitations-sc-wd,officialUrl,https://www.scstatehouse.gov/code/t15c003.php
+limitations-sc-wd,detail,Period begins to run on the death.
+limitations-sc-product,detail,Strict liability and failure-to-warn product claims are timed under the three-year personal-injury statute; runs from accrual with the discovery rule of 15-3-535. The court applied this period to strict-liability and failure-to-warn claims against a product maker.
+limitations-sc-property,officialUrl,https://www.scstatehouse.gov/code/t15c003.php
+limitations-sc-property,detail,Section 15-3-530 is headed 'Three years' ('Within three years:'); items (3) real property and (4) goods or chattels.
+limitations-sd-pi,officialUrl,https://sdlegislature.gov/api/Statutes/15-2-14.html?all=true
+limitations-sd-medmal,officialUrl,https://sdlegislature.gov/api/Statutes/15-2-14.1.html?all=true
+limitations-sd-medmal,detail,"Applies to actions against physicians, surgeons, dentists, hospitals, nurses, chiropractors and other practitioners of the healing arts. Runs from when the alleged malpractice occurred."
+limitations-sd-wd,officialUrl,https://sdlegislature.gov/api/Statutes/21-5-3.html?all=true
+limitations-sd-wd,detail,Runs from the death of the deceased person.
+limitations-sd-product,officialUrl,https://sdlegislature.gov/api/Statutes/15-2-12.2.html?all=true
+limitations-sd-product,discoveryRule,Y
+limitations-sd-product,detail,"Applies to actions against a manufacturer, lessor or seller of a product for personal injury, death or property damage, regardless of legal theory. Runs from when the injury occurred, became known, or should have become known."
+limitations-sd-property,officialUrl,https://sdlegislature.gov/api/Statutes/15-2-13.html?all=true
+limitations-sd-property,detail,"Subdivision (3) is an action for trespass upon real property; subdivision (4) is an action for taking, detaining, or injuring goods or chattels. Section 15-2-12.2 sets three years for product-related property damage claims."
+limitations-tn-wd,detail,Tennessee treats a wrongful death action as subject to the one-year personal-injury period of § 28-3-104; the court counted one year from the accident and death.
+limitations-tn-product,detail,"Product-liability claims for personal injury run one year from the date of injury under the personal-injury statute (§ 28-3-104 names products-liability cases in subsection (b)(1)); this is a federal court applying Tennessee law, and the 6-year/10-year outer limits of § 29-28-103 also apply."
+limitations-tn-property,detail,"Three years for injury to personal or real property; the opinion states this for a nuisance claim over flood damage to land, and says the clock can restart for a temporary nuisance."
+limitations-tx-pi,officialUrl,https://statutes.capitol.texas.gov/Docs/CP/htm/CP.16.htm
+limitations-tx-pi,detail,Runs from the day the cause of action accrues.
+limitations-tx-medmal,officialUrl,https://statutes.capitol.texas.gov/Docs/CP/htm/CP.74.htm
+limitations-tx-medmal,reposeYears,10
+limitations-tx-medmal,detail,Health care liability claims. Minors under 12 have until their 14th birthday.
+limitations-tx-wd,officialUrl,https://statutes.capitol.texas.gov/Docs/CP/htm/CP.16.htm
+limitations-tx-wd,detail,The cause of action accrues on the death of the injured person.
+limitations-tx-property,officialUrl,https://statutes.capitol.texas.gov/Docs/CP/htm/CP.16.htm
+limitations-tx-property,detail,Covers trespass for injury to the estate or property of another and conversion or taking of personal property.
+limitations-ut-pi,officialUrl,https://le.utah.gov/xcode/Title78B/Chapter2/C78B-2-S307_2023050320230503.html
+limitations-ut-medmal,officialUrl,https://le.utah.gov/xcode/Title78B/Chapter3/C78B-3-S404_1800010118000101.html
+limitations-ut-medmal,discoveryRule,Y
+limitations-ut-medmal,reposeYears,4
+limitations-ut-medmal,detail,Subsection (2) provides separate one-year periods for foreign objects and fraudulent concealment.
+limitations-ut-wd,officialUrl,https://le.utah.gov/xcode/Title78B/Chapter2/C78B-2-S304_2026050620260506.html
+limitations-ut-product,officialUrl,https://le.utah.gov/xcode/Title78B/Chapter6/C78B-6-S706_1800010118000101.html
+limitations-ut-product,discoveryRule,Y
+limitations-ut-product,detail,Part 7 is the Utah Product Liability Act. Runs from discovery of both the harm and its cause.
+limitations-ut-property,officialUrl,https://le.utah.gov/xcode/Title78B/Chapter2/C78B-2-S305_2026032320260323.html
+limitations-ut-property,detail,Section 78B-2-307(3) separately provides four years for personal property damage to a motor vehicle or personal property from an accident involving a motor vehicle.
+limitations-va-pi,officialUrl,https://law.lis.virginia.gov/vacode/title8.01/chapter4/section8.01-243/
+limitations-va-pi,detail,Runs from when the cause of action accrues. Longer periods apply to certain sexual-abuse claims (subsections D to D2).
+limitations-va-medmal,officialUrl,https://law.lis.virginia.gov/vacode/title8.01/chapter4/section8.01-243/
+limitations-va-medmal,reposeYears,10
+limitations-va-medmal,detail,"General two-year personal-injury period in subsection A, extended in malpractice actions against a health care provider for foreign objects, fraud or concealment, and failure to diagnose cancer (1 year from discovery or communication of diagnosis); extensions limited to 10 years from accrual."
+limitations-va-wd,officialUrl,https://law.lis.virginia.gov/vacode/title8.01/chapter4/section8.01-244/
+limitations-va-wd,detail,Runs from the death of the injured person.
+limitations-va-product,detail,"Product claims (strict liability, warranty, negligence) fall under the two-year personal-injury statute ""whatever the theory of recovery""; runs from accrual."
+limitations-va-property,officialUrl,https://law.lis.virginia.gov/vacode/title8.01/chapter4/section8.01-243/
+limitations-va-property,detail,Runs from when the cause of action accrues.
+limitations-vt-pi,officialUrl,https://legislature.vermont.gov/statutes/section/12/023/00512
+limitations-vt-pi,discoveryRule,Y
+limitations-vt-pi,detail,Subdivision (4) deems the cause of action to accrue on the date of discovery of the injury.
+limitations-vt-medmal,officialUrl,https://legislature.vermont.gov/statutes/section/12/023/00521
+limitations-vt-medmal,discoveryRule,Y
+limitations-vt-medmal,reposeYears,7
+limitations-vt-medmal,detail,"Three years from the incident or two years from discovery, whichever is later; fraudulent concealment and foreign-object provisions are in the section."
+limitations-vt-wd,officialUrl,https://legislature.vermont.gov/statutes/section/14/071/01492
+limitations-vt-wd,discoveryRule,Y
+limitations-vt-wd,detail,Runs from discovery of the death of the person.
+limitations-vt-property,officialUrl,https://legislature.vermont.gov/statutes/section/12/023/00512
+limitations-vt-property,detail,Subdivision (5) covers damage to personal property suffered by the act or default of another.
+limitations-wa-pi,officialUrl,https://lawfilesext.leg.wa.gov/law/RCW/RCW%20%20%204%20%20TITLE/RCW%20%20%204%20.%2016%20%20CHAPTER/RCW%20%20%204%20.%2016%20.080.htm
+limitations-wa-medmal,officialUrl,https://lawfilesext.leg.wa.gov/law/RCW/RCW%20%20%204%20%20TITLE/RCW%20%20%204%20.%2016%20%20CHAPTER/RCW%20%20%204%20.%2016%20.350.htm
+limitations-wa-medmal,discoveryRule,Y
+limitations-wa-medmal,reposeYears,8
+limitations-wa-medmal,detail,"Three years from the act or omission, or one year from discovery, whichever expires later; tolling for fraud, intentional concealment or a foreign body. Applies to actions based on alleged professional negligence against licensed health care providers and entities."
+limitations-wa-product,officialUrl,https://lawfilesext.leg.wa.gov/law/RCW/RCW%20%20%207%20%20TITLE/RCW%20%20%207%20.%2072%20%20CHAPTER/RCW%20%20%207%20.%2072%20.060.htm
+limitations-wa-product,discoveryRule,Y
+limitations-wa-product,detail,Runs from discovery of the harm and its cause.
+limitations-wa-property,officialUrl,https://lawfilesext.leg.wa.gov/law/RCW/RCW%20%20%204%20%20TITLE/RCW%20%20%204%20.%2016%20%20CHAPTER/RCW%20%20%204%20.%2016%20.080.htm
+limitations-wa-property,detail,"Subsection (1) covers waste or trespass upon real property; subsection (2) covers taking, detaining or injuring personal property."
+limitations-wi-pi,officialUrl,https://docs.legis.wisconsin.gov/document/statutes/893.54
+limitations-wi-pi,detail,Subsection (1m)(a) includes motor-vehicle-accident injury actions in the same 3-year period.
+limitations-wi-medmal,officialUrl,https://docs.legis.wisconsin.gov/document/statutes/893.54
+limitations-wi-medmal,discoveryRule,Y
+limitations-wi-medmal,reposeYears,5
+limitations-wi-medmal,detail,Applies to actions for injury arising from treatment or omission by a health care provider. Later of 3 years from the date of the injury or 1 year from discovery; subsections (2) and (3) address concealment and foreign objects.
+limitations-wi-wd,officialUrl,https://docs.legis.wisconsin.gov/document/statutes/893.54
+limitations-wi-wd,detail,Subsection (2m) provides 2 years after the cause of action accrues for wrongful-death actions arising from an accident involving a motor vehicle.
+limitations-wi-property,officialUrl,https://docs.legis.wisconsin.gov/document/statutes/893.52
+limitations-wi-property,detail,Subsection (2) provides 3 years after the cause of action accrues for property damage arising from an accident involving a motor vehicle.
+limitations-wv-pi,officialUrl,https://code.wvlegislature.gov/55-2-12/
+limitations-wv-medmal,officialUrl,https://code.wvlegislature.gov/55-7B-4/
+limitations-wv-medmal,discoveryRule,Y
+limitations-wv-medmal,reposeYears,10
+limitations-wv-medmal,detail,"Subsection (a) applies to health care providers other than nursing homes, assisted living facilities and certain related entities; subsection (b) provides one year for those entities. Subsection (c) addresses injuries to minors under age 10."
+limitations-wv-wd,officialUrl,https://code.wvlegislature.gov/55-7-6/
+limitations-wv-wd,detail,Runs from the death of the deceased person.
+limitations-wv-product,detail,"Products liability claims are timed under the two-year personal-injury item of 55-2-12(b); runs from accrual, with the discovery rule applied to products cases (Hickman v. Grover)."
+limitations-wv-property,officialUrl,https://code.wvlegislature.gov/55-2-12/
+limitations-wy-pi,officialUrl,https://www.wyoleg.gov/statutes/compress/title01.pdf
+limitations-wy-pi,detail,Runs from when the cause of action accrues.
+limitations-wy-medmal,officialUrl,https://www.wyoleg.gov/statutes/compress/title01.pdf
+limitations-wy-wd,officialUrl,https://www.wyoleg.gov/statutes/compress/title01.pdf
+limitations-wy-wd,detail,Runs from the death of the decedent.
+limitations-wy-property,officialUrl,https://www.wyoleg.gov/statutes/compress/title01.pdf
+limitations-wy-property,detail,"Subparagraph (A) covers trespass upon real property; (B) covers recovery of, taking, detaining or injuring personal property."

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Noncitizen population by state and county (Census ACS, table B05001), 2026, https://doi.org/10.5281/zenodo.23850653."
+message: "If you use this dataset, please cite it as: Probative Growth, Noncitizen population by state and county (Census ACS, table B05001), 2026, https://doi.org/10.5281/zenodo.23963957."
 title: "Noncitizen population by state and county (Census ACS, table B05001)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23850653"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963957"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23850652"

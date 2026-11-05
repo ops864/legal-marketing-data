@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, VA disability compensation, pension and survivor dollars by county (VA GDX report), 2026, https://doi.org/10.5281/zenodo.23753088."
+message: "If you use this dataset, please cite it as: Probative Growth, VA disability compensation, pension and survivor dollars by county (VA GDX report), 2026, https://doi.org/10.5281/zenodo.23964263."
 title: "VA disability compensation, pension and survivor dollars by county (VA GDX report)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23753088"
+version: "2.0.0"
+doi: "10.5281/zenodo.23964263"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23753087"

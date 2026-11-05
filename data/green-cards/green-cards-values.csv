@@ -1,0 +1,2123 @@
+id,column,value
+green-cards:US:FY2024,counties_listed,200
+green-cards:US:FY2024,state_total_yearbook,1364090
+green-cards:US:FY2024,listed_share_pct,73.9
+green-cards:AZ:FY2024,stateName,Arizona
+green-cards:AZ:FY2024,counties_listed,3
+green-cards:AZ:FY2024,state_total_yearbook,24890
+green-cards:AZ:FY2024,listed_share_pct,81.6
+green-cards:04013:FY2024,county,04013
+green-cards:04013:FY2024,countyName,Maricopa County
+green-cards:04013:FY2024,stateName,Arizona
+green-cards:04013:FY2024,top_countries,"Mexico (7,270); Cuba (2,020); India (610); Vietnam (480); Philippines (460); Afghanistan (410); China, People's Republic (380); Canada (250); Congo, Democratic Republic (180); Guatemala (160)"
+green-cards:04013:FY2024,admissions_listed_prev,12790
+green-cards:04019:FY2024,county,04019
+green-cards:04019:FY2024,countyName,Pima County
+green-cards:04019:FY2024,stateName,Arizona
+green-cards:04019:FY2024,top_countries,"Mexico (1,930); Afghanistan (160); Vietnam (90); Philippines (80); China, People's Republic (70); Cuba (50); India (40); Canada (30); Congo, Democratic Republic (30); Iraq (30)"
+green-cards:04019:FY2024,admissions_listed_prev,2640
+green-cards:04027:FY2024,county,04027
+green-cards:04027:FY2024,countyName,Yuma County
+green-cards:04027:FY2024,stateName,Arizona
+green-cards:04027:FY2024,top_countries,"Mexico (1,360); Philippines (10)"
+green-cards:04027:FY2024,admissions_listed_prev,1810
+green-cards:CA:FY2024,stateName,California
+green-cards:CA:FY2024,counties_listed,24
+green-cards:CA:FY2024,state_total_yearbook,217420
+green-cards:CA:FY2024,listed_share_pct,85.1
+green-cards:06001:FY2024,county,06001
+green-cards:06001:FY2024,countyName,Alameda County
+green-cards:06001:FY2024,stateName,California
+green-cards:06001:FY2024,top_countries,"India (2,160); China, People's Republic (2,130); Mexico (1,580); Philippines (800); Afghanistan (780); Guatemala (640); El Salvador (450); Vietnam (400); Pakistan (220); Korea, South (160)"
+green-cards:06001:FY2024,admissions_listed_prev,13700
+green-cards:06013:FY2024,county,06013
+green-cards:06013:FY2024,countyName,Contra Costa County
+green-cards:06013:FY2024,stateName,California
+green-cards:06013:FY2024,top_countries,"Mexico (1,100); Philippines (740); China, People's Republic (640); Afghanistan (620); India (610); El Salvador (330); Nepal (310); Guatemala (190); Vietnam (150); Brazil (140)"
+green-cards:06013:FY2024,admissions_listed_prev,6930
+green-cards:06019:FY2024,county,06019
+green-cards:06019:FY2024,countyName,Fresno County
+green-cards:06019:FY2024,stateName,California
+green-cards:06019:FY2024,top_countries,"Mexico (1,630); India (1,040); Philippines (130); El Salvador (120); Afghanistan (110); Vietnam (70); China, People's Republic (50); Yemen (50); Laos (40); Armenia (30)"
+green-cards:06019:FY2024,admissions_listed_prev,3400
+green-cards:06025:FY2024,county,06025
+green-cards:06025:FY2024,countyName,Imperial County
+green-cards:06025:FY2024,stateName,California
+green-cards:06025:FY2024,top_countries,"Mexico (1,540); Philippines (20); Guatemala (10)"
+green-cards:06025:FY2024,admissions_listed_prev,1800
+green-cards:06029:FY2024,county,06029
+green-cards:06029:FY2024,countyName,Kern County
+green-cards:06029:FY2024,stateName,California
+green-cards:06029:FY2024,top_countries,"Mexico (1,540); India (460); Philippines (230); El Salvador (110); Peru (40); Yemen (40); Guatemala (30); Honduras (30); Nigeria (30); Syria (30)"
+green-cards:06029:FY2024,admissions_listed_prev,2910
+green-cards:06037:FY2024,county,06037
+green-cards:06037:FY2024,countyName,Los Angeles County
+green-cards:06037:FY2024,stateName,California
+green-cards:06037:FY2024,top_countries,"Mexico (13,170); China, People's Republic (6,040); Philippines (3,540); Armenia (3,280); El Salvador (3,110); Guatemala (1,900); Korea, South (1,790); Vietnam (1,430); Iran (1,250); India (960)"
+green-cards:06037:FY2024,admissions_listed_prev,52230
+green-cards:06053:FY2024,county,06053
+green-cards:06053:FY2024,countyName,Monterey County
+green-cards:06053:FY2024,stateName,California
+green-cards:06053:FY2024,top_countries,"Mexico (900); Philippines (80); El Salvador (50); India (30); Vietnam (30); China, People's Republic (20); Yemen (20); Colombia (10); Honduras (10); Lebanon (10)"
+green-cards:06053:FY2024,admissions_listed_prev,1420
+green-cards:06059:FY2024,county,06059
+green-cards:06059:FY2024,countyName,Orange County
+green-cards:06059:FY2024,stateName,California
+green-cards:06059:FY2024,top_countries,"Mexico (3,760); Vietnam (2,950); China, People's Republic (2,570); Korea, South (1,070); Philippines (930); Iran (720); India (580); Afghanistan (320); Egypt (320); Taiwan (250)"
+green-cards:06059:FY2024,admissions_listed_prev,19720
+green-cards:06061:FY2024,county,06061
+green-cards:06061:FY2024,countyName,Placer County
+green-cards:06061:FY2024,stateName,California
+green-cards:06061:FY2024,top_countries,"Afghanistan (220); Mexico (140); India (130); Philippines (120); China, People's Republic (50); Ukraine (50); Iran (30); Russia (30); Brazil (20); Egypt (20)"
+green-cards:06061:FY2024,admissions_listed_prev,890
+green-cards:06065:FY2024,county,06065
+green-cards:06065:FY2024,countyName,Riverside County
+green-cards:06065:FY2024,stateName,California
+green-cards:06065:FY2024,top_countries,"Mexico (4,110); Philippines (590); China, People's Republic (470); India (310); Vietnam (240); El Salvador (220); Guatemala (190); Afghanistan (130); Egypt (100); Cuba (80)"
+green-cards:06065:FY2024,admissions_listed_prev,7880
+green-cards:06067:FY2024,county,06067
+green-cards:06067:FY2024,countyName,Sacramento County
+green-cards:06067:FY2024,stateName,California
+green-cards:06067:FY2024,top_countries,"Afghanistan (4,790); Mexico (1,280); India (960); Philippines (520); Vietnam (470); Ukraine (360); China, People's Republic (340); Fiji (270); Pakistan (270); Russia (200)"
+green-cards:06067:FY2024,admissions_listed_prev,9780
+green-cards:06071:FY2024,county,06071
+green-cards:06071:FY2024,countyName,San Bernardino County
+green-cards:06071:FY2024,stateName,California
+green-cards:06071:FY2024,top_countries,"Mexico (3,360); China, People's Republic (1,190); Philippines (500); India (350); El Salvador (270); Vietnam (200); Guatemala (140); Syria (130); Egypt (110); Colombia (100)"
+green-cards:06071:FY2024,admissions_listed_prev,7430
+green-cards:06073:FY2024,county,06073
+green-cards:06073:FY2024,countyName,San Diego County
+green-cards:06073:FY2024,stateName,California
+green-cards:06073:FY2024,top_countries,"Mexico (7,550); Afghanistan (1,700); Philippines (1,380); China, People's Republic (930); Vietnam (610); India (490); Brazil (440); Iran (310); Iraq (300); Korea, South (300)"
+green-cards:06073:FY2024,admissions_listed_prev,17210
+green-cards:06075:FY2024,county,06075
+green-cards:06075:FY2024,countyName,San Francisco County
+green-cards:06075:FY2024,stateName,California
+green-cards:06075:FY2024,top_countries,"China, People's Republic (1,200); Mexico (690); India (300); El Salvador (270); Guatemala (260); Philippines (260); Vietnam (230); Honduras (150); Brazil (130); Canada (130)"
+green-cards:06075:FY2024,admissions_listed_prev,6630
+green-cards:06077:FY2024,county,06077
+green-cards:06077:FY2024,countyName,San Joaquin County
+green-cards:06077:FY2024,stateName,California
+green-cards:06077:FY2024,top_countries,"India (1,140); Mexico (1,080); Philippines (400); Pakistan (270); Afghanistan (230); Vietnam (100); Guatemala (80); China, People's Republic (40); El Salvador (40); Fiji (40)"
+green-cards:06077:FY2024,admissions_listed_prev,3480
+green-cards:06081:FY2024,county,06081
+green-cards:06081:FY2024,countyName,San Mateo County
+green-cards:06081:FY2024,stateName,California
+green-cards:06081:FY2024,top_countries,"China, People's Republic (1,150); Philippines (680); Mexico (460); India (330); El Salvador (220); Brazil (200); Guatemala (190); Burma (90); Iran (90); Nepal (80)"
+green-cards:06081:FY2024,admissions_listed_prev,5180
+green-cards:06083:FY2024,county,06083
+green-cards:06083:FY2024,countyName,Santa Barbara County
+green-cards:06083:FY2024,stateName,California
+green-cards:06083:FY2024,top_countries,"Mexico (720); Philippines (100); China, People's Republic (30); El Salvador (30); India (20); Vietnam (20); Brazil (10); Canada (10); Colombia (10); France (10)"
+green-cards:06083:FY2024,admissions_listed_prev,1000
+green-cards:06085:FY2024,county,06085
+green-cards:06085:FY2024,countyName,Santa Clara County
+green-cards:06085:FY2024,stateName,California
+green-cards:06085:FY2024,top_countries,"China, People's Republic (5,150); India (2,590); Mexico (2,090); Vietnam (1,930); Philippines (890); Korea, South (720); Taiwan (540); Iran (400); Russia (390); Afghanistan (270)"
+green-cards:06085:FY2024,admissions_listed_prev,20220
+green-cards:06095:FY2024,county,06095
+green-cards:06095:FY2024,countyName,Solano County
+green-cards:06095:FY2024,stateName,California
+green-cards:06095:FY2024,top_countries,"Mexico (430); Philippines (360); India (130); El Salvador (70); Guatemala (40); China, People's Republic (30); Fiji (30); Jordan (20); Pakistan (20); Peru (20)"
+green-cards:06095:FY2024,admissions_listed_prev,1400
+green-cards:06097:FY2024,county,06097
+green-cards:06097:FY2024,countyName,Sonoma County
+green-cards:06097:FY2024,stateName,California
+green-cards:06097:FY2024,top_countries,"Mexico (760); Fiji (110); Philippines (110); India (60); El Salvador (40); Nepal (40); Vietnam (30); Brazil (20); China, People's Republic (20); Cuba (20)"
+green-cards:06097:FY2024,admissions_listed_prev,1390
+green-cards:06099:FY2024,county,06099
+green-cards:06099:FY2024,countyName,Stanislaus County
+green-cards:06099:FY2024,stateName,California
+green-cards:06099:FY2024,top_countries,"Mexico (1,000); Afghanistan (710); India (240); Philippines (70); El Salvador (50); Syria (50); Fiji (40); Vietnam (40); Cambodia (20); China, People's Republic (20)"
+green-cards:06099:FY2024,admissions_listed_prev,2150
+green-cards:06107:FY2024,county,06107
+green-cards:06107:FY2024,countyName,Tulare County
+green-cards:06107:FY2024,stateName,California
+green-cards:06107:FY2024,top_countries,"Mexico (1,050); Philippines (70); India (40); Yemen (20); Canada (10); China, People's Republic (10); Cuba (10); El Salvador (10); Pakistan (10); Vietnam (10)"
+green-cards:06107:FY2024,admissions_listed_prev,1300
+green-cards:06111:FY2024,county,06111
+green-cards:06111:FY2024,countyName,Ventura County
+green-cards:06111:FY2024,stateName,California
+green-cards:06111:FY2024,top_countries,"Mexico (1,200); Philippines (260); India (150); China, People's Republic (140); Vietnam (80); El Salvador (70); Colombia (50); Syria (50); Brazil (40); Guatemala (40)"
+green-cards:06111:FY2024,admissions_listed_prev,2410
+green-cards:06113:FY2024,county,06113
+green-cards:06113:FY2024,countyName,Yolo County
+green-cards:06113:FY2024,stateName,California
+green-cards:06113:FY2024,top_countries,"Mexico (230); Afghanistan (140); India (80); China, People's Republic (70); Pakistan (50); Nepal (40); Philippines (40); Iran (30); Brazil (20); Fiji (20)"
+green-cards:06113:FY2024,admissions_listed_prev,730
+green-cards:CO:FY2024,stateName,Colorado
+green-cards:CO:FY2024,counties_listed,6
+green-cards:CO:FY2024,state_total_yearbook,17350
+green-cards:CO:FY2024,listed_share_pct,61.5
+green-cards:08001:FY2024,county,08001
+green-cards:08001:FY2024,countyName,Adams County
+green-cards:08001:FY2024,stateName,Colorado
+green-cards:08001:FY2024,top_countries,"Mexico (1,110); Afghanistan (320); Nepal (100); Cuba (90); Vietnam (70); China, People's Republic (30); Colombia (30); El Salvador (30); Philippines (30); Honduras (20)"
+green-cards:08001:FY2024,admissions_listed_prev,1630
+green-cards:08005:FY2024,county,08005
+green-cards:08005:FY2024,countyName,Arapahoe County
+green-cards:08005:FY2024,stateName,Colorado
+green-cards:08005:FY2024,top_countries,"Mexico (840); Afghanistan (380); Ethiopia (280); Cuba (150); China, People's Republic (120); Vietnam (110); India (100); Philippines (90); El Salvador (80); Ghana (70)"
+green-cards:08005:FY2024,admissions_listed_prev,2870
+green-cards:08031:FY2024,county,08031
+green-cards:08031:FY2024,countyName,Denver County
+green-cards:08031:FY2024,stateName,Colorado
+green-cards:08031:FY2024,top_countries,"Mexico (1,020); Afghanistan (210); Cuba (120); Ethiopia (120); Vietnam (120); Colombia (70); El Salvador (70); Sudan (60); Canada (50); Algeria (40)"
+green-cards:08031:FY2024,admissions_listed_prev,2370
+green-cards:08041:FY2024,county,08041
+green-cards:08041:FY2024,countyName,El Paso County
+green-cards:08041:FY2024,stateName,Colorado
+green-cards:08041:FY2024,top_countries,"Mexico (330); Cuba (270); Philippines (70); Afghanistan (50); Vietnam (50); Colombia (40); Jamaica (40); Nepal (40); China, People's Republic (30); India (30)"
+green-cards:08041:FY2024,admissions_listed_prev,870
+green-cards:08059:FY2024,county,08059
+green-cards:08059:FY2024,countyName,Jefferson County
+green-cards:08059:FY2024,stateName,Colorado
+green-cards:08059:FY2024,top_countries,"Mexico (280); Vietnam (60); Canada (40); China, People's Republic (40); Nepal (40); Brazil (30); Colombia (30); Cuba (30); Afghanistan (20); Guatemala (20)"
+green-cards:08059:FY2024,admissions_listed_prev,680
+green-cards:08123:FY2024,county,08123
+green-cards:08123:FY2024,countyName,Weld County
+green-cards:08123:FY2024,stateName,Colorado
+green-cards:08123:FY2024,top_countries,Mexico (510); Burma (40); Cuba (40); Benin (30); Brazil (20); India (20); Malaysia (20); Nepal (20); Afghanistan (10); Belarus (10)
+green-cards:CT:FY2024,stateName,Connecticut
+green-cards:CT:FY2024,counties_listed,3
+green-cards:CT:FY2024,state_total_yearbook,12700
+green-cards:CT:FY2024,listed_share_pct,71.5
+green-cards:09001:FY2024,county,09001
+green-cards:09001:FY2024,countyName,Fairfield County
+green-cards:09001:FY2024,stateName,Connecticut
+green-cards:09001:FY2024,top_countries,"Dominican Republic (500); Jamaica (390); Brazil (350); Ecuador (310); Colombia (200); Guatemala (180); India (170); Mexico (130); Peru (130); China, People's Republic (100)"
+green-cards:09001:FY2024,admissions_listed_prev,4400
+green-cards:09003:FY2024,county,09003
+green-cards:09003:FY2024,countyName,Hartford County
+green-cards:09003:FY2024,stateName,Connecticut
+green-cards:09003:FY2024,top_countries,"Jamaica (630); India (300); Dominican Republic (270); Ghana (130); Pakistan (130); Peru (120); China, People's Republic (100); Albania (60); Brazil (60); Colombia (60)"
+green-cards:09003:FY2024,admissions_listed_prev,3100
+green-cards:09009:FY2024,county,09009
+green-cards:09009:FY2024,countyName,New Haven County
+green-cards:09009:FY2024,stateName,Connecticut
+green-cards:09009:FY2024,top_countries,"Dominican Republic (340); Afghanistan (290); Jamaica (240); Ecuador (200); China, People's Republic (120); Mexico (120); Pakistan (100); India (90); Albania (80); Brazil (70)"
+green-cards:09009:FY2024,admissions_listed_prev,2680
+green-cards:DC:FY2024,stateName,District of Columbia
+green-cards:DC:FY2024,counties_listed,1
+green-cards:DC:FY2024,state_total_yearbook,2890
+green-cards:DC:FY2024,listed_share_pct,77.2
+green-cards:11001:FY2024,county,11001
+green-cards:11001:FY2024,countyName,District of Columbia
+green-cards:11001:FY2024,stateName,District of Columbia
+green-cards:11001:FY2024,top_countries,"El Salvador (330); Ethiopia (230); Mexico (180); Brazil (110); China, People's Republic (90); Colombia (70); Dominican Republic (70); Honduras (70); India (70); Nigeria (70)"
+green-cards:11001:FY2024,admissions_listed_prev,2040
+green-cards:DE:FY2024,stateName,Delaware
+green-cards:DE:FY2024,counties_listed,1
+green-cards:DE:FY2024,state_total_yearbook,2740
+green-cards:DE:FY2024,listed_share_pct,55.5
+green-cards:10003:FY2024,county,10003
+green-cards:10003:FY2024,countyName,New Castle County
+green-cards:10003:FY2024,stateName,Delaware
+green-cards:10003:FY2024,top_countries,"Mexico (190); India (160); China, People's Republic (140); Dominican Republic (110); Jamaica (100); Nigeria (100); Kenya (60); Ghana (50); Pakistan (50); Cameroon (40)"
+green-cards:10003:FY2024,admissions_listed_prev,1320
+green-cards:FL:FY2024,stateName,Florida
+green-cards:FL:FY2024,counties_listed,21
+green-cards:FL:FY2024,state_total_yearbook,219470
+green-cards:FL:FY2024,listed_share_pct,88.6
+green-cards:12009:FY2024,county,12009
+green-cards:12009:FY2024,countyName,Brevard County
+green-cards:12009:FY2024,stateName,Florida
+green-cards:12009:FY2024,top_countries,"Cuba (390); Jamaica (140); Brazil (100); Philippines (70); Colombia (60); India (60); Dominican Republic (50); Venezuela (40); China, People's Republic (30); Mexico (30)"
+green-cards:12009:FY2024,admissions_listed_prev,830
+green-cards:12011:FY2024,county,12011
+green-cards:12011:FY2024,countyName,Broward County
+green-cards:12011:FY2024,stateName,Florida
+green-cards:12011:FY2024,top_countries,"Cuba (5,210); Jamaica (2,120); Colombia (1,860); Brazil (1,350); Venezuela (1,220); Haiti (1,140); Dominican Republic (760); Peru (540); Russia (390); Argentina (350)"
+green-cards:12011:FY2024,admissions_listed_prev,19130
+green-cards:12021:FY2024,county,12021
+green-cards:12021:FY2024,countyName,Collier County
+green-cards:12021:FY2024,stateName,Florida
+green-cards:12021:FY2024,top_countries,"Cuba (3,620); Mexico (190); Haiti (160); Colombia (140); Venezuela (80); Bolivia (60); Jamaica (60); Dominican Republic (40); Albania (30); China, People's Republic (30)"
+green-cards:12021:FY2024,admissions_listed_prev,2420
+green-cards:12031:FY2024,county,12031
+green-cards:12031:FY2024,countyName,Duval County
+green-cards:12031:FY2024,stateName,Florida
+green-cards:12031:FY2024,top_countries,"Cuba (2,150); Afghanistan (370); Philippines (230); India (150); Jamaica (140); Brazil (130); Colombia (130); Vietnam (120); Albania (100); Venezuela (100)"
+green-cards:12031:FY2024,admissions_listed_prev,3250
+green-cards:12057:FY2024,county,12057
+green-cards:12057:FY2024,countyName,Hillsborough County
+green-cards:12057:FY2024,stateName,Florida
+green-cards:12057:FY2024,top_countries,"Cuba (13,590); Colombia (580); Dominican Republic (400); Mexico (400); India (360); Brazil (340); Venezuela (300); Vietnam (210); Jamaica (200); Honduras (170)"
+green-cards:12057:FY2024,admissions_listed_prev,10020
+green-cards:12069:FY2024,county,12069
+green-cards:12069:FY2024,countyName,Lake County
+green-cards:12069:FY2024,stateName,Florida
+green-cards:12069:FY2024,top_countries,Brazil (200); Cuba (170); Mexico (110); Venezuela (80); Colombia (70); Jamaica (70); Dominican Republic (50); Philippines (50); Canada (20); Ecuador (20)
+green-cards:12069:FY2024,admissions_listed_prev,730
+green-cards:12071:FY2024,county,12071
+green-cards:12071:FY2024,countyName,Lee County
+green-cards:12071:FY2024,stateName,Florida
+green-cards:12071:FY2024,top_countries,"Cuba (6,680); Mexico (260); Brazil (160); Colombia (160); Haiti (160); Jamaica (140); Dominican Republic (130); Venezuela (110); Guatemala (60); Honduras (60)"
+green-cards:12071:FY2024,admissions_listed_prev,3700
+green-cards:12081:FY2024,county,12081
+green-cards:12081:FY2024,countyName,Manatee County
+green-cards:12081:FY2024,stateName,Florida
+green-cards:12081:FY2024,top_countries,Cuba (930); Mexico (120); Venezuela (70); Brazil (60); Colombia (60); Vietnam (50); Argentina (30); Canada (30); Dominican Republic (30); Haiti (30)
+green-cards:12081:FY2024,admissions_listed_prev,1010
+green-cards:12083:FY2024,county,12083
+green-cards:12083:FY2024,countyName,Marion County
+green-cards:12083:FY2024,stateName,Florida
+green-cards:12083:FY2024,top_countries,Cuba (400); Jamaica (70); Colombia (40); Dominican Republic (40); Mexico (40); Venezuela (40); Brazil (30); India (30); Philippines (30); Vietnam (30)
+green-cards:12086:FY2024,county,12086
+green-cards:12086:FY2024,countyName,Miami-Dade County
+green-cards:12086:FY2024,stateName,Florida
+green-cards:12086:FY2024,top_countries,"Cuba (69,220); Venezuela (3,120); Colombia (3,060); Dominican Republic (1,250); Argentina (1,110); Brazil (1,110); Nicaragua (960); Honduras (950); Peru (870); Haiti (860)"
+green-cards:12086:FY2024,admissions_listed_prev,63720
+green-cards:12087:FY2024,county,12087
+green-cards:12087:FY2024,countyName,Monroe County
+green-cards:12087:FY2024,stateName,Florida
+green-cards:12087:FY2024,top_countries,Cuba (680); Dominican Republic (30); Haiti (30); Nicaragua (30); Argentina (10); Colombia (10); Czechia (10); Ecuador (10); Jamaica (10); Kazakhstan (10)
+green-cards:12095:FY2024,county,12095
+green-cards:12095:FY2024,countyName,Orange County
+green-cards:12095:FY2024,stateName,Florida
+green-cards:12095:FY2024,top_countries,"Cuba (3,160); Brazil (2,470); Venezuela (1,040); Colombia (830); Dominican Republic (680); Jamaica (560); Haiti (490); Philippines (320); Mexico (280); Vietnam (240)"
+green-cards:12095:FY2024,admissions_listed_prev,11650
+green-cards:12097:FY2024,county,12097
+green-cards:12097:FY2024,countyName,Osceola County
+green-cards:12097:FY2024,stateName,Florida
+green-cards:12097:FY2024,top_countries,"Cuba (1,050); Venezuela (480); Brazil (420); Dominican Republic (410); Colombia (370); Ecuador (100); Jamaica (100); Peru (90); Haiti (60); Mexico (60)"
+green-cards:12097:FY2024,admissions_listed_prev,2710
+green-cards:12099:FY2024,county,12099
+green-cards:12099:FY2024,countyName,Palm Beach County
+green-cards:12099:FY2024,stateName,Florida
+green-cards:12099:FY2024,top_countries,"Cuba (5,460); Brazil (1,150); Haiti (860); Colombia (750); Jamaica (650); Dominican Republic (280); Mexico (280); Venezuela (280); Guatemala (230); Honduras (220)"
+green-cards:12099:FY2024,admissions_listed_prev,11270
+green-cards:12101:FY2024,county,12101
+green-cards:12101:FY2024,countyName,Pasco County
+green-cards:12101:FY2024,stateName,Florida
+green-cards:12101:FY2024,top_countries,Cuba (970); Colombia (130); India (110); Venezuela (90); Brazil (80); Dominican Republic (70); Mexico (70); Egypt (60); Jamaica (40); Philippines (40)
+green-cards:12101:FY2024,admissions_listed_prev,1460
+green-cards:12103:FY2024,county,12103
+green-cards:12103:FY2024,countyName,Pinellas County
+green-cards:12103:FY2024,stateName,Florida
+green-cards:12103:FY2024,top_countries,"Cuba (1,120); Brazil (150); Colombia (140); Mexico (140); Albania (120); Vietnam (120); Philippines (100); Afghanistan (90); Jamaica (80); Russia (80)"
+green-cards:12103:FY2024,admissions_listed_prev,2190
+green-cards:12105:FY2024,county,12105
+green-cards:12105:FY2024,countyName,Polk County
+green-cards:12105:FY2024,stateName,Florida
+green-cards:12105:FY2024,top_countries,"Cuba (1,270); Mexico (230); Dominican Republic (220); Venezuela (190); Jamaica (180); Colombia (170); Brazil (160); Haiti (110); India (60); Peru (60)"
+green-cards:12105:FY2024,admissions_listed_prev,2140
+green-cards:12111:FY2024,county,12111
+green-cards:12111:FY2024,countyName,St. Lucie County
+green-cards:12111:FY2024,stateName,Florida
+green-cards:12111:FY2024,top_countries,Cuba (620); Jamaica (240); Haiti (120); Colombia (100); Dominican Republic (100); Mexico (90); Brazil (50); Venezuela (40); Honduras (30); Guatemala (20)
+green-cards:12111:FY2024,admissions_listed_prev,1360
+green-cards:12115:FY2024,county,12115
+green-cards:12115:FY2024,countyName,Sarasota County
+green-cards:12115:FY2024,stateName,Florida
+green-cards:12115:FY2024,top_countries,"Cuba (1,050); Mexico (90); Brazil (80); Colombia (60); Venezuela (50); Ukraine (40); Canada (30); Germany (30); Peru (30); Philippines (30)"
+green-cards:12115:FY2024,admissions_listed_prev,1090
+green-cards:12117:FY2024,county,12117
+green-cards:12117:FY2024,countyName,Seminole County
+green-cards:12117:FY2024,stateName,Florida
+green-cards:12117:FY2024,top_countries,"Cuba (340); India (120); Colombia (110); Venezuela (110); Brazil (90); Dominican Republic (90); Kenya (70); China, People's Republic (60); Ecuador (50); Jamaica (50)"
+green-cards:12117:FY2024,admissions_listed_prev,1660
+green-cards:12127:FY2024,county,12127
+green-cards:12127:FY2024,countyName,Volusia County
+green-cards:12127:FY2024,stateName,Florida
+green-cards:12127:FY2024,top_countries,Cuba (320); Jamaica (160); Philippines (140); Mexico (70); Colombia (60); Dominican Republic (60); Vietnam (60); Brazil (40); India (40); Venezuela (40)
+green-cards:12127:FY2024,admissions_listed_prev,920
+green-cards:GA:FY2024,stateName,Georgia
+green-cards:GA:FY2024,counties_listed,6
+green-cards:GA:FY2024,state_total_yearbook,35100
+green-cards:GA:FY2024,listed_share_pct,55.8
+green-cards:13051:FY2024,county,13051
+green-cards:13051:FY2024,countyName,Chatham County
+green-cards:13051:FY2024,stateName,Georgia
+green-cards:13051:FY2024,top_countries,"Jamaica (170); Kenya (130); India (70); Zimbabwe (70); Philippines (60); Afghanistan (50); Cuba (40); Nigeria (30); Vietnam (30); China, People's Republic (20)"
+green-cards:13051:FY2024,admissions_listed_prev,900
+green-cards:13067:FY2024,county,13067
+green-cards:13067:FY2024,countyName,Cobb County
+green-cards:13067:FY2024,stateName,Georgia
+green-cards:13067:FY2024,top_countries,"Mexico (450); Brazil (360); India (240); Nigeria (230); Colombia (120); El Salvador (120); Jamaica (120); China, People's Republic (110); Kenya (90); Cuba (70)"
+green-cards:13067:FY2024,admissions_listed_prev,2710
+green-cards:13089:FY2024,county,13089
+green-cards:13089:FY2024,countyName,DeKalb County
+green-cards:13089:FY2024,stateName,Georgia
+green-cards:13089:FY2024,top_countries,"Afghanistan (690); Ethiopia (320); Jamaica (300); Mexico (280); India (180); Nigeria (140); Bangladesh (110); Vietnam (110); China, People's Republic (100); Cuba (100)"
+green-cards:13089:FY2024,admissions_listed_prev,3150
+green-cards:13117:FY2024,county,13117
+green-cards:13117:FY2024,countyName,Forsyth County
+green-cards:13117:FY2024,stateName,Georgia
+green-cards:13117:FY2024,top_countries,"India (460); Mexico (90); Brazil (60); China, People's Republic (40); Colombia (40); Turkey (30); Chile (20); Venezuela (20); Afghanistan (10); Argentina (10)"
+green-cards:13117:FY2024,admissions_listed_prev,810
+green-cards:13121:FY2024,county,13121
+green-cards:13121:FY2024,countyName,Fulton County
+green-cards:13121:FY2024,stateName,Georgia
+green-cards:13121:FY2024,top_countries,"India (580); Mexico (320); China, People's Republic (270); Nigeria (270); Brazil (220); Colombia (170); Jamaica (170); Korea, South (160); Venezuela (150); Vietnam (130)"
+green-cards:13121:FY2024,admissions_listed_prev,4010
+green-cards:13135:FY2024,county,13135
+green-cards:13135:FY2024,countyName,Gwinnett County
+green-cards:13135:FY2024,stateName,Georgia
+green-cards:13135:FY2024,top_countries,"Vietnam (880); Mexico (800); India (550); Cuba (500); China, People's Republic (410); Korea, South (410); Colombia (380); Dominican Republic (300); El Salvador (280); Nigeria (220)"
+green-cards:13135:FY2024,admissions_listed_prev,6520
+green-cards:HI:FY2024,stateName,Hawaii
+green-cards:HI:FY2024,counties_listed,1
+green-cards:HI:FY2024,state_total_yearbook,4790
+green-cards:HI:FY2024,listed_share_pct,62.6
+green-cards:15003:FY2024,county,15003
+green-cards:15003:FY2024,countyName,Honolulu County
+green-cards:15003:FY2024,stateName,Hawaii
+green-cards:15003:FY2024,top_countries,"Philippines (1,560); China, People's Republic (350); Japan (240); Vietnam (160); Korea, South (140); Brazil (60); Mexico (40); Thailand (40); Taiwan (30); Tonga (30)"
+green-cards:15003:FY2024,admissions_listed_prev,3140
+green-cards:IA:FY2024,stateName,Iowa
+green-cards:IA:FY2024,counties_listed,1
+green-cards:IA:FY2024,state_total_yearbook,5910
+green-cards:IA:FY2024,listed_share_pct,23.2
+green-cards:19153:FY2024,county,19153
+green-cards:19153:FY2024,countyName,Polk County
+green-cards:19153:FY2024,stateName,Iowa
+green-cards:19153:FY2024,top_countries,"Afghanistan (260); Mexico (260); Vietnam (80); Congo, Democratic Republic (70); Burma (60); India (60); Liberia (60); Tanzania (50); El Salvador (40); Sudan (40)"
+green-cards:19153:FY2024,admissions_listed_prev,1110
+green-cards:IL:FY2024,stateName,Illinois
+green-cards:IL:FY2024,counties_listed,5
+green-cards:IL:FY2024,state_total_yearbook,44650
+green-cards:IL:FY2024,listed_share_pct,77
+green-cards:17031:FY2024,county,17031
+green-cards:17031:FY2024,countyName,Cook County
+green-cards:17031:FY2024,stateName,Illinois
+green-cards:17031:FY2024,top_countries,"Mexico (5,800); India (1,710); China, People's Republic (1,090); Philippines (1,010); Kyrgyzstan (910); Poland (810); Nigeria (720); Pakistan (670); Ukraine (630); Jordan (570)"
+green-cards:17031:FY2024,admissions_listed_prev,21480
+green-cards:17043:FY2024,county,17043
+green-cards:17043:FY2024,countyName,DuPage County
+green-cards:17043:FY2024,stateName,Illinois
+green-cards:17043:FY2024,top_countries,"India (810); Mexico (770); Pakistan (210); China, People's Republic (200); Poland (160); Philippines (150); Ukraine (100); Albania (80); Colombia (80); Cuba (80)"
+green-cards:17043:FY2024,admissions_listed_prev,3870
+green-cards:17089:FY2024,county,17089
+green-cards:17089:FY2024,countyName,Kane County
+green-cards:17089:FY2024,stateName,Illinois
+green-cards:17089:FY2024,top_countries,"Mexico (1,210); India (140); Philippines (80); Afghanistan (50); Cuba (40); Moldova (30); Nigeria (30); Venezuela (30); Algeria (20); Brazil (20)"
+green-cards:17089:FY2024,admissions_listed_prev,1490
+green-cards:17097:FY2024,county,17097
+green-cards:17097:FY2024,countyName,Lake County
+green-cards:17097:FY2024,stateName,Illinois
+green-cards:17097:FY2024,top_countries,"Mexico (960); India (330); China, People's Republic (160); Philippines (160); Ukraine (140); Honduras (110); Korea, South (90); Jamaica (60); Russia (60); Belize (50)"
+green-cards:17097:FY2024,admissions_listed_prev,2810
+green-cards:17197:FY2024,county,17197
+green-cards:17197:FY2024,countyName,Will County
+green-cards:17197:FY2024,stateName,Illinois
+green-cards:17197:FY2024,top_countries,"Mexico (610); India (270); Pakistan (130); Philippines (100); Moldova (90); China, People's Republic (80); Ghana (70); Nigeria (60); Colombia (40); Poland (40)"
+green-cards:17197:FY2024,admissions_listed_prev,1690
+green-cards:IN:FY2024,stateName,Indiana
+green-cards:IN:FY2024,counties_listed,2
+green-cards:IN:FY2024,state_total_yearbook,12040
+green-cards:IN:FY2024,listed_share_pct,35
+green-cards:18057:FY2024,county,18057
+green-cards:18057:FY2024,countyName,Hamilton County
+green-cards:18057:FY2024,stateName,Indiana
+green-cards:18057:FY2024,top_countries,"India (190); China, People's Republic (80); Mexico (60); Venezuela (60); Egypt (40); Jordan (40); Nigeria (30); Philippines (30); Afghanistan (20); Algeria (20)"
+green-cards:18057:FY2024,admissions_listed_prev,830
+green-cards:18097:FY2024,county,18097
+green-cards:18097:FY2024,countyName,Marion County
+green-cards:18097:FY2024,stateName,Indiana
+green-cards:18097:FY2024,top_countries,"Mexico (640); Nigeria (350); India (290); Burma (180); Haiti (170); Afghanistan (150); Congo, Democratic Republic (130); Cuba (120); Honduras (120); El Salvador (100)"
+green-cards:18097:FY2024,admissions_listed_prev,3270
+green-cards:KS:FY2024,stateName,Kansas
+green-cards:KS:FY2024,counties_listed,2
+green-cards:KS:FY2024,state_total_yearbook,6460
+green-cards:KS:FY2024,listed_share_pct,43
+green-cards:20091:FY2024,county,20091
+green-cards:20091:FY2024,countyName,Johnson County
+green-cards:20091:FY2024,stateName,Kansas
+green-cards:20091:FY2024,top_countries,"Mexico (310); Algeria (200); India (170); China, People's Republic (100); Kenya (80); Brazil (70); Cuba (60); Ethiopia (50); Afghanistan (40); Honduras (40)"
+green-cards:20091:FY2024,admissions_listed_prev,1440
+green-cards:20173:FY2024,county,20173
+green-cards:20173:FY2024,countyName,Sedgwick County
+green-cards:20173:FY2024,stateName,Kansas
+green-cards:20173:FY2024,top_countries,"Mexico (470); Afghanistan (140); Vietnam (140); Cuba (70); Congo, Democratic Republic (40); Kenya (40); India (30); Philippines (30); Tanzania (30); El Salvador (20)"
+green-cards:20173:FY2024,admissions_listed_prev,1090
+green-cards:KY:FY2024,stateName,Kentucky
+green-cards:KY:FY2024,counties_listed,2
+green-cards:KY:FY2024,state_total_yearbook,12120
+green-cards:KY:FY2024,listed_share_pct,71.9
+green-cards:21067:FY2024,county,21067
+green-cards:21067:FY2024,countyName,Fayette County
+green-cards:21067:FY2024,stateName,Kentucky
+green-cards:21067:FY2024,top_countries,"Mexico (140); Nepal (120); Congo, Democratic Republic (110); Cuba (90); India (50); Afghanistan (40); Jordan (30); Kenya (30); Rwanda (30); Syria (30)"
+green-cards:21067:FY2024,admissions_listed_prev,760
+green-cards:21111:FY2024,county,21111
+green-cards:21111:FY2024,countyName,Jefferson County
+green-cards:21111:FY2024,stateName,Kentucky
+green-cards:21111:FY2024,top_countries,"Cuba (5,820); Congo, Democratic Republic (210); Afghanistan (150); Mexico (140); Rwanda (120); India (110); Philippines (110); Nepal (70); Togo (70); Vietnam (70)"
+green-cards:21111:FY2024,admissions_listed_prev,4180
+green-cards:LA:FY2024,stateName,Louisiana
+green-cards:LA:FY2024,counties_listed,1
+green-cards:LA:FY2024,state_total_yearbook,5740
+green-cards:LA:FY2024,listed_share_pct,23.3
+green-cards:22051:FY2024,county,22051
+green-cards:22051:FY2024,countyName,Jefferson Parish
+green-cards:22051:FY2024,stateName,Louisiana
+green-cards:22051:FY2024,top_countries,"Honduras (450); Cuba (210); Dominican Republic (130); Mexico (70); Jordan (60); China, People's Republic (50); Philippines (50); El Salvador (40); Vietnam (40); Guatemala (30)"
+green-cards:22051:FY2024,admissions_listed_prev,1330
+green-cards:MA:FY2024,stateName,Massachusetts
+green-cards:MA:FY2024,counties_listed,8
+green-cards:MA:FY2024,state_total_yearbook,36180
+green-cards:MA:FY2024,listed_share_pct,82.9
+green-cards:25005:FY2024,county,25005
+green-cards:25005:FY2024,countyName,Bristol County
+green-cards:25005:FY2024,stateName,Massachusetts
+green-cards:25005:FY2024,top_countries,"Cabo Verde (340); Brazil (140); Dominican Republic (110); Guatemala (110); Haiti (80); Portugal (70); China, People's Republic (40); Egypt (40); El Salvador (40); Honduras (40)"
+green-cards:25005:FY2024,admissions_listed_prev,1270
+green-cards:25009:FY2024,county,25009
+green-cards:25009:FY2024,countyName,Essex County
+green-cards:25009:FY2024,stateName,Massachusetts
+green-cards:25009:FY2024,top_countries,"Dominican Republic (3,000); Guatemala (280); Brazil (260); El Salvador (180); Albania (100); India (80); Colombia (70); Vietnam (70); China, People's Republic (60); Nigeria (60)"
+green-cards:25009:FY2024,admissions_listed_prev,5800
+green-cards:25013:FY2024,county,25013
+green-cards:25013:FY2024,countyName,Hampden County
+green-cards:25013:FY2024,stateName,Massachusetts
+green-cards:25013:FY2024,top_countries,"Dominican Republic (260); Afghanistan (130); Jamaica (100); Ukraine (60); Vietnam (60); India (30); Iraq (30); Pakistan (30); Syria (30); Congo, Democratic Republic (20)"
+green-cards:25013:FY2024,admissions_listed_prev,920
+green-cards:25017:FY2024,county,25017
+green-cards:25017:FY2024,countyName,Middlesex County
+green-cards:25017:FY2024,stateName,Massachusetts
+green-cards:25017:FY2024,top_countries,"China, People's Republic (1,350); Brazil (1,230); India (890); Dominican Republic (360); Nepal (330); El Salvador (300); Uganda (280); Cambodia (250); Vietnam (230); Guatemala (210)"
+green-cards:25017:FY2024,admissions_listed_prev,10250
+green-cards:25021:FY2024,county,25021
+green-cards:25021:FY2024,countyName,Norfolk County
+green-cards:25021:FY2024,stateName,Massachusetts
+green-cards:25021:FY2024,top_countries,"China, People's Republic (620); India (230); Vietnam (230); Brazil (190); Haiti (190); Dominican Republic (110); Albania (100); Israel (80); Cabo Verde (60); Jamaica (50)"
+green-cards:25021:FY2024,admissions_listed_prev,3060
+green-cards:25023:FY2024,county,25023
+green-cards:25023:FY2024,countyName,Plymouth County
+green-cards:25023:FY2024,stateName,Massachusetts
+green-cards:25023:FY2024,top_countries,"Cabo Verde (900); Haiti (150); Brazil (120); Dominican Republic (80); Jamaica (50); Nigeria (30); Albania (20); China, People's Republic (20); Egypt (20); Ghana (20)"
+green-cards:25023:FY2024,admissions_listed_prev,1600
+green-cards:25025:FY2024,county,25025
+green-cards:25025:FY2024,countyName,Suffolk County
+green-cards:25025:FY2024,stateName,Massachusetts
+green-cards:25025:FY2024,top_countries,"Dominican Republic (1,250); El Salvador (570); Cabo Verde (430); Colombia (410); China, People's Republic (360); Brazil (220); Haiti (220); Vietnam (220); Honduras (190); Guatemala (160)"
+green-cards:25025:FY2024,admissions_listed_prev,6600
+green-cards:25027:FY2024,county,25027
+green-cards:25027:FY2024,countyName,Worcester County
+green-cards:25027:FY2024,stateName,Massachusetts
+green-cards:25027:FY2024,top_countries,"Dominican Republic (430); Brazil (390); Ghana (390); India (180); Vietnam (160); China, People's Republic (130); Afghanistan (120); Albania (90); El Salvador (90); Kenya (80)"
+green-cards:25027:FY2024,admissions_listed_prev,3010
+green-cards:MD:FY2024,stateName,Maryland
+green-cards:MD:FY2024,counties_listed,7
+green-cards:MD:FY2024,state_total_yearbook,31320
+green-cards:MD:FY2024,listed_share_pct,77
+green-cards:24003:FY2024,county,24003
+green-cards:24003:FY2024,countyName,Anne Arundel County
+green-cards:24003:FY2024,stateName,Maryland
+green-cards:24003:FY2024,top_countries,El Salvador (200); Nigeria (160); Philippines (100); India (70); Pakistan (70); Cameroon (60); Ghana (60); Guatemala (40); Jamaica (40); Mexico (40)
+green-cards:24003:FY2024,admissions_listed_prev,990
+green-cards:24005:FY2024,county,24005
+green-cards:24005:FY2024,countyName,Baltimore County
+green-cards:24005:FY2024,stateName,Maryland
+green-cards:24005:FY2024,top_countries,Nigeria (490); Nepal (310); El Salvador (300); Pakistan (260); Jamaica (210); Philippines (150); Afghanistan (140); India (130); Cameroon (110); Honduras (110)
+green-cards:24005:FY2024,admissions_listed_prev,2640
+green-cards:24021:FY2024,county,24021
+green-cards:24021:FY2024,countyName,Frederick County
+green-cards:24021:FY2024,stateName,Maryland
+green-cards:24021:FY2024,top_countries,"El Salvador (170); India (90); Ghana (70); Brazil (60); Guatemala (50); Peru (50); Cameroon (40); China, People's Republic (40); Honduras (40); Afghanistan (30)"
+green-cards:24021:FY2024,admissions_listed_prev,810
+green-cards:24027:FY2024,county,24027
+green-cards:24027:FY2024,countyName,Howard County
+green-cards:24027:FY2024,stateName,Maryland
+green-cards:24027:FY2024,top_countries,"India (240); China, People's Republic (180); Nigeria (170); Pakistan (130); Afghanistan (90); Ghana (90); Korea, South (90); El Salvador (80); Bangladesh (60); Cameroon (60)"
+green-cards:24027:FY2024,admissions_listed_prev,1450
+green-cards:24031:FY2024,county,24031
+green-cards:24031:FY2024,countyName,Montgomery County
+green-cards:24031:FY2024,stateName,Maryland
+green-cards:24031:FY2024,top_countries,"El Salvador (970); China, People's Republic (880); Ethiopia (750); Afghanistan (530); India (430); Cameroon (340); Honduras (270); Philippines (270); Peru (230); Brazil (220)"
+green-cards:24031:FY2024,admissions_listed_prev,8410
+green-cards:24033:FY2024,county,24033
+green-cards:24033:FY2024,countyName,Prince George's County
+green-cards:24033:FY2024,stateName,Maryland
+green-cards:24033:FY2024,top_countries,"El Salvador (1,370); Cameroon (800); Nigeria (660); Afghanistan (470); Jamaica (330); Guatemala (270); Dominican Republic (180); Ghana (170); Honduras (170); Philippines (170)"
+green-cards:24033:FY2024,admissions_listed_prev,5540
+green-cards:24510:FY2024,county,24510
+green-cards:24510:FY2024,countyName,Baltimore city
+green-cards:24510:FY2024,stateName,Maryland
+green-cards:24510:FY2024,top_countries,"Jamaica (150); Afghanistan (140); Nigeria (120); El Salvador (110); Dominican Republic (100); Honduras (90); China, People's Republic (70); Mexico (60); Nepal (60); Philippines (50)"
+green-cards:24510:FY2024,admissions_listed_prev,1240
+green-cards:MI:FY2024,stateName,Michigan
+green-cards:MI:FY2024,counties_listed,5
+green-cards:MI:FY2024,state_total_yearbook,20750
+green-cards:MI:FY2024,listed_share_pct,63.1
+green-cards:26081:FY2024,county,26081
+green-cards:26081:FY2024,countyName,Kent County
+green-cards:26081:FY2024,stateName,Michigan
+green-cards:26081:FY2024,top_countries,"Mexico (300); Cuba (270); Congo, Democratic Republic (120); Rwanda (120); Dominican Republic (80); Vietnam (70); Guatemala (60); India (50); China, People's Republic (40); Ethiopia (30)"
+green-cards:26081:FY2024,admissions_listed_prev,1270
+green-cards:26099:FY2024,county,26099
+green-cards:26099:FY2024,countyName,Macomb County
+green-cards:26099:FY2024,stateName,Michigan
+green-cards:26099:FY2024,top_countries,Bangladesh (650); Iraq (310); Albania (260); India (110); Mexico (100); Philippines (80); Vietnam (80); Pakistan (70); Canada (60); Brazil (50)
+green-cards:26099:FY2024,admissions_listed_prev,2570
+green-cards:26125:FY2024,county,26125
+green-cards:26125:FY2024,countyName,Oakland County
+green-cards:26125:FY2024,stateName,Michigan
+green-cards:26125:FY2024,top_countries,"India (410); Mexico (390); China, People's Republic (310); Korea, South (170); Albania (130); Brazil (130); Canada (120); Pakistan (110); Iraq (80); Syria (80)"
+green-cards:26125:FY2024,admissions_listed_prev,3410
+green-cards:26161:FY2024,county,26161
+green-cards:26161:FY2024,countyName,Washtenaw County
+green-cards:26161:FY2024,stateName,Michigan
+green-cards:26161:FY2024,top_countries,"China, People's Republic (140); Afghanistan (130); India (50); Korea, South (50); Iran (40); Jordan (40); Pakistan (30); Taiwan (30); Brazil (20); Canada (20)"
+green-cards:26161:FY2024,admissions_listed_prev,950
+green-cards:26163:FY2024,county,26163
+green-cards:26163:FY2024,countyName,Wayne County
+green-cards:26163:FY2024,stateName,Michigan
+green-cards:26163:FY2024,top_countries,"Yemen (1,150); Lebanon (800); Bangladesh (450); Mexico (430); Syria (330); India (290); Afghanistan (190); Albania (170); Jordan (170); Iraq (160)"
+green-cards:26163:FY2024,admissions_listed_prev,5670
+green-cards:MN:FY2024,stateName,Minnesota
+green-cards:MN:FY2024,counties_listed,4
+green-cards:MN:FY2024,state_total_yearbook,14670
+green-cards:MN:FY2024,listed_share_pct,58.1
+green-cards:27003:FY2024,county,27003
+green-cards:27003:FY2024,countyName,Anoka County
+green-cards:27003:FY2024,stateName,Minnesota
+green-cards:27003:FY2024,top_countries,"Ethiopia (110); Liberia (100); Mexico (100); Kenya (70); Cameroon (60); Egypt (40); Afghanistan (30); China, People's Republic (30); Ecuador (30); Ghana (30)"
+green-cards:27003:FY2024,admissions_listed_prev,860
+green-cards:27037:FY2024,county,27037
+green-cards:27037:FY2024,countyName,Dakota County
+green-cards:27037:FY2024,stateName,Minnesota
+green-cards:27037:FY2024,top_countries,"Mexico (160); Ethiopia (150); Kenya (100); Somalia (80); India (60); Vietnam (60); China, People's Republic (50); Cuba (40); Philippines (40); Venezuela (40)"
+green-cards:27037:FY2024,admissions_listed_prev,810
+green-cards:27053:FY2024,county,27053
+green-cards:27053:FY2024,countyName,Hennepin County
+green-cards:27053:FY2024,stateName,Minnesota
+green-cards:27053:FY2024,top_countries,Mexico (520); Somalia (370); Kenya (350); Liberia (310); Ethiopia (280); India (270); Afghanistan (240); Ecuador (180); Nigeria (160); Vietnam (160)
+green-cards:27053:FY2024,admissions_listed_prev,4010
+green-cards:27123:FY2024,county,27123
+green-cards:27123:FY2024,countyName,Ramsey County
+green-cards:27123:FY2024,stateName,Minnesota
+green-cards:27123:FY2024,top_countries,Ethiopia (240); Mexico (190); Afghanistan (120); Laos (120); Somalia (100); Vietnam (80); Burma (70); Cameroon (70); Kenya (70); India (60)
+green-cards:27123:FY2024,admissions_listed_prev,1660
+green-cards:MO:FY2024,stateName,Missouri
+green-cards:MO:FY2024,counties_listed,2
+green-cards:MO:FY2024,state_total_yearbook,9000
+green-cards:MO:FY2024,listed_share_pct,32.9
+green-cards:29095:FY2024,county,29095
+green-cards:29095:FY2024,countyName,Jackson County
+green-cards:29095:FY2024,stateName,Missouri
+green-cards:29095:FY2024,top_countries,"Cuba (330); Mexico (310); Afghanistan (160); Congo, Democratic Republic (80); Tanzania (60); Vietnam (50); Honduras (40); Nigeria (40); Philippines (40); Colombia (30)"
+green-cards:29095:FY2024,admissions_listed_prev,960
+green-cards:29189:FY2024,county,29189
+green-cards:29189:FY2024,countyName,St. Louis County
+green-cards:29189:FY2024,stateName,Missouri
+green-cards:29189:FY2024,top_countries,"Afghanistan (180); India (170); Mexico (170); China, People's Republic (120); Vietnam (80); Kenya (70); Philippines (60); Brazil (50); Cuba (50); Nigeria (40)"
+green-cards:29189:FY2024,admissions_listed_prev,1630
+green-cards:NC:FY2024,stateName,North Carolina
+green-cards:NC:FY2024,counties_listed,4
+green-cards:NC:FY2024,state_total_yearbook,28120
+green-cards:NC:FY2024,listed_share_pct,49.4
+green-cards:37063:FY2024,county,37063
+green-cards:37063:FY2024,countyName,Durham County
+green-cards:37063:FY2024,stateName,North Carolina
+green-cards:37063:FY2024,top_countries,"Philippines (320); Afghanistan (180); Mexico (140); Honduras (90); El Salvador (80); India (70); China, People's Republic (60); Cuba (30); Kenya (30); Brazil (20)"
+green-cards:37063:FY2024,admissions_listed_prev,1060
+green-cards:37081:FY2024,county,37081
+green-cards:37081:FY2024,countyName,Guilford County
+green-cards:37081:FY2024,stateName,North Carolina
+green-cards:37081:FY2024,top_countries,"Mexico (240); Pakistan (170); India (120); Sudan (120); Vietnam (120); Afghanistan (100); Congo, Democratic Republic (70); Nigeria (70); Colombia (60); Cuba (60)"
+green-cards:37081:FY2024,admissions_listed_prev,1490
+green-cards:37119:FY2024,county,37119
+green-cards:37119:FY2024,countyName,Mecklenburg County
+green-cards:37119:FY2024,stateName,North Carolina
+green-cards:37119:FY2024,top_countries,Philippines (820); Mexico (740); India (390); Cuba (320); Honduras (320); El Salvador (310); Colombia (190); Dominican Republic (170); Ecuador (170); Brazil (160)
+green-cards:37119:FY2024,admissions_listed_prev,6400
+green-cards:37183:FY2024,county,37183
+green-cards:37183:FY2024,countyName,Wake County
+green-cards:37183:FY2024,stateName,North Carolina
+green-cards:37183:FY2024,top_countries,"India (820); Mexico (520); China, People's Republic (320); Afghanistan (190); Nepal (150); Cuba (140); Dominican Republic (140); El Salvador (140); Venezuela (140); Brazil (130)"
+green-cards:37183:FY2024,admissions_listed_prev,4570
+green-cards:NE:FY2024,stateName,Nebraska
+green-cards:NE:FY2024,counties_listed,2
+green-cards:NE:FY2024,state_total_yearbook,6720
+green-cards:NE:FY2024,listed_share_pct,40.5
+green-cards:31055:FY2024,county,31055
+green-cards:31055:FY2024,countyName,Douglas County
+green-cards:31055:FY2024,stateName,Nebraska
+green-cards:31055:FY2024,top_countries,"Afghanistan (430); Mexico (370); Cuba (140); Tajikistan (140); El Salvador (110); Guatemala (60); India (60); Nepal (60); China, People's Republic (50); Sudan (50)"
+green-cards:31055:FY2024,admissions_listed_prev,1710
+green-cards:31109:FY2024,county,31109
+green-cards:31109:FY2024,countyName,Lancaster County
+green-cards:31109:FY2024,stateName,Nebraska
+green-cards:31109:FY2024,top_countries,Afghanistan (220); Vietnam (130); Mexico (100); Cuba (90); Iraq (70); Sudan (30); Brazil (20); Cameroon (20); Syria (20); Bangladesh (10)
+green-cards:NH:FY2024,stateName,New Hampshire
+green-cards:NH:FY2024,counties_listed,1
+green-cards:NH:FY2024,state_total_yearbook,2100
+green-cards:NH:FY2024,listed_share_pct,40
+green-cards:33011:FY2024,county,33011
+green-cards:33011:FY2024,countyName,Hillsborough County
+green-cards:33011:FY2024,stateName,New Hampshire
+green-cards:33011:FY2024,top_countries,"Dominican Republic (220); Brazil (90); India (80); Mexico (70); Colombia (40); Nepal (40); Vietnam (40); Congo, Democratic Republic (30); Pakistan (30); Afghanistan (20)"
+green-cards:33011:FY2024,admissions_listed_prev,1070
+green-cards:NJ:FY2024,stateName,New Jersey
+green-cards:NJ:FY2024,counties_listed,13
+green-cards:NJ:FY2024,state_total_yearbook,58180
+green-cards:NJ:FY2024,listed_share_pct,80.7
+green-cards:34001:FY2024,county,34001
+green-cards:34001:FY2024,countyName,Atlantic County
+green-cards:34001:FY2024,stateName,New Jersey
+green-cards:34001:FY2024,top_countries,Dominican Republic (230); Bangladesh (100); India (90); Pakistan (60); Vietnam (60); Honduras (50); Mexico (50); Philippines (40); Peru (30); Colombia (20)
+green-cards:34001:FY2024,admissions_listed_prev,1000
+green-cards:34003:FY2024,county,34003
+green-cards:34003:FY2024,countyName,Bergen County
+green-cards:34003:FY2024,stateName,New Jersey
+green-cards:34003:FY2024,top_countries,"Dominican Republic (870); Korea, South (690); Colombia (450); India (390); China, People's Republic (330); Philippines (270); Ecuador (260); Turkey (240); Albania (210); Cuba (190)"
+green-cards:34003:FY2024,admissions_listed_prev,6730
+green-cards:34005:FY2024,county,34005
+green-cards:34005:FY2024,countyName,Burlington County
+green-cards:34005:FY2024,stateName,New Jersey
+green-cards:34005:FY2024,top_countries,India (190); Turkey (90); Pakistan (80); Dominican Republic (60); Jamaica (50); Bangladesh (40); Brazil (40); Ghana (40); Haiti (30); Mexico (30)
+green-cards:34005:FY2024,admissions_listed_prev,840
+green-cards:34007:FY2024,county,34007
+green-cards:34007:FY2024,countyName,Camden County
+green-cards:34007:FY2024,stateName,New Jersey
+green-cards:34007:FY2024,top_countries,"Dominican Republic (560); Vietnam (90); India (80); Mexico (80); China, People's Republic (60); Jamaica (50); Philippines (50); Nigeria (40); Pakistan (40); Turkey (40)"
+green-cards:34007:FY2024,admissions_listed_prev,1710
+green-cards:34013:FY2024,county,34013
+green-cards:34013:FY2024,countyName,Essex County
+green-cards:34013:FY2024,stateName,New Jersey
+green-cards:34013:FY2024,top_countries,"Dominican Republic (1,120); Ecuador (560); Jamaica (500); Nigeria (480); Brazil (390); Ghana (300); Haiti (280); China, People's Republic (230); India (200); Guyana (170)"
+green-cards:34013:FY2024,admissions_listed_prev,6790
+green-cards:34017:FY2024,county,34017
+green-cards:34017:FY2024,countyName,Hudson County
+green-cards:34017:FY2024,stateName,New Jersey
+green-cards:34017:FY2024,top_countries,"Dominican Republic (1,400); Cuba (820); China, People's Republic (750); India (650); Ecuador (470); Egypt (470); Colombia (350); Pakistan (290); Philippines (260); Brazil (230)"
+green-cards:34017:FY2024,admissions_listed_prev,9350
+green-cards:34021:FY2024,county,34021
+green-cards:34021:FY2024,countyName,Mercer County
+green-cards:34021:FY2024,stateName,New Jersey
+green-cards:34021:FY2024,top_countries,"India (340); Dominican Republic (300); Guatemala (170); China, People's Republic (130); Ecuador (130); Jamaica (90); Pakistan (80); Liberia (50); Costa Rica (40); Cuba (40)"
+green-cards:34021:FY2024,admissions_listed_prev,2250
+green-cards:34023:FY2024,county,34023
+green-cards:34023:FY2024,countyName,Middlesex County
+green-cards:34023:FY2024,stateName,New Jersey
+green-cards:34023:FY2024,top_countries,"India (1,890); Dominican Republic (1,620); Pakistan (430); China, People's Republic (220); Mexico (180); Peru (150); Colombia (140); Egypt (140); Philippines (140); Ghana (130)"
+green-cards:34023:FY2024,admissions_listed_prev,8330
+green-cards:34025:FY2024,county,34025
+green-cards:34025:FY2024,countyName,Monmouth County
+green-cards:34025:FY2024,stateName,New Jersey
+green-cards:34025:FY2024,top_countries,"Philippines (210); India (140); Mexico (130); Brazil (120); Pakistan (70); China, People's Republic (60); Egypt (60); Colombia (40); Georgia (40); Haiti (40)"
+green-cards:34025:FY2024,admissions_listed_prev,1560
+green-cards:34027:FY2024,county,34027
+green-cards:34027:FY2024,countyName,Morris County
+green-cards:34027:FY2024,stateName,New Jersey
+green-cards:34027:FY2024,top_countries,"China, People's Republic (420); India (340); Colombia (290); Brazil (90); Honduras (90); Ecuador (70); Pakistan (70); Philippines (60); Dominican Republic (50); Mexico (50)"
+green-cards:34027:FY2024,admissions_listed_prev,2660
+green-cards:34031:FY2024,county,34031
+green-cards:34031:FY2024,countyName,Passaic County
+green-cards:34031:FY2024,stateName,New Jersey
+green-cards:34031:FY2024,top_countries,"Dominican Republic (2,910); Peru (320); Bangladesh (260); Colombia (250); Mexico (180); India (170); Jamaica (170); Turkey (160); Jordan (120); Ecuador (90)"
+green-cards:34031:FY2024,admissions_listed_prev,6770
+green-cards:34035:FY2024,county,34035
+green-cards:34035:FY2024,countyName,Somerset County
+green-cards:34035:FY2024,stateName,New Jersey
+green-cards:34035:FY2024,top_countries,"India (450); China, People's Republic (160); Dominican Republic (130); Costa Rica (120); Brazil (100); Philippines (90); Colombia (60); Mexico (60); Ecuador (50); Egypt (50)"
+green-cards:34035:FY2024,admissions_listed_prev,1870
+green-cards:34039:FY2024,county,34039
+green-cards:34039:FY2024,countyName,Union County
+green-cards:34039:FY2024,stateName,New Jersey
+green-cards:34039:FY2024,top_countries,"Dominican Republic (770); Colombia (550); Cuba (550); Ecuador (370); El Salvador (270); Peru (200); Brazil (190); Haiti (160); India (130); China, People's Republic (120)"
+green-cards:34039:FY2024,admissions_listed_prev,4710
+green-cards:NM:FY2024,stateName,New Mexico
+green-cards:NM:FY2024,counties_listed,1
+green-cards:NM:FY2024,state_total_yearbook,5250
+green-cards:NM:FY2024,listed_share_pct,32.2
+green-cards:35001:FY2024,county,35001
+green-cards:35001:FY2024,countyName,Bernalillo County
+green-cards:35001:FY2024,stateName,New Mexico
+green-cards:35001:FY2024,top_countries,"Mexico (960); Cuba (280); Vietnam (70); Afghanistan (40); India (40); Philippines (40); China, People's Republic (30); Colombia (30); Pakistan (30); Brazil (20)"
+green-cards:35001:FY2024,admissions_listed_prev,1430
+green-cards:NV:FY2024,stateName,Nevada
+green-cards:NV:FY2024,counties_listed,2
+green-cards:NV:FY2024,state_total_yearbook,17040
+green-cards:NV:FY2024,listed_share_pct,88
+green-cards:32003:FY2024,county,32003
+green-cards:32003:FY2024,countyName,Clark County
+green-cards:32003:FY2024,stateName,Nevada
+green-cards:32003:FY2024,top_countries,"Cuba (5,340); Mexico (2,810); Philippines (1,330); China, People's Republic (440); El Salvador (310); Ethiopia (280); Brazil (200); Colombia (200); Vietnam (150); India (140)"
+green-cards:32003:FY2024,admissions_listed_prev,9310
+green-cards:32031:FY2024,county,32031
+green-cards:32031:FY2024,countyName,Washoe County
+green-cards:32031:FY2024,stateName,Nevada
+green-cards:32031:FY2024,top_countries,"Mexico (590); Philippines (150); China, People's Republic (50); India (50); Bangladesh (40); El Salvador (40); Guatemala (40); Pakistan (40); Afghanistan (30); Jamaica (30)"
+green-cards:32031:FY2024,admissions_listed_prev,1160
+green-cards:NY:FY2024,stateName,New York
+green-cards:NY:FY2024,counties_listed,14
+green-cards:NY:FY2024,state_total_yearbook,136750
+green-cards:NY:FY2024,listed_share_pct,83
+green-cards:36001:FY2024,county,36001
+green-cards:36001:FY2024,countyName,Albany County
+green-cards:36001:FY2024,stateName,New York
+green-cards:36001:FY2024,top_countries,"Afghanistan (250); Pakistan (120); India (90); Jamaica (80); Dominican Republic (70); China, People's Republic (60); Bangladesh (50); Albania (40); Turkey (40); Philippines (30)"
+green-cards:36001:FY2024,admissions_listed_prev,960
+green-cards:36005:FY2024,county,36005
+green-cards:36005:FY2024,countyName,Bronx County
+green-cards:36005:FY2024,stateName,New York
+green-cards:36005:FY2024,top_countries,"Dominican Republic (10,040); Jamaica (1,260); Ghana (1,170); Bangladesh (1,130); Mexico (390); Yemen (350); Ecuador (340); Albania (250); Guinea (250); Honduras (250)"
+green-cards:36005:FY2024,admissions_listed_prev,19970
+green-cards:36029:FY2024,county,36029
+green-cards:36029:FY2024,countyName,Erie County
+green-cards:36029:FY2024,stateName,New York
+green-cards:36029:FY2024,top_countries,"Afghanistan (480); Bangladesh (400); India (130); Yemen (130); Burma (90); Congo, Democratic Republic (90); Canada (60); China, People's Republic (60); Cuba (50); Iraq (50)"
+green-cards:36029:FY2024,admissions_listed_prev,1870
+green-cards:36047:FY2024,county,36047
+green-cards:36047:FY2024,countyName,Kings County
+green-cards:36047:FY2024,stateName,New York
+green-cards:36047:FY2024,top_countries,"China, People's Republic (2,410); Dominican Republic (2,370); Jamaica (1,510); Bangladesh (1,250); Uzbekistan (1,220); Pakistan (1,170); Georgia (820); Russia (600); Tajikistan (580); Guyana (530)"
+green-cards:36047:FY2024,admissions_listed_prev,25870
+green-cards:36055:FY2024,county,36055
+green-cards:36055:FY2024,countyName,Monroe County
+green-cards:36055:FY2024,stateName,New York
+green-cards:36055:FY2024,top_countries,"Afghanistan (440); Cuba (260); Jamaica (120); China, People's Republic (90); Dominican Republic (90); India (50); Yemen (50); Pakistan (40); Philippines (40); Ukraine (40)"
+green-cards:36055:FY2024,admissions_listed_prev,1290
+green-cards:36059:FY2024,county,36059
+green-cards:36059:FY2024,countyName,Nassau County
+green-cards:36059:FY2024,stateName,New York
+green-cards:36059:FY2024,top_countries,"El Salvador (990); India (950); China, People's Republic (870); Dominican Republic (640); Pakistan (580); Jamaica (390); Honduras (370); Bangladesh (300); Ecuador (260); Colombia (230)"
+green-cards:36059:FY2024,admissions_listed_prev,7560
+green-cards:36061:FY2024,county,36061
+green-cards:36061:FY2024,countyName,New York County
+green-cards:36061:FY2024,stateName,New York
+green-cards:36061:FY2024,top_countries,"Dominican Republic (3,580); China, People's Republic (1,980); India (550); Mexico (430); Brazil (310); United Kingdom (310); Ecuador (290); Korea, South (290); Bangladesh (270); Canada (270)"
+green-cards:36061:FY2024,admissions_listed_prev,15210
+green-cards:36067:FY2024,county,36067
+green-cards:36067:FY2024,countyName,Onondaga County
+green-cards:36067:FY2024,stateName,New York
+green-cards:36067:FY2024,top_countries,"Afghanistan (260); Cuba (230); Syria (80); Bangladesh (40); Dominican Republic (40); China, People's Republic (30); Congo, Democratic Republic (30); India (30); Nepal (30); Tanzania (30)"
+green-cards:36067:FY2024,admissions_listed_prev,810
+green-cards:36071:FY2024,county,36071
+green-cards:36071:FY2024,countyName,Orange County
+green-cards:36071:FY2024,stateName,New York
+green-cards:36071:FY2024,top_countries,"Dominican Republic (130); Mexico (100); Jamaica (90); China, People's Republic (70); Honduras (40); Colombia (30); Ecuador (30); El Salvador (30); Haiti (30); Pakistan (30)"
+green-cards:36071:FY2024,admissions_listed_prev,750
+green-cards:36081:FY2024,county,36081
+green-cards:36081:FY2024,countyName,Queens County
+green-cards:36081:FY2024,stateName,New York
+green-cards:36081:FY2024,top_countries,"China, People's Republic (4,470); Bangladesh (3,180); Dominican Republic (2,220); Ecuador (1,720); India (1,600); Colombia (1,550); Guyana (1,520); Jamaica (1,510); Nepal (1,090); Philippines (840)"
+green-cards:36081:FY2024,admissions_listed_prev,27700
+green-cards:36085:FY2024,county,36085
+green-cards:36085:FY2024,countyName,Richmond County
+green-cards:36085:FY2024,stateName,New York
+green-cards:36085:FY2024,top_countries,"China, People's Republic (540); Dominican Republic (180); Pakistan (150); Egypt (130); Mexico (130); Albania (110); Sri Lanka (110); Nigeria (100); India (80); Philippines (70)"
+green-cards:36085:FY2024,admissions_listed_prev,2390
+green-cards:36087:FY2024,county,36087
+green-cards:36087:FY2024,countyName,Rockland County
+green-cards:36087:FY2024,stateName,New York
+green-cards:36087:FY2024,top_countries,Dominican Republic (340); India (130); Haiti (120); El Salvador (110); Guatemala (100); Ecuador (80); Jamaica (60); Pakistan (50); United Kingdom (50); Israel (40)
+green-cards:36087:FY2024,admissions_listed_prev,1470
+green-cards:36103:FY2024,county,36103
+green-cards:36103:FY2024,countyName,Suffolk County
+green-cards:36103:FY2024,stateName,New York
+green-cards:36103:FY2024,top_countries,"El Salvador (1,580); Dominican Republic (910); Pakistan (470); Ecuador (410); Honduras (410); Colombia (370); Jamaica (260); Guatemala (250); China, People's Republic (240); India (210)"
+green-cards:36103:FY2024,admissions_listed_prev,6770
+green-cards:36119:FY2024,county,36119
+green-cards:36119:FY2024,countyName,Westchester County
+green-cards:36119:FY2024,stateName,New York
+green-cards:36119:FY2024,top_countries,"Dominican Republic (1,080); Jamaica (580); Ecuador (360); Mexico (340); Guatemala (250); China, People's Republic (230); India (230); Colombia (200); Peru (190); Albania (180)"
+green-cards:36119:FY2024,admissions_listed_prev,5310
+green-cards:OH:FY2024,stateName,Ohio
+green-cards:OH:FY2024,counties_listed,3
+green-cards:OH:FY2024,state_total_yearbook,19960
+green-cards:OH:FY2024,listed_share_pct,48.8
+green-cards:39035:FY2024,county,39035
+green-cards:39035:FY2024,countyName,Cuyahoga County
+green-cards:39035:FY2024,stateName,Ohio
+green-cards:39035:FY2024,top_countries,"Afghanistan (380); India (140); China, People's Republic (120); Dominican Republic (120); Mexico (120); Syria (80); Ukraine (80); Jordan (70); Egypt (60); Jamaica (60)"
+green-cards:39035:FY2024,admissions_listed_prev,2560
+green-cards:39049:FY2024,county,39049
+green-cards:39049:FY2024,countyName,Franklin County
+green-cards:39049:FY2024,stateName,Ohio
+green-cards:39049:FY2024,top_countries,Ghana (530); Algeria (410); Afghanistan (300); Mexico (250); Nepal (200); Somalia (200); Dominican Republic (190); India (170); Ethiopia (160); Kenya (140)
+green-cards:39049:FY2024,admissions_listed_prev,5670
+green-cards:39061:FY2024,county,39061
+green-cards:39061:FY2024,countyName,Hamilton County
+green-cards:39061:FY2024,stateName,Ohio
+green-cards:39061:FY2024,top_countries,Philippines (890); India (150); Kenya (120); Guatemala (80); Mexico (80); Nigeria (80); Zimbabwe (70); Ghana (60); Jamaica (60); Senegal (60)
+green-cards:39061:FY2024,admissions_listed_prev,3060
+green-cards:OK:FY2024,stateName,Oklahoma
+green-cards:OK:FY2024,counties_listed,2
+green-cards:OK:FY2024,state_total_yearbook,7220
+green-cards:OK:FY2024,listed_share_pct,52.2
+green-cards:40109:FY2024,county,40109
+green-cards:40109:FY2024,countyName,Oklahoma County
+green-cards:40109:FY2024,stateName,Oklahoma
+green-cards:40109:FY2024,top_countries,"Mexico (890); Afghanistan (350); Vietnam (210); Cuba (160); Philippines (80); Cameroon (60); China, People's Republic (60); India (60); Nigeria (60); Guatemala (40)"
+green-cards:40109:FY2024,admissions_listed_prev,1970
+green-cards:40143:FY2024,county,40143
+green-cards:40143:FY2024,countyName,Tulsa County
+green-cards:40143:FY2024,stateName,Oklahoma
+green-cards:40143:FY2024,top_countries,"Mexico (530); Afghanistan (130); Cuba (60); India (60); Vietnam (60); Burma (50); Nigeria (40); Pakistan (40); Venezuela (40); China, People's Republic (30)"
+green-cards:40143:FY2024,admissions_listed_prev,1050
+green-cards:OR:FY2024,stateName,Oregon
+green-cards:OR:FY2024,counties_listed,2
+green-cards:OR:FY2024,state_total_yearbook,9340
+green-cards:OR:FY2024,listed_share_pct,50.2
+green-cards:41051:FY2024,county,41051
+green-cards:41051:FY2024,countyName,Multnomah County
+green-cards:41051:FY2024,stateName,Oregon
+green-cards:41051:FY2024,top_countries,"Cuba (500); Mexico (460); Vietnam (250); Afghanistan (150); China, People's Republic (110); Ethiopia (90); Ukraine (90); Guatemala (80); Philippines (50); Russia (40)"
+green-cards:41051:FY2024,admissions_listed_prev,2210
+green-cards:41067:FY2024,county,41067
+green-cards:41067:FY2024,countyName,Washington County
+green-cards:41067:FY2024,stateName,Oregon
+green-cards:41067:FY2024,top_countries,"Mexico (440); India (310); China, People's Republic (190); Afghanistan (170); Vietnam (110); Bangladesh (90); Philippines (90); Cuba (80); Korea, South (60); Nepal (60)"
+green-cards:41067:FY2024,admissions_listed_prev,2520
+green-cards:PA:FY2024,stateName,Pennsylvania
+green-cards:PA:FY2024,counties_listed,11
+green-cards:PA:FY2024,state_total_yearbook,34850
+green-cards:PA:FY2024,listed_share_pct,64.8
+green-cards:42003:FY2024,county,42003
+green-cards:42003:FY2024,countyName,Allegheny County
+green-cards:42003:FY2024,stateName,Pennsylvania
+green-cards:42003:FY2024,top_countries,"Afghanistan (340); China, People's Republic (190); India (180); Uzbekistan (140); Nepal (90); Jamaica (70); Turkey (70); Mexico (60); Philippines (60); Russia (60)"
+green-cards:42003:FY2024,admissions_listed_prev,2330
+green-cards:42011:FY2024,county,42011
+green-cards:42011:FY2024,countyName,Berks County
+green-cards:42011:FY2024,stateName,Pennsylvania
+green-cards:42011:FY2024,top_countries,"Dominican Republic (1,170); Mexico (70); Haiti (30); El Salvador (20); India (20); Jamaica (20); Vietnam (20); Brazil (10); China, People's Republic (10); Colombia (10)"
+green-cards:42011:FY2024,admissions_listed_prev,1590
+green-cards:42017:FY2024,county,42017
+green-cards:42017:FY2024,countyName,Bucks County
+green-cards:42017:FY2024,stateName,Pennsylvania
+green-cards:42017:FY2024,top_countries,"India (310); Uzbekistan (130); Belarus (80); Georgia (70); Ukraine (70); China, People's Republic (60); Mexico (50); Kyrgyzstan (40); Liberia (40); Pakistan (40)"
+green-cards:42017:FY2024,admissions_listed_prev,1550
+green-cards:42029:FY2024,county,42029
+green-cards:42029:FY2024,countyName,Chester County
+green-cards:42029:FY2024,stateName,Pennsylvania
+green-cards:42029:FY2024,top_countries,"India (230); Mexico (150); China, People's Republic (130); Brazil (50); Pakistan (40); Philippines (30); Colombia (20); United Kingdom (20); Albania (10); Canada (10)"
+green-cards:42029:FY2024,admissions_listed_prev,1060
+green-cards:42043:FY2024,county,42043
+green-cards:42043:FY2024,countyName,Dauphin County
+green-cards:42043:FY2024,stateName,Pennsylvania
+green-cards:42043:FY2024,top_countries,Dominican Republic (270); Nepal (90); Afghanistan (70); India (50); Pakistan (40); Egypt (30); Mexico (30); Nigeria (30); Vietnam (30); Ecuador (20)
+green-cards:42043:FY2024,admissions_listed_prev,700
+green-cards:42045:FY2024,county,42045
+green-cards:42045:FY2024,countyName,Delaware County
+green-cards:42045:FY2024,stateName,Pennsylvania
+green-cards:42045:FY2024,top_countries,"Liberia (200); India (170); China, People's Republic (160); Bangladesh (110); Jamaica (110); Pakistan (80); Sierra Leone (80); Nigeria (70); Vietnam (50); Algeria (40)"
+green-cards:42045:FY2024,admissions_listed_prev,1750
+green-cards:42071:FY2024,county,42071
+green-cards:42071:FY2024,countyName,Lancaster County
+green-cards:42071:FY2024,stateName,Pennsylvania
+green-cards:42071:FY2024,top_countries,"Cuba (270); Dominican Republic (250); Afghanistan (80); Congo, Democratic Republic (40); Colombia (30); Guatemala (30); India (30); Mexico (30); Nepal (30); Tanzania (30)"
+green-cards:42071:FY2024,admissions_listed_prev,930
+green-cards:42077:FY2024,county,42077
+green-cards:42077:FY2024,countyName,Lehigh County
+green-cards:42077:FY2024,stateName,Pennsylvania
+green-cards:42077:FY2024,top_countries,"Dominican Republic (1,350); Syria (110); India (60); Colombia (50); Jamaica (50); Mexico (50); Cuba (40); Ecuador (40); Honduras (40); Afghanistan (30)"
+green-cards:42077:FY2024,admissions_listed_prev,1900
+green-cards:42079:FY2024,county,42079
+green-cards:42079:FY2024,countyName,Luzerne County
+green-cards:42079:FY2024,stateName,Pennsylvania
+green-cards:42079:FY2024,top_countries,"Dominican Republic (1,320); India (20); Mexico (20); China, People's Republic (10); Colombia (10); Ecuador (10); Jamaica (10); Peru (10); Togo (10); Vietnam (10)"
+green-cards:42079:FY2024,admissions_listed_prev,1770
+green-cards:42091:FY2024,county,42091
+green-cards:42091:FY2024,countyName,Montgomery County
+green-cards:42091:FY2024,stateName,Pennsylvania
+green-cards:42091:FY2024,top_countries,"India (290); China, People's Republic (180); Bangladesh (120); Mexico (80); Brazil (70); Dominican Republic (70); Algeria (60); Honduras (60); Korea, South (60); Pakistan (60)"
+green-cards:42091:FY2024,admissions_listed_prev,2240
+green-cards:42101:FY2024,county,42101
+green-cards:42101:FY2024,countyName,Philadelphia County
+green-cards:42101:FY2024,stateName,Pennsylvania
+green-cards:42101:FY2024,top_countries,"Dominican Republic (1,750); China, People's Republic (500); Uzbekistan (420); Jamaica (360); India (330); Vietnam (310); Algeria (230); Albania (210); Afghanistan (180); Bangladesh (170)"
+green-cards:42101:FY2024,admissions_listed_prev,8950
+green-cards:PR:FY2024,stateName,Puerto Rico
+green-cards:PR:FY2024,counties_listed,1
+green-cards:PR:FY2024,state_total_yearbook,3050
+green-cards:PR:FY2024,listed_share_pct,46.9
+green-cards:72127:FY2024,county,72127
+green-cards:72127:FY2024,countyName,San Juan Municipio
+green-cards:72127:FY2024,stateName,Puerto Rico
+green-cards:72127:FY2024,top_countries,"Dominican Republic (1,190); Colombia (70); Cuba (50); Venezuela (40); Argentina (10); China, People's Republic (10); Haiti (10); Honduras (10); Mexico (10); Nicaragua (10)"
+green-cards:72127:FY2024,admissions_listed_prev,1210
+green-cards:RI:FY2024,stateName,Rhode Island
+green-cards:RI:FY2024,counties_listed,1
+green-cards:RI:FY2024,state_total_yearbook,4410
+green-cards:RI:FY2024,listed_share_pct,75.3
+green-cards:44007:FY2024,county,44007
+green-cards:44007:FY2024,countyName,Providence County
+green-cards:44007:FY2024,stateName,Rhode Island
+green-cards:44007:FY2024,top_countries,"Dominican Republic (1,480); Cabo Verde (340); Guatemala (330); Colombia (120); China, People's Republic (80); Brazil (70); Mexico (70); Afghanistan (60); Liberia (60); Bolivia (50)"
+green-cards:44007:FY2024,admissions_listed_prev,3640
+green-cards:SC:FY2024,stateName,South Carolina
+green-cards:SC:FY2024,counties_listed,1
+green-cards:SC:FY2024,state_total_yearbook,7950
+green-cards:SC:FY2024,listed_share_pct,13.2
+green-cards:45045:FY2024,county,45045
+green-cards:45045:FY2024,countyName,Greenville County
+green-cards:45045:FY2024,stateName,South Carolina
+green-cards:45045:FY2024,top_countries,"Colombia (180); Mexico (160); Brazil (90); India (80); Cuba (60); China, People's Republic (50); Vietnam (50); Canada (40); Dominican Republic (40); Honduras (40)"
+green-cards:45045:FY2024,admissions_listed_prev,1170
+green-cards:TN:FY2024,stateName,Tennessee
+green-cards:TN:FY2024,counties_listed,3
+green-cards:TN:FY2024,state_total_yearbook,13370
+green-cards:TN:FY2024,listed_share_pct,46.4
+green-cards:47037:FY2024,county,47037
+green-cards:47037:FY2024,countyName,Davidson County
+green-cards:47037:FY2024,stateName,Tennessee
+green-cards:47037:FY2024,top_countries,Philippines (490); Cuba (450); Mexico (360); Afghanistan (220); Egypt (210); Guatemala (100); Honduras (100); El Salvador (90); Jamaica (90); India (80)
+green-cards:47037:FY2024,admissions_listed_prev,3510
+green-cards:47149:FY2024,county,47149
+green-cards:47149:FY2024,countyName,Rutherford County
+green-cards:47149:FY2024,stateName,Tennessee
+green-cards:47149:FY2024,top_countries,"Egypt (240); Cuba (160); Mexico (140); Venezuela (60); Afghanistan (50); India (50); El Salvador (40); China, People's Republic (30); Colombia (30); Guatemala (30)"
+green-cards:47149:FY2024,admissions_listed_prev,880
+green-cards:47157:FY2024,county,47157
+green-cards:47157:FY2024,countyName,Shelby County
+green-cards:47157:FY2024,stateName,Tennessee
+green-cards:47157:FY2024,top_countries,"Mexico (360); Cuba (150); Philippines (110); India (100); Honduras (90); China, People's Republic (80); Nigeria (70); Vietnam (60); Yemen (60); Jordan (50)"
+green-cards:47157:FY2024,admissions_listed_prev,1770
+green-cards:TX:FY2024,stateName,Texas
+green-cards:TX:FY2024,counties_listed,18
+green-cards:TX:FY2024,state_total_yearbook,160400
+green-cards:TX:FY2024,listed_share_pct,78.7
+green-cards:48029:FY2024,county,48029
+green-cards:48029:FY2024,countyName,Bexar County
+green-cards:48029:FY2024,stateName,Texas
+green-cards:48029:FY2024,top_countries,"Mexico (3,290); Cuba (1,500); Afghanistan (1,190); Philippines (230); India (200); Vietnam (180); Colombia (140); Honduras (120); Nigeria (100); Venezuela (100)"
+green-cards:48029:FY2024,admissions_listed_prev,6140
+green-cards:48039:FY2024,county,48039
+green-cards:48039:FY2024,countyName,Brazoria County
+green-cards:48039:FY2024,stateName,Texas
+green-cards:48039:FY2024,top_countries,"Mexico (390); Cuba (130); Vietnam (120); India (110); China, People's Republic (80); Nigeria (60); Philippines (60); Colombia (30); El Salvador (30); Pakistan (30)"
+green-cards:48039:FY2024,admissions_listed_prev,1010
+green-cards:48061:FY2024,county,48061
+green-cards:48061:FY2024,countyName,Cameron County
+green-cards:48061:FY2024,stateName,Texas
+green-cards:48061:FY2024,top_countries,"Mexico (1,640); Cuba (20); Philippines (20); Colombia (10); Venezuela (10)"
+green-cards:48061:FY2024,admissions_listed_prev,1790
+green-cards:48085:FY2024,county,48085
+green-cards:48085:FY2024,countyName,Collin County
+green-cards:48085:FY2024,stateName,Texas
+green-cards:48085:FY2024,top_countries,"India (1,470); Mexico (780); China, People's Republic (700); Pakistan (310); Nigeria (290); Vietnam (280); Brazil (180); Iran (170); Cuba (160); Korea, South (160)"
+green-cards:48085:FY2024,admissions_listed_prev,6570
+green-cards:48113:FY2024,county,48113
+green-cards:48113:FY2024,countyName,Dallas County
+green-cards:48113:FY2024,stateName,Texas
+green-cards:48113:FY2024,top_countries,"Mexico (6,090); Cuba (1,500); El Salvador (1,000); Afghanistan (920); Vietnam (860); India (810); Nigeria (720); Ethiopia (320); Nepal (310); Honduras (300)"
+green-cards:48113:FY2024,admissions_listed_prev,14860
+green-cards:48121:FY2024,county,48121
+green-cards:48121:FY2024,countyName,Denton County
+green-cards:48121:FY2024,stateName,Texas
+green-cards:48121:FY2024,top_countries,"Mexico (910); India (730); Cuba (220); Korea, South (190); Vietnam (180); Brazil (170); Nigeria (170); Pakistan (170); China, People's Republic (160); Nepal (150)"
+green-cards:48121:FY2024,admissions_listed_prev,4140
+green-cards:48135:FY2024,county,48135
+green-cards:48135:FY2024,countyName,Ector County
+green-cards:48135:FY2024,stateName,Texas
+green-cards:48135:FY2024,top_countries,"Cuba (1,780); Mexico (690); Venezuela (30); Nigeria (20); Colombia (10); Ecuador (10); India (10); Philippines (10)"
+green-cards:48135:FY2024,admissions_listed_prev,1040
+green-cards:48141:FY2024,county,48141
+green-cards:48141:FY2024,countyName,El Paso County
+green-cards:48141:FY2024,stateName,Texas
+green-cards:48141:FY2024,top_countries,"Mexico (4,820); Cuba (70); Zimbabwe (60); Philippines (50); Colombia (30); Ghana (30); Jamaica (30); Nigeria (30); South Africa (30); China, People's Republic (20)"
+green-cards:48141:FY2024,admissions_listed_prev,4740
+green-cards:48157:FY2024,county,48157
+green-cards:48157:FY2024,countyName,Fort Bend County
+green-cards:48157:FY2024,stateName,Texas
+green-cards:48157:FY2024,top_countries,"India (1,050); Nigeria (700); Pakistan (650); China, People's Republic (610); Mexico (540); Cuba (420); Vietnam (410); Venezuela (340); El Salvador (190); Turkey (160)"
+green-cards:48157:FY2024,admissions_listed_prev,7040
+green-cards:48201:FY2024,county,48201
+green-cards:48201:FY2024,countyName,Harris County
+green-cards:48201:FY2024,stateName,Texas
+green-cards:48201:FY2024,top_countries,"Cuba (11,570); Mexico (7,890); Vietnam (1,930); El Salvador (1,810); Afghanistan (1,630); Nigeria (1,450); Honduras (990); China, People's Republic (890); India (850); Venezuela (840)"
+green-cards:48201:FY2024,admissions_listed_prev,31630
+green-cards:48215:FY2024,county,48215
+green-cards:48215:FY2024,countyName,Hidalgo County
+green-cards:48215:FY2024,stateName,Texas
+green-cards:48215:FY2024,top_countries,"Mexico (3,590); Cuba (110); Philippines (40); Colombia (30); Dominican Republic (20); El Salvador (20); Venezuela (20); Honduras (10); India (10); Iran (10)"
+green-cards:48215:FY2024,admissions_listed_prev,3880
+green-cards:48245:FY2024,county,48245
+green-cards:48245:FY2024,countyName,Jefferson County
+green-cards:48245:FY2024,stateName,Texas
+green-cards:48245:FY2024,top_countries,Mexico (360); Cuba (250); Vietnam (60); Philippines (30); Dominican Republic (20); Honduras (20); India (20); Nigeria (20); Pakistan (20); Cambodia (10)
+green-cards:48329:FY2024,county,48329
+green-cards:48329:FY2024,countyName,Midland County
+green-cards:48329:FY2024,stateName,Texas
+green-cards:48329:FY2024,top_countries,Cuba (910); Mexico (420); Venezuela (50); Nigeria (30); Burma (10); Colombia (10); Sudan (10); Vietnam (10)
+green-cards:48339:FY2024,county,48339
+green-cards:48339:FY2024,countyName,Montgomery County
+green-cards:48339:FY2024,stateName,Texas
+green-cards:48339:FY2024,top_countries,"Mexico (1,000); Cuba (300); Venezuela (160); Colombia (120); Brazil (90); China, People's Republic (90); Honduras (90); India (80); El Salvador (70); Philippines (70)"
+green-cards:48339:FY2024,admissions_listed_prev,2690
+green-cards:48439:FY2024,county,48439
+green-cards:48439:FY2024,countyName,Tarrant County
+green-cards:48439:FY2024,stateName,Texas
+green-cards:48439:FY2024,top_countries,"Mexico (3,190); Nepal (860); Cuba (800); Afghanistan (660); Vietnam (510); India (400); Nigeria (390); Egypt (220); Congo, Democratic Republic (210); El Salvador (190)"
+green-cards:48439:FY2024,admissions_listed_prev,9030
+green-cards:48453:FY2024,county,48453
+green-cards:48453:FY2024,countyName,Travis County
+green-cards:48453:FY2024,stateName,Texas
+green-cards:48453:FY2024,top_countries,"Cuba (2,750); Mexico (1,640); India (470); Afghanistan (270); China, People's Republic (260); Vietnam (190); Honduras (170); Nepal (150); Brazil (130); Colombia (120)"
+green-cards:48453:FY2024,admissions_listed_prev,5740
+green-cards:48479:FY2024,county,48479
+green-cards:48479:FY2024,countyName,Webb County
+green-cards:48479:FY2024,stateName,Texas
+green-cards:48479:FY2024,top_countries,"Mexico (1,310); Cuba (40); Colombia (10)"
+green-cards:48479:FY2024,admissions_listed_prev,1150
+green-cards:48491:FY2024,county,48491
+green-cards:48491:FY2024,countyName,Williamson County
+green-cards:48491:FY2024,stateName,Texas
+green-cards:48491:FY2024,top_countries,"Cuba (1,050); India (660); Mexico (520); China, People's Republic (190); Korea, South (170); Brazil (150); Vietnam (120); Nepal (110); Nigeria (80); Turkey (70)"
+green-cards:48491:FY2024,admissions_listed_prev,3270
+green-cards:UT:FY2024,stateName,Utah
+green-cards:UT:FY2024,counties_listed,2
+green-cards:UT:FY2024,state_total_yearbook,10310
+green-cards:UT:FY2024,listed_share_pct,69.5
+green-cards:49035:FY2024,county,49035
+green-cards:49035:FY2024,countyName,Salt Lake County
+green-cards:49035:FY2024,stateName,Utah
+green-cards:49035:FY2024,top_countries,"Mexico (1,370); Venezuela (440); Afghanistan (340); Brazil (280); Peru (210); Colombia (200); Vietnam (170); China, People's Republic (150); Cuba (130); India (130)"
+green-cards:49035:FY2024,admissions_listed_prev,3860
+green-cards:49049:FY2024,county,49049
+green-cards:49049:FY2024,countyName,Utah County
+green-cards:49049:FY2024,stateName,Utah
+green-cards:49049:FY2024,top_countries,"Mexico (640); Brazil (210); Venezuela (170); Peru (150); Colombia (130); Argentina (120); Chile (80); Canada (70); China, People's Republic (60); Dominican Republic (60)"
+green-cards:49049:FY2024,admissions_listed_prev,1310
+green-cards:VA:FY2024,stateName,Virginia
+green-cards:VA:FY2024,counties_listed,8
+green-cards:VA:FY2024,state_total_yearbook,37850
+green-cards:VA:FY2024,listed_share_pct,59.4
+green-cards:51013:FY2024,county,51013
+green-cards:51013:FY2024,countyName,Arlington County
+green-cards:51013:FY2024,stateName,Virginia
+green-cards:51013:FY2024,top_countries,"Afghanistan (130); Ethiopia (110); China, People's Republic (80); El Salvador (70); Pakistan (60); India (50); Mongolia (50); Morocco (50); Bolivia (40); Brazil (40)"
+green-cards:51013:FY2024,admissions_listed_prev,1070
+green-cards:51041:FY2024,county,51041
+green-cards:51041:FY2024,countyName,Chesterfield County
+green-cards:51041:FY2024,stateName,Virginia
+green-cards:51041:FY2024,top_countries,El Salvador (130); Guatemala (60); Honduras (60); Mexico (60); India (50); Jamaica (40); Vietnam (40); Dominican Republic (30); Philippines (30); Afghanistan (20)
+green-cards:51059:FY2024,county,51059
+green-cards:51059:FY2024,countyName,Fairfax County
+green-cards:51059:FY2024,stateName,Virginia
+green-cards:51059:FY2024,top_countries,"Afghanistan (970); El Salvador (650); China, People's Republic (610); Pakistan (580); Vietnam (480); India (470); Ethiopia (440); Korea, South (290); Nepal (290); Bolivia (270)"
+green-cards:51059:FY2024,admissions_listed_prev,8570
+green-cards:51087:FY2024,county,51087
+green-cards:51087:FY2024,countyName,Henrico County
+green-cards:51087:FY2024,stateName,Virginia
+green-cards:51087:FY2024,top_countries,"Afghanistan (520); India (200); Egypt (80); Brazil (70); El Salvador (60); Sudan (50); China, People's Republic (40); Mexico (40); Vietnam (40); Congo, Democratic Republic (30)"
+green-cards:51087:FY2024,admissions_listed_prev,1160
+green-cards:51107:FY2024,county,51107
+green-cards:51107:FY2024,countyName,Loudoun County
+green-cards:51107:FY2024,stateName,Virginia
+green-cards:51107:FY2024,top_countries,"India (620); Afghanistan (410); El Salvador (290); Pakistan (280); Philippines (130); Peru (110); Bangladesh (90); Nepal (90); China, People's Republic (80); Egypt (80)"
+green-cards:51107:FY2024,admissions_listed_prev,2890
+green-cards:51153:FY2024,county,51153
+green-cards:51153:FY2024,countyName,Prince William County
+green-cards:51153:FY2024,stateName,Virginia
+green-cards:51153:FY2024,top_countries,"Afghanistan (1,020); El Salvador (730); Pakistan (400); Ghana (270); Honduras (180); Nepal (180); Bangladesh (170); Peru (140); India (120); Ethiopia (110)"
+green-cards:51153:FY2024,admissions_listed_prev,3600
+green-cards:51510:FY2024,county,51510
+green-cards:51510:FY2024,countyName,Alexandria city
+green-cards:51510:FY2024,stateName,Virginia
+green-cards:51510:FY2024,top_countries,Afghanistan (550); Ethiopia (160); Brazil (80); El Salvador (80); Morocco (60); Bolivia (30); Honduras (30); Colombia (20); Egypt (20); Guatemala (20)
+green-cards:51510:FY2024,admissions_listed_prev,1170
+green-cards:51810:FY2024,county,51810
+green-cards:51810:FY2024,countyName,Virginia Beach city
+green-cards:51810:FY2024,stateName,Virginia
+green-cards:51810:FY2024,top_countries,"Philippines (150); Vietnam (70); India (60); China, People's Republic (50); Jamaica (50); Mexico (40); Peru (40); Brazil (20); Colombia (20); El Salvador (20)"
+green-cards:WA:FY2024,stateName,Washington
+green-cards:WA:FY2024,counties_listed,4
+green-cards:WA:FY2024,state_total_yearbook,33420
+green-cards:WA:FY2024,listed_share_pct,72
+green-cards:53011:FY2024,county,53011
+green-cards:53011:FY2024,countyName,Clark County
+green-cards:53011:FY2024,stateName,Washington
+green-cards:53011:FY2024,top_countries,"Mexico (220); Ukraine (100); Philippines (90); Vietnam (70); India (40); Afghanistan (30); Canada (30); China, People's Republic (30); Cuba (20); Korea, South (20)"
+green-cards:53011:FY2024,admissions_listed_prev,820
+green-cards:53033:FY2024,county,53033
+green-cards:53033:FY2024,countyName,King County
+green-cards:53033:FY2024,stateName,Washington
+green-cards:53033:FY2024,top_countries,"China, People's Republic (3,560); Afghanistan (2,110); India (1,840); Mexico (1,300); Vietnam (910); Ethiopia (610); Philippines (580); Korea, South (430); Canada (350); Kenya (330)"
+green-cards:53033:FY2024,admissions_listed_prev,18770
+green-cards:53053:FY2024,county,53053
+green-cards:53053:FY2024,countyName,Pierce County
+green-cards:53053:FY2024,stateName,Washington
+green-cards:53053:FY2024,top_countries,"Mexico (360); Kenya (260); Philippines (210); Vietnam (170); Ukraine (100); Afghanistan (90); India (90); Korea, South (60); China, People's Republic (50); Moldova (40)"
+green-cards:53053:FY2024,admissions_listed_prev,1910
+green-cards:53061:FY2024,county,53061
+green-cards:53061:FY2024,countyName,Snohomish County
+green-cards:53061:FY2024,stateName,Washington
+green-cards:53061:FY2024,top_countries,"India (570); China, People's Republic (500); Mexico (380); Vietnam (260); Philippines (230); Ethiopia (120); Korea, South (120); Gambia (100); Afghanistan (80); Kenya (80)"
+green-cards:53061:FY2024,admissions_listed_prev,3950
+green-cards:WI:FY2024,stateName,Wisconsin
+green-cards:WI:FY2024,counties_listed,2
+green-cards:WI:FY2024,state_total_yearbook,7750
+green-cards:WI:FY2024,listed_share_pct,39.7
+green-cards:55025:FY2024,county,55025
+green-cards:55025:FY2024,countyName,Dane County
+green-cards:55025:FY2024,stateName,Wisconsin
+green-cards:55025:FY2024,top_countries,"Mexico (230); China, People's Republic (120); Colombia (90); India (80); Gambia (60); Afghanistan (40); Venezuela (40); Brazil (30); Nepal (30); Nigeria (30)"
+green-cards:55025:FY2024,admissions_listed_prev,1220
+green-cards:55079:FY2024,county,55079
+green-cards:55079:FY2024,countyName,Milwaukee County
+green-cards:55079:FY2024,stateName,Wisconsin
+green-cards:55079:FY2024,top_countries,"Mexico (640); Burma (130); India (110); Malaysia (70); Afghanistan (60); Cuba (60); Dominican Republic (60); Albania (50); Congo, Democratic Republic (50); Tanzania (50)"
+green-cards:55079:FY2024,admissions_listed_prev,1710
+green-cards:US:FY2023,counties_listed,200
+green-cards:US:FY2023,state_total_yearbook,1172910
+green-cards:US:FY2023,listed_share_pct,79.8
+green-cards:AZ:FY2023,stateName,Arizona
+green-cards:AZ:FY2023,counties_listed,3
+green-cards:AZ:FY2023,state_total_yearbook,20190
+green-cards:AZ:FY2023,listed_share_pct,85.4
+green-cards:04013:FY2023,county,04013
+green-cards:04013:FY2023,countyName,Maricopa County
+green-cards:04013:FY2023,stateName,Arizona
+green-cards:04013:FY2023,top_countries,"Mexico (6,340); India (850); Vietnam (500); Philippines (400); Cuba (370); China, People's Republic (350); Canada (260); Guatemala (150); Rwanda (140); Afghanistan (130)"
+green-cards:04019:FY2023,county,04019
+green-cards:04019:FY2023,countyName,Pima County
+green-cards:04019:FY2023,stateName,Arizona
+green-cards:04019:FY2023,top_countries,"Mexico (1,710); Vietnam (130); Philippines (90); Afghanistan (60); China, People's Republic (60); India (50); Congo, Democratic Republic (40); Burundi (30); Cameroon (30); Canada (30)"
+green-cards:04027:FY2023,county,04027
+green-cards:04027:FY2023,countyName,Yuma County
+green-cards:04027:FY2023,stateName,Arizona
+green-cards:04027:FY2023,top_countries,"Mexico (1,790); Canada (10); Philippines (10)"
+green-cards:CA:FY2023,stateName,California
+green-cards:CA:FY2023,counties_listed,26
+green-cards:CA:FY2023,state_total_yearbook,205040
+green-cards:CA:FY2023,listed_share_pct,94
+green-cards:06001:FY2023,county,06001
+green-cards:06001:FY2023,countyName,Alameda County
+green-cards:06001:FY2023,stateName,California
+green-cards:06001:FY2023,top_countries,"India (2,790); Mexico (1,970); China, People's Republic (1,900); Philippines (820); Guatemala (740); Afghanistan (710); Vietnam (590); El Salvador (450); Korea, South (200); Taiwan (180)"
+green-cards:06013:FY2023,county,06013
+green-cards:06013:FY2023,countyName,Contra Costa County
+green-cards:06013:FY2023,stateName,California
+green-cards:06013:FY2023,top_countries,"Mexico (1,270); India (850); Philippines (700); China, People's Republic (680); Afghanistan (510); El Salvador (340); Nepal (220); Brazil (190); Guatemala (180); Iran (170)"
+green-cards:06019:FY2023,county,06019
+green-cards:06019:FY2023,countyName,Fresno County
+green-cards:06019:FY2023,stateName,California
+green-cards:06019:FY2023,top_countries,"Mexico (1,690); India (930); El Salvador (170); Philippines (90); Yemen (90); Armenia (50); Vietnam (50); China, People's Republic (40); Afghanistan (30); Laos (30)"
+green-cards:06025:FY2023,county,06025
+green-cards:06025:FY2023,countyName,Imperial County
+green-cards:06025:FY2023,stateName,California
+green-cards:06025:FY2023,top_countries,"Mexico (1,780); Philippines (20)"
+green-cards:06029:FY2023,county,06029
+green-cards:06029:FY2023,countyName,Kern County
+green-cards:06029:FY2023,stateName,California
+green-cards:06029:FY2023,top_countries,"Mexico (1,570); India (570); Philippines (240); El Salvador (110); Guatemala (50); Yemen (50); Egypt (40); Canada (30); Peru (30); Syria (30)"
+green-cards:06037:FY2023,county,06037
+green-cards:06037:FY2023,countyName,Los Angeles County
+green-cards:06037:FY2023,stateName,California
+green-cards:06037:FY2023,top_countries,"Mexico (12,790); China, People's Republic (6,380); Armenia (3,730); Philippines (3,480); El Salvador (3,050); Korea, South (1,990); Guatemala (1,810); Iran (1,460); Vietnam (1,420); India (1,400)"
+green-cards:06041:FY2023,county,06041
+green-cards:06041:FY2023,countyName,Marin County
+green-cards:06041:FY2023,stateName,California
+green-cards:06041:FY2023,top_countries,"Guatemala (170); Mexico (120); Brazil (100); El Salvador (40); United Kingdom (40); India (30); Afghanistan (20); Canada (20); China, People's Republic (20); France (20)"
+green-cards:06047:FY2023,county,06047
+green-cards:06047:FY2023,countyName,Merced County
+green-cards:06047:FY2023,stateName,California
+green-cards:06047:FY2023,top_countries,Mexico (640); India (150); El Salvador (20); Guatemala (10); Laos (10); Philippines (10)
+green-cards:06053:FY2023,county,06053
+green-cards:06053:FY2023,countyName,Monterey County
+green-cards:06053:FY2023,stateName,California
+green-cards:06053:FY2023,top_countries,"Mexico (1,070); Philippines (170); El Salvador (50); India (30); China, People's Republic (20); Brazil (10); Colombia (10); Israel (10); Japan (10); Korea, South (10)"
+green-cards:06059:FY2023,county,06059
+green-cards:06059:FY2023,countyName,Orange County
+green-cards:06059:FY2023,stateName,California
+green-cards:06059:FY2023,top_countries,"Mexico (3,980); Vietnam (3,270); China, People's Republic (2,660); Korea, South (1,210); Iran (1,110); Philippines (1,080); India (910); Egypt (350); Brazil (300); El Salvador (260)"
+green-cards:06061:FY2023,county,06061
+green-cards:06061:FY2023,countyName,Placer County
+green-cards:06061:FY2023,stateName,California
+green-cards:06061:FY2023,top_countries,"Afghanistan (140); Philippines (110); India (100); Mexico (100); Ukraine (60); Russia (50); Vietnam (40); Brazil (30); China, People's Republic (30); Iran (30)"
+green-cards:06065:FY2023,county,06065
+green-cards:06065:FY2023,countyName,Riverside County
+green-cards:06065:FY2023,stateName,California
+green-cards:06065:FY2023,top_countries,"Mexico (4,270); Philippines (600); China, People's Republic (430); India (380); Vietnam (280); Guatemala (170); El Salvador (150); Afghanistan (130); Egypt (130); Colombia (100)"
+green-cards:06067:FY2023,county,06067
+green-cards:06067:FY2023,countyName,Sacramento County
+green-cards:06067:FY2023,stateName,California
+green-cards:06067:FY2023,top_countries,"Afghanistan (3,150); Mexico (1,330); India (970); Vietnam (600); Philippines (550); Ukraine (440); China, People's Republic (320); Fiji (290); Russia (140); El Salvador (120)"
+green-cards:06071:FY2023,county,06071
+green-cards:06071:FY2023,countyName,San Bernardino County
+green-cards:06071:FY2023,stateName,California
+green-cards:06071:FY2023,top_countries,"Mexico (3,400); China, People's Republic (1,130); India (390); Philippines (390); El Salvador (260); Vietnam (160); Guatemala (130); Syria (130); Egypt (100); Jordan (100)"
+green-cards:06073:FY2023,county,06073
+green-cards:06073:FY2023,countyName,San Diego County
+green-cards:06073:FY2023,stateName,California
+green-cards:06073:FY2023,top_countries,"Mexico (7,520); Philippines (1,330); Afghanistan (1,290); China, People's Republic (860); India (690); Vietnam (650); Iran (440); Brazil (420); Korea, South (300); Russia (250)"
+green-cards:06075:FY2023,county,06075
+green-cards:06075:FY2023,countyName,San Francisco County
+green-cards:06075:FY2023,stateName,California
+green-cards:06075:FY2023,top_countries,"China, People's Republic (1,140); Mexico (940); India (350); El Salvador (330); Philippines (320); Guatemala (290); Vietnam (250); Brazil (170); Canada (170); United Kingdom (150)"
+green-cards:06077:FY2023,county,06077
+green-cards:06077:FY2023,countyName,San Joaquin County
+green-cards:06077:FY2023,stateName,California
+green-cards:06077:FY2023,top_countries,"Mexico (1,140); India (990); Philippines (410); Pakistan (160); Afghanistan (140); Vietnam (140); China, People's Republic (70); Guatemala (70); El Salvador (40); Nigeria (30)"
+green-cards:06081:FY2023,county,06081
+green-cards:06081:FY2023,countyName,San Mateo County
+green-cards:06081:FY2023,stateName,California
+green-cards:06081:FY2023,top_countries,"China, People's Republic (990); Philippines (660); Mexico (630); India (480); El Salvador (200); Guatemala (200); Brazil (170); Burma (110); Iran (110); Korea, South (100)"
+green-cards:06083:FY2023,county,06083
+green-cards:06083:FY2023,countyName,Santa Barbara County
+green-cards:06083:FY2023,stateName,California
+green-cards:06083:FY2023,top_countries,"Mexico (710); Philippines (80); China, People's Republic (40); India (20); Brazil (10); Canada (10); Colombia (10); El Salvador (10); Guatemala (10); Iran (10)"
+green-cards:06085:FY2023,county,06085
+green-cards:06085:FY2023,countyName,Santa Clara County
+green-cards:06085:FY2023,stateName,California
+green-cards:06085:FY2023,top_countries,"China, People's Republic (4,290); India (3,440); Mexico (2,380); Vietnam (2,090); Philippines (920); Korea, South (770); Taiwan (620); Iran (550); Russia (500); Afghanistan (300)"
+green-cards:06095:FY2023,county,06095
+green-cards:06095:FY2023,countyName,Solano County
+green-cards:06095:FY2023,stateName,California
+green-cards:06095:FY2023,top_countries,"Mexico (460); Philippines (420); India (130); El Salvador (50); Vietnam (50); Afghanistan (30); Guatemala (30); Canada (20); China, People's Republic (20); Fiji (20)"
+green-cards:06097:FY2023,county,06097
+green-cards:06097:FY2023,countyName,Sonoma County
+green-cards:06097:FY2023,stateName,California
+green-cards:06097:FY2023,top_countries,"Mexico (800); Philippines (100); Fiji (90); El Salvador (60); Nepal (50); India (40); Vietnam (40); Guatemala (30); China, People's Republic (20); Argentina (10)"
+green-cards:06099:FY2023,county,06099
+green-cards:06099:FY2023,countyName,Stanislaus County
+green-cards:06099:FY2023,stateName,California
+green-cards:06099:FY2023,top_countries,"Mexico (1,030); Afghanistan (500); India (280); Philippines (100); Yemen (40); Fiji (30); Vietnam (30); China, People's Republic (20); Colombia (20); El Salvador (20)"
+green-cards:06107:FY2023,county,06107
+green-cards:06107:FY2023,countyName,Tulare County
+green-cards:06107:FY2023,stateName,California
+green-cards:06107:FY2023,top_countries,"Mexico (1,070); India (60); Philippines (60); Yemen (30); El Salvador (20); Vietnam (20); Pakistan (10); Peru (10); Syria (10); United Kingdom (10)"
+green-cards:06111:FY2023,county,06111
+green-cards:06111:FY2023,countyName,Ventura County
+green-cards:06111:FY2023,stateName,California
+green-cards:06111:FY2023,top_countries,"Mexico (1,200); Philippines (240); India (160); China, People's Republic (80); Iran (80); El Salvador (70); Vietnam (70); Guatemala (40); Syria (40); Afghanistan (30)"
+green-cards:06113:FY2023,county,06113
+green-cards:06113:FY2023,countyName,Yolo County
+green-cards:06113:FY2023,stateName,California
+green-cards:06113:FY2023,top_countries,"Mexico (270); India (100); Afghanistan (70); China, People's Republic (60); Nepal (30); Pakistan (30); Bangladesh (20); Fiji (20); Iran (20); Korea, South (20)"
+green-cards:CO:FY2023,stateName,Colorado
+green-cards:CO:FY2023,counties_listed,5
+green-cards:CO:FY2023,state_total_yearbook,14340
+green-cards:CO:FY2023,listed_share_pct,58.7
+green-cards:08001:FY2023,county,08001
+green-cards:08001:FY2023,countyName,Adams County
+green-cards:08001:FY2023,stateName,Colorado
+green-cards:08001:FY2023,top_countries,"Mexico (1,000); Afghanistan (220); Nepal (90); Vietnam (50); Cuba (40); China, People's Republic (20); Colombia (20); El Salvador (20); Guatemala (20); India (20)"
+green-cards:08005:FY2023,county,08005
+green-cards:08005:FY2023,countyName,Arapahoe County
+green-cards:08005:FY2023,stateName,Colorado
+green-cards:08005:FY2023,top_countries,"Mexico (640); Afghanistan (410); Ethiopia (170); China, People's Republic (120); India (100); Vietnam (100); Nepal (80); Ghana (70); Colombia (50); Congo, Democratic Republic (50)"
+green-cards:08031:FY2023,county,08031
+green-cards:08031:FY2023,countyName,Denver County
+green-cards:08031:FY2023,stateName,Colorado
+green-cards:08031:FY2023,top_countries,"Mexico (920); Afghanistan (220); Vietnam (120); Colombia (70); Ethiopia (70); Algeria (50); Brazil (50); Nepal (50); Sudan (50); China, People's Republic (40)"
+green-cards:08041:FY2023,county,08041
+green-cards:08041:FY2023,countyName,El Paso County
+green-cards:08041:FY2023,stateName,Colorado
+green-cards:08041:FY2023,top_countries,"Mexico (250); Philippines (80); Cuba (60); Jamaica (60); Afghanistan (50); India (40); Vietnam (40); China, People's Republic (30); Nepal (30); United Kingdom (30)"
+green-cards:08059:FY2023,county,08059
+green-cards:08059:FY2023,countyName,Jefferson County
+green-cards:08059:FY2023,stateName,Colorado
+green-cards:08059:FY2023,top_countries,"Mexico (240); Vietnam (50); China, People's Republic (40); Nepal (40); Afghanistan (30); Brazil (30); Colombia (30); United Kingdom (30); India (20); Philippines (20)"
+green-cards:CT:FY2023,stateName,Connecticut
+green-cards:CT:FY2023,counties_listed,3
+green-cards:CT:FY2023,state_total_yearbook,12650
+green-cards:CT:FY2023,listed_share_pct,80.5
+green-cards:09001:FY2023,county,09001
+green-cards:09001:FY2023,countyName,Fairfield County
+green-cards:09001:FY2023,stateName,Connecticut
+green-cards:09001:FY2023,top_countries,"Dominican Republic (500); Brazil (420); Jamaica (400); India (290); Ecuador (260); Colombia (230); Guatemala (210); Haiti (160); Peru (160); China, People's Republic (150)"
+green-cards:09003:FY2023,county,09003
+green-cards:09003:FY2023,countyName,Hartford County
+green-cards:09003:FY2023,stateName,Connecticut
+green-cards:09003:FY2023,top_countries,"Jamaica (580); India (470); Dominican Republic (300); Peru (160); China, People's Republic (100); Ghana (90); Afghanistan (80); Vietnam (80); Albania (70); Brazil (70)"
+green-cards:09009:FY2023,county,09009
+green-cards:09009:FY2023,countyName,New Haven County
+green-cards:09009:FY2023,stateName,Connecticut
+green-cards:09009:FY2023,top_countries,"Dominican Republic (380); Jamaica (240); Afghanistan (210); Ecuador (150); India (140); Mexico (140); China, People's Republic (130); Brazil (120); Albania (100); Bangladesh (70)"
+green-cards:DC:FY2023,stateName,District of Columbia
+green-cards:DC:FY2023,counties_listed,1
+green-cards:DC:FY2023,state_total_yearbook,2520
+green-cards:DC:FY2023,listed_share_pct,81
+green-cards:11001:FY2023,county,11001
+green-cards:11001:FY2023,countyName,District of Columbia
+green-cards:11001:FY2023,stateName,District of Columbia
+green-cards:11001:FY2023,top_countries,"El Salvador (290); Ethiopia (180); Mexico (140); Brazil (130); China, People's Republic (110); Dominican Republic (80); Honduras (80); Cameroon (60); Guatemala (60); Canada (50)"
+green-cards:DE:FY2023,stateName,Delaware
+green-cards:DE:FY2023,counties_listed,1
+green-cards:DE:FY2023,state_total_yearbook,2400
+green-cards:DE:FY2023,listed_share_pct,55
+green-cards:10003:FY2023,county,10003
+green-cards:10003:FY2023,countyName,New Castle County
+green-cards:10003:FY2023,stateName,Delaware
+green-cards:10003:FY2023,top_countries,"India (250); Mexico (160); Dominican Republic (100); China, People's Republic (80); Jamaica (80); Cameroon (60); Ghana (60); Nigeria (40); Philippines (40); Afghanistan (30)"
+green-cards:FL:FY2023,stateName,Florida
+green-cards:FL:FY2023,counties_listed,20
+green-cards:FL:FY2023,state_total_yearbook,155500
+green-cards:FL:FY2023,listed_share_pct,91.3
+green-cards:12001:FY2023,county,12001
+green-cards:12001:FY2023,countyName,Alachua County
+green-cards:12001:FY2023,stateName,Florida
+green-cards:12001:FY2023,top_countries,"Philippines (220); China, People's Republic (60); Brazil (50); Colombia (40); India (40); Iran (40); Venezuela (30); Bangladesh (20); Korea, South (20); Vietnam (20)"
+green-cards:12009:FY2023,county,12009
+green-cards:12009:FY2023,countyName,Brevard County
+green-cards:12009:FY2023,stateName,Florida
+green-cards:12009:FY2023,top_countries,Cuba (90); Jamaica (90); Brazil (80); Colombia (60); Philippines (60); Haiti (50); Dominican Republic (40); India (40); Venezuela (40); Vietnam (40)
+green-cards:12011:FY2023,county,12011
+green-cards:12011:FY2023,countyName,Broward County
+green-cards:12011:FY2023,stateName,Florida
+green-cards:12011:FY2023,top_countries,"Cuba (3,280); Jamaica (2,140); Colombia (1,660); Haiti (1,640); Venezuela (1,440); Brazil (1,420); Philippines (740); Dominican Republic (730); Peru (670); Argentina (370)"
+green-cards:12021:FY2023,county,12021
+green-cards:12021:FY2023,countyName,Collier County
+green-cards:12021:FY2023,stateName,Florida
+green-cards:12021:FY2023,top_countries,"Cuba (1,160); Haiti (290); Mexico (140); Colombia (110); Venezuela (90); Dominican Republic (60); Jamaica (60); Peru (60); Bolivia (50); Brazil (50)"
+green-cards:12031:FY2023,county,12031
+green-cards:12031:FY2023,countyName,Duval County
+green-cards:12031:FY2023,stateName,Florida
+green-cards:12031:FY2023,top_countries,Cuba (470); Philippines (470); Albania (170); Brazil (170); India (160); Colombia (140); Afghanistan (130); Vietnam (120); Dominican Republic (100); Jamaica (100)
+green-cards:12057:FY2023,county,12057
+green-cards:12057:FY2023,countyName,Hillsborough County
+green-cards:12057:FY2023,stateName,Florida
+green-cards:12057:FY2023,top_countries,"Cuba (5,110); India (500); Colombia (450); Mexico (430); Dominican Republic (400); Venezuela (320); Brazil (280); Vietnam (220); Haiti (200); Jamaica (150)"
+green-cards:12069:FY2023,county,12069
+green-cards:12069:FY2023,countyName,Lake County
+green-cards:12069:FY2023,stateName,Florida
+green-cards:12069:FY2023,top_countries,Brazil (150); Mexico (90); Cuba (60); Venezuela (60); Colombia (50); Jamaica (50); Dominican Republic (40); Haiti (40); Guyana (30); India (30)
+green-cards:12071:FY2023,county,12071
+green-cards:12071:FY2023,countyName,Lee County
+green-cards:12071:FY2023,stateName,Florida
+green-cards:12071:FY2023,top_countries,"Cuba (2,030); Haiti (250); Mexico (210); Brazil (130); Colombia (120); Dominican Republic (120); Jamaica (90); Venezuela (90); Peru (80); Guatemala (70)"
+green-cards:12081:FY2023,county,12081
+green-cards:12081:FY2023,countyName,Manatee County
+green-cards:12081:FY2023,stateName,Florida
+green-cards:12081:FY2023,top_countries,Cuba (270); Mexico (160); Haiti (80); Colombia (60); Venezuela (50); Brazil (40); Honduras (40); Vietnam (40); Dominican Republic (30); India (30)
+green-cards:12086:FY2023,county,12086
+green-cards:12086:FY2023,countyName,Miami-Dade County
+green-cards:12086:FY2023,stateName,Florida
+green-cards:12086:FY2023,top_countries,"Cuba (41,840); Venezuela (3,830); Colombia (2,900); Haiti (1,450); Dominican Republic (1,400); Brazil (1,310); Nicaragua (1,060); Peru (1,020); Argentina (1,000); Honduras (840)"
+green-cards:12095:FY2023,county,12095
+green-cards:12095:FY2023,countyName,Orange County
+green-cards:12095:FY2023,stateName,Florida
+green-cards:12095:FY2023,top_countries,"Brazil (2,840); Venezuela (1,100); Cuba (1,050); Haiti (790); Dominican Republic (680); Colombia (670); Philippines (550); Jamaica (480); Mexico (290); Vietnam (270)"
+green-cards:12097:FY2023,county,12097
+green-cards:12097:FY2023,countyName,Osceola County
+green-cards:12097:FY2023,stateName,Florida
+green-cards:12097:FY2023,top_countries,Venezuela (450); Dominican Republic (420); Cuba (410); Brazil (400); Colombia (250); Haiti (100); Jamaica (90); Mexico (60); Morocco (60); Peru (60)
+green-cards:12099:FY2023,county,12099
+green-cards:12099:FY2023,countyName,Palm Beach County
+green-cards:12099:FY2023,stateName,Florida
+green-cards:12099:FY2023,top_countries,"Cuba (3,240); Haiti (1,550); Brazil (1,190); Colombia (630); Jamaica (600); Venezuela (330); Mexico (310); Dominican Republic (270); Guatemala (240); Philippines (220)"
+green-cards:12101:FY2023,county,12101
+green-cards:12101:FY2023,countyName,Pasco County
+green-cards:12101:FY2023,stateName,Florida
+green-cards:12101:FY2023,top_countries,Cuba (390); India (130); Brazil (120); Colombia (100); Mexico (100); Venezuela (90); Dominican Republic (60); Egypt (50); Philippines (50); Vietnam (50)
+green-cards:12103:FY2023,county,12103
+green-cards:12103:FY2023,countyName,Pinellas County
+green-cards:12103:FY2023,stateName,Florida
+green-cards:12103:FY2023,top_countries,Cuba (390); Vietnam (170); Albania (150); Mexico (130); Colombia (110); India (100); Jamaica (90); Brazil (80); Philippines (80); Venezuela (80)
+green-cards:12105:FY2023,county,12105
+green-cards:12105:FY2023,countyName,Polk County
+green-cards:12105:FY2023,stateName,Florida
+green-cards:12105:FY2023,top_countries,Cuba (500); Mexico (230); Venezuela (220); Haiti (200); Dominican Republic (180); Brazil (140); Colombia (120); Jamaica (110); Peru (50); Vietnam (50)
+green-cards:12111:FY2023,county,12111
+green-cards:12111:FY2023,countyName,St. Lucie County
+green-cards:12111:FY2023,stateName,Florida
+green-cards:12111:FY2023,top_countries,Cuba (340); Haiti (270); Jamaica (200); Mexico (90); Brazil (80); Colombia (80); Dominican Republic (60); Honduras (50); Venezuela (50); Ecuador (20)
+green-cards:12115:FY2023,county,12115
+green-cards:12115:FY2023,countyName,Sarasota County
+green-cards:12115:FY2023,stateName,Florida
+green-cards:12115:FY2023,top_countries,Cuba (360); Brazil (80); Mexico (70); Russia (60); Venezuela (60); Colombia (50); Haiti (40); Ukraine (40); Hungary (30); Peru (30)
+green-cards:12117:FY2023,county,12117
+green-cards:12117:FY2023,countyName,Seminole County
+green-cards:12117:FY2023,stateName,Florida
+green-cards:12117:FY2023,top_countries,"Philippines (240); Kenya (170); Cuba (120); India (120); Brazil (100); Colombia (100); Dominican Republic (100); Venezuela (90); China, People's Republic (70); Jamaica (70)"
+green-cards:12127:FY2023,county,12127
+green-cards:12127:FY2023,countyName,Volusia County
+green-cards:12127:FY2023,stateName,Florida
+green-cards:12127:FY2023,top_countries,Jamaica (160); Philippines (130); Dominican Republic (80); Colombia (60); Cuba (60); India (50); Mexico (50); Vietnam (50); Brazil (40); Venezuela (40)
+green-cards:GA:FY2023,stateName,Georgia
+green-cards:GA:FY2023,counties_listed,6
+green-cards:GA:FY2023,state_total_yearbook,29470
+green-cards:GA:FY2023,listed_share_pct,61.4
+green-cards:13051:FY2023,county,13051
+green-cards:13051:FY2023,countyName,Chatham County
+green-cards:13051:FY2023,stateName,Georgia
+green-cards:13051:FY2023,top_countries,Jamaica (160); Philippines (120); Nigeria (90); Ghana (80); Kenya (80); India (60); Zimbabwe (40); Afghanistan (30); Mexico (30); Vietnam (30)
+green-cards:13067:FY2023,county,13067
+green-cards:13067:FY2023,countyName,Cobb County
+green-cards:13067:FY2023,stateName,Georgia
+green-cards:13067:FY2023,top_countries,"Mexico (400); India (320); Brazil (280); Nigeria (240); Jamaica (100); Colombia (90); Dominican Republic (90); China, People's Republic (80); Honduras (80); Vietnam (80)"
+green-cards:13089:FY2023,county,13089
+green-cards:13089:FY2023,countyName,DeKalb County
+green-cards:13089:FY2023,stateName,Georgia
+green-cards:13089:FY2023,top_countries,"Afghanistan (330); India (260); Mexico (260); Ethiopia (240); Jamaica (220); Bangladesh (150); Vietnam (140); China, People's Republic (130); Nigeria (120); Congo, Democratic Republic (110)"
+green-cards:13117:FY2023,county,13117
+green-cards:13117:FY2023,countyName,Forsyth County
+green-cards:13117:FY2023,stateName,Georgia
+green-cards:13117:FY2023,top_countries,"India (490); Brazil (50); Mexico (50); Turkey (40); Colombia (20); Israel (20); Ukraine (20); Belarus (10); China, People's Republic (10); Cuba (10)"
+green-cards:13121:FY2023,county,13121
+green-cards:13121:FY2023,countyName,Fulton County
+green-cards:13121:FY2023,stateName,Georgia
+green-cards:13121:FY2023,top_countries,"India (760); Mexico (380); Brazil (230); China, People's Republic (200); Nigeria (200); Jamaica (170); Korea, South (160); Colombia (130); Iran (120); Vietnam (100)"
+green-cards:13135:FY2023,county,13135
+green-cards:13135:FY2023,countyName,Gwinnett County
+green-cards:13135:FY2023,stateName,Georgia
+green-cards:13135:FY2023,top_countries,"Vietnam (960); Mexico (680); India (550); Korea, South (480); China, People's Republic (420); Colombia (280); Dominican Republic (260); Nigeria (220); El Salvador (210); Bangladesh (170)"
+green-cards:HI:FY2023,stateName,Hawaii
+green-cards:HI:FY2023,counties_listed,1
+green-cards:HI:FY2023,state_total_yearbook,4640
+green-cards:HI:FY2023,listed_share_pct,67.7
+green-cards:15003:FY2023,county,15003
+green-cards:15003:FY2023,countyName,Honolulu County
+green-cards:15003:FY2023,stateName,Hawaii
+green-cards:15003:FY2023,top_countries,"Philippines (1,980); China, People's Republic (290); Japan (230); Korea, South (120); Vietnam (100); Brazil (50); Thailand (50); Canada (40); Hong Kong (30); Jamaica (20)"
+green-cards:IA:FY2023,stateName,Iowa
+green-cards:IA:FY2023,counties_listed,1
+green-cards:IA:FY2023,state_total_yearbook,4900
+green-cards:IA:FY2023,listed_share_pct,22.7
+green-cards:19153:FY2023,county,19153
+green-cards:19153:FY2023,countyName,Polk County
+green-cards:19153:FY2023,stateName,Iowa
+green-cards:19153:FY2023,top_countries,"Mexico (210); Afghanistan (130); Vietnam (80); Burma (70); Congo, Democratic Republic (70); India (60); Liberia (60); El Salvador (50); Eritrea (30); Tanzania (30)"
+green-cards:ID:FY2023,stateName,Idaho
+green-cards:ID:FY2023,counties_listed,1
+green-cards:ID:FY2023,state_total_yearbook,2460
+green-cards:ID:FY2023,listed_share_pct,34.1
+green-cards:16001:FY2023,county,16001
+green-cards:16001:FY2023,countyName,Ada County
+green-cards:16001:FY2023,stateName,Idaho
+green-cards:16001:FY2023,top_countries,"Mexico (150); Afghanistan (140); Congo, Democratic Republic (50); China, People's Republic (40); Korea, South (40); France (30); India (30); Philippines (30); Tanzania (30); Vietnam (30)"
+green-cards:IL:FY2023,stateName,Illinois
+green-cards:IL:FY2023,counties_listed,5
+green-cards:IL:FY2023,state_total_yearbook,37760
+green-cards:IL:FY2023,listed_share_pct,83
+green-cards:17031:FY2023,county,17031
+green-cards:17031:FY2023,countyName,Cook County
+green-cards:17031:FY2023,stateName,Illinois
+green-cards:17031:FY2023,top_countries,"Mexico (4,690); India (2,110); Philippines (960); Kyrgyzstan (890); China, People's Republic (860); Ukraine (810); Jordan (760); Poland (590); Algeria (500); Nigeria (480)"
+green-cards:17043:FY2023,county,17043
+green-cards:17043:FY2023,countyName,DuPage County
+green-cards:17043:FY2023,stateName,Illinois
+green-cards:17043:FY2023,top_countries,"India (1,040); Mexico (600); China, People's Republic (180); Philippines (160); Pakistan (140); Poland (110); Ukraine (100); Uzbekistan (100); Moldova (80); Albania (60)"
+green-cards:17089:FY2023,county,17089
+green-cards:17089:FY2023,countyName,Kane County
+green-cards:17089:FY2023,stateName,Illinois
+green-cards:17089:FY2023,top_countries,Mexico (950); India (140); Philippines (60); Algeria (40); El Salvador (30); Ukraine (30); Brazil (20); Burundi (20); Kyrgyzstan (20); Poland (20)
+green-cards:17097:FY2023,county,17097
+green-cards:17097:FY2023,countyName,Lake County
+green-cards:17097:FY2023,stateName,Illinois
+green-cards:17097:FY2023,top_countries,"Mexico (810); India (440); Philippines (160); Ukraine (150); China, People's Republic (130); Brazil (70); Russia (70); Honduras (60); Korea, South (60); Poland (60)"
+green-cards:17197:FY2023,county,17197
+green-cards:17197:FY2023,countyName,Will County
+green-cards:17197:FY2023,stateName,Illinois
+green-cards:17197:FY2023,top_countries,"Mexico (420); India (340); Philippines (110); Moldova (100); China, People's Republic (60); Jordan (60); Uzbekistan (60); Ghana (50); Kyrgyzstan (50); Vietnam (50)"
+green-cards:IN:FY2023,stateName,Indiana
+green-cards:IN:FY2023,counties_listed,2
+green-cards:IN:FY2023,state_total_yearbook,10760
+green-cards:IN:FY2023,listed_share_pct,38.1
+green-cards:18057:FY2023,county,18057
+green-cards:18057:FY2023,countyName,Hamilton County
+green-cards:18057:FY2023,stateName,Indiana
+green-cards:18057:FY2023,top_countries,"India (220); Venezuela (90); China, People's Republic (70); Egypt (70); Mexico (60); Vietnam (40); Brazil (30); Jordan (30); Algeria (20); Nigeria (20)"
+green-cards:18097:FY2023,county,18097
+green-cards:18097:FY2023,countyName,Marion County
+green-cards:18097:FY2023,stateName,Indiana
+green-cards:18097:FY2023,top_countries,"Mexico (630); Nigeria (300); Burma (250); India (220); Haiti (170); Congo, Democratic Republic (120); Dominican Republic (120); Honduras (110); El Salvador (90); Algeria (80)"
+green-cards:KS:FY2023,stateName,Kansas
+green-cards:KS:FY2023,counties_listed,2
+green-cards:KS:FY2023,state_total_yearbook,5280
+green-cards:KS:FY2023,listed_share_pct,47.9
+green-cards:20091:FY2023,county,20091
+green-cards:20091:FY2023,countyName,Johnson County
+green-cards:20091:FY2023,stateName,Kansas
+green-cards:20091:FY2023,top_countries,"Mexico (300); Algeria (270); India (200); Kenya (70); China, People's Republic (60); Afghanistan (40); Brazil (40); Venezuela (40); Vietnam (40); El Salvador (30)"
+green-cards:20173:FY2023,county,20173
+green-cards:20173:FY2023,countyName,Sedgwick County
+green-cards:20173:FY2023,stateName,Kansas
+green-cards:20173:FY2023,top_countries,"Mexico (410); Vietnam (190); Afghanistan (120); Congo, Democratic Republic (60); India (30); Kenya (30); Tanzania (30); Bangladesh (20); Brazil (20); Jordan (20)"
+green-cards:KY:FY2023,stateName,Kentucky
+green-cards:KY:FY2023,counties_listed,2
+green-cards:KY:FY2023,state_total_yearbook,7830
+green-cards:KY:FY2023,listed_share_pct,63.1
+green-cards:21067:FY2023,county,21067
+green-cards:21067:FY2023,countyName,Fayette County
+green-cards:21067:FY2023,stateName,Kentucky
+green-cards:21067:FY2023,top_countries,"Mexico (120); Congo, Democratic Republic (90); Nepal (90); India (40); Cuba (30); Ghana (30); Philippines (30); Venezuela (30); Afghanistan (20); Cambodia (20)"
+green-cards:21111:FY2023,county,21111
+green-cards:21111:FY2023,countyName,Jefferson County
+green-cards:21111:FY2023,stateName,Kentucky
+green-cards:21111:FY2023,top_countries,"Cuba (2,190); Philippines (240); Congo, Democratic Republic (200); Mexico (170); India (160); Rwanda (160); Afghanistan (70); Nepal (70); Togo (60); Burundi (50)"
+green-cards:LA:FY2023,stateName,Louisiana
+green-cards:LA:FY2023,counties_listed,1
+green-cards:LA:FY2023,state_total_yearbook,4940
+green-cards:LA:FY2023,listed_share_pct,26.9
+green-cards:22051:FY2023,county,22051
+green-cards:22051:FY2023,countyName,Jefferson Parish
+green-cards:22051:FY2023,stateName,Louisiana
+green-cards:22051:FY2023,top_countries,"Honduras (420); Dominican Republic (150); Jordan (110); Vietnam (110); Mexico (60); China, People's Republic (50); Cuba (50); Nicaragua (50); El Salvador (40); Haiti (30)"
+green-cards:MA:FY2023,stateName,Massachusetts
+green-cards:MA:FY2023,counties_listed,8
+green-cards:MA:FY2023,state_total_yearbook,36730
+green-cards:MA:FY2023,listed_share_pct,88.5
+green-cards:25005:FY2023,county,25005
+green-cards:25005:FY2023,countyName,Bristol County
+green-cards:25005:FY2023,stateName,Massachusetts
+green-cards:25005:FY2023,top_countries,"Cabo Verde (310); Brazil (150); Dominican Republic (120); Guatemala (80); Haiti (80); Portugal (70); El Salvador (60); India (60); Vietnam (60); China, People's Republic (40)"
+green-cards:25009:FY2023,county,25009
+green-cards:25009:FY2023,countyName,Essex County
+green-cards:25009:FY2023,stateName,Massachusetts
+green-cards:25009:FY2023,top_countries,"Dominican Republic (3,760); Guatemala (280); Brazil (240); El Salvador (150); Albania (130); Colombia (90); Haiti (90); Morocco (90); India (80); Vietnam (70)"
+green-cards:25013:FY2023,county,25013
+green-cards:25013:FY2023,countyName,Hampden County
+green-cards:25013:FY2023,stateName,Massachusetts
+green-cards:25013:FY2023,top_countries,Dominican Republic (240); Afghanistan (120); Jamaica (70); Ukraine (60); Vietnam (50); India (40); Colombia (20); Guatemala (20); Haiti (20); Iraq (20)
+green-cards:25017:FY2023,county,25017
+green-cards:25017:FY2023,countyName,Middlesex County
+green-cards:25017:FY2023,stateName,Massachusetts
+green-cards:25017:FY2023,top_countries,"Brazil (1,340); China, People's Republic (1,180); India (1,170); Dominican Republic (360); Haiti (340); Nepal (310); Uganda (290); El Salvador (260); Korea, South (230); Cambodia (220)"
+green-cards:25021:FY2023,county,25021
+green-cards:25021:FY2023,countyName,Norfolk County
+green-cards:25021:FY2023,stateName,Massachusetts
+green-cards:25021:FY2023,top_countries,"China, People's Republic (570); India (260); Brazil (240); Vietnam (230); Haiti (220); Albania (150); Dominican Republic (110); Korea, South (100); Cabo Verde (70); Nigeria (70)"
+green-cards:25023:FY2023,county,25023
+green-cards:25023:FY2023,countyName,Plymouth County
+green-cards:25023:FY2023,stateName,Massachusetts
+green-cards:25023:FY2023,top_countries,"Cabo Verde (700); Haiti (260); Brazil (200); Dominican Republic (70); Jamaica (50); China, People's Republic (30); Ecuador (30); Nigeria (30); Albania (20); Canada (20)"
+green-cards:25025:FY2023,county,25025
+green-cards:25025:FY2023,countyName,Suffolk County
+green-cards:25025:FY2023,stateName,Massachusetts
+green-cards:25025:FY2023,top_countries,"Dominican Republic (1,480); El Salvador (490); Haiti (380); Cabo Verde (370); Colombia (370); Brazil (360); China, People's Republic (320); Vietnam (270); Morocco (210); Jamaica (170)"
+green-cards:25027:FY2023,county,25027
+green-cards:25027:FY2023,countyName,Worcester County
+green-cards:25027:FY2023,stateName,Massachusetts
+green-cards:25027:FY2023,top_countries,"Dominican Republic (520); Brazil (370); India (320); Vietnam (210); Ghana (200); Albania (100); Ecuador (90); El Salvador (90); Afghanistan (80); China, People's Republic (80)"
+green-cards:MD:FY2023,stateName,Maryland
+green-cards:MD:FY2023,counties_listed,7
+green-cards:MD:FY2023,state_total_yearbook,25520
+green-cards:MD:FY2023,listed_share_pct,82.6
+green-cards:24003:FY2023,county,24003
+green-cards:24003:FY2023,countyName,Anne Arundel County
+green-cards:24003:FY2023,stateName,Maryland
+green-cards:24003:FY2023,top_countries,El Salvador (170); Nigeria (100); India (80); Philippines (80); Cameroon (60); Nepal (60); Honduras (40); Mexico (40); Dominican Republic (30); Guatemala (30)
+green-cards:24005:FY2023,county,24005
+green-cards:24005:FY2023,countyName,Baltimore County
+green-cards:24005:FY2023,stateName,Maryland
+green-cards:24005:FY2023,top_countries,Nigeria (370); Nepal (300); El Salvador (200); India (160); Philippines (140); Pakistan (130); Jamaica (110); Vietnam (100); Cameroon (90); Afghanistan (80)
+green-cards:24021:FY2023,county,24021
+green-cards:24021:FY2023,countyName,Frederick County
+green-cards:24021:FY2023,stateName,Maryland
+green-cards:24021:FY2023,top_countries,El Salvador (130); India (130); Afghanistan (50); Guatemala (50); Brazil (40); Cameroon (40); Nigeria (40); Ghana (30); Colombia (20); Dominican Republic (20)
+green-cards:24027:FY2023,county,24027
+green-cards:24027:FY2023,countyName,Howard County
+green-cards:24027:FY2023,stateName,Maryland
+green-cards:24027:FY2023,top_countries,"India (330); China, People's Republic (130); Nepal (100); Nigeria (100); Korea, South (80); Pakistan (80); Afghanistan (70); Bangladesh (60); Cameroon (60); El Salvador (60)"
+green-cards:24031:FY2023,county,24031
+green-cards:24031:FY2023,countyName,Montgomery County
+green-cards:24031:FY2023,stateName,Maryland
+green-cards:24031:FY2023,top_countries,"El Salvador (790); China, People's Republic (760); Ethiopia (540); India (490); Cameroon (350); Philippines (310); Afghanistan (260); Vietnam (260); Bangladesh (240); Iran (240)"
+green-cards:24033:FY2023,county,24033
+green-cards:24033:FY2023,countyName,Prince George's County
+green-cards:24033:FY2023,stateName,Maryland
+green-cards:24033:FY2023,top_countries,"El Salvador (1,040); Cameroon (1,010); Nigeria (530); Afghanistan (410); Jamaica (230); Dominican Republic (220); Guatemala (220); Sierra Leone (210); Honduras (160); Philippines (150)"
+green-cards:24510:FY2023,county,24510
+green-cards:24510:FY2023,countyName,Baltimore city
+green-cards:24510:FY2023,stateName,Maryland
+green-cards:24510:FY2023,top_countries,"Honduras (100); Dominican Republic (90); El Salvador (90); Jamaica (90); Nigeria (80); Guatemala (50); Philippines (50); China, People's Republic (40); Iran (40); Nepal (40)"
+green-cards:MI:FY2023,stateName,Michigan
+green-cards:MI:FY2023,counties_listed,5
+green-cards:MI:FY2023,state_total_yearbook,18980
+green-cards:MI:FY2023,listed_share_pct,73.1
+green-cards:26081:FY2023,county,26081
+green-cards:26081:FY2023,countyName,Kent County
+green-cards:26081:FY2023,stateName,Michigan
+green-cards:26081:FY2023,top_countries,"Mexico (220); Congo, Democratic Republic (140); Rwanda (100); Vietnam (100); Dominican Republic (90); Cuba (80); India (70); Guatemala (40); Afghanistan (30); Canada (30)"
+green-cards:26099:FY2023,county,26099
+green-cards:26099:FY2023,countyName,Macomb County
+green-cards:26099:FY2023,stateName,Michigan
+green-cards:26099:FY2023,top_countries,Bangladesh (970); Iraq (330); Albania (300); Vietnam (110); India (100); Mexico (80); Ukraine (80); Philippines (60); Canada (50); Egypt (50)
+green-cards:26125:FY2023,county,26125
+green-cards:26125:FY2023,countyName,Oakland County
+green-cards:26125:FY2023,stateName,Michigan
+green-cards:26125:FY2023,top_countries,"India (680); Mexico (450); China, People's Republic (270); Brazil (190); Korea, South (160); Canada (150); Albania (130); Bangladesh (100); Iraq (90); Ukraine (80)"
+green-cards:26161:FY2023,county,26161
+green-cards:26161:FY2023,countyName,Washtenaw County
+green-cards:26161:FY2023,stateName,Michigan
+green-cards:26161:FY2023,top_countries,"China, People's Republic (170); India (100); Korea, South (70); Iran (60); Brazil (40); Jordan (40); Nigeria (40); Afghanistan (30); Canada (30); Mexico (30)"
+green-cards:26163:FY2023,county,26163
+green-cards:26163:FY2023,countyName,Wayne County
+green-cards:26163:FY2023,stateName,Michigan
+green-cards:26163:FY2023,top_countries,"Yemen (1,390); Lebanon (570); Bangladesh (550); India (450); Mexico (450); Iraq (190); Canada (160); Jordan (160); Syria (140); Albania (130)"
+green-cards:MN:FY2023,stateName,Minnesota
+green-cards:MN:FY2023,counties_listed,4
+green-cards:MN:FY2023,state_total_yearbook,11940
+green-cards:MN:FY2023,listed_share_pct,61.5
+green-cards:27003:FY2023,county,27003
+green-cards:27003:FY2023,countyName,Anoka County
+green-cards:27003:FY2023,stateName,Minnesota
+green-cards:27003:FY2023,top_countries,Ethiopia (100); Mexico (90); Liberia (70); Kenya (60); Cameroon (50); Ecuador (50); Vietnam (50); Egypt (40); Afghanistan (30); India (30)
+green-cards:27037:FY2023,county,27037
+green-cards:27037:FY2023,countyName,Dakota County
+green-cards:27037:FY2023,stateName,Minnesota
+green-cards:27037:FY2023,top_countries,"Mexico (140); Ethiopia (90); Vietnam (70); India (60); Somalia (50); Kenya (40); China, People's Republic (30); Ukraine (30); Venezuela (30); Brazil (20)"
+green-cards:27053:FY2023,county,27053
+green-cards:27053:FY2023,countyName,Hennepin County
+green-cards:27053:FY2023,stateName,Minnesota
+green-cards:27053:FY2023,top_countries,"Mexico (650); India (350); Liberia (260); Somalia (230); Ethiopia (200); Ecuador (180); Kenya (180); Vietnam (180); Afghanistan (120); China, People's Republic (120)"
+green-cards:27123:FY2023,county,27123
+green-cards:27123:FY2023,countyName,Ramsey County
+green-cards:27123:FY2023,stateName,Minnesota
+green-cards:27123:FY2023,top_countries,Mexico (220); Ethiopia (170); Burma (110); Laos (100); Somalia (90); Thailand (90); Afghanistan (80); Philippines (80); Vietnam (70); Cameroon (50)
+green-cards:MO:FY2023,stateName,Missouri
+green-cards:MO:FY2023,counties_listed,2
+green-cards:MO:FY2023,state_total_yearbook,7240
+green-cards:MO:FY2023,listed_share_pct,35.8
+green-cards:29095:FY2023,county,29095
+green-cards:29095:FY2023,countyName,Jackson County
+green-cards:29095:FY2023,stateName,Missouri
+green-cards:29095:FY2023,top_countries,"Mexico (280); Cuba (70); Vietnam (60); Afghanistan (40); Congo, Democratic Republic (40); El Salvador (40); Honduras (40); India (40); Jordan (40); Tanzania (40)"
+green-cards:29189:FY2023,county,29189
+green-cards:29189:FY2023,countyName,St. Louis County
+green-cards:29189:FY2023,stateName,Missouri
+green-cards:29189:FY2023,top_countries,"India (260); Mexico (230); Vietnam (100); China, People's Republic (90); Afghanistan (80); Brazil (80); Philippines (60); Jordan (50); Iran (40); Korea, South (40)"
+green-cards:NC:FY2023,stateName,North Carolina
+green-cards:NC:FY2023,counties_listed,4
+green-cards:NC:FY2023,state_total_yearbook,23760
+green-cards:NC:FY2023,listed_share_pct,56.9
+green-cards:37063:FY2023,county,37063
+green-cards:37063:FY2023,countyName,Durham County
+green-cards:37063:FY2023,stateName,North Carolina
+green-cards:37063:FY2023,top_countries,"Philippines (240); Afghanistan (170); Mexico (140); El Salvador (70); Honduras (70); China, People's Republic (40); India (40); Colombia (30); Guatemala (20); Korea, South (20)"
+green-cards:37081:FY2023,county,37081
+green-cards:37081:FY2023,countyName,Guilford County
+green-cards:37081:FY2023,stateName,North Carolina
+green-cards:37081:FY2023,top_countries,"Mexico (210); Vietnam (160); India (120); Sudan (120); Afghanistan (100); Pakistan (60); Brazil (50); China, People's Republic (50); Dominican Republic (50); Nepal (50)"
+green-cards:37119:FY2023,county,37119
+green-cards:37119:FY2023,countyName,Mecklenburg County
+green-cards:37119:FY2023,stateName,North Carolina
+green-cards:37119:FY2023,top_countries,"Philippines (1,410); Mexico (670); India (520); Dominican Republic (220); El Salvador (210); Vietnam (200); Honduras (190); Brazil (170); Colombia (170); China, People's Republic (140)"
+green-cards:37183:FY2023,county,37183
+green-cards:37183:FY2023,countyName,Wake County
+green-cards:37183:FY2023,stateName,North Carolina
+green-cards:37183:FY2023,top_countries,"India (1,010); Mexico (380); China, People's Republic (270); Dominican Republic (170); Morocco (150); Nepal (150); Brazil (140); Vietnam (130); Russia (110); Afghanistan (100)"
+green-cards:NE:FY2023,stateName,Nebraska
+green-cards:NE:FY2023,counties_listed,1
+green-cards:NE:FY2023,state_total_yearbook,4780
+green-cards:NE:FY2023,listed_share_pct,35.8
+green-cards:31055:FY2023,county,31055
+green-cards:31055:FY2023,countyName,Douglas County
+green-cards:31055:FY2023,stateName,Nebraska
+green-cards:31055:FY2023,top_countries,Mexico (410); Afghanistan (310); Tajikistan (120); India (90); Togo (80); El Salvador (70); Guatemala (70); Vietnam (70); Nepal (60); Thailand (50)
+green-cards:NH:FY2023,stateName,New Hampshire
+green-cards:NH:FY2023,counties_listed,1
+green-cards:NH:FY2023,state_total_yearbook,2220
+green-cards:NH:FY2023,listed_share_pct,48.2
+green-cards:33011:FY2023,county,33011
+green-cards:33011:FY2023,countyName,Hillsborough County
+green-cards:33011:FY2023,stateName,New Hampshire
+green-cards:33011:FY2023,top_countries,"Dominican Republic (300); Brazil (90); India (90); Vietnam (90); Colombia (50); Mexico (40); China, People's Republic (30); Honduras (30); Nepal (30); Nigeria (30)"
+green-cards:NJ:FY2023,stateName,New Jersey
+green-cards:NJ:FY2023,counties_listed,13
+green-cards:NJ:FY2023,state_total_yearbook,60780
+green-cards:NJ:FY2023,listed_share_pct,89.8
+green-cards:34001:FY2023,county,34001
+green-cards:34001:FY2023,countyName,Atlantic County
+green-cards:34001:FY2023,stateName,New Jersey
+green-cards:34001:FY2023,top_countries,Dominican Republic (260); Bangladesh (180); India (160); Vietnam (80); Mexico (60); Colombia (40); Haiti (30); Honduras (30); Pakistan (30); Peru (30)
+green-cards:34003:FY2023,county,34003
+green-cards:34003:FY2023,countyName,Bergen County
+green-cards:34003:FY2023,stateName,New Jersey
+green-cards:34003:FY2023,top_countries,"Dominican Republic (890); Korea, South (840); India (530); Turkey (350); Colombia (340); China, People's Republic (290); Ecuador (280); Philippines (260); Albania (230); Israel (210)"
+green-cards:34005:FY2023,county,34005
+green-cards:34005:FY2023,countyName,Burlington County
+green-cards:34005:FY2023,stateName,New Jersey
+green-cards:34005:FY2023,top_countries,"India (230); Philippines (60); Turkey (60); Bangladesh (50); Dominican Republic (50); Jamaica (50); Brazil (30); China, People's Republic (30); Colombia (30); Ghana (30)"
+green-cards:34007:FY2023,county,34007
+green-cards:34007:FY2023,countyName,Camden County
+green-cards:34007:FY2023,stateName,New Jersey
+green-cards:34007:FY2023,top_countries,Dominican Republic (720); India (150); Vietnam (110); Bangladesh (70); Mexico (70); Philippines (60); Turkey (60); Jamaica (50); Guatemala (40); Honduras (40)
+green-cards:34013:FY2023,county,34013
+green-cards:34013:FY2023,countyName,Essex County
+green-cards:34013:FY2023,stateName,New Jersey
+green-cards:34013:FY2023,top_countries,"Dominican Republic (1,290); Haiti (580); Nigeria (560); Ecuador (550); Jamaica (540); Brazil (410); Guyana (300); India (280); Ghana (230); China, People's Republic (190)"
+green-cards:34017:FY2023,county,34017
+green-cards:34017:FY2023,countyName,Hudson County
+green-cards:34017:FY2023,stateName,New Jersey
+green-cards:34017:FY2023,top_countries,"Dominican Republic (1,640); India (1,050); Egypt (770); China, People's Republic (630); Ecuador (490); Cuba (410); Colombia (380); Philippines (310); Peru (290); Brazil (280)"
+green-cards:34021:FY2023,county,34021
+green-cards:34021:FY2023,countyName,Mercer County
+green-cards:34021:FY2023,stateName,New Jersey
+green-cards:34021:FY2023,top_countries,"India (540); Dominican Republic (360); China, People's Republic (160); Guatemala (160); Haiti (90); Jamaica (90); Ecuador (80); Colombia (50); Costa Rica (50); Liberia (50)"
+green-cards:34023:FY2023,county,34023
+green-cards:34023:FY2023,countyName,Middlesex County
+green-cards:34023:FY2023,stateName,New Jersey
+green-cards:34023:FY2023,top_countries,"India (2,960); Dominican Republic (2,140); Egypt (310); China, People's Republic (250); Pakistan (200); Colombia (170); Mexico (160); Peru (150); Ecuador (140); Philippines (120)"
+green-cards:34025:FY2023,county,34025
+green-cards:34025:FY2023,countyName,Monmouth County
+green-cards:34025:FY2023,stateName,New Jersey
+green-cards:34025:FY2023,top_countries,"Philippines (380); India (170); Brazil (130); Mexico (120); Egypt (70); Haiti (60); Colombia (50); Russia (50); Ukraine (50); China, People's Republic (40)"
+green-cards:34027:FY2023,county,34027
+green-cards:34027:FY2023,countyName,Morris County
+green-cards:34027:FY2023,stateName,New Jersey
+green-cards:34027:FY2023,top_countries,"India (580); China, People's Republic (570); Colombia (350); Ecuador (90); Brazil (80); Dominican Republic (80); Honduras (70); Turkey (70); Mexico (60); Egypt (50)"
+green-cards:34031:FY2023,county,34031
+green-cards:34031:FY2023,countyName,Passaic County
+green-cards:34031:FY2023,stateName,New Jersey
+green-cards:34031:FY2023,top_countries,"Dominican Republic (3,640); Bangladesh (460); Peru (420); Colombia (280); Mexico (230); India (210); Jordan (210); Jamaica (180); Turkey (180); Ecuador (110)"
+green-cards:34035:FY2023,county,34035
+green-cards:34035:FY2023,countyName,Somerset County
+green-cards:34035:FY2023,stateName,New Jersey
+green-cards:34035:FY2023,top_countries,"India (570); China, People's Republic (170); Dominican Republic (170); Costa Rica (140); Brazil (90); Colombia (80); Mexico (80); Philippines (50); Korea, South (40); Sierra Leone (40)"
+green-cards:34039:FY2023,county,34039
+green-cards:34039:FY2023,countyName,Union County
+green-cards:34039:FY2023,stateName,New Jersey
+green-cards:34039:FY2023,top_countries,Dominican Republic (970); Colombia (490); Ecuador (360); Haiti (260); Brazil (250); Cuba (250); El Salvador (250); Peru (220); India (160); Nigeria (140)
+green-cards:NM:FY2023,stateName,New Mexico
+green-cards:NM:FY2023,counties_listed,1
+green-cards:NM:FY2023,state_total_yearbook,4410
+green-cards:NM:FY2023,listed_share_pct,32.4
+green-cards:35001:FY2023,county,35001
+green-cards:35001:FY2023,countyName,Bernalillo County
+green-cards:35001:FY2023,stateName,New Mexico
+green-cards:35001:FY2023,top_countries,Mexico (910); Vietnam (70); Cuba (50); Nigeria (50); Philippines (50); India (40); Afghanistan (30); Brazil (30); Colombia (20); Jordan (20)
+green-cards:NV:FY2023,stateName,Nevada
+green-cards:NV:FY2023,counties_listed,2
+green-cards:NV:FY2023,state_total_yearbook,11490
+green-cards:NV:FY2023,listed_share_pct,91.1
+green-cards:32003:FY2023,county,32003
+green-cards:32003:FY2023,countyName,Clark County
+green-cards:32003:FY2023,stateName,Nevada
+green-cards:32003:FY2023,top_countries,"Mexico (2,600); Cuba (1,390); Philippines (1,320); China, People's Republic (520); El Salvador (300); Ethiopia (220); Vietnam (200); Colombia (190); Guatemala (170); Brazil (150)"
+green-cards:32031:FY2023,county,32031
+green-cards:32031:FY2023,countyName,Washoe County
+green-cards:32031:FY2023,stateName,Nevada
+green-cards:32031:FY2023,top_countries,"Mexico (530); Philippines (180); India (70); Afghanistan (40); Bangladesh (40); Canada (30); China, People's Republic (30); El Salvador (30); Vietnam (30); Brazil (20)"
+green-cards:NY:FY2023,stateName,New York
+green-cards:NY:FY2023,counties_listed,14
+green-cards:NY:FY2023,state_total_yearbook,127980
+green-cards:NY:FY2023,listed_share_pct,92.1
+green-cards:36001:FY2023,county,36001
+green-cards:36001:FY2023,countyName,Albany County
+green-cards:36001:FY2023,stateName,New York
+green-cards:36001:FY2023,top_countries,"Afghanistan (180); India (110); Jamaica (90); Bangladesh (80); China, People's Republic (70); Dominican Republic (60); Albania (40); Korea, South (30); Pakistan (30); Sudan (30)"
+green-cards:36005:FY2023,county,36005
+green-cards:36005:FY2023,countyName,Bronx County
+green-cards:36005:FY2023,stateName,New York
+green-cards:36005:FY2023,top_countries,"Dominican Republic (11,580); Bangladesh (1,530); Jamaica (1,180); Ghana (740); Mexico (400); Yemen (380); Ecuador (320); Guinea (310); Guyana (270); Honduras (270)"
+green-cards:36029:FY2023,county,36029
+green-cards:36029:FY2023,countyName,Erie County
+green-cards:36029:FY2023,stateName,New York
+green-cards:36029:FY2023,top_countries,"Bangladesh (470); Afghanistan (160); Yemen (140); India (130); Canada (90); Congo, Democratic Republic (70); Vietnam (70); Burma (60); Brazil (40); China, People's Republic (40)"
+green-cards:36047:FY2023,county,36047
+green-cards:36047:FY2023,countyName,Kings County
+green-cards:36047:FY2023,stateName,New York
+green-cards:36047:FY2023,top_countries,"Dominican Republic (2,830); China, People's Republic (2,290); Uzbekistan (1,650); Jamaica (1,580); Bangladesh (1,560); Georgia (1,190); Haiti (1,050); Guyana (990); Tajikistan (790); Ukraine (780)"
+green-cards:36055:FY2023,county,36055
+green-cards:36055:FY2023,countyName,Monroe County
+green-cards:36055:FY2023,stateName,New York
+green-cards:36055:FY2023,top_countries,"Afghanistan (240); Dominican Republic (120); India (110); Cuba (100); China, People's Republic (80); Yemen (80); Jamaica (60); Ukraine (50); Vietnam (50); Pakistan (40)"
+green-cards:36059:FY2023,county,36059
+green-cards:36059:FY2023,countyName,Nassau County
+green-cards:36059:FY2023,stateName,New York
+green-cards:36059:FY2023,top_countries,"El Salvador (1,020); India (990); China, People's Republic (820); Dominican Republic (790); Jamaica (390); Haiti (350); Bangladesh (290); Honduras (290); Pakistan (230); Philippines (230)"
+green-cards:36061:FY2023,county,36061
+green-cards:36061:FY2023,countyName,New York County
+green-cards:36061:FY2023,stateName,New York
+green-cards:36061:FY2023,top_countries,"Dominican Republic (4,160); China, People's Republic (1,790); India (580); Mexico (550); United Kingdom (370); France (340); Bangladesh (330); Brazil (330); Ecuador (300); Korea, South (300)"
+green-cards:36067:FY2023,county,36067
+green-cards:36067:FY2023,countyName,Onondaga County
+green-cards:36067:FY2023,stateName,New York
+green-cards:36067:FY2023,top_countries,"Afghanistan (140); Cuba (110); India (50); Ukraine (40); Yemen (40); Congo, Democratic Republic (30); Dominican Republic (30); Iraq (30); Jamaica (30); China, People's Republic (20)"
+green-cards:36071:FY2023,county,36071
+green-cards:36071:FY2023,countyName,Orange County
+green-cards:36071:FY2023,stateName,New York
+green-cards:36071:FY2023,top_countries,"Dominican Republic (160); Mexico (100); Jamaica (80); China, People's Republic (50); Haiti (40); India (40); Ecuador (30); Honduras (30); Peru (30); Philippines (30)"
+green-cards:36081:FY2023,county,36081
+green-cards:36081:FY2023,countyName,Queens County
+green-cards:36081:FY2023,stateName,New York
+green-cards:36081:FY2023,top_countries,"Bangladesh (4,380); China, People's Republic (3,610); Dominican Republic (2,590); Guyana (2,020); India (1,520); Ecuador (1,440); Jamaica (1,210); Colombia (1,020); Nepal (960); Philippines (830)"
+green-cards:36085:FY2023,county,36085
+green-cards:36085:FY2023,countyName,Richmond County
+green-cards:36085:FY2023,stateName,New York
+green-cards:36085:FY2023,top_countries,"China, People's Republic (420); Dominican Republic (160); Egypt (150); Sri Lanka (120); Albania (110); Nigeria (100); Ukraine (100); India (90); Mexico (80); Liberia (70)"
+green-cards:36087:FY2023,county,36087
+green-cards:36087:FY2023,countyName,Rockland County
+green-cards:36087:FY2023,stateName,New York
+green-cards:36087:FY2023,top_countries,Dominican Republic (420); Haiti (240); Ecuador (110); Guatemala (110); India (110); El Salvador (90); Philippines (70); Jamaica (50); Israel (30); Egypt (20)
+green-cards:36103:FY2023,county,36103
+green-cards:36103:FY2023,countyName,Suffolk County
+green-cards:36103:FY2023,stateName,New York
+green-cards:36103:FY2023,top_countries,"El Salvador (1,470); Dominican Republic (1,160); Ecuador (410); Honduras (400); Colombia (360); Bangladesh (260); Guatemala (260); Jamaica (240); Haiti (220); India (210)"
+green-cards:36119:FY2023,county,36119
+green-cards:36119:FY2023,countyName,Westchester County
+green-cards:36119:FY2023,stateName,New York
+green-cards:36119:FY2023,top_countries,"Dominican Republic (1,100); Jamaica (510); Ecuador (360); Mexico (300); India (290); Colombia (210); Guatemala (210); China, People's Republic (190); Brazil (170); Albania (150)"
+green-cards:OH:FY2023,stateName,Ohio
+green-cards:OH:FY2023,counties_listed,5
+green-cards:OH:FY2023,state_total_yearbook,20330
+green-cards:OH:FY2023,listed_share_pct,63.4
+green-cards:39017:FY2023,county,39017
+green-cards:39017:FY2023,countyName,Butler County
+green-cards:39017:FY2023,stateName,Ohio
+green-cards:39017:FY2023,top_countries,"India (120); Dominican Republic (90); Cameroon (80); Congo, Democratic Republic (60); Ghana (60); Korea, South (50); Uzbekistan (50); Vietnam (50); Mexico (40); Nigeria (30)"
+green-cards:39035:FY2023,county,39035
+green-cards:39035:FY2023,countyName,Cuyahoga County
+green-cards:39035:FY2023,stateName,Ohio
+green-cards:39035:FY2023,top_countries,"India (270); Afghanistan (250); Ukraine (200); China, People's Republic (140); Mexico (140); Dominican Republic (120); Jordan (120); Albania (80); Cote d'Ivoire (70); Syria (70)"
+green-cards:39049:FY2023,county,39049
+green-cards:39049:FY2023,countyName,Franklin County
+green-cards:39049:FY2023,stateName,Ohio
+green-cards:39049:FY2023,top_countries,Algeria (680); Ghana (350); India (330); Mexico (240); Afghanistan (230); Dominican Republic (200); Cameroon (190); Somalia (170); Nigeria (160); Sierra Leone (160)
+green-cards:39061:FY2023,county,39061
+green-cards:39061:FY2023,countyName,Hamilton County
+green-cards:39061:FY2023,stateName,Ohio
+green-cards:39061:FY2023,top_countries,"Philippines (1,260); India (200); Nigeria (150); Guatemala (100); Mexico (90); Nepal (80); Ghana (60); Senegal (60); China, People's Republic (50); Jamaica (50)"
+green-cards:39113:FY2023,county,39113
+green-cards:39113:FY2023,countyName,Montgomery County
+green-cards:39113:FY2023,stateName,Ohio
+green-cards:39113:FY2023,top_countries,"Congo, Democratic Republic (110); India (110); Rwanda (90); Philippines (50); Uganda (50); Afghanistan (30); Burundi (30); China, People's Republic (30); Jordan (30); Mexico (30)"
+green-cards:OK:FY2023,stateName,Oklahoma
+green-cards:OK:FY2023,counties_listed,2
+green-cards:OK:FY2023,state_total_yearbook,5480
+green-cards:OK:FY2023,listed_share_pct,55.1
+green-cards:40109:FY2023,county,40109
+green-cards:40109:FY2023,countyName,Oklahoma County
+green-cards:40109:FY2023,stateName,Oklahoma
+green-cards:40109:FY2023,top_countries,"Mexico (730); Vietnam (270); India (120); Philippines (90); Cameroon (80); Afghanistan (70); China, People's Republic (60); Guatemala (60); Nepal (50); Nigeria (40)"
+green-cards:40143:FY2023,county,40143
+green-cards:40143:FY2023,countyName,Tulsa County
+green-cards:40143:FY2023,stateName,Oklahoma
+green-cards:40143:FY2023,top_countries,Mexico (490); Afghanistan (80); Burma (70); Vietnam (60); Venezuela (40); Malaysia (30); Philippines (30); Bangladesh (20); Brazil (20); India (20)
+green-cards:OR:FY2023,stateName,Oregon
+green-cards:OR:FY2023,counties_listed,2
+green-cards:OR:FY2023,state_total_yearbook,8670
+green-cards:OR:FY2023,listed_share_pct,54.6
+green-cards:41051:FY2023,county,41051
+green-cards:41051:FY2023,countyName,Multnomah County
+green-cards:41051:FY2023,stateName,Oregon
+green-cards:41051:FY2023,top_countries,"Mexico (620); Vietnam (310); Afghanistan (170); Cuba (130); China, People's Republic (110); Ukraine (90); Ethiopia (80); Guatemala (70); Philippines (70); Canada (40)"
+green-cards:41067:FY2023,county,41067
+green-cards:41067:FY2023,countyName,Washington County
+green-cards:41067:FY2023,stateName,Oregon
+green-cards:41067:FY2023,top_countries,"Mexico (430); India (370); China, People's Republic (170); Afghanistan (120); Vietnam (120); Korea, South (110); Bangladesh (100); Philippines (80); Brazil (70); Guatemala (70)"
+green-cards:PA:FY2023,stateName,Pennsylvania
+green-cards:PA:FY2023,counties_listed,11
+green-cards:PA:FY2023,state_total_yearbook,33260
+green-cards:PA:FY2023,listed_share_pct,74.5
+green-cards:42003:FY2023,county,42003
+green-cards:42003:FY2023,countyName,Allegheny County
+green-cards:42003:FY2023,stateName,Pennsylvania
+green-cards:42003:FY2023,top_countries,"India (230); China, People's Republic (200); Uzbekistan (200); Afghanistan (180); Mexico (90); Nepal (90); Iran (70); Brazil (60); Jamaica (60); Kazakhstan (60)"
+green-cards:42011:FY2023,county,42011
+green-cards:42011:FY2023,countyName,Berks County
+green-cards:42011:FY2023,stateName,Pennsylvania
+green-cards:42011:FY2023,top_countries,"Dominican Republic (1,300); Mexico (80); Haiti (40); Colombia (20); El Salvador (20); India (20); Jamaica (20); Vietnam (20); Cameroon (10); Ecuador (10)"
+green-cards:42017:FY2023,county,42017
+green-cards:42017:FY2023,countyName,Bucks County
+green-cards:42017:FY2023,stateName,Pennsylvania
+green-cards:42017:FY2023,top_countries,"India (390); Ukraine (150); Uzbekistan (150); Belarus (70); Georgia (70); Mexico (60); China, People's Republic (50); Russia (50); Kyrgyzstan (40); Pakistan (40)"
+green-cards:42029:FY2023,county,42029
+green-cards:42029:FY2023,countyName,Chester County
+green-cards:42029:FY2023,stateName,Pennsylvania
+green-cards:42029:FY2023,top_countries,"India (390); Mexico (200); China, People's Republic (80); Brazil (40); United Kingdom (40); Albania (20); Colombia (20); Ecuador (20); Egypt (20); Guatemala (20)"
+green-cards:42043:FY2023,county,42043
+green-cards:42043:FY2023,countyName,Dauphin County
+green-cards:42043:FY2023,stateName,Pennsylvania
+green-cards:42043:FY2023,top_countries,Dominican Republic (220); Nepal (80); India (50); Nigeria (50); Egypt (40); Vietnam (30); Afghanistan (20); Mexico (20); Pakistan (20); Philippines (20)
+green-cards:42045:FY2023,county,42045
+green-cards:42045:FY2023,countyName,Delaware County
+green-cards:42045:FY2023,stateName,Pennsylvania
+green-cards:42045:FY2023,top_countries,"India (220); Bangladesh (180); Liberia (180); China, People's Republic (120); Sierra Leone (120); Jamaica (90); Nigeria (70); Vietnam (70); Algeria (60); Guinea (60)"
+green-cards:42071:FY2023,county,42071
+green-cards:42071:FY2023,countyName,Lancaster County
+green-cards:42071:FY2023,stateName,Pennsylvania
+green-cards:42071:FY2023,top_countries,"Dominican Republic (250); Cuba (100); Vietnam (60); Congo, Democratic Republic (50); Afghanistan (40); India (40); Brazil (30); Colombia (30); Ethiopia (30); Algeria (20)"
+green-cards:42077:FY2023,county,42077
+green-cards:42077:FY2023,countyName,Lehigh County
+green-cards:42077:FY2023,stateName,Pennsylvania
+green-cards:42077:FY2023,top_countries,"Dominican Republic (1,280); India (140); Syria (80); Colombia (50); China, People's Republic (30); Jamaica (30); Kenya (30); Brazil (20); Ecuador (20); Lebanon (20)"
+green-cards:42079:FY2023,county,42079
+green-cards:42079:FY2023,countyName,Luzerne County
+green-cards:42079:FY2023,stateName,Pennsylvania
+green-cards:42079:FY2023,top_countries,"Dominican Republic (1,570); India (40); Mexico (40); Jordan (20); Philippines (20); Afghanistan (10); Brazil (10); Burkina Faso (10); Colombia (10); Honduras (10)"
+green-cards:42091:FY2023,county,42091
+green-cards:42091:FY2023,countyName,Montgomery County
+green-cards:42091:FY2023,stateName,Pennsylvania
+green-cards:42091:FY2023,top_countries,"India (420); Bangladesh (210); China, People's Republic (160); Algeria (140); Mexico (120); Korea, South (80); Ukraine (80); Albania (60); Egypt (60); Vietnam (60)"
+green-cards:42101:FY2023,county,42101
+green-cards:42101:FY2023,countyName,Philadelphia County
+green-cards:42101:FY2023,stateName,Pennsylvania
+green-cards:42101:FY2023,top_countries,"Dominican Republic (1,770); China, People's Republic (730); Uzbekistan (550); Algeria (390); India (360); Vietnam (340); Jamaica (320); Albania (290); Haiti (240); Ukraine (230)"
+green-cards:PR:FY2023,stateName,Puerto Rico
+green-cards:PR:FY2023,counties_listed,1
+green-cards:PR:FY2023,state_total_yearbook,2450
+green-cards:PR:FY2023,listed_share_pct,49.4
+green-cards:72127:FY2023,county,72127
+green-cards:72127:FY2023,countyName,San Juan Municipio
+green-cards:72127:FY2023,stateName,Puerto Rico
+green-cards:72127:FY2023,top_countries,"Dominican Republic (1,040); Colombia (50); Venezuela (50); Cuba (30); Argentina (10); Haiti (10); India (10); Spain (10)"
+green-cards:RI:FY2023,stateName,Rhode Island
+green-cards:RI:FY2023,counties_listed,1
+green-cards:RI:FY2023,state_total_yearbook,4510
+green-cards:RI:FY2023,listed_share_pct,80.7
+green-cards:44007:FY2023,county,44007
+green-cards:44007:FY2023,countyName,Providence County
+green-cards:44007:FY2023,stateName,Rhode Island
+green-cards:44007:FY2023,top_countries,"Dominican Republic (1,850); Guatemala (360); Cabo Verde (290); Colombia (130); Haiti (70); Brazil (60); China, People's Republic (60); India (60); Jamaica (60); El Salvador (50)"
+green-cards:SC:FY2023,stateName,South Carolina
+green-cards:SC:FY2023,counties_listed,1
+green-cards:SC:FY2023,state_total_yearbook,6500
+green-cards:SC:FY2023,listed_share_pct,18
+green-cards:45045:FY2023,county,45045
+green-cards:45045:FY2023,countyName,Greenville County
+green-cards:45045:FY2023,stateName,South Carolina
+green-cards:45045:FY2023,top_countries,"Colombia (160); Mexico (160); Brazil (100); India (90); Vietnam (70); Dominican Republic (40); Honduras (40); Korea, South (40); Venezuela (40); Afghanistan (30)"
+green-cards:TN:FY2023,stateName,Tennessee
+green-cards:TN:FY2023,counties_listed,4
+green-cards:TN:FY2023,state_total_yearbook,12360
+green-cards:TN:FY2023,listed_share_pct,56
+green-cards:47037:FY2023,county,47037
+green-cards:47037:FY2023,countyName,Davidson County
+green-cards:47037:FY2023,stateName,Tennessee
+green-cards:47037:FY2023,top_countries,"Philippines (1,140); Egypt (300); Mexico (300); India (160); El Salvador (110); Iraq (110); Vietnam (100); Afghanistan (90); Nigeria (70); Cuba (60)"
+green-cards:47149:FY2023,county,47149
+green-cards:47149:FY2023,countyName,Rutherford County
+green-cards:47149:FY2023,stateName,Tennessee
+green-cards:47149:FY2023,top_countries,Egypt (220); Mexico (130); Venezuela (100); Guatemala (40); Iraq (40); Philippines (40); Cuba (30); El Salvador (30); Ghana (30); Honduras (30)
+green-cards:47157:FY2023,county,47157
+green-cards:47157:FY2023,countyName,Shelby County
+green-cards:47157:FY2023,stateName,Tennessee
+green-cards:47157:FY2023,top_countries,"Mexico (350); Philippines (260); India (210); Honduras (100); Venezuela (60); Vietnam (60); China, People's Republic (50); Cuba (50); Guatemala (50); Jordan (50)"
+green-cards:47187:FY2023,county,47187
+green-cards:47187:FY2023,countyName,Williamson County
+green-cards:47187:FY2023,stateName,Tennessee
+green-cards:47187:FY2023,top_countries,"Philippines (220); India (150); Nepal (70); China, People's Republic (50); Mexico (50); Egypt (30); Brazil (20); Canada (20); Kenya (20); Korea, South (20)"
+green-cards:TX:FY2023,stateName,Texas
+green-cards:TX:FY2023,counties_listed,17
+green-cards:TX:FY2023,state_total_yearbook,126930
+green-cards:TX:FY2023,listed_share_pct,83.3
+green-cards:48027:FY2023,county,48027
+green-cards:48027:FY2023,countyName,Bell County
+green-cards:48027:FY2023,stateName,Texas
+green-cards:48027:FY2023,top_countries,Philippines (430); Mexico (180); Nigeria (80); Jamaica (40); Ghana (30); Nepal (30); Vietnam (30); Cameroon (20); Cuba (20); Dominican Republic (20)
+green-cards:48029:FY2023,county,48029
+green-cards:48029:FY2023,countyName,Bexar County
+green-cards:48029:FY2023,stateName,Texas
+green-cards:48029:FY2023,top_countries,"Mexico (2,870); Afghanistan (740); India (280); Cuba (270); Vietnam (230); Philippines (180); Colombia (140); Brazil (80); Honduras (80); Nigeria (70)"
+green-cards:48039:FY2023,county,48039
+green-cards:48039:FY2023,countyName,Brazoria County
+green-cards:48039:FY2023,stateName,Texas
+green-cards:48039:FY2023,top_countries,"Mexico (340); India (90); Vietnam (90); Philippines (70); China, People's Republic (60); Cuba (50); Nigeria (40); Venezuela (40); Colombia (30); El Salvador (30)"
+green-cards:48061:FY2023,county,48061
+green-cards:48061:FY2023,countyName,Cameron County
+green-cards:48061:FY2023,stateName,Texas
+green-cards:48061:FY2023,top_countries,"Mexico (1,740); Cuba (20); Colombia (10); El Salvador (10); Pakistan (10)"
+green-cards:48085:FY2023,county,48085
+green-cards:48085:FY2023,countyName,Collin County
+green-cards:48085:FY2023,stateName,Texas
+green-cards:48085:FY2023,top_countries,"India (1,750); Mexico (680); China, People's Republic (660); Pakistan (220); Vietnam (220); Iran (190); Venezuela (170); Nigeria (160); Bangladesh (150); Korea, South (140)"
+green-cards:48113:FY2023,county,48113
+green-cards:48113:FY2023,countyName,Dallas County
+green-cards:48113:FY2023,stateName,Texas
+green-cards:48113:FY2023,top_countries,"Mexico (5,390); India (1,150); El Salvador (820); Afghanistan (760); Vietnam (740); Nigeria (510); Cuba (480); Nepal (360); Philippines (320); Honduras (290)"
+green-cards:48121:FY2023,county,48121
+green-cards:48121:FY2023,countyName,Denton County
+green-cards:48121:FY2023,stateName,Texas
+green-cards:48121:FY2023,top_countries,"India (820); Mexico (780); Korea, South (190); Nepal (180); Brazil (170); Vietnam (170); China, People's Republic (150); Venezuela (150); Nigeria (130); Pakistan (100)"
+green-cards:48135:FY2023,county,48135
+green-cards:48135:FY2023,countyName,Ector County
+green-cards:48135:FY2023,stateName,Texas
+green-cards:48135:FY2023,top_countries,Mexico (560); Cuba (390); India (20); Nigeria (20); Azerbaijan (10); Colombia (10); Philippines (10); Turkey (10); Venezuela (10)
+green-cards:48141:FY2023,county,48141
+green-cards:48141:FY2023,countyName,El Paso County
+green-cards:48141:FY2023,stateName,Texas
+green-cards:48141:FY2023,top_countries,"Mexico (4,360); Cuba (40); Colombia (30); India (30); Nigeria (30); Philippines (30); Vietnam (30); Zimbabwe (30); Canada (20); Dominican Republic (20)"
+green-cards:48157:FY2023,county,48157
+green-cards:48157:FY2023,countyName,Fort Bend County
+green-cards:48157:FY2023,stateName,Texas
+green-cards:48157:FY2023,top_countries,"India (1,120); Mexico (570); Nigeria (540); China, People's Republic (510); Pakistan (440); Venezuela (440); Vietnam (430); Philippines (210); Cuba (200); Turkey (200)"
+green-cards:48201:FY2023,county,48201
+green-cards:48201:FY2023,countyName,Harris County
+green-cards:48201:FY2023,stateName,Texas
+green-cards:48201:FY2023,top_countries,"Mexico (7,330); Cuba (4,880); Vietnam (2,370); El Salvador (1,650); Afghanistan (1,360); Nigeria (1,180); India (1,100); Honduras (970); Venezuela (920); China, People's Republic (740)"
+green-cards:48215:FY2023,county,48215
+green-cards:48215:FY2023,countyName,Hidalgo County
+green-cards:48215:FY2023,stateName,Texas
+green-cards:48215:FY2023,top_countries,"Mexico (3,590); Cuba (60); Philippines (50); Venezuela (40); India (30); Colombia (20); Vietnam (20); Argentina (10); China, People's Republic (10); Dominican Republic (10)"
+green-cards:48339:FY2023,county,48339
+green-cards:48339:FY2023,countyName,Montgomery County
+green-cards:48339:FY2023,stateName,Texas
+green-cards:48339:FY2023,top_countries,Mexico (860); Venezuela (170); Brazil (120); Colombia (120); India (100); Cuba (90); South Africa (80); El Salvador (70); Honduras (70); Nigeria (70)
+green-cards:48439:FY2023,county,48439
+green-cards:48439:FY2023,countyName,Tarrant County
+green-cards:48439:FY2023,stateName,Texas
+green-cards:48439:FY2023,top_countries,"Mexico (2,720); Nepal (770); Vietnam (640); Afghanistan (550); India (440); Nigeria (310); Congo, Democratic Republic (240); Egypt (210); Cuba (200); El Salvador (160)"
+green-cards:48453:FY2023,county,48453
+green-cards:48453:FY2023,countyName,Travis County
+green-cards:48453:FY2023,stateName,Texas
+green-cards:48453:FY2023,top_countries,"Mexico (1,450); Cuba (540); India (470); China, People's Republic (240); Vietnam (240); Afghanistan (200); Honduras (180); Nepal (170); Korea, South (120); Russia (110)"
+green-cards:48479:FY2023,county,48479
+green-cards:48479:FY2023,countyName,Webb County
+green-cards:48479:FY2023,stateName,Texas
+green-cards:48479:FY2023,top_countries,"Mexico (1,130); Cuba (20)"
+green-cards:48491:FY2023,county,48491
+green-cards:48491:FY2023,countyName,Williamson County
+green-cards:48491:FY2023,stateName,Texas
+green-cards:48491:FY2023,top_countries,"India (800); Mexico (460); Cuba (230); China, People's Republic (150); Brazil (130); Korea, South (120); Russia (120); Nepal (90); Ukraine (80); Vietnam (80)"
+green-cards:UT:FY2023,stateName,Utah
+green-cards:UT:FY2023,counties_listed,2
+green-cards:UT:FY2023,state_total_yearbook,7330
+green-cards:UT:FY2023,listed_share_pct,70.5
+green-cards:49035:FY2023,county,49035
+green-cards:49035:FY2023,countyName,Salt Lake County
+green-cards:49035:FY2023,stateName,Utah
+green-cards:49035:FY2023,top_countries,"Mexico (1,180); Afghanistan (260); Venezuela (240); Brazil (220); India (180); Peru (160); Vietnam (160); China, People's Republic (100); Colombia (100); Philippines (90)"
+green-cards:49049:FY2023,county,49049
+green-cards:49049:FY2023,countyName,Utah County
+green-cards:49049:FY2023,stateName,Utah
+green-cards:49049:FY2023,top_countries,Mexico (360); Brazil (200); Peru (100); Venezuela (80); Argentina (50); Chile (40); Colombia (40); Dominican Republic (40); Ecuador (40); Canada (30)
+green-cards:VA:FY2023,stateName,Virginia
+green-cards:VA:FY2023,counties_listed,6
+green-cards:VA:FY2023,state_total_yearbook,29600
+green-cards:VA:FY2023,listed_share_pct,62.4
+green-cards:51013:FY2023,county,51013
+green-cards:51013:FY2023,countyName,Arlington County
+green-cards:51013:FY2023,stateName,Virginia
+green-cards:51013:FY2023,top_countries,"Afghanistan (100); El Salvador (90); Morocco (70); China, People's Republic (60); Mongolia (60); Ethiopia (50); Bolivia (40); Brazil (40); Nepal (40); Bangladesh (30)"
+green-cards:51059:FY2023,county,51059
+green-cards:51059:FY2023,countyName,Fairfax County
+green-cards:51059:FY2023,stateName,Virginia
+green-cards:51059:FY2023,top_countries,"Afghanistan (1,050); India (590); El Salvador (550); China, People's Republic (420); Vietnam (390); Nepal (340); Ethiopia (320); Pakistan (310); Honduras (290); Bangladesh (260)"
+green-cards:51087:FY2023,county,51087
+green-cards:51087:FY2023,countyName,Henrico County
+green-cards:51087:FY2023,stateName,Virginia
+green-cards:51087:FY2023,top_countries,"Afghanistan (350); India (190); Egypt (60); El Salvador (50); Mexico (50); Vietnam (50); Bangladesh (40); Jordan (40); Philippines (40); China, People's Republic (30)"
+green-cards:51107:FY2023,county,51107
+green-cards:51107:FY2023,countyName,Loudoun County
+green-cards:51107:FY2023,stateName,Virginia
+green-cards:51107:FY2023,top_countries,"India (680); Afghanistan (330); El Salvador (220); Peru (130); China, People's Republic (110); Nepal (110); Egypt (100); Iran (90); Philippines (80); Vietnam (80)"
+green-cards:51153:FY2023,county,51153
+green-cards:51153:FY2023,countyName,Prince William County
+green-cards:51153:FY2023,stateName,Virginia
+green-cards:51153:FY2023,top_countries,Afghanistan (990); El Salvador (560); Nepal (180); Ghana (160); Pakistan (150); Honduras (140); Bangladesh (130); Peru (130); India (120); Ethiopia (90)
+green-cards:51510:FY2023,county,51510
+green-cards:51510:FY2023,countyName,Alexandria city
+green-cards:51510:FY2023,stateName,Virginia
+green-cards:51510:FY2023,top_countries,Afghanistan (530); Ethiopia (120); Morocco (80); El Salvador (70); Azerbaijan (30); Honduras (30); Sierra Leone (30); Bangladesh (20); Brazil (20); Colombia (20)
+green-cards:WA:FY2023,stateName,Washington
+green-cards:WA:FY2023,counties_listed,4
+green-cards:WA:FY2023,state_total_yearbook,32190
+green-cards:WA:FY2023,listed_share_pct,79.1
+green-cards:53011:FY2023,county,53011
+green-cards:53011:FY2023,countyName,Clark County
+green-cards:53011:FY2023,stateName,Washington
+green-cards:53011:FY2023,top_countries,"Mexico (180); Ukraine (160); Russia (70); India (60); Philippines (60); Vietnam (50); China, People's Republic (30); Afghanistan (20); Brazil (20); Cambodia (10)"
+green-cards:53033:FY2023,county,53033
+green-cards:53033:FY2023,countyName,King County
+green-cards:53033:FY2023,stateName,Washington
+green-cards:53033:FY2023,top_countries,"China, People's Republic (3,100); India (2,450); Afghanistan (2,280); Mexico (1,600); Vietnam (1,060); Philippines (670); Korea, South (440); Ethiopia (410); Canada (390); Russia (340)"
+green-cards:53053:FY2023,county,53053
+green-cards:53053:FY2023,countyName,Pierce County
+green-cards:53053:FY2023,stateName,Washington
+green-cards:53053:FY2023,top_countries,"Mexico (310); Philippines (250); Vietnam (170); Kenya (160); Afghanistan (120); India (120); Ukraine (90); Moldova (60); China, People's Republic (50); Korea, South (50)"
+green-cards:53061:FY2023,county,53061
+green-cards:53061:FY2023,countyName,Snohomish County
+green-cards:53061:FY2023,stateName,Washington
+green-cards:53061:FY2023,top_countries,"India (630); China, People's Republic (470); Mexico (320); Philippines (230); Ukraine (230); Vietnam (200); Afghanistan (130); Ethiopia (120); Korea, South (110); Canada (100)"
+green-cards:WI:FY2023,stateName,Wisconsin
+green-cards:WI:FY2023,counties_listed,2
+green-cards:WI:FY2023,state_total_yearbook,6820
+green-cards:WI:FY2023,listed_share_pct,43
+green-cards:55025:FY2023,county,55025
+green-cards:55025:FY2023,countyName,Dane County
+green-cards:55025:FY2023,stateName,Wisconsin
+green-cards:55025:FY2023,top_countries,"Mexico (220); India (100); China, People's Republic (90); Gambia (70); Colombia (60); Algeria (50); Nepal (50); Iran (40); Venezuela (40); Brazil (30)"
+green-cards:55079:FY2023,county,55079
+green-cards:55079:FY2023,countyName,Milwaukee County
+green-cards:55079:FY2023,stateName,Wisconsin
+green-cards:55079:FY2023,top_countries,Mexico (590); India (170); Burma (110); Jordan (100); Albania (60); Vietnam (60); Malaysia (50); Nigeria (50); Thailand (50); Dominican Republic (40)

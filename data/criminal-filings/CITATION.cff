@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3), 2026, https://doi.org/10.5281/zenodo.23744206."
+message: "If you use this dataset, please cite it as: Probative Growth, Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3), 2026, https://doi.org/10.5281/zenodo.23963315."
 title: "Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23744206"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963315"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23744205"

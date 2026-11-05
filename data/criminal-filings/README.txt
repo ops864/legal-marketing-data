@@ -1,12 +1,12 @@
 Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23744206
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963315
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3), version 1.0.0, https://doi.org/10.5281/zenodo.23744206, licensed CC BY 4.0.
+Source: Probative, Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3), version 2.0.0, https://doi.org/10.5281/zenodo.23963315, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23744206
+Probative. (2026). Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963315
 
 Not legal advice. These are counts of defendants in federal criminal cases, kept for research and marketing planning. A defendant counted here is charged, not convicted, and the counts say nothing about any person or case. Questions about a charge are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -17,10 +17,6 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter code of the state or territory the district sits in, or US
   level: district (one federal judicial district), state (the sum of a state's districts; only states with more than one) or us (all 94 districts)
-  district: Federal district key from the Probative crosswalks (TXS = Southern District of Texas); empty for state and US rows
-  districtName: The district's name
-  circuit: The court of appeals circuit of the district
-  stateName: State or territory name
   periodStart: First day of the 12-month period
   periodEnd: Last day of the 12-month period (June 30 or December 31)
   latest: true for the newest period the Courts have published
@@ -29,8 +25,6 @@ Columns:
   value: Criminal defendants commenced in the period (same as defendants)
   unit: Unit of value
   defendants: Criminal defendants whose cases were opened in the district in the period, excluding defendants transferred in from another district (Table D-3 Total). One person charged in two cases counts twice.
-  prior_year_defendants: The same count for the 12 months ending a year earlier; empty where the Courts did not publish that period (December 2024)
-  change_pct: Percent change from prior_year_defendants, one decimal
   drug: Drug offenses (marijuana and all other drugs)
   immigration: Immigration offenses (illegal reentry and all other)
   firearms_explosives: Firearms and explosives offenses
@@ -71,12 +65,18 @@ Columns:
   class_a_misdemeanor: Of original proceedings (Table D-1), defendants charged with a Class A misdemeanor
   petty_offense: Of original proceedings (Table D-1), petty-offense defendants assigned to a district judge (most petty offenses go to magistrate judges and are not counted)
   reopens: Reopened cases (Table D-1); defendants = felony + class_a_misdemeanor + petty_offense + reopens
-  dui: US rows only: defendants charged with drunk driving (Table D-2, part of traffic)
   effectiveFrom: When the fact took effect (YYYY-MM-DD), if known
   effectiveTo: When it stopped applying; empty while current
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  district: Federal district key from the Probative crosswalks (TXS = Southern District of Texas); empty for state and US rows (in criminal-filings-values.csv, as id, column and value rows)
+  districtName: The district's name (in criminal-filings-values.csv, as id, column and value rows)
+  circuit: The court of appeals circuit of the district (in criminal-filings-values.csv, as id, column and value rows)
+  stateName: State or territory name (in criminal-filings-values.csv, as id, column and value rows)
+  prior_year_defendants: The same count for the period ending a year earlier, as the Courts publish it (in criminal-filings-values.csv, as id, column and value rows)
+  change_pct: Percent change from prior_year_defendants, one decimal (in criminal-filings-values.csv, as id, column and value rows)
+  dui: US rows only: defendants charged with drunk driving (Table D-2, part of traffic) (in criminal-filings-values.csv, as id, column and value rows)
+  note: Caveats (in criminal-filings-values.csv, as id, column and value rows)

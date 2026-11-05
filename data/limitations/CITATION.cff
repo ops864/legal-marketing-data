@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, 2026, https://doi.org/10.5281/zenodo.23934163."
+message: "If you use this dataset, please cite it as: Probative Growth, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, 2026, https://doi.org/10.5281/zenodo.23963806."
 title: "Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.2.0"
-doi: "10.5281/zenodo.23934163"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963806"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23721435"

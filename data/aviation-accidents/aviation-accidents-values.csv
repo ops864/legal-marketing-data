@@ -1,0 +1,1005 @@
+id,column,value
+aviation-accidents:US:2008,accidents_outside_states,2
+aviation-accidents:US:2008,fatalities_outside_states,0
+aviation-accidents:US:2009,accidents_outside_states,8
+aviation-accidents:US:2009,fatalities_outside_states,9
+aviation-accidents:US:2010,accidents_outside_states,5
+aviation-accidents:US:2010,fatalities_outside_states,1
+aviation-accidents:US:2011,accidents_outside_states,8
+aviation-accidents:US:2011,fatalities_outside_states,1
+aviation-accidents:US:2012,accidents_outside_states,10
+aviation-accidents:US:2012,fatalities_outside_states,9
+aviation-accidents:US:2013,accidents_outside_states,3
+aviation-accidents:US:2013,fatalities_outside_states,4
+aviation-accidents:US:2014,accidents_outside_states,6
+aviation-accidents:US:2014,fatalities_outside_states,4
+aviation-accidents:US:2015,accidents_outside_states,7
+aviation-accidents:US:2015,fatalities_outside_states,2
+aviation-accidents:US:2016,accidents_outside_states,1
+aviation-accidents:US:2016,fatalities_outside_states,0
+aviation-accidents:US:2017,accidents_outside_states,6
+aviation-accidents:US:2017,fatalities_outside_states,5
+aviation-accidents:US:2018,accidents_outside_states,6
+aviation-accidents:US:2018,fatalities_outside_states,10
+aviation-accidents:US:2019,accidents_outside_states,11
+aviation-accidents:US:2019,fatalities_outside_states,6
+aviation-accidents:US:2020,accidents_outside_states,2
+aviation-accidents:US:2020,fatalities_outside_states,0
+aviation-accidents:US:2021,accidents_outside_states,2
+aviation-accidents:US:2021,fatalities_outside_states,5
+aviation-accidents:US:2022,accidents_outside_states,2
+aviation-accidents:US:2022,fatalities_outside_states,1
+aviation-accidents:US:2023,accidents_outside_states,7
+aviation-accidents:US:2023,fatalities_outside_states,2
+aviation-accidents:US:2024,accidents_outside_states,2
+aviation-accidents:US:2024,fatalities_outside_states,0
+aviation-accidents:US:2025,accidents_outside_states,0
+aviation-accidents:US:2025,fatalities_outside_states,0
+aviation-accidents:US:2026,accidents_outside_states,4
+aviation-accidents:US:2026,fatalities_outside_states,0
+aviation-accidents:AK:2008,stateName,Alaska
+aviation-accidents:AK:2009,stateName,Alaska
+aviation-accidents:AK:2010,stateName,Alaska
+aviation-accidents:AK:2011,stateName,Alaska
+aviation-accidents:AK:2012,stateName,Alaska
+aviation-accidents:AK:2013,stateName,Alaska
+aviation-accidents:AK:2014,stateName,Alaska
+aviation-accidents:AK:2015,stateName,Alaska
+aviation-accidents:AK:2016,stateName,Alaska
+aviation-accidents:AK:2017,stateName,Alaska
+aviation-accidents:AK:2018,stateName,Alaska
+aviation-accidents:AK:2019,stateName,Alaska
+aviation-accidents:AK:2020,stateName,Alaska
+aviation-accidents:AK:2021,stateName,Alaska
+aviation-accidents:AK:2022,stateName,Alaska
+aviation-accidents:AK:2023,stateName,Alaska
+aviation-accidents:AK:2024,stateName,Alaska
+aviation-accidents:AK:2025,stateName,Alaska
+aviation-accidents:AK:2026,stateName,Alaska
+aviation-accidents:AL:2008,stateName,Alabama
+aviation-accidents:AL:2009,stateName,Alabama
+aviation-accidents:AL:2010,stateName,Alabama
+aviation-accidents:AL:2011,stateName,Alabama
+aviation-accidents:AL:2012,stateName,Alabama
+aviation-accidents:AL:2013,stateName,Alabama
+aviation-accidents:AL:2014,stateName,Alabama
+aviation-accidents:AL:2015,stateName,Alabama
+aviation-accidents:AL:2016,stateName,Alabama
+aviation-accidents:AL:2017,stateName,Alabama
+aviation-accidents:AL:2018,stateName,Alabama
+aviation-accidents:AL:2019,stateName,Alabama
+aviation-accidents:AL:2020,stateName,Alabama
+aviation-accidents:AL:2021,stateName,Alabama
+aviation-accidents:AL:2022,stateName,Alabama
+aviation-accidents:AL:2023,stateName,Alabama
+aviation-accidents:AL:2024,stateName,Alabama
+aviation-accidents:AL:2025,stateName,Alabama
+aviation-accidents:AL:2026,stateName,Alabama
+aviation-accidents:AR:2008,stateName,Arkansas
+aviation-accidents:AR:2009,stateName,Arkansas
+aviation-accidents:AR:2010,stateName,Arkansas
+aviation-accidents:AR:2011,stateName,Arkansas
+aviation-accidents:AR:2012,stateName,Arkansas
+aviation-accidents:AR:2013,stateName,Arkansas
+aviation-accidents:AR:2014,stateName,Arkansas
+aviation-accidents:AR:2015,stateName,Arkansas
+aviation-accidents:AR:2016,stateName,Arkansas
+aviation-accidents:AR:2017,stateName,Arkansas
+aviation-accidents:AR:2018,stateName,Arkansas
+aviation-accidents:AR:2019,stateName,Arkansas
+aviation-accidents:AR:2020,stateName,Arkansas
+aviation-accidents:AR:2021,stateName,Arkansas
+aviation-accidents:AR:2022,stateName,Arkansas
+aviation-accidents:AR:2023,stateName,Arkansas
+aviation-accidents:AR:2024,stateName,Arkansas
+aviation-accidents:AR:2025,stateName,Arkansas
+aviation-accidents:AR:2026,stateName,Arkansas
+aviation-accidents:AZ:2008,stateName,Arizona
+aviation-accidents:AZ:2009,stateName,Arizona
+aviation-accidents:AZ:2010,stateName,Arizona
+aviation-accidents:AZ:2011,stateName,Arizona
+aviation-accidents:AZ:2012,stateName,Arizona
+aviation-accidents:AZ:2013,stateName,Arizona
+aviation-accidents:AZ:2014,stateName,Arizona
+aviation-accidents:AZ:2015,stateName,Arizona
+aviation-accidents:AZ:2016,stateName,Arizona
+aviation-accidents:AZ:2017,stateName,Arizona
+aviation-accidents:AZ:2018,stateName,Arizona
+aviation-accidents:AZ:2019,stateName,Arizona
+aviation-accidents:AZ:2020,stateName,Arizona
+aviation-accidents:AZ:2021,stateName,Arizona
+aviation-accidents:AZ:2022,stateName,Arizona
+aviation-accidents:AZ:2023,stateName,Arizona
+aviation-accidents:AZ:2024,stateName,Arizona
+aviation-accidents:AZ:2025,stateName,Arizona
+aviation-accidents:AZ:2026,stateName,Arizona
+aviation-accidents:CA:2008,stateName,California
+aviation-accidents:CA:2009,stateName,California
+aviation-accidents:CA:2010,stateName,California
+aviation-accidents:CA:2011,stateName,California
+aviation-accidents:CA:2012,stateName,California
+aviation-accidents:CA:2013,stateName,California
+aviation-accidents:CA:2014,stateName,California
+aviation-accidents:CA:2015,stateName,California
+aviation-accidents:CA:2016,stateName,California
+aviation-accidents:CA:2017,stateName,California
+aviation-accidents:CA:2018,stateName,California
+aviation-accidents:CA:2019,stateName,California
+aviation-accidents:CA:2020,stateName,California
+aviation-accidents:CA:2021,stateName,California
+aviation-accidents:CA:2022,stateName,California
+aviation-accidents:CA:2023,stateName,California
+aviation-accidents:CA:2024,stateName,California
+aviation-accidents:CA:2025,stateName,California
+aviation-accidents:CA:2026,stateName,California
+aviation-accidents:CO:2008,stateName,Colorado
+aviation-accidents:CO:2009,stateName,Colorado
+aviation-accidents:CO:2010,stateName,Colorado
+aviation-accidents:CO:2011,stateName,Colorado
+aviation-accidents:CO:2012,stateName,Colorado
+aviation-accidents:CO:2013,stateName,Colorado
+aviation-accidents:CO:2014,stateName,Colorado
+aviation-accidents:CO:2015,stateName,Colorado
+aviation-accidents:CO:2016,stateName,Colorado
+aviation-accidents:CO:2017,stateName,Colorado
+aviation-accidents:CO:2018,stateName,Colorado
+aviation-accidents:CO:2019,stateName,Colorado
+aviation-accidents:CO:2020,stateName,Colorado
+aviation-accidents:CO:2021,stateName,Colorado
+aviation-accidents:CO:2022,stateName,Colorado
+aviation-accidents:CO:2023,stateName,Colorado
+aviation-accidents:CO:2024,stateName,Colorado
+aviation-accidents:CO:2025,stateName,Colorado
+aviation-accidents:CO:2026,stateName,Colorado
+aviation-accidents:CT:2008,stateName,Connecticut
+aviation-accidents:CT:2009,stateName,Connecticut
+aviation-accidents:CT:2010,stateName,Connecticut
+aviation-accidents:CT:2011,stateName,Connecticut
+aviation-accidents:CT:2012,stateName,Connecticut
+aviation-accidents:CT:2013,stateName,Connecticut
+aviation-accidents:CT:2014,stateName,Connecticut
+aviation-accidents:CT:2015,stateName,Connecticut
+aviation-accidents:CT:2016,stateName,Connecticut
+aviation-accidents:CT:2017,stateName,Connecticut
+aviation-accidents:CT:2018,stateName,Connecticut
+aviation-accidents:CT:2019,stateName,Connecticut
+aviation-accidents:CT:2020,stateName,Connecticut
+aviation-accidents:CT:2021,stateName,Connecticut
+aviation-accidents:CT:2022,stateName,Connecticut
+aviation-accidents:CT:2023,stateName,Connecticut
+aviation-accidents:CT:2024,stateName,Connecticut
+aviation-accidents:CT:2025,stateName,Connecticut
+aviation-accidents:CT:2026,stateName,Connecticut
+aviation-accidents:DC:2008,stateName,District of Columbia
+aviation-accidents:DC:2025,stateName,District of Columbia
+aviation-accidents:DE:2008,stateName,Delaware
+aviation-accidents:DE:2009,stateName,Delaware
+aviation-accidents:DE:2010,stateName,Delaware
+aviation-accidents:DE:2011,stateName,Delaware
+aviation-accidents:DE:2012,stateName,Delaware
+aviation-accidents:DE:2013,stateName,Delaware
+aviation-accidents:DE:2014,stateName,Delaware
+aviation-accidents:DE:2015,stateName,Delaware
+aviation-accidents:DE:2016,stateName,Delaware
+aviation-accidents:DE:2017,stateName,Delaware
+aviation-accidents:DE:2018,stateName,Delaware
+aviation-accidents:DE:2019,stateName,Delaware
+aviation-accidents:DE:2020,stateName,Delaware
+aviation-accidents:DE:2022,stateName,Delaware
+aviation-accidents:DE:2024,stateName,Delaware
+aviation-accidents:DE:2025,stateName,Delaware
+aviation-accidents:DE:2026,stateName,Delaware
+aviation-accidents:FL:2008,stateName,Florida
+aviation-accidents:FL:2009,stateName,Florida
+aviation-accidents:FL:2010,stateName,Florida
+aviation-accidents:FL:2011,stateName,Florida
+aviation-accidents:FL:2012,stateName,Florida
+aviation-accidents:FL:2013,stateName,Florida
+aviation-accidents:FL:2014,stateName,Florida
+aviation-accidents:FL:2015,stateName,Florida
+aviation-accidents:FL:2016,stateName,Florida
+aviation-accidents:FL:2017,stateName,Florida
+aviation-accidents:FL:2018,stateName,Florida
+aviation-accidents:FL:2019,stateName,Florida
+aviation-accidents:FL:2020,stateName,Florida
+aviation-accidents:FL:2021,stateName,Florida
+aviation-accidents:FL:2022,stateName,Florida
+aviation-accidents:FL:2023,stateName,Florida
+aviation-accidents:FL:2024,stateName,Florida
+aviation-accidents:FL:2025,stateName,Florida
+aviation-accidents:FL:2026,stateName,Florida
+aviation-accidents:GA:2008,stateName,Georgia
+aviation-accidents:GA:2009,stateName,Georgia
+aviation-accidents:GA:2010,stateName,Georgia
+aviation-accidents:GA:2011,stateName,Georgia
+aviation-accidents:GA:2012,stateName,Georgia
+aviation-accidents:GA:2013,stateName,Georgia
+aviation-accidents:GA:2014,stateName,Georgia
+aviation-accidents:GA:2015,stateName,Georgia
+aviation-accidents:GA:2016,stateName,Georgia
+aviation-accidents:GA:2017,stateName,Georgia
+aviation-accidents:GA:2018,stateName,Georgia
+aviation-accidents:GA:2019,stateName,Georgia
+aviation-accidents:GA:2020,stateName,Georgia
+aviation-accidents:GA:2021,stateName,Georgia
+aviation-accidents:GA:2022,stateName,Georgia
+aviation-accidents:GA:2023,stateName,Georgia
+aviation-accidents:GA:2024,stateName,Georgia
+aviation-accidents:GA:2025,stateName,Georgia
+aviation-accidents:GA:2026,stateName,Georgia
+aviation-accidents:GU:2026,stateName,Guam
+aviation-accidents:HI:2008,stateName,Hawaii
+aviation-accidents:HI:2009,stateName,Hawaii
+aviation-accidents:HI:2010,stateName,Hawaii
+aviation-accidents:HI:2011,stateName,Hawaii
+aviation-accidents:HI:2012,stateName,Hawaii
+aviation-accidents:HI:2013,stateName,Hawaii
+aviation-accidents:HI:2014,stateName,Hawaii
+aviation-accidents:HI:2015,stateName,Hawaii
+aviation-accidents:HI:2016,stateName,Hawaii
+aviation-accidents:HI:2017,stateName,Hawaii
+aviation-accidents:HI:2018,stateName,Hawaii
+aviation-accidents:HI:2019,stateName,Hawaii
+aviation-accidents:HI:2020,stateName,Hawaii
+aviation-accidents:HI:2021,stateName,Hawaii
+aviation-accidents:HI:2022,stateName,Hawaii
+aviation-accidents:HI:2023,stateName,Hawaii
+aviation-accidents:HI:2024,stateName,Hawaii
+aviation-accidents:HI:2025,stateName,Hawaii
+aviation-accidents:HI:2026,stateName,Hawaii
+aviation-accidents:IA:2008,stateName,Iowa
+aviation-accidents:IA:2009,stateName,Iowa
+aviation-accidents:IA:2010,stateName,Iowa
+aviation-accidents:IA:2011,stateName,Iowa
+aviation-accidents:IA:2012,stateName,Iowa
+aviation-accidents:IA:2013,stateName,Iowa
+aviation-accidents:IA:2014,stateName,Iowa
+aviation-accidents:IA:2015,stateName,Iowa
+aviation-accidents:IA:2016,stateName,Iowa
+aviation-accidents:IA:2017,stateName,Iowa
+aviation-accidents:IA:2018,stateName,Iowa
+aviation-accidents:IA:2019,stateName,Iowa
+aviation-accidents:IA:2020,stateName,Iowa
+aviation-accidents:IA:2021,stateName,Iowa
+aviation-accidents:IA:2022,stateName,Iowa
+aviation-accidents:IA:2023,stateName,Iowa
+aviation-accidents:IA:2024,stateName,Iowa
+aviation-accidents:IA:2025,stateName,Iowa
+aviation-accidents:IA:2026,stateName,Iowa
+aviation-accidents:ID:2008,stateName,Idaho
+aviation-accidents:ID:2009,stateName,Idaho
+aviation-accidents:ID:2010,stateName,Idaho
+aviation-accidents:ID:2011,stateName,Idaho
+aviation-accidents:ID:2012,stateName,Idaho
+aviation-accidents:ID:2013,stateName,Idaho
+aviation-accidents:ID:2014,stateName,Idaho
+aviation-accidents:ID:2015,stateName,Idaho
+aviation-accidents:ID:2016,stateName,Idaho
+aviation-accidents:ID:2017,stateName,Idaho
+aviation-accidents:ID:2018,stateName,Idaho
+aviation-accidents:ID:2019,stateName,Idaho
+aviation-accidents:ID:2020,stateName,Idaho
+aviation-accidents:ID:2021,stateName,Idaho
+aviation-accidents:ID:2022,stateName,Idaho
+aviation-accidents:ID:2023,stateName,Idaho
+aviation-accidents:ID:2024,stateName,Idaho
+aviation-accidents:ID:2025,stateName,Idaho
+aviation-accidents:ID:2026,stateName,Idaho
+aviation-accidents:IL:2008,stateName,Illinois
+aviation-accidents:IL:2009,stateName,Illinois
+aviation-accidents:IL:2010,stateName,Illinois
+aviation-accidents:IL:2011,stateName,Illinois
+aviation-accidents:IL:2012,stateName,Illinois
+aviation-accidents:IL:2013,stateName,Illinois
+aviation-accidents:IL:2014,stateName,Illinois
+aviation-accidents:IL:2015,stateName,Illinois
+aviation-accidents:IL:2016,stateName,Illinois
+aviation-accidents:IL:2017,stateName,Illinois
+aviation-accidents:IL:2018,stateName,Illinois
+aviation-accidents:IL:2019,stateName,Illinois
+aviation-accidents:IL:2020,stateName,Illinois
+aviation-accidents:IL:2021,stateName,Illinois
+aviation-accidents:IL:2022,stateName,Illinois
+aviation-accidents:IL:2023,stateName,Illinois
+aviation-accidents:IL:2024,stateName,Illinois
+aviation-accidents:IL:2025,stateName,Illinois
+aviation-accidents:IL:2026,stateName,Illinois
+aviation-accidents:IN:2008,stateName,Indiana
+aviation-accidents:IN:2009,stateName,Indiana
+aviation-accidents:IN:2010,stateName,Indiana
+aviation-accidents:IN:2011,stateName,Indiana
+aviation-accidents:IN:2012,stateName,Indiana
+aviation-accidents:IN:2013,stateName,Indiana
+aviation-accidents:IN:2014,stateName,Indiana
+aviation-accidents:IN:2015,stateName,Indiana
+aviation-accidents:IN:2016,stateName,Indiana
+aviation-accidents:IN:2017,stateName,Indiana
+aviation-accidents:IN:2018,stateName,Indiana
+aviation-accidents:IN:2019,stateName,Indiana
+aviation-accidents:IN:2020,stateName,Indiana
+aviation-accidents:IN:2021,stateName,Indiana
+aviation-accidents:IN:2022,stateName,Indiana
+aviation-accidents:IN:2023,stateName,Indiana
+aviation-accidents:IN:2024,stateName,Indiana
+aviation-accidents:IN:2025,stateName,Indiana
+aviation-accidents:IN:2026,stateName,Indiana
+aviation-accidents:KS:2008,stateName,Kansas
+aviation-accidents:KS:2009,stateName,Kansas
+aviation-accidents:KS:2010,stateName,Kansas
+aviation-accidents:KS:2011,stateName,Kansas
+aviation-accidents:KS:2012,stateName,Kansas
+aviation-accidents:KS:2013,stateName,Kansas
+aviation-accidents:KS:2014,stateName,Kansas
+aviation-accidents:KS:2015,stateName,Kansas
+aviation-accidents:KS:2016,stateName,Kansas
+aviation-accidents:KS:2017,stateName,Kansas
+aviation-accidents:KS:2018,stateName,Kansas
+aviation-accidents:KS:2019,stateName,Kansas
+aviation-accidents:KS:2020,stateName,Kansas
+aviation-accidents:KS:2021,stateName,Kansas
+aviation-accidents:KS:2022,stateName,Kansas
+aviation-accidents:KS:2023,stateName,Kansas
+aviation-accidents:KS:2024,stateName,Kansas
+aviation-accidents:KS:2025,stateName,Kansas
+aviation-accidents:KS:2026,stateName,Kansas
+aviation-accidents:KY:2008,stateName,Kentucky
+aviation-accidents:KY:2009,stateName,Kentucky
+aviation-accidents:KY:2010,stateName,Kentucky
+aviation-accidents:KY:2011,stateName,Kentucky
+aviation-accidents:KY:2012,stateName,Kentucky
+aviation-accidents:KY:2013,stateName,Kentucky
+aviation-accidents:KY:2014,stateName,Kentucky
+aviation-accidents:KY:2015,stateName,Kentucky
+aviation-accidents:KY:2016,stateName,Kentucky
+aviation-accidents:KY:2017,stateName,Kentucky
+aviation-accidents:KY:2018,stateName,Kentucky
+aviation-accidents:KY:2019,stateName,Kentucky
+aviation-accidents:KY:2020,stateName,Kentucky
+aviation-accidents:KY:2021,stateName,Kentucky
+aviation-accidents:KY:2022,stateName,Kentucky
+aviation-accidents:KY:2023,stateName,Kentucky
+aviation-accidents:KY:2024,stateName,Kentucky
+aviation-accidents:KY:2025,stateName,Kentucky
+aviation-accidents:KY:2026,stateName,Kentucky
+aviation-accidents:LA:2008,stateName,Louisiana
+aviation-accidents:LA:2009,stateName,Louisiana
+aviation-accidents:LA:2010,stateName,Louisiana
+aviation-accidents:LA:2011,stateName,Louisiana
+aviation-accidents:LA:2012,stateName,Louisiana
+aviation-accidents:LA:2013,stateName,Louisiana
+aviation-accidents:LA:2014,stateName,Louisiana
+aviation-accidents:LA:2015,stateName,Louisiana
+aviation-accidents:LA:2016,stateName,Louisiana
+aviation-accidents:LA:2017,stateName,Louisiana
+aviation-accidents:LA:2018,stateName,Louisiana
+aviation-accidents:LA:2019,stateName,Louisiana
+aviation-accidents:LA:2020,stateName,Louisiana
+aviation-accidents:LA:2021,stateName,Louisiana
+aviation-accidents:LA:2022,stateName,Louisiana
+aviation-accidents:LA:2023,stateName,Louisiana
+aviation-accidents:LA:2024,stateName,Louisiana
+aviation-accidents:LA:2025,stateName,Louisiana
+aviation-accidents:LA:2026,stateName,Louisiana
+aviation-accidents:MA:2008,stateName,Massachusetts
+aviation-accidents:MA:2009,stateName,Massachusetts
+aviation-accidents:MA:2010,stateName,Massachusetts
+aviation-accidents:MA:2011,stateName,Massachusetts
+aviation-accidents:MA:2012,stateName,Massachusetts
+aviation-accidents:MA:2013,stateName,Massachusetts
+aviation-accidents:MA:2014,stateName,Massachusetts
+aviation-accidents:MA:2015,stateName,Massachusetts
+aviation-accidents:MA:2016,stateName,Massachusetts
+aviation-accidents:MA:2017,stateName,Massachusetts
+aviation-accidents:MA:2018,stateName,Massachusetts
+aviation-accidents:MA:2019,stateName,Massachusetts
+aviation-accidents:MA:2020,stateName,Massachusetts
+aviation-accidents:MA:2021,stateName,Massachusetts
+aviation-accidents:MA:2022,stateName,Massachusetts
+aviation-accidents:MA:2023,stateName,Massachusetts
+aviation-accidents:MA:2024,stateName,Massachusetts
+aviation-accidents:MA:2025,stateName,Massachusetts
+aviation-accidents:MA:2026,stateName,Massachusetts
+aviation-accidents:MD:2008,stateName,Maryland
+aviation-accidents:MD:2009,stateName,Maryland
+aviation-accidents:MD:2010,stateName,Maryland
+aviation-accidents:MD:2011,stateName,Maryland
+aviation-accidents:MD:2012,stateName,Maryland
+aviation-accidents:MD:2013,stateName,Maryland
+aviation-accidents:MD:2014,stateName,Maryland
+aviation-accidents:MD:2015,stateName,Maryland
+aviation-accidents:MD:2016,stateName,Maryland
+aviation-accidents:MD:2017,stateName,Maryland
+aviation-accidents:MD:2018,stateName,Maryland
+aviation-accidents:MD:2019,stateName,Maryland
+aviation-accidents:MD:2020,stateName,Maryland
+aviation-accidents:MD:2021,stateName,Maryland
+aviation-accidents:MD:2022,stateName,Maryland
+aviation-accidents:MD:2023,stateName,Maryland
+aviation-accidents:MD:2024,stateName,Maryland
+aviation-accidents:MD:2025,stateName,Maryland
+aviation-accidents:MD:2026,stateName,Maryland
+aviation-accidents:ME:2008,stateName,Maine
+aviation-accidents:ME:2009,stateName,Maine
+aviation-accidents:ME:2010,stateName,Maine
+aviation-accidents:ME:2011,stateName,Maine
+aviation-accidents:ME:2012,stateName,Maine
+aviation-accidents:ME:2013,stateName,Maine
+aviation-accidents:ME:2014,stateName,Maine
+aviation-accidents:ME:2015,stateName,Maine
+aviation-accidents:ME:2016,stateName,Maine
+aviation-accidents:ME:2017,stateName,Maine
+aviation-accidents:ME:2018,stateName,Maine
+aviation-accidents:ME:2019,stateName,Maine
+aviation-accidents:ME:2020,stateName,Maine
+aviation-accidents:ME:2021,stateName,Maine
+aviation-accidents:ME:2022,stateName,Maine
+aviation-accidents:ME:2023,stateName,Maine
+aviation-accidents:ME:2024,stateName,Maine
+aviation-accidents:ME:2025,stateName,Maine
+aviation-accidents:ME:2026,stateName,Maine
+aviation-accidents:MI:2008,stateName,Michigan
+aviation-accidents:MI:2009,stateName,Michigan
+aviation-accidents:MI:2010,stateName,Michigan
+aviation-accidents:MI:2011,stateName,Michigan
+aviation-accidents:MI:2012,stateName,Michigan
+aviation-accidents:MI:2013,stateName,Michigan
+aviation-accidents:MI:2014,stateName,Michigan
+aviation-accidents:MI:2015,stateName,Michigan
+aviation-accidents:MI:2016,stateName,Michigan
+aviation-accidents:MI:2017,stateName,Michigan
+aviation-accidents:MI:2018,stateName,Michigan
+aviation-accidents:MI:2019,stateName,Michigan
+aviation-accidents:MI:2020,stateName,Michigan
+aviation-accidents:MI:2021,stateName,Michigan
+aviation-accidents:MI:2022,stateName,Michigan
+aviation-accidents:MI:2023,stateName,Michigan
+aviation-accidents:MI:2024,stateName,Michigan
+aviation-accidents:MI:2025,stateName,Michigan
+aviation-accidents:MI:2026,stateName,Michigan
+aviation-accidents:MN:2008,stateName,Minnesota
+aviation-accidents:MN:2009,stateName,Minnesota
+aviation-accidents:MN:2010,stateName,Minnesota
+aviation-accidents:MN:2011,stateName,Minnesota
+aviation-accidents:MN:2012,stateName,Minnesota
+aviation-accidents:MN:2013,stateName,Minnesota
+aviation-accidents:MN:2014,stateName,Minnesota
+aviation-accidents:MN:2015,stateName,Minnesota
+aviation-accidents:MN:2016,stateName,Minnesota
+aviation-accidents:MN:2017,stateName,Minnesota
+aviation-accidents:MN:2018,stateName,Minnesota
+aviation-accidents:MN:2019,stateName,Minnesota
+aviation-accidents:MN:2020,stateName,Minnesota
+aviation-accidents:MN:2021,stateName,Minnesota
+aviation-accidents:MN:2022,stateName,Minnesota
+aviation-accidents:MN:2023,stateName,Minnesota
+aviation-accidents:MN:2024,stateName,Minnesota
+aviation-accidents:MN:2025,stateName,Minnesota
+aviation-accidents:MN:2026,stateName,Minnesota
+aviation-accidents:MO:2008,stateName,Missouri
+aviation-accidents:MO:2009,stateName,Missouri
+aviation-accidents:MO:2010,stateName,Missouri
+aviation-accidents:MO:2011,stateName,Missouri
+aviation-accidents:MO:2012,stateName,Missouri
+aviation-accidents:MO:2013,stateName,Missouri
+aviation-accidents:MO:2014,stateName,Missouri
+aviation-accidents:MO:2015,stateName,Missouri
+aviation-accidents:MO:2016,stateName,Missouri
+aviation-accidents:MO:2017,stateName,Missouri
+aviation-accidents:MO:2018,stateName,Missouri
+aviation-accidents:MO:2019,stateName,Missouri
+aviation-accidents:MO:2020,stateName,Missouri
+aviation-accidents:MO:2021,stateName,Missouri
+aviation-accidents:MO:2022,stateName,Missouri
+aviation-accidents:MO:2023,stateName,Missouri
+aviation-accidents:MO:2024,stateName,Missouri
+aviation-accidents:MO:2025,stateName,Missouri
+aviation-accidents:MO:2026,stateName,Missouri
+aviation-accidents:MS:2008,stateName,Mississippi
+aviation-accidents:MS:2009,stateName,Mississippi
+aviation-accidents:MS:2010,stateName,Mississippi
+aviation-accidents:MS:2011,stateName,Mississippi
+aviation-accidents:MS:2012,stateName,Mississippi
+aviation-accidents:MS:2013,stateName,Mississippi
+aviation-accidents:MS:2014,stateName,Mississippi
+aviation-accidents:MS:2015,stateName,Mississippi
+aviation-accidents:MS:2016,stateName,Mississippi
+aviation-accidents:MS:2017,stateName,Mississippi
+aviation-accidents:MS:2018,stateName,Mississippi
+aviation-accidents:MS:2019,stateName,Mississippi
+aviation-accidents:MS:2020,stateName,Mississippi
+aviation-accidents:MS:2021,stateName,Mississippi
+aviation-accidents:MS:2022,stateName,Mississippi
+aviation-accidents:MS:2023,stateName,Mississippi
+aviation-accidents:MS:2024,stateName,Mississippi
+aviation-accidents:MS:2025,stateName,Mississippi
+aviation-accidents:MS:2026,stateName,Mississippi
+aviation-accidents:MT:2008,stateName,Montana
+aviation-accidents:MT:2009,stateName,Montana
+aviation-accidents:MT:2010,stateName,Montana
+aviation-accidents:MT:2011,stateName,Montana
+aviation-accidents:MT:2012,stateName,Montana
+aviation-accidents:MT:2013,stateName,Montana
+aviation-accidents:MT:2014,stateName,Montana
+aviation-accidents:MT:2015,stateName,Montana
+aviation-accidents:MT:2016,stateName,Montana
+aviation-accidents:MT:2017,stateName,Montana
+aviation-accidents:MT:2018,stateName,Montana
+aviation-accidents:MT:2019,stateName,Montana
+aviation-accidents:MT:2020,stateName,Montana
+aviation-accidents:MT:2021,stateName,Montana
+aviation-accidents:MT:2022,stateName,Montana
+aviation-accidents:MT:2023,stateName,Montana
+aviation-accidents:MT:2024,stateName,Montana
+aviation-accidents:MT:2025,stateName,Montana
+aviation-accidents:MT:2026,stateName,Montana
+aviation-accidents:NC:2008,stateName,North Carolina
+aviation-accidents:NC:2009,stateName,North Carolina
+aviation-accidents:NC:2010,stateName,North Carolina
+aviation-accidents:NC:2011,stateName,North Carolina
+aviation-accidents:NC:2012,stateName,North Carolina
+aviation-accidents:NC:2013,stateName,North Carolina
+aviation-accidents:NC:2014,stateName,North Carolina
+aviation-accidents:NC:2015,stateName,North Carolina
+aviation-accidents:NC:2016,stateName,North Carolina
+aviation-accidents:NC:2017,stateName,North Carolina
+aviation-accidents:NC:2018,stateName,North Carolina
+aviation-accidents:NC:2019,stateName,North Carolina
+aviation-accidents:NC:2020,stateName,North Carolina
+aviation-accidents:NC:2021,stateName,North Carolina
+aviation-accidents:NC:2022,stateName,North Carolina
+aviation-accidents:NC:2023,stateName,North Carolina
+aviation-accidents:NC:2024,stateName,North Carolina
+aviation-accidents:NC:2025,stateName,North Carolina
+aviation-accidents:NC:2026,stateName,North Carolina
+aviation-accidents:ND:2008,stateName,North Dakota
+aviation-accidents:ND:2009,stateName,North Dakota
+aviation-accidents:ND:2010,stateName,North Dakota
+aviation-accidents:ND:2011,stateName,North Dakota
+aviation-accidents:ND:2012,stateName,North Dakota
+aviation-accidents:ND:2013,stateName,North Dakota
+aviation-accidents:ND:2014,stateName,North Dakota
+aviation-accidents:ND:2015,stateName,North Dakota
+aviation-accidents:ND:2016,stateName,North Dakota
+aviation-accidents:ND:2017,stateName,North Dakota
+aviation-accidents:ND:2018,stateName,North Dakota
+aviation-accidents:ND:2019,stateName,North Dakota
+aviation-accidents:ND:2020,stateName,North Dakota
+aviation-accidents:ND:2021,stateName,North Dakota
+aviation-accidents:ND:2022,stateName,North Dakota
+aviation-accidents:ND:2023,stateName,North Dakota
+aviation-accidents:ND:2024,stateName,North Dakota
+aviation-accidents:ND:2025,stateName,North Dakota
+aviation-accidents:ND:2026,stateName,North Dakota
+aviation-accidents:NE:2008,stateName,Nebraska
+aviation-accidents:NE:2009,stateName,Nebraska
+aviation-accidents:NE:2010,stateName,Nebraska
+aviation-accidents:NE:2011,stateName,Nebraska
+aviation-accidents:NE:2012,stateName,Nebraska
+aviation-accidents:NE:2013,stateName,Nebraska
+aviation-accidents:NE:2014,stateName,Nebraska
+aviation-accidents:NE:2015,stateName,Nebraska
+aviation-accidents:NE:2016,stateName,Nebraska
+aviation-accidents:NE:2017,stateName,Nebraska
+aviation-accidents:NE:2018,stateName,Nebraska
+aviation-accidents:NE:2019,stateName,Nebraska
+aviation-accidents:NE:2020,stateName,Nebraska
+aviation-accidents:NE:2021,stateName,Nebraska
+aviation-accidents:NE:2022,stateName,Nebraska
+aviation-accidents:NE:2023,stateName,Nebraska
+aviation-accidents:NE:2024,stateName,Nebraska
+aviation-accidents:NE:2025,stateName,Nebraska
+aviation-accidents:NE:2026,stateName,Nebraska
+aviation-accidents:NH:2008,stateName,New Hampshire
+aviation-accidents:NH:2009,stateName,New Hampshire
+aviation-accidents:NH:2010,stateName,New Hampshire
+aviation-accidents:NH:2011,stateName,New Hampshire
+aviation-accidents:NH:2012,stateName,New Hampshire
+aviation-accidents:NH:2013,stateName,New Hampshire
+aviation-accidents:NH:2014,stateName,New Hampshire
+aviation-accidents:NH:2015,stateName,New Hampshire
+aviation-accidents:NH:2016,stateName,New Hampshire
+aviation-accidents:NH:2017,stateName,New Hampshire
+aviation-accidents:NH:2018,stateName,New Hampshire
+aviation-accidents:NH:2019,stateName,New Hampshire
+aviation-accidents:NH:2020,stateName,New Hampshire
+aviation-accidents:NH:2021,stateName,New Hampshire
+aviation-accidents:NH:2022,stateName,New Hampshire
+aviation-accidents:NH:2023,stateName,New Hampshire
+aviation-accidents:NH:2024,stateName,New Hampshire
+aviation-accidents:NH:2025,stateName,New Hampshire
+aviation-accidents:NH:2026,stateName,New Hampshire
+aviation-accidents:NJ:2008,stateName,New Jersey
+aviation-accidents:NJ:2009,stateName,New Jersey
+aviation-accidents:NJ:2010,stateName,New Jersey
+aviation-accidents:NJ:2011,stateName,New Jersey
+aviation-accidents:NJ:2012,stateName,New Jersey
+aviation-accidents:NJ:2013,stateName,New Jersey
+aviation-accidents:NJ:2014,stateName,New Jersey
+aviation-accidents:NJ:2015,stateName,New Jersey
+aviation-accidents:NJ:2016,stateName,New Jersey
+aviation-accidents:NJ:2017,stateName,New Jersey
+aviation-accidents:NJ:2018,stateName,New Jersey
+aviation-accidents:NJ:2019,stateName,New Jersey
+aviation-accidents:NJ:2020,stateName,New Jersey
+aviation-accidents:NJ:2021,stateName,New Jersey
+aviation-accidents:NJ:2022,stateName,New Jersey
+aviation-accidents:NJ:2023,stateName,New Jersey
+aviation-accidents:NJ:2024,stateName,New Jersey
+aviation-accidents:NJ:2025,stateName,New Jersey
+aviation-accidents:NJ:2026,stateName,New Jersey
+aviation-accidents:NM:2008,stateName,New Mexico
+aviation-accidents:NM:2009,stateName,New Mexico
+aviation-accidents:NM:2010,stateName,New Mexico
+aviation-accidents:NM:2011,stateName,New Mexico
+aviation-accidents:NM:2012,stateName,New Mexico
+aviation-accidents:NM:2013,stateName,New Mexico
+aviation-accidents:NM:2014,stateName,New Mexico
+aviation-accidents:NM:2015,stateName,New Mexico
+aviation-accidents:NM:2016,stateName,New Mexico
+aviation-accidents:NM:2017,stateName,New Mexico
+aviation-accidents:NM:2018,stateName,New Mexico
+aviation-accidents:NM:2019,stateName,New Mexico
+aviation-accidents:NM:2020,stateName,New Mexico
+aviation-accidents:NM:2021,stateName,New Mexico
+aviation-accidents:NM:2022,stateName,New Mexico
+aviation-accidents:NM:2023,stateName,New Mexico
+aviation-accidents:NM:2024,stateName,New Mexico
+aviation-accidents:NM:2025,stateName,New Mexico
+aviation-accidents:NM:2026,stateName,New Mexico
+aviation-accidents:NV:2008,stateName,Nevada
+aviation-accidents:NV:2009,stateName,Nevada
+aviation-accidents:NV:2010,stateName,Nevada
+aviation-accidents:NV:2011,stateName,Nevada
+aviation-accidents:NV:2012,stateName,Nevada
+aviation-accidents:NV:2013,stateName,Nevada
+aviation-accidents:NV:2014,stateName,Nevada
+aviation-accidents:NV:2015,stateName,Nevada
+aviation-accidents:NV:2016,stateName,Nevada
+aviation-accidents:NV:2017,stateName,Nevada
+aviation-accidents:NV:2018,stateName,Nevada
+aviation-accidents:NV:2019,stateName,Nevada
+aviation-accidents:NV:2020,stateName,Nevada
+aviation-accidents:NV:2021,stateName,Nevada
+aviation-accidents:NV:2022,stateName,Nevada
+aviation-accidents:NV:2023,stateName,Nevada
+aviation-accidents:NV:2024,stateName,Nevada
+aviation-accidents:NV:2025,stateName,Nevada
+aviation-accidents:NV:2026,stateName,Nevada
+aviation-accidents:NY:2008,stateName,New York
+aviation-accidents:NY:2009,stateName,New York
+aviation-accidents:NY:2010,stateName,New York
+aviation-accidents:NY:2011,stateName,New York
+aviation-accidents:NY:2012,stateName,New York
+aviation-accidents:NY:2013,stateName,New York
+aviation-accidents:NY:2014,stateName,New York
+aviation-accidents:NY:2015,stateName,New York
+aviation-accidents:NY:2016,stateName,New York
+aviation-accidents:NY:2017,stateName,New York
+aviation-accidents:NY:2018,stateName,New York
+aviation-accidents:NY:2019,stateName,New York
+aviation-accidents:NY:2020,stateName,New York
+aviation-accidents:NY:2021,stateName,New York
+aviation-accidents:NY:2022,stateName,New York
+aviation-accidents:NY:2023,stateName,New York
+aviation-accidents:NY:2024,stateName,New York
+aviation-accidents:NY:2025,stateName,New York
+aviation-accidents:NY:2026,stateName,New York
+aviation-accidents:OH:2008,stateName,Ohio
+aviation-accidents:OH:2009,stateName,Ohio
+aviation-accidents:OH:2010,stateName,Ohio
+aviation-accidents:OH:2011,stateName,Ohio
+aviation-accidents:OH:2012,stateName,Ohio
+aviation-accidents:OH:2013,stateName,Ohio
+aviation-accidents:OH:2014,stateName,Ohio
+aviation-accidents:OH:2015,stateName,Ohio
+aviation-accidents:OH:2016,stateName,Ohio
+aviation-accidents:OH:2017,stateName,Ohio
+aviation-accidents:OH:2018,stateName,Ohio
+aviation-accidents:OH:2019,stateName,Ohio
+aviation-accidents:OH:2020,stateName,Ohio
+aviation-accidents:OH:2021,stateName,Ohio
+aviation-accidents:OH:2022,stateName,Ohio
+aviation-accidents:OH:2023,stateName,Ohio
+aviation-accidents:OH:2024,stateName,Ohio
+aviation-accidents:OH:2025,stateName,Ohio
+aviation-accidents:OH:2026,stateName,Ohio
+aviation-accidents:OK:2008,stateName,Oklahoma
+aviation-accidents:OK:2009,stateName,Oklahoma
+aviation-accidents:OK:2010,stateName,Oklahoma
+aviation-accidents:OK:2011,stateName,Oklahoma
+aviation-accidents:OK:2012,stateName,Oklahoma
+aviation-accidents:OK:2013,stateName,Oklahoma
+aviation-accidents:OK:2014,stateName,Oklahoma
+aviation-accidents:OK:2015,stateName,Oklahoma
+aviation-accidents:OK:2016,stateName,Oklahoma
+aviation-accidents:OK:2017,stateName,Oklahoma
+aviation-accidents:OK:2018,stateName,Oklahoma
+aviation-accidents:OK:2019,stateName,Oklahoma
+aviation-accidents:OK:2020,stateName,Oklahoma
+aviation-accidents:OK:2021,stateName,Oklahoma
+aviation-accidents:OK:2022,stateName,Oklahoma
+aviation-accidents:OK:2023,stateName,Oklahoma
+aviation-accidents:OK:2024,stateName,Oklahoma
+aviation-accidents:OK:2025,stateName,Oklahoma
+aviation-accidents:OK:2026,stateName,Oklahoma
+aviation-accidents:OR:2008,stateName,Oregon
+aviation-accidents:OR:2009,stateName,Oregon
+aviation-accidents:OR:2010,stateName,Oregon
+aviation-accidents:OR:2011,stateName,Oregon
+aviation-accidents:OR:2012,stateName,Oregon
+aviation-accidents:OR:2013,stateName,Oregon
+aviation-accidents:OR:2014,stateName,Oregon
+aviation-accidents:OR:2015,stateName,Oregon
+aviation-accidents:OR:2016,stateName,Oregon
+aviation-accidents:OR:2017,stateName,Oregon
+aviation-accidents:OR:2018,stateName,Oregon
+aviation-accidents:OR:2019,stateName,Oregon
+aviation-accidents:OR:2020,stateName,Oregon
+aviation-accidents:OR:2021,stateName,Oregon
+aviation-accidents:OR:2022,stateName,Oregon
+aviation-accidents:OR:2023,stateName,Oregon
+aviation-accidents:OR:2024,stateName,Oregon
+aviation-accidents:OR:2025,stateName,Oregon
+aviation-accidents:OR:2026,stateName,Oregon
+aviation-accidents:PA:2008,stateName,Pennsylvania
+aviation-accidents:PA:2009,stateName,Pennsylvania
+aviation-accidents:PA:2010,stateName,Pennsylvania
+aviation-accidents:PA:2011,stateName,Pennsylvania
+aviation-accidents:PA:2012,stateName,Pennsylvania
+aviation-accidents:PA:2013,stateName,Pennsylvania
+aviation-accidents:PA:2014,stateName,Pennsylvania
+aviation-accidents:PA:2015,stateName,Pennsylvania
+aviation-accidents:PA:2016,stateName,Pennsylvania
+aviation-accidents:PA:2017,stateName,Pennsylvania
+aviation-accidents:PA:2018,stateName,Pennsylvania
+aviation-accidents:PA:2019,stateName,Pennsylvania
+aviation-accidents:PA:2020,stateName,Pennsylvania
+aviation-accidents:PA:2021,stateName,Pennsylvania
+aviation-accidents:PA:2022,stateName,Pennsylvania
+aviation-accidents:PA:2023,stateName,Pennsylvania
+aviation-accidents:PA:2024,stateName,Pennsylvania
+aviation-accidents:PA:2025,stateName,Pennsylvania
+aviation-accidents:PA:2026,stateName,Pennsylvania
+aviation-accidents:PR:2008,stateName,Puerto Rico
+aviation-accidents:PR:2009,stateName,Puerto Rico
+aviation-accidents:PR:2010,stateName,Puerto Rico
+aviation-accidents:PR:2011,stateName,Puerto Rico
+aviation-accidents:PR:2012,stateName,Puerto Rico
+aviation-accidents:PR:2013,stateName,Puerto Rico
+aviation-accidents:PR:2014,stateName,Puerto Rico
+aviation-accidents:PR:2015,stateName,Puerto Rico
+aviation-accidents:PR:2016,stateName,Puerto Rico
+aviation-accidents:PR:2017,stateName,Puerto Rico
+aviation-accidents:PR:2018,stateName,Puerto Rico
+aviation-accidents:PR:2019,stateName,Puerto Rico
+aviation-accidents:PR:2020,stateName,Puerto Rico
+aviation-accidents:PR:2022,stateName,Puerto Rico
+aviation-accidents:PR:2023,stateName,Puerto Rico
+aviation-accidents:PR:2024,stateName,Puerto Rico
+aviation-accidents:PR:2025,stateName,Puerto Rico
+aviation-accidents:PR:2026,stateName,Puerto Rico
+aviation-accidents:RI:2008,stateName,Rhode Island
+aviation-accidents:RI:2009,stateName,Rhode Island
+aviation-accidents:RI:2010,stateName,Rhode Island
+aviation-accidents:RI:2011,stateName,Rhode Island
+aviation-accidents:RI:2012,stateName,Rhode Island
+aviation-accidents:RI:2014,stateName,Rhode Island
+aviation-accidents:RI:2015,stateName,Rhode Island
+aviation-accidents:RI:2016,stateName,Rhode Island
+aviation-accidents:RI:2017,stateName,Rhode Island
+aviation-accidents:RI:2019,stateName,Rhode Island
+aviation-accidents:RI:2020,stateName,Rhode Island
+aviation-accidents:RI:2021,stateName,Rhode Island
+aviation-accidents:RI:2022,stateName,Rhode Island
+aviation-accidents:RI:2024,stateName,Rhode Island
+aviation-accidents:RI:2025,stateName,Rhode Island
+aviation-accidents:RI:2026,stateName,Rhode Island
+aviation-accidents:SC:2008,stateName,South Carolina
+aviation-accidents:SC:2009,stateName,South Carolina
+aviation-accidents:SC:2010,stateName,South Carolina
+aviation-accidents:SC:2011,stateName,South Carolina
+aviation-accidents:SC:2012,stateName,South Carolina
+aviation-accidents:SC:2013,stateName,South Carolina
+aviation-accidents:SC:2014,stateName,South Carolina
+aviation-accidents:SC:2015,stateName,South Carolina
+aviation-accidents:SC:2016,stateName,South Carolina
+aviation-accidents:SC:2017,stateName,South Carolina
+aviation-accidents:SC:2018,stateName,South Carolina
+aviation-accidents:SC:2019,stateName,South Carolina
+aviation-accidents:SC:2020,stateName,South Carolina
+aviation-accidents:SC:2021,stateName,South Carolina
+aviation-accidents:SC:2022,stateName,South Carolina
+aviation-accidents:SC:2023,stateName,South Carolina
+aviation-accidents:SC:2024,stateName,South Carolina
+aviation-accidents:SC:2025,stateName,South Carolina
+aviation-accidents:SC:2026,stateName,South Carolina
+aviation-accidents:SD:2008,stateName,South Dakota
+aviation-accidents:SD:2009,stateName,South Dakota
+aviation-accidents:SD:2010,stateName,South Dakota
+aviation-accidents:SD:2011,stateName,South Dakota
+aviation-accidents:SD:2012,stateName,South Dakota
+aviation-accidents:SD:2013,stateName,South Dakota
+aviation-accidents:SD:2014,stateName,South Dakota
+aviation-accidents:SD:2015,stateName,South Dakota
+aviation-accidents:SD:2016,stateName,South Dakota
+aviation-accidents:SD:2017,stateName,South Dakota
+aviation-accidents:SD:2018,stateName,South Dakota
+aviation-accidents:SD:2019,stateName,South Dakota
+aviation-accidents:SD:2020,stateName,South Dakota
+aviation-accidents:SD:2021,stateName,South Dakota
+aviation-accidents:SD:2022,stateName,South Dakota
+aviation-accidents:SD:2023,stateName,South Dakota
+aviation-accidents:SD:2024,stateName,South Dakota
+aviation-accidents:SD:2025,stateName,South Dakota
+aviation-accidents:SD:2026,stateName,South Dakota
+aviation-accidents:TN:2008,stateName,Tennessee
+aviation-accidents:TN:2009,stateName,Tennessee
+aviation-accidents:TN:2010,stateName,Tennessee
+aviation-accidents:TN:2011,stateName,Tennessee
+aviation-accidents:TN:2012,stateName,Tennessee
+aviation-accidents:TN:2013,stateName,Tennessee
+aviation-accidents:TN:2014,stateName,Tennessee
+aviation-accidents:TN:2015,stateName,Tennessee
+aviation-accidents:TN:2016,stateName,Tennessee
+aviation-accidents:TN:2017,stateName,Tennessee
+aviation-accidents:TN:2018,stateName,Tennessee
+aviation-accidents:TN:2019,stateName,Tennessee
+aviation-accidents:TN:2020,stateName,Tennessee
+aviation-accidents:TN:2021,stateName,Tennessee
+aviation-accidents:TN:2022,stateName,Tennessee
+aviation-accidents:TN:2023,stateName,Tennessee
+aviation-accidents:TN:2024,stateName,Tennessee
+aviation-accidents:TN:2025,stateName,Tennessee
+aviation-accidents:TN:2026,stateName,Tennessee
+aviation-accidents:TX:2008,stateName,Texas
+aviation-accidents:TX:2009,stateName,Texas
+aviation-accidents:TX:2010,stateName,Texas
+aviation-accidents:TX:2011,stateName,Texas
+aviation-accidents:TX:2012,stateName,Texas
+aviation-accidents:TX:2013,stateName,Texas
+aviation-accidents:TX:2014,stateName,Texas
+aviation-accidents:TX:2015,stateName,Texas
+aviation-accidents:TX:2016,stateName,Texas
+aviation-accidents:TX:2017,stateName,Texas
+aviation-accidents:TX:2018,stateName,Texas
+aviation-accidents:TX:2019,stateName,Texas
+aviation-accidents:TX:2020,stateName,Texas
+aviation-accidents:TX:2021,stateName,Texas
+aviation-accidents:TX:2022,stateName,Texas
+aviation-accidents:TX:2023,stateName,Texas
+aviation-accidents:TX:2024,stateName,Texas
+aviation-accidents:TX:2025,stateName,Texas
+aviation-accidents:TX:2026,stateName,Texas
+aviation-accidents:UT:2008,stateName,Utah
+aviation-accidents:UT:2009,stateName,Utah
+aviation-accidents:UT:2010,stateName,Utah
+aviation-accidents:UT:2011,stateName,Utah
+aviation-accidents:UT:2012,stateName,Utah
+aviation-accidents:UT:2013,stateName,Utah
+aviation-accidents:UT:2014,stateName,Utah
+aviation-accidents:UT:2015,stateName,Utah
+aviation-accidents:UT:2016,stateName,Utah
+aviation-accidents:UT:2017,stateName,Utah
+aviation-accidents:UT:2018,stateName,Utah
+aviation-accidents:UT:2019,stateName,Utah
+aviation-accidents:UT:2020,stateName,Utah
+aviation-accidents:UT:2021,stateName,Utah
+aviation-accidents:UT:2022,stateName,Utah
+aviation-accidents:UT:2023,stateName,Utah
+aviation-accidents:UT:2024,stateName,Utah
+aviation-accidents:UT:2025,stateName,Utah
+aviation-accidents:UT:2026,stateName,Utah
+aviation-accidents:VA:2008,stateName,Virginia
+aviation-accidents:VA:2009,stateName,Virginia
+aviation-accidents:VA:2010,stateName,Virginia
+aviation-accidents:VA:2011,stateName,Virginia
+aviation-accidents:VA:2012,stateName,Virginia
+aviation-accidents:VA:2013,stateName,Virginia
+aviation-accidents:VA:2014,stateName,Virginia
+aviation-accidents:VA:2015,stateName,Virginia
+aviation-accidents:VA:2016,stateName,Virginia
+aviation-accidents:VA:2017,stateName,Virginia
+aviation-accidents:VA:2018,stateName,Virginia
+aviation-accidents:VA:2019,stateName,Virginia
+aviation-accidents:VA:2020,stateName,Virginia
+aviation-accidents:VA:2021,stateName,Virginia
+aviation-accidents:VA:2022,stateName,Virginia
+aviation-accidents:VA:2023,stateName,Virginia
+aviation-accidents:VA:2024,stateName,Virginia
+aviation-accidents:VA:2025,stateName,Virginia
+aviation-accidents:VA:2026,stateName,Virginia
+aviation-accidents:VT:2008,stateName,Vermont
+aviation-accidents:VT:2009,stateName,Vermont
+aviation-accidents:VT:2010,stateName,Vermont
+aviation-accidents:VT:2011,stateName,Vermont
+aviation-accidents:VT:2012,stateName,Vermont
+aviation-accidents:VT:2013,stateName,Vermont
+aviation-accidents:VT:2014,stateName,Vermont
+aviation-accidents:VT:2015,stateName,Vermont
+aviation-accidents:VT:2016,stateName,Vermont
+aviation-accidents:VT:2017,stateName,Vermont
+aviation-accidents:VT:2018,stateName,Vermont
+aviation-accidents:VT:2019,stateName,Vermont
+aviation-accidents:VT:2020,stateName,Vermont
+aviation-accidents:VT:2021,stateName,Vermont
+aviation-accidents:VT:2022,stateName,Vermont
+aviation-accidents:VT:2023,stateName,Vermont
+aviation-accidents:VT:2024,stateName,Vermont
+aviation-accidents:VT:2025,stateName,Vermont
+aviation-accidents:VT:2026,stateName,Vermont
+aviation-accidents:WA:2008,stateName,Washington
+aviation-accidents:WA:2009,stateName,Washington
+aviation-accidents:WA:2010,stateName,Washington
+aviation-accidents:WA:2011,stateName,Washington
+aviation-accidents:WA:2012,stateName,Washington
+aviation-accidents:WA:2013,stateName,Washington
+aviation-accidents:WA:2014,stateName,Washington
+aviation-accidents:WA:2015,stateName,Washington
+aviation-accidents:WA:2016,stateName,Washington
+aviation-accidents:WA:2017,stateName,Washington
+aviation-accidents:WA:2018,stateName,Washington
+aviation-accidents:WA:2019,stateName,Washington
+aviation-accidents:WA:2020,stateName,Washington
+aviation-accidents:WA:2021,stateName,Washington
+aviation-accidents:WA:2022,stateName,Washington
+aviation-accidents:WA:2023,stateName,Washington
+aviation-accidents:WA:2024,stateName,Washington
+aviation-accidents:WA:2025,stateName,Washington
+aviation-accidents:WA:2026,stateName,Washington
+aviation-accidents:WI:2008,stateName,Wisconsin
+aviation-accidents:WI:2009,stateName,Wisconsin
+aviation-accidents:WI:2010,stateName,Wisconsin
+aviation-accidents:WI:2011,stateName,Wisconsin
+aviation-accidents:WI:2012,stateName,Wisconsin
+aviation-accidents:WI:2013,stateName,Wisconsin
+aviation-accidents:WI:2014,stateName,Wisconsin
+aviation-accidents:WI:2015,stateName,Wisconsin
+aviation-accidents:WI:2016,stateName,Wisconsin
+aviation-accidents:WI:2017,stateName,Wisconsin
+aviation-accidents:WI:2018,stateName,Wisconsin
+aviation-accidents:WI:2019,stateName,Wisconsin
+aviation-accidents:WI:2020,stateName,Wisconsin
+aviation-accidents:WI:2021,stateName,Wisconsin
+aviation-accidents:WI:2022,stateName,Wisconsin
+aviation-accidents:WI:2023,stateName,Wisconsin
+aviation-accidents:WI:2024,stateName,Wisconsin
+aviation-accidents:WI:2025,stateName,Wisconsin
+aviation-accidents:WI:2026,stateName,Wisconsin
+aviation-accidents:WV:2008,stateName,West Virginia
+aviation-accidents:WV:2009,stateName,West Virginia
+aviation-accidents:WV:2010,stateName,West Virginia
+aviation-accidents:WV:2011,stateName,West Virginia
+aviation-accidents:WV:2012,stateName,West Virginia
+aviation-accidents:WV:2013,stateName,West Virginia
+aviation-accidents:WV:2014,stateName,West Virginia
+aviation-accidents:WV:2015,stateName,West Virginia
+aviation-accidents:WV:2016,stateName,West Virginia
+aviation-accidents:WV:2017,stateName,West Virginia
+aviation-accidents:WV:2018,stateName,West Virginia
+aviation-accidents:WV:2019,stateName,West Virginia
+aviation-accidents:WV:2020,stateName,West Virginia
+aviation-accidents:WV:2021,stateName,West Virginia
+aviation-accidents:WV:2022,stateName,West Virginia
+aviation-accidents:WV:2023,stateName,West Virginia
+aviation-accidents:WV:2024,stateName,West Virginia
+aviation-accidents:WV:2025,stateName,West Virginia
+aviation-accidents:WV:2026,stateName,West Virginia
+aviation-accidents:WY:2008,stateName,Wyoming
+aviation-accidents:WY:2009,stateName,Wyoming
+aviation-accidents:WY:2010,stateName,Wyoming
+aviation-accidents:WY:2011,stateName,Wyoming
+aviation-accidents:WY:2012,stateName,Wyoming
+aviation-accidents:WY:2013,stateName,Wyoming
+aviation-accidents:WY:2014,stateName,Wyoming
+aviation-accidents:WY:2015,stateName,Wyoming
+aviation-accidents:WY:2016,stateName,Wyoming
+aviation-accidents:WY:2017,stateName,Wyoming
+aviation-accidents:WY:2018,stateName,Wyoming
+aviation-accidents:WY:2019,stateName,Wyoming
+aviation-accidents:WY:2020,stateName,Wyoming
+aviation-accidents:WY:2021,stateName,Wyoming
+aviation-accidents:WY:2022,stateName,Wyoming
+aviation-accidents:WY:2023,stateName,Wyoming
+aviation-accidents:WY:2024,stateName,Wyoming
+aviation-accidents:WY:2025,stateName,Wyoming
+aviation-accidents:WY:2026,stateName,Wyoming

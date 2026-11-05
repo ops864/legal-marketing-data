@@ -1,12 +1,12 @@
 Serious drug adverse event reports by active ingredient (openFDA FAERS)
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23752994
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963449
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Serious drug adverse event reports by active ingredient (openFDA FAERS), version 1.0.0, https://doi.org/10.5281/zenodo.23752994, licensed CC BY 4.0.
+Source: Probative, Serious drug adverse event reports by active ingredient (openFDA FAERS), version 2.0.0, https://doi.org/10.5281/zenodo.23963449, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Serious drug adverse event reports by active ingredient (openFDA FAERS) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23752994
+Probative. (2026). Serious drug adverse event reports by active ingredient (openFDA FAERS) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963449
 
 Not legal advice. This is not medical advice either. A report in the FDA Adverse Event Reporting System is not proof that a drug caused an event; reports come from patients, clinicians and manufacturers, can be duplicated and are not verified. Questions about a medicine are for a health professional, and questions about an injury are for a licensed attorney.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -45,8 +45,6 @@ Columns:
   serious_q6: Serious reports received in quarter 6 of the window
   serious_q7: Serious reports received in quarter 7 of the window
   serious_q8: Serious reports received in quarter 8 of the window
-  topReactions: The five most reported reactions (MedDRA preferred terms) among the window's reports for the ingredient, with counts
-  mdl: Open multidistrict litigation dockets (from the mdl dataset) that name the ingredient
   effectiveFrom: First day of the window
   effectiveTo: Last day of the window
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
@@ -54,3 +52,5 @@ Columns:
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  topReactions: The five most reported reactions (MedDRA preferred terms) among the window's reports for the ingredient, with counts (in drug-events-values.csv, as id, column and value rows)
+  mdl: Open multidistrict litigation dockets (from the mdl dataset) that name the ingredient (in drug-events-values.csv, as id, column and value rows)

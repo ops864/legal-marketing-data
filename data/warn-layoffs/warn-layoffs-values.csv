@@ -1,0 +1,627 @@
+id,column,value
+warn-layoffs:06001,county,06001
+warn-layoffs:06001,countyName,Alameda County
+warn-layoffs:06003,county,06003
+warn-layoffs:06003,countyName,Alpine County
+warn-layoffs:06005,county,06005
+warn-layoffs:06005,countyName,Amador County
+warn-layoffs:06007,county,06007
+warn-layoffs:06007,countyName,Butte County
+warn-layoffs:06009,county,06009
+warn-layoffs:06009,countyName,Calaveras County
+warn-layoffs:06011,county,06011
+warn-layoffs:06011,countyName,Colusa County
+warn-layoffs:06013,county,06013
+warn-layoffs:06013,countyName,Contra Costa County
+warn-layoffs:06015,county,06015
+warn-layoffs:06015,countyName,Del Norte County
+warn-layoffs:06017,county,06017
+warn-layoffs:06017,countyName,El Dorado County
+warn-layoffs:06019,county,06019
+warn-layoffs:06019,countyName,Fresno County
+warn-layoffs:06021,county,06021
+warn-layoffs:06021,countyName,Glenn County
+warn-layoffs:06023,county,06023
+warn-layoffs:06023,countyName,Humboldt County
+warn-layoffs:06025,county,06025
+warn-layoffs:06025,countyName,Imperial County
+warn-layoffs:06027,county,06027
+warn-layoffs:06027,countyName,Inyo County
+warn-layoffs:06029,county,06029
+warn-layoffs:06029,countyName,Kern County
+warn-layoffs:06031,county,06031
+warn-layoffs:06031,countyName,Kings County
+warn-layoffs:06033,county,06033
+warn-layoffs:06033,countyName,Lake County
+warn-layoffs:06035,county,06035
+warn-layoffs:06035,countyName,Lassen County
+warn-layoffs:06037,county,06037
+warn-layoffs:06037,countyName,Los Angeles County
+warn-layoffs:06039,county,06039
+warn-layoffs:06039,countyName,Madera County
+warn-layoffs:06041,county,06041
+warn-layoffs:06041,countyName,Marin County
+warn-layoffs:06043,county,06043
+warn-layoffs:06043,countyName,Mariposa County
+warn-layoffs:06045,county,06045
+warn-layoffs:06045,countyName,Mendocino County
+warn-layoffs:06047,county,06047
+warn-layoffs:06047,countyName,Merced County
+warn-layoffs:06049,county,06049
+warn-layoffs:06049,countyName,Modoc County
+warn-layoffs:06051,county,06051
+warn-layoffs:06051,countyName,Mono County
+warn-layoffs:06053,county,06053
+warn-layoffs:06053,countyName,Monterey County
+warn-layoffs:06055,county,06055
+warn-layoffs:06055,countyName,Napa County
+warn-layoffs:06057,county,06057
+warn-layoffs:06057,countyName,Nevada County
+warn-layoffs:06059,county,06059
+warn-layoffs:06059,countyName,Orange County
+warn-layoffs:06061,county,06061
+warn-layoffs:06061,countyName,Placer County
+warn-layoffs:06063,county,06063
+warn-layoffs:06063,countyName,Plumas County
+warn-layoffs:06065,county,06065
+warn-layoffs:06065,countyName,Riverside County
+warn-layoffs:06067,county,06067
+warn-layoffs:06067,countyName,Sacramento County
+warn-layoffs:06069,county,06069
+warn-layoffs:06069,countyName,San Benito County
+warn-layoffs:06071,county,06071
+warn-layoffs:06071,countyName,San Bernardino County
+warn-layoffs:06073,county,06073
+warn-layoffs:06073,countyName,San Diego County
+warn-layoffs:06075,county,06075
+warn-layoffs:06075,countyName,San Francisco County
+warn-layoffs:06077,county,06077
+warn-layoffs:06077,countyName,San Joaquin County
+warn-layoffs:06079,county,06079
+warn-layoffs:06079,countyName,San Luis Obispo County
+warn-layoffs:06081,county,06081
+warn-layoffs:06081,countyName,San Mateo County
+warn-layoffs:06083,county,06083
+warn-layoffs:06083,countyName,Santa Barbara County
+warn-layoffs:06085,county,06085
+warn-layoffs:06085,countyName,Santa Clara County
+warn-layoffs:06087,county,06087
+warn-layoffs:06087,countyName,Santa Cruz County
+warn-layoffs:06089,county,06089
+warn-layoffs:06089,countyName,Shasta County
+warn-layoffs:06091,county,06091
+warn-layoffs:06091,countyName,Sierra County
+warn-layoffs:06093,county,06093
+warn-layoffs:06093,countyName,Siskiyou County
+warn-layoffs:06095,county,06095
+warn-layoffs:06095,countyName,Solano County
+warn-layoffs:06097,county,06097
+warn-layoffs:06097,countyName,Sonoma County
+warn-layoffs:06099,county,06099
+warn-layoffs:06099,countyName,Stanislaus County
+warn-layoffs:06101,county,06101
+warn-layoffs:06101,countyName,Sutter County
+warn-layoffs:06103,county,06103
+warn-layoffs:06103,countyName,Tehama County
+warn-layoffs:06105,county,06105
+warn-layoffs:06105,countyName,Trinity County
+warn-layoffs:06107,county,06107
+warn-layoffs:06107,countyName,Tulare County
+warn-layoffs:06109,county,06109
+warn-layoffs:06109,countyName,Tuolumne County
+warn-layoffs:06111,county,06111
+warn-layoffs:06111,countyName,Ventura County
+warn-layoffs:06113,county,06113
+warn-layoffs:06113,countyName,Yolo County
+warn-layoffs:06115,county,06115
+warn-layoffs:06115,countyName,Yuba County
+warn-layoffs:CA-county-not-given,countyName,County not given
+warn-layoffs:CA-county-not-given,note,Work sites outside California that appear in the EDD report (the report lists them and counts their employees in its totals); they count in the California total.
+warn-layoffs:48001,county,48001
+warn-layoffs:48001,countyName,Anderson County
+warn-layoffs:48003,county,48003
+warn-layoffs:48003,countyName,Andrews County
+warn-layoffs:48005,county,48005
+warn-layoffs:48005,countyName,Angelina County
+warn-layoffs:48007,county,48007
+warn-layoffs:48007,countyName,Aransas County
+warn-layoffs:48009,county,48009
+warn-layoffs:48009,countyName,Archer County
+warn-layoffs:48011,county,48011
+warn-layoffs:48011,countyName,Armstrong County
+warn-layoffs:48013,county,48013
+warn-layoffs:48013,countyName,Atascosa County
+warn-layoffs:48015,county,48015
+warn-layoffs:48015,countyName,Austin County
+warn-layoffs:48017,county,48017
+warn-layoffs:48017,countyName,Bailey County
+warn-layoffs:48019,county,48019
+warn-layoffs:48019,countyName,Bandera County
+warn-layoffs:48021,county,48021
+warn-layoffs:48021,countyName,Bastrop County
+warn-layoffs:48023,county,48023
+warn-layoffs:48023,countyName,Baylor County
+warn-layoffs:48025,county,48025
+warn-layoffs:48025,countyName,Bee County
+warn-layoffs:48027,county,48027
+warn-layoffs:48027,countyName,Bell County
+warn-layoffs:48029,county,48029
+warn-layoffs:48029,countyName,Bexar County
+warn-layoffs:48031,county,48031
+warn-layoffs:48031,countyName,Blanco County
+warn-layoffs:48033,county,48033
+warn-layoffs:48033,countyName,Borden County
+warn-layoffs:48035,county,48035
+warn-layoffs:48035,countyName,Bosque County
+warn-layoffs:48037,county,48037
+warn-layoffs:48037,countyName,Bowie County
+warn-layoffs:48039,county,48039
+warn-layoffs:48039,countyName,Brazoria County
+warn-layoffs:48041,county,48041
+warn-layoffs:48041,countyName,Brazos County
+warn-layoffs:48043,county,48043
+warn-layoffs:48043,countyName,Brewster County
+warn-layoffs:48045,county,48045
+warn-layoffs:48045,countyName,Briscoe County
+warn-layoffs:48047,county,48047
+warn-layoffs:48047,countyName,Brooks County
+warn-layoffs:48049,county,48049
+warn-layoffs:48049,countyName,Brown County
+warn-layoffs:48051,county,48051
+warn-layoffs:48051,countyName,Burleson County
+warn-layoffs:48053,county,48053
+warn-layoffs:48053,countyName,Burnet County
+warn-layoffs:48055,county,48055
+warn-layoffs:48055,countyName,Caldwell County
+warn-layoffs:48057,county,48057
+warn-layoffs:48057,countyName,Calhoun County
+warn-layoffs:48059,county,48059
+warn-layoffs:48059,countyName,Callahan County
+warn-layoffs:48061,county,48061
+warn-layoffs:48061,countyName,Cameron County
+warn-layoffs:48063,county,48063
+warn-layoffs:48063,countyName,Camp County
+warn-layoffs:48065,county,48065
+warn-layoffs:48065,countyName,Carson County
+warn-layoffs:48067,county,48067
+warn-layoffs:48067,countyName,Cass County
+warn-layoffs:48069,county,48069
+warn-layoffs:48069,countyName,Castro County
+warn-layoffs:48071,county,48071
+warn-layoffs:48071,countyName,Chambers County
+warn-layoffs:48073,county,48073
+warn-layoffs:48073,countyName,Cherokee County
+warn-layoffs:48075,county,48075
+warn-layoffs:48075,countyName,Childress County
+warn-layoffs:48077,county,48077
+warn-layoffs:48077,countyName,Clay County
+warn-layoffs:48079,county,48079
+warn-layoffs:48079,countyName,Cochran County
+warn-layoffs:48081,county,48081
+warn-layoffs:48081,countyName,Coke County
+warn-layoffs:48083,county,48083
+warn-layoffs:48083,countyName,Coleman County
+warn-layoffs:48085,county,48085
+warn-layoffs:48085,countyName,Collin County
+warn-layoffs:48087,county,48087
+warn-layoffs:48087,countyName,Collingsworth County
+warn-layoffs:48089,county,48089
+warn-layoffs:48089,countyName,Colorado County
+warn-layoffs:48091,county,48091
+warn-layoffs:48091,countyName,Comal County
+warn-layoffs:48093,county,48093
+warn-layoffs:48093,countyName,Comanche County
+warn-layoffs:48095,county,48095
+warn-layoffs:48095,countyName,Concho County
+warn-layoffs:48097,county,48097
+warn-layoffs:48097,countyName,Cooke County
+warn-layoffs:48099,county,48099
+warn-layoffs:48099,countyName,Coryell County
+warn-layoffs:48101,county,48101
+warn-layoffs:48101,countyName,Cottle County
+warn-layoffs:48103,county,48103
+warn-layoffs:48103,countyName,Crane County
+warn-layoffs:48105,county,48105
+warn-layoffs:48105,countyName,Crockett County
+warn-layoffs:48107,county,48107
+warn-layoffs:48107,countyName,Crosby County
+warn-layoffs:48109,county,48109
+warn-layoffs:48109,countyName,Culberson County
+warn-layoffs:48111,county,48111
+warn-layoffs:48111,countyName,Dallam County
+warn-layoffs:48113,county,48113
+warn-layoffs:48113,countyName,Dallas County
+warn-layoffs:48115,county,48115
+warn-layoffs:48115,countyName,Dawson County
+warn-layoffs:48117,county,48117
+warn-layoffs:48117,countyName,Deaf Smith County
+warn-layoffs:48119,county,48119
+warn-layoffs:48119,countyName,Delta County
+warn-layoffs:48121,county,48121
+warn-layoffs:48121,countyName,Denton County
+warn-layoffs:48123,county,48123
+warn-layoffs:48123,countyName,DeWitt County
+warn-layoffs:48125,county,48125
+warn-layoffs:48125,countyName,Dickens County
+warn-layoffs:48127,county,48127
+warn-layoffs:48127,countyName,Dimmit County
+warn-layoffs:48129,county,48129
+warn-layoffs:48129,countyName,Donley County
+warn-layoffs:48131,county,48131
+warn-layoffs:48131,countyName,Duval County
+warn-layoffs:48133,county,48133
+warn-layoffs:48133,countyName,Eastland County
+warn-layoffs:48135,county,48135
+warn-layoffs:48135,countyName,Ector County
+warn-layoffs:48137,county,48137
+warn-layoffs:48137,countyName,Edwards County
+warn-layoffs:48139,county,48139
+warn-layoffs:48139,countyName,Ellis County
+warn-layoffs:48141,county,48141
+warn-layoffs:48141,countyName,El Paso County
+warn-layoffs:48143,county,48143
+warn-layoffs:48143,countyName,Erath County
+warn-layoffs:48145,county,48145
+warn-layoffs:48145,countyName,Falls County
+warn-layoffs:48147,county,48147
+warn-layoffs:48147,countyName,Fannin County
+warn-layoffs:48149,county,48149
+warn-layoffs:48149,countyName,Fayette County
+warn-layoffs:48151,county,48151
+warn-layoffs:48151,countyName,Fisher County
+warn-layoffs:48153,county,48153
+warn-layoffs:48153,countyName,Floyd County
+warn-layoffs:48155,county,48155
+warn-layoffs:48155,countyName,Foard County
+warn-layoffs:48157,county,48157
+warn-layoffs:48157,countyName,Fort Bend County
+warn-layoffs:48159,county,48159
+warn-layoffs:48159,countyName,Franklin County
+warn-layoffs:48161,county,48161
+warn-layoffs:48161,countyName,Freestone County
+warn-layoffs:48163,county,48163
+warn-layoffs:48163,countyName,Frio County
+warn-layoffs:48165,county,48165
+warn-layoffs:48165,countyName,Gaines County
+warn-layoffs:48167,county,48167
+warn-layoffs:48167,countyName,Galveston County
+warn-layoffs:48169,county,48169
+warn-layoffs:48169,countyName,Garza County
+warn-layoffs:48171,county,48171
+warn-layoffs:48171,countyName,Gillespie County
+warn-layoffs:48173,county,48173
+warn-layoffs:48173,countyName,Glasscock County
+warn-layoffs:48175,county,48175
+warn-layoffs:48175,countyName,Goliad County
+warn-layoffs:48177,county,48177
+warn-layoffs:48177,countyName,Gonzales County
+warn-layoffs:48179,county,48179
+warn-layoffs:48179,countyName,Gray County
+warn-layoffs:48181,county,48181
+warn-layoffs:48181,countyName,Grayson County
+warn-layoffs:48183,county,48183
+warn-layoffs:48183,countyName,Gregg County
+warn-layoffs:48185,county,48185
+warn-layoffs:48185,countyName,Grimes County
+warn-layoffs:48187,county,48187
+warn-layoffs:48187,countyName,Guadalupe County
+warn-layoffs:48189,county,48189
+warn-layoffs:48189,countyName,Hale County
+warn-layoffs:48191,county,48191
+warn-layoffs:48191,countyName,Hall County
+warn-layoffs:48193,county,48193
+warn-layoffs:48193,countyName,Hamilton County
+warn-layoffs:48195,county,48195
+warn-layoffs:48195,countyName,Hansford County
+warn-layoffs:48197,county,48197
+warn-layoffs:48197,countyName,Hardeman County
+warn-layoffs:48199,county,48199
+warn-layoffs:48199,countyName,Hardin County
+warn-layoffs:48201,county,48201
+warn-layoffs:48201,countyName,Harris County
+warn-layoffs:48203,county,48203
+warn-layoffs:48203,countyName,Harrison County
+warn-layoffs:48205,county,48205
+warn-layoffs:48205,countyName,Hartley County
+warn-layoffs:48207,county,48207
+warn-layoffs:48207,countyName,Haskell County
+warn-layoffs:48209,county,48209
+warn-layoffs:48209,countyName,Hays County
+warn-layoffs:48211,county,48211
+warn-layoffs:48211,countyName,Hemphill County
+warn-layoffs:48213,county,48213
+warn-layoffs:48213,countyName,Henderson County
+warn-layoffs:48215,county,48215
+warn-layoffs:48215,countyName,Hidalgo County
+warn-layoffs:48217,county,48217
+warn-layoffs:48217,countyName,Hill County
+warn-layoffs:48219,county,48219
+warn-layoffs:48219,countyName,Hockley County
+warn-layoffs:48221,county,48221
+warn-layoffs:48221,countyName,Hood County
+warn-layoffs:48223,county,48223
+warn-layoffs:48223,countyName,Hopkins County
+warn-layoffs:48225,county,48225
+warn-layoffs:48225,countyName,Houston County
+warn-layoffs:48227,county,48227
+warn-layoffs:48227,countyName,Howard County
+warn-layoffs:48229,county,48229
+warn-layoffs:48229,countyName,Hudspeth County
+warn-layoffs:48231,county,48231
+warn-layoffs:48231,countyName,Hunt County
+warn-layoffs:48233,county,48233
+warn-layoffs:48233,countyName,Hutchinson County
+warn-layoffs:48235,county,48235
+warn-layoffs:48235,countyName,Irion County
+warn-layoffs:48237,county,48237
+warn-layoffs:48237,countyName,Jack County
+warn-layoffs:48239,county,48239
+warn-layoffs:48239,countyName,Jackson County
+warn-layoffs:48241,county,48241
+warn-layoffs:48241,countyName,Jasper County
+warn-layoffs:48243,county,48243
+warn-layoffs:48243,countyName,Jeff Davis County
+warn-layoffs:48245,county,48245
+warn-layoffs:48245,countyName,Jefferson County
+warn-layoffs:48247,county,48247
+warn-layoffs:48247,countyName,Jim Hogg County
+warn-layoffs:48249,county,48249
+warn-layoffs:48249,countyName,Jim Wells County
+warn-layoffs:48251,county,48251
+warn-layoffs:48251,countyName,Johnson County
+warn-layoffs:48253,county,48253
+warn-layoffs:48253,countyName,Jones County
+warn-layoffs:48255,county,48255
+warn-layoffs:48255,countyName,Karnes County
+warn-layoffs:48257,county,48257
+warn-layoffs:48257,countyName,Kaufman County
+warn-layoffs:48259,county,48259
+warn-layoffs:48259,countyName,Kendall County
+warn-layoffs:48261,county,48261
+warn-layoffs:48261,countyName,Kenedy County
+warn-layoffs:48263,county,48263
+warn-layoffs:48263,countyName,Kent County
+warn-layoffs:48265,county,48265
+warn-layoffs:48265,countyName,Kerr County
+warn-layoffs:48267,county,48267
+warn-layoffs:48267,countyName,Kimble County
+warn-layoffs:48269,county,48269
+warn-layoffs:48269,countyName,King County
+warn-layoffs:48271,county,48271
+warn-layoffs:48271,countyName,Kinney County
+warn-layoffs:48273,county,48273
+warn-layoffs:48273,countyName,Kleberg County
+warn-layoffs:48275,county,48275
+warn-layoffs:48275,countyName,Knox County
+warn-layoffs:48277,county,48277
+warn-layoffs:48277,countyName,Lamar County
+warn-layoffs:48279,county,48279
+warn-layoffs:48279,countyName,Lamb County
+warn-layoffs:48281,county,48281
+warn-layoffs:48281,countyName,Lampasas County
+warn-layoffs:48283,county,48283
+warn-layoffs:48283,countyName,La Salle County
+warn-layoffs:48285,county,48285
+warn-layoffs:48285,countyName,Lavaca County
+warn-layoffs:48287,county,48287
+warn-layoffs:48287,countyName,Lee County
+warn-layoffs:48289,county,48289
+warn-layoffs:48289,countyName,Leon County
+warn-layoffs:48291,county,48291
+warn-layoffs:48291,countyName,Liberty County
+warn-layoffs:48293,county,48293
+warn-layoffs:48293,countyName,Limestone County
+warn-layoffs:48295,county,48295
+warn-layoffs:48295,countyName,Lipscomb County
+warn-layoffs:48297,county,48297
+warn-layoffs:48297,countyName,Live Oak County
+warn-layoffs:48299,county,48299
+warn-layoffs:48299,countyName,Llano County
+warn-layoffs:48301,county,48301
+warn-layoffs:48301,countyName,Loving County
+warn-layoffs:48303,county,48303
+warn-layoffs:48303,countyName,Lubbock County
+warn-layoffs:48305,county,48305
+warn-layoffs:48305,countyName,Lynn County
+warn-layoffs:48307,county,48307
+warn-layoffs:48307,countyName,McCulloch County
+warn-layoffs:48309,county,48309
+warn-layoffs:48309,countyName,McLennan County
+warn-layoffs:48311,county,48311
+warn-layoffs:48311,countyName,McMullen County
+warn-layoffs:48313,county,48313
+warn-layoffs:48313,countyName,Madison County
+warn-layoffs:48315,county,48315
+warn-layoffs:48315,countyName,Marion County
+warn-layoffs:48317,county,48317
+warn-layoffs:48317,countyName,Martin County
+warn-layoffs:48319,county,48319
+warn-layoffs:48319,countyName,Mason County
+warn-layoffs:48321,county,48321
+warn-layoffs:48321,countyName,Matagorda County
+warn-layoffs:48323,county,48323
+warn-layoffs:48323,countyName,Maverick County
+warn-layoffs:48325,county,48325
+warn-layoffs:48325,countyName,Medina County
+warn-layoffs:48327,county,48327
+warn-layoffs:48327,countyName,Menard County
+warn-layoffs:48329,county,48329
+warn-layoffs:48329,countyName,Midland County
+warn-layoffs:48331,county,48331
+warn-layoffs:48331,countyName,Milam County
+warn-layoffs:48333,county,48333
+warn-layoffs:48333,countyName,Mills County
+warn-layoffs:48335,county,48335
+warn-layoffs:48335,countyName,Mitchell County
+warn-layoffs:48337,county,48337
+warn-layoffs:48337,countyName,Montague County
+warn-layoffs:48339,county,48339
+warn-layoffs:48339,countyName,Montgomery County
+warn-layoffs:48341,county,48341
+warn-layoffs:48341,countyName,Moore County
+warn-layoffs:48343,county,48343
+warn-layoffs:48343,countyName,Morris County
+warn-layoffs:48345,county,48345
+warn-layoffs:48345,countyName,Motley County
+warn-layoffs:48347,county,48347
+warn-layoffs:48347,countyName,Nacogdoches County
+warn-layoffs:48349,county,48349
+warn-layoffs:48349,countyName,Navarro County
+warn-layoffs:48351,county,48351
+warn-layoffs:48351,countyName,Newton County
+warn-layoffs:48353,county,48353
+warn-layoffs:48353,countyName,Nolan County
+warn-layoffs:48355,county,48355
+warn-layoffs:48355,countyName,Nueces County
+warn-layoffs:48357,county,48357
+warn-layoffs:48357,countyName,Ochiltree County
+warn-layoffs:48359,county,48359
+warn-layoffs:48359,countyName,Oldham County
+warn-layoffs:48361,county,48361
+warn-layoffs:48361,countyName,Orange County
+warn-layoffs:48363,county,48363
+warn-layoffs:48363,countyName,Palo Pinto County
+warn-layoffs:48365,county,48365
+warn-layoffs:48365,countyName,Panola County
+warn-layoffs:48367,county,48367
+warn-layoffs:48367,countyName,Parker County
+warn-layoffs:48369,county,48369
+warn-layoffs:48369,countyName,Parmer County
+warn-layoffs:48371,county,48371
+warn-layoffs:48371,countyName,Pecos County
+warn-layoffs:48373,county,48373
+warn-layoffs:48373,countyName,Polk County
+warn-layoffs:48375,county,48375
+warn-layoffs:48375,countyName,Potter County
+warn-layoffs:48377,county,48377
+warn-layoffs:48377,countyName,Presidio County
+warn-layoffs:48379,county,48379
+warn-layoffs:48379,countyName,Rains County
+warn-layoffs:48381,county,48381
+warn-layoffs:48381,countyName,Randall County
+warn-layoffs:48383,county,48383
+warn-layoffs:48383,countyName,Reagan County
+warn-layoffs:48385,county,48385
+warn-layoffs:48385,countyName,Real County
+warn-layoffs:48387,county,48387
+warn-layoffs:48387,countyName,Red River County
+warn-layoffs:48389,county,48389
+warn-layoffs:48389,countyName,Reeves County
+warn-layoffs:48391,county,48391
+warn-layoffs:48391,countyName,Refugio County
+warn-layoffs:48393,county,48393
+warn-layoffs:48393,countyName,Roberts County
+warn-layoffs:48395,county,48395
+warn-layoffs:48395,countyName,Robertson County
+warn-layoffs:48397,county,48397
+warn-layoffs:48397,countyName,Rockwall County
+warn-layoffs:48399,county,48399
+warn-layoffs:48399,countyName,Runnels County
+warn-layoffs:48401,county,48401
+warn-layoffs:48401,countyName,Rusk County
+warn-layoffs:48403,county,48403
+warn-layoffs:48403,countyName,Sabine County
+warn-layoffs:48405,county,48405
+warn-layoffs:48405,countyName,San Augustine County
+warn-layoffs:48407,county,48407
+warn-layoffs:48407,countyName,San Jacinto County
+warn-layoffs:48409,county,48409
+warn-layoffs:48409,countyName,San Patricio County
+warn-layoffs:48411,county,48411
+warn-layoffs:48411,countyName,San Saba County
+warn-layoffs:48413,county,48413
+warn-layoffs:48413,countyName,Schleicher County
+warn-layoffs:48415,county,48415
+warn-layoffs:48415,countyName,Scurry County
+warn-layoffs:48417,county,48417
+warn-layoffs:48417,countyName,Shackelford County
+warn-layoffs:48419,county,48419
+warn-layoffs:48419,countyName,Shelby County
+warn-layoffs:48421,county,48421
+warn-layoffs:48421,countyName,Sherman County
+warn-layoffs:48423,county,48423
+warn-layoffs:48423,countyName,Smith County
+warn-layoffs:48425,county,48425
+warn-layoffs:48425,countyName,Somervell County
+warn-layoffs:48427,county,48427
+warn-layoffs:48427,countyName,Starr County
+warn-layoffs:48429,county,48429
+warn-layoffs:48429,countyName,Stephens County
+warn-layoffs:48431,county,48431
+warn-layoffs:48431,countyName,Sterling County
+warn-layoffs:48433,county,48433
+warn-layoffs:48433,countyName,Stonewall County
+warn-layoffs:48435,county,48435
+warn-layoffs:48435,countyName,Sutton County
+warn-layoffs:48437,county,48437
+warn-layoffs:48437,countyName,Swisher County
+warn-layoffs:48439,county,48439
+warn-layoffs:48439,countyName,Tarrant County
+warn-layoffs:48441,county,48441
+warn-layoffs:48441,countyName,Taylor County
+warn-layoffs:48443,county,48443
+warn-layoffs:48443,countyName,Terrell County
+warn-layoffs:48445,county,48445
+warn-layoffs:48445,countyName,Terry County
+warn-layoffs:48447,county,48447
+warn-layoffs:48447,countyName,Throckmorton County
+warn-layoffs:48449,county,48449
+warn-layoffs:48449,countyName,Titus County
+warn-layoffs:48451,county,48451
+warn-layoffs:48451,countyName,Tom Green County
+warn-layoffs:48453,county,48453
+warn-layoffs:48453,countyName,Travis County
+warn-layoffs:48455,county,48455
+warn-layoffs:48455,countyName,Trinity County
+warn-layoffs:48457,county,48457
+warn-layoffs:48457,countyName,Tyler County
+warn-layoffs:48459,county,48459
+warn-layoffs:48459,countyName,Upshur County
+warn-layoffs:48461,county,48461
+warn-layoffs:48461,countyName,Upton County
+warn-layoffs:48463,county,48463
+warn-layoffs:48463,countyName,Uvalde County
+warn-layoffs:48465,county,48465
+warn-layoffs:48465,countyName,Val Verde County
+warn-layoffs:48467,county,48467
+warn-layoffs:48467,countyName,Van Zandt County
+warn-layoffs:48469,county,48469
+warn-layoffs:48469,countyName,Victoria County
+warn-layoffs:48471,county,48471
+warn-layoffs:48471,countyName,Walker County
+warn-layoffs:48473,county,48473
+warn-layoffs:48473,countyName,Waller County
+warn-layoffs:48475,county,48475
+warn-layoffs:48475,countyName,Ward County
+warn-layoffs:48477,county,48477
+warn-layoffs:48477,countyName,Washington County
+warn-layoffs:48479,county,48479
+warn-layoffs:48479,countyName,Webb County
+warn-layoffs:48481,county,48481
+warn-layoffs:48481,countyName,Wharton County
+warn-layoffs:48483,county,48483
+warn-layoffs:48483,countyName,Wheeler County
+warn-layoffs:48485,county,48485
+warn-layoffs:48485,countyName,Wichita County
+warn-layoffs:48487,county,48487
+warn-layoffs:48487,countyName,Wilbarger County
+warn-layoffs:48489,county,48489
+warn-layoffs:48489,countyName,Willacy County
+warn-layoffs:48491,county,48491
+warn-layoffs:48491,countyName,Williamson County
+warn-layoffs:48493,county,48493
+warn-layoffs:48493,countyName,Wilson County
+warn-layoffs:48495,county,48495
+warn-layoffs:48495,countyName,Winkler County
+warn-layoffs:48497,county,48497
+warn-layoffs:48497,countyName,Wise County
+warn-layoffs:48499,county,48499
+warn-layoffs:48499,countyName,Wood County
+warn-layoffs:48501,county,48501
+warn-layoffs:48501,countyName,Yoakum County
+warn-layoffs:48503,county,48503
+warn-layoffs:48503,countyName,Young County
+warn-layoffs:48505,county,48505
+warn-layoffs:48505,countyName,Zapata County
+warn-layoffs:48507,county,48507
+warn-layoffs:48507,countyName,Zavala County

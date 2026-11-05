@@ -1,12 +1,12 @@
 Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage
 
-Version 1.2.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23934163
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963806
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, version 1.2.0, https://doi.org/10.5281/zenodo.23934163, licensed CC BY 4.0.
+Source: Probative, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, version 2.0.0, https://doi.org/10.5281/zenodo.23963806, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage (Version 1.2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23934163
+Probative. (2026). Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963806
 
 Not legal advice. These are the periods as each statute states them, read in the official code on the date shown. Tolling, discovery rules, notice-of-claim deadlines for claims against a government, minors' rules and other exceptions can shorten or lengthen the time to file, and statutes change. Check the statute and ask a lawyer licensed in the state before relying on a deadline.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -23,15 +23,15 @@ Columns:
   years: The period in years as the statute states it (fractions for periods stated in months)
   period: The period in the statute's own terms, e.g. 2 years or 2 years and 6 months
   statuteCite: The statute section the period comes from
-  officialUrl: The page on the state's official code site the quote was read from
-  discoveryRule: Y when the quoted text runs the period from discovery, N when it expressly runs from the act; present only when the quoted text states it
-  reposeYears: An outer time limit (statute of repose) stated in the text read, in years; present only when the quoted text states one
   basis: specific when the statute names the claim type; general when the period is the state's general or residual period and the statute's words do not name the claim type
   quote: A verbatim quote from the official statute text
   text: The record in one plain-English sentence
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  detail: A short sourced detail on the record
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  officialUrl: The page on the state's official code site the quote was read from (in limitations-values.csv, as id, column and value rows)
+  discoveryRule: Y when the quoted text runs the period from discovery, N when it expressly runs from the act; present only when the quoted text states it (in limitations-values.csv, as id, column and value rows)
+  reposeYears: An outer time limit (statute of repose) stated in the text read, in years; present only when the quoted text states one (in limitations-values.csv, as id, column and value rows)
+  detail: A short sourced detail on the record (in limitations-values.csv, as id, column and value rows)

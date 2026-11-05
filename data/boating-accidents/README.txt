@@ -1,12 +1,12 @@
 Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23792748
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23962985
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024, version 1.0.0, https://doi.org/10.5281/zenodo.23792748, licensed CC BY 4.0.
+Source: Probative, Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024, version 2.0.0, https://doi.org/10.5281/zenodo.23962985, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23792748
+Probative. (2026). Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23962985
 
 Not legal advice. These are counts of incidents reported to the U.S. Coast Guard under state and federal reporting rules, not findings of fault; many incidents are never reported, so the counts are a floor. Claims and deadlines for a boating injury are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -17,7 +17,6 @@ Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter state or territory code, or US
   level: state or us
-  stateName: 
   year: Calendar year of the report
   status: P: the Coast Guard's own published figure
   text: The record in one plain-English sentence
@@ -30,8 +29,6 @@ Columns:
   deaths: Deaths
   injured: People injured
   damages_usd: Property damage in dollars (rounded)
-  incidents_outside_states: US records: incidents offshore, counted in the US total only
-  deaths_outside_states: US records: deaths in those incidents
   effectiveFrom: When the fact took effect (YYYY-MM-DD), if known
   effectiveTo: When it stopped applying; empty while current
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
@@ -39,3 +36,6 @@ Columns:
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  stateName:  (in boating-accidents-values.csv, as id, column and value rows)
+  incidents_outside_states: US records: incidents offshore, counted in the US total only (in boating-accidents-values.csv, as id, column and value rows)
+  deaths_outside_states: US records: deaths in those incidents (in boating-accidents-values.csv, as id, column and value rows)

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics, 2026, https://doi.org/10.5281/zenodo.23721415."
+message: "If you use this dataset, please cite it as: Probative Growth, Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics, 2026, https://doi.org/10.5281/zenodo.23963687."
 title: "Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23721415"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963687"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23721414"

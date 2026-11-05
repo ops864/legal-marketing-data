@@ -1,0 +1,393 @@
+id,column,value
+irs-databook:US:2019,collections_outside_states,16062040000
+irs-databook:US:2019,returns_outside_states,2567561
+irs-databook:US:2019,refunds_number_outside_states,552716
+irs-databook:US:2019,refunds_amount_outside_states,60951720000
+irs-databook:AK:2019,stateName,Alaska
+irs-databook:AL:2019,stateName,Alabama
+irs-databook:AR:2019,stateName,Arkansas
+irs-databook:AZ:2019,stateName,Arizona
+irs-databook:CA:2019,stateName,California
+irs-databook:CO:2019,stateName,Colorado
+irs-databook:CT:2019,stateName,Connecticut
+irs-databook:DC:2019,stateName,District of Columbia
+irs-databook:DE:2019,stateName,Delaware
+irs-databook:FL:2019,stateName,Florida
+irs-databook:GA:2019,stateName,Georgia
+irs-databook:HI:2019,stateName,Hawaii
+irs-databook:IA:2019,stateName,Iowa
+irs-databook:ID:2019,stateName,Idaho
+irs-databook:IL:2019,stateName,Illinois
+irs-databook:IN:2019,stateName,Indiana
+irs-databook:KS:2019,stateName,Kansas
+irs-databook:KY:2019,stateName,Kentucky
+irs-databook:LA:2019,stateName,Louisiana
+irs-databook:MA:2019,stateName,Massachusetts
+irs-databook:MD:2019,stateName,Maryland
+irs-databook:ME:2019,stateName,Maine
+irs-databook:MI:2019,stateName,Michigan
+irs-databook:MN:2019,stateName,Minnesota
+irs-databook:MO:2019,stateName,Missouri
+irs-databook:MS:2019,stateName,Mississippi
+irs-databook:MT:2019,stateName,Montana
+irs-databook:NC:2019,stateName,North Carolina
+irs-databook:ND:2019,stateName,North Dakota
+irs-databook:NE:2019,stateName,Nebraska
+irs-databook:NH:2019,stateName,New Hampshire
+irs-databook:NJ:2019,stateName,New Jersey
+irs-databook:NM:2019,stateName,New Mexico
+irs-databook:NV:2019,stateName,Nevada
+irs-databook:NY:2019,stateName,New York
+irs-databook:OH:2019,stateName,Ohio
+irs-databook:OK:2019,stateName,Oklahoma
+irs-databook:OR:2019,stateName,Oregon
+irs-databook:PA:2019,stateName,Pennsylvania
+irs-databook:PR:2019,stateName,Puerto Rico
+irs-databook:RI:2019,stateName,Rhode Island
+irs-databook:SC:2019,stateName,South Carolina
+irs-databook:SD:2019,stateName,South Dakota
+irs-databook:TN:2019,stateName,Tennessee
+irs-databook:TX:2019,stateName,Texas
+irs-databook:UT:2019,stateName,Utah
+irs-databook:VA:2019,stateName,Virginia
+irs-databook:VT:2019,stateName,Vermont
+irs-databook:WA:2019,stateName,Washington
+irs-databook:WI:2019,stateName,Wisconsin
+irs-databook:WV:2019,stateName,West Virginia
+irs-databook:WY:2019,stateName,Wyoming
+irs-databook:US:2020,collections_outside_states,17991356000
+irs-databook:US:2020,returns_outside_states,1609472
+irs-databook:US:2020,refunds_number_outside_states,1685320
+irs-databook:US:2020,refunds_amount_outside_states,69123569000
+irs-databook:AK:2020,stateName,Alaska
+irs-databook:AL:2020,stateName,Alabama
+irs-databook:AR:2020,stateName,Arkansas
+irs-databook:AZ:2020,stateName,Arizona
+irs-databook:CA:2020,stateName,California
+irs-databook:CO:2020,stateName,Colorado
+irs-databook:CT:2020,stateName,Connecticut
+irs-databook:DC:2020,stateName,District of Columbia
+irs-databook:DE:2020,stateName,Delaware
+irs-databook:FL:2020,stateName,Florida
+irs-databook:GA:2020,stateName,Georgia
+irs-databook:HI:2020,stateName,Hawaii
+irs-databook:IA:2020,stateName,Iowa
+irs-databook:ID:2020,stateName,Idaho
+irs-databook:IL:2020,stateName,Illinois
+irs-databook:IN:2020,stateName,Indiana
+irs-databook:KS:2020,stateName,Kansas
+irs-databook:KY:2020,stateName,Kentucky
+irs-databook:LA:2020,stateName,Louisiana
+irs-databook:MA:2020,stateName,Massachusetts
+irs-databook:MD:2020,stateName,Maryland
+irs-databook:ME:2020,stateName,Maine
+irs-databook:MI:2020,stateName,Michigan
+irs-databook:MN:2020,stateName,Minnesota
+irs-databook:MO:2020,stateName,Missouri
+irs-databook:MS:2020,stateName,Mississippi
+irs-databook:MT:2020,stateName,Montana
+irs-databook:NC:2020,stateName,North Carolina
+irs-databook:ND:2020,stateName,North Dakota
+irs-databook:NE:2020,stateName,Nebraska
+irs-databook:NH:2020,stateName,New Hampshire
+irs-databook:NJ:2020,stateName,New Jersey
+irs-databook:NM:2020,stateName,New Mexico
+irs-databook:NV:2020,stateName,Nevada
+irs-databook:NY:2020,stateName,New York
+irs-databook:OH:2020,stateName,Ohio
+irs-databook:OK:2020,stateName,Oklahoma
+irs-databook:OR:2020,stateName,Oregon
+irs-databook:PA:2020,stateName,Pennsylvania
+irs-databook:PR:2020,stateName,Puerto Rico
+irs-databook:RI:2020,stateName,Rhode Island
+irs-databook:SC:2020,stateName,South Carolina
+irs-databook:SD:2020,stateName,South Dakota
+irs-databook:TN:2020,stateName,Tennessee
+irs-databook:TX:2020,stateName,Texas
+irs-databook:UT:2020,stateName,Utah
+irs-databook:VA:2020,stateName,Virginia
+irs-databook:VT:2020,stateName,Vermont
+irs-databook:WA:2020,stateName,Washington
+irs-databook:WI:2020,stateName,Wisconsin
+irs-databook:WV:2020,stateName,West Virginia
+irs-databook:WY:2020,stateName,Wyoming
+irs-databook:US:2021,collections_outside_states,26391778000
+irs-databook:US:2021,returns_outside_states,2071679
+irs-databook:US:2021,refunds_number_outside_states,5645738
+irs-databook:US:2021,refunds_amount_outside_states,79000909000
+irs-databook:AK:2021,stateName,Alaska
+irs-databook:AL:2021,stateName,Alabama
+irs-databook:AR:2021,stateName,Arkansas
+irs-databook:AZ:2021,stateName,Arizona
+irs-databook:CA:2021,stateName,California
+irs-databook:CO:2021,stateName,Colorado
+irs-databook:CT:2021,stateName,Connecticut
+irs-databook:DC:2021,stateName,District of Columbia
+irs-databook:DE:2021,stateName,Delaware
+irs-databook:FL:2021,stateName,Florida
+irs-databook:GA:2021,stateName,Georgia
+irs-databook:HI:2021,stateName,Hawaii
+irs-databook:IA:2021,stateName,Iowa
+irs-databook:ID:2021,stateName,Idaho
+irs-databook:IL:2021,stateName,Illinois
+irs-databook:IN:2021,stateName,Indiana
+irs-databook:KS:2021,stateName,Kansas
+irs-databook:KY:2021,stateName,Kentucky
+irs-databook:LA:2021,stateName,Louisiana
+irs-databook:MA:2021,stateName,Massachusetts
+irs-databook:MD:2021,stateName,Maryland
+irs-databook:ME:2021,stateName,Maine
+irs-databook:MI:2021,stateName,Michigan
+irs-databook:MN:2021,stateName,Minnesota
+irs-databook:MO:2021,stateName,Missouri
+irs-databook:MS:2021,stateName,Mississippi
+irs-databook:MT:2021,stateName,Montana
+irs-databook:NC:2021,stateName,North Carolina
+irs-databook:ND:2021,stateName,North Dakota
+irs-databook:NE:2021,stateName,Nebraska
+irs-databook:NH:2021,stateName,New Hampshire
+irs-databook:NJ:2021,stateName,New Jersey
+irs-databook:NM:2021,stateName,New Mexico
+irs-databook:NV:2021,stateName,Nevada
+irs-databook:NY:2021,stateName,New York
+irs-databook:OH:2021,stateName,Ohio
+irs-databook:OK:2021,stateName,Oklahoma
+irs-databook:OR:2021,stateName,Oregon
+irs-databook:PA:2021,stateName,Pennsylvania
+irs-databook:PR:2021,stateName,Puerto Rico
+irs-databook:RI:2021,stateName,Rhode Island
+irs-databook:SC:2021,stateName,South Carolina
+irs-databook:SD:2021,stateName,South Dakota
+irs-databook:TN:2021,stateName,Tennessee
+irs-databook:TX:2021,stateName,Texas
+irs-databook:UT:2021,stateName,Utah
+irs-databook:VA:2021,stateName,Virginia
+irs-databook:VT:2021,stateName,Vermont
+irs-databook:WA:2021,stateName,Washington
+irs-databook:WI:2021,stateName,Wisconsin
+irs-databook:WV:2021,stateName,West Virginia
+irs-databook:WY:2021,stateName,Wyoming
+irs-databook:US:2022,collections_outside_states,35856853000
+irs-databook:US:2022,returns_outside_states,1821585
+irs-databook:US:2022,refunds_number_outside_states,1111842
+irs-databook:US:2022,refunds_amount_outside_states,90655046000
+irs-databook:AK:2022,stateName,Alaska
+irs-databook:AL:2022,stateName,Alabama
+irs-databook:AR:2022,stateName,Arkansas
+irs-databook:AZ:2022,stateName,Arizona
+irs-databook:CA:2022,stateName,California
+irs-databook:CO:2022,stateName,Colorado
+irs-databook:CT:2022,stateName,Connecticut
+irs-databook:DC:2022,stateName,District of Columbia
+irs-databook:DE:2022,stateName,Delaware
+irs-databook:FL:2022,stateName,Florida
+irs-databook:GA:2022,stateName,Georgia
+irs-databook:HI:2022,stateName,Hawaii
+irs-databook:IA:2022,stateName,Iowa
+irs-databook:ID:2022,stateName,Idaho
+irs-databook:IL:2022,stateName,Illinois
+irs-databook:IN:2022,stateName,Indiana
+irs-databook:KS:2022,stateName,Kansas
+irs-databook:KY:2022,stateName,Kentucky
+irs-databook:LA:2022,stateName,Louisiana
+irs-databook:MA:2022,stateName,Massachusetts
+irs-databook:MD:2022,stateName,Maryland
+irs-databook:ME:2022,stateName,Maine
+irs-databook:MI:2022,stateName,Michigan
+irs-databook:MN:2022,stateName,Minnesota
+irs-databook:MO:2022,stateName,Missouri
+irs-databook:MS:2022,stateName,Mississippi
+irs-databook:MT:2022,stateName,Montana
+irs-databook:NC:2022,stateName,North Carolina
+irs-databook:ND:2022,stateName,North Dakota
+irs-databook:NE:2022,stateName,Nebraska
+irs-databook:NH:2022,stateName,New Hampshire
+irs-databook:NJ:2022,stateName,New Jersey
+irs-databook:NM:2022,stateName,New Mexico
+irs-databook:NV:2022,stateName,Nevada
+irs-databook:NY:2022,stateName,New York
+irs-databook:OH:2022,stateName,Ohio
+irs-databook:OK:2022,stateName,Oklahoma
+irs-databook:OR:2022,stateName,Oregon
+irs-databook:PA:2022,stateName,Pennsylvania
+irs-databook:PR:2022,stateName,Puerto Rico
+irs-databook:RI:2022,stateName,Rhode Island
+irs-databook:SC:2022,stateName,South Carolina
+irs-databook:SD:2022,stateName,South Dakota
+irs-databook:TN:2022,stateName,Tennessee
+irs-databook:TX:2022,stateName,Texas
+irs-databook:UT:2022,stateName,Utah
+irs-databook:VA:2022,stateName,Virginia
+irs-databook:VT:2022,stateName,Vermont
+irs-databook:WA:2022,stateName,Washington
+irs-databook:WI:2022,stateName,Wisconsin
+irs-databook:WV:2022,stateName,West Virginia
+irs-databook:WY:2022,stateName,Wyoming
+irs-databook:US:2023,collections_outside_states,23362202000
+irs-databook:US:2023,returns_outside_states,2413853
+irs-databook:US:2023,refunds_number_outside_states,669314
+irs-databook:US:2023,refunds_amount_outside_states,101587486000
+irs-databook:AK:2023,stateName,Alaska
+irs-databook:AL:2023,stateName,Alabama
+irs-databook:AR:2023,stateName,Arkansas
+irs-databook:AZ:2023,stateName,Arizona
+irs-databook:CA:2023,stateName,California
+irs-databook:CO:2023,stateName,Colorado
+irs-databook:CT:2023,stateName,Connecticut
+irs-databook:DC:2023,stateName,District of Columbia
+irs-databook:DE:2023,stateName,Delaware
+irs-databook:FL:2023,stateName,Florida
+irs-databook:GA:2023,stateName,Georgia
+irs-databook:HI:2023,stateName,Hawaii
+irs-databook:IA:2023,stateName,Iowa
+irs-databook:ID:2023,stateName,Idaho
+irs-databook:IL:2023,stateName,Illinois
+irs-databook:IN:2023,stateName,Indiana
+irs-databook:KS:2023,stateName,Kansas
+irs-databook:KY:2023,stateName,Kentucky
+irs-databook:LA:2023,stateName,Louisiana
+irs-databook:MA:2023,stateName,Massachusetts
+irs-databook:MD:2023,stateName,Maryland
+irs-databook:ME:2023,stateName,Maine
+irs-databook:MI:2023,stateName,Michigan
+irs-databook:MN:2023,stateName,Minnesota
+irs-databook:MO:2023,stateName,Missouri
+irs-databook:MS:2023,stateName,Mississippi
+irs-databook:MT:2023,stateName,Montana
+irs-databook:NC:2023,stateName,North Carolina
+irs-databook:ND:2023,stateName,North Dakota
+irs-databook:NE:2023,stateName,Nebraska
+irs-databook:NH:2023,stateName,New Hampshire
+irs-databook:NJ:2023,stateName,New Jersey
+irs-databook:NM:2023,stateName,New Mexico
+irs-databook:NV:2023,stateName,Nevada
+irs-databook:NY:2023,stateName,New York
+irs-databook:OH:2023,stateName,Ohio
+irs-databook:OK:2023,stateName,Oklahoma
+irs-databook:OR:2023,stateName,Oregon
+irs-databook:PA:2023,stateName,Pennsylvania
+irs-databook:PR:2023,stateName,Puerto Rico
+irs-databook:RI:2023,stateName,Rhode Island
+irs-databook:SC:2023,stateName,South Carolina
+irs-databook:SD:2023,stateName,South Dakota
+irs-databook:TN:2023,stateName,Tennessee
+irs-databook:TX:2023,stateName,Texas
+irs-databook:UT:2023,stateName,Utah
+irs-databook:VA:2023,stateName,Virginia
+irs-databook:VT:2023,stateName,Vermont
+irs-databook:WA:2023,stateName,Washington
+irs-databook:WI:2023,stateName,Wisconsin
+irs-databook:WV:2023,stateName,West Virginia
+irs-databook:WY:2023,stateName,Wyoming
+irs-databook:US:2024,collections_outside_states,22961134000
+irs-databook:US:2024,returns_outside_states,2218061
+irs-databook:US:2024,refunds_number_outside_states,641890
+irs-databook:US:2024,refunds_amount_outside_states,136045583000
+irs-databook:AK:2024,stateName,Alaska
+irs-databook:AL:2024,stateName,Alabama
+irs-databook:AR:2024,stateName,Arkansas
+irs-databook:AZ:2024,stateName,Arizona
+irs-databook:CA:2024,stateName,California
+irs-databook:CO:2024,stateName,Colorado
+irs-databook:CT:2024,stateName,Connecticut
+irs-databook:DC:2024,stateName,District of Columbia
+irs-databook:DE:2024,stateName,Delaware
+irs-databook:FL:2024,stateName,Florida
+irs-databook:GA:2024,stateName,Georgia
+irs-databook:HI:2024,stateName,Hawaii
+irs-databook:IA:2024,stateName,Iowa
+irs-databook:ID:2024,stateName,Idaho
+irs-databook:IL:2024,stateName,Illinois
+irs-databook:IN:2024,stateName,Indiana
+irs-databook:KS:2024,stateName,Kansas
+irs-databook:KY:2024,stateName,Kentucky
+irs-databook:LA:2024,stateName,Louisiana
+irs-databook:MA:2024,stateName,Massachusetts
+irs-databook:MD:2024,stateName,Maryland
+irs-databook:ME:2024,stateName,Maine
+irs-databook:MI:2024,stateName,Michigan
+irs-databook:MN:2024,stateName,Minnesota
+irs-databook:MO:2024,stateName,Missouri
+irs-databook:MS:2024,stateName,Mississippi
+irs-databook:MT:2024,stateName,Montana
+irs-databook:NC:2024,stateName,North Carolina
+irs-databook:ND:2024,stateName,North Dakota
+irs-databook:NE:2024,stateName,Nebraska
+irs-databook:NH:2024,stateName,New Hampshire
+irs-databook:NJ:2024,stateName,New Jersey
+irs-databook:NM:2024,stateName,New Mexico
+irs-databook:NV:2024,stateName,Nevada
+irs-databook:NY:2024,stateName,New York
+irs-databook:OH:2024,stateName,Ohio
+irs-databook:OK:2024,stateName,Oklahoma
+irs-databook:OR:2024,stateName,Oregon
+irs-databook:PA:2024,stateName,Pennsylvania
+irs-databook:PR:2024,stateName,Puerto Rico
+irs-databook:RI:2024,stateName,Rhode Island
+irs-databook:SC:2024,stateName,South Carolina
+irs-databook:SD:2024,stateName,South Dakota
+irs-databook:TN:2024,stateName,Tennessee
+irs-databook:TX:2024,stateName,Texas
+irs-databook:UT:2024,stateName,Utah
+irs-databook:VA:2024,stateName,Virginia
+irs-databook:VT:2024,stateName,Vermont
+irs-databook:WA:2024,stateName,Washington
+irs-databook:WI:2024,stateName,Wisconsin
+irs-databook:WV:2024,stateName,West Virginia
+irs-databook:WY:2024,stateName,Wyoming
+irs-databook:US:2025,collections_outside_states,23491847000
+irs-databook:US:2025,returns_outside_states,2259322
+irs-databook:US:2025,refunds_number_outside_states,649685
+irs-databook:US:2025,refunds_amount_outside_states,161108538000
+irs-databook:AK:2025,stateName,Alaska
+irs-databook:AL:2025,stateName,Alabama
+irs-databook:AR:2025,stateName,Arkansas
+irs-databook:AZ:2025,stateName,Arizona
+irs-databook:CA:2025,stateName,California
+irs-databook:CO:2025,stateName,Colorado
+irs-databook:CT:2025,stateName,Connecticut
+irs-databook:DC:2025,stateName,District of Columbia
+irs-databook:DE:2025,stateName,Delaware
+irs-databook:FL:2025,stateName,Florida
+irs-databook:GA:2025,stateName,Georgia
+irs-databook:HI:2025,stateName,Hawaii
+irs-databook:IA:2025,stateName,Iowa
+irs-databook:ID:2025,stateName,Idaho
+irs-databook:IL:2025,stateName,Illinois
+irs-databook:IN:2025,stateName,Indiana
+irs-databook:KS:2025,stateName,Kansas
+irs-databook:KY:2025,stateName,Kentucky
+irs-databook:LA:2025,stateName,Louisiana
+irs-databook:MA:2025,stateName,Massachusetts
+irs-databook:MD:2025,stateName,Maryland
+irs-databook:ME:2025,stateName,Maine
+irs-databook:MI:2025,stateName,Michigan
+irs-databook:MN:2025,stateName,Minnesota
+irs-databook:MO:2025,stateName,Missouri
+irs-databook:MS:2025,stateName,Mississippi
+irs-databook:MT:2025,stateName,Montana
+irs-databook:NC:2025,stateName,North Carolina
+irs-databook:ND:2025,stateName,North Dakota
+irs-databook:NE:2025,stateName,Nebraska
+irs-databook:NH:2025,stateName,New Hampshire
+irs-databook:NJ:2025,stateName,New Jersey
+irs-databook:NM:2025,stateName,New Mexico
+irs-databook:NV:2025,stateName,Nevada
+irs-databook:NY:2025,stateName,New York
+irs-databook:OH:2025,stateName,Ohio
+irs-databook:OK:2025,stateName,Oklahoma
+irs-databook:OR:2025,stateName,Oregon
+irs-databook:PA:2025,stateName,Pennsylvania
+irs-databook:PR:2025,stateName,Puerto Rico
+irs-databook:RI:2025,stateName,Rhode Island
+irs-databook:SC:2025,stateName,South Carolina
+irs-databook:SD:2025,stateName,South Dakota
+irs-databook:TN:2025,stateName,Tennessee
+irs-databook:TX:2025,stateName,Texas
+irs-databook:UT:2025,stateName,Utah
+irs-databook:VA:2025,stateName,Virginia
+irs-databook:VT:2025,stateName,Vermont
+irs-databook:WA:2025,stateName,Washington
+irs-databook:WI:2025,stateName,Wisconsin
+irs-databook:WV:2025,stateName,West Virginia
+irs-databook:WY:2025,stateName,Wyoming

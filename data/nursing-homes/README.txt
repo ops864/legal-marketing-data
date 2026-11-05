@@ -1,12 +1,12 @@
 Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23741901
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964018
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations, version 1.0.0, https://doi.org/10.5281/zenodo.23741901, licensed CC BY 4.0.
+Source: Probative, Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations, version 2.0.0, https://doi.org/10.5281/zenodo.23964018, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23741901
+Probative. (2026). Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964018
 
 Not legal advice. This is a count of public CMS inspection and penalty records, kept for marketing planning. A citation is an inspector's finding, not a court's; a fine can be reduced or withdrawn on appeal; and nothing here says any home or person did anything unlawful.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -18,8 +18,6 @@ Columns:
   jurisdiction: Two-letter state or territory code, or US for the national record
   jurisdictionName: State or territory name
   level: county, state or us
-  county: 5-digit county FIPS code (vintage 2025; Connecticut planning regions), empty for state and US records
-  countyName: County name as in the crosswalks dataset
   status: P primary source, S secondary source
   text: The record in one plain-English sentence
   value: Same as fines_total_usd
@@ -28,7 +26,6 @@ Columns:
   certified_beds: Certified beds in those homes
   rated_facilities: Homes with a CMS overall star rating
   one_star_facilities: Homes rated one star overall (the lowest)
-  one_star_share_pct: one_star_facilities as a percent of rated_facilities
   abuse_icon_facilities: Homes CMS marks with its abuse icon on Care Compare
   fines_count: Fines (civil money penalties) CMS lists in the last three years
   fines_total_usd: Dollars of those fines, as CMS lists them (before any later reduction CMS has not yet posted)
@@ -41,17 +38,20 @@ Columns:
   citations_abuse: Citations under federal tags F600 to F610 (abuse, neglect, exploitation, misappropriation and how homes prevent, report and investigate them)
   facilities_with_harm: Homes with at least one citation at G to L
   facilities_with_ij: Homes with at least one citation at J to L
-  facilities_without_county: State and US records: homes whose county could not be placed (Puerto Rico and Guam have no county rows), counted in the state only
-  cms_avg_fines_per_facility: State and US records: CMS's own published average number of fines per home (second source)
-  cms_avg_fine_amount_usd: State and US records: CMS's own published average fine dollars per home (second source)
-  cms_avg_cycle1_health_deficiencies: State and US records: CMS's own published average health deficiencies in the latest standard inspection (second source)
   penalty_from: Earliest penalty date in the CMS Penalties file
   penalty_to: Latest penalty date in the CMS Penalties file
   survey_from: Earliest inspection date in the CMS Health Deficiencies file
   survey_to: Latest inspection date in the CMS Health Deficiencies file
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
   sourceLabels: The CMS files the record is built from
   sourceUrls: Links to those files
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  county: 5-digit county FIPS code (vintage 2025; Connecticut planning regions), empty for state and US records (in nursing-homes-values.csv, as id, column and value rows)
+  countyName: County name as in the crosswalks dataset (in nursing-homes-values.csv, as id, column and value rows)
+  one_star_share_pct: one_star_facilities as a percent of rated_facilities (in nursing-homes-values.csv, as id, column and value rows)
+  facilities_without_county: State and US records: homes whose county could not be placed (Puerto Rico and Guam have no county rows), counted in the state only (in nursing-homes-values.csv, as id, column and value rows)
+  cms_avg_fines_per_facility: State and US records: CMS's own published average number of fines per home (second source) (in nursing-homes-values.csv, as id, column and value rows)
+  cms_avg_fine_amount_usd: State and US records: CMS's own published average fine dollars per home (second source) (in nursing-homes-values.csv, as id, column and value rows)
+  cms_avg_cycle1_health_deficiencies: State and US records: CMS's own published average health deficiencies in the latest standard inspection (second source) (in nursing-homes-values.csv, as id, column and value rows)
+  note: Caveats (in nursing-homes-values.csv, as id, column and value rows)

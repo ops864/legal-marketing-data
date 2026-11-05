@@ -1,12 +1,12 @@
 Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23851322
+Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964129
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is, version 1.0.0, https://doi.org/10.5281/zenodo.23851322, licensed CC BY 4.0.
+Source: Probative, Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is, version 1.1.0, https://doi.org/10.5281/zenodo.23964129, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23851322
+Probative. (2026). Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964129
 
 Not legal advice. These are counts of what Google showed on two days for the searches in the sample; results vary by place, device and day, and the sample is not every search made.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -17,7 +17,7 @@ Columns:
   id: Stable row id
   group: The group key: group type, segment and language, then the measure
   groupType: The measure (column key of the long-format CSV)
-  segmentType: all, language, practice, query-type, practice-by-language, query-type-by-language or publisher
+  segmentType: all, language, practice, query-type, practice-by-language, query-type-by-language, publisher, metro-size, metro or position
   segment: The practice, search type, language or website the row is about
   language: en, es or all
   value: The measure (a share in percent rounded to one decimal, an average, or a count of websites)

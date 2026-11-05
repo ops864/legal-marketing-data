@@ -1,0 +1,349 @@
+id,column,value
+boating-accidents:US:2019,incidents_outside_states,12
+boating-accidents:US:2019,deaths_outside_states,5
+boating-accidents:AK:2019,stateName,Alaska
+boating-accidents:AL:2019,stateName,Alabama
+boating-accidents:AR:2019,stateName,Arkansas
+boating-accidents:AS:2019,stateName,American Samoa
+boating-accidents:AZ:2019,stateName,Arizona
+boating-accidents:CA:2019,stateName,California
+boating-accidents:CO:2019,stateName,Colorado
+boating-accidents:CT:2019,stateName,Connecticut
+boating-accidents:DC:2019,stateName,District of Columbia
+boating-accidents:DE:2019,stateName,Delaware
+boating-accidents:FL:2019,stateName,Florida
+boating-accidents:GA:2019,stateName,Georgia
+boating-accidents:GU:2019,stateName,Guam
+boating-accidents:HI:2019,stateName,Hawaii
+boating-accidents:IA:2019,stateName,Iowa
+boating-accidents:ID:2019,stateName,Idaho
+boating-accidents:IL:2019,stateName,Illinois
+boating-accidents:IN:2019,stateName,Indiana
+boating-accidents:KS:2019,stateName,Kansas
+boating-accidents:KY:2019,stateName,Kentucky
+boating-accidents:LA:2019,stateName,Louisiana
+boating-accidents:MA:2019,stateName,Massachusetts
+boating-accidents:MD:2019,stateName,Maryland
+boating-accidents:ME:2019,stateName,Maine
+boating-accidents:MI:2019,stateName,Michigan
+boating-accidents:MN:2019,stateName,Minnesota
+boating-accidents:MO:2019,stateName,Missouri
+boating-accidents:MP:2019,stateName,Northern Mariana Islands
+boating-accidents:MS:2019,stateName,Mississippi
+boating-accidents:MT:2019,stateName,Montana
+boating-accidents:NC:2019,stateName,North Carolina
+boating-accidents:ND:2019,stateName,North Dakota
+boating-accidents:NE:2019,stateName,Nebraska
+boating-accidents:NH:2019,stateName,New Hampshire
+boating-accidents:NJ:2019,stateName,New Jersey
+boating-accidents:NM:2019,stateName,New Mexico
+boating-accidents:NV:2019,stateName,Nevada
+boating-accidents:NY:2019,stateName,New York
+boating-accidents:OH:2019,stateName,Ohio
+boating-accidents:OK:2019,stateName,Oklahoma
+boating-accidents:OR:2019,stateName,Oregon
+boating-accidents:PA:2019,stateName,Pennsylvania
+boating-accidents:PR:2019,stateName,Puerto Rico
+boating-accidents:RI:2019,stateName,Rhode Island
+boating-accidents:SC:2019,stateName,South Carolina
+boating-accidents:SD:2019,stateName,South Dakota
+boating-accidents:TN:2019,stateName,Tennessee
+boating-accidents:TX:2019,stateName,Texas
+boating-accidents:UT:2019,stateName,Utah
+boating-accidents:VA:2019,stateName,Virginia
+boating-accidents:VI:2019,stateName,U.S. Virgin Islands
+boating-accidents:VT:2019,stateName,Vermont
+boating-accidents:WA:2019,stateName,Washington
+boating-accidents:WI:2019,stateName,Wisconsin
+boating-accidents:WV:2019,stateName,West Virginia
+boating-accidents:WY:2019,stateName,Wyoming
+boating-accidents:US:2020,incidents_outside_states,16
+boating-accidents:US:2020,deaths_outside_states,2
+boating-accidents:AK:2020,stateName,Alaska
+boating-accidents:AL:2020,stateName,Alabama
+boating-accidents:AR:2020,stateName,Arkansas
+boating-accidents:AS:2020,stateName,American Samoa
+boating-accidents:AZ:2020,stateName,Arizona
+boating-accidents:CA:2020,stateName,California
+boating-accidents:CO:2020,stateName,Colorado
+boating-accidents:CT:2020,stateName,Connecticut
+boating-accidents:DC:2020,stateName,District of Columbia
+boating-accidents:DE:2020,stateName,Delaware
+boating-accidents:FL:2020,stateName,Florida
+boating-accidents:GA:2020,stateName,Georgia
+boating-accidents:GU:2020,stateName,Guam
+boating-accidents:HI:2020,stateName,Hawaii
+boating-accidents:IA:2020,stateName,Iowa
+boating-accidents:ID:2020,stateName,Idaho
+boating-accidents:IL:2020,stateName,Illinois
+boating-accidents:IN:2020,stateName,Indiana
+boating-accidents:KS:2020,stateName,Kansas
+boating-accidents:KY:2020,stateName,Kentucky
+boating-accidents:LA:2020,stateName,Louisiana
+boating-accidents:MA:2020,stateName,Massachusetts
+boating-accidents:MD:2020,stateName,Maryland
+boating-accidents:ME:2020,stateName,Maine
+boating-accidents:MI:2020,stateName,Michigan
+boating-accidents:MN:2020,stateName,Minnesota
+boating-accidents:MO:2020,stateName,Missouri
+boating-accidents:MP:2020,stateName,Northern Mariana Islands
+boating-accidents:MS:2020,stateName,Mississippi
+boating-accidents:MT:2020,stateName,Montana
+boating-accidents:NC:2020,stateName,North Carolina
+boating-accidents:ND:2020,stateName,North Dakota
+boating-accidents:NE:2020,stateName,Nebraska
+boating-accidents:NH:2020,stateName,New Hampshire
+boating-accidents:NJ:2020,stateName,New Jersey
+boating-accidents:NM:2020,stateName,New Mexico
+boating-accidents:NV:2020,stateName,Nevada
+boating-accidents:NY:2020,stateName,New York
+boating-accidents:OH:2020,stateName,Ohio
+boating-accidents:OK:2020,stateName,Oklahoma
+boating-accidents:OR:2020,stateName,Oregon
+boating-accidents:PA:2020,stateName,Pennsylvania
+boating-accidents:PR:2020,stateName,Puerto Rico
+boating-accidents:RI:2020,stateName,Rhode Island
+boating-accidents:SC:2020,stateName,South Carolina
+boating-accidents:SD:2020,stateName,South Dakota
+boating-accidents:TN:2020,stateName,Tennessee
+boating-accidents:TX:2020,stateName,Texas
+boating-accidents:UT:2020,stateName,Utah
+boating-accidents:VA:2020,stateName,Virginia
+boating-accidents:VI:2020,stateName,U.S. Virgin Islands
+boating-accidents:VT:2020,stateName,Vermont
+boating-accidents:WA:2020,stateName,Washington
+boating-accidents:WI:2020,stateName,Wisconsin
+boating-accidents:WV:2020,stateName,West Virginia
+boating-accidents:WY:2020,stateName,Wyoming
+boating-accidents:US:2021,incidents_outside_states,22
+boating-accidents:US:2021,deaths_outside_states,4
+boating-accidents:AK:2021,stateName,Alaska
+boating-accidents:AL:2021,stateName,Alabama
+boating-accidents:AR:2021,stateName,Arkansas
+boating-accidents:AS:2021,stateName,American Samoa
+boating-accidents:AZ:2021,stateName,Arizona
+boating-accidents:CA:2021,stateName,California
+boating-accidents:CO:2021,stateName,Colorado
+boating-accidents:CT:2021,stateName,Connecticut
+boating-accidents:DC:2021,stateName,District of Columbia
+boating-accidents:DE:2021,stateName,Delaware
+boating-accidents:FL:2021,stateName,Florida
+boating-accidents:GA:2021,stateName,Georgia
+boating-accidents:GU:2021,stateName,Guam
+boating-accidents:HI:2021,stateName,Hawaii
+boating-accidents:IA:2021,stateName,Iowa
+boating-accidents:ID:2021,stateName,Idaho
+boating-accidents:IL:2021,stateName,Illinois
+boating-accidents:IN:2021,stateName,Indiana
+boating-accidents:KS:2021,stateName,Kansas
+boating-accidents:KY:2021,stateName,Kentucky
+boating-accidents:LA:2021,stateName,Louisiana
+boating-accidents:MA:2021,stateName,Massachusetts
+boating-accidents:MD:2021,stateName,Maryland
+boating-accidents:ME:2021,stateName,Maine
+boating-accidents:MI:2021,stateName,Michigan
+boating-accidents:MN:2021,stateName,Minnesota
+boating-accidents:MO:2021,stateName,Missouri
+boating-accidents:MP:2021,stateName,Northern Mariana Islands
+boating-accidents:MS:2021,stateName,Mississippi
+boating-accidents:MT:2021,stateName,Montana
+boating-accidents:NC:2021,stateName,North Carolina
+boating-accidents:ND:2021,stateName,North Dakota
+boating-accidents:NE:2021,stateName,Nebraska
+boating-accidents:NH:2021,stateName,New Hampshire
+boating-accidents:NJ:2021,stateName,New Jersey
+boating-accidents:NM:2021,stateName,New Mexico
+boating-accidents:NV:2021,stateName,Nevada
+boating-accidents:NY:2021,stateName,New York
+boating-accidents:OH:2021,stateName,Ohio
+boating-accidents:OK:2021,stateName,Oklahoma
+boating-accidents:OR:2021,stateName,Oregon
+boating-accidents:PA:2021,stateName,Pennsylvania
+boating-accidents:PR:2021,stateName,Puerto Rico
+boating-accidents:RI:2021,stateName,Rhode Island
+boating-accidents:SC:2021,stateName,South Carolina
+boating-accidents:SD:2021,stateName,South Dakota
+boating-accidents:TN:2021,stateName,Tennessee
+boating-accidents:TX:2021,stateName,Texas
+boating-accidents:UT:2021,stateName,Utah
+boating-accidents:VA:2021,stateName,Virginia
+boating-accidents:VI:2021,stateName,U.S. Virgin Islands
+boating-accidents:VT:2021,stateName,Vermont
+boating-accidents:WA:2021,stateName,Washington
+boating-accidents:WI:2021,stateName,Wisconsin
+boating-accidents:WV:2021,stateName,West Virginia
+boating-accidents:WY:2021,stateName,Wyoming
+boating-accidents:US:2022,incidents_outside_states,10
+boating-accidents:US:2022,deaths_outside_states,0
+boating-accidents:AK:2022,stateName,Alaska
+boating-accidents:AL:2022,stateName,Alabama
+boating-accidents:AR:2022,stateName,Arkansas
+boating-accidents:AS:2022,stateName,American Samoa
+boating-accidents:AZ:2022,stateName,Arizona
+boating-accidents:CA:2022,stateName,California
+boating-accidents:CO:2022,stateName,Colorado
+boating-accidents:CT:2022,stateName,Connecticut
+boating-accidents:DC:2022,stateName,District of Columbia
+boating-accidents:DE:2022,stateName,Delaware
+boating-accidents:FL:2022,stateName,Florida
+boating-accidents:GA:2022,stateName,Georgia
+boating-accidents:GU:2022,stateName,Guam
+boating-accidents:HI:2022,stateName,Hawaii
+boating-accidents:IA:2022,stateName,Iowa
+boating-accidents:ID:2022,stateName,Idaho
+boating-accidents:IL:2022,stateName,Illinois
+boating-accidents:IN:2022,stateName,Indiana
+boating-accidents:KS:2022,stateName,Kansas
+boating-accidents:KY:2022,stateName,Kentucky
+boating-accidents:LA:2022,stateName,Louisiana
+boating-accidents:MA:2022,stateName,Massachusetts
+boating-accidents:MD:2022,stateName,Maryland
+boating-accidents:ME:2022,stateName,Maine
+boating-accidents:MI:2022,stateName,Michigan
+boating-accidents:MN:2022,stateName,Minnesota
+boating-accidents:MO:2022,stateName,Missouri
+boating-accidents:MP:2022,stateName,Northern Mariana Islands
+boating-accidents:MS:2022,stateName,Mississippi
+boating-accidents:MT:2022,stateName,Montana
+boating-accidents:NC:2022,stateName,North Carolina
+boating-accidents:ND:2022,stateName,North Dakota
+boating-accidents:NE:2022,stateName,Nebraska
+boating-accidents:NH:2022,stateName,New Hampshire
+boating-accidents:NJ:2022,stateName,New Jersey
+boating-accidents:NM:2022,stateName,New Mexico
+boating-accidents:NV:2022,stateName,Nevada
+boating-accidents:NY:2022,stateName,New York
+boating-accidents:OH:2022,stateName,Ohio
+boating-accidents:OK:2022,stateName,Oklahoma
+boating-accidents:OR:2022,stateName,Oregon
+boating-accidents:PA:2022,stateName,Pennsylvania
+boating-accidents:PR:2022,stateName,Puerto Rico
+boating-accidents:RI:2022,stateName,Rhode Island
+boating-accidents:SC:2022,stateName,South Carolina
+boating-accidents:SD:2022,stateName,South Dakota
+boating-accidents:TN:2022,stateName,Tennessee
+boating-accidents:TX:2022,stateName,Texas
+boating-accidents:UT:2022,stateName,Utah
+boating-accidents:VA:2022,stateName,Virginia
+boating-accidents:VI:2022,stateName,U.S. Virgin Islands
+boating-accidents:VT:2022,stateName,Vermont
+boating-accidents:WA:2022,stateName,Washington
+boating-accidents:WI:2022,stateName,Wisconsin
+boating-accidents:WV:2022,stateName,West Virginia
+boating-accidents:WY:2022,stateName,Wyoming
+boating-accidents:US:2023,incidents_outside_states,5
+boating-accidents:US:2023,deaths_outside_states,5
+boating-accidents:AK:2023,stateName,Alaska
+boating-accidents:AL:2023,stateName,Alabama
+boating-accidents:AR:2023,stateName,Arkansas
+boating-accidents:AS:2023,stateName,American Samoa
+boating-accidents:AZ:2023,stateName,Arizona
+boating-accidents:CA:2023,stateName,California
+boating-accidents:CO:2023,stateName,Colorado
+boating-accidents:CT:2023,stateName,Connecticut
+boating-accidents:DC:2023,stateName,District of Columbia
+boating-accidents:DE:2023,stateName,Delaware
+boating-accidents:FL:2023,stateName,Florida
+boating-accidents:GA:2023,stateName,Georgia
+boating-accidents:GU:2023,stateName,Guam
+boating-accidents:HI:2023,stateName,Hawaii
+boating-accidents:IA:2023,stateName,Iowa
+boating-accidents:ID:2023,stateName,Idaho
+boating-accidents:IL:2023,stateName,Illinois
+boating-accidents:IN:2023,stateName,Indiana
+boating-accidents:KS:2023,stateName,Kansas
+boating-accidents:KY:2023,stateName,Kentucky
+boating-accidents:LA:2023,stateName,Louisiana
+boating-accidents:MA:2023,stateName,Massachusetts
+boating-accidents:MD:2023,stateName,Maryland
+boating-accidents:ME:2023,stateName,Maine
+boating-accidents:MI:2023,stateName,Michigan
+boating-accidents:MN:2023,stateName,Minnesota
+boating-accidents:MO:2023,stateName,Missouri
+boating-accidents:MP:2023,stateName,Northern Mariana Islands
+boating-accidents:MS:2023,stateName,Mississippi
+boating-accidents:MT:2023,stateName,Montana
+boating-accidents:NC:2023,stateName,North Carolina
+boating-accidents:ND:2023,stateName,North Dakota
+boating-accidents:NE:2023,stateName,Nebraska
+boating-accidents:NH:2023,stateName,New Hampshire
+boating-accidents:NJ:2023,stateName,New Jersey
+boating-accidents:NM:2023,stateName,New Mexico
+boating-accidents:NV:2023,stateName,Nevada
+boating-accidents:NY:2023,stateName,New York
+boating-accidents:OH:2023,stateName,Ohio
+boating-accidents:OK:2023,stateName,Oklahoma
+boating-accidents:OR:2023,stateName,Oregon
+boating-accidents:PA:2023,stateName,Pennsylvania
+boating-accidents:PR:2023,stateName,Puerto Rico
+boating-accidents:RI:2023,stateName,Rhode Island
+boating-accidents:SC:2023,stateName,South Carolina
+boating-accidents:SD:2023,stateName,South Dakota
+boating-accidents:TN:2023,stateName,Tennessee
+boating-accidents:TX:2023,stateName,Texas
+boating-accidents:UT:2023,stateName,Utah
+boating-accidents:VA:2023,stateName,Virginia
+boating-accidents:VI:2023,stateName,U.S. Virgin Islands
+boating-accidents:VT:2023,stateName,Vermont
+boating-accidents:WA:2023,stateName,Washington
+boating-accidents:WI:2023,stateName,Wisconsin
+boating-accidents:WV:2023,stateName,West Virginia
+boating-accidents:WY:2023,stateName,Wyoming
+boating-accidents:US:2024,incidents_outside_states,13
+boating-accidents:US:2024,deaths_outside_states,6
+boating-accidents:AK:2024,stateName,Alaska
+boating-accidents:AL:2024,stateName,Alabama
+boating-accidents:AR:2024,stateName,Arkansas
+boating-accidents:AS:2024,stateName,American Samoa
+boating-accidents:AZ:2024,stateName,Arizona
+boating-accidents:CA:2024,stateName,California
+boating-accidents:CO:2024,stateName,Colorado
+boating-accidents:CT:2024,stateName,Connecticut
+boating-accidents:DC:2024,stateName,District of Columbia
+boating-accidents:DE:2024,stateName,Delaware
+boating-accidents:FL:2024,stateName,Florida
+boating-accidents:GA:2024,stateName,Georgia
+boating-accidents:GU:2024,stateName,Guam
+boating-accidents:HI:2024,stateName,Hawaii
+boating-accidents:IA:2024,stateName,Iowa
+boating-accidents:ID:2024,stateName,Idaho
+boating-accidents:IL:2024,stateName,Illinois
+boating-accidents:IN:2024,stateName,Indiana
+boating-accidents:KS:2024,stateName,Kansas
+boating-accidents:KY:2024,stateName,Kentucky
+boating-accidents:LA:2024,stateName,Louisiana
+boating-accidents:MA:2024,stateName,Massachusetts
+boating-accidents:MD:2024,stateName,Maryland
+boating-accidents:ME:2024,stateName,Maine
+boating-accidents:MI:2024,stateName,Michigan
+boating-accidents:MN:2024,stateName,Minnesota
+boating-accidents:MO:2024,stateName,Missouri
+boating-accidents:MP:2024,stateName,Northern Mariana Islands
+boating-accidents:MS:2024,stateName,Mississippi
+boating-accidents:MT:2024,stateName,Montana
+boating-accidents:NC:2024,stateName,North Carolina
+boating-accidents:ND:2024,stateName,North Dakota
+boating-accidents:NE:2024,stateName,Nebraska
+boating-accidents:NH:2024,stateName,New Hampshire
+boating-accidents:NJ:2024,stateName,New Jersey
+boating-accidents:NM:2024,stateName,New Mexico
+boating-accidents:NV:2024,stateName,Nevada
+boating-accidents:NY:2024,stateName,New York
+boating-accidents:OH:2024,stateName,Ohio
+boating-accidents:OK:2024,stateName,Oklahoma
+boating-accidents:OR:2024,stateName,Oregon
+boating-accidents:PA:2024,stateName,Pennsylvania
+boating-accidents:PR:2024,stateName,Puerto Rico
+boating-accidents:RI:2024,stateName,Rhode Island
+boating-accidents:SC:2024,stateName,South Carolina
+boating-accidents:SD:2024,stateName,South Dakota
+boating-accidents:TN:2024,stateName,Tennessee
+boating-accidents:TX:2024,stateName,Texas
+boating-accidents:UT:2024,stateName,Utah
+boating-accidents:VA:2024,stateName,Virginia
+boating-accidents:VI:2024,stateName,U.S. Virgin Islands
+boating-accidents:VT:2024,stateName,Vermont
+boating-accidents:WA:2024,stateName,Washington
+boating-accidents:WI:2024,stateName,Wisconsin
+boating-accidents:WV:2024,stateName,West Virginia
+boating-accidents:WY:2024,stateName,Wyoming

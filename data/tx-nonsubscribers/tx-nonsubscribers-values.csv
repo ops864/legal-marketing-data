@@ -1,0 +1,1272 @@
+id,column,value
+tx-nonsubscribers:TX,filings,17487
+tx-nonsubscribers:TX,filings_texas,17235
+tx-nonsubscribers:TX,filings_no_texas_address,252
+tx-nonsubscribers:TX,counties,248
+tx-nonsubscribers:TX,filings_2024,379
+tx-nonsubscribers:TX,filings_2025,8902
+tx-nonsubscribers:TX,filings_2026,8206
+tx-nonsubscribers:county:48201,county,48201
+tx-nonsubscribers:county:48201,countyName,Harris County
+tx-nonsubscribers:county:48201,employers,2926
+tx-nonsubscribers:county:48201,employers_2024,83
+tx-nonsubscribers:county:48201,employers_2025,1500
+tx-nonsubscribers:county:48201,employers_2026,1343
+tx-nonsubscribers:county:48113,county,48113
+tx-nonsubscribers:county:48113,countyName,Dallas County
+tx-nonsubscribers:county:48113,employers,2508
+tx-nonsubscribers:county:48113,employers_2024,40
+tx-nonsubscribers:county:48113,employers_2025,1368
+tx-nonsubscribers:county:48113,employers_2026,1100
+tx-nonsubscribers:county:48439,county,48439
+tx-nonsubscribers:county:48439,countyName,Tarrant County
+tx-nonsubscribers:county:48439,employers,1790
+tx-nonsubscribers:county:48439,employers_2024,54
+tx-nonsubscribers:county:48439,employers_2025,920
+tx-nonsubscribers:county:48439,employers_2026,816
+tx-nonsubscribers:county:48029,county,48029
+tx-nonsubscribers:county:48029,countyName,Bexar County
+tx-nonsubscribers:county:48029,employers,1427
+tx-nonsubscribers:county:48029,employers_2024,22
+tx-nonsubscribers:county:48029,employers_2025,879
+tx-nonsubscribers:county:48029,employers_2026,526
+tx-nonsubscribers:county:48085,county,48085
+tx-nonsubscribers:county:48085,countyName,Collin County
+tx-nonsubscribers:county:48085,employers,1183
+tx-nonsubscribers:county:48085,employers_2024,16
+tx-nonsubscribers:county:48085,employers_2025,618
+tx-nonsubscribers:county:48085,employers_2026,549
+tx-nonsubscribers:county:48453,county,48453
+tx-nonsubscribers:county:48453,countyName,Travis County
+tx-nonsubscribers:county:48453,employers,1153
+tx-nonsubscribers:county:48453,employers_2024,33
+tx-nonsubscribers:county:48453,employers_2025,603
+tx-nonsubscribers:county:48453,employers_2026,517
+tx-nonsubscribers:county:48121,county,48121
+tx-nonsubscribers:county:48121,countyName,Denton County
+tx-nonsubscribers:county:48121,employers,973
+tx-nonsubscribers:county:48121,employers_2024,15
+tx-nonsubscribers:county:48121,employers_2025,518
+tx-nonsubscribers:county:48121,employers_2026,440
+tx-nonsubscribers:county:48339,county,48339
+tx-nonsubscribers:county:48339,countyName,Montgomery County
+tx-nonsubscribers:county:48339,employers,677
+tx-nonsubscribers:county:48339,employers_2024,12
+tx-nonsubscribers:county:48339,employers_2025,337
+tx-nonsubscribers:county:48339,employers_2026,328
+tx-nonsubscribers:county:48157,county,48157
+tx-nonsubscribers:county:48157,countyName,Fort Bend County
+tx-nonsubscribers:county:48157,employers,661
+tx-nonsubscribers:county:48157,employers_2024,9
+tx-nonsubscribers:county:48157,employers_2025,333
+tx-nonsubscribers:county:48157,employers_2026,319
+tx-nonsubscribers:county:48141,county,48141
+tx-nonsubscribers:county:48141,countyName,El Paso County
+tx-nonsubscribers:county:48141,employers,638
+tx-nonsubscribers:county:48141,employers_2024,5
+tx-nonsubscribers:county:48141,employers_2025,335
+tx-nonsubscribers:county:48141,employers_2026,298
+tx-nonsubscribers:county:48491,county,48491
+tx-nonsubscribers:county:48491,countyName,Williamson County
+tx-nonsubscribers:county:48491,employers,571
+tx-nonsubscribers:county:48491,employers_2024,7
+tx-nonsubscribers:county:48491,employers_2025,319
+tx-nonsubscribers:county:48491,employers_2026,245
+tx-nonsubscribers:county:48215,county,48215
+tx-nonsubscribers:county:48215,countyName,Hidalgo County
+tx-nonsubscribers:county:48215,employers,563
+tx-nonsubscribers:county:48215,employers_2024,6
+tx-nonsubscribers:county:48215,employers_2025,309
+tx-nonsubscribers:county:48215,employers_2026,248
+tx-nonsubscribers:county:48355,county,48355
+tx-nonsubscribers:county:48355,countyName,Nueces County
+tx-nonsubscribers:county:48355,employers,547
+tx-nonsubscribers:county:48355,employers_2024,7
+tx-nonsubscribers:county:48355,employers_2025,285
+tx-nonsubscribers:county:48355,employers_2026,255
+tx-nonsubscribers:county:48303,county,48303
+tx-nonsubscribers:county:48303,countyName,Lubbock County
+tx-nonsubscribers:county:48303,employers,433
+tx-nonsubscribers:county:48303,employers_2024,5
+tx-nonsubscribers:county:48303,employers_2025,203
+tx-nonsubscribers:county:48303,employers_2026,225
+tx-nonsubscribers:county:48251,county,48251
+tx-nonsubscribers:county:48251,countyName,Johnson County
+tx-nonsubscribers:county:48251,employers,371
+tx-nonsubscribers:county:48251,employers_2024,2
+tx-nonsubscribers:county:48251,employers_2025,185
+tx-nonsubscribers:county:48251,employers_2026,184
+tx-nonsubscribers:county:48027,county,48027
+tx-nonsubscribers:county:48027,countyName,Bell County
+tx-nonsubscribers:county:48027,employers,369
+tx-nonsubscribers:county:48027,employers_2024,1
+tx-nonsubscribers:county:48027,employers_2025,203
+tx-nonsubscribers:county:48027,employers_2026,165
+tx-nonsubscribers:county:48375,county,48375
+tx-nonsubscribers:county:48375,countyName,Potter County
+tx-nonsubscribers:county:48375,employers,369
+tx-nonsubscribers:county:48375,employers_2024,2
+tx-nonsubscribers:county:48375,employers_2025,196
+tx-nonsubscribers:county:48375,employers_2026,171
+tx-nonsubscribers:county:48039,county,48039
+tx-nonsubscribers:county:48039,countyName,Brazoria County
+tx-nonsubscribers:county:48039,employers,347
+tx-nonsubscribers:county:48039,employers_2024,3
+tx-nonsubscribers:county:48039,employers_2025,172
+tx-nonsubscribers:county:48039,employers_2026,172
+tx-nonsubscribers:county:48423,county,48423
+tx-nonsubscribers:county:48423,countyName,Smith County
+tx-nonsubscribers:county:48423,employers,344
+tx-nonsubscribers:county:48423,employers_2024,5
+tx-nonsubscribers:county:48423,employers_2025,177
+tx-nonsubscribers:county:48423,employers_2026,162
+tx-nonsubscribers:county:48209,county,48209
+tx-nonsubscribers:county:48209,countyName,Hays County
+tx-nonsubscribers:county:48209,employers,333
+tx-nonsubscribers:county:48209,employers_2024,5
+tx-nonsubscribers:county:48209,employers_2025,160
+tx-nonsubscribers:county:48209,employers_2026,168
+tx-nonsubscribers:county:48367,county,48367
+tx-nonsubscribers:county:48367,countyName,Parker County
+tx-nonsubscribers:county:48367,employers,322
+tx-nonsubscribers:county:48367,employers_2024,4
+tx-nonsubscribers:county:48367,employers_2025,160
+tx-nonsubscribers:county:48367,employers_2026,158
+tx-nonsubscribers:county:48167,county,48167
+tx-nonsubscribers:county:48167,countyName,Galveston County
+tx-nonsubscribers:county:48167,employers,317
+tx-nonsubscribers:county:48167,employers_2024,11
+tx-nonsubscribers:county:48167,employers_2025,156
+tx-nonsubscribers:county:48167,employers_2026,150
+tx-nonsubscribers:county:48139,county,48139
+tx-nonsubscribers:county:48139,countyName,Ellis County
+tx-nonsubscribers:county:48139,employers,305
+tx-nonsubscribers:county:48139,employers_2024,4
+tx-nonsubscribers:county:48139,employers_2025,158
+tx-nonsubscribers:county:48139,employers_2026,143
+tx-nonsubscribers:county:48309,county,48309
+tx-nonsubscribers:county:48309,countyName,McLennan County
+tx-nonsubscribers:county:48309,employers,299
+tx-nonsubscribers:county:48309,employers_2024,1
+tx-nonsubscribers:county:48309,employers_2025,157
+tx-nonsubscribers:county:48309,employers_2026,141
+tx-nonsubscribers:county:48181,county,48181
+tx-nonsubscribers:county:48181,countyName,Grayson County
+tx-nonsubscribers:county:48181,employers,291
+tx-nonsubscribers:county:48181,employers_2024,2
+tx-nonsubscribers:county:48181,employers_2025,152
+tx-nonsubscribers:county:48181,employers_2026,137
+tx-nonsubscribers:county:48187,county,48187
+tx-nonsubscribers:county:48187,countyName,Guadalupe County
+tx-nonsubscribers:county:48187,employers,287
+tx-nonsubscribers:county:48187,employers_2024,4
+tx-nonsubscribers:county:48187,employers_2025,159
+tx-nonsubscribers:county:48187,employers_2026,124
+tx-nonsubscribers:county:48061,county,48061
+tx-nonsubscribers:county:48061,countyName,Cameron County
+tx-nonsubscribers:county:48061,employers,285
+tx-nonsubscribers:county:48061,employers_2024,3
+tx-nonsubscribers:county:48061,employers_2025,161
+tx-nonsubscribers:county:48061,employers_2026,121
+tx-nonsubscribers:county:48479,county,48479
+tx-nonsubscribers:county:48479,countyName,Webb County
+tx-nonsubscribers:county:48479,employers,283
+tx-nonsubscribers:county:48479,employers_2024,3
+tx-nonsubscribers:county:48479,employers_2025,137
+tx-nonsubscribers:county:48479,employers_2026,143
+tx-nonsubscribers:county:48441,county,48441
+tx-nonsubscribers:county:48441,countyName,Taylor County
+tx-nonsubscribers:county:48441,employers,280
+tx-nonsubscribers:county:48441,employers_2024,2
+tx-nonsubscribers:county:48441,employers_2025,158
+tx-nonsubscribers:county:48441,employers_2026,120
+tx-nonsubscribers:county:48245,county,48245
+tx-nonsubscribers:county:48245,countyName,Jefferson County
+tx-nonsubscribers:county:48245,employers,266
+tx-nonsubscribers:county:48245,employers_2024,6
+tx-nonsubscribers:county:48245,employers_2025,137
+tx-nonsubscribers:county:48245,employers_2026,123
+tx-nonsubscribers:county:48041,county,48041
+tx-nonsubscribers:county:48041,countyName,Brazos County
+tx-nonsubscribers:county:48041,employers,259
+tx-nonsubscribers:county:48041,employers_2024,1
+tx-nonsubscribers:county:48041,employers_2025,126
+tx-nonsubscribers:county:48041,employers_2026,132
+tx-nonsubscribers:county:48397,county,48397
+tx-nonsubscribers:county:48397,countyName,Rockwall County
+tx-nonsubscribers:county:48397,employers,259
+tx-nonsubscribers:county:48397,employers_2024,3
+tx-nonsubscribers:county:48397,employers_2025,141
+tx-nonsubscribers:county:48397,employers_2026,115
+tx-nonsubscribers:county:48485,county,48485
+tx-nonsubscribers:county:48485,countyName,Wichita County
+tx-nonsubscribers:county:48485,employers,255
+tx-nonsubscribers:county:48485,employers_2024,4
+tx-nonsubscribers:county:48485,employers_2025,136
+tx-nonsubscribers:county:48485,employers_2026,115
+tx-nonsubscribers:county:48451,county,48451
+tx-nonsubscribers:county:48451,countyName,Tom Green County
+tx-nonsubscribers:county:48451,employers,238
+tx-nonsubscribers:county:48451,employers_2024,1
+tx-nonsubscribers:county:48451,employers_2025,135
+tx-nonsubscribers:county:48451,employers_2026,102
+tx-nonsubscribers:county:48135,county,48135
+tx-nonsubscribers:county:48135,countyName,Ector County
+tx-nonsubscribers:county:48135,employers,230
+tx-nonsubscribers:county:48135,employers_2024,2
+tx-nonsubscribers:county:48135,employers_2025,128
+tx-nonsubscribers:county:48135,employers_2026,100
+tx-nonsubscribers:county:48183,county,48183
+tx-nonsubscribers:county:48183,countyName,Gregg County
+tx-nonsubscribers:county:48183,employers,220
+tx-nonsubscribers:county:48183,employers_2024,2
+tx-nonsubscribers:county:48183,employers_2025,109
+tx-nonsubscribers:county:48183,employers_2026,109
+tx-nonsubscribers:county:48257,county,48257
+tx-nonsubscribers:county:48257,countyName,Kaufman County
+tx-nonsubscribers:county:48257,employers,218
+tx-nonsubscribers:county:48257,employers_2024,2
+tx-nonsubscribers:county:48257,employers_2025,96
+tx-nonsubscribers:county:48257,employers_2026,120
+tx-nonsubscribers:county:48231,county,48231
+tx-nonsubscribers:county:48231,countyName,Hunt County
+tx-nonsubscribers:county:48231,employers,203
+tx-nonsubscribers:county:48231,employers_2024,5
+tx-nonsubscribers:county:48231,employers_2025,101
+tx-nonsubscribers:county:48231,employers_2026,97
+tx-nonsubscribers:county:48381,county,48381
+tx-nonsubscribers:county:48381,countyName,Randall County
+tx-nonsubscribers:county:48381,employers,200
+tx-nonsubscribers:county:48381,employers_2025,104
+tx-nonsubscribers:county:48381,employers_2026,96
+tx-nonsubscribers:county:48349,county,48349
+tx-nonsubscribers:county:48349,countyName,Navarro County
+tx-nonsubscribers:county:48349,employers,190
+tx-nonsubscribers:county:48349,employers_2024,2
+tx-nonsubscribers:county:48349,employers_2025,105
+tx-nonsubscribers:county:48349,employers_2026,83
+tx-nonsubscribers:county:48021,county,48021
+tx-nonsubscribers:county:48021,countyName,Bastrop County
+tx-nonsubscribers:county:48021,employers,177
+tx-nonsubscribers:county:48021,employers_2025,89
+tx-nonsubscribers:county:48021,employers_2026,88
+tx-nonsubscribers:county:48329,county,48329
+tx-nonsubscribers:county:48329,countyName,Midland County
+tx-nonsubscribers:county:48329,employers,170
+tx-nonsubscribers:county:48329,employers_2024,1
+tx-nonsubscribers:county:48329,employers_2025,85
+tx-nonsubscribers:county:48329,employers_2026,84
+tx-nonsubscribers:county:48497,county,48497
+tx-nonsubscribers:county:48497,countyName,Wise County
+tx-nonsubscribers:county:48497,employers,170
+tx-nonsubscribers:county:48497,employers_2025,83
+tx-nonsubscribers:county:48497,employers_2026,87
+tx-nonsubscribers:county:48053,county,48053
+tx-nonsubscribers:county:48053,countyName,Burnet County
+tx-nonsubscribers:county:48053,employers,161
+tx-nonsubscribers:county:48053,employers_2024,1
+tx-nonsubscribers:county:48053,employers_2025,87
+tx-nonsubscribers:county:48053,employers_2026,73
+tx-nonsubscribers:county:48005,county,48005
+tx-nonsubscribers:county:48005,countyName,Angelina County
+tx-nonsubscribers:county:48005,employers,160
+tx-nonsubscribers:county:48005,employers_2025,79
+tx-nonsubscribers:county:48005,employers_2026,81
+tx-nonsubscribers:county:48037,county,48037
+tx-nonsubscribers:county:48037,countyName,Bowie County
+tx-nonsubscribers:county:48037,employers,156
+tx-nonsubscribers:county:48037,employers_2024,3
+tx-nonsubscribers:county:48037,employers_2025,77
+tx-nonsubscribers:county:48037,employers_2026,76
+tx-nonsubscribers:county:48265,county,48265
+tx-nonsubscribers:county:48265,countyName,Kerr County
+tx-nonsubscribers:county:48265,employers,156
+tx-nonsubscribers:county:48265,employers_2024,6
+tx-nonsubscribers:county:48265,employers_2025,80
+tx-nonsubscribers:county:48265,employers_2026,70
+tx-nonsubscribers:county:48469,county,48469
+tx-nonsubscribers:county:48469,countyName,Victoria County
+tx-nonsubscribers:county:48469,employers,152
+tx-nonsubscribers:county:48469,employers_2024,1
+tx-nonsubscribers:county:48469,employers_2025,82
+tx-nonsubscribers:county:48469,employers_2026,69
+tx-nonsubscribers:county:48171,county,48171
+tx-nonsubscribers:county:48171,countyName,Gillespie County
+tx-nonsubscribers:county:48171,employers,149
+tx-nonsubscribers:county:48171,employers_2025,80
+tx-nonsubscribers:county:48171,employers_2026,69
+tx-nonsubscribers:county:48091,county,48091
+tx-nonsubscribers:county:48091,countyName,Comal County
+tx-nonsubscribers:county:48091,employers,146
+tx-nonsubscribers:county:48091,employers_2024,2
+tx-nonsubscribers:county:48091,employers_2025,78
+tx-nonsubscribers:county:48091,employers_2026,66
+tx-nonsubscribers:county:48097,county,48097
+tx-nonsubscribers:county:48097,countyName,Cooke County
+tx-nonsubscribers:county:48097,employers,140
+tx-nonsubscribers:county:48097,employers_2025,75
+tx-nonsubscribers:county:48097,employers_2026,65
+tx-nonsubscribers:county:48259,county,48259
+tx-nonsubscribers:county:48259,countyName,Kendall County
+tx-nonsubscribers:county:48259,employers,138
+tx-nonsubscribers:county:48259,employers_2025,76
+tx-nonsubscribers:county:48259,employers_2026,62
+tx-nonsubscribers:county:48253,county,48253
+tx-nonsubscribers:county:48253,countyName,Jones County
+tx-nonsubscribers:county:48253,employers,136
+tx-nonsubscribers:county:48253,employers_2024,3
+tx-nonsubscribers:county:48253,employers_2025,77
+tx-nonsubscribers:county:48253,employers_2026,56
+tx-nonsubscribers:county:48143,county,48143
+tx-nonsubscribers:county:48143,countyName,Erath County
+tx-nonsubscribers:county:48143,employers,132
+tx-nonsubscribers:county:48143,employers_2025,62
+tx-nonsubscribers:county:48143,employers_2026,70
+tx-nonsubscribers:county:48409,county,48409
+tx-nonsubscribers:county:48409,countyName,San Patricio County
+tx-nonsubscribers:county:48409,employers,123
+tx-nonsubscribers:county:48409,employers_2024,2
+tx-nonsubscribers:county:48409,employers_2025,60
+tx-nonsubscribers:county:48409,employers_2026,61
+tx-nonsubscribers:county:48001,county,48001
+tx-nonsubscribers:county:48001,countyName,Anderson County
+tx-nonsubscribers:county:48001,employers,119
+tx-nonsubscribers:county:48001,employers_2025,56
+tx-nonsubscribers:county:48001,employers_2026,63
+tx-nonsubscribers:county:48219,county,48219
+tx-nonsubscribers:county:48219,countyName,Hockley County
+tx-nonsubscribers:county:48219,employers,119
+tx-nonsubscribers:county:48219,employers_2025,64
+tx-nonsubscribers:county:48219,employers_2026,55
+tx-nonsubscribers:county:48221,county,48221
+tx-nonsubscribers:county:48221,countyName,Hood County
+tx-nonsubscribers:county:48221,employers,117
+tx-nonsubscribers:county:48221,employers_2024,1
+tx-nonsubscribers:county:48221,employers_2025,50
+tx-nonsubscribers:county:48221,employers_2026,66
+tx-nonsubscribers:county:48477,county,48477
+tx-nonsubscribers:county:48477,countyName,Washington County
+tx-nonsubscribers:county:48477,employers,107
+tx-nonsubscribers:county:48477,employers_2025,56
+tx-nonsubscribers:county:48477,employers_2026,51
+tx-nonsubscribers:county:48213,county,48213
+tx-nonsubscribers:county:48213,countyName,Henderson County
+tx-nonsubscribers:county:48213,employers,104
+tx-nonsubscribers:county:48213,employers_2024,3
+tx-nonsubscribers:county:48213,employers_2025,49
+tx-nonsubscribers:county:48213,employers_2026,52
+tx-nonsubscribers:county:48373,county,48373
+tx-nonsubscribers:county:48373,countyName,Polk County
+tx-nonsubscribers:county:48373,employers,104
+tx-nonsubscribers:county:48373,employers_2025,47
+tx-nonsubscribers:county:48373,employers_2026,57
+tx-nonsubscribers:county:48049,county,48049
+tx-nonsubscribers:county:48049,countyName,Brown County
+tx-nonsubscribers:county:48049,employers,103
+tx-nonsubscribers:county:48049,employers_2025,57
+tx-nonsubscribers:county:48049,employers_2026,46
+tx-nonsubscribers:county:48203,county,48203
+tx-nonsubscribers:county:48203,countyName,Harrison County
+tx-nonsubscribers:county:48203,employers,103
+tx-nonsubscribers:county:48203,employers_2024,2
+tx-nonsubscribers:county:48203,employers_2025,54
+tx-nonsubscribers:county:48203,employers_2026,47
+tx-nonsubscribers:county:48317,county,48317
+tx-nonsubscribers:county:48317,countyName,Martin County
+tx-nonsubscribers:county:48317,employers,99
+tx-nonsubscribers:county:48317,employers_2025,54
+tx-nonsubscribers:county:48317,employers_2026,45
+tx-nonsubscribers:county:48467,county,48467
+tx-nonsubscribers:county:48467,countyName,Van Zandt County
+tx-nonsubscribers:county:48467,employers,99
+tx-nonsubscribers:county:48467,employers_2024,2
+tx-nonsubscribers:county:48467,employers_2025,54
+tx-nonsubscribers:county:48467,employers_2026,43
+tx-nonsubscribers:county:48481,county,48481
+tx-nonsubscribers:county:48481,countyName,Wharton County
+tx-nonsubscribers:county:48481,employers,99
+tx-nonsubscribers:county:48481,employers_2024,2
+tx-nonsubscribers:county:48481,employers_2025,54
+tx-nonsubscribers:county:48481,employers_2026,43
+tx-nonsubscribers:county:48149,county,48149
+tx-nonsubscribers:county:48149,countyName,Fayette County
+tx-nonsubscribers:county:48149,employers,97
+tx-nonsubscribers:county:48149,employers_2025,40
+tx-nonsubscribers:county:48149,employers_2026,57
+tx-nonsubscribers:county:48277,county,48277
+tx-nonsubscribers:county:48277,countyName,Lamar County
+tx-nonsubscribers:county:48277,employers,97
+tx-nonsubscribers:county:48277,employers_2025,44
+tx-nonsubscribers:county:48277,employers_2026,53
+tx-nonsubscribers:county:48465,county,48465
+tx-nonsubscribers:county:48465,countyName,Val Verde County
+tx-nonsubscribers:county:48465,employers,97
+tx-nonsubscribers:county:48465,employers_2024,1
+tx-nonsubscribers:county:48465,employers_2025,57
+tx-nonsubscribers:county:48465,employers_2026,39
+tx-nonsubscribers:county:48471,county,48471
+tx-nonsubscribers:county:48471,countyName,Walker County
+tx-nonsubscribers:county:48471,employers,96
+tx-nonsubscribers:county:48471,employers_2025,43
+tx-nonsubscribers:county:48471,employers_2026,53
+tx-nonsubscribers:county:48177,county,48177
+tx-nonsubscribers:county:48177,countyName,Gonzales County
+tx-nonsubscribers:county:48177,employers,95
+tx-nonsubscribers:county:48177,employers_2025,41
+tx-nonsubscribers:county:48177,employers_2026,54
+tx-nonsubscribers:county:48291,county,48291
+tx-nonsubscribers:county:48291,countyName,Liberty County
+tx-nonsubscribers:county:48291,employers,95
+tx-nonsubscribers:county:48291,employers_2024,4
+tx-nonsubscribers:county:48291,employers_2025,43
+tx-nonsubscribers:county:48291,employers_2026,48
+tx-nonsubscribers:county:48337,county,48337
+tx-nonsubscribers:county:48337,countyName,Montague County
+tx-nonsubscribers:county:48337,employers,95
+tx-nonsubscribers:county:48337,employers_2024,2
+tx-nonsubscribers:county:48337,employers_2025,46
+tx-nonsubscribers:county:48337,employers_2026,47
+tx-nonsubscribers:county:48071,county,48071
+tx-nonsubscribers:county:48071,countyName,Chambers County
+tx-nonsubscribers:county:48071,employers,92
+tx-nonsubscribers:county:48071,employers_2024,2
+tx-nonsubscribers:county:48071,employers_2025,46
+tx-nonsubscribers:county:48071,employers_2026,44
+tx-nonsubscribers:county:48273,county,48273
+tx-nonsubscribers:county:48273,countyName,Kleberg County
+tx-nonsubscribers:county:48273,employers,90
+tx-nonsubscribers:county:48273,employers_2025,45
+tx-nonsubscribers:county:48273,employers_2026,45
+tx-nonsubscribers:county:48347,county,48347
+tx-nonsubscribers:county:48347,countyName,Nacogdoches County
+tx-nonsubscribers:county:48347,employers,88
+tx-nonsubscribers:county:48347,employers_2025,40
+tx-nonsubscribers:county:48347,employers_2026,48
+tx-nonsubscribers:county:48473,county,48473
+tx-nonsubscribers:county:48473,countyName,Waller County
+tx-nonsubscribers:county:48473,employers,87
+tx-nonsubscribers:county:48473,employers_2024,1
+tx-nonsubscribers:county:48473,employers_2025,35
+tx-nonsubscribers:county:48473,employers_2026,51
+tx-nonsubscribers:county:48217,county,48217
+tx-nonsubscribers:county:48217,countyName,Hill County
+tx-nonsubscribers:county:48217,employers,86
+tx-nonsubscribers:county:48217,employers_2024,6
+tx-nonsubscribers:county:48217,employers_2025,42
+tx-nonsubscribers:county:48217,employers_2026,38
+tx-nonsubscribers:county:48299,county,48299
+tx-nonsubscribers:county:48299,countyName,Llano County
+tx-nonsubscribers:county:48299,employers,86
+tx-nonsubscribers:county:48299,employers_2025,46
+tx-nonsubscribers:county:48299,employers_2026,40
+tx-nonsubscribers:county:48089,county,48089
+tx-nonsubscribers:county:48089,countyName,Colorado County
+tx-nonsubscribers:county:48089,employers,85
+tx-nonsubscribers:county:48089,employers_2025,46
+tx-nonsubscribers:county:48089,employers_2026,39
+tx-nonsubscribers:county:48073,county,48073
+tx-nonsubscribers:county:48073,countyName,Cherokee County
+tx-nonsubscribers:county:48073,employers,84
+tx-nonsubscribers:county:48073,employers_2024,5
+tx-nonsubscribers:county:48073,employers_2025,42
+tx-nonsubscribers:county:48073,employers_2026,37
+tx-nonsubscribers:county:48199,county,48199
+tx-nonsubscribers:county:48199,countyName,Hardin County
+tx-nonsubscribers:county:48199,employers,84
+tx-nonsubscribers:county:48199,employers_2024,2
+tx-nonsubscribers:county:48199,employers_2025,46
+tx-nonsubscribers:county:48199,employers_2026,36
+tx-nonsubscribers:county:48493,county,48493
+tx-nonsubscribers:county:48493,countyName,Wilson County
+tx-nonsubscribers:county:48493,employers,84
+tx-nonsubscribers:county:48493,employers_2025,47
+tx-nonsubscribers:county:48493,employers_2026,37
+tx-nonsubscribers:county:48013,county,48013
+tx-nonsubscribers:county:48013,countyName,Atascosa County
+tx-nonsubscribers:county:48013,employers,82
+tx-nonsubscribers:county:48013,employers_2025,42
+tx-nonsubscribers:county:48013,employers_2026,40
+tx-nonsubscribers:county:48015,county,48015
+tx-nonsubscribers:county:48015,countyName,Austin County
+tx-nonsubscribers:county:48015,employers,80
+tx-nonsubscribers:county:48015,employers_2024,1
+tx-nonsubscribers:county:48015,employers_2025,42
+tx-nonsubscribers:county:48015,employers_2026,37
+tx-nonsubscribers:county:48099,county,48099
+tx-nonsubscribers:county:48099,countyName,Coryell County
+tx-nonsubscribers:county:48099,employers,80
+tx-nonsubscribers:county:48099,employers_2024,2
+tx-nonsubscribers:county:48099,employers_2025,40
+tx-nonsubscribers:county:48099,employers_2026,38
+tx-nonsubscribers:county:48325,county,48325
+tx-nonsubscribers:county:48325,countyName,Medina County
+tx-nonsubscribers:county:48325,employers,79
+tx-nonsubscribers:county:48325,employers_2024,1
+tx-nonsubscribers:county:48325,employers_2025,46
+tx-nonsubscribers:county:48325,employers_2026,32
+tx-nonsubscribers:county:48223,county,48223
+tx-nonsubscribers:county:48223,countyName,Hopkins County
+tx-nonsubscribers:county:48223,employers,78
+tx-nonsubscribers:county:48223,employers_2025,36
+tx-nonsubscribers:county:48223,employers_2026,42
+tx-nonsubscribers:county:48055,county,48055
+tx-nonsubscribers:county:48055,countyName,Caldwell County
+tx-nonsubscribers:county:48055,employers,77
+tx-nonsubscribers:county:48055,employers_2024,2
+tx-nonsubscribers:county:48055,employers_2025,37
+tx-nonsubscribers:county:48055,employers_2026,38
+tx-nonsubscribers:county:48361,county,48361
+tx-nonsubscribers:county:48361,countyName,Orange County
+tx-nonsubscribers:county:48361,employers,75
+tx-nonsubscribers:county:48361,employers_2024,4
+tx-nonsubscribers:county:48361,employers_2025,36
+tx-nonsubscribers:county:48361,employers_2026,35
+tx-nonsubscribers:county:48321,county,48321
+tx-nonsubscribers:county:48321,countyName,Matagorda County
+tx-nonsubscribers:county:48321,employers,74
+tx-nonsubscribers:county:48321,employers_2025,36
+tx-nonsubscribers:county:48321,employers_2026,38
+tx-nonsubscribers:county:48449,county,48449
+tx-nonsubscribers:county:48449,countyName,Titus County
+tx-nonsubscribers:county:48449,employers,74
+tx-nonsubscribers:county:48449,employers_2024,4
+tx-nonsubscribers:county:48449,employers_2025,34
+tx-nonsubscribers:county:48449,employers_2026,36
+tx-nonsubscribers:county:48323,county,48323
+tx-nonsubscribers:county:48323,countyName,Maverick County
+tx-nonsubscribers:county:48323,employers,68
+tx-nonsubscribers:county:48323,employers_2025,29
+tx-nonsubscribers:county:48323,employers_2026,39
+tx-nonsubscribers:county:48445,county,48445
+tx-nonsubscribers:county:48445,countyName,Terry County
+tx-nonsubscribers:county:48445,employers,67
+tx-nonsubscribers:county:48445,employers_2025,33
+tx-nonsubscribers:county:48445,employers_2026,34
+tx-nonsubscribers:county:48189,county,48189
+tx-nonsubscribers:county:48189,countyName,Hale County
+tx-nonsubscribers:county:48189,employers,66
+tx-nonsubscribers:county:48189,employers_2025,34
+tx-nonsubscribers:county:48189,employers_2026,32
+tx-nonsubscribers:county:48227,county,48227
+tx-nonsubscribers:county:48227,countyName,Howard County
+tx-nonsubscribers:county:48227,employers,66
+tx-nonsubscribers:county:48227,employers_2024,2
+tx-nonsubscribers:county:48227,employers_2025,39
+tx-nonsubscribers:county:48227,employers_2026,25
+tx-nonsubscribers:county:48363,county,48363
+tx-nonsubscribers:county:48363,countyName,Palo Pinto County
+tx-nonsubscribers:county:48363,employers,65
+tx-nonsubscribers:county:48363,employers_2024,1
+tx-nonsubscribers:county:48363,employers_2025,28
+tx-nonsubscribers:county:48363,employers_2026,36
+tx-nonsubscribers:county:48117,county,48117
+tx-nonsubscribers:county:48117,countyName,Deaf Smith County
+tx-nonsubscribers:county:48117,employers,64
+tx-nonsubscribers:county:48117,employers_2025,39
+tx-nonsubscribers:county:48117,employers_2026,25
+tx-nonsubscribers:county:48093,county,48093
+tx-nonsubscribers:county:48093,countyName,Comanche County
+tx-nonsubscribers:county:48093,employers,63
+tx-nonsubscribers:county:48093,employers_2025,33
+tx-nonsubscribers:county:48093,employers_2026,30
+tx-nonsubscribers:county:48499,county,48499
+tx-nonsubscribers:county:48499,countyName,Wood County
+tx-nonsubscribers:county:48499,employers,62
+tx-nonsubscribers:county:48499,employers_2025,28
+tx-nonsubscribers:county:48499,employers_2026,34
+tx-nonsubscribers:county:48133,county,48133
+tx-nonsubscribers:county:48133,countyName,Eastland County
+tx-nonsubscribers:county:48133,employers,57
+tx-nonsubscribers:county:48133,employers_2024,2
+tx-nonsubscribers:county:48133,employers_2025,29
+tx-nonsubscribers:county:48133,employers_2026,26
+tx-nonsubscribers:county:48211,county,48211
+tx-nonsubscribers:county:48211,countyName,Hemphill County
+tx-nonsubscribers:county:48211,employers,57
+tx-nonsubscribers:county:48211,employers_2025,29
+tx-nonsubscribers:county:48211,employers_2026,28
+tx-nonsubscribers:county:48249,county,48249
+tx-nonsubscribers:county:48249,countyName,Jim Wells County
+tx-nonsubscribers:county:48249,employers,57
+tx-nonsubscribers:county:48249,employers_2025,27
+tx-nonsubscribers:county:48249,employers_2026,30
+tx-nonsubscribers:county:48179,county,48179
+tx-nonsubscribers:county:48179,countyName,Gray County
+tx-nonsubscribers:county:48179,employers,56
+tx-nonsubscribers:county:48179,employers_2025,30
+tx-nonsubscribers:county:48179,employers_2026,26
+tx-nonsubscribers:county:48353,county,48353
+tx-nonsubscribers:county:48353,countyName,Nolan County
+tx-nonsubscribers:county:48353,employers,56
+tx-nonsubscribers:county:48353,employers_2025,33
+tx-nonsubscribers:county:48353,employers_2026,23
+tx-nonsubscribers:county:48147,county,48147
+tx-nonsubscribers:county:48147,countyName,Fannin County
+tx-nonsubscribers:county:48147,employers,55
+tx-nonsubscribers:county:48147,employers_2025,28
+tx-nonsubscribers:county:48147,employers_2026,27
+tx-nonsubscribers:county:48185,county,48185
+tx-nonsubscribers:county:48185,countyName,Grimes County
+tx-nonsubscribers:county:48185,employers,53
+tx-nonsubscribers:county:48185,employers_2024,2
+tx-nonsubscribers:county:48185,employers_2025,20
+tx-nonsubscribers:county:48185,employers_2026,31
+tx-nonsubscribers:county:48371,county,48371
+tx-nonsubscribers:county:48371,countyName,Pecos County
+tx-nonsubscribers:county:48371,employers,53
+tx-nonsubscribers:county:48371,employers_2025,26
+tx-nonsubscribers:county:48371,employers_2026,27
+tx-nonsubscribers:county:48281,county,48281
+tx-nonsubscribers:county:48281,countyName,Lampasas County
+tx-nonsubscribers:county:48281,employers,51
+tx-nonsubscribers:county:48281,employers_2025,27
+tx-nonsubscribers:county:48281,employers_2026,24
+tx-nonsubscribers:county:48389,county,48389
+tx-nonsubscribers:county:48389,countyName,Reeves County
+tx-nonsubscribers:county:48389,employers,51
+tx-nonsubscribers:county:48389,employers_2024,4
+tx-nonsubscribers:county:48389,employers_2025,26
+tx-nonsubscribers:county:48389,employers_2026,21
+tx-nonsubscribers:county:48293,county,48293
+tx-nonsubscribers:county:48293,countyName,Limestone County
+tx-nonsubscribers:county:48293,employers,49
+tx-nonsubscribers:county:48293,employers_2024,2
+tx-nonsubscribers:county:48293,employers_2025,24
+tx-nonsubscribers:county:48293,employers_2026,23
+tx-nonsubscribers:county:48427,county,48427
+tx-nonsubscribers:county:48427,countyName,Starr County
+tx-nonsubscribers:county:48427,employers,49
+tx-nonsubscribers:county:48427,employers_2025,23
+tx-nonsubscribers:county:48427,employers_2026,26
+tx-nonsubscribers:county:48331,county,48331
+tx-nonsubscribers:county:48331,countyName,Milam County
+tx-nonsubscribers:county:48331,employers,48
+tx-nonsubscribers:county:48331,employers_2025,22
+tx-nonsubscribers:county:48331,employers_2026,26
+tx-nonsubscribers:county:48415,county,48415
+tx-nonsubscribers:county:48415,countyName,Scurry County
+tx-nonsubscribers:county:48415,employers,48
+tx-nonsubscribers:county:48415,employers_2025,25
+tx-nonsubscribers:county:48415,employers_2026,23
+tx-nonsubscribers:county:48025,county,48025
+tx-nonsubscribers:county:48025,countyName,Bee County
+tx-nonsubscribers:county:48025,employers,45
+tx-nonsubscribers:county:48025,employers_2025,20
+tx-nonsubscribers:county:48025,employers_2026,25
+tx-nonsubscribers:county:48401,county,48401
+tx-nonsubscribers:county:48401,countyName,Rusk County
+tx-nonsubscribers:county:48401,employers,45
+tx-nonsubscribers:county:48401,employers_2025,18
+tx-nonsubscribers:county:48401,employers_2026,27
+tx-nonsubscribers:county:48463,county,48463
+tx-nonsubscribers:county:48463,countyName,Uvalde County
+tx-nonsubscribers:county:48463,employers,45
+tx-nonsubscribers:county:48463,employers_2025,24
+tx-nonsubscribers:county:48463,employers_2026,21
+tx-nonsubscribers:county:48127,county,48127
+tx-nonsubscribers:county:48127,countyName,Dimmit County
+tx-nonsubscribers:county:48127,employers,44
+tx-nonsubscribers:county:48127,employers_2024,2
+tx-nonsubscribers:county:48127,employers_2025,23
+tx-nonsubscribers:county:48127,employers_2026,19
+tx-nonsubscribers:county:48503,county,48503
+tx-nonsubscribers:county:48503,countyName,Young County
+tx-nonsubscribers:county:48503,employers,44
+tx-nonsubscribers:county:48503,employers_2025,19
+tx-nonsubscribers:county:48503,employers_2026,25
+tx-nonsubscribers:county:48067,county,48067
+tx-nonsubscribers:county:48067,countyName,Cass County
+tx-nonsubscribers:county:48067,employers,43
+tx-nonsubscribers:county:48067,employers_2025,20
+tx-nonsubscribers:county:48067,employers_2026,23
+tx-nonsubscribers:county:48111,county,48111
+tx-nonsubscribers:county:48111,countyName,Dallam County
+tx-nonsubscribers:county:48111,employers,43
+tx-nonsubscribers:county:48111,employers_2025,21
+tx-nonsubscribers:county:48111,employers_2026,22
+tx-nonsubscribers:county:48475,county,48475
+tx-nonsubscribers:county:48475,countyName,Ward County
+tx-nonsubscribers:county:48475,employers,43
+tx-nonsubscribers:county:48475,employers_2024,1
+tx-nonsubscribers:county:48475,employers_2025,21
+tx-nonsubscribers:county:48475,employers_2026,21
+tx-nonsubscribers:county:48007,county,48007
+tx-nonsubscribers:county:48007,countyName,Aransas County
+tx-nonsubscribers:county:48007,employers,42
+tx-nonsubscribers:county:48007,employers_2025,19
+tx-nonsubscribers:county:48007,employers_2026,23
+tx-nonsubscribers:county:48241,county,48241
+tx-nonsubscribers:county:48241,countyName,Jasper County
+tx-nonsubscribers:county:48241,employers,42
+tx-nonsubscribers:county:48241,employers_2025,21
+tx-nonsubscribers:county:48241,employers_2026,21
+tx-nonsubscribers:county:48003,county,48003
+tx-nonsubscribers:county:48003,countyName,Andrews County
+tx-nonsubscribers:county:48003,employers,41
+tx-nonsubscribers:county:48003,employers_2025,20
+tx-nonsubscribers:county:48003,employers_2026,21
+tx-nonsubscribers:county:48225,county,48225
+tx-nonsubscribers:county:48225,countyName,Houston County
+tx-nonsubscribers:county:48225,employers,41
+tx-nonsubscribers:county:48225,employers_2025,19
+tx-nonsubscribers:county:48225,employers_2026,22
+tx-nonsubscribers:county:48287,county,48287
+tx-nonsubscribers:county:48287,countyName,Lee County
+tx-nonsubscribers:county:48287,employers,41
+tx-nonsubscribers:county:48287,employers_2025,16
+tx-nonsubscribers:county:48287,employers_2026,25
+tx-nonsubscribers:county:48365,county,48365
+tx-nonsubscribers:county:48365,countyName,Panola County
+tx-nonsubscribers:county:48365,employers,41
+tx-nonsubscribers:county:48365,employers_2025,17
+tx-nonsubscribers:county:48365,employers_2026,24
+tx-nonsubscribers:county:48009,county,48009
+tx-nonsubscribers:county:48009,countyName,Archer County
+tx-nonsubscribers:county:48009,employers,40
+tx-nonsubscribers:county:48009,employers_2025,22
+tx-nonsubscribers:county:48009,employers_2026,18
+tx-nonsubscribers:county:48165,county,48165
+tx-nonsubscribers:county:48165,countyName,Gaines County
+tx-nonsubscribers:county:48165,employers,40
+tx-nonsubscribers:county:48165,employers_2025,20
+tx-nonsubscribers:county:48165,employers_2026,20
+tx-nonsubscribers:county:48043,county,48043
+tx-nonsubscribers:county:48043,countyName,Brewster County
+tx-nonsubscribers:county:48043,employers,39
+tx-nonsubscribers:county:48043,employers_2025,19
+tx-nonsubscribers:county:48043,employers_2026,20
+tx-nonsubscribers:county:48193,county,48193
+tx-nonsubscribers:county:48193,countyName,Hamilton County
+tx-nonsubscribers:county:48193,employers,39
+tx-nonsubscribers:county:48193,employers_2025,23
+tx-nonsubscribers:county:48193,employers_2026,16
+tx-nonsubscribers:county:48161,county,48161
+tx-nonsubscribers:county:48161,countyName,Freestone County
+tx-nonsubscribers:county:48161,employers,38
+tx-nonsubscribers:county:48161,employers_2025,16
+tx-nonsubscribers:county:48161,employers_2026,22
+tx-nonsubscribers:county:48289,county,48289
+tx-nonsubscribers:county:48289,countyName,Leon County
+tx-nonsubscribers:county:48289,employers,38
+tx-nonsubscribers:county:48289,employers_2025,17
+tx-nonsubscribers:county:48289,employers_2026,21
+tx-nonsubscribers:county:48459,county,48459
+tx-nonsubscribers:county:48459,countyName,Upshur County
+tx-nonsubscribers:county:48459,employers,38
+tx-nonsubscribers:county:48459,employers_2025,17
+tx-nonsubscribers:county:48459,employers_2026,21
+tx-nonsubscribers:county:48035,county,48035
+tx-nonsubscribers:county:48035,countyName,Bosque County
+tx-nonsubscribers:county:48035,employers,37
+tx-nonsubscribers:county:48035,employers_2025,18
+tx-nonsubscribers:county:48035,employers_2026,19
+tx-nonsubscribers:county:48163,county,48163
+tx-nonsubscribers:county:48163,countyName,Frio County
+tx-nonsubscribers:county:48163,employers,37
+tx-nonsubscribers:county:48163,employers_2025,20
+tx-nonsubscribers:county:48163,employers_2026,17
+tx-nonsubscribers:county:48455,county,48455
+tx-nonsubscribers:county:48455,countyName,Trinity County
+tx-nonsubscribers:county:48455,employers,37
+tx-nonsubscribers:county:48455,employers_2025,19
+tx-nonsubscribers:county:48455,employers_2026,18
+tx-nonsubscribers:county:48123,county,48123
+tx-nonsubscribers:county:48123,countyName,DeWitt County
+tx-nonsubscribers:county:48123,employers,36
+tx-nonsubscribers:county:48123,employers_2025,16
+tx-nonsubscribers:county:48123,employers_2026,20
+tx-nonsubscribers:county:48255,county,48255
+tx-nonsubscribers:county:48255,countyName,Karnes County
+tx-nonsubscribers:county:48255,employers,36
+tx-nonsubscribers:county:48255,employers_2024,4
+tx-nonsubscribers:county:48255,employers_2025,16
+tx-nonsubscribers:county:48255,employers_2026,16
+tx-nonsubscribers:county:48057,county,48057
+tx-nonsubscribers:county:48057,countyName,Calhoun County
+tx-nonsubscribers:county:48057,employers,35
+tx-nonsubscribers:county:48057,employers_2025,15
+tx-nonsubscribers:county:48057,employers_2026,20
+tx-nonsubscribers:county:48429,county,48429
+tx-nonsubscribers:county:48429,countyName,Stephens County
+tx-nonsubscribers:county:48429,employers,34
+tx-nonsubscribers:county:48429,employers_2024,2
+tx-nonsubscribers:county:48429,employers_2025,19
+tx-nonsubscribers:county:48429,employers_2026,13
+tx-nonsubscribers:county:48019,county,48019
+tx-nonsubscribers:county:48019,countyName,Bandera County
+tx-nonsubscribers:county:48019,employers,33
+tx-nonsubscribers:county:48019,employers_2025,21
+tx-nonsubscribers:county:48019,employers_2026,12
+tx-nonsubscribers:county:48059,county,48059
+tx-nonsubscribers:county:48059,countyName,Callahan County
+tx-nonsubscribers:county:48059,employers,33
+tx-nonsubscribers:county:48059,employers_2024,2
+tx-nonsubscribers:county:48059,employers_2025,18
+tx-nonsubscribers:county:48059,employers_2026,13
+tx-nonsubscribers:county:48419,county,48419
+tx-nonsubscribers:county:48419,countyName,Shelby County
+tx-nonsubscribers:county:48419,employers,33
+tx-nonsubscribers:county:48419,employers_2024,1
+tx-nonsubscribers:county:48419,employers_2025,14
+tx-nonsubscribers:county:48419,employers_2026,18
+tx-nonsubscribers:county:48297,county,48297
+tx-nonsubscribers:county:48297,countyName,Live Oak County
+tx-nonsubscribers:county:48297,employers,32
+tx-nonsubscribers:county:48297,employers_2025,15
+tx-nonsubscribers:county:48297,employers_2026,17
+tx-nonsubscribers:county:48487,county,48487
+tx-nonsubscribers:county:48487,countyName,Wilbarger County
+tx-nonsubscribers:county:48487,employers,32
+tx-nonsubscribers:county:48487,employers_2025,13
+tx-nonsubscribers:county:48487,employers_2026,19
+tx-nonsubscribers:county:48237,county,48237
+tx-nonsubscribers:county:48237,countyName,Jack County
+tx-nonsubscribers:county:48237,employers,31
+tx-nonsubscribers:county:48237,employers_2025,17
+tx-nonsubscribers:county:48237,employers_2026,14
+tx-nonsubscribers:county:48341,county,48341
+tx-nonsubscribers:county:48341,countyName,Moore County
+tx-nonsubscribers:county:48341,employers,31
+tx-nonsubscribers:county:48341,employers_2025,15
+tx-nonsubscribers:county:48341,employers_2026,16
+tx-nonsubscribers:county:48395,county,48395
+tx-nonsubscribers:county:48395,countyName,Robertson County
+tx-nonsubscribers:county:48395,employers,30
+tx-nonsubscribers:county:48395,employers_2025,15
+tx-nonsubscribers:county:48395,employers_2026,15
+tx-nonsubscribers:county:48407,county,48407
+tx-nonsubscribers:county:48407,countyName,San Jacinto County
+tx-nonsubscribers:county:48407,employers,30
+tx-nonsubscribers:county:48407,employers_2025,16
+tx-nonsubscribers:county:48407,employers_2026,14
+tx-nonsubscribers:county:48077,county,48077
+tx-nonsubscribers:county:48077,countyName,Clay County
+tx-nonsubscribers:county:48077,employers,29
+tx-nonsubscribers:county:48077,employers_2025,12
+tx-nonsubscribers:county:48077,employers_2026,17
+tx-nonsubscribers:county:48115,county,48115
+tx-nonsubscribers:county:48115,countyName,Dawson County
+tx-nonsubscribers:county:48115,employers,29
+tx-nonsubscribers:county:48115,employers_2025,15
+tx-nonsubscribers:county:48115,employers_2026,14
+tx-nonsubscribers:county:48285,county,48285
+tx-nonsubscribers:county:48285,countyName,Lavaca County
+tx-nonsubscribers:county:48285,employers,29
+tx-nonsubscribers:county:48285,employers_2025,11
+tx-nonsubscribers:county:48285,employers_2026,18
+tx-nonsubscribers:county:48307,county,48307
+tx-nonsubscribers:county:48307,countyName,McCulloch County
+tx-nonsubscribers:county:48307,employers,29
+tx-nonsubscribers:county:48307,employers_2025,16
+tx-nonsubscribers:county:48307,employers_2026,13
+tx-nonsubscribers:county:48313,county,48313
+tx-nonsubscribers:county:48313,countyName,Madison County
+tx-nonsubscribers:county:48313,employers,29
+tx-nonsubscribers:county:48313,employers_2025,11
+tx-nonsubscribers:county:48313,employers_2026,18
+tx-nonsubscribers:county:48051,county,48051
+tx-nonsubscribers:county:48051,countyName,Burleson County
+tx-nonsubscribers:county:48051,employers,28
+tx-nonsubscribers:county:48051,employers_2025,13
+tx-nonsubscribers:county:48051,employers_2026,15
+tx-nonsubscribers:county:48267,county,48267
+tx-nonsubscribers:county:48267,countyName,Kimble County
+tx-nonsubscribers:county:48267,employers,28
+tx-nonsubscribers:county:48267,employers_2025,14
+tx-nonsubscribers:county:48267,employers_2026,14
+tx-nonsubscribers:county:48457,county,48457
+tx-nonsubscribers:county:48457,countyName,Tyler County
+tx-nonsubscribers:county:48457,employers,28
+tx-nonsubscribers:county:48457,employers_2025,12
+tx-nonsubscribers:county:48457,employers_2026,16
+tx-nonsubscribers:county:48023,county,48023
+tx-nonsubscribers:county:48023,countyName,Baylor County
+tx-nonsubscribers:county:48023,employers,27
+tx-nonsubscribers:county:48023,employers_2025,14
+tx-nonsubscribers:county:48023,employers_2026,13
+tx-nonsubscribers:county:48107,county,48107
+tx-nonsubscribers:county:48107,countyName,Crosby County
+tx-nonsubscribers:county:48107,employers,27
+tx-nonsubscribers:county:48107,employers_2025,16
+tx-nonsubscribers:county:48107,employers_2026,11
+tx-nonsubscribers:county:48279,county,48279
+tx-nonsubscribers:county:48279,countyName,Lamb County
+tx-nonsubscribers:county:48279,employers,27
+tx-nonsubscribers:county:48279,employers_2025,10
+tx-nonsubscribers:county:48279,employers_2026,17
+tx-nonsubscribers:county:48075,county,48075
+tx-nonsubscribers:county:48075,countyName,Childress County
+tx-nonsubscribers:county:48075,employers,26
+tx-nonsubscribers:county:48075,employers_2025,11
+tx-nonsubscribers:county:48075,employers_2026,15
+tx-nonsubscribers:county:48399,county,48399
+tx-nonsubscribers:county:48399,countyName,Runnels County
+tx-nonsubscribers:county:48399,employers,26
+tx-nonsubscribers:county:48399,employers_2025,14
+tx-nonsubscribers:county:48399,employers_2026,12
+tx-nonsubscribers:county:48425,county,48425
+tx-nonsubscribers:county:48425,countyName,Somervell County
+tx-nonsubscribers:county:48425,employers,26
+tx-nonsubscribers:county:48425,employers_2025,11
+tx-nonsubscribers:county:48425,employers_2026,15
+tx-nonsubscribers:county:48031,county,48031
+tx-nonsubscribers:county:48031,countyName,Blanco County
+tx-nonsubscribers:county:48031,employers,25
+tx-nonsubscribers:county:48031,employers_2025,13
+tx-nonsubscribers:county:48031,employers_2026,12
+tx-nonsubscribers:county:48233,county,48233
+tx-nonsubscribers:county:48233,countyName,Hutchinson County
+tx-nonsubscribers:county:48233,employers,25
+tx-nonsubscribers:county:48233,employers_2025,12
+tx-nonsubscribers:county:48233,employers_2026,13
+tx-nonsubscribers:county:48239,county,48239
+tx-nonsubscribers:county:48239,countyName,Jackson County
+tx-nonsubscribers:county:48239,employers,25
+tx-nonsubscribers:county:48239,employers_2025,10
+tx-nonsubscribers:county:48239,employers_2026,15
+tx-nonsubscribers:county:48283,county,48283
+tx-nonsubscribers:county:48283,countyName,La Salle County
+tx-nonsubscribers:county:48283,employers,25
+tx-nonsubscribers:county:48283,employers_2024,2
+tx-nonsubscribers:county:48283,employers_2025,11
+tx-nonsubscribers:county:48283,employers_2026,12
+tx-nonsubscribers:county:48369,county,48369
+tx-nonsubscribers:county:48369,countyName,Parmer County
+tx-nonsubscribers:county:48369,employers,24
+tx-nonsubscribers:county:48369,employers_2025,13
+tx-nonsubscribers:county:48369,employers_2026,11
+tx-nonsubscribers:county:48145,county,48145
+tx-nonsubscribers:county:48145,countyName,Falls County
+tx-nonsubscribers:county:48145,employers,23
+tx-nonsubscribers:county:48145,employers_2025,10
+tx-nonsubscribers:county:48145,employers_2026,13
+tx-nonsubscribers:county:48357,county,48357
+tx-nonsubscribers:county:48357,countyName,Ochiltree County
+tx-nonsubscribers:county:48357,employers,23
+tx-nonsubscribers:county:48357,employers_2025,11
+tx-nonsubscribers:county:48357,employers_2026,12
+tx-nonsubscribers:county:48063,county,48063
+tx-nonsubscribers:county:48063,countyName,Camp County
+tx-nonsubscribers:county:48063,employers,22
+tx-nonsubscribers:county:48063,employers_2025,9
+tx-nonsubscribers:county:48063,employers_2026,13
+tx-nonsubscribers:county:48017,county,48017
+tx-nonsubscribers:county:48017,countyName,Bailey County
+tx-nonsubscribers:county:48017,employers,21
+tx-nonsubscribers:county:48017,employers_2025,12
+tx-nonsubscribers:county:48017,employers_2026,9
+tx-nonsubscribers:county:48489,county,48489
+tx-nonsubscribers:county:48489,countyName,Willacy County
+tx-nonsubscribers:county:48489,employers,21
+tx-nonsubscribers:county:48489,employers_2025,9
+tx-nonsubscribers:county:48489,employers_2026,12
+tx-nonsubscribers:county:48083,county,48083
+tx-nonsubscribers:county:48083,countyName,Coleman County
+tx-nonsubscribers:county:48083,employers,20
+tx-nonsubscribers:county:48083,employers_2025,10
+tx-nonsubscribers:county:48083,employers_2026,10
+tx-nonsubscribers:county:48411,county,48411
+tx-nonsubscribers:county:48411,countyName,San Saba County
+tx-nonsubscribers:county:48411,employers,20
+tx-nonsubscribers:county:48411,employers_2025,10
+tx-nonsubscribers:county:48411,employers_2026,10
+tx-nonsubscribers:county:48047,county,48047
+tx-nonsubscribers:county:48047,countyName,Brooks County
+tx-nonsubscribers:county:48047,employers,19
+tx-nonsubscribers:county:48047,employers_2025,8
+tx-nonsubscribers:county:48047,employers_2026,11
+tx-nonsubscribers:county:48069,county,48069
+tx-nonsubscribers:county:48069,countyName,Castro County
+tx-nonsubscribers:county:48069,employers,19
+tx-nonsubscribers:county:48069,employers_2024,1
+tx-nonsubscribers:county:48069,employers_2025,8
+tx-nonsubscribers:county:48069,employers_2026,10
+tx-nonsubscribers:county:48379,county,48379
+tx-nonsubscribers:county:48379,countyName,Rains County
+tx-nonsubscribers:county:48379,employers,19
+tx-nonsubscribers:county:48379,employers_2025,7
+tx-nonsubscribers:county:48379,employers_2026,12
+tx-nonsubscribers:county:48403,county,48403
+tx-nonsubscribers:county:48403,countyName,Sabine County
+tx-nonsubscribers:county:48403,employers,19
+tx-nonsubscribers:county:48403,employers_2025,10
+tx-nonsubscribers:county:48403,employers_2026,9
+tx-nonsubscribers:county:48421,county,48421
+tx-nonsubscribers:county:48421,countyName,Sherman County
+tx-nonsubscribers:county:48421,employers,18
+tx-nonsubscribers:county:48421,employers_2025,7
+tx-nonsubscribers:county:48421,employers_2026,11
+tx-nonsubscribers:county:48109,county,48109
+tx-nonsubscribers:county:48109,countyName,Culberson County
+tx-nonsubscribers:county:48109,employers,17
+tx-nonsubscribers:county:48109,employers_2025,8
+tx-nonsubscribers:county:48109,employers_2026,9
+tx-nonsubscribers:county:48159,county,48159
+tx-nonsubscribers:county:48159,countyName,Franklin County
+tx-nonsubscribers:county:48159,employers,17
+tx-nonsubscribers:county:48159,employers_2025,4
+tx-nonsubscribers:county:48159,employers_2026,13
+tx-nonsubscribers:county:48495,county,48495
+tx-nonsubscribers:county:48495,countyName,Winkler County
+tx-nonsubscribers:county:48495,employers,17
+tx-nonsubscribers:county:48495,employers_2025,7
+tx-nonsubscribers:county:48495,employers_2026,10
+tx-nonsubscribers:county:48197,county,48197
+tx-nonsubscribers:county:48197,countyName,Hardeman County
+tx-nonsubscribers:county:48197,employers,15
+tx-nonsubscribers:county:48197,employers_2025,7
+tx-nonsubscribers:county:48197,employers_2026,8
+tx-nonsubscribers:county:48315,county,48315
+tx-nonsubscribers:county:48315,countyName,Marion County
+tx-nonsubscribers:county:48315,employers,15
+tx-nonsubscribers:county:48315,employers_2025,6
+tx-nonsubscribers:county:48315,employers_2026,9
+tx-nonsubscribers:county:48319,county,48319
+tx-nonsubscribers:county:48319,countyName,Mason County
+tx-nonsubscribers:county:48319,employers,15
+tx-nonsubscribers:county:48319,employers_2025,7
+tx-nonsubscribers:county:48319,employers_2026,8
+tx-nonsubscribers:county:48387,county,48387
+tx-nonsubscribers:county:48387,countyName,Red River County
+tx-nonsubscribers:county:48387,employers,15
+tx-nonsubscribers:county:48387,employers_2025,7
+tx-nonsubscribers:county:48387,employers_2026,8
+tx-nonsubscribers:county:48505,county,48505
+tx-nonsubscribers:county:48505,countyName,Zapata County
+tx-nonsubscribers:county:48505,employers,15
+tx-nonsubscribers:county:48505,employers_2025,6
+tx-nonsubscribers:county:48505,employers_2026,9
+tx-nonsubscribers:county:48131,county,48131
+tx-nonsubscribers:county:48131,countyName,Duval County
+tx-nonsubscribers:county:48131,employers,14
+tx-nonsubscribers:county:48131,employers_2025,5
+tx-nonsubscribers:county:48131,employers_2026,9
+tx-nonsubscribers:county:48247,county,48247
+tx-nonsubscribers:county:48247,countyName,Jim Hogg County
+tx-nonsubscribers:county:48247,employers,14
+tx-nonsubscribers:county:48247,employers_2025,7
+tx-nonsubscribers:county:48247,employers_2026,7
+tx-nonsubscribers:county:48305,county,48305
+tx-nonsubscribers:county:48305,countyName,Lynn County
+tx-nonsubscribers:county:48305,employers,14
+tx-nonsubscribers:county:48305,employers_2025,9
+tx-nonsubscribers:county:48305,employers_2026,5
+tx-nonsubscribers:county:48343,county,48343
+tx-nonsubscribers:county:48343,countyName,Morris County
+tx-nonsubscribers:county:48343,employers,14
+tx-nonsubscribers:county:48343,employers_2025,6
+tx-nonsubscribers:county:48343,employers_2026,8
+tx-nonsubscribers:county:48383,county,48383
+tx-nonsubscribers:county:48383,countyName,Reagan County
+tx-nonsubscribers:county:48383,employers,14
+tx-nonsubscribers:county:48383,employers_2025,6
+tx-nonsubscribers:county:48383,employers_2026,8
+tx-nonsubscribers:county:48275,county,48275
+tx-nonsubscribers:county:48275,countyName,Knox County
+tx-nonsubscribers:county:48275,employers,13
+tx-nonsubscribers:county:48275,employers_2025,9
+tx-nonsubscribers:county:48275,employers_2026,4
+tx-nonsubscribers:county:48391,county,48391
+tx-nonsubscribers:county:48391,countyName,Refugio County
+tx-nonsubscribers:county:48391,employers,13
+tx-nonsubscribers:county:48391,employers_2025,4
+tx-nonsubscribers:county:48391,employers_2026,9
+tx-nonsubscribers:county:48437,county,48437
+tx-nonsubscribers:county:48437,countyName,Swisher County
+tx-nonsubscribers:county:48437,employers,13
+tx-nonsubscribers:county:48437,employers_2025,6
+tx-nonsubscribers:county:48437,employers_2026,7
+tx-nonsubscribers:county:48483,county,48483
+tx-nonsubscribers:county:48483,countyName,Wheeler County
+tx-nonsubscribers:county:48483,employers,13
+tx-nonsubscribers:county:48483,employers_2025,6
+tx-nonsubscribers:county:48483,employers_2026,7
+tx-nonsubscribers:county:48105,county,48105
+tx-nonsubscribers:county:48105,countyName,Crockett County
+tx-nonsubscribers:county:48105,employers,12
+tx-nonsubscribers:county:48105,employers_2025,5
+tx-nonsubscribers:county:48105,employers_2026,7
+tx-nonsubscribers:county:48125,county,48125
+tx-nonsubscribers:county:48125,countyName,Dickens County
+tx-nonsubscribers:county:48125,employers,12
+tx-nonsubscribers:county:48125,employers_2025,8
+tx-nonsubscribers:county:48125,employers_2026,4
+tx-nonsubscribers:county:48169,county,48169
+tx-nonsubscribers:county:48169,countyName,Garza County
+tx-nonsubscribers:county:48169,employers,12
+tx-nonsubscribers:county:48169,employers_2025,6
+tx-nonsubscribers:county:48169,employers_2026,6
+tx-nonsubscribers:county:48207,county,48207
+tx-nonsubscribers:county:48207,countyName,Haskell County
+tx-nonsubscribers:county:48207,employers,12
+tx-nonsubscribers:county:48207,employers_2025,6
+tx-nonsubscribers:county:48207,employers_2026,6
+tx-nonsubscribers:county:48417,county,48417
+tx-nonsubscribers:county:48417,countyName,Shackelford County
+tx-nonsubscribers:county:48417,employers,12
+tx-nonsubscribers:county:48417,employers_2025,6
+tx-nonsubscribers:county:48417,employers_2026,6
+tx-nonsubscribers:county:48501,county,48501
+tx-nonsubscribers:county:48501,countyName,Yoakum County
+tx-nonsubscribers:county:48501,employers,12
+tx-nonsubscribers:county:48501,employers_2025,5
+tx-nonsubscribers:county:48501,employers_2026,7
+tx-nonsubscribers:county:48103,county,48103
+tx-nonsubscribers:county:48103,countyName,Crane County
+tx-nonsubscribers:county:48103,employers,11
+tx-nonsubscribers:county:48103,employers_2025,6
+tx-nonsubscribers:county:48103,employers_2026,5
+tx-nonsubscribers:county:48119,county,48119
+tx-nonsubscribers:county:48119,countyName,Delta County
+tx-nonsubscribers:county:48119,employers,11
+tx-nonsubscribers:county:48119,employers_2025,4
+tx-nonsubscribers:county:48119,employers_2026,7
+tx-nonsubscribers:county:48333,county,48333
+tx-nonsubscribers:county:48333,countyName,Mills County
+tx-nonsubscribers:county:48333,employers,11
+tx-nonsubscribers:county:48333,employers_2025,3
+tx-nonsubscribers:county:48333,employers_2026,8
+tx-nonsubscribers:county:48175,county,48175
+tx-nonsubscribers:county:48175,countyName,Goliad County
+tx-nonsubscribers:county:48175,employers,10
+tx-nonsubscribers:county:48175,employers_2025,5
+tx-nonsubscribers:county:48175,employers_2026,5
+tx-nonsubscribers:county:48195,county,48195
+tx-nonsubscribers:county:48195,countyName,Hansford County
+tx-nonsubscribers:county:48195,employers,10
+tx-nonsubscribers:county:48195,employers_2025,4
+tx-nonsubscribers:county:48195,employers_2026,6
+tx-nonsubscribers:county:48351,county,48351
+tx-nonsubscribers:county:48351,countyName,Newton County
+tx-nonsubscribers:county:48351,employers,10
+tx-nonsubscribers:county:48351,employers_2025,4
+tx-nonsubscribers:county:48351,employers_2026,6
+tx-nonsubscribers:county:48377,county,48377
+tx-nonsubscribers:county:48377,countyName,Presidio County
+tx-nonsubscribers:county:48377,employers,10
+tx-nonsubscribers:county:48377,employers_2025,5
+tx-nonsubscribers:county:48377,employers_2026,5
+tx-nonsubscribers:county:48295,county,48295
+tx-nonsubscribers:county:48295,countyName,Lipscomb County
+tx-nonsubscribers:county:48295,employers,9
+tx-nonsubscribers:county:48295,employers_2025,5
+tx-nonsubscribers:county:48295,employers_2026,4
+tx-nonsubscribers:county:48311,county,48311
+tx-nonsubscribers:county:48311,countyName,McMullen County
+tx-nonsubscribers:county:48311,employers,9
+tx-nonsubscribers:county:48311,employers_2024,2
+tx-nonsubscribers:county:48311,employers_2025,4
+tx-nonsubscribers:county:48311,employers_2026,3
+tx-nonsubscribers:county:48405,county,48405
+tx-nonsubscribers:county:48405,countyName,San Augustine County
+tx-nonsubscribers:county:48405,employers,9
+tx-nonsubscribers:county:48405,employers_2025,3
+tx-nonsubscribers:county:48405,employers_2026,6
+tx-nonsubscribers:county:48087,county,48087
+tx-nonsubscribers:county:48087,countyName,Collingsworth County
+tx-nonsubscribers:county:48087,employers,8
+tx-nonsubscribers:county:48087,employers_2025,3
+tx-nonsubscribers:county:48087,employers_2026,5
+tx-nonsubscribers:county:48129,county,48129
+tx-nonsubscribers:county:48129,countyName,Donley County
+tx-nonsubscribers:county:48129,employers,8
+tx-nonsubscribers:county:48129,employers_2025,5
+tx-nonsubscribers:county:48129,employers_2026,3
+tx-nonsubscribers:county:48153,county,48153
+tx-nonsubscribers:county:48153,countyName,Floyd County
+tx-nonsubscribers:county:48153,employers,8
+tx-nonsubscribers:county:48153,employers_2025,4
+tx-nonsubscribers:county:48153,employers_2026,4
+tx-nonsubscribers:county:48191,county,48191
+tx-nonsubscribers:county:48191,countyName,Hall County
+tx-nonsubscribers:county:48191,employers,8
+tx-nonsubscribers:county:48191,employers_2025,4
+tx-nonsubscribers:county:48191,employers_2026,4
+tx-nonsubscribers:county:48435,county,48435
+tx-nonsubscribers:county:48435,countyName,Sutton County
+tx-nonsubscribers:county:48435,employers,8
+tx-nonsubscribers:county:48435,employers_2025,3
+tx-nonsubscribers:county:48435,employers_2026,5
+tx-nonsubscribers:county:48065,county,48065
+tx-nonsubscribers:county:48065,countyName,Carson County
+tx-nonsubscribers:county:48065,employers,7
+tx-nonsubscribers:county:48065,employers_2025,3
+tx-nonsubscribers:county:48065,employers_2026,4
+tx-nonsubscribers:county:48079,county,48079
+tx-nonsubscribers:county:48079,countyName,Cochran County
+tx-nonsubscribers:county:48079,employers,7
+tx-nonsubscribers:county:48079,employers_2025,4
+tx-nonsubscribers:county:48079,employers_2026,3
+tx-nonsubscribers:county:48081,county,48081
+tx-nonsubscribers:county:48081,countyName,Coke County
+tx-nonsubscribers:county:48081,employers,7
+tx-nonsubscribers:county:48081,employers_2025,3
+tx-nonsubscribers:county:48081,employers_2026,4
+tx-nonsubscribers:county:48243,county,48243
+tx-nonsubscribers:county:48243,countyName,Jeff Davis County
+tx-nonsubscribers:county:48243,employers,7
+tx-nonsubscribers:county:48243,employers_2025,3
+tx-nonsubscribers:county:48243,employers_2026,4
+tx-nonsubscribers:county:48335,county,48335
+tx-nonsubscribers:county:48335,countyName,Mitchell County
+tx-nonsubscribers:county:48335,employers,7
+tx-nonsubscribers:county:48335,employers_2025,3
+tx-nonsubscribers:county:48335,employers_2026,4
+tx-nonsubscribers:county:48461,county,48461
+tx-nonsubscribers:county:48461,countyName,Upton County
+tx-nonsubscribers:county:48461,employers,7
+tx-nonsubscribers:county:48461,employers_2025,3
+tx-nonsubscribers:county:48461,employers_2026,4
+tx-nonsubscribers:county:48507,county,48507
+tx-nonsubscribers:county:48507,countyName,Zavala County
+tx-nonsubscribers:county:48507,employers,7
+tx-nonsubscribers:county:48507,employers_2025,3
+tx-nonsubscribers:county:48507,employers_2026,4
+tx-nonsubscribers:county:48137,county,48137
+tx-nonsubscribers:county:48137,countyName,Edwards County
+tx-nonsubscribers:county:48137,employers,6
+tx-nonsubscribers:county:48137,employers_2025,4
+tx-nonsubscribers:county:48137,employers_2026,2
+tx-nonsubscribers:county:48359,county,48359
+tx-nonsubscribers:county:48359,countyName,Oldham County
+tx-nonsubscribers:county:48359,employers,6
+tx-nonsubscribers:county:48359,employers_2025,3
+tx-nonsubscribers:county:48359,employers_2026,3
+tx-nonsubscribers:county:48385,county,48385
+tx-nonsubscribers:county:48385,countyName,Real County
+tx-nonsubscribers:county:48385,employers,6
+tx-nonsubscribers:county:48385,employers_2025,2
+tx-nonsubscribers:county:48385,employers_2026,4
+tx-nonsubscribers:county:48151,county,48151
+tx-nonsubscribers:county:48151,countyName,Fisher County
+tx-nonsubscribers:county:48151,employers,5
+tx-nonsubscribers:county:48151,employers_2025,2
+tx-nonsubscribers:county:48151,employers_2026,3
+tx-nonsubscribers:county:48235,county,48235
+tx-nonsubscribers:county:48235,countyName,Irion County
+tx-nonsubscribers:county:48235,employers,5
+tx-nonsubscribers:county:48235,employers_2025,2
+tx-nonsubscribers:county:48235,employers_2026,3
+tx-nonsubscribers:county:48261,county,48261
+tx-nonsubscribers:county:48261,countyName,Kenedy County
+tx-nonsubscribers:county:48261,employers,5
+tx-nonsubscribers:county:48261,employers_2025,3
+tx-nonsubscribers:county:48261,employers_2026,2
+tx-nonsubscribers:county:48271,county,48271
+tx-nonsubscribers:county:48271,countyName,Kinney County
+tx-nonsubscribers:county:48271,employers,5
+tx-nonsubscribers:county:48271,employers_2025,2
+tx-nonsubscribers:county:48271,employers_2026,3
+tx-nonsubscribers:county:48345,county,48345
+tx-nonsubscribers:county:48345,countyName,Motley County
+tx-nonsubscribers:county:48345,employers,5
+tx-nonsubscribers:county:48345,employers_2025,2
+tx-nonsubscribers:county:48345,employers_2026,3
+tx-nonsubscribers:county:48431,county,48431
+tx-nonsubscribers:county:48431,countyName,Sterling County
+tx-nonsubscribers:county:48431,employers,5
+tx-nonsubscribers:county:48431,employers_2025,2
+tx-nonsubscribers:county:48431,employers_2026,3
+tx-nonsubscribers:TX:small-counties,employers,36
+tx-nonsubscribers:TX:small-counties,counties,12
+tx-nonsubscribers:TX:county-not-recorded,employers,724

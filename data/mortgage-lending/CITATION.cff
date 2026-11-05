@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA, 2026, https://doi.org/10.5281/zenodo.23782874."
+message: "If you use this dataset, please cite it as: Probative Growth, Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA, 2026, https://doi.org/10.5281/zenodo.23963883."
 title: "Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23782874"
+version: "2.0.0"
+doi: "10.5281/zenodo.23963883"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23782873"

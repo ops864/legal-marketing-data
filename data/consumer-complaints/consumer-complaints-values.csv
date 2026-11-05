@@ -1,0 +1,1158 @@
+id,column,value
+cfpb-al-debt-collection,per100k,154.7
+cfpb-al-debt-collection,population,5193088
+cfpb-al-debt-collection,yoyPct,56.5
+cfpb-al-debt-collection,timelyPct,97.7
+cfpb-al-debt-collection,reliefPct,26.2
+cfpb-al-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-al-debt-collection,topIssueSharePct,58.8
+cfpb-ak-debt-collection,per100k,34
+cfpb-ak-debt-collection,population,737270
+cfpb-ak-debt-collection,yoyPct,57.9
+cfpb-ak-debt-collection,timelyPct,87.3
+cfpb-ak-debt-collection,reliefPct,19.9
+cfpb-ak-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ak-debt-collection,topIssueSharePct,38.2
+cfpb-az-debt-collection,per100k,122.6
+cfpb-az-debt-collection,population,7623818
+cfpb-az-debt-collection,yoyPct,114.3
+cfpb-az-debt-collection,timelyPct,94.9
+cfpb-az-debt-collection,reliefPct,18.9
+cfpb-az-debt-collection,topIssue,Took or threatened to take negative or legal action
+cfpb-az-debt-collection,topIssueSharePct,55.9
+cfpb-ar-debt-collection,per100k,74.1
+cfpb-ar-debt-collection,population,3114791
+cfpb-ar-debt-collection,yoyPct,-12.9
+cfpb-ar-debt-collection,timelyPct,96.5
+cfpb-ar-debt-collection,reliefPct,24
+cfpb-ar-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ar-debt-collection,topIssueSharePct,44.2
+cfpb-ca-debt-collection,per100k,70.9
+cfpb-ca-debt-collection,population,39355309
+cfpb-ca-debt-collection,yoyPct,44.6
+cfpb-ca-debt-collection,timelyPct,97
+cfpb-ca-debt-collection,reliefPct,22.8
+cfpb-ca-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ca-debt-collection,topIssueSharePct,40.4
+cfpb-co-debt-collection,per100k,39.9
+cfpb-co-debt-collection,population,6012561
+cfpb-co-debt-collection,yoyPct,36.1
+cfpb-co-debt-collection,timelyPct,95.7
+cfpb-co-debt-collection,reliefPct,20.6
+cfpb-co-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-co-debt-collection,topIssueSharePct,41.4
+cfpb-ct-debt-collection,per100k,54.9
+cfpb-ct-debt-collection,population,3688496
+cfpb-ct-debt-collection,yoyPct,4.1
+cfpb-ct-debt-collection,timelyPct,96.4
+cfpb-ct-debt-collection,reliefPct,25.4
+cfpb-ct-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ct-debt-collection,topIssueSharePct,38.5
+cfpb-de-debt-collection,per100k,125.8
+cfpb-de-debt-collection,population,1059952
+cfpb-de-debt-collection,yoyPct,17.2
+cfpb-de-debt-collection,timelyPct,97.7
+cfpb-de-debt-collection,reliefPct,24.8
+cfpb-de-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-de-debt-collection,topIssueSharePct,50.1
+cfpb-dc-debt-collection,per100k,94.4
+cfpb-dc-debt-collection,population,693645
+cfpb-dc-debt-collection,yoyPct,0.6
+cfpb-dc-debt-collection,timelyPct,97.6
+cfpb-dc-debt-collection,reliefPct,15.7
+cfpb-dc-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-dc-debt-collection,topIssueSharePct,39.5
+cfpb-fl-debt-collection,per100k,150.9
+cfpb-fl-debt-collection,population,23462518
+cfpb-fl-debt-collection,yoyPct,26.9
+cfpb-fl-debt-collection,timelyPct,97.1
+cfpb-fl-debt-collection,reliefPct,22.5
+cfpb-fl-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-fl-debt-collection,topIssueSharePct,47.8
+cfpb-ga-debt-collection,per100k,235.7
+cfpb-ga-debt-collection,population,11302748
+cfpb-ga-debt-collection,yoyPct,24.8
+cfpb-ga-debt-collection,timelyPct,96.3
+cfpb-ga-debt-collection,reliefPct,22.5
+cfpb-ga-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ga-debt-collection,topIssueSharePct,48
+cfpb-hi-debt-collection,per100k,27.6
+cfpb-hi-debt-collection,population,1432820
+cfpb-hi-debt-collection,yoyPct,34.2
+cfpb-hi-debt-collection,timelyPct,94.9
+cfpb-hi-debt-collection,reliefPct,20.5
+cfpb-hi-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-hi-debt-collection,topIssueSharePct,41.9
+cfpb-id-debt-collection,per100k,30.6
+cfpb-id-debt-collection,population,2029733
+cfpb-id-debt-collection,yoyPct,55.2
+cfpb-id-debt-collection,timelyPct,92.9
+cfpb-id-debt-collection,reliefPct,17.4
+cfpb-id-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-id-debt-collection,topIssueSharePct,30.8
+cfpb-il-debt-collection,per100k,86.3
+cfpb-il-debt-collection,population,12719141
+cfpb-il-debt-collection,yoyPct,11.8
+cfpb-il-debt-collection,timelyPct,97.8
+cfpb-il-debt-collection,reliefPct,23.7
+cfpb-il-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-il-debt-collection,topIssueSharePct,49.5
+cfpb-in-debt-collection,per100k,55.3
+cfpb-in-debt-collection,population,6973333
+cfpb-in-debt-collection,yoyPct,11.2
+cfpb-in-debt-collection,timelyPct,96.4
+cfpb-in-debt-collection,reliefPct,20.7
+cfpb-in-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-in-debt-collection,topIssueSharePct,44.5
+cfpb-ia-debt-collection,per100k,23.3
+cfpb-ia-debt-collection,population,3238387
+cfpb-ia-debt-collection,yoyPct,24.2
+cfpb-ia-debt-collection,timelyPct,95.4
+cfpb-ia-debt-collection,reliefPct,21.5
+cfpb-ia-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ia-debt-collection,topIssueSharePct,41.2
+cfpb-ks-debt-collection,per100k,27.8
+cfpb-ks-debt-collection,population,2977220
+cfpb-ks-debt-collection,yoyPct,-4.3
+cfpb-ks-debt-collection,timelyPct,95.6
+cfpb-ks-debt-collection,reliefPct,20.6
+cfpb-ks-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ks-debt-collection,topIssueSharePct,40.9
+cfpb-ky-debt-collection,per100k,35.8
+cfpb-ky-debt-collection,population,4606864
+cfpb-ky-debt-collection,yoyPct,25.5
+cfpb-ky-debt-collection,timelyPct,95.8
+cfpb-ky-debt-collection,reliefPct,20.9
+cfpb-ky-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ky-debt-collection,topIssueSharePct,35.5
+cfpb-la-debt-collection,per100k,180.4
+cfpb-la-debt-collection,population,4618189
+cfpb-la-debt-collection,yoyPct,47.5
+cfpb-la-debt-collection,timelyPct,96.4
+cfpb-la-debt-collection,reliefPct,23.7
+cfpb-la-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-la-debt-collection,topIssueSharePct,44.7
+cfpb-me-debt-collection,per100k,13.6
+cfpb-me-debt-collection,population,1414874
+cfpb-me-debt-collection,yoyPct,8.4
+cfpb-me-debt-collection,timelyPct,92.7
+cfpb-me-debt-collection,reliefPct,20.2
+cfpb-me-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-me-debt-collection,topIssueSharePct,42
+cfpb-md-debt-collection,per100k,102.9
+cfpb-md-debt-collection,population,6265347
+cfpb-md-debt-collection,yoyPct,14.7
+cfpb-md-debt-collection,timelyPct,97.3
+cfpb-md-debt-collection,reliefPct,21.4
+cfpb-md-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-md-debt-collection,topIssueSharePct,38.7
+cfpb-ma-debt-collection,per100k,41.7
+cfpb-ma-debt-collection,population,7154084
+cfpb-ma-debt-collection,yoyPct,35.3
+cfpb-ma-debt-collection,timelyPct,97.3
+cfpb-ma-debt-collection,reliefPct,25.5
+cfpb-ma-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ma-debt-collection,topIssueSharePct,54
+cfpb-mi-debt-collection,per100k,65.2
+cfpb-mi-debt-collection,population,10127884
+cfpb-mi-debt-collection,yoyPct,2.5
+cfpb-mi-debt-collection,timelyPct,97.3
+cfpb-mi-debt-collection,reliefPct,21.6
+cfpb-mi-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-mi-debt-collection,topIssueSharePct,43
+cfpb-mn-debt-collection,per100k,35.3
+cfpb-mn-debt-collection,population,5830405
+cfpb-mn-debt-collection,yoyPct,30
+cfpb-mn-debt-collection,timelyPct,94.7
+cfpb-mn-debt-collection,reliefPct,20.3
+cfpb-mn-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-mn-debt-collection,topIssueSharePct,33.5
+cfpb-ms-debt-collection,per100k,217.8
+cfpb-ms-debt-collection,population,2954160
+cfpb-ms-debt-collection,yoyPct,152.1
+cfpb-ms-debt-collection,timelyPct,96
+cfpb-ms-debt-collection,reliefPct,27.1
+cfpb-ms-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ms-debt-collection,topIssueSharePct,60.9
+cfpb-mo-debt-collection,per100k,58.6
+cfpb-mo-debt-collection,population,6270541
+cfpb-mo-debt-collection,yoyPct,-11.5
+cfpb-mo-debt-collection,timelyPct,97.2
+cfpb-mo-debt-collection,reliefPct,21.6
+cfpb-mo-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-mo-debt-collection,topIssueSharePct,43.1
+cfpb-mt-debt-collection,per100k,23.8
+cfpb-mt-debt-collection,population,1144694
+cfpb-mt-debt-collection,yoyPct,95.7
+cfpb-mt-debt-collection,timelyPct,94.9
+cfpb-mt-debt-collection,reliefPct,17.3
+cfpb-mt-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-mt-debt-collection,topIssueSharePct,46
+cfpb-ne-debt-collection,per100k,29.4
+cfpb-ne-debt-collection,population,2018006
+cfpb-ne-debt-collection,yoyPct,-5.7
+cfpb-ne-debt-collection,timelyPct,96.3
+cfpb-ne-debt-collection,reliefPct,21.6
+cfpb-ne-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ne-debt-collection,topIssueSharePct,47.9
+cfpb-nv-debt-collection,per100k,122.4
+cfpb-nv-debt-collection,population,3282188
+cfpb-nv-debt-collection,yoyPct,32.6
+cfpb-nv-debt-collection,timelyPct,97
+cfpb-nv-debt-collection,reliefPct,21.3
+cfpb-nv-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-nv-debt-collection,topIssueSharePct,44.9
+cfpb-nh-debt-collection,per100k,29.1
+cfpb-nh-debt-collection,population,1415342
+cfpb-nh-debt-collection,yoyPct,57.9
+cfpb-nh-debt-collection,timelyPct,95.9
+cfpb-nh-debt-collection,reliefPct,21.4
+cfpb-nh-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-nh-debt-collection,topIssueSharePct,30.1
+cfpb-nj-debt-collection,per100k,82.8
+cfpb-nj-debt-collection,population,9548215
+cfpb-nj-debt-collection,yoyPct,32
+cfpb-nj-debt-collection,timelyPct,97
+cfpb-nj-debt-collection,reliefPct,23.2
+cfpb-nj-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-nj-debt-collection,topIssueSharePct,47.6
+cfpb-nm-debt-collection,per100k,36
+cfpb-nm-debt-collection,population,2125498
+cfpb-nm-debt-collection,yoyPct,35.9
+cfpb-nm-debt-collection,timelyPct,96.6
+cfpb-nm-debt-collection,reliefPct,22.6
+cfpb-nm-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-nm-debt-collection,topIssueSharePct,39.2
+cfpb-ny-debt-collection,per100k,59.6
+cfpb-ny-debt-collection,population,20002427
+cfpb-ny-debt-collection,yoyPct,17
+cfpb-ny-debt-collection,timelyPct,97
+cfpb-ny-debt-collection,reliefPct,23.4
+cfpb-ny-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ny-debt-collection,topIssueSharePct,43.6
+cfpb-nc-debt-collection,per100k,117.4
+cfpb-nc-debt-collection,population,11197968
+cfpb-nc-debt-collection,yoyPct,39.1
+cfpb-nc-debt-collection,timelyPct,95
+cfpb-nc-debt-collection,reliefPct,19.2
+cfpb-nc-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-nc-debt-collection,topIssueSharePct,42
+cfpb-nd-debt-collection,per100k,52.5
+cfpb-nd-debt-collection,population,799358
+cfpb-nd-debt-collection,yoyPct,70
+cfpb-nd-debt-collection,timelyPct,88.1
+cfpb-nd-debt-collection,reliefPct,12.4
+cfpb-nd-debt-collection,topIssue,Took or threatened to take negative or legal action
+cfpb-nd-debt-collection,topIssueSharePct,59.3
+cfpb-oh-debt-collection,per100k,59
+cfpb-oh-debt-collection,population,11900510
+cfpb-oh-debt-collection,yoyPct,15.2
+cfpb-oh-debt-collection,timelyPct,96.7
+cfpb-oh-debt-collection,reliefPct,24.1
+cfpb-oh-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-oh-debt-collection,topIssueSharePct,44.5
+cfpb-ok-debt-collection,per100k,67.3
+cfpb-ok-debt-collection,population,4123288
+cfpb-ok-debt-collection,yoyPct,73.3
+cfpb-ok-debt-collection,timelyPct,94.6
+cfpb-ok-debt-collection,reliefPct,20.9
+cfpb-ok-debt-collection,topIssue,Took or threatened to take negative or legal action
+cfpb-ok-debt-collection,topIssueSharePct,40.3
+cfpb-or-debt-collection,per100k,35
+cfpb-or-debt-collection,population,4273586
+cfpb-or-debt-collection,yoyPct,57.3
+cfpb-or-debt-collection,timelyPct,97.5
+cfpb-or-debt-collection,reliefPct,20.7
+cfpb-or-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-or-debt-collection,topIssueSharePct,34.3
+cfpb-pa-debt-collection,per100k,83.2
+cfpb-pa-debt-collection,population,13059432
+cfpb-pa-debt-collection,yoyPct,20.4
+cfpb-pa-debt-collection,timelyPct,97.8
+cfpb-pa-debt-collection,reliefPct,26.6
+cfpb-pa-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-pa-debt-collection,topIssueSharePct,51.7
+cfpb-ri-debt-collection,per100k,64
+cfpb-ri-debt-collection,population,1114521
+cfpb-ri-debt-collection,yoyPct,34
+cfpb-ri-debt-collection,timelyPct,98.2
+cfpb-ri-debt-collection,reliefPct,25.9
+cfpb-ri-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ri-debt-collection,topIssueSharePct,48.1
+cfpb-sc-debt-collection,per100k,226.6
+cfpb-sc-debt-collection,population,5570274
+cfpb-sc-debt-collection,yoyPct,118.8
+cfpb-sc-debt-collection,timelyPct,96.9
+cfpb-sc-debt-collection,reliefPct,23.4
+cfpb-sc-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-sc-debt-collection,topIssueSharePct,63.5
+cfpb-sd-debt-collection,per100k,21.1
+cfpb-sd-debt-collection,population,935094
+cfpb-sd-debt-collection,yoyPct,80.7
+cfpb-sd-debt-collection,timelyPct,95.4
+cfpb-sd-debt-collection,reliefPct,12.7
+cfpb-sd-debt-collection,topIssue,Took or threatened to take negative or legal action
+cfpb-sd-debt-collection,topIssueSharePct,26.9
+cfpb-tn-debt-collection,per100k,78.9
+cfpb-tn-debt-collection,population,7315076
+cfpb-tn-debt-collection,yoyPct,18.2
+cfpb-tn-debt-collection,timelyPct,96.1
+cfpb-tn-debt-collection,reliefPct,23.8
+cfpb-tn-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-tn-debt-collection,topIssueSharePct,45.5
+cfpb-tx-debt-collection,per100k,175.4
+cfpb-tx-debt-collection,population,31709821
+cfpb-tx-debt-collection,yoyPct,14.5
+cfpb-tx-debt-collection,timelyPct,95.6
+cfpb-tx-debt-collection,reliefPct,22.4
+cfpb-tx-debt-collection,topIssue,Took or threatened to take negative or legal action
+cfpb-tx-debt-collection,topIssueSharePct,35.3
+cfpb-ut-debt-collection,per100k,28
+cfpb-ut-debt-collection,population,3538904
+cfpb-ut-debt-collection,yoyPct,20.4
+cfpb-ut-debt-collection,timelyPct,95.6
+cfpb-ut-debt-collection,reliefPct,16.8
+cfpb-ut-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-ut-debt-collection,topIssueSharePct,44.5
+cfpb-vt-debt-collection,per100k,12.3
+cfpb-vt-debt-collection,population,644663
+cfpb-vt-debt-collection,yoyPct,49.1
+cfpb-vt-debt-collection,timelyPct,97.5
+cfpb-vt-debt-collection,reliefPct,17.7
+cfpb-vt-debt-collection,topIssue,Written notification about debt
+cfpb-vt-debt-collection,topIssueSharePct,26.6
+cfpb-va-debt-collection,per100k,72.8
+cfpb-va-debt-collection,population,8880107
+cfpb-va-debt-collection,yoyPct,5.8
+cfpb-va-debt-collection,timelyPct,97
+cfpb-va-debt-collection,reliefPct,25
+cfpb-va-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-va-debt-collection,topIssueSharePct,43.4
+cfpb-wa-debt-collection,per100k,55.4
+cfpb-wa-debt-collection,population,8001020
+cfpb-wa-debt-collection,yoyPct,115.7
+cfpb-wa-debt-collection,timelyPct,96.9
+cfpb-wa-debt-collection,reliefPct,22.1
+cfpb-wa-debt-collection,topIssue,Written notification about debt
+cfpb-wa-debt-collection,topIssueSharePct,39.8
+cfpb-wv-debt-collection,per100k,28.6
+cfpb-wv-debt-collection,population,1766147
+cfpb-wv-debt-collection,yoyPct,-38.6
+cfpb-wv-debt-collection,timelyPct,97.4
+cfpb-wv-debt-collection,reliefPct,28.1
+cfpb-wv-debt-collection,topIssue,Written notification about debt
+cfpb-wv-debt-collection,topIssueSharePct,35.4
+cfpb-wi-debt-collection,per100k,36.2
+cfpb-wi-debt-collection,population,5972787
+cfpb-wi-debt-collection,yoyPct,31.9
+cfpb-wi-debt-collection,timelyPct,96.2
+cfpb-wi-debt-collection,reliefPct,19.5
+cfpb-wi-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-wi-debt-collection,topIssueSharePct,36.9
+cfpb-wy-debt-collection,per100k,29
+cfpb-wy-debt-collection,population,588753
+cfpb-wy-debt-collection,yoyPct,33.6
+cfpb-wy-debt-collection,timelyPct,94.7
+cfpb-wy-debt-collection,reliefPct,14.6
+cfpb-wy-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-wy-debt-collection,topIssueSharePct,29.2
+cfpb-pr-debt-collection,per100k,10.8
+cfpb-pr-debt-collection,population,3184835
+cfpb-pr-debt-collection,yoyPct,66.7
+cfpb-pr-debt-collection,timelyPct,93
+cfpb-pr-debt-collection,reliefPct,22.6
+cfpb-pr-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-pr-debt-collection,topIssueSharePct,44.6
+cfpb-as-debt-collection,timelyPct,83.3
+cfpb-as-debt-collection,reliefPct,16.7
+cfpb-as-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-as-debt-collection,topIssueSharePct,100
+cfpb-gu-debt-collection,yoyPct,120
+cfpb-gu-debt-collection,timelyPct,90.9
+cfpb-gu-debt-collection,reliefPct,0
+cfpb-gu-debt-collection,topIssue,Written notification about debt
+cfpb-gu-debt-collection,topIssueSharePct,45.5
+cfpb-mp-debt-collection,yoyPct,600
+cfpb-mp-debt-collection,timelyPct,71.4
+cfpb-mp-debt-collection,reliefPct,0
+cfpb-mp-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-mp-debt-collection,topIssueSharePct,100
+cfpb-vi-debt-collection,yoyPct,-38.8
+cfpb-vi-debt-collection,timelyPct,96.7
+cfpb-vi-debt-collection,reliefPct,30
+cfpb-vi-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-vi-debt-collection,topIssueSharePct,36.7
+cfpb-us-debt-collection,per100k,94.9
+cfpb-us-debt-collection,population,341784857
+cfpb-us-debt-collection,yoyPct,28.6
+cfpb-us-debt-collection,timelyPct,96.5
+cfpb-us-debt-collection,reliefPct,22.7
+cfpb-us-debt-collection,topIssue,Attempts to collect debt not owed
+cfpb-us-debt-collection,topIssueSharePct,43.3
+cfpb-al-credit-reporting,per100k,3755.9
+cfpb-al-credit-reporting,population,5193088
+cfpb-al-credit-reporting,yoyPct,76.1
+cfpb-al-credit-reporting,timelyPct,99.9
+cfpb-al-credit-reporting,reliefPct,30.5
+cfpb-al-credit-reporting,topIssue,Incorrect information on your report
+cfpb-al-credit-reporting,topIssueSharePct,54.7
+cfpb-ak-credit-reporting,per100k,358.9
+cfpb-ak-credit-reporting,population,737270
+cfpb-ak-credit-reporting,yoyPct,43.6
+cfpb-ak-credit-reporting,timelyPct,99.9
+cfpb-ak-credit-reporting,reliefPct,32.2
+cfpb-ak-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ak-credit-reporting,topIssueSharePct,66.1
+cfpb-az-credit-reporting,per100k,1255.3
+cfpb-az-credit-reporting,population,7623818
+cfpb-az-credit-reporting,yoyPct,51
+cfpb-az-credit-reporting,timelyPct,99.9
+cfpb-az-credit-reporting,reliefPct,33.3
+cfpb-az-credit-reporting,topIssue,Incorrect information on your report
+cfpb-az-credit-reporting,topIssueSharePct,57.6
+cfpb-ar-credit-reporting,per100k,1614.6
+cfpb-ar-credit-reporting,population,3114791
+cfpb-ar-credit-reporting,yoyPct,92.7
+cfpb-ar-credit-reporting,timelyPct,99.9
+cfpb-ar-credit-reporting,reliefPct,32.5
+cfpb-ar-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ar-credit-reporting,topIssueSharePct,59.7
+cfpb-ca-credit-reporting,per100k,1458.9
+cfpb-ca-credit-reporting,population,39355309
+cfpb-ca-credit-reporting,yoyPct,47.1
+cfpb-ca-credit-reporting,timelyPct,99.9
+cfpb-ca-credit-reporting,reliefPct,33.4
+cfpb-ca-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ca-credit-reporting,topIssueSharePct,58.1
+cfpb-co-credit-reporting,per100k,550.9
+cfpb-co-credit-reporting,population,6012561
+cfpb-co-credit-reporting,yoyPct,44.6
+cfpb-co-credit-reporting,timelyPct,99.9
+cfpb-co-credit-reporting,reliefPct,31.8
+cfpb-co-credit-reporting,topIssue,Incorrect information on your report
+cfpb-co-credit-reporting,topIssueSharePct,55.5
+cfpb-ct-credit-reporting,per100k,1042.5
+cfpb-ct-credit-reporting,population,3688496
+cfpb-ct-credit-reporting,yoyPct,37.5
+cfpb-ct-credit-reporting,timelyPct,99.9
+cfpb-ct-credit-reporting,reliefPct,32.3
+cfpb-ct-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ct-credit-reporting,topIssueSharePct,58
+cfpb-de-credit-reporting,per100k,2157.5
+cfpb-de-credit-reporting,population,1059952
+cfpb-de-credit-reporting,yoyPct,19.5
+cfpb-de-credit-reporting,timelyPct,99.9
+cfpb-de-credit-reporting,reliefPct,31.8
+cfpb-de-credit-reporting,topIssue,Incorrect information on your report
+cfpb-de-credit-reporting,topIssueSharePct,59.8
+cfpb-dc-credit-reporting,per100k,2483.1
+cfpb-dc-credit-reporting,population,693645
+cfpb-dc-credit-reporting,yoyPct,24.3
+cfpb-dc-credit-reporting,timelyPct,99.8
+cfpb-dc-credit-reporting,reliefPct,30.3
+cfpb-dc-credit-reporting,topIssue,Incorrect information on your report
+cfpb-dc-credit-reporting,topIssueSharePct,55.9
+cfpb-fl-credit-reporting,per100k,3946.4
+cfpb-fl-credit-reporting,population,23462518
+cfpb-fl-credit-reporting,yoyPct,43.8
+cfpb-fl-credit-reporting,timelyPct,99.9
+cfpb-fl-credit-reporting,reliefPct,32.3
+cfpb-fl-credit-reporting,topIssue,Incorrect information on your report
+cfpb-fl-credit-reporting,topIssueSharePct,62.7
+cfpb-ga-credit-reporting,per100k,4215.2
+cfpb-ga-credit-reporting,population,11302748
+cfpb-ga-credit-reporting,yoyPct,41.4
+cfpb-ga-credit-reporting,timelyPct,99.9
+cfpb-ga-credit-reporting,reliefPct,31.6
+cfpb-ga-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ga-credit-reporting,topIssueSharePct,58.9
+cfpb-hi-credit-reporting,per100k,779
+cfpb-hi-credit-reporting,population,1432820
+cfpb-hi-credit-reporting,yoyPct,99.8
+cfpb-hi-credit-reporting,timelyPct,99.9
+cfpb-hi-credit-reporting,reliefPct,32.9
+cfpb-hi-credit-reporting,topIssue,Incorrect information on your report
+cfpb-hi-credit-reporting,topIssueSharePct,64.9
+cfpb-id-credit-reporting,per100k,213.9
+cfpb-id-credit-reporting,population,2029733
+cfpb-id-credit-reporting,yoyPct,51.7
+cfpb-id-credit-reporting,timelyPct,99.8
+cfpb-id-credit-reporting,reliefPct,31.6
+cfpb-id-credit-reporting,topIssue,Incorrect information on your report
+cfpb-id-credit-reporting,topIssueSharePct,56.9
+cfpb-il-credit-reporting,per100k,2155.1
+cfpb-il-credit-reporting,population,12719141
+cfpb-il-credit-reporting,yoyPct,50.2
+cfpb-il-credit-reporting,timelyPct,99.8
+cfpb-il-credit-reporting,reliefPct,30.3
+cfpb-il-credit-reporting,topIssue,Incorrect information on your report
+cfpb-il-credit-reporting,topIssueSharePct,53.8
+cfpb-in-credit-reporting,per100k,883.1
+cfpb-in-credit-reporting,population,6973333
+cfpb-in-credit-reporting,yoyPct,26.2
+cfpb-in-credit-reporting,timelyPct,99.8
+cfpb-in-credit-reporting,reliefPct,30.5
+cfpb-in-credit-reporting,topIssue,Incorrect information on your report
+cfpb-in-credit-reporting,topIssueSharePct,55.7
+cfpb-ia-credit-reporting,per100k,295.6
+cfpb-ia-credit-reporting,population,3238387
+cfpb-ia-credit-reporting,yoyPct,38.9
+cfpb-ia-credit-reporting,timelyPct,99.8
+cfpb-ia-credit-reporting,reliefPct,31.8
+cfpb-ia-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ia-credit-reporting,topIssueSharePct,60.8
+cfpb-ks-credit-reporting,per100k,417.8
+cfpb-ks-credit-reporting,population,2977220
+cfpb-ks-credit-reporting,yoyPct,45.3
+cfpb-ks-credit-reporting,timelyPct,99.9
+cfpb-ks-credit-reporting,reliefPct,30.8
+cfpb-ks-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ks-credit-reporting,topIssueSharePct,61
+cfpb-ky-credit-reporting,per100k,487.9
+cfpb-ky-credit-reporting,population,4606864
+cfpb-ky-credit-reporting,yoyPct,41.8
+cfpb-ky-credit-reporting,timelyPct,99.8
+cfpb-ky-credit-reporting,reliefPct,33
+cfpb-ky-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ky-credit-reporting,topIssueSharePct,51.7
+cfpb-la-credit-reporting,per100k,3611.4
+cfpb-la-credit-reporting,population,4618189
+cfpb-la-credit-reporting,yoyPct,68.2
+cfpb-la-credit-reporting,timelyPct,99.9
+cfpb-la-credit-reporting,reliefPct,33
+cfpb-la-credit-reporting,topIssue,Incorrect information on your report
+cfpb-la-credit-reporting,topIssueSharePct,60.8
+cfpb-me-credit-reporting,per100k,198.8
+cfpb-me-credit-reporting,population,1414874
+cfpb-me-credit-reporting,yoyPct,73.2
+cfpb-me-credit-reporting,timelyPct,99.8
+cfpb-me-credit-reporting,reliefPct,30.7
+cfpb-me-credit-reporting,topIssue,Incorrect information on your report
+cfpb-me-credit-reporting,topIssueSharePct,43.7
+cfpb-md-credit-reporting,per100k,2247.4
+cfpb-md-credit-reporting,population,6265347
+cfpb-md-credit-reporting,yoyPct,30.4
+cfpb-md-credit-reporting,timelyPct,99.9
+cfpb-md-credit-reporting,reliefPct,31.8
+cfpb-md-credit-reporting,topIssue,Incorrect information on your report
+cfpb-md-credit-reporting,topIssueSharePct,57.5
+cfpb-ma-credit-reporting,per100k,1058.6
+cfpb-ma-credit-reporting,population,7154084
+cfpb-ma-credit-reporting,yoyPct,44.6
+cfpb-ma-credit-reporting,timelyPct,99.9
+cfpb-ma-credit-reporting,reliefPct,32
+cfpb-ma-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ma-credit-reporting,topIssueSharePct,61.3
+cfpb-mi-credit-reporting,per100k,1188.5
+cfpb-mi-credit-reporting,population,10127884
+cfpb-mi-credit-reporting,yoyPct,30.1
+cfpb-mi-credit-reporting,timelyPct,99.9
+cfpb-mi-credit-reporting,reliefPct,31.3
+cfpb-mi-credit-reporting,topIssue,Incorrect information on your report
+cfpb-mi-credit-reporting,topIssueSharePct,56.5
+cfpb-mn-credit-reporting,per100k,385.3
+cfpb-mn-credit-reporting,population,5830405
+cfpb-mn-credit-reporting,yoyPct,30.5
+cfpb-mn-credit-reporting,timelyPct,99.9
+cfpb-mn-credit-reporting,reliefPct,30.7
+cfpb-mn-credit-reporting,topIssue,Incorrect information on your report
+cfpb-mn-credit-reporting,topIssueSharePct,54.7
+cfpb-ms-credit-reporting,per100k,5972.2
+cfpb-ms-credit-reporting,population,2954160
+cfpb-ms-credit-reporting,yoyPct,152
+cfpb-ms-credit-reporting,timelyPct,99.9
+cfpb-ms-credit-reporting,reliefPct,31.9
+cfpb-ms-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ms-credit-reporting,topIssueSharePct,70.4
+cfpb-mo-credit-reporting,per100k,1020.4
+cfpb-mo-credit-reporting,population,6270541
+cfpb-mo-credit-reporting,yoyPct,46.7
+cfpb-mo-credit-reporting,timelyPct,99.9
+cfpb-mo-credit-reporting,reliefPct,29.2
+cfpb-mo-credit-reporting,topIssue,Incorrect information on your report
+cfpb-mo-credit-reporting,topIssueSharePct,59.4
+cfpb-mt-credit-reporting,per100k,180.7
+cfpb-mt-credit-reporting,population,1144694
+cfpb-mt-credit-reporting,yoyPct,65.7
+cfpb-mt-credit-reporting,timelyPct,99.5
+cfpb-mt-credit-reporting,reliefPct,32.9
+cfpb-mt-credit-reporting,topIssue,Incorrect information on your report
+cfpb-mt-credit-reporting,topIssueSharePct,60.1
+cfpb-ne-credit-reporting,per100k,407.5
+cfpb-ne-credit-reporting,population,2018006
+cfpb-ne-credit-reporting,yoyPct,39.9
+cfpb-ne-credit-reporting,timelyPct,99.9
+cfpb-ne-credit-reporting,reliefPct,33.3
+cfpb-ne-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ne-credit-reporting,topIssueSharePct,58.4
+cfpb-nv-credit-reporting,per100k,2245.4
+cfpb-nv-credit-reporting,population,3282188
+cfpb-nv-credit-reporting,yoyPct,34.7
+cfpb-nv-credit-reporting,timelyPct,99.9
+cfpb-nv-credit-reporting,reliefPct,32.7
+cfpb-nv-credit-reporting,topIssue,Incorrect information on your report
+cfpb-nv-credit-reporting,topIssueSharePct,56.2
+cfpb-nh-credit-reporting,per100k,284.7
+cfpb-nh-credit-reporting,population,1415342
+cfpb-nh-credit-reporting,yoyPct,14.5
+cfpb-nh-credit-reporting,timelyPct,99.8
+cfpb-nh-credit-reporting,reliefPct,33.1
+cfpb-nh-credit-reporting,topIssue,Incorrect information on your report
+cfpb-nh-credit-reporting,topIssueSharePct,52.6
+cfpb-nj-credit-reporting,per100k,1903.8
+cfpb-nj-credit-reporting,population,9548215
+cfpb-nj-credit-reporting,yoyPct,28.8
+cfpb-nj-credit-reporting,timelyPct,99.9
+cfpb-nj-credit-reporting,reliefPct,31.4
+cfpb-nj-credit-reporting,topIssue,Incorrect information on your report
+cfpb-nj-credit-reporting,topIssueSharePct,63.2
+cfpb-nm-credit-reporting,per100k,455
+cfpb-nm-credit-reporting,population,2125498
+cfpb-nm-credit-reporting,yoyPct,63.2
+cfpb-nm-credit-reporting,timelyPct,99.9
+cfpb-nm-credit-reporting,reliefPct,34.4
+cfpb-nm-credit-reporting,topIssue,Incorrect information on your report
+cfpb-nm-credit-reporting,topIssueSharePct,55
+cfpb-ny-credit-reporting,per100k,1597.2
+cfpb-ny-credit-reporting,population,20002427
+cfpb-ny-credit-reporting,yoyPct,28
+cfpb-ny-credit-reporting,timelyPct,99.9
+cfpb-ny-credit-reporting,reliefPct,31.2
+cfpb-ny-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ny-credit-reporting,topIssueSharePct,62
+cfpb-nc-credit-reporting,per100k,2025
+cfpb-nc-credit-reporting,population,11197968
+cfpb-nc-credit-reporting,yoyPct,52
+cfpb-nc-credit-reporting,timelyPct,99.9
+cfpb-nc-credit-reporting,reliefPct,32.2
+cfpb-nc-credit-reporting,topIssue,Incorrect information on your report
+cfpb-nc-credit-reporting,topIssueSharePct,56.4
+cfpb-nd-credit-reporting,per100k,426
+cfpb-nd-credit-reporting,population,799358
+cfpb-nd-credit-reporting,yoyPct,68.1
+cfpb-nd-credit-reporting,timelyPct,99.8
+cfpb-nd-credit-reporting,reliefPct,32
+cfpb-nd-credit-reporting,topIssue,Incorrect information on your report
+cfpb-nd-credit-reporting,topIssueSharePct,54.3
+cfpb-oh-credit-reporting,per100k,948
+cfpb-oh-credit-reporting,population,11900510
+cfpb-oh-credit-reporting,yoyPct,32.3
+cfpb-oh-credit-reporting,timelyPct,99.9
+cfpb-oh-credit-reporting,reliefPct,32.8
+cfpb-oh-credit-reporting,topIssue,Incorrect information on your report
+cfpb-oh-credit-reporting,topIssueSharePct,58.7
+cfpb-ok-credit-reporting,per100k,610.1
+cfpb-ok-credit-reporting,population,4123288
+cfpb-ok-credit-reporting,yoyPct,59.2
+cfpb-ok-credit-reporting,timelyPct,99.9
+cfpb-ok-credit-reporting,reliefPct,32.8
+cfpb-ok-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ok-credit-reporting,topIssueSharePct,57.4
+cfpb-or-credit-reporting,per100k,300.8
+cfpb-or-credit-reporting,population,4273586
+cfpb-or-credit-reporting,yoyPct,63.3
+cfpb-or-credit-reporting,timelyPct,99.8
+cfpb-or-credit-reporting,reliefPct,34
+cfpb-or-credit-reporting,topIssue,Incorrect information on your report
+cfpb-or-credit-reporting,topIssueSharePct,58.6
+cfpb-pa-credit-reporting,per100k,1575.7
+cfpb-pa-credit-reporting,population,13059432
+cfpb-pa-credit-reporting,yoyPct,30.6
+cfpb-pa-credit-reporting,timelyPct,99.9
+cfpb-pa-credit-reporting,reliefPct,32.4
+cfpb-pa-credit-reporting,topIssue,Incorrect information on your report
+cfpb-pa-credit-reporting,topIssueSharePct,63.3
+cfpb-ri-credit-reporting,per100k,1296.2
+cfpb-ri-credit-reporting,population,1114521
+cfpb-ri-credit-reporting,yoyPct,41
+cfpb-ri-credit-reporting,timelyPct,100
+cfpb-ri-credit-reporting,reliefPct,30.8
+cfpb-ri-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ri-credit-reporting,topIssueSharePct,61.4
+cfpb-sc-credit-reporting,per100k,3015.1
+cfpb-sc-credit-reporting,population,5570274
+cfpb-sc-credit-reporting,yoyPct,80.6
+cfpb-sc-credit-reporting,timelyPct,99.9
+cfpb-sc-credit-reporting,reliefPct,32.2
+cfpb-sc-credit-reporting,topIssue,Incorrect information on your report
+cfpb-sc-credit-reporting,topIssueSharePct,58.2
+cfpb-sd-credit-reporting,per100k,172.6
+cfpb-sd-credit-reporting,population,935094
+cfpb-sd-credit-reporting,yoyPct,53
+cfpb-sd-credit-reporting,timelyPct,99.8
+cfpb-sd-credit-reporting,reliefPct,34.2
+cfpb-sd-credit-reporting,topIssue,Incorrect information on your report
+cfpb-sd-credit-reporting,topIssueSharePct,55.3
+cfpb-tn-credit-reporting,per100k,1177.7
+cfpb-tn-credit-reporting,population,7315076
+cfpb-tn-credit-reporting,yoyPct,41
+cfpb-tn-credit-reporting,timelyPct,99.8
+cfpb-tn-credit-reporting,reliefPct,31.6
+cfpb-tn-credit-reporting,topIssue,Incorrect information on your report
+cfpb-tn-credit-reporting,topIssueSharePct,60.7
+cfpb-tx-credit-reporting,per100k,3299.7
+cfpb-tx-credit-reporting,population,31709821
+cfpb-tx-credit-reporting,yoyPct,78.1
+cfpb-tx-credit-reporting,timelyPct,99.9
+cfpb-tx-credit-reporting,reliefPct,32.4
+cfpb-tx-credit-reporting,topIssue,Incorrect information on your report
+cfpb-tx-credit-reporting,topIssueSharePct,58.7
+cfpb-ut-credit-reporting,per100k,423.3
+cfpb-ut-credit-reporting,population,3538904
+cfpb-ut-credit-reporting,yoyPct,51.6
+cfpb-ut-credit-reporting,timelyPct,99.8
+cfpb-ut-credit-reporting,reliefPct,33.9
+cfpb-ut-credit-reporting,topIssue,Incorrect information on your report
+cfpb-ut-credit-reporting,topIssueSharePct,61.2
+cfpb-vt-credit-reporting,per100k,121.8
+cfpb-vt-credit-reporting,population,644663
+cfpb-vt-credit-reporting,yoyPct,3.4
+cfpb-vt-credit-reporting,timelyPct,100
+cfpb-vt-credit-reporting,reliefPct,31
+cfpb-vt-credit-reporting,topIssue,Incorrect information on your report
+cfpb-vt-credit-reporting,topIssueSharePct,50.7
+cfpb-va-credit-reporting,per100k,1169.7
+cfpb-va-credit-reporting,population,8880107
+cfpb-va-credit-reporting,yoyPct,35.5
+cfpb-va-credit-reporting,timelyPct,99.9
+cfpb-va-credit-reporting,reliefPct,31.1
+cfpb-va-credit-reporting,topIssue,Incorrect information on your report
+cfpb-va-credit-reporting,topIssueSharePct,58.1
+cfpb-wa-credit-reporting,per100k,705
+cfpb-wa-credit-reporting,population,8001020
+cfpb-wa-credit-reporting,yoyPct,117.1
+cfpb-wa-credit-reporting,timelyPct,99.9
+cfpb-wa-credit-reporting,reliefPct,35.4
+cfpb-wa-credit-reporting,topIssue,Incorrect information on your report
+cfpb-wa-credit-reporting,topIssueSharePct,64
+cfpb-wv-credit-reporting,per100k,283.4
+cfpb-wv-credit-reporting,population,1766147
+cfpb-wv-credit-reporting,yoyPct,44.9
+cfpb-wv-credit-reporting,timelyPct,99.8
+cfpb-wv-credit-reporting,reliefPct,33
+cfpb-wv-credit-reporting,topIssue,Incorrect information on your report
+cfpb-wv-credit-reporting,topIssueSharePct,59.9
+cfpb-wi-credit-reporting,per100k,840.9
+cfpb-wi-credit-reporting,population,5972787
+cfpb-wi-credit-reporting,yoyPct,88.8
+cfpb-wi-credit-reporting,timelyPct,99.9
+cfpb-wi-credit-reporting,reliefPct,32.7
+cfpb-wi-credit-reporting,topIssue,Incorrect information on your report
+cfpb-wi-credit-reporting,topIssueSharePct,67.5
+cfpb-wy-credit-reporting,per100k,166.1
+cfpb-wy-credit-reporting,population,588753
+cfpb-wy-credit-reporting,yoyPct,38.9
+cfpb-wy-credit-reporting,timelyPct,99.4
+cfpb-wy-credit-reporting,reliefPct,31.4
+cfpb-wy-credit-reporting,topIssue,Incorrect information on your report
+cfpb-wy-credit-reporting,topIssueSharePct,54.1
+cfpb-pr-credit-reporting,per100k,847.9
+cfpb-pr-credit-reporting,population,3184835
+cfpb-pr-credit-reporting,yoyPct,28.6
+cfpb-pr-credit-reporting,timelyPct,100
+cfpb-pr-credit-reporting,reliefPct,33
+cfpb-pr-credit-reporting,topIssue,Incorrect information on your report
+cfpb-pr-credit-reporting,topIssueSharePct,76.4
+cfpb-as-credit-reporting,yoyPct,553.8
+cfpb-as-credit-reporting,timelyPct,100
+cfpb-as-credit-reporting,reliefPct,24.7
+cfpb-as-credit-reporting,topIssue,Incorrect information on your report
+cfpb-as-credit-reporting,topIssueSharePct,81.6
+cfpb-gu-credit-reporting,yoyPct,-32
+cfpb-gu-credit-reporting,timelyPct,100
+cfpb-gu-credit-reporting,reliefPct,40
+cfpb-gu-credit-reporting,topIssue,Incorrect information on your report
+cfpb-gu-credit-reporting,topIssueSharePct,77.1
+cfpb-mp-credit-reporting,yoyPct,218.2
+cfpb-mp-credit-reporting,timelyPct,100
+cfpb-mp-credit-reporting,reliefPct,8.6
+cfpb-mp-credit-reporting,topIssue,Incorrect information on your report
+cfpb-mp-credit-reporting,topIssueSharePct,91.4
+cfpb-vi-credit-reporting,yoyPct,52.3
+cfpb-vi-credit-reporting,timelyPct,99.8
+cfpb-vi-credit-reporting,reliefPct,29.7
+cfpb-vi-credit-reporting,topIssue,Incorrect information on your report
+cfpb-vi-credit-reporting,topIssueSharePct,84
+cfpb-us-credit-reporting,per100k,1862.6
+cfpb-us-credit-reporting,population,341784857
+cfpb-us-credit-reporting,yoyPct,50.9
+cfpb-us-credit-reporting,timelyPct,99.9
+cfpb-us-credit-reporting,reliefPct,32.1
+cfpb-us-credit-reporting,topIssue,Incorrect information on your report
+cfpb-us-credit-reporting,topIssueSharePct,59.7
+cfpb-al-debt-management,per100k,0.8
+cfpb-al-debt-management,population,5193088
+cfpb-al-debt-management,yoyPct,-53.2
+cfpb-al-debt-management,timelyPct,90.9
+cfpb-al-debt-management,reliefPct,15.9
+cfpb-al-debt-management,topIssue,Didn't provide services promised
+cfpb-al-debt-management,topIssueSharePct,22.7
+cfpb-ak-debt-management,per100k,0.7
+cfpb-ak-debt-management,population,737270
+cfpb-ak-debt-management,yoyPct,-37.5
+cfpb-ak-debt-management,timelyPct,100
+cfpb-ak-debt-management,reliefPct,20
+cfpb-ak-debt-management,topIssue,Problem with customer service
+cfpb-ak-debt-management,topIssueSharePct,40
+cfpb-az-debt-management,per100k,1.1
+cfpb-az-debt-management,population,7623818
+cfpb-az-debt-management,yoyPct,2.5
+cfpb-az-debt-management,timelyPct,88
+cfpb-az-debt-management,reliefPct,14.5
+cfpb-az-debt-management,topIssue,Didn't provide services promised
+cfpb-az-debt-management,topIssueSharePct,25.3
+cfpb-ar-debt-management,per100k,1.3
+cfpb-ar-debt-management,population,3114791
+cfpb-ar-debt-management,yoyPct,-7.1
+cfpb-ar-debt-management,timelyPct,89.7
+cfpb-ar-debt-management,reliefPct,2.6
+cfpb-ar-debt-management,topIssue,Charged upfront or unexpected fees
+cfpb-ar-debt-management,topIssueSharePct,30.8
+cfpb-ca-debt-management,per100k,1.2
+cfpb-ca-debt-management,population,39355309
+cfpb-ca-debt-management,yoyPct,33.1
+cfpb-ca-debt-management,timelyPct,90.8
+cfpb-ca-debt-management,reliefPct,16.5
+cfpb-ca-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ca-debt-management,topIssueSharePct,27.4
+cfpb-co-debt-management,per100k,1.2
+cfpb-co-debt-management,population,6012561
+cfpb-co-debt-management,yoyPct,54.2
+cfpb-co-debt-management,timelyPct,87.8
+cfpb-co-debt-management,reliefPct,10.8
+cfpb-co-debt-management,topIssue,Didn't provide services promised
+cfpb-co-debt-management,topIssueSharePct,33.8
+cfpb-ct-debt-management,per100k,1.4
+cfpb-ct-debt-management,population,3688496
+cfpb-ct-debt-management,yoyPct,64.5
+cfpb-ct-debt-management,timelyPct,86.3
+cfpb-ct-debt-management,reliefPct,13.7
+cfpb-ct-debt-management,topIssue,Didn't provide services promised
+cfpb-ct-debt-management,topIssueSharePct,35.3
+cfpb-de-debt-management,per100k,1.4
+cfpb-de-debt-management,population,1059952
+cfpb-de-debt-management,yoyPct,15.4
+cfpb-de-debt-management,timelyPct,100
+cfpb-de-debt-management,reliefPct,20
+cfpb-de-debt-management,topIssue,Didn't provide services promised
+cfpb-de-debt-management,topIssueSharePct,46.7
+cfpb-dc-debt-management,per100k,1
+cfpb-dc-debt-management,population,693645
+cfpb-dc-debt-management,yoyPct,-36.4
+cfpb-dc-debt-management,timelyPct,100
+cfpb-dc-debt-management,reliefPct,28.6
+cfpb-dc-debt-management,topIssue,Confusing or misleading advertising or marketing
+cfpb-dc-debt-management,topIssueSharePct,28.6
+cfpb-fl-debt-management,per100k,2.6
+cfpb-fl-debt-management,population,23462518
+cfpb-fl-debt-management,yoyPct,52
+cfpb-fl-debt-management,timelyPct,93.9
+cfpb-fl-debt-management,reliefPct,21.3
+cfpb-fl-debt-management,topIssue,Confusing or missing disclosures
+cfpb-fl-debt-management,topIssueSharePct,43.1
+cfpb-ga-debt-management,per100k,2.1
+cfpb-ga-debt-management,population,11302748
+cfpb-ga-debt-management,yoyPct,-16.3
+cfpb-ga-debt-management,timelyPct,92.6
+cfpb-ga-debt-management,reliefPct,11.2
+cfpb-ga-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ga-debt-management,topIssueSharePct,27.7
+cfpb-hi-debt-management,per100k,0.8
+cfpb-hi-debt-management,population,1432820
+cfpb-hi-debt-management,yoyPct,83.3
+cfpb-hi-debt-management,timelyPct,81.8
+cfpb-hi-debt-management,reliefPct,9.1
+cfpb-hi-debt-management,topIssue,Didn't provide services promised
+cfpb-hi-debt-management,topIssueSharePct,54.5
+cfpb-id-debt-management,per100k,0.7
+cfpb-id-debt-management,population,2029733
+cfpb-id-debt-management,yoyPct,133.3
+cfpb-id-debt-management,timelyPct,57.1
+cfpb-id-debt-management,reliefPct,7.1
+cfpb-id-debt-management,topIssue,Didn't provide services promised
+cfpb-id-debt-management,topIssueSharePct,28.6
+cfpb-il-debt-management,per100k,0.9
+cfpb-il-debt-management,population,12719141
+cfpb-il-debt-management,yoyPct,-18.9
+cfpb-il-debt-management,timelyPct,89.7
+cfpb-il-debt-management,reliefPct,10.3
+cfpb-il-debt-management,topIssue,Didn't provide services promised
+cfpb-il-debt-management,topIssueSharePct,24.1
+cfpb-in-debt-management,per100k,0.7
+cfpb-in-debt-management,population,6973333
+cfpb-in-debt-management,yoyPct,-1.9
+cfpb-in-debt-management,timelyPct,92.3
+cfpb-in-debt-management,reliefPct,7.7
+cfpb-in-debt-management,topIssue,Didn't provide services promised
+cfpb-in-debt-management,topIssueSharePct,38.5
+cfpb-ia-debt-management,per100k,0.4
+cfpb-ia-debt-management,population,3238387
+cfpb-ia-debt-management,yoyPct,0
+cfpb-ia-debt-management,timelyPct,100
+cfpb-ia-debt-management,reliefPct,14.3
+cfpb-ia-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ia-debt-management,topIssueSharePct,42.9
+cfpb-ks-debt-management,per100k,0.6
+cfpb-ks-debt-management,population,2977220
+cfpb-ks-debt-management,yoyPct,21.4
+cfpb-ks-debt-management,timelyPct,100
+cfpb-ks-debt-management,reliefPct,23.5
+cfpb-ks-debt-management,topIssue,Didn't provide services promised
+cfpb-ks-debt-management,topIssueSharePct,41.2
+cfpb-ky-debt-management,per100k,0.6
+cfpb-ky-debt-management,population,4606864
+cfpb-ky-debt-management,yoyPct,-32.5
+cfpb-ky-debt-management,timelyPct,88.9
+cfpb-ky-debt-management,reliefPct,14.8
+cfpb-ky-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ky-debt-management,topIssueSharePct,22.2
+cfpb-la-debt-management,per100k,1.7
+cfpb-la-debt-management,population,4618189
+cfpb-la-debt-management,yoyPct,6.9
+cfpb-la-debt-management,timelyPct,92.2
+cfpb-la-debt-management,reliefPct,3.9
+cfpb-la-debt-management,topIssue,Charged upfront or unexpected fees
+cfpb-la-debt-management,topIssueSharePct,26
+cfpb-me-debt-management,per100k,0.6
+cfpb-me-debt-management,population,1414874
+cfpb-me-debt-management,yoyPct,800
+cfpb-me-debt-management,timelyPct,66.7
+cfpb-me-debt-management,reliefPct,0
+cfpb-me-debt-management,topIssue,Didn't provide services promised
+cfpb-me-debt-management,topIssueSharePct,44.4
+cfpb-md-debt-management,per100k,1.4
+cfpb-md-debt-management,population,6265347
+cfpb-md-debt-management,yoyPct,-14.1
+cfpb-md-debt-management,timelyPct,89.4
+cfpb-md-debt-management,reliefPct,16.5
+cfpb-md-debt-management,topIssue,Didn't provide services promised
+cfpb-md-debt-management,topIssueSharePct,23.5
+cfpb-ma-debt-management,per100k,1.3
+cfpb-ma-debt-management,population,7154084
+cfpb-ma-debt-management,yoyPct,0
+cfpb-ma-debt-management,timelyPct,90.2
+cfpb-ma-debt-management,reliefPct,21.7
+cfpb-ma-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ma-debt-management,topIssueSharePct,39.1
+cfpb-mi-debt-management,per100k,1.1
+cfpb-mi-debt-management,population,10127884
+cfpb-mi-debt-management,yoyPct,-19.9
+cfpb-mi-debt-management,timelyPct,88.5
+cfpb-mi-debt-management,reliefPct,15.9
+cfpb-mi-debt-management,topIssue,Didn't provide services promised
+cfpb-mi-debt-management,topIssueSharePct,25.7
+cfpb-mn-debt-management,per100k,0.8
+cfpb-mn-debt-management,population,5830405
+cfpb-mn-debt-management,yoyPct,51.7
+cfpb-mn-debt-management,timelyPct,90.9
+cfpb-mn-debt-management,reliefPct,27.3
+cfpb-mn-debt-management,topIssue,Confusing or missing disclosures
+cfpb-mn-debt-management,topIssueSharePct,36.4
+cfpb-ms-debt-management,per100k,2.3
+cfpb-ms-debt-management,population,2954160
+cfpb-ms-debt-management,yoyPct,-13.9
+cfpb-ms-debt-management,timelyPct,95.6
+cfpb-ms-debt-management,reliefPct,20.6
+cfpb-ms-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ms-debt-management,topIssueSharePct,33.8
+cfpb-mo-debt-management,per100k,1.3
+cfpb-mo-debt-management,population,6270541
+cfpb-mo-debt-management,yoyPct,19.4
+cfpb-mo-debt-management,timelyPct,80
+cfpb-mo-debt-management,reliefPct,12.5
+cfpb-mo-debt-management,topIssue,Confusing or missing disclosures
+cfpb-mo-debt-management,topIssueSharePct,28.8
+cfpb-mt-debt-management,per100k,1
+cfpb-mt-debt-management,population,1144694
+cfpb-mt-debt-management,yoyPct,140
+cfpb-mt-debt-management,timelyPct,66.7
+cfpb-mt-debt-management,reliefPct,25
+cfpb-mt-debt-management,topIssue,Didn't provide services promised
+cfpb-mt-debt-management,topIssueSharePct,50
+cfpb-ne-debt-management,per100k,0.5
+cfpb-ne-debt-management,population,2018006
+cfpb-ne-debt-management,yoyPct,57.1
+cfpb-ne-debt-management,timelyPct,100
+cfpb-ne-debt-management,reliefPct,18.2
+cfpb-ne-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ne-debt-management,topIssueSharePct,27.3
+cfpb-nv-debt-management,per100k,1.7
+cfpb-nv-debt-management,population,3282188
+cfpb-nv-debt-management,yoyPct,-3.4
+cfpb-nv-debt-management,timelyPct,89.3
+cfpb-nv-debt-management,reliefPct,16.1
+cfpb-nv-debt-management,topIssue,Confusing or misleading advertising or marketing
+cfpb-nv-debt-management,topIssueSharePct,23.2
+cfpb-nh-debt-management,per100k,0.7
+cfpb-nh-debt-management,population,1415342
+cfpb-nh-debt-management,yoyPct,66.7
+cfpb-nh-debt-management,timelyPct,100
+cfpb-nh-debt-management,reliefPct,10
+cfpb-nh-debt-management,topIssue,Didn't provide services promised
+cfpb-nh-debt-management,topIssueSharePct,50
+cfpb-nj-debt-management,per100k,1.1
+cfpb-nj-debt-management,population,9548215
+cfpb-nj-debt-management,yoyPct,-13.1
+cfpb-nj-debt-management,timelyPct,87.7
+cfpb-nj-debt-management,reliefPct,10.4
+cfpb-nj-debt-management,topIssue,Didn't provide services promised
+cfpb-nj-debt-management,topIssueSharePct,24.5
+cfpb-nm-debt-management,per100k,0.7
+cfpb-nm-debt-management,population,2125498
+cfpb-nm-debt-management,yoyPct,-6.7
+cfpb-nm-debt-management,timelyPct,100
+cfpb-nm-debt-management,reliefPct,14.3
+cfpb-nm-debt-management,topIssue,Confusing or misleading advertising or marketing
+cfpb-nm-debt-management,topIssueSharePct,21.4
+cfpb-ny-debt-management,per100k,1
+cfpb-ny-debt-management,population,20002427
+cfpb-ny-debt-management,yoyPct,1
+cfpb-ny-debt-management,timelyPct,89.4
+cfpb-ny-debt-management,reliefPct,10.6
+cfpb-ny-debt-management,topIssue,Didn't provide services promised
+cfpb-ny-debt-management,topIssueSharePct,32.9
+cfpb-nc-debt-management,per100k,1.1
+cfpb-nc-debt-management,population,11197968
+cfpb-nc-debt-management,yoyPct,-14.1
+cfpb-nc-debt-management,timelyPct,94.5
+cfpb-nc-debt-management,reliefPct,12.5
+cfpb-nc-debt-management,topIssue,Didn't provide services promised
+cfpb-nc-debt-management,topIssueSharePct,28.9
+cfpb-nd-debt-management,per100k,1.1
+cfpb-nd-debt-management,population,799358
+cfpb-nd-debt-management,yoyPct,800
+cfpb-nd-debt-management,timelyPct,100
+cfpb-nd-debt-management,reliefPct,11.1
+cfpb-nd-debt-management,topIssue,Confusing or missing disclosures
+cfpb-nd-debt-management,topIssueSharePct,77.8
+cfpb-oh-debt-management,per100k,0.9
+cfpb-oh-debt-management,population,11900510
+cfpb-oh-debt-management,yoyPct,-13.4
+cfpb-oh-debt-management,timelyPct,93.2
+cfpb-oh-debt-management,reliefPct,10.7
+cfpb-oh-debt-management,topIssue,Problem with customer service
+cfpb-oh-debt-management,topIssueSharePct,19.4
+cfpb-ok-debt-management,per100k,1.3
+cfpb-ok-debt-management,population,4123288
+cfpb-ok-debt-management,yoyPct,29.3
+cfpb-ok-debt-management,timelyPct,90.6
+cfpb-ok-debt-management,reliefPct,13.2
+cfpb-ok-debt-management,topIssue,Didn't provide services promised
+cfpb-ok-debt-management,topIssueSharePct,24.5
+cfpb-or-debt-management,per100k,0.6
+cfpb-or-debt-management,population,4273586
+cfpb-or-debt-management,yoyPct,52.9
+cfpb-or-debt-management,timelyPct,84.6
+cfpb-or-debt-management,reliefPct,19.2
+cfpb-or-debt-management,topIssue,Didn't provide services promised
+cfpb-or-debt-management,topIssueSharePct,38.5
+cfpb-pa-debt-management,per100k,1.1
+cfpb-pa-debt-management,population,13059432
+cfpb-pa-debt-management,yoyPct,-19.2
+cfpb-pa-debt-management,timelyPct,91.6
+cfpb-pa-debt-management,reliefPct,12.6
+cfpb-pa-debt-management,topIssue,Didn't provide services promised
+cfpb-pa-debt-management,topIssueSharePct,33.6
+cfpb-ri-debt-management,per100k,0.5
+cfpb-ri-debt-management,population,1114521
+cfpb-ri-debt-management,yoyPct,-53.8
+cfpb-ri-debt-management,timelyPct,83.3
+cfpb-ri-debt-management,reliefPct,0
+cfpb-ri-debt-management,topIssue,Didn't provide services promised
+cfpb-ri-debt-management,topIssueSharePct,50
+cfpb-sc-debt-management,per100k,1.2
+cfpb-sc-debt-management,population,5570274
+cfpb-sc-debt-management,yoyPct,-58.5
+cfpb-sc-debt-management,timelyPct,95.6
+cfpb-sc-debt-management,reliefPct,19.1
+cfpb-sc-debt-management,topIssue,Charged upfront or unexpected fees
+cfpb-sc-debt-management,topIssueSharePct,23.5
+cfpb-sd-debt-management,per100k,0.5
+cfpb-sd-debt-management,population,935094
+cfpb-sd-debt-management,yoyPct,-37.5
+cfpb-sd-debt-management,timelyPct,100
+cfpb-sd-debt-management,reliefPct,0
+cfpb-sd-debt-management,topIssue,Didn't provide services promised
+cfpb-sd-debt-management,topIssueSharePct,60
+cfpb-tn-debt-management,per100k,1.4
+cfpb-tn-debt-management,population,7315076
+cfpb-tn-debt-management,yoyPct,7.4
+cfpb-tn-debt-management,timelyPct,91.2
+cfpb-tn-debt-management,reliefPct,21.6
+cfpb-tn-debt-management,topIssue,Confusing or missing disclosures
+cfpb-tn-debt-management,topIssueSharePct,43.1
+cfpb-tx-debt-management,per100k,1.5
+cfpb-tx-debt-management,population,31709821
+cfpb-tx-debt-management,yoyPct,2.3
+cfpb-tx-debt-management,timelyPct,89.2
+cfpb-tx-debt-management,reliefPct,16
+cfpb-tx-debt-management,topIssue,Confusing or missing disclosures
+cfpb-tx-debt-management,topIssueSharePct,28
+cfpb-ut-debt-management,per100k,0.8
+cfpb-ut-debt-management,population,3538904
+cfpb-ut-debt-management,yoyPct,-35.6
+cfpb-ut-debt-management,timelyPct,93.1
+cfpb-ut-debt-management,reliefPct,6.9
+cfpb-ut-debt-management,topIssue,Confusing or missing disclosures
+cfpb-ut-debt-management,topIssueSharePct,41.4
+cfpb-vt-debt-management,per100k,0.6
+cfpb-vt-debt-management,population,644663
+cfpb-vt-debt-management,yoyPct,100
+cfpb-vt-debt-management,timelyPct,50
+cfpb-vt-debt-management,reliefPct,25
+cfpb-vt-debt-management,topIssue,Confusing or misleading advertising or marketing
+cfpb-vt-debt-management,topIssueSharePct,25
+cfpb-va-debt-management,per100k,1.3
+cfpb-va-debt-management,population,8880107
+cfpb-va-debt-management,yoyPct,22.8
+cfpb-va-debt-management,timelyPct,93.8
+cfpb-va-debt-management,reliefPct,15
+cfpb-va-debt-management,topIssue,Didn't provide services promised
+cfpb-va-debt-management,topIssueSharePct,28.3
+cfpb-wa-debt-management,per100k,0.7
+cfpb-wa-debt-management,population,8001020
+cfpb-wa-debt-management,yoyPct,3.9
+cfpb-wa-debt-management,timelyPct,94.3
+cfpb-wa-debt-management,reliefPct,11.3
+cfpb-wa-debt-management,topIssue,Didn't provide services promised
+cfpb-wa-debt-management,topIssueSharePct,32.1
+cfpb-wv-debt-management,per100k,0.7
+cfpb-wv-debt-management,population,1766147
+cfpb-wv-debt-management,yoyPct,160
+cfpb-wv-debt-management,timelyPct,84.6
+cfpb-wv-debt-management,reliefPct,0
+cfpb-wv-debt-management,topIssue,Didn't provide services promised
+cfpb-wv-debt-management,topIssueSharePct,53.8
+cfpb-wi-debt-management,per100k,1.9
+cfpb-wi-debt-management,population,5972787
+cfpb-wi-debt-management,yoyPct,135.4
+cfpb-wi-debt-management,timelyPct,95.6
+cfpb-wi-debt-management,reliefPct,18.6
+cfpb-wi-debt-management,topIssue,Confusing or missing disclosures
+cfpb-wi-debt-management,topIssueSharePct,67.3
+cfpb-wy-debt-management,per100k,0.7
+cfpb-wy-debt-management,population,588753
+cfpb-wy-debt-management,yoyPct,100
+cfpb-wy-debt-management,timelyPct,75
+cfpb-wy-debt-management,reliefPct,0
+cfpb-wy-debt-management,topIssue,Charged upfront or unexpected fees
+cfpb-wy-debt-management,topIssueSharePct,50
+cfpb-pr-debt-management,per100k,0.3
+cfpb-pr-debt-management,population,3184835
+cfpb-pr-debt-management,yoyPct,50
+cfpb-pr-debt-management,timelyPct,88.9
+cfpb-pr-debt-management,reliefPct,33.3
+cfpb-pr-debt-management,topIssue,Problem with customer service
+cfpb-pr-debt-management,topIssueSharePct,33.3
+cfpb-gu-debt-management,yoyPct,0
+cfpb-gu-debt-management,timelyPct,0
+cfpb-gu-debt-management,reliefPct,0
+cfpb-gu-debt-management,topIssue,Confusing or missing disclosures
+cfpb-gu-debt-management,topIssueSharePct,100
+cfpb-us-debt-management,per100k,1.3
+cfpb-us-debt-management,population,341784857
+cfpb-us-debt-management,yoyPct,4.6
+cfpb-us-debt-management,timelyPct,91
+cfpb-us-debt-management,reliefPct,15.3
+cfpb-us-debt-management,topIssue,Confusing or missing disclosures
+cfpb-us-debt-management,topIssueSharePct,26.6

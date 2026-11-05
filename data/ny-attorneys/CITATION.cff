@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration), 2026, https://doi.org/10.5281/zenodo.23753008."
+message: "If you use this dataset, please cite it as: Probative Growth, Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration), 2026, https://doi.org/10.5281/zenodo.23964055."
 title: "Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23753008"
+version: "2.0.0"
+doi: "10.5281/zenodo.23964055"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23753007"

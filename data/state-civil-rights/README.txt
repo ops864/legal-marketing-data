@@ -1,12 +1,12 @@
 State civil-rights agency complaints and charges: figures printed in state annual reports
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23753029
+Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964131
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, State civil-rights agency complaints and charges: figures printed in state annual reports, version 1.0.0, https://doi.org/10.5281/zenodo.23753029, licensed CC BY 4.0.
+Source: Probative, State civil-rights agency complaints and charges: figures printed in state annual reports, version 2.0.0, https://doi.org/10.5281/zenodo.23964131, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). State civil-rights agency complaints and charges: figures printed in state annual reports (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23753029
+Probative. (2026). State civil-rights agency complaints and charges: figures printed in state annual reports (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964131
 
 Not legal advice. These are counts state agencies publish, kept for research and marketing planning. A complaint or charge is not a finding that discrimination happened; rights and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -30,8 +30,8 @@ Columns:
   documentUrl: Where the document is
   verified: The date the quote was last found in the document
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
-  note: Caveats
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
+  note: Caveats (in state-civil-rights-values.csv, as id, column and value rows)

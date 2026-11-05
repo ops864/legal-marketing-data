@@ -1,0 +1,184 @@
+id,column,value
+ak-ad-filing,retention_years,0
+ak-ad-filing,effectiveFrom,2017-10-15
+al-ad-filing,retention_years,6
+al-ad-filing,effectiveFrom,2026-01-01
+ar-ad-filing,retention_years,5
+az-ad-filing,retention_years,0
+az-ad-filing,effectiveFrom,2021-01-01
+ca-ad-filing,retention_years,1
+co-ad-filing,retention_years,5
+co-ad-filing,effectiveFrom,2020-09-10
+ct-ad-filing,timing,at_or_before_first_use
+ct-ad-filing,timing_detail,"Either prior to or concurrently with first dissemination; domain name lists quarterly on the first business day of January, April, July and October."
+ct-ad-filing,days_before_first_use_required,0
+ct-ad-filing,days_detail,A filing is submitted prior to or concurrently with first dissemination (0 days ahead). The rule states no review period.
+ct-ad-filing,fee_standard_usd,0
+ct-ad-filing,advisory_fee_usd,100
+ct-ad-filing,portal_url,https://eservices.jud.ct.gov/login.aspx
+ct-ad-filing,retention_years,3
+ct-ad-filing,effectiveFrom,2020-01-01
+ct-ad-filing,detail,The rule sets the advisory fee by chief court administrator; the $100 amount comes from the SGC FAQ. The SGC itself retains filed materials for one year (2-28A(f)); the lawyer's own three-year retention duty is in Rule 7.2(b)(1).
+dc-ad-filing,retention_years,0
+de-ad-filing,retention_years,0
+fl-ad-filing,timing,before_first_use
+fl-ad-filing,timing_detail,At least 20 days before first dissemination; the Bar responds within 15 days of a complete filing.
+fl-ad-filing,days_before_first_use_required,20
+fl-ad-filing,review_response_days,15
+fl-ad-filing,days_detail,File at least 20 days before first use. The Bar’s own page allows a 15-day evaluation period (and 5 days for mailing) within those 20 days.
+fl-ad-filing,ad_review_fy,2024-25
+fl-ad-filing,ad_review_count,3000
+fl-ad-filing,ad_review_basis,lower_bound
+fl-ad-filing,fee_standard_usd,250
+fl-ad-filing,late_fee_usd,750
+fl-ad-filing,advisory_fee_usd,250
+fl-ad-filing,expedited_available,no
+fl-ad-filing,fee_effective_date,2026-07-01
+fl-ad-filing,portal_url,https://www.floridabar.org/ethics/etad/advertising-filing-requirements/
+fl-ad-filing,retention_years,3
+fl-ad-filing,effectiveFrom,2026-07-01
+ga-ad-filing,retention_years,0
+ga-ad-filing,effectiveFrom,2026-03-01
+hi-ad-filing,retention_years,0
+hi-ad-filing,effectiveFrom,2014-01-01 (Rule 7.1 amended effective 2022-07-01)
+ia-ad-filing,retention_years,0
+ia-ad-filing,effectiveFrom,2021-01-01
+id-ad-filing,retention_years,2
+il-ad-filing,retention_years,0
+il-ad-filing,effectiveFrom,"2025-07-01 (Rule 7.2 as amended Apr. 1, 2025)"
+in-ad-filing,timing,at_or_before_first_use
+in-ad-filing,timing_detail,at or prior to dissemination to the prospective client; each changed or altered version at or prior to its mailing or distribution
+in-ad-filing,days_before_first_use_required,0
+in-ad-filing,days_detail,Applies to solicitations: a copy is filed at or prior to dissemination (0 days ahead). The rule states no review period.
+in-ad-filing,fee_standard_usd,50
+in-ad-filing,expedited_available,no
+in-ad-filing,retention_years,6
+in-ad-filing,effectiveFrom,2011-01-01
+ks-ad-filing,retention_years,2
+ks-ad-filing,effectiveFrom,2014-03-01
+ky-ad-filing,timing_detail,Voluntary advisory review; no waiting period before use. The Commission issues its advisory opinion within 30 days of receipt.
+ky-ad-filing,review_response_days,30
+ky-ad-filing,days_detail,"No filing is required. For a voluntary advisory opinion the Commission responds within 30 days of receipt, and there is no waiting period before the ad runs."
+ky-ad-filing,ad_review_fy,through 2015
+ky-ad-filing,ad_review_count,2000
+ky-ad-filing,ad_review_basis,approximate
+ky-ad-filing,advisory_fee_usd,75
+ky-ad-filing,expedited_available,no
+ky-ad-filing,retention_years,2
+ky-ad-filing,effectiveFrom,2020-03-01
+la-ad-filing,timing,at_or_before_first_use
+la-ad-filing,timing_detail,Prior to or concurrently with first dissemination; to be 'concurrent' the filing must be received by the LSBA no later than the date of first use. Optional advance advisory opinion: at least 30 days before dissemination. Committee evaluates within 30 days of receipt; silence after 30 days means the ad is deemed approved.
+la-ad-filing,days_before_first_use_required,0
+la-ad-filing,review_response_days,30
+la-ad-filing,advance_opinion_lead_days,30
+la-ad-filing,days_detail,"A regular filing may be made prior to or concurrently with first use (0 days ahead). An optional advance advisory opinion is filed at least 30 days before dissemination. The Committee has 30 days to evaluate a filing; if it sends nothing in writing within 30 days, the ad is deemed approved."
+la-ad-filing,fee_standard_usd,175
+la-ad-filing,late_fee_usd,275
+la-ad-filing,advisory_fee_usd,175
+la-ad-filing,expedited_available,no
+la-ad-filing,portal_url,https://www.lsba.org/LawyerAdvertising/LawyerAdvertisingFilingPortalV1.aspx
+la-ad-filing,retention_years,5
+la-ad-filing,effectiveFrom,amendments through 2022-01-01 (per LSBA rules PDF)
+la-ad-filing,detail,Fees are per separate/distinct advertisement or communication.
+ma-ad-filing,retention_years,0
+ma-ad-filing,effectiveFrom,2022-10-01
+md-ad-filing,retention_years,3
+md-ad-filing,effectiveFrom,2016-07-01
+me-ad-filing,retention_years,0
+mi-ad-filing,retention_years,2
+mn-ad-filing,retention_years,0
+mn-ad-filing,effectiveFrom,2022-09-01
+mo-ad-filing,retention_years,2
+mo-ad-filing,effectiveFrom,2010-07-01
+mo-ad-filing,detail,Retention is 2 years for ads/written communications (4-7.2(b)) and for written solicitations (4-7.3(b)(2)).
+ms-ad-filing,timing,before_first_use
+ms-ad-filing,timing_detail,submitted to OGCMB prior to first dissemination; optional advisory opinion requests at least 45 days before dissemination
+ms-ad-filing,review_response_days,45
+ms-ad-filing,days_detail,A copy is submitted prior to first dissemination; the rule gives no number of days for that. For an optional advisory opinion the Office of General Counsel responds within 45 days of receipt.
+ms-ad-filing,fee_standard_usd,25
+ms-ad-filing,late_fee_usd,150
+ms-ad-filing,advisory_fee_usd,50
+ms-ad-filing,expedited_available,no
+ms-ad-filing,fee_effective_date,2004-10-01
+ms-ad-filing,retention_years,3
+ms-ad-filing,effectiveFrom,2004-10-01
+ms-ad-filing,detail,"The current lawyer retention period is 3 years. The bar's Policies and Procedures (approved by order of Dec. 9, 2004) mirror the rule."
+mt-ad-filing,retention_years,0
+nc-ad-filing,retention_years,0
+nc-ad-filing,effectiveFrom,"Rules 7.1, 7.2 and 7.3 were last amended by Supreme Court approval on April 21, 2021"
+nc-ad-filing,detail,The rule is now titled 'Direct Contact With Potential Clients'.
+nd-ad-filing,retention_years,0
+nd-ad-filing,effectiveFrom,Rules 7.2 and 7.3 current versions effective 2016-03-01; Rule 7.1 effective 2010-10-01; Rules 7.4 and 7.5 effective 2006-08-01
+ne-ad-filing,retention_years,0
+nh-ad-filing,retention_years,0
+nj-ad-filing,retention_years,3
+nm-ad-filing,retention_years,0
+nm-ad-filing,effectiveFrom,2021-12-31
+nv-ad-filing,timing,after_first_use
+nv-ad-filing,timing_detail,within 15 days of first dissemination
+nv-ad-filing,days_after_first_use_allowed,15
+nv-ad-filing,review_response_days,30
+nv-ad-filing,days_detail,"File within 15 days after first dissemination. An optional advance opinion under RPC 7.2B is issued within 30 days (the 30 days is the Bar’s response time, not a required wait)."
+nv-ad-filing,ad_review_fy,2019
+nv-ad-filing,ad_review_count,400
+nv-ad-filing,ad_review_basis,approximate
+nv-ad-filing,fee_standard_usd,100
+nv-ad-filing,advisory_fee_usd,250
+nv-ad-filing,expedited_available,no
+nv-ad-filing,portal_url,https://nvbar.org/for-lawyers/ethics-discipline/lawyer-advertising/
+nv-ad-filing,retention_years,0
+nv-ad-filing,effectiveFrom,2018-04-09
+ny-ad-filing,retention_years,0
+ny-ad-filing,effectiveFrom,2026-06-01
+oh-ad-filing,retention_years,0
+oh-ad-filing,effectiveFrom,"Ohio Rules of Professional Conduct effective February 1, 2007; compilation as amended effective January 1, 2026"
+ok-ad-filing,retention_years,0
+ok-ad-filing,effectiveFrom,"Rules 7.1, 7.2 and 7.3 last amended by 2017 OK 52, effective June 19, 2017"
+ok-ad-filing,detail,"Effective dates: Rules 7.1-7.3 were amended effective June 19, 2017 (2017 OK 52); Rule 7.4 was amended effective March 8, 2002; Rule 7.5 was amended effective January 1, 2008."
+or-ad-filing,retention_years,0
+or-ad-filing,effectiveFrom,"Compilation as effective September 3, 2026; RPC 7.2 last amended 01/13/20 and RPC 7.3 last amended 01/11/18"
+or-ad-filing,detail,"The 'Advertising Material' labeling requirement was deleted 01/01/17. Rules 7.4 and 7.6 are [RESERVED]. RPC 7.2 was last amended 01/13/20, and RPC 7.3 01/11/18."
+pa-ad-filing,retention_years,0
+pa-ad-filing,effectiveFrom,"Rules 7.2 and 7.3 last amended October 15, 2024, effective in 30 days (54 Pa.B. 6696)"
+pa-ad-filing,detail,"Rules 7.4, 7.5 and 7.7 are [Reserved] and 7.6 is [Rescinded]."
+ri-ad-filing,timing,after_first_use
+ri-ad-filing,timing_detail,Ads: prior to or within 48 hours of first dissemination (Rule 7.2(b)). Solicitations: the rule sets no deadline.
+ri-ad-filing,days_after_first_use_allowed,2
+ri-ad-filing,days_detail,Ads are sent prior to or within 48 hours (2 days) of first dissemination. For solicitations the rule sets no deadline.
+ri-ad-filing,retention_years,3
+sc-ad-filing,retention_years,2
+sd-ad-filing,timing,before_first_use
+sd-ad-filing,timing_detail,no less than 30 days before dissemination or publication (solicitations only)
+sd-ad-filing,days_before_first_use_required,30
+sd-ad-filing,days_detail,Applies to solicitations only: a copy must be deposited no less than 30 days before it is disseminated. The rule states no review period.
+sd-ad-filing,retention_years,2
+sd-ad-filing,effectiveFrom,"Rules 7.2 and 7.3 last amended by Supreme Court Rule 18-06, eff. July 1, 2018"
+tn-ad-filing,retention_years,2
+tn-ad-filing,effectiveFrom,"Amendments adopted by order filed September 1, 2021 (ADM2020-01505)"
+tx-ad-filing,timing,after_first_use
+tx-ad-filing,timing_detail,"No later than 10 days after the date of dissemination of an advertisement, or 10 days after the date a solicitation communication is sent."
+tx-ad-filing,days_after_first_use_allowed,10
+tx-ad-filing,advance_opinion_lead_days,30
+tx-ad-filing,days_detail,File no later than 10 days after the ad is disseminated or the solicitation is sent. Optional pre-approval is requested not fewer than 30 days before first dissemination. The rule states no review period.
+tx-ad-filing,ad_review_fy,2024-25
+tx-ad-filing,ad_review_count,3200
+tx-ad-filing,ad_review_basis,approximate
+tx-ad-filing,fee_standard_usd,100
+tx-ad-filing,late_fee_usd,250
+tx-ad-filing,advisory_fee_usd,100
+tx-ad-filing,portal_url,https://www.texasbar.com/adreview/
+tx-ad-filing,retention_years,0
+tx-ad-filing,effectiveFrom,2021-07-01
+ut-ad-filing,retention_years,0
+ut-ad-filing,effectiveFrom,Rule 3-7.1 version effective 2024-05-01
+ut-ad-filing,detail,Rules 3-7.2 and 3-7.3 are reserved.
+wa-ad-filing,retention_years,0
+wa-ad-filing,effectiveFrom,"RPC 7.3 last amended effective April 29, 2025; RPC 7.2/7.4/7.5 reserved since January 2021"
+wi-ad-filing,timing,after_first_use
+wi-ad-filing,timing_detail,within five days of its dissemination
+wi-ad-filing,days_after_first_use_allowed,5
+wi-ad-filing,days_detail,Applies to solicitations only: a copy is filed within five days of its dissemination.
+wv-ad-filing,retention_years,0
+wv-ad-filing,effectiveFrom,"2015-01-01 (comprehensive amendments approved by order of September 29, 2014)"
+wy-ad-filing,retention_years,0
+wy-ad-filing,effectiveFrom,"Rules 7.2 and 7.3 last amended February 6, 2024, effective April 15, 2024"

@@ -1,0 +1,344 @@
+id,column,value
+drug-events:dupilumab,topReactions,"PRURITUS (31,755); DERMATITIS ATOPIC (26,189); INJECTION SITE PAIN (20,196); PRODUCT USE IN UNAPPROVED INDICATION (18,405); RASH (17,149)"
+drug-events:dupilumab,mdl,MDL-3180
+drug-events:tirzepatide,topReactions,"INCORRECT DOSE ADMINISTERED (19,670); NAUSEA (12,596); INJECTION SITE PAIN (8,498); DIARRHOEA (7,901); EXTRA DOSE ADMINISTERED (7,055)"
+drug-events:tirzepatide,mdl,MDL-3094; MDL-3163
+drug-events:acetaminophen,topReactions,"OFF LABEL USE (9,309); FATIGUE (7,677); NAUSEA (7,011); HEADACHE (6,697); DRUG INEFFECTIVE (6,674)"
+drug-events:acetaminophen,mdl,MDL-3043
+drug-events:ibuprofen,topReactions,"OFF LABEL USE (8,084); FATIGUE (5,820); NAUSEA (5,710); DRUG INEFFECTIVE (5,416); TOXICITY TO VARIOUS AGENTS (5,163)"
+drug-events:prednisone,topReactions,"OFF LABEL USE (12,324); DRUG INEFFECTIVE (8,919); FATIGUE (5,918); DYSPNOEA (5,022); CONDITION AGGRAVATED (4,914)"
+drug-events:diphenhydramine-hydrochloride,topReactions,"OFF LABEL USE (8,246); FATIGUE (5,789); TOXICITY TO VARIOUS AGENTS (5,627); NAUSEA (5,562); HEADACHE (4,946)"
+drug-events:dextromethorphan-hydrobromide,topReactions,"OFF LABEL USE (7,010); TOXICITY TO VARIOUS AGENTS (4,868); FATIGUE (4,779); NAUSEA (4,771); DRUG INEFFECTIVE (4,696)"
+drug-events:aspirin,topReactions,"FATIGUE (4,949); OFF LABEL USE (4,259); DIARRHOEA (3,961); DYSPNOEA (3,496); NAUSEA (3,320)"
+drug-events:albuterol-sulfate,topReactions,"DYSPNOEA (8,109); DRUG DOSE OMISSION BY DEVICE (5,209); DEVICE DELIVERY SYSTEM ISSUE (4,891); WRONG TECHNIQUE IN PRODUCT USAGE PROCESS (4,772); COUGH (4,566)"
+drug-events:doxylamine-succinate,topReactions,"OFF LABEL USE (6,597); TOXICITY TO VARIOUS AGENTS (4,798); FATIGUE (4,326); NAUSEA (4,282); HEADACHE (3,874)"
+drug-events:metformin-hydrochloride,topReactions,"DIARRHOEA (4,216); NAUSEA (4,015); LACTIC ACIDOSIS (3,427); OFF LABEL USE (3,424); VOMITING (3,159)"
+drug-events:lenalidomide,topReactions,"OFF LABEL USE (5,559); DIARRHOEA (4,011); FATIGUE (3,374); PRODUCT DOSE OMISSION ISSUE (3,058); RASH (2,460)"
+drug-events:pantoprazole-sodium,topReactions,"OFF LABEL USE (4,871); FATIGUE (4,276); DIARRHOEA (4,021); NAUSEA (3,970); HEADACHE (3,346)"
+drug-events:pantoprazole-sodium,mdl,MDL-2789
+drug-events:methotrexate-sodium,topReactions,"OFF LABEL USE (8,009); DRUG INEFFECTIVE (6,137); PAIN (3,713); RHEUMATOID ARTHRITIS (3,672); ARTHRALGIA (3,596)"
+drug-events:ascorbic-acid,topReactions,"OFF LABEL USE (5,310); FATIGUE (5,061); PAIN (4,046); DIARRHOEA (3,723); HEADACHE (3,585)"
+drug-events:rituximab,topReactions,"OFF LABEL USE (13,236); DRUG INEFFECTIVE (4,512); PNEUMONIA (3,667); NO ADVERSE EVENT (3,433); PAIN (3,332)"
+drug-events:niacinamide,topReactions,"OFF LABEL USE (5,175); FATIGUE (5,083); PAIN (3,996); DIARRHOEA (3,675); HEADACHE (3,550)"
+drug-events:sodium-bicarbonate,topReactions,"FATIGUE (2,971); OFF LABEL USE (2,921); DIARRHOEA (2,907); NAUSEA (2,837); DRUG INEFFECTIVE (2,376)"
+drug-events:gabapentin,topReactions,"OFF LABEL USE (3,958); FATIGUE (3,095); NAUSEA (3,037); DRUG INEFFECTIVE (2,970); DIARRHOEA (2,566)"
+drug-events:omeprazole-magnesium,topReactions,"FATIGUE (2,997); DIARRHOEA (2,899); NAUSEA (2,801); OFF LABEL USE (2,688); HEADACHE (2,264)"
+drug-events:omeprazole-magnesium,mdl,MDL-2789
+drug-events:furosemide,topReactions,"DYSPNOEA (3,185); OFF LABEL USE (2,751); FATIGUE (2,709); DIARRHOEA (2,637); HEADACHE (2,303)"
+drug-events:phenylephrine-hydrochloride,topReactions,"OFF LABEL USE (4,202); FATIGUE (3,835); DRUG INEFFECTIVE (3,736); HEADACHE (3,485); NAUSEA (3,367)"
+drug-events:semaglutide,topReactions,"NAUSEA (5,594); OFF LABEL USE (4,590); VOMITING (3,962); DIARRHOEA (3,595); IMPAIRED GASTRIC EMPTYING (3,281)"
+drug-events:semaglutide,mdl,MDL-3094; MDL-3163
+drug-events:dexamethasone,topReactions,"OFF LABEL USE (4,807); DRUG INEFFECTIVE (3,016); FATIGUE (2,561); DIARRHOEA (2,218); NAUSEA (2,087)"
+drug-events:methotrexate,topReactions,"OFF LABEL USE (6,673); DRUG INEFFECTIVE (5,486); PAIN (3,372); RHEUMATOID ARTHRITIS (3,304); ARTHRALGIA (3,237)"
+drug-events:metoprolol-tartrate,topReactions,"FATIGUE (3,177); DIARRHOEA (2,644); OFF LABEL USE (2,605); NAUSEA (2,379); DYSPNOEA (2,198)"
+drug-events:omeprazole,topReactions,"FATIGUE (2,770); DIARRHOEA (2,694); NAUSEA (2,580); OFF LABEL USE (2,486); HEADACHE (2,121)"
+drug-events:omeprazole,mdl,MDL-2789
+drug-events:amlodipine,topReactions,"FATIGUE (2,458); OFF LABEL USE (2,424); DIARRHOEA (2,130); NAUSEA (1,882); DRUG INEFFECTIVE (1,781)"
+drug-events:amlodipine-benzoate,topReactions,"FATIGUE (2,458); OFF LABEL USE (2,426); DIARRHOEA (2,129); NAUSEA (1,882); DRUG INEFFECTIVE (1,779)"
+drug-events:risankizumab,topReactions,"PSORIASIS (1,807); DEVICE ISSUE (1,806); ARTHRALGIA (1,452); CROHN^S DISEASE (1,388); PAIN (1,377)"
+drug-events:insulin-glargine,topReactions,"OFF LABEL USE (9,124); BLOOD GLUCOSE INCREASED (3,278); PRODUCT STORAGE ERROR (2,501); INAPPROPRIATE SCHEDULE OF PRODUCT ADMINISTRATION (1,364); NAUSEA (1,264)"
+drug-events:calcium-carbonate,topReactions,"OFF LABEL USE (4,686); FATIGUE (3,960); PAIN (3,359); DRUG INEFFECTIVE (3,147); NAUSEA (3,096)"
+drug-events:pembrolizumab,topReactions,"MALIGNANT NEOPLASM PROGRESSION (3,285); DIARRHOEA (1,794); DEATH (1,457); OFF LABEL USE (1,448); FATIGUE (1,369)"
+drug-events:magnesium-oxide,topReactions,"OFF LABEL USE (4,311); FATIGUE (3,641); PAIN (3,117); DIARRHOEA (2,871); DRUG INEFFECTIVE (2,834)"
+drug-events:upadacitinib,topReactions,"DRUG INEFFECTIVE (1,724); ARTHRALGIA (1,707); PAIN (1,655); SURGERY (1,220); FATIGUE (1,026)"
+drug-events:rosuvastatin-calcium,topReactions,"FATIGUE (2,584); NAUSEA (2,090); DIARRHOEA (2,030); DYSPNOEA (2,019); OFF LABEL USE (1,987)"
+drug-events:guaifenesin,topReactions,"DRUG INEFFECTIVE (3,078); EXPOSURE DURING PREGNANCY (3,020); FATIGUE (3,010); HEADACHE (2,748); OFF LABEL USE (2,702)"
+drug-events:cyanocobalamin,topReactions,"OFF LABEL USE (4,289); FATIGUE (3,702); PAIN (3,272); DRUG INEFFECTIVE (2,856); ARTHRALGIA (2,819)"
+drug-events:pyridoxine-hydrochloride,topReactions,"OFF LABEL USE (4,158); FATIGUE (3,696); PAIN (3,182); ARTHRALGIA (2,848); DRUG INEFFECTIVE (2,817)"
+drug-events:cyclophosphamide,topReactions,"OFF LABEL USE (3,946); DRUG INEFFECTIVE (2,661); FEBRILE NEUTROPENIA (2,642); NEUTROPENIA (1,860); MYELOSUPPRESSION (1,695)"
+drug-events:cyclophosphamide-anhydrous,topReactions,"OFF LABEL USE (3,946); DRUG INEFFECTIVE (2,661); FEBRILE NEUTROPENIA (2,642); NEUTROPENIA (1,860); MYELOSUPPRESSION (1,695)"
+drug-events:cetirizine-hydrochloride,topReactions,"OFF LABEL USE (3,912); FATIGUE (3,780); DRUG INEFFECTIVE (3,539); RASH (3,172); PRURITUS (3,134)"
+drug-events:levothyroxine-sodium,topReactions,"FATIGUE (2,847); HEADACHE (2,364); OFF LABEL USE (2,315); NAUSEA (2,231); DIARRHOEA (2,092)"
+drug-events:tacrolimus,topReactions,"OFF LABEL USE (3,865); DRUG INEFFECTIVE (2,525); ACUTE KIDNEY INJURY (1,366); DRUG INTERACTION (1,109); PRODUCT USE IN UNAPPROVED INDICATION (915)"
+drug-events:mycophenolate-mofetil,topReactions,"OFF LABEL USE (5,853); DRUG INEFFECTIVE (3,104); DIARRHOEA (1,630); CONDITION AGGRAVATED (1,409); FATIGUE (1,379)"
+drug-events:fluticasone-propionate,topReactions,"PRODUCT DOSE OMISSION ISSUE (2,842); DYSPNOEA (2,841); OFF LABEL USE (2,397); DRUG INEFFECTIVE (2,265); HEADACHE (2,134)"
+drug-events:selenium,topReactions,"OFF LABEL USE (3,935); FATIGUE (3,308); PAIN (2,994); ARTHRALGIA (2,653); DRUG INEFFECTIVE (2,622)"
+drug-events:zinc-oxide,topReactions,"OFF LABEL USE (3,992); FATIGUE (3,163); PAIN (2,982); DRUG INEFFECTIVE (2,675); ARTHRALGIA (2,604)"
+drug-events:infliximab,topReactions,"OFF LABEL USE (8,309); CONDITION AGGRAVATED (4,414); DRUG INEFFECTIVE (3,821); INTENTIONAL PRODUCT USE ISSUE (3,304); ARTHRALGIA (3,123)"
+drug-events:carboplatin,topReactions,"OFF LABEL USE (2,488); MYELOSUPPRESSION (2,048); NEUTROPENIA (1,412); MALIGNANT NEOPLASM PROGRESSION (1,281); ANAEMIA (1,280)"
+drug-events:folic-acid,topReactions,"OFF LABEL USE (3,838); FATIGUE (3,158); PAIN (2,917); ARTHRALGIA (2,584); DRUG INEFFECTIVE (2,545)"
+drug-events:sertraline-hydrochloride,topReactions,"NAUSEA (1,799); OFF LABEL USE (1,712); FATIGUE (1,477); DRUG INEFFECTIVE (1,475); DIARRHOEA (1,358)"
+drug-events:riboflavin,topReactions,"OFF LABEL USE (3,837); FATIGUE (3,155); PAIN (2,916); ARTHRALGIA (2,583); DRUG INEFFECTIVE (2,545)"
+drug-events:thiamine-mononitrate,topReactions,"OFF LABEL USE (3,837); FATIGUE (3,154); PAIN (2,916); ARTHRALGIA (2,583); DRUG INEFFECTIVE (2,545)"
+drug-events:cholecalciferol,topReactions,"OFF LABEL USE (3,836); FATIGUE (3,150); PAIN (2,916); ARTHRALGIA (2,585); DRUG INEFFECTIVE (2,543)"
+drug-events:alpha-tocopherol-acetate-dl,topReactions,"OFF LABEL USE (3,834); FATIGUE (3,148); PAIN (2,915); ARTHRALGIA (2,583); DRUG INEFFECTIVE (2,542)"
+drug-events:molybdenum,topReactions,"OFF LABEL USE (3,822); FATIGUE (3,130); PAIN (2,906); ARTHRALGIA (2,568); DRUG INEFFECTIVE (2,533)"
+drug-events:vitamin-a-acetate,topReactions,"OFF LABEL USE (3,822); FATIGUE (3,129); PAIN (2,906); ARTHRALGIA (2,568); DRUG INEFFECTIVE (2,533)"
+drug-events:manganese-sulfate,topReactions,"OFF LABEL USE (3,821); FATIGUE (3,128); PAIN (2,904); ARTHRALGIA (2,568); DRUG INEFFECTIVE (2,533)"
+drug-events:chromium-nicotinate,topReactions,"OFF LABEL USE (3,821); FATIGUE (3,128); PAIN (2,904); ARTHRALGIA (2,568); DRUG INEFFECTIVE (2,533)"
+drug-events:lisinopril,topReactions,"FATIGUE (2,707); DIARRHOEA (2,365); OFF LABEL USE (2,278); NAUSEA (2,191); DRUG INEFFECTIVE (1,840)"
+drug-events:methylprednisolone-sodium-succinate,topReactions,"OFF LABEL USE (6,614); DRUG INEFFECTIVE (4,010); CONDITION AGGRAVATED (2,035); PAIN (1,884); NAUSEA (1,795)"
+drug-events:dapagliflozin-propanediol,topReactions,"DEATH (4,841); DIARRHOEA (1,032); NAUSEA (1,005); FATIGUE (929); ACUTE KIDNEY INJURY (922)"
+drug-events:montelukast-sodium,topReactions,"DYSPNOEA (2,871); ASTHMA (2,791); DRUG INEFFECTIVE (2,023); COUGH (1,946); PNEUMONIA (1,879)"
+drug-events:pregabalin,topReactions,"OFF LABEL USE (2,500); FATIGUE (2,324); DRUG INEFFECTIVE (2,079); HEADACHE (1,966); NAUSEA (1,965)"
+drug-events:sodium-chloride,topReactions,"MYELOSUPPRESSION (2,779); NAUSEA (1,826); OFF LABEL USE (1,714); DYSPNOEA (1,550); FATIGUE (1,312)"
+drug-events:prednisolone,topReactions,"OFF LABEL USE (4,513); DRUG INEFFECTIVE (2,674); CONDITION AGGRAVATED (1,445); DIARRHOEA (1,074); PYREXIA (1,057)"
+drug-events:ondansetron-hydrochloride,topReactions,"NAUSEA (3,152); FATIGUE (2,576); OFF LABEL USE (2,429); DIARRHOEA (2,063); VOMITING (1,686)"
+drug-events:rosuvastatin,topReactions,"FATIGUE (1,784); OFF LABEL USE (1,586); NAUSEA (1,540); DIARRHOEA (1,492); VOMITING (1,260)"
+drug-events:oxycodone-hydrochloride,topReactions,"OFF LABEL USE (3,179); FATIGUE (2,741); NAUSEA (2,639); PAIN (2,547); DRUG INEFFECTIVE (2,466)"
+drug-events:famotidine,topReactions,"OFF LABEL USE (1,852); FATIGUE (1,819); NAUSEA (1,804); DIARRHOEA (1,744); DRUG INEFFECTIVE (1,385)"
+drug-events:cyclosporine,topReactions,"DRUG INEFFECTIVE (3,917); EYE IRRITATION (3,361); OFF LABEL USE (2,967); EYE PAIN (1,581); CONDITION AGGRAVATED (848)"
+drug-events:bupropion-hydrochloride,topReactions,"NAUSEA (2,126); DRUG INEFFECTIVE (1,669); HEADACHE (1,654); FATIGUE (1,561); OFF LABEL USE (1,444)"
+drug-events:quetiapine-fumarate,topReactions,"OFF LABEL USE (2,533); DRUG INEFFECTIVE (2,216); TOXICITY TO VARIOUS AGENTS (1,686); VOMITING (1,672); FATIGUE (1,604)"
+drug-events:omalizumab,topReactions,"OFF LABEL USE (5,485); NO ADVERSE EVENT (5,469); URTICARIA (4,221); ASTHMA (2,329); DRUG INEFFECTIVE (2,271)"
+drug-events:budesonide,topReactions,"DYSPNOEA (2,337); DRUG INEFFECTIVE (2,020); ASTHMA (1,985); OFF LABEL USE (1,955); PRODUCT DOSE OMISSION ISSUE (1,710)"
+drug-events:vedolizumab,topReactions,"COLITIS ULCERATIVE (4,578); OFF LABEL USE (4,046); CROHN^S DISEASE (2,900); DIARRHOEA (2,475); DRUG INEFFECTIVE (2,185)"
+drug-events:spironolactone,topReactions,"DYSPNOEA (1,561); DIARRHOEA (1,478); FATIGUE (1,458); OFF LABEL USE (1,389); NAUSEA (1,352)"
+drug-events:atorvastatin-calcium-trihydrate,topReactions,"FATIGUE (1,905); DIARRHOEA (1,643); HEADACHE (1,597); DYSPNOEA (1,532); NAUSEA (1,388)"
+drug-events:diclofenac-sodium,topReactions,"PRODUCT USE IN UNAPPROVED INDICATION (3,863); OFF LABEL USE (3,658); DRUG INEFFECTIVE (3,323); PAIN (2,822); FATIGUE (2,798)"
+drug-events:bisoprolol-fumarate,topReactions,"ACUTE KIDNEY INJURY (1,367); FATIGUE (1,162); OFF LABEL USE (1,131); DIARRHOEA (1,033); DYSPNOEA (1,010)"
+drug-events:methylprednisolone,topReactions,"OFF LABEL USE (4,884); DRUG INEFFECTIVE (3,117); CONDITION AGGRAVATED (1,272); NAUSEA (1,116); PNEUMONIA (1,105)"
+drug-events:paclitaxel,topReactions,"MYELOSUPPRESSION (2,080); OFF LABEL USE (1,686); NEUTROPENIA (1,066); MALIGNANT NEOPLASM PROGRESSION (1,036); NAUSEA (893)"
+drug-events:adalimumab,topReactions,"OFF LABEL USE (3,777); DRUG INEFFECTIVE (3,126); FATIGUE (2,341); PAIN (2,290); ARTHRALGIA (2,285)"
+drug-events:fluticasone-furoate,topReactions,"DYSPNOEA (2,712); DRUG INEFFECTIVE (1,914); COUGH (1,696); PRODUCT DOSE OMISSION ISSUE (1,681); WRONG TECHNIQUE IN DEVICE USAGE PROCESS (1,600)"
+drug-events:dextrose-monohydrate,topReactions,"NAUSEA (1,410); DYSPNOEA (1,393); DIARRHOEA (1,383); FATIGUE (1,266); OFF LABEL USE (1,203)"
+drug-events:empagliflozin,topReactions,"NAUSEA (1,446); DIARRHOEA (1,425); OFF LABEL USE (1,250); FATIGUE (1,149); VOMITING (1,134)"
+drug-events:bimekizumab,topReactions,"PRODUCT DOSE OMISSION ISSUE (3,706); PSORIASIS (2,487); DRUG INEFFECTIVE (1,928); HIDRADENITIS (1,574); OFF LABEL USE (1,565)"
+drug-events:pimavanserin-tartrate,topReactions,"HALLUCINATION (4,225); DEATH (3,405); DRUG INEFFECTIVE (1,963); PRODUCT USE ISSUE (1,563); PRODUCT DOSE OMISSION ISSUE (1,390)"
+drug-events:treprostinil,topReactions,"DYSPNOEA (3,096); HEADACHE (2,993); COUGH (2,715); DIARRHOEA (2,325); NAUSEA (1,897)"
+drug-events:certolizumab-pegol,topReactions,"RHEUMATOID ARTHRITIS (4,536); OFF LABEL USE (3,141); DRUG INEFFECTIVE (3,019); PSORIATIC ARTHROPATHY (2,694); MATERNAL EXPOSURE DURING PREGNANCY (2,460)"
+drug-events:sodium-cation,topReactions,"MYELOSUPPRESSION (2,773); NAUSEA (1,518); OFF LABEL USE (1,455); DYSPNOEA (1,304); HEADACHE (1,094)"
+drug-events:vilanterol-trifenatate,topReactions,"DYSPNOEA (2,647); PRODUCT DOSE OMISSION ISSUE (1,737); WRONG TECHNIQUE IN DEVICE USAGE PROCESS (1,736); DRUG INEFFECTIVE (1,648); COUGH (1,588)"
+drug-events:abatacept,topReactions,"ARTHRALGIA (4,697); JOINT SWELLING (4,512); RHEUMATOID ARTHRITIS (3,377); PAIN (3,286); OFF LABEL USE (2,272)"
+drug-events:epinephrine-bitartrate,topReactions,"DRUG INEFFECTIVE (2,213); OFF LABEL USE (1,505); NAUSEA (1,123); FATIGUE (1,094); HEADACHE (1,083)"
+drug-events:bevacizumab,topReactions,"OFF LABEL USE (4,079); DEATH (1,378); DISEASE PROGRESSION (1,026); FATIGUE (954); DIARRHOEA (914)"
+drug-events:hydroxychloroquine-sulfate,topReactions,"OFF LABEL USE (3,500); DRUG INEFFECTIVE (2,819); RHEUMATOID ARTHRITIS (2,546); FATIGUE (2,459); PAIN (2,393)"
+drug-events:ondansetron,topReactions,"NAUSEA (2,297); FATIGUE (2,018); OFF LABEL USE (1,934); DIARRHOEA (1,568); VOMITING (1,291)"
+drug-events:escitalopram-oxalate,topReactions,"OFF LABEL USE (1,420); DRUG INEFFECTIVE (1,416); FATIGUE (1,377); NAUSEA (1,242); DIARRHOEA (1,121)"
+drug-events:levetiracetam,topReactions,"SEIZURE (2,258); DRUG INEFFECTIVE (2,183); OFF LABEL USE (2,083); MATERNAL EXPOSURE DURING PREGNANCY (698); FATIGUE (645)"
+drug-events:dapagliflozin,topReactions,"DEATH (3,989); ACUTE KIDNEY INJURY (831); OFF LABEL USE (575); DIARRHOEA (534); NAUSEA (519)"
+drug-events:dapagliflozin-2-3-butanediol-monohydrate,topReactions,"DEATH (3,989); ACUTE KIDNEY INJURY (830); OFF LABEL USE (575); DIARRHOEA (534); NAUSEA (519)"
+drug-events:potassium-chloride,topReactions,"DIARRHOEA (1,490); FATIGUE (1,451); NAUSEA (1,442); DYSPNOEA (1,356); HEADACHE (1,305)"
+drug-events:amlodipine-besylate,topReactions,"FATIGUE (1,551); DYSPNOEA (1,266); OFF LABEL USE (1,185); DIARRHOEA (1,183); HEADACHE (1,101)"
+drug-events:hydrochlorothiazide,topReactions,"FATIGUE (1,552); OFF LABEL USE (1,295); NAUSEA (1,292); DIARRHOEA (1,261); DRUG INEFFECTIVE (1,165)"
+drug-events:allopurinol-sodium,topReactions,"OFF LABEL USE (1,317); FATIGUE (1,139); DIARRHOEA (1,061); NAUSEA (895); DYSPNOEA (887)"
+drug-events:naproxen-sodium,topReactions,"DRUG INEFFECTIVE (2,515); OFF LABEL USE (2,508); FATIGUE (2,314); NAUSEA (2,181); PAIN (2,156)"
+drug-events:allopurinol,topReactions,"OFF LABEL USE (1,301); FATIGUE (1,125); DIARRHOEA (1,055); NAUSEA (884); DYSPNOEA (879)"
+drug-events:clopidogrel-bisulfate,topReactions,"FATIGUE (1,096); DIARRHOEA (955); DYSPNOEA (918); OFF LABEL USE (864); DRUG INEFFECTIVE (795)"
+drug-events:lorazepam,topReactions,"OFF LABEL USE (2,155); DRUG INEFFECTIVE (1,771); FATIGUE (1,692); NAUSEA (1,528); DIARRHOEA (1,394)"
+drug-events:doxorubicin-hydrochloride,topReactions,"FEBRILE NEUTROPENIA (1,867); OFF LABEL USE (1,788); DRUG INEFFECTIVE (1,436); DISEASE PROGRESSION (1,332); NEUTROPENIA (1,223)"
+drug-events:secukinumab,topReactions,"PAIN (2,621); DRUG INEFFECTIVE (2,444); OFF LABEL USE (2,354); PSORIATIC ARTHROPATHY (2,335); FATIGUE (2,208)"
+drug-events:denosumab,topReactions,"DEATH (1,597); OFF LABEL USE (971); FATIGUE (953); DIARRHOEA (771); OSTEONECROSIS OF JAW (737)"
+drug-events:finasteride,topReactions,"ADVERSE DRUG REACTION (3,617); ERECTILE DYSFUNCTION (788); DRUG INEFFECTIVE (767); FATIGUE (763); DEPRESSION (743)"
+drug-events:clozapine,topReactions,"NEUTROPENIA (2,415); DEATH (2,116); HOSPITALISATION (1,846); OFF LABEL USE (1,173); TREATMENT NONCOMPLIANCE (862)"
+drug-events:etanercept,topReactions,"RHEUMATOID ARTHRITIS (2,571); OFF LABEL USE (2,535); PAIN (2,466); DRUG INEFFECTIVE (2,334); FATIGUE (2,162)"
+drug-events:umeclidinium-bromide,topReactions,"DYSPNOEA (2,264); WRONG TECHNIQUE IN DEVICE USAGE PROCESS (1,554); PRODUCT DOSE OMISSION ISSUE (1,458); DRUG INEFFECTIVE (1,352); PRODUCT COMPLAINT (1,321)"
+drug-events:tocilizumab,topReactions,"OFF LABEL USE (3,948); DRUG INEFFECTIVE (2,886); RHEUMATOID ARTHRITIS (2,732); PAIN (2,706); JOINT SWELLING (2,452)"
+drug-events:pomalidomide,topReactions,"FATIGUE (1,558); OFF LABEL USE (1,363); DEATH (1,072); PLASMA CELL MYELOMA (950); PNEUMONIA (792)"
+drug-events:alprazolam,topReactions,"OFF LABEL USE (1,110); FATIGUE (1,044); TOXICITY TO VARIOUS AGENTS (1,027); NAUSEA (1,016); DRUG INEFFECTIVE (1,008)"
+drug-events:ramipril,topReactions,"OFF LABEL USE (2,006); FATIGUE (1,600); PAIN (1,563); VOMITING (1,502); NAUSEA (1,498)"
+drug-events:valsartan,topReactions,"FATIGUE (1,077); OFF LABEL USE (1,018); DIARRHOEA (943); DIZZINESS (899); ACUTE KIDNEY INJURY (849)"
+drug-events:valsartan,mdl,MDL-2875
+drug-events:lansoprazole,topReactions,"OFF LABEL USE (1,634); DIARRHOEA (1,412); FATIGUE (1,383); HEADACHE (1,230); NAUSEA (1,188)"
+drug-events:lansoprazole,mdl,MDL-2789
+drug-events:levothyroxine-sodium-anhydrous,topReactions,"FATIGUE (1,548); HEADACHE (1,423); NAUSEA (1,254); DIARRHOEA (1,191); DYSPNOEA (1,143)"
+drug-events:acyclovir,topReactions,"OFF LABEL USE (1,780); FATIGUE (1,228); DIARRHOEA (1,016); DRUG INEFFECTIVE (982); NAUSEA (885)"
+drug-events:hydrocortisone,topReactions,"OFF LABEL USE (2,992); DRUG INEFFECTIVE (2,302); FATIGUE (2,133); RASH (1,826); CONDITION AGGRAVATED (1,752)"
+drug-events:calcium,topReactions,"FATIGUE (1,954); OFF LABEL USE (1,815); DIARRHOEA (1,439); DYSPNOEA (1,351); NAUSEA (1,347)"
+drug-events:hyaluronic-acid,topReactions,"FATIGUE (2,336); OFF LABEL USE (2,090); HEADACHE (1,794); PAIN (1,714); DIARRHOEA (1,674)"
+drug-events:botulinum-toxin-type-a,topReactions,"OFF LABEL USE (4,016); DRUG INEFFECTIVE (3,403); HEADACHE (1,104); PRODUCT USE IN UNAPPROVED INDICATION (1,008); MIGRAINE (872)"
+drug-events:estradiol,topReactions,"PRODUCT ADHESION ISSUE (1,914); DRUG INEFFECTIVE (1,175); DEVICE ADHESION ISSUE (1,172); OFF LABEL USE (886); HEADACHE (855)"
+drug-events:acyclovir-sodium,topReactions,"OFF LABEL USE (1,736); FATIGUE (1,197); DIARRHOEA (985); DRUG INEFFECTIVE (977); NAUSEA (849)"
+drug-events:magnesium,topReactions,"FATIGUE (1,751); DIARRHOEA (1,482); NAUSEA (1,411); HEADACHE (1,381); OFF LABEL USE (1,283)"
+drug-events:clonazepam,topReactions,"OFF LABEL USE (1,563); DRUG INEFFECTIVE (1,352); VOMITING (1,254); PNEUMONIA (1,130); DYSPNOEA (956)"
+drug-events:lamotrigine,topReactions,"DRUG INEFFECTIVE (1,751); OFF LABEL USE (1,731); MATERNAL EXPOSURE DURING PREGNANCY (1,189); RASH (1,138); FATIGUE (1,089)"
+drug-events:metoprolol-succinate,topReactions,"FATIGUE (1,311); DIARRHOEA (1,086); DYSPNOEA (1,022); NAUSEA (929); OFF LABEL USE (846)"
+drug-events:insulin-lispro,topReactions,"BLOOD GLUCOSE INCREASED (3,017); HAEMORRHAGE (1,546); INCORRECT DOSE ADMINISTERED (1,098); NAUSEA (757); VISUAL IMPAIRMENT (740)"
+drug-events:duloxetine-hydrochloride,topReactions,"OFF LABEL USE (1,368); DRUG INEFFECTIVE (1,288); NAUSEA (1,247); FATIGUE (1,006); DIARRHOEA (917)"
+drug-events:ezetimibe,topReactions,"FATIGUE (1,164); DIARRHOEA (972); NAUSEA (926); MYALGIA (870); HEADACHE (780)"
+drug-events:oxycodone,topReactions,"OFF LABEL USE (2,360); FATIGUE (2,063); PAIN (1,839); DRUG INEFFECTIVE (1,790); NAUSEA (1,719)"
+drug-events:esomeprazole-magnesium-trihydrate,topReactions,"OFF LABEL USE (1,346); DRUG INEFFECTIVE (1,226); NAUSEA (1,197); HEADACHE (1,072); DIARRHOEA (1,047)"
+drug-events:ustekinumab,topReactions,"OFF LABEL USE (2,503); PRODUCT DOSE OMISSION ISSUE (2,479); DRUG INEFFECTIVE (1,850); FATIGUE (1,658); PAIN (1,560)"
+drug-events:oxygen,topReactions,"DYSPNOEA (2,617); COUGH (2,397); HEADACHE (2,026); DIARRHOEA (1,667); DIZZINESS (1,353)"
+drug-events:oxaliplatin,topReactions,"OFF LABEL USE (1,303); NAUSEA (1,114); DIARRHOEA (1,099); NEUROPATHY PERIPHERAL (1,022); MYELOSUPPRESSION (814)"
+drug-events:potassium-cation,topReactions,"DIARRHOEA (1,216); DYSPNOEA (1,178); FATIGUE (1,150); NAUSEA (1,103); HEADACHE (1,083)"
+drug-events:rivaroxaban,topReactions,FATIGUE (836); OFF LABEL USE (801); DYSPNOEA (681); DIARRHOEA (679); DRUG INEFFECTIVE (635)
+drug-events:nivolumab,topReactions,"OFF LABEL USE (1,701); DEATH (1,237); DIARRHOEA (871); MALIGNANT NEOPLASM PROGRESSION (791); FATIGUE (651)"
+drug-events:venetoclax,topReactions,"DEATH (2,106); MYELOSUPPRESSION (1,600); OFF LABEL USE (1,395); NEUTROPENIA (839); PLATELET COUNT DECREASED (711)"
+drug-events:levonorgestrel,topReactions,"DEVICE EXPULSION (3,005); DEVICE DISLOCATION (2,208); GENITAL HAEMORRHAGE (976); COMPLICATION OF DEVICE INSERTION (795); PROCEDURAL PAIN (782)"
+drug-events:atorvastatin,topReactions,"FATIGUE (1,239); DYSPNOEA (1,133); HEADACHE (1,133); DIARRHOEA (1,059); COUGH (1,038)"
+drug-events:atorvastatin-calcium-propylene-glycol-solvate,topReactions,"FATIGUE (1,239); DYSPNOEA (1,133); HEADACHE (1,133); DIARRHOEA (1,059); COUGH (1,038)"
+drug-events:fluoxetine-hydrochloride,topReactions,OFF LABEL USE (997); DRUG INEFFECTIVE (933); NAUSEA (816); FATIGUE (770); HEADACHE (738)
+drug-events:polyethylene-glycol-3350,topReactions,"DRUG INEFFECTIVE (1,321); DIARRHOEA (1,106); OFF LABEL USE (1,013); PRODUCT PRESCRIBING ISSUE (930); FATIGUE (924)"
+drug-events:venlafaxine-hydrochloride,topReactions,"OFF LABEL USE (1,468); DRUG INEFFECTIVE (1,259); NAUSEA (998); FATIGUE (833); HEADACHE (831)"
+drug-events:epinephrine,topReactions,"DRUG INEFFECTIVE (1,585); OFF LABEL USE (1,067); FATIGUE (907); HEADACHE (820); PRODUCT DOSE OMISSION ISSUE (747)"
+drug-events:medroxyprogesterone-acetate,topReactions,"MENINGIOMA (11,243); MENINGIOMA BENIGN (583); OFF LABEL USE (180); HEADACHE (122); NAUSEA (120)"
+drug-events:medroxyprogesterone-acetate,mdl,MDL-3140
+drug-events:quetiapine,topReactions,"OFF LABEL USE (1,267); TOXICITY TO VARIOUS AGENTS (1,218); DRUG INEFFECTIVE (1,117); INTENTIONAL OVERDOSE (787); SOMNOLENCE (746)"
+drug-events:olanzapine,topReactions,"OFF LABEL USE (1,354); DRUG INEFFECTIVE (1,246); TOXICITY TO VARIOUS AGENTS (796); NAUSEA (711); FEBRILE NEUTROPENIA (614)"
+drug-events:carvedilol,topReactions,"FATIGUE (1,010); DIARRHOEA (990); OFF LABEL USE (871); DYSPNOEA (717); NAUSEA (711)"
+drug-events:hydrocortisone-acetate,topReactions,"OFF LABEL USE (2,679); DRUG INEFFECTIVE (2,055); FATIGUE (1,744); RASH (1,591); CONDITION AGGRAVATED (1,543)"
+drug-events:doxycycline-hyclate,topReactions,"OFF LABEL USE (1,575); DRUG INEFFECTIVE (1,406); FATIGUE (1,332); NAUSEA (1,126); RASH (1,125)"
+drug-events:propranolol-hydrochloride,topReactions,"OFF LABEL USE (3,023); DRUG INEFFECTIVE (1,360); PRODUCT USE IN UNAPPROVED INDICATION (1,305); PRODUCT USE ISSUE (920); NAUSEA (833)"
+drug-events:menthol,topReactions,"OFF LABEL USE (1,613); DRUG INEFFECTIVE (1,606); NAUSEA (1,419); FATIGUE (1,410); PAIN (1,320)"
+drug-events:fluorouracil,topReactions,"DIARRHOEA (1,044); OFF LABEL USE (991); NEUROPATHY PERIPHERAL (842); NAUSEA (835); NEUTROPENIA (748)"
+drug-events:formoterol-fumarate,topReactions,"DYSPNOEA (1,759); ASTHMA (1,571); COUGH (1,044); PRODUCT DOSE OMISSION ISSUE (1,012); DRUG INEFFECTIVE (924)"
+drug-events:mirtazapine,topReactions,OFF LABEL USE (823); DRUG INEFFECTIVE (784); NAUSEA (722); FATIGUE (713); DIARRHOEA (639)
+drug-events:celecoxib,topReactions,"OFF LABEL USE (2,273); FATIGUE (2,016); DRUG INEFFECTIVE (2,011); ARTHRALGIA (1,835); NAUSEA (1,767)"
+drug-events:lidocaine,topReactions,"DRUG INEFFECTIVE (1,017); OFF LABEL USE (996); NAUSEA (866); FATIGUE (790); HEADACHE (767)"
+drug-events:apixaban,topReactions,OFF LABEL USE (790); DRUG INEFFECTIVE (726); DYSPNOEA (587); FATIGUE (572); ACUTE KIDNEY INJURY (496)
+drug-events:loratadine,topReactions,"DRUG INEFFECTIVE (1,276); FATIGUE (928); NAUSEA (769); OFF LABEL USE (753); DIARRHOEA (705)"
+drug-events:nemolizumab,topReactions,"PRODUCT DOSE OMISSION ISSUE (4,298); DEVICE MALFUNCTION (2,066); INAPPROPRIATE SCHEDULE OF PRODUCT ADMINISTRATION (1,485); PRURITUS (1,268); INCORRECT DOSE ADMINISTERED (1,258)"
+drug-events:ruxolitinib,topReactions,"OFF LABEL USE (3,819); FATIGUE (994); DEATH (880); PRODUCT DOSE OMISSION ISSUE (790); DRUG INEFFECTIVE (527)"
+drug-events:azathioprine,topReactions,"OFF LABEL USE (2,734); DRUG INEFFECTIVE (1,776); CONDITION AGGRAVATED (1,284); DIARRHOEA (982); ARTHRALGIA (940)"
+drug-events:simvastatin,topReactions,FATIGUE (936); DIARRHOEA (883); OFF LABEL USE (835); NAUSEA (815); DYSPNOEA (696)
+drug-events:tadalafil,topReactions,"HEADACHE (1,400); DYSPNOEA (1,287); DIARRHOEA (1,167); FATIGUE (1,127); NAUSEA (898)"
+drug-events:glycerin,topReactions,"DRUG INEFFECTIVE (1,226); OFF LABEL USE (1,056); NAUSEA (729); HEADACHE (706); FATIGUE (705)"
+drug-events:diazepam,topReactions,"TOXICITY TO VARIOUS AGENTS (1,332); OFF LABEL USE (937); DRUG ABUSE (833); SOMNOLENCE (763); DRUG USE DISORDER (732)"
+drug-events:valacyclovir-hydrochloride,topReactions,OFF LABEL USE (983); FATIGUE (709); DRUG INEFFECTIVE (614); FEBRILE NEUTROPENIA (609); NAUSEA (589)
+drug-events:aripiprazole,topReactions,"DRUG INEFFECTIVE (1,026); OFF LABEL USE (885); WEIGHT INCREASED (546); PRODUCT USE IN UNAPPROVED INDICATION (523); NAUSEA (498)"
+drug-events:etoposide,topReactions,"OFF LABEL USE (2,070); FEBRILE NEUTROPENIA (1,273); DRUG INEFFECTIVE (1,165); MYELOSUPPRESSION (931); DISEASE PROGRESSION (806)"
+drug-events:cisplatin,topReactions,"MYELOSUPPRESSION (1,483); OFF LABEL USE (1,452); DISEASE PROGRESSION (759); DRUG INEFFECTIVE (730); MALIGNANT NEOPLASM PROGRESSION (672)"
+drug-events:lidocaine-hydrochloride,topReactions,"DRUG INEFFECTIVE (1,121); OFF LABEL USE (915); NAUSEA (784); HEADACHE (711); FATIGUE (677)"
+drug-events:dimethicone,topReactions,"DIARRHOEA (1,796); OFF LABEL USE (1,728); FATIGUE (1,648); NAUSEA (1,575); VOMITING (1,457)"
+drug-events:leuprolide-acetate,topReactions,"INTERCEPTED PRODUCT PREPARATION ERROR (2,827); DEATH (1,560); DEVICE LEAKAGE (1,503); SYRINGE ISSUE (1,424); WRONG TECHNIQUE IN PRODUCT USAGE PROCESS (1,151)"
+drug-events:clopidogrel,topReactions,FATIGUE (635); DIARRHOEA (617); DRUG INEFFECTIVE (564); DYSPNOEA (562); OFF LABEL USE (527)
+drug-events:pancrelipase-lipase,topReactions,"DIARRHOEA (1,341); DEATH (757); PANCREATIC CARCINOMA (607); WEIGHT DECREASED (576); NAUSEA (495)"
+drug-events:trimethoprim,topReactions,"OFF LABEL USE (1,432); FATIGUE (1,010); DIARRHOEA (816); DYSPNOEA (812); NAUSEA (801)"
+drug-events:pancrelipase-amylase,topReactions,"DIARRHOEA (1,338); DEATH (752); PANCREATIC CARCINOMA (606); WEIGHT DECREASED (574); NAUSEA (493)"
+drug-events:pancrelipase-protease,topReactions,"DIARRHOEA (1,338); DEATH (752); PANCREATIC CARCINOMA (606); WEIGHT DECREASED (574); NAUSEA (493)"
+drug-events:fentanyl,topReactions,"DRUG ABUSE (1,931); TOXICITY TO VARIOUS AGENTS (1,374); OVERDOSE (706); DRUG DIVERSION (697); DRUG INEFFECTIVE (648)"
+drug-events:losartan-potassium,topReactions,"FATIGUE (1,043); DIARRHOEA (795); DYSPNOEA (737); HEADACHE (708); PRODUCT DOSE OMISSION ISSUE (694)"
+drug-events:losartan-potassium,mdl,MDL-2875
+drug-events:amoxicillin,topReactions,OFF LABEL USE (802); DIARRHOEA (685); DRUG INEFFECTIVE (658); FATIGUE (601); NAUSEA (579)
+drug-events:dulaglutide,topReactions,"NAUSEA (1,802); VOMITING (1,556); IMPAIRED GASTRIC EMPTYING (1,516); DIARRHOEA (1,284); INJECTION SITE PAIN (1,089)"
+drug-events:dulaglutide,mdl,MDL-3094
+drug-events:cabozantinib-s-malate,topReactions,"OFF LABEL USE (2,863); DIARRHOEA (1,755); FATIGUE (1,432); MALIGNANT NEOPLASM PROGRESSION (963); NAUSEA (908)"
+drug-events:trastuzumab,topReactions,"MYELOSUPPRESSION (1,320); OFF LABEL USE (1,264); DIARRHOEA (926); NAUSEA (739); DISEASE PROGRESSION (640)"
+drug-events:trastuzumab,mdl,MDL-2700
+drug-events:lidocaine-hydrochloride-anhydrous,topReactions,DRUG INEFFECTIVE (957); OFF LABEL USE (903); NAUSEA (772); HEADACHE (705); FATIGUE (661)
+drug-events:alcohol,topReactions,"ADVERSE DRUG REACTION (1,301); TOXICITY TO VARIOUS AGENTS (1,140); DRUG INEFFECTIVE (1,030); RASH (928); OFF LABEL USE (925)"
+drug-events:abaloparatide,topReactions,"HEADACHE (2,056); DIZZINESS (1,645); NAUSEA (1,518); FATIGUE (1,461); ARTHRALGIA (1,129)"
+drug-events:esomeprazole-magnesium,topReactions,OFF LABEL USE (993); DRUG INEFFECTIVE (909); NAUSEA (905); HEADACHE (863); DIARRHOEA (801)
+drug-events:esomeprazole-magnesium,mdl,MDL-2789
+drug-events:benzalkonium-chloride,topReactions,DRUG INEFFECTIVE (943); OFF LABEL USE (885); NAUSEA (760); HEADACHE (703); FATIGUE (651)
+drug-events:topiramate,topReactions,"OFF LABEL USE (2,170); DRUG INEFFECTIVE (1,663); PRODUCT USE IN UNAPPROVED INDICATION (990); NAUSEA (973); HEADACHE (956)"
+drug-events:azithromycin-dihydrate,topReactions,"DRUG INEFFECTIVE (1,352); OFF LABEL USE (1,310); DYSPNOEA (871); COUGH (627); PNEUMONIA (626)"
+drug-events:hydroxyzine-dihydrochloride,topReactions,PRURITUS (890); DRUG INEFFECTIVE (836); OFF LABEL USE (821); NAUSEA (745); FATIGUE (607)
+drug-events:sildenafil-citrate,topReactions,"DYSPNOEA (1,131); HEADACHE (1,131); DIARRHOEA (910); FATIGUE (886); COUGH (811)"
+drug-events:alendronate-sodium,topReactions,"FATIGUE (2,339); OFF LABEL USE (2,152); RHEUMATOID ARTHRITIS (2,068); PAIN (2,066); SYSTEMIC LUPUS ERYTHEMATOSUS (2,054)"
+drug-events:alendronate-sodium,mdl,MDL-2243
+drug-events:estradiol-hemihydrate,topReactions,"DEVICE ADHESION ISSUE (1,007); DRUG INEFFECTIVE (741); HEADACHE (618); OFF LABEL USE (596); PRODUCT ADHESION ISSUE (583)"
+drug-events:bortezomib,topReactions,"PLASMA CELL MYELOMA (1,343); OFF LABEL USE (1,231); DRUG INEFFECTIVE (861); NEUROPATHY PERIPHERAL (678); INTENTIONAL PRODUCT USE ISSUE (538)"
+drug-events:citalopram-hydrobromide,topReactions,OFF LABEL USE (866); FATIGUE (820); DRUG INEFFECTIVE (686); NAUSEA (655); HEADACHE (622)
+drug-events:melatonin,topReactions,FATIGUE (859); OFF LABEL USE (844); NAUSEA (643); DIARRHOEA (609); HEADACHE (609)
+drug-events:candesartan-cilexetil,topReactions,"OFF LABEL USE (1,886); FATIGUE (1,323); PAIN (1,275); HEADACHE (1,224); DRUG INEFFECTIVE (1,217)"
+drug-events:sulfamethoxazole,topReactions,"OFF LABEL USE (1,277); FATIGUE (932); DIARRHOEA (747); NAUSEA (740); DYSPNOEA (693)"
+drug-events:esomeprazole,topReactions,OFF LABEL USE (926); NAUSEA (830); HEADACHE (804); DIARRHOEA (727); DRUG INEFFECTIVE (715)
+drug-events:esomeprazole,mdl,MDL-2789
+drug-events:leflunomide,topReactions,"OFF LABEL USE (2,538); RHEUMATOID ARTHRITIS (2,506); PAIN (2,320); RASH (2,269); ARTHRALGIA (2,220)"
+drug-events:cytarabine,topReactions,"FEBRILE NEUTROPENIA (1,467); OFF LABEL USE (1,275); MYELOSUPPRESSION (1,061); PYREXIA (765); DRUG INEFFECTIVE (745)"
+drug-events:naproxen,topReactions,"OFF LABEL USE (1,837); PAIN (1,520); NAUSEA (1,515); DRUG INEFFECTIVE (1,510); RASH (1,402)"
+drug-events:ocrelizumab,topReactions,COVID-19 (889); FATIGUE (854); MULTIPLE SCLEROSIS (602); OFF LABEL USE (512); DRUG INEFFECTIVE (458)
+drug-events:azithromycin-monohydrate,topReactions,"DRUG INEFFECTIVE (1,305); OFF LABEL USE (1,178); DYSPNOEA (789); CONDITION AGGRAVATED (585); COUGH (578)"
+drug-events:apremilast,topReactions,"PAIN (1,815); RASH (1,678); DIARRHOEA (1,671); PSORIATIC ARTHROPATHY (1,661); OFF LABEL USE (1,646)"
+drug-events:zolpidem-tartrate,topReactions,DRUG INEFFECTIVE (719); TOXICITY TO VARIOUS AGENTS (647); FATIGUE (640); NAUSEA (639); OFF LABEL USE (589)
+drug-events:cetirizine,topReactions,"OFF LABEL USE (1,579); FATIGUE (1,533); RASH (1,425); PAIN (1,285); URTICARIA (1,214)"
+drug-events:risperidone,topReactions,"OFF LABEL USE (1,139); DRUG INEFFECTIVE (922); WEIGHT INCREASED (542); SOMNOLENCE (471); DRUG INTERACTION (459)"
+drug-events:macitentan,topReactions,"HEADACHE (1,218); DYSPNOEA (1,154); DIARRHOEA (886); FATIGUE (762); NAUSEA (761)"
+drug-events:mesalamine,topReactions,"OFF LABEL USE (1,879); COLITIS ULCERATIVE (1,818); DRUG INEFFECTIVE (1,235); HAEMATOCHEZIA (987); DIARRHOEA (954)"
+drug-events:gemcitabine-hydrochloride,topReactions,"OFF LABEL USE (1,170); MYELOSUPPRESSION (921); DISEASE PROGRESSION (907); DRUG INEFFECTIVE (778); MALIGNANT NEOPLASM PROGRESSION (574)"
+drug-events:vancomycin,topReactions,"DRUG INEFFECTIVE (2,004); OFF LABEL USE (1,028); ACUTE KIDNEY INJURY (821); DRUG REACTION WITH EOSINOPHILIA AND SYSTEMIC SYMPTOMS (555); CONDITION AGGRAVATED (517)"
+drug-events:sarilumab,topReactions,"ARTHRALGIA (2,241); PAIN (2,138); DRUG INEFFECTIVE (1,706); JOINT SWELLING (1,535); CONDITION AGGRAVATED (1,325)"
+drug-events:minoxidil,topReactions,"ADVERSE DRUG REACTION (1,196); DRUG INEFFECTIVE (890); OFF LABEL USE (594); HEADACHE (550); FATIGUE (527)"
+drug-events:doxycycline,topReactions,"OFF LABEL USE (1,065); DRUG INEFFECTIVE (1,039); RASH (721); FATIGUE (720); CONDITION AGGRAVATED (685)"
+drug-events:copper,topReactions,"COMPLICATION OF DEVICE REMOVAL (4,531); DEVICE BREAKAGE (4,468); FOREIGN BODY IN REPRODUCTIVE TRACT (3,885); COMPLICATION OF DEVICE INSERTION (2,503); PAIN (2,076)"
+drug-events:petrolatum,topReactions,"DRUG INEFFECTIVE (1,003); OFF LABEL USE (900); NAUSEA (638); FATIGUE (595); HEADACHE (586)"
+drug-events:capecitabine,topReactions,"DIARRHOEA (1,090); NAUSEA (835); OFF LABEL USE (706); MALIGNANT NEOPLASM PROGRESSION (596); FATIGUE (561)"
+drug-events:ciprofloxacin-hydrochloride,topReactions,VOMITING (793); PNEUMONIA (785); DYSPNOEA (780); OFF LABEL USE (780); DRUG HYPERSENSITIVITY (762)
+drug-events:polymyxin-b-sulfate,topReactions,DRUG INEFFECTIVE (915); OFF LABEL USE (777); DYSPNOEA (587); NAUSEA (576); FATIGUE (554)
+drug-events:iron,topReactions,OFF LABEL USE (928); FATIGUE (884); DIARRHOEA (712); NAUSEA (619); HEADACHE (593)
+drug-events:diclofenac,topReactions,"OFF LABEL USE (1,844); PAIN (1,475); FATIGUE (1,471); ARTHRALGIA (1,342); JOINT SWELLING (1,334)"
+drug-events:buprenorphine,topReactions,"OFF LABEL USE (1,045); DRUG INEFFECTIVE (871); NAUSEA (770); MATERNAL EXPOSURE DURING PREGNANCY (742); CONFUSIONAL STATE (723)"
+drug-events:buprenorphine,mdl,MDL-3092
+drug-events:salmeterol-xinafoate,topReactions,"PRODUCT DOSE OMISSION ISSUE (1,632); DYSPNOEA (1,353); ASTHMA (1,269); OFF LABEL USE (878); COUGH (841)"
+drug-events:sulfasalazine,topReactions,"OFF LABEL USE (2,409); RHEUMATOID ARTHRITIS (2,258); RASH (2,099); PAIN (2,074); DRUG INEFFECTIVE (2,066)"
+drug-events:biotin,topReactions,"ADVERSE DRUG REACTION (1,199); DRUG INEFFECTIVE (801); OFF LABEL USE (572); FATIGUE (539); HEADACHE (533)"
+drug-events:letrozole,topReactions,"FATIGUE (1,004); NEUTROPENIA (900); MALIGNANT NEOPLASM PROGRESSION (835); DIARRHOEA (825); NAUSEA (792)"
+drug-events:menthol-unspecified-form,topReactions,DRUG INEFFECTIVE (849); OFF LABEL USE (758); NAUSEA (579); FATIGUE (537); HEADACHE (513)
+drug-events:prilocaine,topReactions,DRUG INEFFECTIVE (835); OFF LABEL USE (757); NAUSEA (572); FATIGUE (555); HEADACHE (493)
+drug-events:ribociclib-succinate,topReactions,"NEUTROPENIA (1,160); FATIGUE (1,002); NAUSEA (908); MALIGNANT NEOPLASM PROGRESSION (741); OFF LABEL USE (596)"
+drug-events:durvalumab,topReactions,"DEATH (1,940); MALIGNANT NEOPLASM PROGRESSION (607); OFF LABEL USE (325); DIARRHOEA (314); ASTHENIA (267)"
+drug-events:bacitracin-zinc,topReactions,DRUG INEFFECTIVE (831); OFF LABEL USE (738); NAUSEA (563); FATIGUE (534); HEADACHE (507)
+drug-events:fish-oil,topReactions,"FATIGUE (1,101); DIARRHOEA (905); HEADACHE (802); ARTHRALGIA (754); PAIN (745)"
+drug-events:palbociclib,topReactions,"FATIGUE (1,180); DEATH (1,038); WHITE BLOOD CELL COUNT DECREASED (759); NAUSEA (655); NEUTROPENIA (647)"
+drug-events:triamcinolone-acetonide,topReactions,"OFF LABEL USE (1,268); RASH (1,179); DRUG INEFFECTIVE (1,170); PRURITUS (1,134); FATIGUE (902)"
+drug-events:docetaxel,topReactions,"MYELOSUPPRESSION (1,118); OFF LABEL USE (645); DIARRHOEA (614); NAUSEA (550); DISEASE PROGRESSION (530)"
+drug-events:docetaxel,mdl,MDL-2740; MDL-3023
+drug-events:docetaxel-anhydrous,topReactions,"MYELOSUPPRESSION (1,118); OFF LABEL USE (631); DIARRHOEA (613); NAUSEA (549); DISEASE PROGRESSION (530)"
+drug-events:tetracaine,topReactions,DRUG INEFFECTIVE (820); OFF LABEL USE (724); NAUSEA (547); FATIGUE (514); HEADACHE (483)
+drug-events:baclofen,topReactions,OFF LABEL USE (629); DRUG INEFFECTIVE (607); FATIGUE (488); NAUSEA (421); TOXICITY TO VARIOUS AGENTS (390)
+drug-events:fluconazole,topReactions,"OFF LABEL USE (1,045); DRUG INEFFECTIVE (971); HEADACHE (542); NAUSEA (451); FATIGUE (416)"
+drug-events:insulin-aspart,topReactions,BLOOD GLUCOSE INCREASED (961); NAUSEA (573); OFF LABEL USE (504); DRUG INEFFECTIVE (459); DIARRHOEA (429)
+drug-events:lidocaine-hcl,topReactions,DRUG INEFFECTIVE (820); OFF LABEL USE (717); NAUSEA (546); FATIGUE (512); HEADACHE (483)
+drug-events:pemetrexed-disodium-heptahydrate,topReactions,MYELOSUPPRESSION (488); OFF LABEL USE (454); PANCYTOPENIA (426); MALIGNANT NEOPLASM PROGRESSION (420); ANAEMIA (372)
+drug-events:isotretinoin,topReactions,ADVERSE DRUG REACTION (738); DEPRESSION (524); EXPOSURE DURING PREGNANCY (478); PRODUCT DOSE OMISSION ISSUE (425); DRY SKIN (393)
+drug-events:ferrous-sulfate,topReactions,FATIGUE (727); DIARRHOEA (623); OFF LABEL USE (557); NAUSEA (493); DYSPNOEA (483)
+drug-events:belimumab,topReactions,"SYSTEMIC LUPUS ERYTHEMATOSUS (1,828); PRODUCT DOSE OMISSION ISSUE (1,638); OFF LABEL USE (586); WRONG TECHNIQUE IN DEVICE USAGE PROCESS (535); PRODUCT COMPLAINT (527)"
+drug-events:levofloxacin,topReactions,OFF LABEL USE (711); DRUG INEFFECTIVE (630); NAUSEA (444); DYSPNOEA (442); FATIGUE (401)
+drug-events:cyclobenzaprine-hydrochloride,topReactions,OFF LABEL USE (971); FATIGUE (824); PAIN (821); NAUSEA (792); HEADACHE (770)
+drug-events:nintedanib-esylate,topReactions,"DIARRHOEA (2,231); COUGH (978); NAUSEA (944); DEATH (928); DYSPNOEA (900)"
+drug-events:benralizumab,topReactions,ASTHMA (869); DEATH (722); DYSPNOEA (699); PNEUMONIA (614); PRODUCT DOSE OMISSION ISSUE (499)
+drug-events:levodopa,topReactions,DEATH (980); HALLUCINATION (918); FALL (767); DRUG INEFFECTIVE (640); DYSKINESIA (500)
+drug-events:citalopram,topReactions,ACCIDENTAL OVERDOSE (568); OFF LABEL USE (541); FATIGUE (530); NAUSEA (435); DRUG INEFFECTIVE (433)
+drug-events:human-immunoglobulin-g,topReactions,"OFF LABEL USE (2,016); DRUG INEFFECTIVE (964); HEADACHE (584); FATIGUE (569); PNEUMONIA (491)"
+drug-events:montelukast,topReactions,DYSPNOEA (797); ASTHMA (793); HEADACHE (635); COUGH (626); DRUG INEFFECTIVE (572)
+drug-events:ambrisentan,topReactions,HEADACHE (907); DYSPNOEA (886); DIARRHOEA (614); DEATH (527); NAUSEA (516)
+drug-events:methylphenidate-hydrochloride,topReactions,DRUG INEFFECTIVE (843); OFF LABEL USE (598); FATIGUE (362); NAUSEA (342); PRODUCT DOSE OMISSION ISSUE (336)
+drug-events:ciprofloxacin,topReactions,DRUG INEFFECTIVE (571); OFF LABEL USE (559); PAIN (538); DYSPNOEA (520); VOMITING (517)
+drug-events:buprenorphine-hydrochloride,topReactions,DRUG ABUSE (636); NAUSEA (592); OFF LABEL USE (568); DEATH (535); DRUG INEFFECTIVE (495)
+drug-events:buprenorphine-hydrochloride,mdl,MDL-3092
+drug-events:pemetrexed-disodium,topReactions,MYELOSUPPRESSION (468); OFF LABEL USE (418); MALIGNANT NEOPLASM PROGRESSION (379); PANCYTOPENIA (365); ANAEMIA (346)
+drug-events:pemetrexed-disodium-hemipentahydrate,topReactions,MYELOSUPPRESSION (468); OFF LABEL USE (418); MALIGNANT NEOPLASM PROGRESSION (379); PANCYTOPENIA (365); ANAEMIA (346)
+drug-events:fexofenadine-hydrochloride,topReactions,DRUG INEFFECTIVE (597); NO ADVERSE EVENT (508); PRURITUS (468); FATIGUE (388); OFF LABEL USE (380)
+drug-events:tazobactam-sodium,topReactions,"DRUG INEFFECTIVE (1,025); OFF LABEL USE (640); ACUTE KIDNEY INJURY (635); PYREXIA (384); CONDITION AGGRAVATED (367)"
+drug-events:clonidine-hydrochloride,topReactions,OFF LABEL USE (789); HEADACHE (711); HYPERTENSION (588); NAUSEA (588); FATIGUE (586)
+drug-events:foscarbidopa,topReactions,ON AND OFF PHENOMENON (959); FALL (905); HALLUCINATION (737); DEATH (587); DYSKINESIA (582)
+drug-events:foslevodopa,topReactions,ON AND OFF PHENOMENON (959); FALL (905); HALLUCINATION (737); DEATH (587); DYSKINESIA (582)
+drug-events:metronidazole,topReactions,DRUG INEFFECTIVE (948); OFF LABEL USE (900); NAUSEA (510); HEADACHE (448); VOMITING (381)
+drug-events:loperamide-hydrochloride,topReactions,"DIARRHOEA (1,539); NAUSEA (837); FATIGUE (710); OFF LABEL USE (647); CONSTIPATION (548)"
+drug-events:mycophenolate-sodium,topReactions,OFF LABEL USE (956); DRUG INEFFECTIVE (572); DIARRHOEA (364); ACUTE KIDNEY INJURY (306); DEATH (273)
+drug-events:piperacillin-sodium,topReactions,"DRUG INEFFECTIVE (1,021); OFF LABEL USE (638); ACUTE KIDNEY INJURY (633); PYREXIA (383); CONDITION AGGRAVATED (363)"
+drug-events:amphetamine-sulfate,topReactions,DRUG INEFFECTIVE (714); TOXICITY TO VARIOUS AGENTS (562); FATIGUE (495); DRUG ABUSE (452); NAUSEA (433)
+drug-events:docusate-sodium,topReactions,FATIGUE (749); OFF LABEL USE (647); NAUSEA (565); CONSTIPATION (558); HEADACHE (546)
+drug-events:ibrutinib,topReactions,DEATH (833); OFF LABEL USE (600); ATRIAL FIBRILLATION (342); DIARRHOEA (311); FATIGUE (288)
+drug-events:meloxicam,topReactions,FATIGUE (735); DRUG INEFFECTIVE (698); NAUSEA (694); DIARRHOEA (627); ARTHRALGIA (614)
+drug-events:sacubitril,topReactions,HYPOTENSION (573); FATIGUE (488); DIZZINESS (448); DYSPNOEA (438); OFF LABEL USE (425)
+drug-events:ofatumumab,topReactions,FATIGUE (906); HEADACHE (679); MULTIPLE SCLEROSIS (583); PYREXIA (582); PAIN (547)
+drug-events:erenumab,topReactions,"DEVICE DIFFICULT TO USE (2,007); DRUG DOSE OMISSION BY DEVICE (1,563); MIGRAINE (1,454); OFF LABEL USE (1,382); HEADACHE (1,120)"
+drug-events:caffeine,topReactions,"PRODUCT USE IN UNAPPROVED INDICATION (2,245); DRUG EFFECTIVE FOR UNAPPROVED INDICATION (1,933); FATIGUE (713); HEADACHE (698); NAUSEA (641)"
+drug-events:torsemide,topReactions,DYSPNOEA (680); DIARRHOEA (514); HEADACHE (464); FATIGUE (462); NAUSEA (457)
+drug-events:ravulizumab,topReactions,FATIGUE (826); DEATH (480); ASTHENIA (448); DRUG INEFFECTIVE (335); HEADACHE (314)
+drug-events:pseudoephedrine-hydrochloride,topReactions,"DRUG INEFFECTIVE (1,427); OFF LABEL USE (1,379); PAIN (1,353); RASH (1,343); SYSTEMIC LUPUS ERYTHEMATOSUS (1,319)"
+drug-events:sitagliptin-phosphate,topReactions,NAUSEA (576); DIARRHOEA (526); VOMITING (484); PRODUCT DOSE OMISSION ISSUE (438); FATIGUE (425)
+drug-events:galcanezumab,topReactions,"INJECTION SITE PAIN (2,303); MIGRAINE (595); INCORRECT DOSE ADMINISTERED BY DEVICE (545); INJECTION SITE HAEMORRHAGE (487); INCORRECT DOSE ADMINISTERED (446)"
+drug-events:thiamine-hydrochloride,topReactions,FATIGUE (758); OFF LABEL USE (651); NAUSEA (568); DYSPNOEA (558); DRUG INEFFECTIVE (528)
+drug-events:isopropyl-alcohol,topReactions,"TOXICITY TO VARIOUS AGENTS (1,130); INJURY (909); PEMPHIGUS (881); CONFUSIONAL STATE (878); JOINT SWELLING (876)"
+drug-events:morphine,topReactions,OFF LABEL USE (834); NAUSEA (714); DRUG INEFFECTIVE (666); PAIN (588); FATIGUE (535)
+drug-events:metoclopramide-hydrochloride,topReactions,NAUSEA (866); OFF LABEL USE (719); VOMITING (596); DIARRHOEA (580); FATIGUE (528)
+drug-events:zoledronic-acid,topReactions,FATIGUE (562); ARTHRALGIA (493); NAUSEA (478); OFF LABEL USE (397); PAIN (392)
+drug-events:lutetium-lu-177-vipivotide-tetraxetan,topReactions,"GENERAL PHYSICAL HEALTH DETERIORATION (4,644); DEATH (454); ILL-DEFINED DISORDER (355); PROSTATIC SPECIFIC ANTIGEN INCREASED (183); MALIGNANT NEOPLASM PROGRESSION (173)"
+drug-events:irbesartan,topReactions,ACUTE KIDNEY INJURY (444); FATIGUE (396); NAUSEA (350); OFF LABEL USE (349); FALL (307)
+drug-events:irbesartan,mdl,MDL-2875
+drug-events:liraglutide,topReactions,NAUSEA (554); IMPAIRED GASTRIC EMPTYING (449); VOMITING (449); DIARRHOEA (348); OFF LABEL USE (314)
+drug-events:liraglutide,mdl,MDL-3094
+drug-events:naloxone-hydrochloride,topReactions,TOXICITY TO VARIOUS AGENTS (382); NAUSEA (360); OFF LABEL USE (332); DENTAL CARIES (316); INAPPROPRIATE SCHEDULE OF PRODUCT ADMINISTRATION (285)
+drug-events:naloxone-hydrochloride,mdl,MDL-3092
+drug-events:ranitidine-hydrochloride,topReactions,"OFF LABEL USE (1,070); PAIN (932); DRUG INEFFECTIVE (791); RASH (757); INFUSION RELATED REACTION (734)"
+drug-events:ranitidine-hydrochloride,mdl,MDL-2924
+drug-events:rabeprazole-sodium,topReactions,OFF LABEL USE (444); HEADACHE (333); DRUG INEFFECTIVE (301); DIARRHOEA (232); HYPERSENSITIVITY (215)
+drug-events:rabeprazole-sodium,mdl,MDL-2789
+drug-events:dexlansoprazole,topReactions,OFF LABEL USE (350); FATIGUE (323); DRUG INEFFECTIVE (290); NAUSEA (232); DYSPNOEA (228)
+drug-events:dexlansoprazole,mdl,MDL-2789
+drug-events:esomeprazole-magnesium-dihydrate,topReactions,DRUG INEFFECTIVE (308); OFF LABEL USE (297); NAUSEA (294); HEADACHE (257); FATIGUE (207)
+drug-events:esomeprazole-magnesium-dihydrate,mdl,MDL-2789
+drug-events:ranitidine,topReactions,OFF LABEL USE (575); DRUG INEFFECTIVE (463); PAIN (444); NAUSEA (363); HYPERTENSION (358)
+drug-events:ranitidine,mdl,MDL-2924
+drug-events:nilotinib-hydrochloride-monohydrate,topReactions,DRUG INEFFECTIVE (128); OFF LABEL USE (127); DIARRHOEA (113); NAUSEA (109); ARTHRALGIA (104)
+drug-events:nilotinib-hydrochloride-monohydrate,mdl,MDL-3006
+drug-events:varenicline-tartrate,topReactions,NAUSEA (181); HEADACHE (61); FATIGUE (59); DYSPNOEA (56); ABNORMAL DREAMS (55)
+drug-events:varenicline-tartrate,mdl,MDL-3050
+drug-events:pentosan-polysulfate-sodium,topReactions,OFF LABEL USE (144); MACULOPATHY (65); PIGMENTARY MACULOPATHY (58); DRY AGE-RELATED MACULAR DEGENERATION (30); DRUG INEFFECTIVE (24)
+drug-events:pentosan-polysulfate-sodium,mdl,MDL-2973
+drug-events:exenatide,topReactions,NAUSEA (24); VOMITING (20); IMPAIRED GASTRIC EMPTYING (17); PRODUCT DOSE OMISSION ISSUE (16); CONSTIPATION (14)
+drug-events:exenatide,mdl,MDL-3094
