@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-05",
-  "created": "2026-11-05T00:00:00Z",
+  "version": "2026-11-06",
+  "created": "2026-11-06T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -3290,8 +3290,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963360",
+      "version": "2.1.0",
+      "id": "https://doi.org/10.5281/zenodo.24011337",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -3394,7 +3394,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7596,6 +7596,325 @@
           {
             "name": "value",
             "type": "boolean"
+          }
+        ]
+      }
+    },
+    {
+      "name": "law-firm-ai-readiness",
+      "profile": "tabular-data-resource",
+      "title": "US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market",
+      "description": "What US law-firm websites show AI crawlers, measured from the public files and pages of the websites themselves: which of eight named AI crawlers and controls (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User, PerplexityBot, Google-Extended, meta-webindexer) each site's crawler file (the plain-text file at its root that tells crawlers what they may visit) names and whose access to the home page it blocks, whether the apex and www host names lead to one site, how much home-page text a reader gets before JavaScript runs, and how their Spanish pages present themselves. It also counts FAQPage and Organization structured data and nosnippet and max-snippet tags on the same pages. Aggregates by state and market only; no firm or website is named or scored.",
+      "path": "data/law-firm-ai-readiness/law-firm-ai-readiness.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.24015038",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "commoncrawl.org",
+          "path": "https://commoncrawl.org/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, or US; a market row carries its state's code"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or metro (a market on this site, by its core counties)"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "The place the row covers"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "The headline share: % of websites blocking the home page for at least one of the eight AI crawlers and controls"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "What value measures"
+          },
+          {
+            "name": "websites",
+            "type": "integer",
+            "description": "US law-firm websites read in the group (N); every state and market has at least 100"
+          },
+          {
+            "name": "robots_read",
+            "type": "integer",
+            "description": "Websites whose crawler file answer was read: the base of the crawler-file shares"
+          },
+          {
+            "name": "share_robots_file",
+            "type": "number",
+            "description": "% of those with a crawler file holding text"
+          },
+          {
+            "name": "share_block_any",
+            "type": "number",
+            "description": "% blocking the home page for at least one of the eight crawlers"
+          },
+          {
+            "name": "share_block_gptbot",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for GPTBot (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_oai_searchbot",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for OAI-SearchBot (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_chatgpt_user",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for ChatGPT-User (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_claudebot",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for ClaudeBot (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_claude_user",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for Claude-User (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_perplexitybot",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for PerplexityBot (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_google_extended",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for Google-Extended (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_block_meta_webindexer",
+            "type": "number",
+            "description": "% whose crawler file blocks the home page for meta-webindexer (its own group, else the group for all crawlers; longest match wins, an allow wins a tie)"
+          },
+          {
+            "name": "share_named_gptbot",
+            "type": "number",
+            "description": "% whose crawler file names GPTBot in a User-agent line"
+          },
+          {
+            "name": "share_named_oai_searchbot",
+            "type": "number",
+            "description": "% whose crawler file names OAI-SearchBot in a User-agent line"
+          },
+          {
+            "name": "share_named_chatgpt_user",
+            "type": "number",
+            "description": "% whose crawler file names ChatGPT-User in a User-agent line"
+          },
+          {
+            "name": "share_named_claudebot",
+            "type": "number",
+            "description": "% whose crawler file names ClaudeBot in a User-agent line"
+          },
+          {
+            "name": "share_named_claude_user",
+            "type": "number",
+            "description": "% whose crawler file names Claude-User in a User-agent line"
+          },
+          {
+            "name": "share_named_perplexitybot",
+            "type": "number",
+            "description": "% whose crawler file names PerplexityBot in a User-agent line"
+          },
+          {
+            "name": "share_named_google_extended",
+            "type": "number",
+            "description": "% whose crawler file names Google-Extended in a User-agent line"
+          },
+          {
+            "name": "share_named_meta_webindexer",
+            "type": "number",
+            "description": "% whose crawler file names meta-webindexer in a User-agent line"
+          },
+          {
+            "name": "apex_read",
+            "type": "integer",
+            "description": "Websites with an apex and a www host name asked: the base of the host shares"
+          },
+          {
+            "name": "share_apex_same",
+            "type": "number",
+            "description": "% where the other host name redirects to the site's host"
+          },
+          {
+            "name": "share_apex_split",
+            "type": "number",
+            "description": "% where the other host name answers its own page (200, no redirect)"
+          },
+          {
+            "name": "share_apex_other",
+            "type": "number",
+            "description": "% where the other host name gives any other answer (an error status, or a redirect elsewhere)"
+          },
+          {
+            "name": "share_apex_none",
+            "type": "number",
+            "description": "% where the other host name gives no answer (no DNS, no connection or a certificate that fails)"
+          },
+          {
+            "name": "share_static_under_200",
+            "type": "number",
+            "description": "% of websites whose home page shows under 200 characters of visible text in the raw HTML, before JavaScript runs"
+          },
+          {
+            "name": "median_static_chars",
+            "type": "integer",
+            "description": "Median characters of visible text on the home page before JavaScript runs"
+          },
+          {
+            "name": "share_faq_schema",
+            "type": "number",
+            "description": "% with FAQPage structured data on the pages read"
+          },
+          {
+            "name": "share_org_schema",
+            "type": "number",
+            "description": "% with Organization, LocalBusiness, LegalService, Attorney or a close type on the pages read"
+          },
+          {
+            "name": "share_snippet_limit",
+            "type": "number",
+            "description": "% with a search meta tag saying nosnippet or max-snippet of 0 or more on the pages read"
+          },
+          {
+            "name": "share_snippet_unlimited",
+            "type": "number",
+            "description": "% with max-snippet:-1 (no limit) on the pages read"
+          },
+          {
+            "name": "spanish_read",
+            "type": "integer",
+            "description": "Websites whose Spanish status could be classed from the pages read: the base of the Spanish shares"
+          },
+          {
+            "name": "share_spanish_own",
+            "type": "number",
+            "description": "% with a page read in Spanish whose HTML names no translation service"
+          },
+          {
+            "name": "share_spanish_machine",
+            "type": "number",
+            "description": "% with a page read in Spanish whose HTML names a translation service"
+          },
+          {
+            "name": "share_spanish_widget",
+            "type": "number",
+            "description": "% with a translation widget on the home page and no Spanish page"
+          },
+          {
+            "name": "share_spanish_none",
+            "type": "number",
+            "description": "% with no Spanish page, link or translation widget"
+          },
+          {
+            "name": "static_threshold_chars",
+            "type": "integer",
+            "description": "The threshold, in characters of visible text, behind share_static_under_200"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "First and last read date"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "law-firm-ai-readiness-values",
+      "profile": "tabular-data-resource",
+      "title": "US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market: law-firm-ai-readiness-values.csv",
+      "description": "The columns listed in README.txt as being in law-firm-ai-readiness-values.csv, one row per id, column and value; join it to law-firm-ai-readiness.csv on id.",
+      "path": "data/law-firm-ai-readiness/law-firm-ai-readiness-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
           }
         ]
       }

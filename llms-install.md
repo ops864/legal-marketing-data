@@ -66,6 +66,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/immigration-courts`: Immigration court backlog, representation and asylum outcomes by state and court, from EOIR workload statistics and case data.
 - `https://probativegrowth.com/mcp/irs-databook`: IRS Data Book by state, fiscal years 2019 to 2025: returns filed, gross collections and refunds issued.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.
+- `https://probativegrowth.com/mcp/law-firm-ai-readiness`: US law-firm websites by state and market: rules for 8 AI crawlers and controls, text before JavaScript, FAQ markup, Spanish pages.
 - `https://probativegrowth.com/mcp/law-firm-economy`: Law firms by size and state (Census SUSB, Nonemployer Statistics, Economic Census): firm counts, receipts and solo practices.
 - `https://probativegrowth.com/mcp/law-firm-websites`: US law-firm website census: Spanish pages, booking, chat, schema and HTTPS by state and practice, with Spanish demand per website.
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).

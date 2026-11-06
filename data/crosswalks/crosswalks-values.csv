@@ -830,6 +830,9 @@ cw-dataset-irs-databook,doi,10.5281/zenodo.23963674
 cw-dataset-language,practices,family-law; immigration
 cw-dataset-language,dimensions,supply
 cw-dataset-language,doi,10.5281/zenodo.23898117
+cw-dataset-law-firm-ai-readiness,practices,bankruptcy; criminal-defense; estate-planning; family-law; immigration; personal-injury
+cw-dataset-law-firm-ai-readiness,dimensions,supply
+cw-dataset-law-firm-ai-readiness,doi,10.5281/zenodo.24015038
 cw-dataset-law-firm-economy,practices,business-law
 cw-dataset-law-firm-economy,dimensions,supply
 cw-dataset-law-firm-economy,doi,10.5281/zenodo.23898123

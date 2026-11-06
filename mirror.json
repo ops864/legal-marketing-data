@@ -199,11 +199,11 @@
     },
     {
       "id": "crosswalks",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23963360",
-      "released": "2026-11-04",
-      "cardSha": "401608304930e672",
-      "rows": 3696,
+      "version": "2.1.0",
+      "doi": "10.5281/zenodo.24011337",
+      "released": "2026-11-06",
+      "cardSha": "49a019f46cbf86ab",
+      "rows": 3697,
       "files": [
         "crosswalks-values.csv"
       ]
@@ -440,6 +440,17 @@
       "rows": 2069,
       "files": [
         "language-values.csv"
+      ]
+    },
+    {
+      "id": "law-firm-ai-readiness",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.24015038",
+      "released": "2026-11-06",
+      "cardSha": "bccf22dea4f7911e",
+      "rows": 77,
+      "files": [
+        "law-firm-ai-readiness-values.csv"
       ]
     },
     {
