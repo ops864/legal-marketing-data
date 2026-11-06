@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "datasets": [
     {
       "id": "rules",
@@ -358,7 +358,7 @@
       "version": "3.0.0",
       "doi": "10.5281/zenodo.23898107",
       "released": "2026-11-02",
-      "cardSha": "adf7f108987dbe2e",
+      "cardSha": "ddb817302001e9f6",
       "rows": 4554,
       "files": [
         "firm-web-census-values.csv"
