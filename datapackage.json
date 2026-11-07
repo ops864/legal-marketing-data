@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-06",
-  "created": "2026-11-06T00:00:00Z",
+  "version": "2026-11-07",
+  "created": "2026-11-07T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -5194,8 +5194,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963548",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24024299",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5231,7 +5231,7 @@
           {
             "name": "level",
             "type": "string",
-            "description": "county (the first-listed plaintiff lives in that county), former-county (a retired county code with several successors, such as Connecticut's old counties), county-not-recorded (a county code in no county list), out-of-state (code 88888: the plaintiff lives in the U.S. outside the court's state), outside-us (code 99999), retired-codes (a reconciliation row, not added to totals), district (one federal district court), state (the sum of the rows above for the state's courts) or us"
+            "description": "county (the first-listed plaintiff lives in that county), former-county (a retired county code with several successors, such as Connecticut's old counties), county-not-recorded (a county code in no county list or one the court file uses statewide), out-of-state (code 88888: the plaintiff lives in the U.S. outside the court's state), outside-us (code 99999), retired-codes (a reconciliation row, not added to totals), district (one federal district court), state (the sum of the rows above for the state's courts) or us"
           },
           {
             "name": "year",
@@ -5423,7 +5423,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",

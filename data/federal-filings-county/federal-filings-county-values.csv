@@ -3,9 +3,9 @@ federal-filings-county:US,filed_change_pct,4.4
 federal-filings-county:US,mdl_pct,11.4
 federal-filings-county:US,mdl_pct_10y,23.4
 federal-filings-county:US-county-not-recorded,countyName,County not recorded
-federal-filings-county:US-county-not-recorded,filed_change_pct,-9.9
-federal-filings-county:US-county-not-recorded,mdl_pct,8.7
-federal-filings-county:US-county-not-recorded,mdl_pct_10y,9.7
+federal-filings-county:US-county-not-recorded,filed_change_pct,-4.5
+federal-filings-county:US-county-not-recorded,mdl_pct,4.1
+federal-filings-county:US-county-not-recorded,mdl_pct_10y,3.2
 federal-filings-county:US-out-of-state,countyName,Plaintiff lives outside the court's state
 federal-filings-county:US-out-of-state,filed_change_pct,-20.4
 federal-filings-county:US-out-of-state,mdl_pct,38.6
@@ -14595,7 +14595,7 @@ federal-filings-county:72009,filed_change_pct,0
 federal-filings-county:72009,mdl_pct,0
 federal-filings-county:72009,mdl_pct_10y,0
 federal-filings-county:72011,county,72011
-federal-filings-county:72011,countyName,AÃ±asco Municipio
+federal-filings-county:72011,countyName,Añasco Municipio
 federal-filings-county:72011,stateName,Puerto Rico
 federal-filings-county:72011,filed_change_pct,0
 federal-filings-county:72011,mdl_pct,0
@@ -14625,7 +14625,7 @@ federal-filings-county:72019,filed_change_pct,150
 federal-filings-county:72019,mdl_pct,0
 federal-filings-county:72019,mdl_pct_10y,0
 federal-filings-county:72021,county,72021
-federal-filings-county:72021,countyName,BayamÃ³n Municipio
+federal-filings-county:72021,countyName,Bayamón Municipio
 federal-filings-county:72021,stateName,Puerto Rico
 federal-filings-county:72021,filed_change_pct,-31.6
 federal-filings-county:72021,mdl_pct,0
@@ -14649,7 +14649,7 @@ federal-filings-county:72027,filed_change_pct,100
 federal-filings-county:72027,mdl_pct,0
 federal-filings-county:72027,mdl_pct_10y,0
 federal-filings-county:72029,county,72029
-federal-filings-county:72029,countyName,CanÃ³vanas Municipio
+federal-filings-county:72029,countyName,Canóvanas Municipio
 federal-filings-county:72029,stateName,Puerto Rico
 federal-filings-county:72029,filed_change_pct,-33.3
 federal-filings-county:72029,mdl_pct,0
@@ -14661,7 +14661,7 @@ federal-filings-county:72031,filed_change_pct,-14.3
 federal-filings-county:72031,mdl_pct,0
 federal-filings-county:72031,mdl_pct_10y,0
 federal-filings-county:72033,county,72033
-federal-filings-county:72033,countyName,CataÃ±o Municipio
+federal-filings-county:72033,countyName,Cataño Municipio
 federal-filings-county:72033,stateName,Puerto Rico
 federal-filings-county:72033,filed_change_pct,-50
 federal-filings-county:72033,mdl_pct,0
@@ -14694,7 +14694,7 @@ federal-filings-county:72043,stateName,Puerto Rico
 federal-filings-county:72043,mdl_pct,0
 federal-filings-county:72043,mdl_pct_10y,0
 federal-filings-county:72045,county,72045
-federal-filings-county:72045,countyName,ComerÃ­o Municipio
+federal-filings-county:72045,countyName,Comerío Municipio
 federal-filings-county:72045,stateName,Puerto Rico
 federal-filings-county:72045,filed_change_pct,0
 federal-filings-county:72045,mdl_pct,0
@@ -14727,7 +14727,7 @@ federal-filings-county:72054,stateName,Puerto Rico
 federal-filings-county:72054,mdl_pct,0
 federal-filings-county:72054,mdl_pct_10y,0
 federal-filings-county:72055,county,72055
-federal-filings-county:72055,countyName,GuÃ¡nica Municipio
+federal-filings-county:72055,countyName,Guánica Municipio
 federal-filings-county:72055,stateName,Puerto Rico
 federal-filings-county:72055,mdl_pct_10y,0
 federal-filings-county:72057,county,72057
@@ -14783,7 +14783,7 @@ federal-filings-county:72073,filed_change_pct,0
 federal-filings-county:72073,mdl_pct,0
 federal-filings-county:72073,mdl_pct_10y,0
 federal-filings-county:72075,county,72075
-federal-filings-county:72075,countyName,Juana DÃ­az Municipio
+federal-filings-county:72075,countyName,Juana Díaz Municipio
 federal-filings-county:72075,stateName,Puerto Rico
 federal-filings-county:72075,mdl_pct_10y,0
 federal-filings-county:72077,county,72077
@@ -14803,7 +14803,7 @@ federal-filings-county:72081,stateName,Puerto Rico
 federal-filings-county:72081,mdl_pct,0
 federal-filings-county:72081,mdl_pct_10y,0
 federal-filings-county:72083,county,72083
-federal-filings-county:72083,countyName,Las MarÃ­as Municipio
+federal-filings-county:72083,countyName,Las Marías Municipio
 federal-filings-county:72083,stateName,Puerto Rico
 federal-filings-county:72083,filed_change_pct,-100
 federal-filings-county:72083,mdl_pct_10y,0
@@ -14814,7 +14814,7 @@ federal-filings-county:72085,filed_change_pct,0
 federal-filings-county:72085,mdl_pct,0
 federal-filings-county:72085,mdl_pct_10y,0
 federal-filings-county:72087,county,72087
-federal-filings-county:72087,countyName,LoÃ­za Municipio
+federal-filings-county:72087,countyName,Loíza Municipio
 federal-filings-county:72087,stateName,Puerto Rico
 federal-filings-county:72087,mdl_pct,0
 federal-filings-county:72087,mdl_pct_10y,0
@@ -14825,7 +14825,7 @@ federal-filings-county:72089,filed_change_pct,0
 federal-filings-county:72089,mdl_pct,0
 federal-filings-county:72089,mdl_pct_10y,0
 federal-filings-county:72091,county,72091
-federal-filings-county:72091,countyName,ManatÃ­ Municipio
+federal-filings-county:72091,countyName,Manatí Municipio
 federal-filings-county:72091,stateName,Puerto Rico
 federal-filings-county:72091,filed_change_pct,0
 federal-filings-county:72091,mdl_pct,0
@@ -14841,7 +14841,7 @@ federal-filings-county:72095,stateName,Puerto Rico
 federal-filings-county:72095,filed_change_pct,-100
 federal-filings-county:72095,mdl_pct_10y,0
 federal-filings-county:72097,county,72097
-federal-filings-county:72097,countyName,MayagÃ¼ez Municipio
+federal-filings-county:72097,countyName,Mayagüez Municipio
 federal-filings-county:72097,stateName,Puerto Rico
 federal-filings-county:72097,filed_change_pct,180
 federal-filings-county:72097,mdl_pct,0
@@ -14875,7 +14875,7 @@ federal-filings-county:72109,countyName,Patillas Municipio
 federal-filings-county:72109,stateName,Puerto Rico
 federal-filings-county:72109,mdl_pct_10y,0
 federal-filings-county:72111,county,72111
-federal-filings-county:72111,countyName,PeÃ±uelas Municipio
+federal-filings-county:72111,countyName,Peñuelas Municipio
 federal-filings-county:72111,stateName,Puerto Rico
 federal-filings-county:72111,filed_change_pct,0
 federal-filings-county:72111,mdl_pct,0
@@ -14892,12 +14892,12 @@ federal-filings-county:72115,stateName,Puerto Rico
 federal-filings-county:72115,mdl_pct,0
 federal-filings-county:72115,mdl_pct_10y,0
 federal-filings-county:72117,county,72117
-federal-filings-county:72117,countyName,RincÃ³n Municipio
+federal-filings-county:72117,countyName,Rincón Municipio
 federal-filings-county:72117,stateName,Puerto Rico
 federal-filings-county:72117,mdl_pct,0
 federal-filings-county:72117,mdl_pct_10y,0
 federal-filings-county:72119,county,72119
-federal-filings-county:72119,countyName,RÃ­o Grande Municipio
+federal-filings-county:72119,countyName,Río Grande Municipio
 federal-filings-county:72119,stateName,Puerto Rico
 federal-filings-county:72119,filed_change_pct,0
 federal-filings-county:72119,mdl_pct,0
@@ -14915,7 +14915,7 @@ federal-filings-county:72123,filed_change_pct,300
 federal-filings-county:72123,mdl_pct,0
 federal-filings-county:72123,mdl_pct_10y,0
 federal-filings-county:72125,county,72125
-federal-filings-county:72125,countyName,San GermÃ¡n Municipio
+federal-filings-county:72125,countyName,San Germán Municipio
 federal-filings-county:72125,stateName,Puerto Rico
 federal-filings-county:72125,filed_change_pct,50
 federal-filings-county:72125,mdl_pct,0
@@ -14932,7 +14932,7 @@ federal-filings-county:72129,stateName,Puerto Rico
 federal-filings-county:72129,filed_change_pct,-100
 federal-filings-county:72129,mdl_pct_10y,0
 federal-filings-county:72131,county,72131
-federal-filings-county:72131,countyName,San SebastiÃ¡n Municipio
+federal-filings-county:72131,countyName,San Sebastián Municipio
 federal-filings-county:72131,stateName,Puerto Rico
 federal-filings-county:72131,mdl_pct,0
 federal-filings-county:72131,mdl_pct_10y,0
@@ -16356,12 +16356,6 @@ federal-filings-county:district-TXW,districtName,Western District of Texas
 federal-filings-county:district-TXW,filed_change_pct,17.3
 federal-filings-county:district-TXW,mdl_pct,0.1
 federal-filings-county:district-TXW,mdl_pct_10y,0.3
-federal-filings-county:48001,county,48001
-federal-filings-county:48001,countyName,Anderson County
-federal-filings-county:48001,stateName,Texas
-federal-filings-county:48001,filed_change_pct,1
-federal-filings-county:48001,mdl_pct,0
-federal-filings-county:48001,mdl_pct_10y,0.2
 federal-filings-county:48003,county,48003
 federal-filings-county:48003,countyName,Andrews County
 federal-filings-county:48003,stateName,Texas
@@ -17825,6 +17819,10 @@ federal-filings-county:48507,filed_change_pct,-100
 federal-filings-county:48507,mdl_pct_10y,0
 federal-filings-county:TX-county-not-recorded,countyName,County not recorded
 federal-filings-county:TX-county-not-recorded,stateName,Texas
+federal-filings-county:TX-county-not-recorded,filed_change_pct,1
+federal-filings-county:TX-county-not-recorded,mdl_pct,0
+federal-filings-county:TX-county-not-recorded,mdl_pct_10y,0.2
+federal-filings-county:TX-county-not-recorded,note,"Code 48001 (17,907 cases, FY2016-FY2025): the court file uses it across all of Texas's federal districts, so it is not read as one county."
 federal-filings-county:TX-out-of-state,countyName,Plaintiff lives outside the court's state
 federal-filings-county:TX-out-of-state,stateName,Texas
 federal-filings-county:TX-out-of-state,filed_change_pct,12.6

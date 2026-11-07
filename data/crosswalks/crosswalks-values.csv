@@ -797,7 +797,7 @@ cw-dataset-fatal-crashes,dimensions,demand
 cw-dataset-fatal-crashes,doi,10.5281/zenodo.23963480
 cw-dataset-federal-filings-county,practices,antitrust; assault-defamation; auto-accidents; aviation-accidents; bankruptcy; birth-injury; business-law; catastrophic-injury; civil-rights; consumer-fraud; consumer-protection; contract-disputes; copyright; credit-reporting; debt-collection-defense; disability-access; dog-bites; drug-device-injury; education-law; employee-benefits; employment-discrimination; employment-law; foreclosure-defense; franchise; housing-discrimination; immigration; insurance-claims; intellectual-property; investor-claims; labor-relations; landlord-tenant; lemon-law; maritime-injury; mass-tort; medical-malpractice; motorcycle-accidents; naturalization; nursing-home-abuse; patent; pedestrian-bicycle-accidents; personal-injury; police-misconduct; premises-liability; product-liability; railroad-injury; real-estate; removal-defense; rideshare-accidents; special-education; ssdi; tax; tcpa-robocalls; toxic-exposure; trademark; truck-accidents; va-disability; wage-and-hour; whistleblower; wrongful-death; wrongful-termination
 cw-dataset-federal-filings-county,dimensions,demand
-cw-dataset-federal-filings-county,doi,10.5281/zenodo.23963548
+cw-dataset-federal-filings-county,doi,10.5281/zenodo.24024299
 cw-dataset-fees,practices,bankruptcy; medical-malpractice; personal-injury; ssdi; va-disability; workers-compensation
 cw-dataset-fees,dimensions,rules
 cw-dataset-fees,doi,10.5281/zenodo.23969434

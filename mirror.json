@@ -314,11 +314,11 @@
     },
     {
       "id": "federal-filings-county",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23963548",
-      "released": "2026-11-04",
-      "cardSha": "f09e2058ebc04092",
-      "rows": 3560,
+      "version": "2.0.1",
+      "doi": "10.5281/zenodo.24024299",
+      "released": "2026-11-07",
+      "cardSha": "d8640ad64616f61c",
+      "rows": 3559,
       "files": [
         "federal-filings-county-values.csv"
       ]

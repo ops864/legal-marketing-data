@@ -1,12 +1,12 @@
 Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center)
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963548
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24024299
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center), version 2.0.0, https://doi.org/10.5281/zenodo.23963548, licensed CC BY 4.0.
+Source: Probative, Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center), version 2.0.1, https://doi.org/10.5281/zenodo.24024299, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963548
+Probative. (2026). Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24024299
 
 Not legal advice. These are counts of federal civil case filings from court records, kept for research and marketing planning. A filing says where a plaintiff lives and what kind of case was brought, not that a claim has merit, that a lawyer was hired or how a case ended. County means the county of residence of the first-listed plaintiff (the first-listed defendant's county when the United States sues; the tract's county in land condemnation cases), as the Federal Judicial Center codes it; the court also has codes for a plaintiff who lives in the U.S. outside the court's state and for one who lives abroad. Rights and deadlines in a matter are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.
@@ -16,7 +16,7 @@ Human page: https://probativegrowth.com/data/federal-filings-county/
 Columns:
   id: Stable record id (never reused)
   jurisdiction: Two-letter code of the state or territory of the federal court (the court's state, not the plaintiff's), or US
-  level: county (the first-listed plaintiff lives in that county), former-county (a retired county code with several successors, such as Connecticut's old counties), county-not-recorded (a county code in no county list), out-of-state (code 88888: the plaintiff lives in the U.S. outside the court's state), outside-us (code 99999), retired-codes (a reconciliation row, not added to totals), district (one federal district court), state (the sum of the rows above for the state's courts) or us
+  level: county (the first-listed plaintiff lives in that county), former-county (a retired county code with several successors, such as Connecticut's old counties), county-not-recorded (a county code in no county list or one the court file uses statewide), out-of-state (code 88888: the plaintiff lives in the U.S. outside the court's state), outside-us (code 99999), retired-codes (a reconciliation row, not added to totals), district (one federal district court), state (the sum of the rows above for the state's courts) or us
   year: The latest complete federal fiscal year in the record (FY N runs October 1 of N-1 to September 30 of N, by filing date)
   fiscalYears: The ten fiscal years covered
   status: P primary source, S secondary source

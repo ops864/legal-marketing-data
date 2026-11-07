@@ -16,8 +16,8 @@ keywords:
 license: CC-BY-4.0
 url: "https://probativegrowth.com/data/"
 repository-code: "https://github.com/ops864/legal-marketing-data"
-date-released: "2026-11-06"
-version: "2026-11-06"
+date-released: "2026-11-07"
+version: "2026-11-07"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23645750"
@@ -564,11 +564,11 @@ references:
     title: "Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center)"
     authors:
       - name: "Probative Growth"
-    version: "2.0.0"
-    doi: "10.5281/zenodo.23963548"
+    version: "2.0.1"
+    doi: "10.5281/zenodo.24024299"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/federal-filings-county/"
-    date-released: "2026-11-04"
+    date-released: "2026-11-07"
   - type: dataset
     title: "Attorney fee caps and contingency-fee rules, by state and federal program"
     authors:
