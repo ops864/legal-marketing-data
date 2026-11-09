@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, US law firm websites: practices, Spanish, intake, by state, county and practice area, 2026, https://doi.org/10.5281/zenodo.23898107."
+message: "If you use this dataset, please cite it as: Probative Growth, US law firm websites: practices, Spanish, intake, by state, county and practice area, 2026, https://doi.org/10.5281/zenodo.24020085."
 title: "US law firm websites: practices, Spanish, intake, by state, county and practice area"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "3.0.0"
-doi: "10.5281/zenodo.23898107"
+version: "3.1.0"
+doi: "10.5281/zenodo.24020085"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23750637"

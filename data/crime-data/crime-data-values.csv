@@ -1,21 +1,39 @@
 id,column,value
 crime-data:US,drug_arrests,859572
+crime-data:US,fraud_arrests,85302
+crime-data:US,forgery_arrests,31527
+crime-data:US,embezzlement_arrests,7177
 crime-data:US,violent_per_100k,335.5
 crime-data:US,property_per_100k,1577.1
 crime-data:US,dui_per_100k,231.7
 crime-data:US,drug_per_100k,270.1
+crime-data:US,fraud_per_100k,26.8
+crime-data:US,forgery_per_100k,9.9
+crime-data:US,embezzlement_per_100k,2.3
 crime-data:US,arrests_per_100k,2263.4
 crime-data:US,drug_5y,4383335
+crime-data:US,fraud_5y,363620
+crime-data:US,forgery_5y,142674
+crime-data:US,embezzlement_5y,38963
 crime-data:US,population,341784857
 crime-data:US,note,The sum of the 50 states and DC; check.py compares it with the FBI's own national rate.
 crime-data:AK,stateName,Alaska
 crime-data:AK,drug_arrests,1137
+crime-data:AK,fraud_arrests,115
+crime-data:AK,forgery_arrests,31
+crime-data:AK,embezzlement_arrests,16
 crime-data:AK,violent_per_100k,735.9
 crime-data:AK,property_per_100k,1926.1
 crime-data:AK,dui_per_100k,403
 crime-data:AK,drug_per_100k,154.7
+crime-data:AK,fraud_per_100k,15.6
+crime-data:AK,forgery_per_100k,4.2
+crime-data:AK,embezzlement_per_100k,2.2
 crime-data:AK,arrests_per_100k,2864.1
 crime-data:AK,drug_5y,6577
+crime-data:AK,fraud_5y,514
+crime-data:AK,forgery_5y,141
+crime-data:AK,embezzlement_5y,111
 crime-data:AK,population,737270
 crime-data:AK,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:02013,county,02013
@@ -205,12 +223,21 @@ crime-data:AK-county-not-given,population,274619
 crime-data:AK-county-not-given,note,Agencies that list no county (6) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:AL,stateName,Alabama
 crime-data:AL,drug_arrests,21187
+crime-data:AL,fraud_arrests,785
+crime-data:AL,forgery_arrests,371
+crime-data:AL,embezzlement_arrests,31
 crime-data:AL,violent_per_100k,354.7
 crime-data:AL,property_per_100k,1509.7
 crime-data:AL,dui_per_100k,194.6
 crime-data:AL,drug_per_100k,413.4
+crime-data:AL,fraud_per_100k,15.3
+crime-data:AL,forgery_per_100k,7.2
+crime-data:AL,embezzlement_per_100k,0.6
 crime-data:AL,arrests_per_100k,2836.8
 crime-data:AL,drug_5y,89643
+crime-data:AL,fraud_5y,4850
+crime-data:AL,forgery_5y,2142
+crime-data:AL,embezzlement_5y,177
 crime-data:AL,population,5193088
 crime-data:AL,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:01001,county,01001
@@ -754,12 +781,21 @@ crime-data:AL-county-not-given,stateName,Alabama
 crime-data:AL-county-not-given,note,Agencies that list no county (6) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:AR,stateName,Arkansas
 crime-data:AR,drug_arrests,14022
+crime-data:AR,fraud_arrests,491
+crime-data:AR,forgery_arrests,393
+crime-data:AR,embezzlement_arrests,18
 crime-data:AR,violent_per_100k,535.9
 crime-data:AR,property_per_100k,1670.2
 crime-data:AR,dui_per_100k,217.1
 crime-data:AR,drug_per_100k,457.5
+crime-data:AR,fraud_per_100k,16
+crime-data:AR,forgery_per_100k,12.8
+crime-data:AR,embezzlement_per_100k,0.6
 crime-data:AR,arrests_per_100k,3357.6
 crime-data:AR,drug_5y,74115
+crime-data:AR,fraud_5y,2574
+crime-data:AR,forgery_5y,2327
+crime-data:AR,embezzlement_5y,121
 crime-data:AR,population,3114791
 crime-data:AR,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:05001,county,05001
@@ -1372,12 +1408,21 @@ crime-data:AR-county-not-given,population,16392
 crime-data:AR-county-not-given,note,Agencies that list no county (1) or several counties without a headquarters point in one of them (2). They count in the state total.
 crime-data:AZ,stateName,Arizona
 crime-data:AZ,drug_arrests,28126
+crime-data:AZ,fraud_arrests,1753
+crime-data:AZ,forgery_arrests,345
+crime-data:AZ,embezzlement_arrests,335
 crime-data:AZ,violent_per_100k,385
 crime-data:AZ,property_per_100k,1542.2
 crime-data:AZ,dui_per_100k,303
 crime-data:AZ,drug_per_100k,377.2
+crime-data:AZ,fraud_per_100k,23.5
+crime-data:AZ,forgery_per_100k,4.6
+crime-data:AZ,embezzlement_per_100k,4.5
 crime-data:AZ,arrests_per_100k,2994.6
 crime-data:AZ,drug_5y,171461
+crime-data:AZ,fraud_5y,7554
+crime-data:AZ,forgery_5y,2012
+crime-data:AZ,embezzlement_5y,1922
 crime-data:AZ,population,7623818
 crime-data:AZ,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:04001,county,04001
@@ -1502,12 +1547,21 @@ crime-data:AZ-county-not-given,population,90750
 crime-data:AZ-county-not-given,note,Agencies that list no county (25) or several counties without a headquarters point in one of them (1). They count in the state total.
 crime-data:CA,stateName,California
 crime-data:CA,drug_arrests,83137
+crime-data:CA,fraud_arrests,7902
+crime-data:CA,forgery_arrests,2240
+crime-data:CA,embezzlement_arrests,626
 crime-data:CA,violent_per_100k,435.4
 crime-data:CA,property_per_100k,1823.4
 crime-data:CA,dui_per_100k,326.9
 crime-data:CA,drug_per_100k,264.4
+crime-data:CA,fraud_per_100k,25.1
+crime-data:CA,forgery_per_100k,7.1
+crime-data:CA,embezzlement_per_100k,2
 crime-data:CA,arrests_per_100k,2207.7
 crime-data:CA,drug_5y,554490
+crime-data:CA,fraud_5y,30357
+crime-data:CA,forgery_5y,9350
+crime-data:CA,embezzlement_5y,2873
 crime-data:CA,population,39355309
 crime-data:CA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:06001,county,06001
@@ -1971,12 +2025,21 @@ crime-data:CA-county-not-given,stateName,California
 crime-data:CA-county-not-given,note,Agencies that list no county (11) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:CO,stateName,Colorado
 crime-data:CO,drug_arrests,12170
+crime-data:CO,fraud_arrests,1089
+crime-data:CO,forgery_arrests,366
+crime-data:CO,embezzlement_arrests,58
 crime-data:CO,violent_per_100k,440.9
 crime-data:CO,property_per_100k,2238.9
 crime-data:CO,dui_per_100k,290.3
 crime-data:CO,drug_per_100k,204.7
+crime-data:CO,fraud_per_100k,18.3
+crime-data:CO,forgery_per_100k,6.2
+crime-data:CO,embezzlement_per_100k,1
 crime-data:CO,arrests_per_100k,3168.7
 crime-data:CO,drug_5y,59086
+crime-data:CO,fraud_5y,6831
+crime-data:CO,forgery_5y,1822
+crime-data:CO,embezzlement_5y,325
 crime-data:CO,population,6012561
 crime-data:CO,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:08001,county,08001
@@ -2456,12 +2519,21 @@ crime-data:CO-county-not-given,stateName,Colorado
 crime-data:CO-county-not-given,note,Agencies that list no county (11) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:CT,stateName,Connecticut
 crime-data:CT,drug_arrests,4097
+crime-data:CT,fraud_arrests,452
+crime-data:CT,forgery_arrests,254
+crime-data:CT,embezzlement_arrests,89
 crime-data:CT,violent_per_100k,111.2
 crime-data:CT,property_per_100k,1159.7
 crime-data:CT,dui_per_100k,178.3
 crime-data:CT,drug_per_100k,111.1
+crime-data:CT,fraud_per_100k,12.3
+crime-data:CT,forgery_per_100k,6.9
+crime-data:CT,embezzlement_per_100k,2.4
 crime-data:CT,arrests_per_100k,2101.5
 crime-data:CT,drug_5y,17769
+crime-data:CT,fraud_5y,2228
+crime-data:CT,forgery_5y,1195
+crime-data:CT,embezzlement_5y,401
 crime-data:CT,population,3688496
 crime-data:CT,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:09110,county,09110
@@ -2546,12 +2618,21 @@ crime-data:CT-county-not-given,population,477608
 crime-data:CT-county-not-given,note,Agencies that list no county (5) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:DC,stateName,District of Columbia
 crime-data:DC,drug_arrests,3464
+crime-data:DC,fraud_arrests,103
+crime-data:DC,forgery_arrests,645
+crime-data:DC,embezzlement_arrests,1
 crime-data:DC,violent_per_100k,806.5
 crime-data:DC,property_per_100k,3179.7
 crime-data:DC,dui_per_100k,76.1
 crime-data:DC,drug_per_100k,499.4
+crime-data:DC,fraud_per_100k,14.8
+crime-data:DC,forgery_per_100k,93
+crime-data:DC,embezzlement_per_100k,0.1
 crime-data:DC,arrests_per_100k,7310.9
 crime-data:DC,drug_5y,7163
+crime-data:DC,fraud_5y,251
+crime-data:DC,forgery_5y,1143
+crime-data:DC,embezzlement_5y,8
 crime-data:DC,population,693645
 crime-data:DC,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:11001,county,11001
@@ -2564,12 +2645,21 @@ crime-data:11001,arrests_per_100k,7310.9
 crime-data:11001,population,693645
 crime-data:DE,stateName,Delaware
 crime-data:DE,drug_arrests,3096
+crime-data:DE,fraud_arrests,959
+crime-data:DE,forgery_arrests,113
+crime-data:DE,embezzlement_arrests,73
 crime-data:DE,violent_per_100k,354.4
 crime-data:DE,property_per_100k,1587
 crime-data:DE,dui_per_100k,23.5
 crime-data:DE,drug_per_100k,292.4
+crime-data:DE,fraud_per_100k,90.6
+crime-data:DE,forgery_per_100k,10.7
+crime-data:DE,embezzlement_per_100k,6.9
 crime-data:DE,arrests_per_100k,2550.6
 crime-data:DE,drug_5y,16228
+crime-data:DE,fraud_5y,5121
+crime-data:DE,forgery_5y,620
+crime-data:DE,embezzlement_5y,405
 crime-data:DE,population,1059952
 crime-data:DE,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:10001,county,10001
@@ -2601,12 +2691,21 @@ crime-data:DE-county-not-given,stateName,Delaware
 crime-data:DE-county-not-given,note,Agencies that list no county (1) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:FL,stateName,Florida
 crime-data:FL,drug_arrests,29411
+crime-data:FL,fraud_arrests,3711
+crime-data:FL,forgery_arrests,702
+crime-data:FL,embezzlement_arrests,371
 crime-data:FL,violent_per_100k,258.7
 crime-data:FL,property_per_100k,1121.1
 crime-data:FL,dui_per_100k,99.4
 crime-data:FL,drug_per_100k,176.1
+crime-data:FL,fraud_per_100k,22.2
+crime-data:FL,forgery_per_100k,4.2
+crime-data:FL,embezzlement_per_100k,2.2
 crime-data:FL,arrests_per_100k,1867.6
 crime-data:FL,drug_5y,104308
+crime-data:FL,fraud_5y,14509
+crime-data:FL,forgery_5y,2719
+crime-data:FL,embezzlement_5y,1768
 crime-data:FL,population,23462518
 crime-data:FL,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:12001,county,12001
@@ -3054,12 +3153,21 @@ crime-data:FL-county-not-given,stateName,Florida
 crime-data:FL-county-not-given,note,Agencies that list no county (3) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:GA,stateName,Georgia
 crime-data:GA,drug_arrests,27510
+crime-data:GA,fraud_arrests,8666
+crime-data:GA,forgery_arrests,982
+crime-data:GA,embezzlement_arrests,46
 crime-data:GA,violent_per_100k,304.8
 crime-data:GA,property_per_100k,1417.7
 crime-data:GA,dui_per_100k,201.2
 crime-data:GA,drug_per_100k,268.1
+crime-data:GA,fraud_per_100k,84.4
+crime-data:GA,forgery_per_100k,9.6
+crime-data:GA,embezzlement_per_100k,0.4
 crime-data:GA,arrests_per_100k,1903.8
 crime-data:GA,drug_5y,143116
+crime-data:GA,fraud_5y,24942
+crime-data:GA,forgery_5y,5431
+crime-data:GA,embezzlement_5y,235
 crime-data:GA,population,11302748
 crime-data:GA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:13001,county,13001
@@ -4200,12 +4308,21 @@ crime-data:13321,arrests_per_100k,2830.5
 crime-data:13321,population,20153
 crime-data:HI,stateName,Hawaii
 crime-data:HI,drug_arrests,1809
+crime-data:HI,fraud_arrests,198
+crime-data:HI,forgery_arrests,60
+crime-data:HI,embezzlement_arrests,6
 crime-data:HI,violent_per_100k,213.7
 crime-data:HI,property_per_100k,1681.9
 crime-data:HI,dui_per_100k,224
 crime-data:HI,drug_per_100k,126.3
+crime-data:HI,fraud_per_100k,13.8
+crime-data:HI,forgery_per_100k,4.2
+crime-data:HI,embezzlement_per_100k,0.4
 crime-data:HI,arrests_per_100k,3286.2
 crime-data:HI,drug_5y,9669
+crime-data:HI,fraud_5y,1057
+crime-data:HI,forgery_5y,388
+crime-data:HI,embezzlement_5y,38
 crime-data:HI,population,1432820
 crime-data:HI,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:15001,county,15001
@@ -4242,12 +4359,21 @@ crime-data:15009,arrests_per_100k,2980.6
 crime-data:15009,population,162116
 crime-data:IA,stateName,Iowa
 crime-data:IA,drug_arrests,11255
+crime-data:IA,fraud_arrests,1009
+crime-data:IA,forgery_arrests,308
+crime-data:IA,embezzlement_arrests,97
 crime-data:IA,violent_per_100k,238.6
 crime-data:IA,property_per_100k,1208.4
 crime-data:IA,dui_per_100k,309.3
 crime-data:IA,drug_per_100k,359
+crime-data:IA,fraud_per_100k,32.2
+crime-data:IA,forgery_per_100k,9.8
+crime-data:IA,embezzlement_per_100k,3.1
 crime-data:IA,arrests_per_100k,2595.4
 crime-data:IA,drug_5y,49602
+crime-data:IA,fraud_5y,4619
+crime-data:IA,forgery_5y,1473
+crime-data:IA,embezzlement_5y,494
 crime-data:IA,population,3238387
 crime-data:IA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:19001,county,19001
@@ -5028,12 +5154,21 @@ crime-data:IA-county-not-given,population,11477
 crime-data:IA-county-not-given,note,Agencies that list no county (8) or several counties without a headquarters point in one of them (6). They count in the state total.
 crime-data:ID,stateName,Idaho
 crime-data:ID,drug_arrests,9468
+crime-data:ID,fraud_arrests,345
+crime-data:ID,forgery_arrests,57
+crime-data:ID,embezzlement_arrests,32
 crime-data:ID,violent_per_100k,221.9
 crime-data:ID,property_per_100k,624.7
 crime-data:ID,dui_per_100k,361.2
 crime-data:ID,drug_per_100k,473.1
+crime-data:ID,fraud_per_100k,17.2
+crime-data:ID,forgery_per_100k,2.8
+crime-data:ID,embezzlement_per_100k,1.6
 crime-data:ID,arrests_per_100k,2395.6
 crime-data:ID,drug_5y,52173
+crime-data:ID,fraud_5y,2193
+crime-data:ID,forgery_5y,392
+crime-data:ID,embezzlement_5y,207
 crime-data:ID,population,2029733
 crime-data:ID,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:16001,county,16001
@@ -5385,12 +5520,21 @@ crime-data:ID-county-not-given,stateName,Idaho
 crime-data:ID-county-not-given,note,Agencies that list no county (7) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:IL,stateName,Illinois
 crime-data:IL,drug_arrests,21321
+crime-data:IL,fraud_arrests,3697
+crime-data:IL,forgery_arrests,467
+crime-data:IL,embezzlement_arrests,88
 crime-data:IL,violent_per_100k,258.5
 crime-data:IL,property_per_100k,1560.9
 crime-data:IL,dui_per_100k,159.3
 crime-data:IL,drug_per_100k,178.7
+crime-data:IL,fraud_per_100k,31
+crime-data:IL,forgery_per_100k,3.9
+crime-data:IL,embezzlement_per_100k,0.7
 crime-data:IL,arrests_per_100k,1668.2
 crime-data:IL,drug_5y,80983
+crime-data:IL,fraud_5y,13495
+crime-data:IL,forgery_5y,1838
+crime-data:IL,embezzlement_5y,386
 crime-data:IL,population,12719141
 crime-data:IL,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:17001,county,17001
@@ -6175,12 +6319,21 @@ crime-data:IL-county-not-given,population,465
 crime-data:IL-county-not-given,note,Agencies that list no county (7) or several counties without a headquarters point in one of them (1). They count in the state total.
 crime-data:IN,stateName,Indiana
 crime-data:IN,drug_arrests,21889
+crime-data:IN,fraud_arrests,887
+crime-data:IN,forgery_arrests,285
+crime-data:IN,embezzlement_arrests,111
 crime-data:IN,violent_per_100k,301.5
 crime-data:IN,property_per_100k,1256.8
 crime-data:IN,dui_per_100k,291
 crime-data:IN,drug_per_100k,357.1
+crime-data:IN,fraud_per_100k,14.5
+crime-data:IN,forgery_per_100k,4.6
+crime-data:IN,embezzlement_per_100k,1.8
 crime-data:IN,arrests_per_100k,2226.6
 crime-data:IN,drug_5y,104745
+crime-data:IN,fraud_5y,4777
+crime-data:IN,forgery_5y,1436
+crime-data:IN,embezzlement_5y,710
 crime-data:IN,population,6973333
 crime-data:IN,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:18001,county,18001
@@ -6785,12 +6938,21 @@ crime-data:IN-county-not-given,population,1938
 crime-data:IN-county-not-given,note,Agencies that list no county (4) or several counties without a headquarters point in one of them (2). They count in the state total.
 crime-data:KS,stateName,Kansas
 crime-data:KS,drug_arrests,10958
+crime-data:KS,fraud_arrests,359
+crime-data:KS,forgery_arrests,121
+crime-data:KS,embezzlement_arrests,45
 crime-data:KS,violent_per_100k,476.6
 crime-data:KS,property_per_100k,1925.1
 crime-data:KS,dui_per_100k,263.7
 crime-data:KS,drug_per_100k,388.7
+crime-data:KS,fraud_per_100k,12.7
+crime-data:KS,forgery_per_100k,4.3
+crime-data:KS,embezzlement_per_100k,1.6
 crime-data:KS,arrests_per_100k,2502.3
 crime-data:KS,drug_5y,55911
+crime-data:KS,fraud_5y,1762
+crime-data:KS,forgery_5y,724
+crime-data:KS,embezzlement_5y,256
 crime-data:KS,population,2977220
 crime-data:KS,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:20001,county,20001
@@ -7590,12 +7752,21 @@ crime-data:KS-county-not-given,stateName,Kansas
 crime-data:KS-county-not-given,note,Agencies that list no county (19) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:KY,stateName,Kentucky
 crime-data:KY,drug_arrests,15342
+crime-data:KY,fraud_arrests,668
+crime-data:KY,forgery_arrests,421
+crime-data:KY,embezzlement_arrests,182
 crime-data:KY,violent_per_100k,217.7
 crime-data:KY,property_per_100k,1291.9
 crime-data:KY,dui_per_100k,281.8
 crime-data:KY,drug_per_100k,333.4
+crime-data:KY,fraud_per_100k,14.5
+crime-data:KY,forgery_per_100k,9.1
+crime-data:KY,embezzlement_per_100k,4
 crime-data:KY,arrests_per_100k,3578
 crime-data:KY,drug_5y,91695
+crime-data:KY,fraud_5y,4388
+crime-data:KY,forgery_5y,2478
+crime-data:KY,embezzlement_5y,1164
 crime-data:KY,population,4606864
 crime-data:KY,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:21001,county,21001
@@ -8555,12 +8726,21 @@ crime-data:KY-county-not-given,stateName,Kentucky
 crime-data:KY-county-not-given,note,Agencies that list no county (23) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:LA,stateName,Louisiana
 crime-data:LA,drug_arrests,15537
+crime-data:LA,fraud_arrests,632
+crime-data:LA,forgery_arrests,271
+crime-data:LA,embezzlement_arrests,152
 crime-data:LA,violent_per_100k,466
 crime-data:LA,property_per_100k,1862.3
 crime-data:LA,dui_per_100k,102.2
 crime-data:LA,drug_per_100k,431.9
+crime-data:LA,fraud_per_100k,17.6
+crime-data:LA,forgery_per_100k,7.5
+crime-data:LA,embezzlement_per_100k,4.2
 crime-data:LA,arrests_per_100k,2301.9
 crime-data:LA,drug_5y,94203
+crime-data:LA,fraud_5y,3002
+crime-data:LA,forgery_5y,1635
+crime-data:LA,embezzlement_5y,671
 crime-data:LA,population,4618189
 crime-data:LA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:22001,county,22001
@@ -9040,12 +9220,21 @@ crime-data:LA-county-not-given,stateName,Louisiana
 crime-data:LA-county-not-given,note,Agencies that list no county (4) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:MA,stateName,Massachusetts
 crime-data:MA,drug_arrests,6640
+crime-data:MA,fraud_arrests,979
+crime-data:MA,forgery_arrests,359
+crime-data:MA,embezzlement_arrests,43
 crime-data:MA,violent_per_100k,301.3
 crime-data:MA,property_per_100k,1037.4
 crime-data:MA,dui_per_100k,107.8
 crime-data:MA,drug_per_100k,93.1
+crime-data:MA,fraud_per_100k,13.7
+crime-data:MA,forgery_per_100k,5
+crime-data:MA,embezzlement_per_100k,0.6
 crime-data:MA,arrests_per_100k,1365.3
 crime-data:MA,drug_5y,27857
+crime-data:MA,fraud_5y,3924
+crime-data:MA,forgery_5y,1621
+crime-data:MA,embezzlement_5y,247
 crime-data:MA,population,7154084
 crime-data:MA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:25001,county,25001
@@ -9165,12 +9354,21 @@ crime-data:MA-county-not-given,stateName,Massachusetts
 crime-data:MA-county-not-given,note,Agencies that list no county (3) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:MD,stateName,Maryland
 crime-data:MD,drug_arrests,6395
+crime-data:MD,fraud_arrests,511
+crime-data:MD,forgery_arrests,136
+crime-data:MD,embezzlement_arrests,82
 crime-data:MD,violent_per_100k,365
 crime-data:MD,property_per_100k,1852.7
 crime-data:MD,dui_per_100k,206.8
 crime-data:MD,drug_per_100k,102.2
+crime-data:MD,fraud_per_100k,8.2
+crime-data:MD,forgery_per_100k,2.2
+crime-data:MD,embezzlement_per_100k,1.3
 crime-data:MD,arrests_per_100k,1821.1
 crime-data:MD,drug_5y,51074
+crime-data:MD,fraud_5y,2313
+crime-data:MD,forgery_5y,647
+crime-data:MD,embezzlement_5y,447
 crime-data:MD,population,6265347
 crime-data:MD,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:24001,county,24001
@@ -9375,12 +9573,21 @@ crime-data:MD-county-not-given,population,9982
 crime-data:MD-county-not-given,note,Agencies that list no county (15) or several counties without a headquarters point in one of them (1). They count in the state total.
 crime-data:ME,stateName,Maine
 crime-data:ME,drug_arrests,3276
+crime-data:ME,fraud_arrests,236
+crime-data:ME,forgery_arrests,101
+crime-data:ME,embezzlement_arrests,5
 crime-data:ME,violent_per_100k,95.4
 crime-data:ME,property_per_100k,961.7
 crime-data:ME,dui_per_100k,303.3
 crime-data:ME,drug_per_100k,235.3
+crime-data:ME,fraud_per_100k,17
+crime-data:ME,forgery_per_100k,7.3
+crime-data:ME,embezzlement_per_100k,0.4
 crime-data:ME,arrests_per_100k,2258.6
 crime-data:ME,drug_5y,14948
+crime-data:ME,fraud_5y,1178
+crime-data:ME,forgery_5y,485
+crime-data:ME,embezzlement_5y,50
 crime-data:ME,population,1414874
 crime-data:ME,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:23001,county,23001
@@ -9516,12 +9723,21 @@ crime-data:ME-county-not-given,stateName,Maine
 crime-data:ME-county-not-given,note,Agencies that list no county (6) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:MI,stateName,Michigan
 crime-data:MI,drug_arrests,10979
+crime-data:MI,fraud_arrests,2460
+crime-data:MI,forgery_arrests,425
+crime-data:MI,embezzlement_arrests,624
 crime-data:MI,violent_per_100k,431.3
 crime-data:MI,property_per_100k,1300.6
 crime-data:MI,dui_per_100k,206.7
 crime-data:MI,drug_per_100k,112.2
+crime-data:MI,fraud_per_100k,25.1
+crime-data:MI,forgery_per_100k,4.3
+crime-data:MI,embezzlement_per_100k,6.4
 crime-data:MI,arrests_per_100k,1836
 crime-data:MI,drug_5y,60573
+crime-data:MI,fraud_5y,11049
+crime-data:MI,forgery_5y,1986
+crime-data:MI,embezzlement_5y,3542
 crime-data:MI,population,10127884
 crime-data:MI,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:26001,county,26001
@@ -10177,12 +10393,21 @@ crime-data:MI-county-not-given,stateName,Michigan
 crime-data:MI-county-not-given,note,Agencies that list no county (14) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:MN,stateName,Minnesota
 crime-data:MN,drug_arrests,7731
+crime-data:MN,fraud_arrests,2432
+crime-data:MN,forgery_arrests,457
+crime-data:MN,embezzlement_arrests,78
 crime-data:MN,violent_per_100k,228.3
 crime-data:MN,property_per_100k,1441.4
 crime-data:MN,dui_per_100k,379.1
 crime-data:MN,drug_per_100k,133.7
+crime-data:MN,fraud_per_100k,42
+crime-data:MN,forgery_per_100k,7.9
+crime-data:MN,embezzlement_per_100k,1.3
 crime-data:MN,arrests_per_100k,2037
 crime-data:MN,drug_5y,52257
+crime-data:MN,fraud_5y,12593
+crime-data:MN,forgery_5y,3106
+crime-data:MN,embezzlement_5y,477
 crime-data:MN,population,5830405
 crime-data:MN,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:27001,county,27001
@@ -10875,12 +11100,21 @@ crime-data:MN-county-not-given,population,4995
 crime-data:MN-county-not-given,note,Agencies that list no county (12) or several counties without a headquarters point in one of them (3). They count in the state total.
 crime-data:MO,stateName,Missouri
 crime-data:MO,drug_arrests,12766
+crime-data:MO,fraud_arrests,1209
+crime-data:MO,forgery_arrests,852
+crime-data:MO,embezzlement_arrests,143
 crime-data:MO,violent_per_100k,426.9
 crime-data:MO,property_per_100k,1695
 crime-data:MO,dui_per_100k,297.5
 crime-data:MO,drug_per_100k,207.3
+crime-data:MO,fraud_per_100k,19.6
+crime-data:MO,forgery_per_100k,13.8
+crime-data:MO,embezzlement_per_100k,2.3
 crime-data:MO,arrests_per_100k,2225.6
 crime-data:MO,drug_5y,91113
+crime-data:MO,fraud_5y,6885
+crime-data:MO,forgery_5y,4359
+crime-data:MO,embezzlement_5y,1105
 crime-data:MO,population,6270541
 crime-data:MO,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:29001,county,29001
@@ -11800,12 +12034,21 @@ crime-data:MO-county-not-given,stateName,Missouri
 crime-data:MO-county-not-given,note,Agencies that list no county (10) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:MS,stateName,Mississippi
 crime-data:MS,drug_arrests,11041
+crime-data:MS,fraud_arrests,482
+crime-data:MS,forgery_arrests,70
+crime-data:MS,embezzlement_arrests,312
 crime-data:MS,violent_per_100k,220.2
 crime-data:MS,property_per_100k,1314.1
 crime-data:MS,dui_per_100k,549
 crime-data:MS,drug_per_100k,462.6
+crime-data:MS,fraud_per_100k,20.2
+crime-data:MS,forgery_per_100k,2.9
+crime-data:MS,embezzlement_per_100k,13.1
 crime-data:MS,arrests_per_100k,3027.4
 crime-data:MS,drug_5y,48939
+crime-data:MS,fraud_5y,2431
+crime-data:MS,forgery_5y,533
+crime-data:MS,embezzlement_5y,1275
 crime-data:MS,population,2954160
 crime-data:MS,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:28001,county,28001
@@ -12346,12 +12589,21 @@ crime-data:MS-county-not-given,population,6289
 crime-data:MS-county-not-given,note,Agencies that list no county (22) or several counties without a headquarters point in one of them (4). They count in the state total.
 crime-data:MT,stateName,Montana
 crime-data:MT,drug_arrests,1520
+crime-data:MT,fraud_arrests,78
+crime-data:MT,forgery_arrests,56
+crime-data:MT,embezzlement_arrests,34
 crime-data:MT,violent_per_100k,423.1
 crime-data:MT,property_per_100k,1469.5
 crime-data:MT,dui_per_100k,391.8
 crime-data:MT,drug_per_100k,133.7
+crime-data:MT,fraud_per_100k,6.9
+crime-data:MT,forgery_per_100k,4.9
+crime-data:MT,embezzlement_per_100k,3
 crime-data:MT,arrests_per_100k,2513
 crime-data:MT,drug_5y,8501
+crime-data:MT,fraud_5y,580
+crime-data:MT,forgery_5y,371
+crime-data:MT,embezzlement_5y,141
 crime-data:MT,population,1144694
 crime-data:MT,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:30001,county,30001
@@ -12791,12 +13043,21 @@ crime-data:MT-county-not-given,stateName,Montana
 crime-data:MT-county-not-given,note,Agencies that list no county (9) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:NC,stateName,North Carolina
 crime-data:NC,drug_arrests,36831
+crime-data:NC,fraud_arrests,2788
+crime-data:NC,forgery_arrests,563
+crime-data:NC,embezzlement_arrests,628
 crime-data:NC,violent_per_100k,334.1
 crime-data:NC,property_per_100k,1814.6
 crime-data:NC,dui_per_100k,136
 crime-data:NC,drug_per_100k,338
+crime-data:NC,fraud_per_100k,25.6
+crime-data:NC,forgery_per_100k,5.2
+crime-data:NC,embezzlement_per_100k,5.8
 crime-data:NC,arrests_per_100k,2234.6
 crime-data:NC,drug_5y,177418
+crime-data:NC,fraud_5y,13314
+crime-data:NC,forgery_5y,2782
+crime-data:NC,embezzlement_5y,3533
 crime-data:NC,population,11197968
 crime-data:NC,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:37001,county,37001
@@ -13588,12 +13849,21 @@ crime-data:NC-county-not-given,stateName,North Carolina
 crime-data:NC-county-not-given,note,Agencies that list no county (6) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:ND,stateName,North Dakota
 crime-data:ND,drug_arrests,3868
+crime-data:ND,fraud_arrests,481
+crime-data:ND,forgery_arrests,117
+crime-data:ND,embezzlement_arrests,29
 crime-data:ND,violent_per_100k,240.8
 crime-data:ND,property_per_100k,1496.4
 crime-data:ND,dui_per_100k,624.5
 crime-data:ND,drug_per_100k,490.3
+crime-data:ND,fraud_per_100k,61
+crime-data:ND,forgery_per_100k,14.8
+crime-data:ND,embezzlement_per_100k,3.7
 crime-data:ND,arrests_per_100k,4073.3
 crime-data:ND,drug_5y,20411
+crime-data:ND,fraud_5y,2710
+crime-data:ND,forgery_5y,598
+crime-data:ND,embezzlement_5y,158
 crime-data:ND,population,799358
 crime-data:ND,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:38001,county,38001
@@ -14017,12 +14287,21 @@ crime-data:ND-county-not-given,stateName,North Dakota
 crime-data:ND-county-not-given,note,Agencies that list no county (7) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:NE,stateName,Nebraska
 crime-data:NE,drug_arrests,7144
+crime-data:NE,fraud_arrests,609
+crime-data:NE,forgery_arrests,176
+crime-data:NE,embezzlement_arrests,24
 crime-data:NE,violent_per_100k,226.4
 crime-data:NE,property_per_100k,1426.9
 crime-data:NE,dui_per_100k,360.1
 crime-data:NE,drug_per_100k,359
+crime-data:NE,fraud_per_100k,30.6
+crime-data:NE,forgery_per_100k,8.8
+crime-data:NE,embezzlement_per_100k,1.2
 crime-data:NE,arrests_per_100k,2935
 crime-data:NE,drug_5y,37681
+crime-data:NE,fraud_5y,2732
+crime-data:NE,forgery_5y,750
+crime-data:NE,embezzlement_5y,121
 crime-data:NE,population,2018006
 crime-data:NE,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:31001,county,31001
@@ -14718,12 +14997,21 @@ crime-data:NE-county-not-given,stateName,Nebraska
 crime-data:NE-county-not-given,note,Agencies that list no county (4) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:NH,stateName,New Hampshire
 crime-data:NH,drug_arrests,2895
+crime-data:NH,fraud_arrests,398
+crime-data:NH,forgery_arrests,164
+crime-data:NH,embezzlement_arrests,20
 crime-data:NH,violent_per_100k,119.8
 crime-data:NH,property_per_100k,832.9
 crime-data:NH,dui_per_100k,315.3
 crime-data:NH,drug_per_100k,206
+crime-data:NH,fraud_per_100k,28.3
+crime-data:NH,forgery_per_100k,11.7
+crime-data:NH,embezzlement_per_100k,1.4
 crime-data:NH,arrests_per_100k,2575.8
 crime-data:NH,drug_5y,16805
+crime-data:NH,fraud_5y,1816
+crime-data:NH,forgery_5y,752
+crime-data:NH,embezzlement_5y,182
 crime-data:NH,population,1415342
 crime-data:NH,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:33001,county,33001
@@ -14808,12 +15096,21 @@ crime-data:33019,arrests_per_100k,2350.6
 crime-data:33019,population,43961
 crime-data:NJ,stateName,New Jersey
 crime-data:NJ,drug_arrests,21605
+crime-data:NJ,fraud_arrests,1393
+crime-data:NJ,forgery_arrests,972
+crime-data:NJ,embezzlement_arrests,101
 crime-data:NJ,violent_per_100k,198.8
 crime-data:NJ,property_per_100k,1269.4
 crime-data:NJ,dui_per_100k,204.5
 crime-data:NJ,drug_per_100k,231.8
+crime-data:NJ,fraud_per_100k,14.9
+crime-data:NJ,forgery_per_100k,10.4
+crime-data:NJ,embezzlement_per_100k,1.1
 crime-data:NJ,arrests_per_100k,1772.3
 crime-data:NJ,drug_5y,107282
+crime-data:NJ,fraud_5y,5756
+crime-data:NJ,forgery_5y,3708
+crime-data:NJ,embezzlement_5y,527
 crime-data:NJ,population,9548215
 crime-data:NJ,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:34001,county,34001
@@ -14989,12 +15286,21 @@ crime-data:NJ-county-not-given,stateName,New Jersey
 crime-data:NJ-county-not-given,note,Agencies that list no county (7) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:NM,stateName,New Mexico
 crime-data:NM,drug_arrests,5423
+crime-data:NM,fraud_arrests,252
+crime-data:NM,forgery_arrests,50
+crime-data:NM,embezzlement_arrests,85
 crime-data:NM,violent_per_100k,652.3
 crime-data:NM,property_per_100k,2367.7
 crime-data:NM,dui_per_100k,315.9
 crime-data:NM,drug_per_100k,274.6
+crime-data:NM,fraud_per_100k,12.8
+crime-data:NM,forgery_per_100k,2.5
+crime-data:NM,embezzlement_per_100k,4.3
 crime-data:NM,arrests_per_100k,2856.2
 crime-data:NM,drug_5y,20755
+crime-data:NM,fraud_5y,1031
+crime-data:NM,forgery_5y,246
+crime-data:NM,embezzlement_5y,504
 crime-data:NM,population,2125498
 crime-data:NM,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:35001,county,35001
@@ -15242,12 +15548,21 @@ crime-data:NM-county-not-given,stateName,New Mexico
 crime-data:NM-county-not-given,note,Agencies that list no county (20) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:NV,stateName,Nevada
 crime-data:NV,drug_arrests,7936
+crime-data:NV,fraud_arrests,1081
+crime-data:NV,forgery_arrests,193
+crime-data:NV,embezzlement_arrests,179
 crime-data:NV,violent_per_100k,384.3
 crime-data:NV,property_per_100k,2030.3
 crime-data:NV,dui_per_100k,346.5
 crime-data:NV,drug_per_100k,242.8
+crime-data:NV,fraud_per_100k,33.1
+crime-data:NV,forgery_per_100k,5.9
+crime-data:NV,embezzlement_per_100k,5.5
 crime-data:NV,arrests_per_100k,3565.3
 crime-data:NV,drug_5y,43032
+crime-data:NV,fraud_5y,5362
+crime-data:NV,forgery_5y,1240
+crime-data:NV,embezzlement_5y,991
 crime-data:NV,population,3282188
 crime-data:NV,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:32001,county,32001
@@ -15367,12 +15682,21 @@ crime-data:NV-county-not-given,stateName,Nevada
 crime-data:NV-county-not-given,note,Agencies that list no county (24) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:NY,stateName,New York
 crime-data:NY,drug_arrests,52059
+crime-data:NY,fraud_arrests,1066
+crime-data:NY,forgery_arrests,9223
+crime-data:NY,embezzlement_arrests,83
 crime-data:NY,violent_per_100k,397.5
 crime-data:NY,property_per_100k,1692.5
 crime-data:NY,dui_per_100k,81.3
 crime-data:NY,drug_per_100k,264.2
+crime-data:NY,fraud_per_100k,5.4
+crime-data:NY,forgery_per_100k,46.8
+crime-data:NY,embezzlement_per_100k,0.4
 crime-data:NY,arrests_per_100k,2032.9
 crime-data:NY,drug_5y,200312
+crime-data:NY,fraud_5y,5326
+crime-data:NY,forgery_5y,31445
+crime-data:NY,embezzlement_5y,330
 crime-data:NY,population,20002427
 crime-data:NY,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:36001,county,36001
@@ -15841,12 +16165,21 @@ crime-data:NY-county-not-given,population,8496850
 crime-data:NY-county-not-given,note,Agencies that list no county (17) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:OH,stateName,Ohio
 crime-data:OH,drug_arrests,12377
+crime-data:OH,fraud_arrests,1307
+crime-data:OH,forgery_arrests,250
+crime-data:OH,embezzlement_arrests,64
 crime-data:OH,violent_per_100k,288.7
 crime-data:OH,property_per_100k,1475
 crime-data:OH,dui_per_100k,228.7
 crime-data:OH,drug_per_100k,111.7
+crime-data:OH,fraud_per_100k,11.8
+crime-data:OH,forgery_per_100k,2.3
+crime-data:OH,embezzlement_per_100k,0.6
 crime-data:OH,arrests_per_100k,1578
 crime-data:OH,drug_5y,88362
+crime-data:OH,fraud_5y,6332
+crime-data:OH,forgery_5y,1185
+crime-data:OH,embezzlement_5y,98
 crime-data:OH,population,11900510
 crime-data:OH,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:39001,county,39001
@@ -16553,12 +16886,21 @@ crime-data:OH-county-not-given,population,1742
 crime-data:OH-county-not-given,note,Agencies that list no county (3) or several counties without a headquarters point in one of them (1). They count in the state total.
 crime-data:OK,stateName,Oklahoma
 crime-data:OK,drug_arrests,12633
+crime-data:OK,fraud_arrests,1087
+crime-data:OK,forgery_arrests,182
+crime-data:OK,embezzlement_arrests,113
 crime-data:OK,violent_per_100k,412.7
 crime-data:OK,property_per_100k,1842
 crime-data:OK,dui_per_100k,299
 crime-data:OK,drug_per_100k,307
+crime-data:OK,fraud_per_100k,26.4
+crime-data:OK,forgery_per_100k,4.4
+crime-data:OK,embezzlement_per_100k,2.7
 crime-data:OK,arrests_per_100k,2193
 crime-data:OK,drug_5y,62400
+crime-data:OK,fraud_5y,4234
+crime-data:OK,forgery_5y,1196
+crime-data:OK,embezzlement_5y,835
 crime-data:OK,population,4123288
 crime-data:OK,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:40001,county,40001
@@ -17182,12 +17524,21 @@ crime-data:OK-county-not-given,stateName,Oklahoma
 crime-data:OK-county-not-given,note,Agencies that list no county (34) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:OR,stateName,Oregon
 crime-data:OR,drug_arrests,9045
+crime-data:OR,fraud_arrests,1337
+crime-data:OR,forgery_arrests,490
+crime-data:OR,embezzlement_arrests,61
 crime-data:OR,violent_per_100k,319.2
 crime-data:OR,property_per_100k,2184.7
 crime-data:OR,dui_per_100k,325.2
 crime-data:OR,drug_per_100k,216
+crime-data:OR,fraud_per_100k,31.9
+crime-data:OR,forgery_per_100k,11.7
+crime-data:OR,embezzlement_per_100k,1.5
 crime-data:OR,arrests_per_100k,3003.9
 crime-data:OR,drug_5y,27535
+crime-data:OR,fraud_5y,6437
+crime-data:OR,forgery_5y,2191
+crime-data:OR,embezzlement_5y,278
 crime-data:OR,population,4273586
 crime-data:OR,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:41001,county,41001
@@ -17451,12 +17802,21 @@ crime-data:OR-county-not-given,stateName,Oregon
 crime-data:OR-county-not-given,note,Agencies that list no county (12) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:PA,stateName,Pennsylvania
 crime-data:PA,drug_arrests,55444
+crime-data:PA,fraud_arrests,10022
+crime-data:PA,forgery_arrests,1265
+crime-data:PA,embezzlement_arrests,287
 crime-data:PA,violent_per_100k,232.3
 crime-data:PA,property_per_100k,1378
 crime-data:PA,dui_per_100k,237.8
 crime-data:PA,drug_per_100k,434.5
+crime-data:PA,fraud_per_100k,78.5
+crime-data:PA,forgery_per_100k,9.9
+crime-data:PA,embezzlement_per_100k,2.2
 crime-data:PA,arrests_per_100k,2147.6
 crime-data:PA,drug_5y,265959
+crime-data:PA,fraud_5y,25529
+crime-data:PA,forgery_5y,5808
+crime-data:PA,embezzlement_5y,1203
 crime-data:PA,population,13059432
 crime-data:PA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:42001,county,42001
@@ -17997,12 +18357,21 @@ crime-data:42133,arrests_per_100k,3073.8
 crime-data:42133,population,473442
 crime-data:RI,stateName,Rhode Island
 crime-data:RI,drug_arrests,1569
+crime-data:RI,fraud_arrests,301
+crime-data:RI,forgery_arrests,175
+crime-data:RI,embezzlement_arrests,53
 crime-data:RI,violent_per_100k,146.4
 crime-data:RI,property_per_100k,921.6
 crime-data:RI,dui_per_100k,267.7
 crime-data:RI,drug_per_100k,142.5
+crime-data:RI,fraud_per_100k,27.3
+crime-data:RI,forgery_per_100k,15.9
+crime-data:RI,embezzlement_per_100k,4.8
 crime-data:RI,arrests_per_100k,2095.4
 crime-data:RI,drug_5y,7111
+crime-data:RI,fraud_5y,1601
+crime-data:RI,forgery_5y,819
+crime-data:RI,embezzlement_5y,301
 crime-data:RI,population,1114521
 crime-data:RI,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:44001,county,44001
@@ -18055,12 +18424,21 @@ crime-data:RI-county-not-given,population,6585
 crime-data:RI-county-not-given,note,Agencies that list no county (8) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:SC,stateName,South Carolina
 crime-data:SC,drug_arrests,27100
+crime-data:SC,fraud_arrests,2291
+crime-data:SC,forgery_arrests,700
+crime-data:SC,embezzlement_arrests,228
 crime-data:SC,violent_per_100k,391
 crime-data:SC,property_per_100k,1718.5
 crime-data:SC,dui_per_100k,276.5
 crime-data:SC,drug_per_100k,505.2
+crime-data:SC,fraud_per_100k,42.7
+crime-data:SC,forgery_per_100k,13
+crime-data:SC,embezzlement_per_100k,4.3
 crime-data:SC,arrests_per_100k,2851.5
 crime-data:SC,drug_5y,138693
+crime-data:SC,fraud_5y,11696
+crime-data:SC,forgery_5y,3842
+crime-data:SC,embezzlement_5y,1196
 crime-data:SC,population,5570274
 crime-data:SC,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:45001,county,45001
@@ -18436,12 +18814,21 @@ crime-data:SC-county-not-given,stateName,South Carolina
 crime-data:SC-county-not-given,note,Agencies that list no county (1) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:SD,stateName,South Dakota
 crime-data:SD,drug_arrests,6013
+crime-data:SD,fraud_arrests,365
+crime-data:SD,forgery_arrests,136
+crime-data:SD,embezzlement_arrests,15
 crime-data:SD,violent_per_100k,327.4
 crime-data:SD,property_per_100k,1430.4
 crime-data:SD,dui_per_100k,690.4
 crime-data:SD,drug_per_100k,716.9
+crime-data:SD,fraud_per_100k,43.5
+crime-data:SD,forgery_per_100k,16.2
+crime-data:SD,embezzlement_per_100k,1.8
 crime-data:SD,arrests_per_100k,5343
 crime-data:SD,drug_5y,29576
+crime-data:SD,fraud_5y,2276
+crime-data:SD,forgery_5y,692
+crime-data:SD,embezzlement_5y,103
 crime-data:SD,population,935094
 crime-data:SD,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:46003,county,46003
@@ -18857,12 +19244,21 @@ crime-data:SD-county-not-given,stateName,South Dakota
 crime-data:SD-county-not-given,note,Agencies that list no county (9) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:TN,stateName,Tennessee
 crime-data:TN,drug_arrests,31722
+crime-data:TN,fraud_arrests,3349
+crime-data:TN,forgery_arrests,1342
+crime-data:TN,embezzlement_arrests,360
 crime-data:TN,violent_per_100k,498.9
 crime-data:TN,property_per_100k,1662.5
 crime-data:TN,dui_per_100k,263.1
 crime-data:TN,drug_per_100k,435.4
+crime-data:TN,fraud_per_100k,46
+crime-data:TN,forgery_per_100k,18.4
+crime-data:TN,embezzlement_per_100k,4.9
 crime-data:TN,arrests_per_100k,3485.9
 crime-data:TN,drug_5y,185050
+crime-data:TN,fraud_5y,17156
+crime-data:TN,forgery_5y,6997
+crime-data:TN,embezzlement_5y,2207
 crime-data:TN,population,7315076
 crime-data:TN,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:47001,county,47001
@@ -19630,12 +20026,21 @@ crime-data:TN-county-not-given,stateName,Tennessee
 crime-data:TN-county-not-given,note,Agencies that list no county (5) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:TX,stateName,Texas
 crime-data:TX,drug_arrests,96373
+crime-data:TX,fraud_arrests,6731
+crime-data:TX,forgery_arrests,2427
+crime-data:TX,embezzlement_arrests,248
 crime-data:TX,violent_per_100k,348.7
 crime-data:TX,property_per_100k,1810.8
 crime-data:TX,dui_per_100k,196.9
 crime-data:TX,drug_per_100k,306.4
+crime-data:TX,fraud_per_100k,21.4
+crime-data:TX,forgery_per_100k,7.7
+crime-data:TX,embezzlement_per_100k,0.8
 crime-data:TX,arrests_per_100k,1870
 crime-data:TX,drug_5y,450456
+crime-data:TX,fraud_5y,32408
+crime-data:TX,forgery_5y,13793
+crime-data:TX,embezzlement_5y,1224
 crime-data:TX,population,31709821
 crime-data:TX,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:48001,county,48001
@@ -21616,12 +22021,21 @@ crime-data:TX-county-not-given,population,19913
 crime-data:TX-county-not-given,note,Agencies that list no county (4) or several counties without a headquarters point in one of them (6). They count in the state total.
 crime-data:UT,stateName,Utah
 crime-data:UT,drug_arrests,15549
+crime-data:UT,fraud_arrests,829
+crime-data:UT,forgery_arrests,384
+crime-data:UT,embezzlement_arrests,13
 crime-data:UT,violent_per_100k,224.8
 crime-data:UT,property_per_100k,1319.1
 crime-data:UT,dui_per_100k,210.8
 crime-data:UT,drug_per_100k,444.7
+crime-data:UT,fraud_per_100k,23.7
+crime-data:UT,forgery_per_100k,11
+crime-data:UT,embezzlement_per_100k,0.4
 crime-data:UT,arrests_per_100k,3168.1
 crime-data:UT,drug_5y,77464
+crime-data:UT,fraud_5y,4174
+crime-data:UT,forgery_5y,2137
+crime-data:UT,embezzlement_5y,84
 crime-data:UT,population,3538904
 crime-data:UT,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:49001,county,49001
@@ -21829,12 +22243,21 @@ crime-data:UT-county-not-given,stateName,Utah
 crime-data:UT-county-not-given,note,Agencies that list no county (6) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:VA,stateName,Virginia
 crime-data:VA,drug_arrests,14364
+crime-data:VA,fraud_arrests,4735
+crime-data:VA,forgery_arrests,941
+crime-data:VA,embezzlement_arrests,546
 crime-data:VA,violent_per_100k,210.8
 crime-data:VA,property_per_100k,1394.5
 crime-data:VA,dui_per_100k,195.3
 crime-data:VA,drug_per_100k,161.8
+crime-data:VA,fraud_per_100k,53.3
+crime-data:VA,forgery_per_100k,10.6
+crime-data:VA,embezzlement_per_100k,6.1
 crime-data:VA,arrests_per_100k,2264.1
 crime-data:VA,drug_5y,75642
+crime-data:VA,fraud_5y,24218
+crime-data:VA,forgery_5y,5176
+crime-data:VA,embezzlement_5y,3459
 crime-data:VA,population,8880107
 crime-data:VA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:51001,county,51001
@@ -22906,12 +23329,21 @@ crime-data:VA-county-not-given,stateName,Virginia
 crime-data:VA-county-not-given,note,Agencies that list no county (61) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:VT,stateName,Vermont
 crime-data:VT,drug_arrests,923
+crime-data:VT,fraud_arrests,256
+crime-data:VT,forgery_arrests,77
+crime-data:VT,embezzlement_arrests,35
 crime-data:VT,violent_per_100k,230.3
 crime-data:VT,property_per_100k,1513.9
 crime-data:VT,dui_per_100k,350.7
 crime-data:VT,drug_per_100k,144.3
+crime-data:VT,fraud_per_100k,40
+crime-data:VT,forgery_per_100k,12
+crime-data:VT,embezzlement_per_100k,5.5
 crime-data:VT,arrests_per_100k,2271.1
 crime-data:VT,drug_5y,4158
+crime-data:VT,fraud_5y,1025
+crime-data:VT,forgery_5y,294
+crime-data:VT,embezzlement_5y,180
 crime-data:VT,population,644663
 crime-data:VT,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:50001,county,50001
@@ -23031,12 +23463,21 @@ crime-data:VT-county-not-given,stateName,Vermont
 crime-data:VT-county-not-given,note,Agencies that list no county (1) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:WA,stateName,Washington
 crime-data:WA,drug_arrests,11028
+crime-data:WA,fraud_arrests,817
+crime-data:WA,forgery_arrests,235
+crime-data:WA,embezzlement_arrests,27
 crime-data:WA,violent_per_100k,291.9
 crime-data:WA,property_per_100k,2017
 crime-data:WA,dui_per_100k,310.5
 crime-data:WA,drug_per_100k,141.4
+crime-data:WA,fraud_per_100k,10.5
+crime-data:WA,forgery_per_100k,3
+crime-data:WA,embezzlement_per_100k,0.3
 crime-data:WA,arrests_per_100k,1934.4
 crime-data:WA,drug_5y,30426
+crime-data:WA,fraud_5y,3616
+crime-data:WA,forgery_5y,1425
+crime-data:WA,embezzlement_5y,123
 crime-data:WA,population,8001020
 crime-data:WA,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:53001,county,53001
@@ -23356,12 +23797,21 @@ crime-data:WA-county-not-given,stateName,Washington
 crime-data:WA-county-not-given,note,Agencies that list no county (29) or several counties without a headquarters point in one of them (0). They count in the state total.
 crime-data:WI,stateName,Wisconsin
 crime-data:WI,drug_arrests,22704
+crime-data:WI,fraud_arrests,1306
+crime-data:WI,forgery_arrests,425
+crime-data:WI,embezzlement_arrests,232
 crime-data:WI,violent_per_100k,244.7
 crime-data:WI,property_per_100k,1033.8
 crime-data:WI,dui_per_100k,324
 crime-data:WI,drug_per_100k,391.9
+crime-data:WI,fraud_per_100k,22.5
+crime-data:WI,forgery_per_100k,7.3
+crime-data:WI,embezzlement_per_100k,4
 crime-data:WI,arrests_per_100k,3271
 crime-data:WI,drug_5y,129430
+crime-data:WI,fraud_5y,7569
+crime-data:WI,forgery_5y,2503
+crime-data:WI,embezzlement_5y,1578
 crime-data:WI,population,5972787
 crime-data:WI,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:55001,county,55001
@@ -23950,12 +24400,21 @@ crime-data:WI-county-not-given,population,35763
 crime-data:WI-county-not-given,note,Agencies that list no county (10) or several counties without a headquarters point in one of them (6). They count in the state total.
 crime-data:WV,stateName,West Virginia
 crime-data:WV,drug_arrests,6370
+crime-data:WV,fraud_arrests,234
+crime-data:WV,forgery_arrests,122
+crime-data:WV,embezzlement_arrests,41
 crime-data:WV,violent_per_100k,265.6
 crime-data:WV,property_per_100k,1088.4
 crime-data:WV,dui_per_100k,215.6
 crime-data:WV,drug_per_100k,410.3
+crime-data:WV,fraud_per_100k,15.1
+crime-data:WV,forgery_per_100k,7.9
+crime-data:WV,embezzlement_per_100k,2.6
 crime-data:WV,arrests_per_100k,2274.2
 crime-data:WV,drug_5y,34226
+crime-data:WV,fraud_5y,1104
+crime-data:WV,forgery_5y,608
+crime-data:WV,embezzlement_5y,165
 crime-data:WV,population,1766147
 crime-data:WV,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:54001,county,54001
@@ -24376,12 +24835,21 @@ crime-data:54109,arrests_per_100k,1442.9
 crime-data:54109,population,19801
 crime-data:WY,stateName,Wyoming
 crime-data:WY,drug_arrests,3313
+crime-data:WY,fraud_arrests,59
+crime-data:WY,forgery_arrests,30
+crime-data:WY,embezzlement_arrests,7
 crime-data:WY,violent_per_100k,189.3
 crime-data:WY,property_per_100k,1107.5
 crime-data:WY,dui_per_100k,540.7
 crime-data:WY,drug_per_100k,613.6
+crime-data:WY,fraud_per_100k,10.9
+crime-data:WY,forgery_per_100k,5.6
+crime-data:WY,embezzlement_per_100k,1.3
 crime-data:WY,arrests_per_100k,3221.4
 crime-data:WY,drug_5y,14952
+crime-data:WY,fraud_5y,221
+crime-data:WY,forgery_5y,113
+crime-data:WY,embezzlement_5y,27
 crime-data:WY,population,588753
 crime-data:WY,note,State totals are the FBI's own state series; county rows come from the agency-level roll-up and can sit below the state total where the FBI's state series counts offenses or arrests that the agency-level answers do not return.
 crime-data:56001,county,56001

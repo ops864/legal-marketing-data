@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-07",
+  "generated": "2026-11-09",
   "datasets": [
     {
       "id": "rules",
@@ -124,6 +124,14 @@
       "rows": 37
     },
     {
+      "id": "child-support",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.24011319",
+      "released": "2026-11-06",
+      "cardSha": "dfc26544386ff007",
+      "rows": 55
+    },
+    {
       "id": "civil-filings",
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963129",
@@ -177,10 +185,10 @@
     },
     {
       "id": "crime-data",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23963245",
-      "released": "2026-11-04",
-      "cardSha": "e79a4a7a4a0ef887",
+      "version": "2.1.0",
+      "doi": "10.5281/zenodo.24011321",
+      "released": "2026-11-06",
+      "cardSha": "352d8e1201e8de97",
       "rows": 3078,
       "files": [
         "crime-data-values.csv"
@@ -199,11 +207,11 @@
     },
     {
       "id": "crosswalks",
-      "version": "2.1.0",
-      "doi": "10.5281/zenodo.24011337",
-      "released": "2026-11-06",
-      "cardSha": "49a019f46cbf86ab",
-      "rows": 3697,
+      "version": "2.2.0",
+      "doi": "10.5281/zenodo.24022952",
+      "released": "2026-11-09",
+      "cardSha": "93570d962f196448",
+      "rows": 3702,
       "files": [
         "crosswalks-values.csv"
       ]
@@ -324,6 +332,14 @@
       ]
     },
     {
+      "id": "federal-sentencing",
+      "version": "1.0.1",
+      "doi": "10.5281/zenodo.24022955",
+      "released": "2026-11-09",
+      "cardSha": "5788a93b3a1af34d",
+      "rows": 793
+    },
+    {
       "id": "fees",
       "version": "3.0.1",
       "doi": "10.5281/zenodo.23969434",
@@ -355,11 +371,11 @@
     },
     {
       "id": "firm-web-census",
-      "version": "3.0.0",
-      "doi": "10.5281/zenodo.23898107",
-      "released": "2026-11-02",
-      "cardSha": "ddb817302001e9f6",
-      "rows": 4554,
+      "version": "3.1.0",
+      "doi": "10.5281/zenodo.24020085",
+      "released": "2026-11-09",
+      "cardSha": "e565ff9c8835f551",
+      "rows": 4467,
       "files": [
         "firm-web-census-values.csv"
       ]
@@ -410,6 +426,14 @@
       ]
     },
     {
+      "id": "idea-disputes",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.24011352",
+      "released": "2026-11-06",
+      "cardSha": "215cacc70a6f9dc6",
+      "rows": 57
+    },
+    {
       "id": "immigration-courts",
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963673",
@@ -419,6 +443,14 @@
       "files": [
         "immigration-courts-values.csv"
       ]
+    },
+    {
+      "id": "injury-deaths",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.24011359",
+      "released": "2026-11-06",
+      "cardSha": "569b3b453a84888b",
+      "rows": 3194
     },
     {
       "id": "irs-databook",
@@ -518,10 +550,10 @@
     },
     {
       "id": "legal-need",
-      "version": "1.1.0",
-      "doi": "10.5281/zenodo.23845845",
-      "released": "2026-10-31",
-      "cardSha": "853b0b0876026cad",
+      "version": "1.1.1",
+      "doi": "10.5281/zenodo.23957291",
+      "released": "2026-11-04",
+      "cardSha": "7b48a2c9b869eda0",
       "rows": 3196,
       "files": [
         "legal-need-values.csv"
@@ -742,11 +774,11 @@
     },
     {
       "id": "search-demand",
-      "version": "1.1.0",
-      "doi": "10.5281/zenodo.23877019",
-      "released": "2026-11-02",
-      "cardSha": "df641f42198fa753",
-      "rows": 4694
+      "version": "1.2.0",
+      "doi": "10.5281/zenodo.24023739",
+      "released": "2026-11-09",
+      "cardSha": "73702d30832df809",
+      "rows": 4678
     },
     {
       "id": "serp-landscape",
@@ -755,6 +787,14 @@
       "released": "2026-11-04",
       "cardSha": "42cddbfc76b8cc8a",
       "rows": 998
+    },
+    {
+      "id": "ssa-beneficiaries",
+      "version": "1.0.1",
+      "doi": "10.5281/zenodo.24022958",
+      "released": "2026-11-09",
+      "cardSha": "419660f5a252d0db",
+      "rows": 57
     },
     {
       "id": "state-civil-rights",

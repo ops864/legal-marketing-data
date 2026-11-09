@@ -36,12 +36,13 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
 - `https://probativegrowth.com/mcp/certified-specialists`: Board-certified lawyer counts by practice area and state from official state lists (Tennessee, Minnesota).
 - `https://probativegrowth.com/mcp/charge-deadlines`: Deadlines to file an employment-discrimination charge, federal and by state, with the statute and verbatim quote.
+- `https://probativegrowth.com/mcp/child-support`: OCSE child support collections, cases, orders, current support and arrears by state and fiscal year.
 - `https://probativegrowth.com/mcp/civil-filings`: Federal civil filings by nature of suit and district since 2018.
 - `https://probativegrowth.com/mcp/consumer-complaints`: CFPB complaints about debt collection, credit reporting and debt management, by state and month since 2018.
 - `https://probativegrowth.com/mcp/consumer-sentinel`: FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams per 100,000 people (2024 Data Book).
 - `https://probativegrowth.com/mcp/county-income`: IRS income and migration by county: returns, adjusted gross income, change per return, net moves in and out of other states.
 - `https://probativegrowth.com/mcp/court-fees`: Small-claims dollar limits by state, with the statute or court page and the verbatim quote.
-- `https://probativegrowth.com/mcp/crime-data`: FBI violent and property crime, DUI and drug arrests by county and state, five years, with how many agencies reported.
+- `https://probativegrowth.com/mcp/crime-data`: FBI crime and DUI arrests by county and state, plus drug, fraud, forgery and embezzlement arrests by state, with reporting coverage.
 - `https://probativegrowth.com/mcp/criminal-filings`: Federal criminal defendants by offense and district, U.S. Courts Tables D-1 to D-3, every half-year since 2017.
 - `https://probativegrowth.com/mcp/crosswalks`: Join keys for every dataset: practice areas, federal case codes, states, federal districts and counties.
 - `https://probativegrowth.com/mcp/demand-per-law-office`: Demand per law office by state: residents, bankruptcies, fatal crashes, divorces, Spanish speakers and evictions per law office, in thirds.
@@ -55,6 +56,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/fair-housing`: HUD fair housing cases filed 2006 to June 2020 by state, county and basis (race, disability, familial status and more).
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/federal-filings-county`: Federal civil cases filed by plaintiff county, state, district and case type, ten years, with out-of-state totals.
+- `https://probativegrowth.com/mcp/federal-sentencing`: U.S. Sentencing Commission counts, prison rates and sentence lengths by federal district and offense type, fiscal years 2021 to 2025.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
 - `https://probativegrowth.com/mcp/findings`: Headline US legal-market counts, each with its denominator, limits and source dataset DOI.
@@ -63,7 +65,9 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/green-cards`: New green cards (lawful permanent residents) in the top 200 counties by class of admission and country of birth, with state totals.
 - `https://probativegrowth.com/mcp/hospital-safety`: CMS Care Compare hospital patient-safety (PSI 90) and infection ratings by state and county, rated against the national benchmark.
 - `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
+- `https://probativegrowth.com/mcp/idea-disputes`: Department of Education IDEA Part B counts of state complaints, mediation and due process complaints by state and school year.
 - `https://probativegrowth.com/mcp/immigration-courts`: Immigration court backlog, representation and asylum outcomes by state and court, from EOIR workload statistics and case data.
+- `https://probativegrowth.com/mcp/injury-deaths`: CDC deaths from drug overdose, suicide, homicide and firearm injury by county, state and year, with the trailing twelve months.
 - `https://probativegrowth.com/mcp/irs-databook`: IRS Data Book by state, fiscal years 2019 to 2025: returns filed, gross collections and refunds issued.
 - `https://probativegrowth.com/mcp/language`: Spanish speakers with limited English per Spanish-speaking lawyer, by state and metro.
 - `https://probativegrowth.com/mcp/law-firm-ai-readiness`: US law-firm websites by state and market: rules for 8 AI crawlers and controls, text before JavaScript, FAQ markup, Spanish pages.
@@ -97,6 +101,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/search-demand`: Monthly Google lawyer searches by practice, EN and ES, for the whole US, all 50 states and DC, with suggestions and searches per firm.
 - `https://probativegrowth.com/mcp/serp-landscape`: Google search landscape for legal searches: directories, videos, People Also Ask and concentration, by practice, search type and language.
+- `https://probativegrowth.com/mcp/ssa-beneficiaries`: SSA OASDI beneficiaries and monthly benefit amounts by state and type of benefit.
 - `https://probativegrowth.com/mcp/state-civil-rights`: State civil-rights agency complaint and charge counts with the source document and quote for each figure.
 - `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA LA HI), by practice area, with county FIPS.
 - `https://probativegrowth.com/mcp/state-wage-claims`: State labor agency wage claim counts with the source document and quote for each figure.

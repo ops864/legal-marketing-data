@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-07",
-  "created": "2026-11-07T00:00:00Z",
+  "version": "2026-11-09",
+  "created": "2026-11-09T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -1879,6 +1879,201 @@
       }
     },
     {
+      "name": "child-support",
+      "profile": "tabular-data-resource",
+      "title": "Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025",
+      "description": "The Office of Child Support Enforcement's preliminary data tables for the nation, every state, DC, Guam, Puerto Rico and the U.S. Virgin Islands, five federal fiscal years: child support collections distributed, cases open, cases with a support order, paternities established, current support due and distributed, arrears due, children in cases and OCSE's cost-effectiveness ratio. Two shares are computed from OCSE's own counts.",
+      "path": "data/child-support/child-support.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.24011319",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "acf.gov",
+          "path": "https://acf.gov/ocse/research-data/reports-publications"
+        },
+        {
+          "title": "acf.gov",
+          "path": "https://acf.gov/ocse/policy-guidance/notice-fy-2025-preliminary-data-report"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or state (every state, DC, Guam, Puerto Rico and the U.S. Virgin Islands)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, or the 2-digit state FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: OCSE's own preliminary tables"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Dollars of current support distributed per 100 dollars due in the latest fiscal year (the same as current_paid_per_100_due_latest)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "Latest federal fiscal year in the file (October to September)"
+          },
+          {
+            "name": "firstYear",
+            "type": "integer",
+            "description": "First fiscal year in the file for this jurisdiction"
+          },
+          {
+            "name": "collections_usd_latest",
+            "type": "integer",
+            "description": "Child support collections distributed, in US dollars (Table P-4)"
+          },
+          {
+            "name": "cases_open_latest",
+            "type": "integer",
+            "description": "Cases open at the end of the fiscal year (Table P-53)"
+          },
+          {
+            "name": "cases_orders_latest",
+            "type": "integer",
+            "description": "Cases with a support order established (Table P-64)"
+          },
+          {
+            "name": "paternities_latest",
+            "type": "integer",
+            "description": "Paternities established or acknowledged (Table P-71)"
+          },
+          {
+            "name": "cases_collection_latest",
+            "type": "integer",
+            "description": "Cases in which a collection was made on an obligation (Table P-75)"
+          },
+          {
+            "name": "current_due_usd_latest",
+            "type": "integer",
+            "description": "Current support due in the fiscal year, in US dollars (Table P-83)"
+          },
+          {
+            "name": "current_paid_usd_latest",
+            "type": "integer",
+            "description": "Support distributed as current support, in US dollars (Table P-84)"
+          },
+          {
+            "name": "arrears_due_usd_latest",
+            "type": "integer",
+            "description": "Arrears due for all fiscal years, in US dollars (Table P-85)"
+          },
+          {
+            "name": "cases_arrears_latest",
+            "type": "integer",
+            "description": "Cases with arrears due (Table P-87)"
+          },
+          {
+            "name": "children_latest",
+            "type": "integer",
+            "description": "Children in child support cases (Table P-93)"
+          },
+          {
+            "name": "cost_effectiveness_latest",
+            "type": "number",
+            "description": "OCSE's cost-effectiveness ratio: dollars collected per dollar spent (Table P-36)"
+          },
+          {
+            "name": "orders_per_100_open_latest",
+            "type": "number",
+            "description": "Computed here: cases with a support order per 100 cases open"
+          },
+          {
+            "name": "current_paid_per_100_due_latest",
+            "type": "number",
+            "description": "Computed here: dollars of current support distributed per 100 dollars due"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the first fiscal year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the latest fiscal year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the file was last re-read from OCSE"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "civil-filings",
       "profile": "tabular-data-resource",
       "title": "Federal civil filings by nature of suit and district, 12-month periods since 2018",
@@ -2719,13 +2914,13 @@
       "name": "crime-data",
       "profile": "tabular-data-resource",
       "title": "Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)",
-      "description": "What police agencies reported to the FBI over the last five complete calendar years, for every state and for 2,981 counties, home to 96.5% of U.S. residents: violent crimes, property crimes, arrests for driving under the influence, all arrests, and, for states, arrests for drug abuse violations. County rows add up the agencies the FBI places in each county (a city police department, a sheriff's office, a campus force; an agency that serves several counties counts in the county of its headquarters); a row says how many agencies there are and what share of the county's residents they cover, because each county counts only the months its agencies reported (never a zero in their place), and a county-year appears when at least one of its agencies reported. Rates are per 100,000 residents of the agencies that did report. State rows are the FBI's own state series; the county rows add up the agency-level answers, which can come to less than the state series where the FBI's state count includes reports its agency-level answers do not return. The United States row is the sum of the states. Only counts are published: no officer, victim, suspect or agency name.",
+      "description": "What police agencies reported to the FBI over the last five complete calendar years, for every state and for 2,981 counties, home to 96.5% of U.S. residents: violent crimes, property crimes, arrests for driving under the influence, all arrests, and, for states and the United States, arrests for drug abuse violations, fraud, forgery and counterfeiting, and embezzlement. County rows add up the agencies the FBI places in each county (a city police department, a sheriff's office, a campus force; an agency that serves several counties counts in the county of its headquarters); a row says how many agencies there are and what share of the county's residents they cover, because each county counts only the months its agencies reported (never a zero in their place), and a county-year appears when at least one of its agencies reported. Rates are per 100,000 residents of the agencies that did report. State rows are the FBI's own state series; the county rows add up the agency-level answers, which can come to less than the state series where the FBI's state count includes reports its agency-level answers do not return. The United States row is the sum of the states. Only counts are published: no officer, victim, suspect or agency name.",
       "path": "data/crime-data/crime-data.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963245",
+      "version": "2.1.0",
+      "id": "https://doi.org/10.5281/zenodo.24011321",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -2899,7 +3094,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -3290,8 +3485,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.1.0",
-      "id": "https://doi.org/10.5281/zenodo.24011337",
+      "version": "2.2.0",
+      "id": "https://doi.org/10.5281/zenodo.24022952",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -3394,7 +3589,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5448,6 +5643,197 @@
       }
     },
     {
+      "name": "federal-sentencing",
+      "profile": "tabular-data-resource",
+      "title": "Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025",
+      "description": "The U.S. Sentencing Commission's counts of individuals sentenced in federal court for the nation and each federal judicial district, overall and by type of offense (drug trafficking, firearms, fraud, immigration and 26 others): how many were sentenced, the share sentenced to prison, the average and median sentence in months (prison plus alternative confinement, probation as zero), and the shares convicted by guilty plea and after trial. Built from the Commission's public datafiles without individual identifiers, reduced to cell counts; each district and offense listed had 10 or more individuals in the latest year.",
+      "path": "data/federal-sentencing/federal-sentencing.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24022955",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.ussc.gov",
+          "path": "https://www.ussc.gov/research/datafiles/commission-datafiles"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code of the district, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or district"
+          },
+          {
+            "name": "scope",
+            "type": "string",
+            "description": "all (every offense type) or offense (one primary offense type)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, or the district's USSC code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "United States or the district's name"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State or territory name (United States for the nation)"
+          },
+          {
+            "name": "districtCode",
+            "type": "string",
+            "description": "The Commission's two-digit district code (US for the nation)"
+          },
+          {
+            "name": "districtName",
+            "type": "string",
+            "description": "Name of the federal judicial district (All districts for the nation)"
+          },
+          {
+            "name": "offense",
+            "type": "string",
+            "description": "The Commission's primary offense type code 1-30 (all for all offenses)"
+          },
+          {
+            "name": "offenseName",
+            "type": "string",
+            "description": "Primary offense type (All offenses for all offenses)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the Commission's own datafile"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Individuals sentenced in the latest fiscal year (the same as sentenced)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Latest fiscal year in the record (October to September)"
+          },
+          {
+            "name": "window",
+            "type": "string",
+            "description": "Fiscal years covered"
+          },
+          {
+            "name": "sentenced",
+            "type": "integer",
+            "description": "Individuals sentenced in the latest fiscal year (felonies and Class A misdemeanors the Commission received documents for)"
+          },
+          {
+            "name": "prison_pct",
+            "type": "number",
+            "description": "Percent sentenced to prison, alone or with confinement conditions"
+          },
+          {
+            "name": "probation_pct",
+            "type": "number",
+            "description": "Percent sentenced to probation, alone or with confinement conditions"
+          },
+          {
+            "name": "fine_only_pct",
+            "type": "number",
+            "description": "Percent with no prison or probation (fine only)"
+          },
+          {
+            "name": "mean_months",
+            "type": "number",
+            "description": "Average sentence in months (prison plus months of alternative confinement), probation counted as 0 months and sentences of 470 months or more, including life, as 470, per the Commission's tables"
+          },
+          {
+            "name": "median_months",
+            "type": "number",
+            "description": "Median sentence in months, counted the same way"
+          },
+          {
+            "name": "plea_pct",
+            "type": "number",
+            "description": "Percent convicted by guilty plea"
+          },
+          {
+            "name": "trial_pct",
+            "type": "number",
+            "description": "Percent convicted after a trial"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the latest fiscal year (October 1)"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the latest fiscal year (September 30)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the files were last re-read from the Commission"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "fees",
       "profile": "tabular-data-resource",
       "title": "Attorney fee caps and contingency-fee rules, by state and federal program",
@@ -5894,13 +6280,13 @@
       "name": "firm-web-census",
       "profile": "tabular-data-resource",
       "title": "US law firm websites: practices, Spanish, intake, by state, county and practice area",
-      "description": "US law firms, state by state and county by county, from two kinds of open source: law firms' own public websites, read at a slow, spaced rate each week (a few pages per firm), and official state registries published as open data for reuse (New York's attorney registrations and business entities, and the business registries of Colorado, Oregon, Connecticut, Texas and Pennsylvania). For each state, county and practice area we count the firms found, how many have a website we read, and, of those websites, the shares that show Spanish-language pages, a 24/7 intake statement, a free consultation or no fee unless they win, a chat or online booking tool, legal structured data (schema.org LegalService or Attorney), review markup or an llms.txt file, with the median number of pages a firm has about the practice. Every row gives two coverage measures: the firms found against the employer law offices the Census Bureau's County Business Patterns counts, and the websites read against our estimate of the law firms with a website. A state is called a census only when the first reaches 0.70; until then the rows are a sample. These counts are CC BY 4.0. The firm-level rows behind them (name as the firm or registry gives it, offices by county and the yes-or-no facts, each linked to the page it was read on with the date) are published separately under the Open Database License (ODbL) 1.0, because the list of sites comes partly from OpenStreetMap (© OpenStreetMap contributors), and are shown on the /firms/ pages. No firm is rated, scored or ranked. Firm names can include a lawyer's name when that is the firm's registered or website name; a row that is only one person's name is counted and not listed. Website sources: Common Crawl (its web graph and the Web Data Commons structured-data extract), OpenStreetMap and Wikidata.",
+      "description": "US law firms, state by state and county by county, from two kinds of open source: law firms' own public websites, and official state registries published as open data for reuse (New York's attorney registrations and business entities, and the business registries of Colorado, Oregon, Connecticut, Texas and Pennsylvania). For each state, county and practice area we count the firms found, how many have a website we read, and, of those websites, the shares that show Spanish-language pages, a 24/7 intake statement, a free consultation or no fee unless they win, a chat or online booking tool, legal structured data (schema.org LegalService or Attorney), review markup or an llms.txt file, with the median number of pages a firm has about the practice. Every row compares the firms found with the employer law offices the Census Bureau's County Business Patterns counts. A state is called a census or a registry list only when that reaches 0.70; until then the rows are a sample. These counts are CC BY 4.0. The firm-level rows behind them (name as the firm or registry gives it, offices by county and the yes-or-no facts, each linked to the page it was read on with the date) are published separately under the Open Database License (ODbL) 1.0, because the list of sites comes partly from OpenStreetMap (© OpenStreetMap contributors), and are shown on the /firms/ pages. No firm is rated, scored or ranked. Firm names can include a lawyer's name when that is the firm's registered or website name; a row that is only one person's name is counted and not listed. Website sources: Common Crawl (its web graph and the Web Data Commons structured-data extract), OpenStreetMap and Wikidata.",
       "path": "data/firm-web-census/firm-web-census.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23898107",
+      "version": "3.1.0",
+      "id": "https://doi.org/10.5281/zenodo.24020085",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5980,7 +6366,7 @@
           {
             "name": "coverage_label",
             "type": "string",
-            "description": "sample, or census once coverage_cbp is 0.70 or more"
+            "description": "sample below coverage_cbp 0.70; at 0.70 or more, registry list when registry rows are the majority, otherwise census"
           },
           {
             "name": "lastChecked",
@@ -6022,7 +6408,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7052,6 +7438,172 @@
       }
     },
     {
+      "name": "idea-disputes",
+      "profile": "tabular-data-resource",
+      "title": "Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24",
+      "description": "The U.S. Department of Education's counts of special education disputes under IDEA Part B for the nation, every state, DC and five territories, by school year: written state complaints, mediation requests and mediations held, due process complaints, resolution meetings, hearings and complaints withdrawn or dismissed.",
+      "path": "data/idea-disputes/idea-disputes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.24011352",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.ed.gov",
+          "path": "https://data.ed.gov/data.json"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or state (every state, DC, Puerto Rico, American Samoa, Guam, the Northern Mariana Islands and the U.S. Virgin Islands)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, or the 2-digit state FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: the Department's own state-level data file"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Due process complaints filed in the latest published school year (the same as dpc_latest)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "firstYear",
+            "type": "string",
+            "description": "First school year in the file for this jurisdiction (for example 2012-13)"
+          },
+          {
+            "name": "latestYear",
+            "type": "string",
+            "description": "Latest school year published for this jurisdiction"
+          },
+          {
+            "name": "wsc_latest",
+            "type": "integer",
+            "description": "Written, signed state complaints (item 1)"
+          },
+          {
+            "name": "wsc_reports_latest",
+            "type": "integer",
+            "description": "Written complaints with a report issued (1.1)"
+          },
+          {
+            "name": "med_requests_latest",
+            "type": "integer",
+            "description": "Mediation requests (2)"
+          },
+          {
+            "name": "med_held_latest",
+            "type": "integer",
+            "description": "Mediations held (2.1)"
+          },
+          {
+            "name": "dpc_latest",
+            "type": "integer",
+            "description": "Due process complaints (3)"
+          },
+          {
+            "name": "res_meetings_latest",
+            "type": "integer",
+            "description": "Resolution meetings held on due process complaints (3.1)"
+          },
+          {
+            "name": "hearings_latest",
+            "type": "integer",
+            "description": "Due process hearings fully adjudicated (3.2)"
+          },
+          {
+            "name": "dpc_withdrawn_latest",
+            "type": "integer",
+            "description": "Due process complaints withdrawn or dismissed (3.4)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the latest school year (July 1)"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the latest school year (June 30)"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the files were last re-read from the Department"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
       "name": "immigration-courts",
       "profile": "tabular-data-resource",
       "title": "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)",
@@ -7210,6 +7762,213 @@
             "name": "value",
             "type": "number"
           }
+        ]
+      }
+    },
+    {
+      "name": "injury-deaths",
+      "profile": "tabular-data-resource",
+      "title": "Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury",
+      "description": "Deaths from drug overdose, suicide, homicide and firearm injury in CDC's Mapping Injury, Overdose, and Violence files, for the nation, each state and DC and each county, by calendar year and for the trailing twelve months: deaths and the rate per 100,000 residents. National and state records add unintentional-injury deaths from the NCHS leading-causes file, 1999 to 2017. Counts of 1 to 9 stay in the range CDC prints.",
+      "path": "data/injury-deaths/injury-deaths.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.24011359",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "data.cdc.gov",
+          "path": "https://data.cdc.gov/d/psx4-wq38"
+        },
+        {
+          "title": "data.cdc.gov",
+          "path": "https://data.cdc.gov/d/fpsi-y8tj"
+        },
+        {
+          "title": "data.cdc.gov",
+          "path": "https://data.cdc.gov/d/t6u2-f84c"
+        },
+        {
+          "title": "data.cdc.gov",
+          "path": "https://data.cdc.gov/d/bi63-dtpu"
+        },
+        {
+          "title": "www.cdc.gov",
+          "path": "https://www.cdc.gov/injury-violence-data/about/index.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us, state or county"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, the 2-digit state FIPS code or the 5-digit county FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "County and state, state name, or United States"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "State name (United States on the national record)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: CDC's own file"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Drug overdose deaths per 100,000 residents in the latest year (the same as overdose_rate_latest)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "firstYear",
+            "type": "integer",
+            "description": "First calendar year in CDC's file for this place"
+          },
+          {
+            "name": "latestYear",
+            "type": "integer",
+            "description": "Latest calendar year in CDC's file for this place"
+          },
+          {
+            "name": "dataThrough",
+            "type": "string",
+            "description": "CDC's as-of date for the file"
+          },
+          {
+            "name": "overdose_deaths_latest",
+            "type": "string",
+            "description": "Drug overdose deaths in the latest year, unintentional or of undetermined intent: a number, or 1-9 as CDC prints it"
+          },
+          {
+            "name": "overdose_rate_latest",
+            "type": "number",
+            "description": "Those deaths per 100,000 residents; CDC models the rate when a place has 1-9 deaths"
+          },
+          {
+            "name": "suicide_deaths_latest",
+            "type": "string",
+            "description": "Suicide deaths in the latest year, from any cause: a number, or 1-9 as CDC prints it"
+          },
+          {
+            "name": "suicide_rate_latest",
+            "type": "number",
+            "description": "Those deaths per 100,000 residents; CDC models the rate when a place has 1-9 deaths"
+          },
+          {
+            "name": "homicide_deaths_latest",
+            "type": "string",
+            "description": "Homicide deaths in the latest year, from any cause: a number, or 1-9 as CDC prints it"
+          },
+          {
+            "name": "homicide_rate_latest",
+            "type": "number",
+            "description": "Those deaths per 100,000 residents; CDC models the rate when a place has 1-9 deaths"
+          },
+          {
+            "name": "firearm_deaths_latest",
+            "type": "string",
+            "description": "Firearm injury deaths in the latest year, of every intent: a number, or 1-9 as CDC prints it"
+          },
+          {
+            "name": "firearm_rate_latest",
+            "type": "number",
+            "description": "Those deaths per 100,000 residents; CDC models the rate when a place has 1-9 deaths"
+          },
+          {
+            "name": "firearm_homicide_deaths_latest",
+            "type": "string",
+            "description": "Firearm homicides in the latest year: a number, or 1-9 as CDC prints it"
+          },
+          {
+            "name": "firearm_homicide_rate_latest",
+            "type": "number",
+            "description": "Those deaths per 100,000 residents; CDC models the rate when a place has 1-9 deaths"
+          },
+          {
+            "name": "firearm_suicide_deaths_latest",
+            "type": "string",
+            "description": "Firearm suicides in the latest year: a number, or 1-9 as CDC prints it"
+          },
+          {
+            "name": "firearm_suicide_rate_latest",
+            "type": "number",
+            "description": "Those deaths per 100,000 residents; CDC models the rate when a place has 1-9 deaths"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "When the fact took effect (YYYY-MM-DD), if known"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "When it stopped applying; empty while current"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
         ]
       }
     },
@@ -8873,8 +9632,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23845845",
+      "version": "1.1.1",
+      "id": "https://doi.org/10.5281/zenodo.23957291",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -9332,7 +10091,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13034,8 +13793,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.0",
-      "id": "https://doi.org/10.5281/zenodo.23877019",
+      "version": "1.2.0",
+      "id": "https://doi.org/10.5281/zenodo.24023739",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13233,6 +13992,242 @@
             "name": "sourceUrls",
             "type": "string",
             "description": "Source URL"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "ssa-beneficiaries",
+      "profile": "tabular-data-resource",
+      "title": "Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025",
+      "description": "The Social Security Administration's counts and monthly benefit amounts of OASDI beneficiaries by state, DC and five territories, by type of benefit: retired workers and their spouses and children, survivors, and disabled workers and their spouses and children, with the number aged 65 or older by sex. Average benefits are computed from SSA's own counts and amounts.",
+      "path": "data/ssa-beneficiaries/ssa-beneficiaries.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24022958",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.ssa.gov",
+          "path": "https://www.ssa.gov/policy/docs/statcomps/oasdi_sc/2025/index.html"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Two-letter state or territory code, or US"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "us or state (every state, DC and five territories)"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "US, or the 2-digit state FIPS code"
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "stateName",
+            "type": "string",
+            "description": "Jurisdiction name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P: SSA's own published tables"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Beneficiaries in current-payment status in the month (the same as total_count)"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "Month of the tables (December 2025)"
+          },
+          {
+            "name": "total_count",
+            "type": "integer",
+            "description": "Beneficiaries: total (Table 2)"
+          },
+          {
+            "name": "retired_workers_count",
+            "type": "integer",
+            "description": "Beneficiaries: retired workers (Table 2)"
+          },
+          {
+            "name": "retired_spouses_count",
+            "type": "integer",
+            "description": "Beneficiaries: retired spouses (Table 2)"
+          },
+          {
+            "name": "retired_children_count",
+            "type": "integer",
+            "description": "Beneficiaries: retired children (Table 2)"
+          },
+          {
+            "name": "survivor_widows_parents_count",
+            "type": "integer",
+            "description": "Beneficiaries: survivor widows parents (Table 2)"
+          },
+          {
+            "name": "survivor_children_count",
+            "type": "integer",
+            "description": "Beneficiaries: survivor children (Table 2)"
+          },
+          {
+            "name": "disabled_workers_count",
+            "type": "integer",
+            "description": "Beneficiaries: disabled workers (Table 2)"
+          },
+          {
+            "name": "disabled_spouses_count",
+            "type": "integer",
+            "description": "Beneficiaries: disabled spouses (Table 2)"
+          },
+          {
+            "name": "disabled_children_count",
+            "type": "integer",
+            "description": "Beneficiaries: disabled children (Table 2)"
+          },
+          {
+            "name": "men_65_plus_count",
+            "type": "integer",
+            "description": "Beneficiaries: men 65 plus (Table 2)"
+          },
+          {
+            "name": "women_65_plus_count",
+            "type": "integer",
+            "description": "Beneficiaries: women 65 plus (Table 2)"
+          },
+          {
+            "name": "total_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for total, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "retired_workers_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for retired workers, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "retired_spouses_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for retired spouses, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "retired_children_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for retired children, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "survivor_widows_parents_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for survivor widows parents, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "survivor_children_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for survivor children, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "disabled_workers_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for disabled workers, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "disabled_spouses_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for disabled spouses, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "disabled_children_amount_k",
+            "type": "integer",
+            "description": "Monthly benefits for disabled children, in thousands of dollars (Table 3)"
+          },
+          {
+            "name": "avg_monthly_benefit",
+            "type": "integer",
+            "description": "Average monthly benefit in dollars: total amount x 1,000 / total beneficiaries (computed here)"
+          },
+          {
+            "name": "avg_retired_worker_benefit",
+            "type": "integer",
+            "description": "Average monthly retired-worker benefit in dollars (computed here)"
+          },
+          {
+            "name": "avg_disabled_worker_benefit",
+            "type": "integer",
+            "description": "Average monthly disabled-worker benefit in dollars (computed here)"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the month"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the month"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "Date the tables were last read from SSA"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
           },
           {
             "name": "confidence",

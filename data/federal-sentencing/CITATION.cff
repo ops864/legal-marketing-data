@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as: Probative Growth, Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025, 2026, https://doi.org/10.5281/zenodo.24022955."
+title: "Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025"
+type: dataset
+authors:
+  - name: "Probative Growth"
+version: "1.0.1"
+doi: "10.5281/zenodo.24022955"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24011347"
+    description: "Concept DOI (all versions)"
+license: CC-BY-4.0
+url: "https://probativegrowth.com/data/federal-sentencing/"
+repository-code: "https://github.com/ops864/legal-marketing-data"

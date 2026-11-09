@@ -1,14 +1,14 @@
 US law firm websites: practices, Spanish, intake, by state, county and practice area
 
-Version 3.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898107
+Version 3.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24020085
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, US law firm websites: practices, Spanish, intake, by state, county and practice area, version 3.0.0, https://doi.org/10.5281/zenodo.23898107, licensed CC BY 4.0.
+Source: Probative, US law firm websites: practices, Spanish, intake, by state, county and practice area, version 3.1.0, https://doi.org/10.5281/zenodo.24020085, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). US law firm websites: practices, Spanish, intake, by state, county and practice area (Version 3.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898107
+Probative. (2026). US law firm websites: practices, Spanish, intake, by state, county and practice area (Version 3.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24020085
 
-Not legal advice. These are counts of facts read from law firms' own public websites and from official open registries on the dates shown, kept for research and marketing planning. Each row's two coverage measures say how much of the market it reaches. The counts describe what websites and registries say, not the quality of any firm or lawyer. A firm can ask us to correct its row or to be left out through the data corrections page; we act within 7 days.
+Not legal advice. These are counts of facts read from law firms' own public websites and from official open registries on the dates shown, kept for research and marketing planning. Each row's coverage says how much of the market it reaches. The counts describe what websites and registries say, not the quality of any firm or lawyer. A firm can ask us to correct its row or to be left out through the data corrections page; we act within 7 days.
 Probative is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/firm-web-census/
@@ -24,7 +24,7 @@ Columns:
   firms: Law firms found: with a website read, or from an official registry only
   firms_with_website: Of those, firms whose own website we read (the base of every share)
   firms_registry_only: Of those, firms found only in an official open registry (registry facts only)
-  coverage_label: sample, or census once coverage_cbp is 0.70 or more
+  coverage_label: sample below coverage_cbp 0.70; at 0.70 or more, registry list when registry rows are the majority, otherwise census
   lastChecked: The day it was last confirmed (YYYY-MM-DD)
   sourceLabels: Sources, separated by " | "
   sourceUrls: Source URLs, in the same order
@@ -34,9 +34,9 @@ Columns:
   countyName: County name as the Census Bureau writes it (in firm-web-census-values.csv, as id, column and value rows)
   practice: Practice id from the shared practice taxonomy (/data/crosswalks/), for practice rows (in firm-web-census-values.csv, as id, column and value rows)
   cbp_offices: Employer law offices (NAICS 541110) in Census County Business Patterns 2023 for the state or county: the coverage base (in firm-web-census-values.csv, as id, column and value rows)
-  coverage_cbp: Coverage (b): firms found / cbp_offices. Firms and establishments differ (a firm can have several offices; registries include solo practices without employees, which CBP leaves out), so it can pass 1 (in firm-web-census-values.csv, as id, column and value rows)
-  est_firms_with_website: Estimated law firms with a website (capture-recapture between the OpenStreetMap and Common Crawl site lists; provisional until the first full pass ends) (in firm-web-census-values.csv, as id, column and value rows)
-  coverage_web: Coverage (a): firms with a website read / est_firms_with_website (in firm-web-census-values.csv, as id, column and value rows)
+  coverage_cbp: Coverage: firms found / cbp_offices. Firms and establishments differ (a firm can have several offices; registries include solo practices without employees, which CBP leaves out), so it can pass 1 (in firm-web-census-values.csv, as id, column and value rows)
+  est_firms_with_website: Estimated law firms with a website (capture-recapture between the OpenStreetMap and Common Crawl site lists, from a pass over about 2% of the list; a rough figure, above the Census count in most states) (in firm-web-census-values.csv, as id, column and value rows)
+  coverage_web: Websites read / est_firms_with_website, a rough ratio (in firm-web-census-values.csv, as id, column and value rows)
   share_spanish: Percent of the firm websites read with Spanish-language pages (hreflang, a page read in Spanish or a link labelled Español); given for groups of 5 or more firms (in firm-web-census-values.csv, as id, column and value rows)
   share_intake247: Percent of the firm websites read with a 24/7 intake statement on the pages read (for example 'available 24/7'); given for groups of 5 or more firms (in firm-web-census-values.csv, as id, column and value rows)
   share_structured: Percent of the firm websites read whose pages carry schema.org LegalService or Attorney structured data; given for groups of 5 or more firms (in firm-web-census-values.csv, as id, column and value rows)
@@ -51,5 +51,5 @@ Columns:
   practiceCells: County rows: one cell per practice advertised by at least 3 firms with an office in the county: firms, the shares and median_practice_pages (cells under 3 firms are left out) (in firm-web-census-values.csv, as id, column and value rows)
   registries: State rows: the official open registries used for the state (in firm-web-census-values.csv, as id, column and value rows)
   firms_listed: State rows: candidate sites listed for the state in the open sources before reading (web-graph candidates carry no state and are not included) (in firm-web-census-values.csv, as id, column and value rows)
-  new_entrants_week: Aggregate rows: firms first seen in the latest weekly run (filled once two runs exist) (in firm-web-census-values.csv, as id, column and value rows)
-  exits_week: Aggregate rows: firms not readable in the latest run that were read the week before (filled once two runs exist) (in firm-web-census-values.csv, as id, column and value rows)
+  new_entrants_week: Aggregate rows: firms first seen since the prior run (in firm-web-census-values.csv, as id, column and value rows)
+  exits_week: Aggregate rows: firms not readable in the latest run that the prior run read (in firm-web-census-values.csv, as id, column and value rows)

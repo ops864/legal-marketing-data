@@ -1,12 +1,12 @@
 Legal need by county: who may need a lawyer, from the American Community Survey
 
-Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23845845
+Version 1.1.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23957291
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal need by county: who may need a lawyer, from the American Community Survey, version 1.1.0, https://doi.org/10.5281/zenodo.23845845, licensed CC BY 4.0.
+Source: Probative, Legal need by county: who may need a lawyer, from the American Community Survey, version 1.1.1, https://doi.org/10.5281/zenodo.23957291, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal need by county: who may need a lawyer, from the American Community Survey (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23845845
+Probative. (2026). Legal need by county: who may need a lawyer, from the American Community Survey (Version 1.1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23957291
 
 Not legal advice. These are survey estimates of people with a characteristic, not counts of legal problems or cases: a renter, a veteran or a noncitizen does not necessarily need a lawyer. Each estimate has a margin of error, and small counties' estimates are rough.
 Probative is a marketing firm, not a law firm; not legal advice.
