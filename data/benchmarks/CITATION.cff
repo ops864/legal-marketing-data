@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Probative benchmarks, 2025–2026, 2026, https://doi.org/10.5281/zenodo.23735849."
+message: "If you use this dataset, please cite it as: Probative Growth, Probative benchmarks, 2025–2026, 2026, https://doi.org/10.5281/zenodo.24098530."
 title: "Probative benchmarks, 2025–2026"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "4.0.1"
-doi: "10.5281/zenodo.23735849"
+version: "5.0.0"
+doi: "10.5281/zenodo.24098530"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23688755"

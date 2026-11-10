@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "datasets": [
     {
       "id": "rules",
@@ -68,10 +68,10 @@
     },
     {
       "id": "benchmarks",
-      "version": "4.0.1",
-      "doi": "10.5281/zenodo.23735849",
-      "released": "2026-10-28",
-      "cardSha": "38da7dc3b6f6eb9a",
+      "version": "5.0.0",
+      "doi": "10.5281/zenodo.24098530",
+      "released": "2026-11-10",
+      "cardSha": "adcf92aa0a586a29",
       "rows": 58
     },
     {
