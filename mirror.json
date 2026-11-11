@@ -366,7 +366,7 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23748830",
       "released": "2026-10-28",
-      "cardSha": "5d2374531b027f27",
+      "cardSha": "593ca45514b0b308",
       "rows": 20
     },
     {
@@ -393,7 +393,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963657",
       "released": "2026-11-04",
-      "cardSha": "41fd4ef1160b6268",
+      "cardSha": "f7dfec4fe758ee64",
       "rows": 483,
       "files": [
         "green-cards-values.csv"
