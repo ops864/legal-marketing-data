@@ -903,11 +903,11 @@ references:
     title: "Legal-marketing ethics opinions, 2004–2026"
     authors:
       - name: "Probative Growth"
-    version: "2.0.1"
-    doi: "10.5281/zenodo.23969437"
+    version: "2.0.2"
+    doi: "10.5281/zenodo.24114753"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/opinions/"
-    date-released: "2026-11-05"
+    date-released: "2026-11-11"
   - type: dataset
     title: "OSHA inspections and penalties by state and industry (DOL enforcement data)"
     authors:

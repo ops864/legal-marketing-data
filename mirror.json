@@ -684,10 +684,10 @@
     },
     {
       "id": "opinions",
-      "version": "2.0.1",
-      "doi": "10.5281/zenodo.23969437",
-      "released": "2026-11-05",
-      "cardSha": "bfec23242fdbf9bc",
+      "version": "2.0.2",
+      "doi": "10.5281/zenodo.24114753",
+      "released": "2026-11-11",
+      "cardSha": "47eaa8929953138c",
       "rows": 261,
       "files": [
         "opinions-values.csv"
