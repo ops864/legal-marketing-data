@@ -1,12 +1,12 @@
 Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964055
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116050
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration), version 2.0.0, https://doi.org/10.5281/zenodo.23964055, licensed CC BY 4.0.
+Source: Probative, Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration), version 2.0.1, https://doi.org/10.5281/zenodo.24116050, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964055
+Probative. (2026). Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116050
 
 Not legal advice. These are counts of attorney registrations from the New York court system's public registration file, kept for research and marketing planning. A registration status is the court's record, not a judgment of any lawyer's skill or standing beyond that record, and a county is the county of the office address the lawyer gave, not where the lawyer practises or where clients live. Rights and deadlines in a matter are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

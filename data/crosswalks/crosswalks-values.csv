@@ -722,7 +722,7 @@ cw-dataset-attorneys,dimensions,supply
 cw-dataset-attorneys,doi,10.5281/zenodo.23962861
 cw-dataset-aviation-accidents,practices,aviation-accidents; wrongful-death
 cw-dataset-aviation-accidents,dimensions,demand
-cw-dataset-aviation-accidents,doi,10.5281/zenodo.23962878
+cw-dataset-aviation-accidents,doi,10.5281/zenodo.24116037
 cw-dataset-bankruptcy,practices,bankruptcy; business-bankruptcy; consumer-bankruptcy
 cw-dataset-bankruptcy,dimensions,demand
 cw-dataset-bankruptcy,doi,10.5281/zenodo.23962892
@@ -808,7 +808,7 @@ cw-dataset-fees,practices,bankruptcy; medical-malpractice; personal-injury; ssdi
 cw-dataset-fees,dimensions,rules
 cw-dataset-fees,doi,10.5281/zenodo.23969434
 cw-dataset-filing,dimensions,rules
-cw-dataset-filing,doi,10.5281/zenodo.23963654
+cw-dataset-filing,doi,10.5281/zenodo.24114746
 cw-dataset-findings,practices,bankruptcy; employment-law; immigration; mass-tort; nursing-home-abuse; personal-injury; ssdi; truck-accidents; va-disability; wage-and-hour
 cw-dataset-findings,dimensions,demand; money; rules; supply
 cw-dataset-findings,doi,10.5281/zenodo.23748830
@@ -835,7 +835,7 @@ cw-dataset-immigration-courts,dimensions,demand
 cw-dataset-immigration-courts,doi,10.5281/zenodo.23963673
 cw-dataset-injury-deaths,practices,criminal-defense; drug-device-injury; wrongful-death
 cw-dataset-injury-deaths,dimensions,demand
-cw-dataset-injury-deaths,doi,10.5281/zenodo.24011359
+cw-dataset-injury-deaths,doi,10.5281/zenodo.24116039
 cw-dataset-irs-databook,practices,tax
 cw-dataset-irs-databook,dimensions,demand
 cw-dataset-irs-databook,doi,10.5281/zenodo.23963674
@@ -857,15 +857,15 @@ cw-dataset-lawyer-wages,dimensions,supply
 cw-dataset-lawyer-wages,doi,10.5281/zenodo.23898132
 cw-dataset-legal-aid-orgs,practices,civil-rights; family-law; immigration; landlord-tenant
 cw-dataset-legal-aid-orgs,dimensions,supply
-cw-dataset-legal-aid-orgs,doi,10.5281/zenodo.23963739
+cw-dataset-legal-aid-orgs,doi,10.5281/zenodo.24116040
 cw-dataset-legal-hiring-demand,practices,adoption; antitrust; assault-defamation; asylum; auto-accidents; aviation-accidents; bankruptcy; birth-injury; business-bankruptcy; business-formation; business-law; catastrophic-injury; child-custody; child-support; civil-rights; consumer-bankruptcy; consumer-fraud; consumer-protection; contract-disputes; copyright; credit-reporting; criminal-defense; debt-collection-defense; disability-access; divorce; dog-bites; domestic-violence; drug-crimes; drug-device-injury; dui-dwi; education-law; elder-law; employee-benefits; employment-discrimination; employment-immigration; employment-law; estate-planning; expungement; family-immigration; family-law; foreclosure-defense; franchise; guardianship; housing-discrimination; immigration; insurance-claims; intellectual-property; investor-claims; juvenile; labor-relations; landlord-tenant; lemon-law; maritime-injury; mass-tort; medical-malpractice; motorcycle-accidents; naturalization; nursing-home-abuse; patent; pedestrian-bicycle-accidents; personal-injury; police-misconduct; premises-liability; probate; product-liability; railroad-injury; real-estate; removal-defense; rideshare-accidents; special-education; ssdi; tax; tcpa-robocalls; toxic-exposure; trademark; truck-accidents; va-disability; wage-and-hour; whistleblower; white-collar; workers-compensation; wrongful-death; wrongful-termination
 cw-dataset-legal-hiring-demand,dimensions,money
-cw-dataset-legal-hiring-demand,doi,10.5281/zenodo.23957260
+cw-dataset-legal-hiring-demand,doi,10.5281/zenodo.24116041
 cw-dataset-legal-need,practices,asylum; auto-accidents; child-custody; consumer-bankruptcy; disability-access; divorce; elder-law; estate-planning; family-immigration; family-law; foreclosure-defense; guardianship; immigration; landlord-tenant; naturalization; nursing-home-abuse; personal-injury; probate; removal-defense; ssdi; truck-accidents; va-disability
 cw-dataset-legal-need,dimensions,demand
 cw-dataset-legal-need,doi,10.5281/zenodo.23957291
 cw-dataset-legal-prices,dimensions,money
-cw-dataset-legal-prices,doi,10.5281/zenodo.23963786
+cw-dataset-legal-prices,doi,10.5281/zenodo.24116042
 cw-dataset-legal-profession-figures,practices,criminal-defense; family-law; personal-injury
 cw-dataset-legal-profession-figures,dimensions,supply
 cw-dataset-legal-profession-figures,doi,10.5281/zenodo.23851292
@@ -877,13 +877,13 @@ cw-dataset-marriage-divorce,dimensions,demand
 cw-dataset-marriage-divorce,doi,10.5281/zenodo.23845898
 cw-dataset-mdl,practices,drug-device-injury; mass-tort; product-liability; toxic-exposure
 cw-dataset-mdl,dimensions,demand
-cw-dataset-mdl,doi,10.5281/zenodo.23963811
+cw-dataset-mdl,doi,10.5281/zenodo.24116044
 cw-dataset-mine-accidents,practices,personal-injury; workers-compensation
 cw-dataset-mine-accidents,dimensions,demand
-cw-dataset-mine-accidents,doi,10.5281/zenodo.23963820
+cw-dataset-mine-accidents,doi,10.5281/zenodo.24116045
 cw-dataset-mortgage-delinquency,practices,bankruptcy; consumer-bankruptcy; foreclosure-defense; real-estate
 cw-dataset-mortgage-delinquency,dimensions,demand
-cw-dataset-mortgage-delinquency,doi,10.5281/zenodo.23845905
+cw-dataset-mortgage-delinquency,doi,10.5281/zenodo.24116047
 cw-dataset-mortgage-lending,practices,foreclosure-defense; real-estate
 cw-dataset-mortgage-lending,dimensions,demand
 cw-dataset-mortgage-lending,doi,10.5281/zenodo.23963883
@@ -892,10 +892,10 @@ cw-dataset-noncitizen-population,dimensions,demand
 cw-dataset-noncitizen-population,doi,10.5281/zenodo.23963957
 cw-dataset-nursing-homes,practices,elder-law; medical-malpractice; nursing-home-abuse
 cw-dataset-nursing-homes,dimensions,demand; money
-cw-dataset-nursing-homes,doi,10.5281/zenodo.23964018
+cw-dataset-nursing-homes,doi,10.5281/zenodo.24116048
 cw-dataset-ny-attorneys,practices,bankruptcy; business-law; civil-rights; consumer-protection; criminal-defense; education-law; employment-law; estate-planning; family-law; immigration; insurance-claims; intellectual-property; investor-claims; landlord-tenant; lemon-law; mass-tort; medical-malpractice; personal-injury; real-estate; ssdi; tax; va-disability; workers-compensation
 cw-dataset-ny-attorneys,dimensions,supply
-cw-dataset-ny-attorneys,doi,10.5281/zenodo.23964055
+cw-dataset-ny-attorneys,doi,10.5281/zenodo.24116050
 cw-dataset-ny-workers-comp,practices,personal-injury; workers-compensation
 cw-dataset-ny-workers-comp,dimensions,demand; supply
 cw-dataset-ny-workers-comp,doi,10.5281/zenodo.23964068
@@ -911,18 +911,18 @@ cw-dataset-population-change,dimensions,demand
 cw-dataset-population-change,doi,10.5281/zenodo.23845912
 cw-dataset-practice-official,practices,bankruptcy; employment-law; immigration; personal-injury
 cw-dataset-practice-official,dimensions,demand
-cw-dataset-practice-official,doi,10.5281/zenodo.23782885
+cw-dataset-practice-official,doi,10.5281/zenodo.24116055
 cw-dataset-product-recalls,practices,product-liability; wrongful-death
 cw-dataset-product-recalls,dimensions,demand
-cw-dataset-product-recalls,doi,10.5281/zenodo.23964084
+cw-dataset-product-recalls,doi,10.5281/zenodo.24116056
 cw-dataset-rail-casualties,practices,railroad-injury; workers-compensation; wrongful-death
 cw-dataset-rail-casualties,dimensions,demand
-cw-dataset-rail-casualties,doi,10.5281/zenodo.23964086
+cw-dataset-rail-casualties,doi,10.5281/zenodo.24116057
 cw-dataset-referral,dimensions,rules
 cw-dataset-referral,doi,10.5281/zenodo.23964121
 cw-dataset-robocall-complaints,practices,consumer-protection; tcpa-robocalls
 cw-dataset-robocall-complaints,dimensions,demand
-cw-dataset-robocall-complaints,doi,10.5281/zenodo.23964125
+cw-dataset-robocall-complaints,doi,10.5281/zenodo.24116058
 cw-dataset-rules,dimensions,rules
 cw-dataset-search-demand,practices,adoption; antitrust; assault-defamation; asylum; auto-accidents; aviation-accidents; bankruptcy; birth-injury; business-bankruptcy; business-formation; business-law; catastrophic-injury; child-custody; child-support; civil-rights; consumer-bankruptcy; consumer-fraud; consumer-protection; contract-disputes; copyright; credit-reporting; criminal-defense; debt-collection-defense; disability-access; divorce; dog-bites; domestic-violence; drug-crimes; drug-device-injury; dui-dwi; education-law; elder-law; employee-benefits; employment-discrimination; employment-immigration; employment-law; estate-planning; expungement; family-immigration; family-law; foreclosure-defense; franchise; guardianship; housing-discrimination; immigration; insurance-claims; intellectual-property; investor-claims; juvenile; labor-relations; landlord-tenant; lemon-law; maritime-injury; mass-tort; medical-malpractice; motorcycle-accidents; naturalization; nursing-home-abuse; patent; pedestrian-bicycle-accidents; personal-injury; police-misconduct; premises-liability; probate; product-liability; railroad-injury; real-estate; removal-defense; rideshare-accidents; special-education; ssdi; tax; tcpa-robocalls; toxic-exposure; trademark; truck-accidents; va-disability; wage-and-hour; whistleblower; white-collar; workers-compensation; wrongful-death; wrongful-termination
 cw-dataset-search-demand,dimensions,demand
@@ -947,10 +947,10 @@ cw-dataset-toxic-releases,dimensions,demand
 cw-dataset-toxic-releases,doi,10.5281/zenodo.23964168
 cw-dataset-truck-crashes,practices,personal-injury; truck-accidents; wrongful-death
 cw-dataset-truck-crashes,dimensions,demand
-cw-dataset-truck-crashes,doi,10.5281/zenodo.23964187
+cw-dataset-truck-crashes,doi,10.5281/zenodo.24116060
 cw-dataset-tx-nonsubscribers,practices,personal-injury; workers-compensation
 cw-dataset-tx-nonsubscribers,dimensions,demand
-cw-dataset-tx-nonsubscribers,doi,10.5281/zenodo.23964216
+cw-dataset-tx-nonsubscribers,doi,10.5281/zenodo.24116061
 cw-dataset-unemployment,practices,employment-law; wage-and-hour; wrongful-termination
 cw-dataset-unemployment,dimensions,demand
 cw-dataset-unemployment,doi,10.5281/zenodo.23964225
@@ -971,13 +971,13 @@ cw-dataset-vehicle-complaints,dimensions,demand
 cw-dataset-vehicle-complaints,doi,10.5281/zenodo.23964283
 cw-dataset-veterans-representation,practices,va-disability
 cw-dataset-veterans-representation,dimensions,demand; supply
-cw-dataset-veterans-representation,doi,10.5281/zenodo.23964365
+cw-dataset-veterans-representation,doi,10.5281/zenodo.24116062
 cw-dataset-wage-enforcement,practices,employment-immigration; employment-law; personal-injury; wage-and-hour; workers-compensation; wrongful-death; wrongful-termination
 cw-dataset-wage-enforcement,dimensions,demand
 cw-dataset-wage-enforcement,doi,10.5281/zenodo.23898146
 cw-dataset-warn-layoffs,practices,employment-law; wage-and-hour; wrongful-termination
 cw-dataset-warn-layoffs,dimensions,demand
-cw-dataset-warn-layoffs,doi,10.5281/zenodo.23964377
+cw-dataset-warn-layoffs,doi,10.5281/zenodo.24116063
 cw-dataset-wc-benefits,practices,personal-injury; workers-compensation
 cw-dataset-wc-benefits,dimensions,demand
 cw-dataset-wc-benefits,doi,10.5281/zenodo.23969440

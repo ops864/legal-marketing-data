@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics), 2026, https://doi.org/10.5281/zenodo.23957260."
+message: "If you use this dataset, please cite it as: Probative Growth, Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics), 2026, https://doi.org/10.5281/zenodo.24116041."
 title: "Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics)"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.1"
-doi: "10.5281/zenodo.23957260"
+version: "1.0.2"
+doi: "10.5281/zenodo.24116041"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23873128"

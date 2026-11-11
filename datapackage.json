@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-10",
-  "created": "2026-11-10T00:00:00Z",
+  "version": "2026-11-11",
+  "created": "2026-11-11T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -479,8 +479,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23962878",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116037",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -669,7 +669,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5984,8 +5984,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963654",
+      "version": "3.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24114746",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6093,7 +6093,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7774,8 +7774,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.24011359",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116039",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -9313,8 +9313,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963739",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116040",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -9433,7 +9433,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -9466,8 +9466,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.1",
-      "id": "https://doi.org/10.5281/zenodo.23957260",
+      "version": "1.0.2",
+      "id": "https://doi.org/10.5281/zenodo.24116041",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -9599,7 +9599,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -10124,8 +10124,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963786",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116042",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -10247,7 +10247,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -10729,8 +10729,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963811",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116044",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -10740,7 +10740,7 @@
       "sources": [
         {
           "title": "www.jpml.uscourts.gov",
-          "path": "https://www.jpml.uscourts.gov/sites/jpml/files/Pending_MDL_Dockets_By_Actions_Pending-October-1-2026.pdf"
+          "path": "https://www.jpml.uscourts.gov/sites/jpml/files/Pending_MDL_Dockets_By_Actions_Pending-November-2-2026.pdf"
         }
       ],
       "schema": {
@@ -10835,7 +10835,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -10868,8 +10868,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963820",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116045",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11013,7 +11013,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11046,8 +11046,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23845905",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116047",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11597,8 +11597,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964018",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116048",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11805,7 +11805,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11838,8 +11838,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964055",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116050",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -11993,7 +11993,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12926,8 +12926,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23782885",
+      "version": "1.1.0",
+      "id": "https://doi.org/10.5281/zenodo.24116055",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13033,8 +13033,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964084",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116056",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13178,7 +13178,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13211,8 +13211,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964086",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116057",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13453,7 +13453,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13640,8 +13640,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964125",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116058",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13760,7 +13760,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15017,8 +15017,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964187",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116060",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15172,7 +15172,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15205,8 +15205,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964216",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116061",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15324,7 +15324,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -16532,8 +16532,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964365",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116062",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -16641,7 +16641,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -16846,8 +16846,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964377",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24116063",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -17008,7 +17008,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",

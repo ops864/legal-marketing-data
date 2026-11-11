@@ -125,15 +125,15 @@ mine-accidents:US:2024,reports_metal,3828
 mine-accidents:US:2024,fatalities_coal,10
 mine-accidents:US:2024,fatalities_metal,18
 mine-accidents:US:2025,year,2025
-mine-accidents:US:2025,reports_coal,1990
-mine-accidents:US:2025,reports_metal,3613
+mine-accidents:US:2025,reports_coal,1991
+mine-accidents:US:2025,reports_metal,3614
 mine-accidents:US:2025,fatalities_coal,8
-mine-accidents:US:2025,fatalities_metal,25
+mine-accidents:US:2025,fatalities_metal,26
 mine-accidents:US:2026,year,2026
-mine-accidents:US:2026,reports_coal,1521
-mine-accidents:US:2026,reports_metal,2956
+mine-accidents:US:2026,reports_coal,1612
+mine-accidents:US:2026,reports_metal,3141
 mine-accidents:US:2026,fatalities_coal,8
-mine-accidents:US:2026,fatalities_metal,18
+mine-accidents:US:2026,fatalities_metal,21
 mine-accidents:AK:2000,stateName,Alaska
 mine-accidents:AK:2000,year,2000
 mine-accidents:AK:2000,reports_coal,1
@@ -368,12 +368,12 @@ mine-accidents:AL:2024,reports_metal,66
 mine-accidents:AL:2024,fatalities_coal,1
 mine-accidents:AL:2025,stateName,Alabama
 mine-accidents:AL:2025,year,2025
-mine-accidents:AL:2025,reports_coal,147
+mine-accidents:AL:2025,reports_coal,148
 mine-accidents:AL:2025,reports_metal,68
 mine-accidents:AL:2026,stateName,Alabama
 mine-accidents:AL:2026,year,2026
-mine-accidents:AL:2026,reports_coal,78
-mine-accidents:AL:2026,reports_metal,61
+mine-accidents:AL:2026,reports_coal,84
+mine-accidents:AL:2026,reports_metal,64
 mine-accidents:AL:2026,fatalities_coal,1
 mine-accidents:AR:2000,stateName,Arkansas
 mine-accidents:AR:2000,year,2000
@@ -479,7 +479,7 @@ mine-accidents:AR:2025,year,2025
 mine-accidents:AR:2025,reports_metal,55
 mine-accidents:AR:2026,stateName,Arkansas
 mine-accidents:AR:2026,year,2026
-mine-accidents:AR:2026,reports_metal,40
+mine-accidents:AR:2026,reports_metal,43
 mine-accidents:AZ:2000,stateName,Arizona
 mine-accidents:AZ:2000,year,2000
 mine-accidents:AZ:2000,reports_coal,18
@@ -603,7 +603,7 @@ mine-accidents:AZ:2025,reports_coal,1
 mine-accidents:AZ:2025,reports_metal,364
 mine-accidents:AZ:2026,stateName,Arizona
 mine-accidents:AZ:2026,year,2026
-mine-accidents:AZ:2026,reports_metal,286
+mine-accidents:AZ:2026,reports_metal,311
 mine-accidents:AZ:2026,fatalities_metal,1
 mine-accidents:CA:2000,stateName,California
 mine-accidents:CA:2000,year,2000
@@ -701,7 +701,7 @@ mine-accidents:CA:2025,reports_metal,156
 mine-accidents:CA:2025,fatalities_metal,1
 mine-accidents:CA:2026,stateName,California
 mine-accidents:CA:2026,year,2026
-mine-accidents:CA:2026,reports_metal,143
+mine-accidents:CA:2026,reports_metal,147
 mine-accidents:CA:2026,fatalities_metal,1
 mine-accidents:CO:2000,stateName,Colorado
 mine-accidents:CO:2000,year,2000
@@ -825,8 +825,8 @@ mine-accidents:CO:2025,reports_metal,72
 mine-accidents:CO:2025,fatalities_metal,1
 mine-accidents:CO:2026,stateName,Colorado
 mine-accidents:CO:2026,year,2026
-mine-accidents:CO:2026,reports_coal,21
-mine-accidents:CO:2026,reports_metal,44
+mine-accidents:CO:2026,reports_coal,23
+mine-accidents:CO:2026,reports_metal,49
 mine-accidents:CT:2000,stateName,Connecticut
 mine-accidents:CT:2000,year,2000
 mine-accidents:CT:2000,reports_metal,51
@@ -1072,7 +1072,7 @@ mine-accidents:FL:2025,reports_metal,106
 mine-accidents:FL:2025,fatalities_metal,3
 mine-accidents:FL:2026,stateName,Florida
 mine-accidents:FL:2026,year,2026
-mine-accidents:FL:2026,reports_metal,78
+mine-accidents:FL:2026,reports_metal,84
 mine-accidents:GA:2000,stateName,Georgia
 mine-accidents:GA:2000,year,2000
 mine-accidents:GA:2000,reports_metal,263
@@ -1171,7 +1171,7 @@ mine-accidents:GA:2025,year,2025
 mine-accidents:GA:2025,reports_metal,90
 mine-accidents:GA:2026,stateName,Georgia
 mine-accidents:GA:2026,year,2026
-mine-accidents:GA:2026,reports_metal,71
+mine-accidents:GA:2026,reports_metal,75
 mine-accidents:GU:2019,stateName,Guam
 mine-accidents:GU:2019,year,2019
 mine-accidents:GU:2019,reports_metal,1
@@ -1354,7 +1354,7 @@ mine-accidents:IA:2025,year,2025
 mine-accidents:IA:2025,reports_metal,52
 mine-accidents:IA:2026,stateName,Iowa
 mine-accidents:IA:2026,year,2026
-mine-accidents:IA:2026,reports_metal,34
+mine-accidents:IA:2026,reports_metal,37
 mine-accidents:IA:2026,fatalities_metal,1
 mine-accidents:ID:2000,stateName,Idaho
 mine-accidents:ID:2000,year,2000
@@ -1446,7 +1446,7 @@ mine-accidents:ID:2025,year,2025
 mine-accidents:ID:2025,reports_metal,70
 mine-accidents:ID:2026,stateName,Idaho
 mine-accidents:ID:2026,year,2026
-mine-accidents:ID:2026,reports_metal,57
+mine-accidents:ID:2026,reports_metal,65
 mine-accidents:IL:2000,stateName,Illinois
 mine-accidents:IL:2000,year,2000
 mine-accidents:IL:2000,reports_coal,573
@@ -1574,9 +1574,10 @@ mine-accidents:IL:2025,reports_metal,52
 mine-accidents:IL:2025,fatalities_metal,1
 mine-accidents:IL:2026,stateName,Illinois
 mine-accidents:IL:2026,year,2026
-mine-accidents:IL:2026,reports_coal,153
-mine-accidents:IL:2026,reports_metal,50
+mine-accidents:IL:2026,reports_coal,167
+mine-accidents:IL:2026,reports_metal,54
 mine-accidents:IL:2026,fatalities_coal,1
+mine-accidents:IL:2026,fatalities_metal,1
 mine-accidents:IN:2000,stateName,Indiana
 mine-accidents:IN:2000,year,2000
 mine-accidents:IN:2000,reports_coal,213
@@ -1705,8 +1706,8 @@ mine-accidents:IN:2025,reports_coal,69
 mine-accidents:IN:2025,reports_metal,63
 mine-accidents:IN:2026,stateName,Indiana
 mine-accidents:IN:2026,year,2026
-mine-accidents:IN:2026,reports_coal,57
-mine-accidents:IN:2026,reports_metal,51
+mine-accidents:IN:2026,reports_coal,59
+mine-accidents:IN:2026,reports_metal,53
 mine-accidents:KS:2000,stateName,Kansas
 mine-accidents:KS:2000,year,2000
 mine-accidents:KS:2000,reports_metal,176
@@ -1799,7 +1800,7 @@ mine-accidents:KS:2025,reports_metal,36
 mine-accidents:KS:2025,fatalities_metal,1
 mine-accidents:KS:2026,stateName,Kansas
 mine-accidents:KS:2026,year,2026
-mine-accidents:KS:2026,reports_metal,25
+mine-accidents:KS:2026,reports_metal,26
 mine-accidents:KY:2000,stateName,Kentucky
 mine-accidents:KY:2000,year,2000
 mine-accidents:KY:2000,reports_coal,2039
@@ -1940,10 +1941,11 @@ mine-accidents:KY:2025,stateName,Kentucky
 mine-accidents:KY:2025,year,2025
 mine-accidents:KY:2025,reports_coal,217
 mine-accidents:KY:2025,reports_metal,75
+mine-accidents:KY:2025,fatalities_metal,1
 mine-accidents:KY:2026,stateName,Kentucky
 mine-accidents:KY:2026,year,2026
-mine-accidents:KY:2026,reports_coal,156
-mine-accidents:KY:2026,reports_metal,44
+mine-accidents:KY:2026,reports_coal,171
+mine-accidents:KY:2026,reports_metal,45
 mine-accidents:KY:2026,fatalities_coal,1
 mine-accidents:LA:2000,stateName,Louisiana
 mine-accidents:LA:2000,year,2000
@@ -2059,7 +2061,7 @@ mine-accidents:LA:2025,year,2025
 mine-accidents:LA:2025,reports_metal,43
 mine-accidents:LA:2026,stateName,Louisiana
 mine-accidents:LA:2026,year,2026
-mine-accidents:LA:2026,reports_metal,30
+mine-accidents:LA:2026,reports_metal,31
 mine-accidents:LA:2026,fatalities_metal,1
 mine-accidents:MA:2000,stateName,Massachusetts
 mine-accidents:MA:2000,year,2000
@@ -2429,7 +2431,7 @@ mine-accidents:MI:2025,year,2025
 mine-accidents:MI:2025,reports_metal,101
 mine-accidents:MI:2026,stateName,Michigan
 mine-accidents:MI:2026,year,2026
-mine-accidents:MI:2026,reports_metal,83
+mine-accidents:MI:2026,reports_metal,89
 mine-accidents:MN:2000,stateName,Minnesota
 mine-accidents:MN:2000,year,2000
 mine-accidents:MN:2000,reports_metal,373
@@ -2520,7 +2522,7 @@ mine-accidents:MN:2025,year,2025
 mine-accidents:MN:2025,reports_metal,115
 mine-accidents:MN:2026,stateName,Minnesota
 mine-accidents:MN:2026,year,2026
-mine-accidents:MN:2026,reports_metal,97
+mine-accidents:MN:2026,reports_metal,103
 mine-accidents:MO:2000,stateName,Missouri
 mine-accidents:MO:2000,year,2000
 mine-accidents:MO:2000,reports_coal,4
@@ -2621,7 +2623,7 @@ mine-accidents:MO:2025,reports_metal,159
 mine-accidents:MO:2025,fatalities_metal,3
 mine-accidents:MO:2026,stateName,Missouri
 mine-accidents:MO:2026,year,2026
-mine-accidents:MO:2026,reports_metal,138
+mine-accidents:MO:2026,reports_metal,149
 mine-accidents:MP:2017,stateName,Northern Mariana Islands
 mine-accidents:MP:2017,year,2017
 mine-accidents:MP:2017,reports_metal,1
@@ -2732,7 +2734,7 @@ mine-accidents:MS:2025,reports_metal,8
 mine-accidents:MS:2026,stateName,Mississippi
 mine-accidents:MS:2026,year,2026
 mine-accidents:MS:2026,reports_coal,1
-mine-accidents:MS:2026,reports_metal,11
+mine-accidents:MS:2026,reports_metal,12
 mine-accidents:MS:2026,fatalities_metal,1
 mine-accidents:MT:2000,stateName,Montana
 mine-accidents:MT:2000,year,2000
@@ -2856,7 +2858,7 @@ mine-accidents:MT:2025,fatalities_metal,1
 mine-accidents:MT:2026,stateName,Montana
 mine-accidents:MT:2026,year,2026
 mine-accidents:MT:2026,reports_coal,10
-mine-accidents:MT:2026,reports_metal,36
+mine-accidents:MT:2026,reports_metal,40
 mine-accidents:NC:2000,stateName,North Carolina
 mine-accidents:NC:2000,year,2000
 mine-accidents:NC:2000,reports_metal,183
@@ -2947,7 +2949,7 @@ mine-accidents:NC:2025,reports_metal,59
 mine-accidents:NC:2025,fatalities_metal,1
 mine-accidents:NC:2026,stateName,North Carolina
 mine-accidents:NC:2026,year,2026
-mine-accidents:NC:2026,reports_metal,48
+mine-accidents:NC:2026,reports_metal,52
 mine-accidents:ND:2000,stateName,North Dakota
 mine-accidents:ND:2000,year,2000
 mine-accidents:ND:2000,reports_coal,22
@@ -3229,7 +3231,7 @@ mine-accidents:NH:2025,year,2025
 mine-accidents:NH:2025,reports_metal,13
 mine-accidents:NH:2026,stateName,New Hampshire
 mine-accidents:NH:2026,year,2026
-mine-accidents:NH:2026,reports_metal,9
+mine-accidents:NH:2026,reports_metal,10
 mine-accidents:NJ:2000,stateName,New Jersey
 mine-accidents:NJ:2000,year,2000
 mine-accidents:NJ:2000,reports_metal,73
@@ -3436,7 +3438,7 @@ mine-accidents:NM:2025,fatalities_metal,1
 mine-accidents:NM:2026,stateName,New Mexico
 mine-accidents:NM:2026,year,2026
 mine-accidents:NM:2026,reports_coal,9
-mine-accidents:NM:2026,reports_metal,50
+mine-accidents:NM:2026,reports_metal,58
 mine-accidents:NV:2000,stateName,Nevada
 mine-accidents:NV:2000,year,2000
 mine-accidents:NV:2000,reports_metal,555
@@ -3540,7 +3542,7 @@ mine-accidents:NV:2025,reports_metal,201
 mine-accidents:NV:2025,fatalities_metal,1
 mine-accidents:NV:2026,stateName,Nevada
 mine-accidents:NV:2026,year,2026
-mine-accidents:NV:2026,reports_metal,224
+mine-accidents:NV:2026,reports_metal,236
 mine-accidents:NV:2026,fatalities_metal,3
 mine-accidents:NY:2000,stateName,New York
 mine-accidents:NY:2000,year,2000
@@ -3634,7 +3636,7 @@ mine-accidents:NY:2025,year,2025
 mine-accidents:NY:2025,reports_metal,89
 mine-accidents:NY:2026,stateName,New York
 mine-accidents:NY:2026,year,2026
-mine-accidents:NY:2026,reports_metal,69
+mine-accidents:NY:2026,reports_metal,75
 mine-accidents:OH:2000,stateName,Ohio
 mine-accidents:OH:2000,year,2000
 mine-accidents:OH:2000,reports_coal,264
@@ -3758,7 +3760,7 @@ mine-accidents:OH:2025,fatalities_coal,1
 mine-accidents:OH:2026,stateName,Ohio
 mine-accidents:OH:2026,year,2026
 mine-accidents:OH:2026,reports_coal,7
-mine-accidents:OH:2026,reports_metal,55
+mine-accidents:OH:2026,reports_metal,64
 mine-accidents:OK:2000,stateName,Oklahoma
 mine-accidents:OK:2000,year,2000
 mine-accidents:OK:2000,reports_coal,46
@@ -3870,7 +3872,7 @@ mine-accidents:OK:2025,reports_metal,77
 mine-accidents:OK:2025,fatalities_metal,1
 mine-accidents:OK:2026,stateName,Oklahoma
 mine-accidents:OK:2026,year,2026
-mine-accidents:OK:2026,reports_metal,50
+mine-accidents:OK:2026,reports_metal,51
 mine-accidents:OK:2026,fatalities_metal,1
 mine-accidents:OR:2000,stateName,Oregon
 mine-accidents:OR:2000,year,2000
@@ -3960,7 +3962,7 @@ mine-accidents:OR:2025,year,2025
 mine-accidents:OR:2025,reports_metal,38
 mine-accidents:OR:2026,stateName,Oregon
 mine-accidents:OR:2026,year,2026
-mine-accidents:OR:2026,reports_metal,29
+mine-accidents:OR:2026,reports_metal,30
 mine-accidents:OR:2026,fatalities_metal,1
 mine-accidents:PA:2000,stateName,Pennsylvania
 mine-accidents:PA:2000,year,2000
@@ -4015,7 +4017,7 @@ mine-accidents:PA:2008,fatalities_coal,5
 mine-accidents:PA:2008,fatalities_metal,2
 mine-accidents:PA:2009,stateName,Pennsylvania
 mine-accidents:PA:2009,year,2009
-mine-accidents:PA:2009,reports_coal,629
+mine-accidents:PA:2009,reports_coal,628
 mine-accidents:PA:2009,reports_metal,300
 mine-accidents:PA:2009,fatalities_coal,1
 mine-accidents:PA:2009,fatalities_metal,1
@@ -4107,8 +4109,8 @@ mine-accidents:PA:2025,fatalities_coal,1
 mine-accidents:PA:2025,fatalities_metal,1
 mine-accidents:PA:2026,stateName,Pennsylvania
 mine-accidents:PA:2026,year,2026
-mine-accidents:PA:2026,reports_coal,181
-mine-accidents:PA:2026,reports_metal,117
+mine-accidents:PA:2026,reports_coal,189
+mine-accidents:PA:2026,reports_metal,120
 mine-accidents:PA:2026,fatalities_coal,2
 mine-accidents:PR:2000,stateName,Puerto Rico
 mine-accidents:PR:2000,year,2000
@@ -4368,7 +4370,7 @@ mine-accidents:SC:2025,year,2025
 mine-accidents:SC:2025,reports_metal,56
 mine-accidents:SC:2026,stateName,South Carolina
 mine-accidents:SC:2026,year,2026
-mine-accidents:SC:2026,reports_metal,59
+mine-accidents:SC:2026,reports_metal,65
 mine-accidents:SD:2000,stateName,South Dakota
 mine-accidents:SD:2000,year,2000
 mine-accidents:SD:2000,reports_metal,117
@@ -4575,7 +4577,7 @@ mine-accidents:TN:2025,reports_metal,62
 mine-accidents:TN:2025,fatalities_metal,1
 mine-accidents:TN:2026,stateName,Tennessee
 mine-accidents:TN:2026,year,2026
-mine-accidents:TN:2026,reports_metal,39
+mine-accidents:TN:2026,reports_metal,43
 mine-accidents:TX:2000,stateName,Texas
 mine-accidents:TX:2000,year,2000
 mine-accidents:TX:2000,reports_coal,85
@@ -4709,8 +4711,8 @@ mine-accidents:TX:2025,fatalities_metal,4
 mine-accidents:TX:2026,stateName,Texas
 mine-accidents:TX:2026,year,2026
 mine-accidents:TX:2026,reports_coal,10
-mine-accidents:TX:2026,reports_metal,218
-mine-accidents:TX:2026,fatalities_metal,4
+mine-accidents:TX:2026,reports_metal,226
+mine-accidents:TX:2026,fatalities_metal,5
 mine-accidents:UT:2000,stateName,Utah
 mine-accidents:UT:2000,year,2000
 mine-accidents:UT:2000,reports_coal,168
@@ -4836,8 +4838,8 @@ mine-accidents:UT:2025,reports_coal,48
 mine-accidents:UT:2025,reports_metal,103
 mine-accidents:UT:2026,stateName,Utah
 mine-accidents:UT:2026,year,2026
-mine-accidents:UT:2026,reports_coal,15
-mine-accidents:UT:2026,reports_metal,95
+mine-accidents:UT:2026,reports_coal,16
+mine-accidents:UT:2026,reports_metal,98
 mine-accidents:UT:2026,fatalities_metal,1
 mine-accidents:VA:2000,stateName,Virginia
 mine-accidents:VA:2000,year,2000
@@ -4969,8 +4971,8 @@ mine-accidents:VA:2025,reports_metal,56
 mine-accidents:VA:2025,fatalities_metal,1
 mine-accidents:VA:2026,stateName,Virginia
 mine-accidents:VA:2026,year,2026
-mine-accidents:VA:2026,reports_coal,84
-mine-accidents:VA:2026,reports_metal,44
+mine-accidents:VA:2026,reports_coal,85
+mine-accidents:VA:2026,reports_metal,50
 mine-accidents:VI:2000,stateName,U.S. Virgin Islands
 mine-accidents:VI:2000,year,2000
 mine-accidents:VI:2000,reports_metal,9
@@ -5203,7 +5205,7 @@ mine-accidents:WA:2025,reports_metal,46
 mine-accidents:WA:2026,stateName,Washington
 mine-accidents:WA:2026,year,2026
 mine-accidents:WA:2026,reports_coal,1
-mine-accidents:WA:2026,reports_metal,33
+mine-accidents:WA:2026,reports_metal,34
 mine-accidents:WI:2000,stateName,Wisconsin
 mine-accidents:WI:2000,year,2000
 mine-accidents:WI:2000,reports_metal,227
@@ -5288,11 +5290,11 @@ mine-accidents:WI:2024,year,2024
 mine-accidents:WI:2024,reports_metal,77
 mine-accidents:WI:2025,stateName,Wisconsin
 mine-accidents:WI:2025,year,2025
-mine-accidents:WI:2025,reports_metal,71
+mine-accidents:WI:2025,reports_metal,72
 mine-accidents:WI:2025,fatalities_metal,1
 mine-accidents:WI:2026,stateName,Wisconsin
 mine-accidents:WI:2026,year,2026
-mine-accidents:WI:2026,reports_metal,69
+mine-accidents:WI:2026,reports_metal,77
 mine-accidents:WV:2000,stateName,West Virginia
 mine-accidents:WV:2000,year,2000
 mine-accidents:WV:2000,reports_coal,2309
@@ -5341,7 +5343,7 @@ mine-accidents:WV:2008,reports_metal,43
 mine-accidents:WV:2008,fatalities_coal,9
 mine-accidents:WV:2009,stateName,West Virginia
 mine-accidents:WV:2009,year,2009
-mine-accidents:WV:2009,reports_coal,1795
+mine-accidents:WV:2009,reports_coal,1796
 mine-accidents:WV:2009,reports_metal,58
 mine-accidents:WV:2009,fatalities_coal,3
 mine-accidents:WV:2010,stateName,West Virginia
@@ -5426,8 +5428,8 @@ mine-accidents:WV:2025,reports_metal,23
 mine-accidents:WV:2025,fatalities_coal,6
 mine-accidents:WV:2026,stateName,West Virginia
 mine-accidents:WV:2026,year,2026
-mine-accidents:WV:2026,reports_coal,672
-mine-accidents:WV:2026,reports_metal,18
+mine-accidents:WV:2026,reports_coal,711
+mine-accidents:WV:2026,reports_metal,20
 mine-accidents:WV:2026,fatalities_coal,3
 mine-accidents:WY:2000,stateName,Wyoming
 mine-accidents:WY:2000,year,2000
@@ -5550,9 +5552,9 @@ mine-accidents:WY:2025,reports_coal,62
 mine-accidents:WY:2025,reports_metal,103
 mine-accidents:WY:2026,stateName,Wyoming
 mine-accidents:WY:2026,year,2026
-mine-accidents:WY:2026,reports_coal,52
-mine-accidents:WY:2026,reports_metal,88
-mine-accidents:WY:2026,fatalities_metal,1
+mine-accidents:WY:2026,reports_coal,55
+mine-accidents:WY:2026,reports_metal,92
+mine-accidents:WY:2026,fatalities_metal,2
 mine-accidents:county:01001,stateName,Alabama
 mine-accidents:county:01001,county,01001
 mine-accidents:county:01001,countyName,Autauga County
@@ -6498,9 +6500,6 @@ mine-accidents:county:16001,countyName,Ada County
 mine-accidents:county:16005,stateName,Idaho
 mine-accidents:county:16005,county,16005
 mine-accidents:county:16005,countyName,Bannock County
-mine-accidents:county:16007,stateName,Idaho
-mine-accidents:county:16007,county,16007
-mine-accidents:county:16007,countyName,Bear Lake County
 mine-accidents:county:16011,stateName,Idaho
 mine-accidents:county:16011,county,16011
 mine-accidents:county:16011,countyName,Bingham County
@@ -7143,6 +7142,9 @@ mine-accidents:county:20015,countyName,Butler County
 mine-accidents:county:20017,stateName,Kansas
 mine-accidents:county:20017,county,20017
 mine-accidents:county:20017,countyName,Chase County
+mine-accidents:county:20019,stateName,Kansas
+mine-accidents:county:20019,county,20019
+mine-accidents:county:20019,countyName,Chautauqua County
 mine-accidents:county:20021,stateName,Kansas
 mine-accidents:county:20021,county,20021
 mine-accidents:county:20021,countyName,Cherokee County

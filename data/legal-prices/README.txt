@@ -1,12 +1,12 @@
 Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963786
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116042
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal-services prices and jobs, monthly (BLS CPI, PPI and CES), version 2.0.0, https://doi.org/10.5281/zenodo.23963786, licensed CC BY 4.0.
+Source: Probative, Legal-services prices and jobs, monthly (BLS CPI, PPI and CES), version 2.0.1, https://doi.org/10.5281/zenodo.24116042, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal-services prices and jobs, monthly (BLS CPI, PPI and CES) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963786
+Probative. (2026). Legal-services prices and jobs, monthly (BLS CPI, PPI and CES) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116042
 
 Not legal advice. These are price and employment statistics from the Bureau of Labor Statistics, kept for marketing planning. Index values are not a fee schedule, and BLS revises recent months.
 Probative is a marketing firm, not a law firm; not legal advice.

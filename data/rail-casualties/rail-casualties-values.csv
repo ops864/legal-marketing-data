@@ -636,6 +636,9 @@ rail-casualties:08047,stateName,Colorado
 rail-casualties:08049,county,08049
 rail-casualties:08049,countyName,Grand County
 rail-casualties:08049,stateName,Colorado
+rail-casualties:08051,county,08051
+rail-casualties:08051,countyName,Gunnison County
+rail-casualties:08051,stateName,Colorado
 rail-casualties:08055,county,08055
 rail-casualties:08055,countyName,Huerfano County
 rail-casualties:08055,stateName,Colorado
@@ -2402,6 +2405,9 @@ rail-casualties:21099,stateName,Kentucky
 rail-casualties:21101,county,21101
 rail-casualties:21101,countyName,Henderson County
 rail-casualties:21101,stateName,Kentucky
+rail-casualties:21103,county,21103
+rail-casualties:21103,countyName,Henry County
+rail-casualties:21103,stateName,Kentucky
 rail-casualties:21105,county,21105
 rail-casualties:21105,countyName,Hickman County
 rail-casualties:21105,stateName,Kentucky
@@ -3216,6 +3222,9 @@ rail-casualties:29025,stateName,Missouri
 rail-casualties:29027,county,29027
 rail-casualties:29027,countyName,Callaway County
 rail-casualties:29027,stateName,Missouri
+rail-casualties:29029,county,29029
+rail-casualties:29029,countyName,Camden County
+rail-casualties:29029,stateName,Missouri
 rail-casualties:29031,county,29031
 rail-casualties:29031,countyName,Cape Girardeau County
 rail-casualties:29031,stateName,Missouri
@@ -4219,6 +4228,7 @@ rail-casualties:31185,county,31185
 rail-casualties:31185,countyName,York County
 rail-casualties:31185,stateName,Nebraska
 rail-casualties:NH,stateName,New Hampshire
+rail-casualties:NH,unplaced,1
 rail-casualties:33003,county,33003
 rail-casualties:33003,countyName,Carroll County
 rail-casualties:33003,stateName,New Hampshire
@@ -4244,7 +4254,6 @@ rail-casualties:33019,county,33019
 rail-casualties:33019,countyName,Sullivan County
 rail-casualties:33019,stateName,New Hampshire
 rail-casualties:NJ,stateName,New Jersey
-rail-casualties:NJ,unplaced,3
 rail-casualties:34001,county,34001
 rail-casualties:34001,countyName,Atlantic County
 rail-casualties:34001,stateName,New Jersey
@@ -5413,6 +5422,9 @@ rail-casualties:46033,stateName,South Dakota
 rail-casualties:46035,county,46035
 rail-casualties:46035,countyName,Davison County
 rail-casualties:46035,stateName,South Dakota
+rail-casualties:46037,county,46037
+rail-casualties:46037,countyName,Day County
+rail-casualties:46037,stateName,South Dakota
 rail-casualties:46045,county,46045
 rail-casualties:46045,countyName,Edmunds County
 rail-casualties:46045,stateName,South Dakota
@@ -5673,7 +5685,6 @@ rail-casualties:47189,county,47189
 rail-casualties:47189,countyName,Wilson County
 rail-casualties:47189,stateName,Tennessee
 rail-casualties:TX,stateName,Texas
-rail-casualties:TX,unplaced,1
 rail-casualties:48001,county,48001
 rail-casualties:48001,countyName,Anderson County
 rail-casualties:48001,stateName,Texas
@@ -6073,6 +6084,9 @@ rail-casualties:48367,stateName,Texas
 rail-casualties:48369,county,48369
 rail-casualties:48369,countyName,Parmer County
 rail-casualties:48369,stateName,Texas
+rail-casualties:48371,county,48371
+rail-casualties:48371,countyName,Pecos County
+rail-casualties:48371,stateName,Texas
 rail-casualties:48373,county,48373
 rail-casualties:48373,countyName,Polk County
 rail-casualties:48373,stateName,Texas
@@ -6790,6 +6804,9 @@ rail-casualties:55111,stateName,Wisconsin
 rail-casualties:55113,county,55113
 rail-casualties:55113,countyName,Sawyer County
 rail-casualties:55113,stateName,Wisconsin
+rail-casualties:55115,county,55115
+rail-casualties:55115,countyName,Shawano County
+rail-casualties:55115,stateName,Wisconsin
 rail-casualties:55117,county,55117
 rail-casualties:55117,countyName,Sheboygan County
 rail-casualties:55117,stateName,Wisconsin

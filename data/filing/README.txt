@@ -1,12 +1,12 @@
 What US state bars charge, and require, to file or review lawyer advertising
 
-Version 3.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963654
+Version 3.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24114746
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, What US state bars charge, and require, to file or review lawyer advertising, version 3.0.0, https://doi.org/10.5281/zenodo.23963654, licensed CC BY 4.0.
+Source: Probative, What US state bars charge, and require, to file or review lawyer advertising, version 3.0.1, https://doi.org/10.5281/zenodo.24114746, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). What US state bars charge, and require, to file or review lawyer advertising (Version 3.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963654
+Probative. (2026). What US state bars charge, and require, to file or review lawyer advertising (Version 3.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24114746
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative is a marketing firm, not a law firm; not legal advice.

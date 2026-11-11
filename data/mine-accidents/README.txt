@@ -1,12 +1,12 @@
 Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963820
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116045
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026, version 2.0.0, https://doi.org/10.5281/zenodo.23963820, licensed CC BY 4.0.
+Source: Probative, Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026, version 2.0.1, https://doi.org/10.5281/zenodo.24116045, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963820
+Probative. (2026). Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026 (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116045
 
 Not legal advice. These are counts of reports that mine operators file with MSHA, not findings of fault or of a violation. A report is a row of MSHA's file: an injured worker, an illness or an accident without injury. The latest year is partial. Workers' compensation claims and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -4667,8 +4667,6 @@ legal-hiring-demand:pay:all-industries:WY:434051,p75,49130
 legal-hiring-demand:pay:all-industries:WY:434051,p90,59790
 legal-hiring-demand:pay:all-industries:WY:434051,employmentRsePct,10.1
 legal-hiring-demand:pay:all-industries:WY:434051,wageRsePct,1.4
-legal-hiring-demand:month:CES6054110001:2024-10,seriesName,Legal services employment
-legal-hiring-demand:month:CES6054110001:2024-10,period,2024-10
 legal-hiring-demand:month:CES6054110001:2024-11,seriesName,Legal services employment
 legal-hiring-demand:month:CES6054110001:2024-11,period,2024-11
 legal-hiring-demand:month:CES6054110001:2024-12,seriesName,Legal services employment
@@ -4715,8 +4713,8 @@ legal-hiring-demand:month:CES6054110001:2026-08,seriesName,Legal services employ
 legal-hiring-demand:month:CES6054110001:2026-08,period,2026-08
 legal-hiring-demand:month:CES6054110001:2026-09,seriesName,Legal services employment
 legal-hiring-demand:month:CES6054110001:2026-09,period,2026-09
-legal-hiring-demand:month:CES6054110003:2024-09,seriesName,Legal services average hourly earnings
-legal-hiring-demand:month:CES6054110003:2024-09,period,2024-09
+legal-hiring-demand:month:CES6054110001:2026-10,seriesName,Legal services employment
+legal-hiring-demand:month:CES6054110001:2026-10,period,2026-10
 legal-hiring-demand:month:CES6054110003:2024-10,seriesName,Legal services average hourly earnings
 legal-hiring-demand:month:CES6054110003:2024-10,period,2024-10
 legal-hiring-demand:month:CES6054110003:2024-11,seriesName,Legal services average hourly earnings
@@ -4763,8 +4761,8 @@ legal-hiring-demand:month:CES6054110003:2026-07,seriesName,Legal services averag
 legal-hiring-demand:month:CES6054110003:2026-07,period,2026-07
 legal-hiring-demand:month:CES6054110003:2026-08,seriesName,Legal services average hourly earnings
 legal-hiring-demand:month:CES6054110003:2026-08,period,2026-08
-legal-hiring-demand:month:JTS540099000000000JOL:2024-09,seriesName,Professional and business services job openings
-legal-hiring-demand:month:JTS540099000000000JOL:2024-09,period,2024-09
+legal-hiring-demand:month:CES6054110003:2026-09,seriesName,Legal services average hourly earnings
+legal-hiring-demand:month:CES6054110003:2026-09,period,2026-09
 legal-hiring-demand:month:JTS540099000000000JOL:2024-10,seriesName,Professional and business services job openings
 legal-hiring-demand:month:JTS540099000000000JOL:2024-10,period,2024-10
 legal-hiring-demand:month:JTS540099000000000JOL:2024-11,seriesName,Professional and business services job openings
@@ -4811,8 +4809,8 @@ legal-hiring-demand:month:JTS540099000000000JOL:2026-07,seriesName,Professional 
 legal-hiring-demand:month:JTS540099000000000JOL:2026-07,period,2026-07
 legal-hiring-demand:month:JTS540099000000000JOL:2026-08,seriesName,Professional and business services job openings
 legal-hiring-demand:month:JTS540099000000000JOL:2026-08,period,2026-08
-legal-hiring-demand:month:JTS540099000000000JOR:2024-09,seriesName,Professional and business services job openings rate
-legal-hiring-demand:month:JTS540099000000000JOR:2024-09,period,2024-09
+legal-hiring-demand:month:JTS540099000000000JOL:2026-09,seriesName,Professional and business services job openings
+legal-hiring-demand:month:JTS540099000000000JOL:2026-09,period,2026-09
 legal-hiring-demand:month:JTS540099000000000JOR:2024-10,seriesName,Professional and business services job openings rate
 legal-hiring-demand:month:JTS540099000000000JOR:2024-10,period,2024-10
 legal-hiring-demand:month:JTS540099000000000JOR:2024-11,seriesName,Professional and business services job openings rate
@@ -4859,8 +4857,8 @@ legal-hiring-demand:month:JTS540099000000000JOR:2026-07,seriesName,Professional 
 legal-hiring-demand:month:JTS540099000000000JOR:2026-07,period,2026-07
 legal-hiring-demand:month:JTS540099000000000JOR:2026-08,seriesName,Professional and business services job openings rate
 legal-hiring-demand:month:JTS540099000000000JOR:2026-08,period,2026-08
-legal-hiring-demand:month:JTS540099000000000HIL:2024-09,seriesName,Professional and business services hires
-legal-hiring-demand:month:JTS540099000000000HIL:2024-09,period,2024-09
+legal-hiring-demand:month:JTS540099000000000JOR:2026-09,seriesName,Professional and business services job openings rate
+legal-hiring-demand:month:JTS540099000000000JOR:2026-09,period,2026-09
 legal-hiring-demand:month:JTS540099000000000HIL:2024-10,seriesName,Professional and business services hires
 legal-hiring-demand:month:JTS540099000000000HIL:2024-10,period,2024-10
 legal-hiring-demand:month:JTS540099000000000HIL:2024-11,seriesName,Professional and business services hires
@@ -4907,8 +4905,8 @@ legal-hiring-demand:month:JTS540099000000000HIL:2026-07,seriesName,Professional 
 legal-hiring-demand:month:JTS540099000000000HIL:2026-07,period,2026-07
 legal-hiring-demand:month:JTS540099000000000HIL:2026-08,seriesName,Professional and business services hires
 legal-hiring-demand:month:JTS540099000000000HIL:2026-08,period,2026-08
-legal-hiring-demand:month:JTS540099000000000HIR:2024-09,seriesName,Professional and business services hires rate
-legal-hiring-demand:month:JTS540099000000000HIR:2024-09,period,2024-09
+legal-hiring-demand:month:JTS540099000000000HIL:2026-09,seriesName,Professional and business services hires
+legal-hiring-demand:month:JTS540099000000000HIL:2026-09,period,2026-09
 legal-hiring-demand:month:JTS540099000000000HIR:2024-10,seriesName,Professional and business services hires rate
 legal-hiring-demand:month:JTS540099000000000HIR:2024-10,period,2024-10
 legal-hiring-demand:month:JTS540099000000000HIR:2024-11,seriesName,Professional and business services hires rate
@@ -4955,8 +4953,8 @@ legal-hiring-demand:month:JTS540099000000000HIR:2026-07,seriesName,Professional 
 legal-hiring-demand:month:JTS540099000000000HIR:2026-07,period,2026-07
 legal-hiring-demand:month:JTS540099000000000HIR:2026-08,seriesName,Professional and business services hires rate
 legal-hiring-demand:month:JTS540099000000000HIR:2026-08,period,2026-08
-legal-hiring-demand:month:JTS540099000000000QUR:2024-09,seriesName,Professional and business services quits rate
-legal-hiring-demand:month:JTS540099000000000QUR:2024-09,period,2024-09
+legal-hiring-demand:month:JTS540099000000000HIR:2026-09,seriesName,Professional and business services hires rate
+legal-hiring-demand:month:JTS540099000000000HIR:2026-09,period,2026-09
 legal-hiring-demand:month:JTS540099000000000QUR:2024-10,seriesName,Professional and business services quits rate
 legal-hiring-demand:month:JTS540099000000000QUR:2024-10,period,2024-10
 legal-hiring-demand:month:JTS540099000000000QUR:2024-11,seriesName,Professional and business services quits rate
@@ -5003,6 +5001,8 @@ legal-hiring-demand:month:JTS540099000000000QUR:2026-07,seriesName,Professional 
 legal-hiring-demand:month:JTS540099000000000QUR:2026-07,period,2026-07
 legal-hiring-demand:month:JTS540099000000000QUR:2026-08,seriesName,Professional and business services quits rate
 legal-hiring-demand:month:JTS540099000000000QUR:2026-08,period,2026-08
+legal-hiring-demand:month:JTS540099000000000QUR:2026-09,seriesName,Professional and business services quits rate
+legal-hiring-demand:month:JTS540099000000000QUR:2026-09,period,2026-09
 legal-hiring-demand:state-demand:AK,period,2025-01/2025-12
 legal-hiring-demand:state-demand:AK,months,12
 legal-hiring-demand:state-demand:AK,openingsRate,5.4

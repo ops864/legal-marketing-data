@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, WARN Act layoff and closure notices by county: California and Texas, 2026, https://doi.org/10.5281/zenodo.23964377."
+message: "If you use this dataset, please cite it as: Probative Growth, WARN Act layoff and closure notices by county: California and Texas, 2026, https://doi.org/10.5281/zenodo.24116063."
 title: "WARN Act layoff and closure notices by county: California and Texas"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "2.0.0"
-doi: "10.5281/zenodo.23964377"
+version: "2.0.1"
+doi: "10.5281/zenodo.24116063"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23753096"

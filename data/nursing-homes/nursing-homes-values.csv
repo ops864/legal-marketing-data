@@ -1510,10 +1510,13 @@ nh-13321,county,13321
 nh-13321,countyName,Worth County
 nh-13321,one_star_share_pct,0
 nh-gu,one_star_share_pct,0
-nh-gu,facilities_without_county,1
+nh-gu,facilities_without_county,0
 nh-gu,cms_avg_fines_per_facility,1
 nh-gu,cms_avg_fine_amount_usd,13247
 nh-gu,cms_avg_cycle1_health_deficiencies,16
+nh-66010,county,66010
+nh-66010,countyName,Guam
+nh-66010,one_star_share_pct,0
 nh-hi,one_star_share_pct,4.9
 nh-hi,facilities_without_county,0
 nh-hi,cms_avg_fines_per_facility,0.7
@@ -8796,7 +8799,7 @@ nh-56045,county,56045
 nh-56045,countyName,Weston County
 nh-56045,one_star_share_pct,0
 nh-us,one_star_share_pct,18.9
-nh-us,facilities_without_county,10
+nh-us,facilities_without_county,9
 nh-us,cms_avg_fines_per_facility,0.9
 nh-us,cms_avg_fine_amount_usd,30351
 nh-us,cms_avg_cycle1_health_deficiencies,9.2

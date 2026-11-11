@@ -1,593 +1,597 @@
 id,column,value
 mdl-2738,district,NJ
-mdl-2738,change365d,2136
-mdl-2738,compareDate365d,2025-10-01
+mdl-2738,change365d,2147
+mdl-2738,compareDate365d,2025-11-03
 mdl-2738,docketType,Products Liability
 mdl-2846,district,OHS
-mdl-2846,change365d,-680
-mdl-2846,compareDate365d,2025-10-01
+mdl-2846,change365d,-633
+mdl-2846,compareDate365d,2025-11-03
 mdl-2846,docketType,Products Liability
 mdl-2873,district,SC
-mdl-2873,change365d,1322
-mdl-2873,compareDate365d,2025-10-01
+mdl-2873,change365d,21
+mdl-2873,compareDate365d,2025-11-03
 mdl-2873,docketType,Products Liability
 mdl-3060,district,ILN
-mdl-3060,change365d,1829
-mdl-3060,compareDate365d,2025-10-01
+mdl-3060,change365d,2020
+mdl-3060,compareDate365d,2025-11-03
 mdl-3060,docketType,Products Liability
 mdl-2789,district,NJ
 mdl-2789,change365d,73
-mdl-2789,compareDate365d,2025-10-01
+mdl-2789,compareDate365d,2025-11-03
 mdl-2789,docketType,Products Liability
 mdl-2666,district,MN
-mdl-2666,change365d,-579
-mdl-2666,compareDate365d,2025-10-01
+mdl-2666,change365d,-343
+mdl-2666,compareDate365d,2025-11-03
 mdl-2666,docketType,Products Liability
 mdl-3004,district,ILS
-mdl-3004,change365d,157
-mdl-3004,compareDate365d,2025-10-01
+mdl-3004,change365d,202
+mdl-3004,compareDate365d,2025-11-03
 mdl-3004,docketType,Products Liability
 mdl-2570,district,INS
-mdl-2570,change365d,-498
-mdl-2570,compareDate365d,2025-10-01
+mdl-2570,change365d,-502
+mdl-2570,compareDate365d,2025-11-03
 mdl-2570,docketType,Products Liability
 mdl-3140,district,FLN
-mdl-3140,change365d,5190
-mdl-3140,compareDate365d,2025-10-01
+mdl-3140,change365d,5188
+mdl-3140,compareDate365d,2025-11-03
 mdl-3140,docketType,Products Liability
 mdl-3084,district,CAN
-mdl-3084,change365d,2195
-mdl-3084,compareDate365d,2025-10-01
+mdl-3084,change365d,1765
+mdl-3084,compareDate365d,2025-11-03
 mdl-3084,docketType,Miscellaneous
-mdl-2974,district,GAN
-mdl-2974,change365d,629
-mdl-2974,compareDate365d,2025-10-01
-mdl-2974,docketType,Products Liability
 mdl-3081,district,AZ
-mdl-3081,change365d,2167
-mdl-3081,compareDate365d,2025-10-01
+mdl-3081,change365d,2218
+mdl-3081,compareDate365d,2025-11-03
 mdl-3081,docketType,Products Liability
-mdl-3094,district,PAE
-mdl-3094,change365d,1216
-mdl-3094,compareDate365d,2025-10-01
-mdl-3094,docketType,Products Liability
 mdl-3047,district,CAN
-mdl-3047,change365d,1771
-mdl-3047,compareDate365d,2025-10-01
+mdl-3047,change365d,2137
+mdl-3047,compareDate365d,2025-11-03
 mdl-3047,docketType,Products Liability
+mdl-2974,district,GAN
+mdl-2974,change365d,446
+mdl-2974,compareDate365d,2025-11-03
+mdl-2974,docketType,Products Liability
+mdl-3094,district,PAE
+mdl-3094,change365d,1168
+mdl-3094,compareDate365d,2025-11-03
+mdl-3094,docketType,Products Liability
 mdl-2804,district,OHN
 mdl-2804,change365d,-88
-mdl-2804,compareDate365d,2025-10-01
+mdl-2804,compareDate365d,2025-11-03
 mdl-2804,docketType,Miscellaneous
 mdl-3029,district,MA
-mdl-3029,change365d,327
-mdl-3029,compareDate365d,2025-10-01
+mdl-3029,change365d,285
+mdl-3029,compareDate365d,2025-11-03
 mdl-3029,docketType,Products Liability
 mdl-3092,district,OHN
 mdl-3092,change365d,145
-mdl-3092,compareDate365d,2025-10-01
+mdl-3092,compareDate365d,2025-11-03
 mdl-3092,docketType,Products Liability
 mdl-3044,district,NYE
 mdl-3044,change365d,0
-mdl-3044,compareDate365d,2025-10-01
+mdl-3044,compareDate365d,2025-11-03
 mdl-3044,docketType,Products Liability
 mdl-2875,district,NJ
-mdl-2875,change365d,62
-mdl-2875,compareDate365d,2025-10-01
+mdl-2875,change365d,54
+mdl-2875,compareDate365d,2025-11-03
 mdl-2875,docketType,Products Liability
-mdl-2921,change365d,-95
-mdl-2921,compareDate365d,2025-10-01
+mdl-2921,change365d,-107
+mdl-2921,compareDate365d,2025-11-03
 mdl-2921,docketType,Products Liability
 mdl-2741,district,CAN
-mdl-2741,change365d,-3368
-mdl-2741,compareDate365d,2025-10-01
+mdl-2741,change365d,-3574
+mdl-2741,compareDate365d,2025-11-03
 mdl-2741,docketType,Products Liability
-mdl-2924,district,FLS
-mdl-2924,change365d,-1386
-mdl-2924,compareDate365d,2025-10-01
-mdl-2924,docketType,Products Liability
 mdl-3026,district,ILN
-mdl-3026,change365d,83
-mdl-3026,compareDate365d,2025-10-01
+mdl-3026,change365d,92
+mdl-3026,compareDate365d,2025-11-03
 mdl-3026,docketType,Products Liability
+mdl-2924,district,FLS
+mdl-2924,change365d,-1006
+mdl-2924,compareDate365d,2025-11-03
+mdl-2924,docketType,Products Liability
 mdl-3014,district,PAW
-mdl-3014,change365d,-210
-mdl-3014,compareDate365d,2025-10-01
+mdl-3014,change365d,-159
+mdl-3014,compareDate365d,2025-11-03
 mdl-3014,docketType,Products Liability
 mdl-2243,district,NJ
-mdl-2243,change365d,-287
-mdl-2243,compareDate365d,2025-10-01
+mdl-2243,change365d,-286
+mdl-2243,compareDate365d,2025-11-03
 mdl-2243,docketType,Products Liability
-mdl-2492,district,ILN
-mdl-2492,change365d,-37
-mdl-2492,compareDate365d,2025-10-01
-mdl-2492,docketType,Miscellaneous
-mdl-3080,district,NJ
-mdl-3080,change365d,77
-mdl-3080,compareDate365d,2025-10-01
+mdl-3080,change365d,72
+mdl-3080,compareDate365d,2025-11-03
 mdl-3080,docketType,Sales Practices
-mdl-3101,district,CAN
-mdl-3101,change365d,272
-mdl-3101,compareDate365d,2025-10-01
-mdl-3101,docketType,Products Liability
 mdl-3125,district,CAS
-mdl-3125,change365d,191
-mdl-3125,compareDate365d,2025-10-01
+mdl-3125,change365d,198
+mdl-3125,compareDate365d,2025-11-03
 mdl-3125,docketType,Products Liability
 mdl-1570,district,NYS
-mdl-1570,change365d,13
-mdl-1570,compareDate365d,2025-10-01
+mdl-1570,change365d,29
+mdl-1570,compareDate365d,2025-11-03
 mdl-1570,docketType,Common Disaster
 mdl-2323,district,PAE
 mdl-2323,change365d,0
-mdl-2323,compareDate365d,2025-10-01
+mdl-2323,compareDate365d,2025-11-03
 mdl-2323,docketType,Miscellaneous
+mdl-3101,district,CAN
+mdl-3101,change365d,14
+mdl-3101,compareDate365d,2025-11-03
+mdl-3101,docketType,Products Liability
 mdl-3079,district,ILN
 mdl-3079,change365d,7
-mdl-3079,compareDate365d,2025-10-01
+mdl-3079,compareDate365d,2025-11-03
 mdl-3079,docketType,Products Liability
 mdl-3163,district,PAE
 mdl-3163,docketType,Products Liability
 mdl-2996,district,CAN
-mdl-2996,change365d,-12
-mdl-2996,compareDate365d,2025-10-01
+mdl-2996,change365d,0
+mdl-2996,compareDate365d,2025-11-03
 mdl-2996,docketType,Miscellaneous
 mdl-3083,district,MA
-mdl-3083,change365d,-52
-mdl-3083,compareDate365d,2025-10-01
+mdl-3083,change365d,-53
+mdl-3083,compareDate365d,2025-11-03
 mdl-3083,docketType,Data Breach and Consumer Privacy
 mdl-3121,district,ILN
-mdl-3121,change365d,139
-mdl-3121,compareDate365d,2025-10-01
+mdl-3121,change365d,135
+mdl-3121,compareDate365d,2025-11-03
 mdl-3121,docketType,Antitrust
-mdl-2973,district,NJ
-mdl-2973,change365d,-544
-mdl-2973,compareDate365d,2025-10-01
-mdl-2973,docketType,Products Liability
 mdl-3166,district,CAN
 mdl-3166,docketType,Miscellaneous
-mdl-3087,change365d,26
-mdl-3087,compareDate365d,2025-10-01
+mdl-2973,district,NJ
+mdl-2973,change365d,-542
+mdl-2973,compareDate365d,2025-11-03
+mdl-2973,docketType,Products Liability
+mdl-2492,district,ILN
+mdl-2492,change365d,-419
+mdl-2492,compareDate365d,2025-11-03
+mdl-2492,docketType,Miscellaneous
+mdl-3087,district,CAN
+mdl-3087,change365d,8
+mdl-3087,compareDate365d,2025-11-03
 mdl-3087,docketType,Products Liability
 mdl-3108,district,MN
-mdl-3108,change365d,70
-mdl-3108,compareDate365d,2025-10-01
+mdl-3108,change365d,76
+mdl-3108,compareDate365d,2025-11-03
 mdl-3108,docketType,Data Breach and Consumer Privacy
-mdl-3114,district,TXN
-mdl-3114,change365d,7
-mdl-3114,compareDate365d,2025-10-01
-mdl-3114,docketType,Data Breach and Consumer Privacy
-mdl-3023,district,LAE
-mdl-3023,change365d,-231
-mdl-3023,compareDate365d,2025-10-01
-mdl-3023,docketType,Products Liability
-mdl-2814,district,CAC
-mdl-2814,change365d,-5
-mdl-2814,compareDate365d,2025-10-01
-mdl-2814,docketType,Products Liability
 mdl-3171,district,CAN
 mdl-3171,docketType,Miscellaneous
-mdl-2672,change365d,-2
-mdl-2672,compareDate365d,2025-10-01
+mdl-3114,district,TXN
+mdl-3114,change365d,7
+mdl-3114,compareDate365d,2025-11-03
+mdl-3114,docketType,Data Breach and Consumer Privacy
+mdl-2814,district,CAC
+mdl-2814,change365d,-4
+mdl-2814,compareDate365d,2025-11-03
+mdl-2814,docketType,Products Liability
+mdl-3023,district,LAE
+mdl-3023,change365d,-236
+mdl-3023,compareDate365d,2025-11-03
+mdl-3023,docketType,Products Liability
+mdl-2672,district,CAN
+mdl-2672,change365d,-1
+mdl-2672,compareDate365d,2025-11-03
 mdl-2672,docketType,Products Liability
-mdl-2197,district,OHN
-mdl-2197,change365d,-18
-mdl-2197,compareDate365d,2025-10-01
-mdl-2197,docketType,Products Liability
-mdl-3043,district,NYS
-mdl-3043,change365d,55
-mdl-3043,compareDate365d,2025-10-01
-mdl-3043,docketType,Products Liability
 mdl-3176,district,TXE
 mdl-3176,docketType,Intellectual Property
+mdl-3043,district,NYS
+mdl-3043,change365d,55
+mdl-3043,compareDate365d,2025-11-03
+mdl-3043,docketType,Products Liability
 mdl-2656,district,DC
 mdl-2656,change365d,0
-mdl-2656,compareDate365d,2025-10-01
+mdl-2656,compareDate365d,2025-11-03
 mdl-2656,docketType,Antitrust
-mdl-2753,district,NH
-mdl-2753,change365d,-287
-mdl-2753,compareDate365d,2025-10-01
-mdl-2753,docketType,Products Liability
+mdl-2197,district,OHN
+mdl-2197,change365d,-26
+mdl-2197,compareDate365d,2025-11-03
+mdl-2197,docketType,Products Liability
 mdl-3052,district,CAC
-mdl-3052,change365d,2
-mdl-3052,compareDate365d,2025-10-01
+mdl-3052,change365d,0
+mdl-3052,compareDate365d,2025-11-03
 mdl-3052,docketType,Products Liability
+mdl-2753,district,NH
+mdl-2753,change365d,-272
+mdl-2753,compareDate365d,2025-11-03
+mdl-2753,docketType,Products Liability
 mdl-2599,district,FLS
-mdl-2599,change365d,78
-mdl-2599,compareDate365d,2025-10-01
+mdl-2599,change365d,0
+mdl-2599,compareDate365d,2025-11-03
 mdl-2599,docketType,Products Liability
+mdl-3179,district,WIE
+mdl-3179,docketType,Antitrust
 mdl-3149,district,CAS
 mdl-3149,change365d,5
-mdl-3149,compareDate365d,2025-10-01
+mdl-3149,compareDate365d,2025-11-03
 mdl-3149,docketType,Data Breach and Consumer Privacy
 mdl-3126,district,MT
-mdl-3126,change365d,-12
-mdl-3126,compareDate365d,2025-10-01
+mdl-3126,change365d,-13
+mdl-3126,compareDate365d,2025-11-03
 mdl-3126,docketType,Data Breach and Consumer Privacy
 mdl-2724,district,PAE
 mdl-2724,change365d,-70
-mdl-2724,compareDate365d,2025-10-01
+mdl-2724,compareDate365d,2025-11-03
 mdl-2724,docketType,Antitrust
 mdl-2879,district,MD
 mdl-2879,change365d,-4
-mdl-2879,compareDate365d,2025-10-01
+mdl-2879,compareDate365d,2025-11-03
 mdl-2879,docketType,Data Breach and Consumer Privacy
 mdl-1720,district,NYE
 mdl-1720,change365d,1
-mdl-1720,compareDate365d,2025-10-01
+mdl-1720,compareDate365d,2025-11-03
 mdl-1720,docketType,Antitrust
 mdl-3170,district,ILN
 mdl-3170,docketType,Data Breach and Consumer Privacy
-mdl-3179,district,WIE
-mdl-3179,docketType,Antitrust
+mdl-3181,district,CAC
+mdl-3181,docketType,Products Liability
 mdl-1917,district,CAN
 mdl-1917,change365d,0
-mdl-1917,compareDate365d,2025-10-01
+mdl-1917,compareDate365d,2025-11-03
 mdl-1917,docketType,Antitrust
 mdl-3110,district,MN
 mdl-3110,change365d,0
-mdl-3110,compareDate365d,2025-10-01
+mdl-3110,compareDate365d,2025-11-03
 mdl-3110,docketType,Antitrust
-mdl-3096,district,NYE
-mdl-3096,change365d,-4
-mdl-3096,compareDate365d,2025-10-01
-mdl-3096,docketType,Data Breach and Consumer Privacy
-mdl-2998,district,MN
 mdl-2998,change365d,-1
-mdl-2998,compareDate365d,2025-10-01
+mdl-2998,compareDate365d,2025-11-03
 mdl-2998,docketType,Antitrust
+mdl-3096,district,NYE
+mdl-3096,change365d,-6
+mdl-3096,compareDate365d,2025-11-03
+mdl-3096,docketType,Data Breach and Consumer Privacy
 mdl-2768,district,MA
-mdl-2768,change365d,-19
-mdl-2768,compareDate365d,2025-10-01
+mdl-2768,change365d,-21
+mdl-2768,compareDate365d,2025-11-03
 mdl-2768,docketType,Products Liability
 mdl-3128,district,MN
-mdl-3128,change365d,6
-mdl-3128,compareDate365d,2025-10-01
+mdl-3128,change365d,9
+mdl-3128,compareDate365d,2025-11-03
 mdl-3128,docketType,Sales Practices
 mdl-3189,district,CAC
 mdl-3189,docketType,Securities
-mdl-2904,district,NJ
-mdl-2904,change365d,0
-mdl-2904,compareDate365d,2025-10-01
-mdl-2904,docketType,Data Breach and Consumer Privacy
-mdl-3155,change365d,23
-mdl-3155,compareDate365d,2025-10-01
-mdl-3155,docketType,Air Disaster
-mdl-3181,district,CAC
-mdl-3181,docketType,Products Liability
-mdl-3098,district,CAN
-mdl-3098,change365d,0
-mdl-3098,compareDate365d,2025-10-01
-mdl-3098,docketType,Data Breach and Consumer Privacy
 mdl-3187,district,KS
 mdl-3187,docketType,Antitrust
+mdl-2904,district,NJ
+mdl-2904,change365d,0
+mdl-2904,compareDate365d,2025-11-03
+mdl-2904,docketType,Data Breach and Consumer Privacy
+mdl-3155,district,MN
+mdl-3155,change365d,23
+mdl-3155,compareDate365d,2025-11-03
+mdl-3155,docketType,Air Disaster
+mdl-3031,district,MN
+mdl-3031,change365d,5
+mdl-3031,compareDate365d,2025-11-03
+mdl-3031,docketType,Antitrust
+mdl-3098,district,CAN
+mdl-3098,change365d,0
+mdl-3098,compareDate365d,2025-11-03
+mdl-3098,docketType,Data Breach and Consumer Privacy
 mdl-3180,district,NJ
 mdl-3180,docketType,Products Liability
-mdl-3028,district,NYS
-mdl-3028,change365d,-31
-mdl-3028,compareDate365d,2025-10-01
-mdl-3028,docketType,Common Disaster
-mdl-3031,district,MN
-mdl-3031,change365d,2
-mdl-3031,compareDate365d,2025-10-01
-mdl-3031,docketType,Antitrust
 mdl-3076,district,FLS
 mdl-3076,change365d,2
-mdl-3076,compareDate365d,2025-10-01
+mdl-3076,compareDate365d,2025-11-03
 mdl-3076,docketType,Securities
 mdl-3006,district,FLM
 mdl-3006,change365d,0
-mdl-3006,compareDate365d,2025-10-01
+mdl-3006,compareDate365d,2025-11-03
 mdl-3006,docketType,Products Liability
 mdl-3010,district,NYS
-mdl-3010,change365d,25
-mdl-3010,compareDate365d,2025-10-01
+mdl-3010,change365d,23
+mdl-3010,compareDate365d,2025-11-03
 mdl-3010,docketType,Antitrust
 mdl-2992,district,CAS
 mdl-2992,change365d,1
-mdl-2992,compareDate365d,2025-10-01
+mdl-2992,compareDate365d,2025-11-03
 mdl-2992,docketType,Miscellaneous
+mdl-2931,district,ILN
+mdl-2931,change365d,5
+mdl-2931,compareDate365d,2025-11-03
+mdl-2931,docketType,Antitrust
 mdl-3148,district,RI
 mdl-3148,change365d,0
-mdl-3148,compareDate365d,2025-10-01
+mdl-3148,compareDate365d,2025-11-03
 mdl-3148,docketType,Antitrust
 mdl-2918,district,CAN
 mdl-2918,change365d,0
-mdl-2918,compareDate365d,2025-10-01
+mdl-2918,compareDate365d,2025-11-03
 mdl-2918,docketType,Antitrust
 mdl-3113,district,NJ
-mdl-3113,change365d,-4
-mdl-3113,compareDate365d,2025-10-01
+mdl-3113,change365d,-3
+mdl-3113,compareDate365d,2025-11-03
 mdl-3113,docketType,Antitrust
+mdl-3199,docketType,Products Liability
+mdl-2542,district,NYS
+mdl-2542,change365d,7
+mdl-2542,compareDate365d,2025-11-03
+mdl-2542,docketType,Antitrust
 mdl-2905,district,CAC
 mdl-2905,change365d,1
-mdl-2905,compareDate365d,2025-10-01
+mdl-2905,compareDate365d,2025-11-03
 mdl-2905,docketType,Products Liability
+mdl-3119,district,NM
+mdl-3119,change365d,2
+mdl-3119,compareDate365d,2025-11-03
+mdl-3119,docketType,Antitrust
 mdl-3185,district,MOE
 mdl-3185,docketType,Data Breach and Consumer Privacy
-mdl-2542,district,NYS
-mdl-2542,change365d,6
-mdl-2542,compareDate365d,2025-10-01
-mdl-2542,docketType,Antitrust
-mdl-2931,district,ILN
-mdl-2931,change365d,0
-mdl-2931,compareDate365d,2025-10-01
-mdl-2931,docketType,Antitrust
-mdl-2972,district,SC
-mdl-2972,change365d,0
-mdl-2972,compareDate365d,2025-10-01
-mdl-2972,docketType,Data Breach and Consumer Privacy
-mdl-3119,district,NM
-mdl-3119,change365d,0
-mdl-3119,compareDate365d,2025-10-01
-mdl-3119,docketType,Antitrust
+mdl-3194,district,ILN
+mdl-3194,docketType,Products Liability
 mdl-2865,district,NYS
 mdl-2865,change365d,-120
-mdl-2865,compareDate365d,2025-10-01
+mdl-2865,compareDate365d,2025-11-03
 mdl-2865,docketType,Miscellaneous
 mdl-3051,district,GAN
 mdl-3051,change365d,0
-mdl-3051,compareDate365d,2025-10-01
+mdl-3051,compareDate365d,2025-11-03
 mdl-3051,docketType,Products Liability
+mdl-3195,district,CAN
+mdl-3195,docketType,Products Liability
 mdl-3115,district,GAN
-mdl-3115,change365d,3
-mdl-3115,compareDate365d,2025-10-01
+mdl-3115,change365d,2
+mdl-3115,compareDate365d,2025-11-03
 mdl-3115,docketType,Data Breach and Consumer Privacy
+mdl-3143,district,NYS
+mdl-3143,change365d,10
+mdl-3143,compareDate365d,2025-11-03
+mdl-3143,docketType,Intellectual Property
 mdl-3160,district,CO
+mdl-3160,change365d,0
+mdl-3160,compareDate365d,2025-11-03
 mdl-3160,docketType,Antitrust
 mdl-2406,district,ALN
-mdl-2406,change365d,-9
-mdl-2406,compareDate365d,2025-10-01
+mdl-2406,change365d,2
+mdl-2406,compareDate365d,2025-11-03
 mdl-2406,docketType,Antitrust
-mdl-3143,district,NYS
-mdl-3143,change365d,9
-mdl-3143,compareDate365d,2025-10-01
-mdl-3143,docketType,Intellectual Property
-mdl-3178,docketType,Products Liability
 mdl-3172,district,ARE
 mdl-3172,docketType,Products Liability
+mdl-3178,district,NYS
+mdl-3178,docketType,Products Liability
+mdl-3152,district,ILN
+mdl-3152,change365d,1
+mdl-3152,compareDate365d,2025-11-03
+mdl-3152,docketType,Antitrust
 mdl-3175,district,WIW
 mdl-3175,docketType,Antitrust
 mdl-3190,district,TXE
 mdl-3190,docketType,Intellectual Property
 mdl-2460,district,PAE
 mdl-2460,change365d,0
-mdl-2460,compareDate365d,2025-10-01
+mdl-2460,compareDate365d,2025-11-03
 mdl-2460,docketType,Antitrust
-mdl-2740,district,LAE
-mdl-2740,change365d,-3392
-mdl-2740,compareDate365d,2025-10-01
-mdl-2740,docketType,Products Liability
-mdl-3152,district,ILN
-mdl-3152,change365d,1
-mdl-3152,compareDate365d,2025-10-01
-mdl-3152,docketType,Antitrust
 mdl-3073,district,MOW
 mdl-3073,change365d,0
-mdl-3073,compareDate365d,2025-10-01
+mdl-3073,compareDate365d,2025-11-03
 mdl-3073,docketType,Data Breach and Consumer Privacy
 mdl-2695,district,NM
 mdl-2695,change365d,0
-mdl-2695,compareDate365d,2025-10-01
+mdl-2695,compareDate365d,2025-11-03
 mdl-2695,docketType,Sales Practices
 mdl-2843,district,CAN
 mdl-2843,change365d,-15
-mdl-2843,compareDate365d,2025-10-01
+mdl-2843,compareDate365d,2025-11-03
 mdl-2843,docketType,Data Breach and Consumer Privacy
 mdl-3050,district,NYS
 mdl-3050,change365d,0
-mdl-3050,compareDate365d,2025-10-01
+mdl-3050,compareDate365d,2025-11-03
 mdl-3050,docketType,Products Liability
 mdl-3097,change365d,0
-mdl-3097,compareDate365d,2025-10-01
+mdl-3097,compareDate365d,2025-11-03
 mdl-3097,docketType,Antitrust
 mdl-3153,change365d,-3
-mdl-3153,compareDate365d,2025-10-01
+mdl-3153,compareDate365d,2025-11-03
 mdl-3153,docketType,Data Breach and Consumer Privacy
+mdl-3191,district,MN
+mdl-3191,docketType,Sales Practices
 mdl-2311,district,MIE
 mdl-2311,change365d,0
-mdl-2311,compareDate365d,2025-10-01
+mdl-2311,compareDate365d,2025-11-03
 mdl-2311,docketType,Antitrust
 mdl-2818,district,MIE
 mdl-2818,change365d,0
-mdl-2818,compareDate365d,2025-10-01
+mdl-2818,compareDate365d,2025-11-03
 mdl-2818,docketType,Sales Practices
 mdl-2867,district,ILN
 mdl-2867,change365d,0
-mdl-2867,compareDate365d,2025-10-01
+mdl-2867,compareDate365d,2025-11-03
 mdl-2867,docketType,Antitrust
 mdl-2981,district,CAN
 mdl-2981,change365d,1
-mdl-2981,compareDate365d,2025-10-01
+mdl-2981,compareDate365d,2025-11-03
 mdl-2981,docketType,Antitrust
 mdl-3030,district,ILN
 mdl-3030,change365d,0
-mdl-3030,compareDate365d,2025-10-01
+mdl-3030,compareDate365d,2025-11-03
 mdl-3030,docketType,Antitrust
 mdl-2841,district,FLS
 mdl-2841,change365d,0
-mdl-2841,compareDate365d,2025-10-01
+mdl-2841,compareDate365d,2025-11-03
 mdl-2841,docketType,Products Liability
 mdl-3159,district,MIE
 mdl-3159,change365d,1
-mdl-3159,compareDate365d,2025-10-01
+mdl-3159,compareDate365d,2025-11-03
 mdl-3159,docketType,Data Breach and Consumer Privacy
 mdl-2700,district,OKN
 mdl-2700,change365d,-1
-mdl-2700,compareDate365d,2025-10-01
+mdl-2700,compareDate365d,2025-11-03
 mdl-2700,docketType,Sales Practices
 mdl-2862,district,PAW
 mdl-2862,change365d,0
-mdl-2862,compareDate365d,2025-10-01
+mdl-2862,compareDate365d,2025-11-03
 mdl-2862,docketType,Antitrust
 mdl-3001,district,CAN
-mdl-3001,change365d,1
-mdl-3001,compareDate365d,2025-10-01
+mdl-3001,change365d,0
+mdl-3001,compareDate365d,2025-11-03
 mdl-3001,docketType,Miscellaneous
+mdl-3028,district,NYS
+mdl-3028,change365d,-56
+mdl-3028,compareDate365d,2025-11-03
+mdl-3028,docketType,Common Disaster
 mdl-3144,district,CAC
 mdl-3144,change365d,1
-mdl-3144,compareDate365d,2025-10-01
+mdl-3144,compareDate365d,2025-11-03
 mdl-3144,docketType,Data Breach and Consumer Privacy
 mdl-3162,district,DC
 mdl-3162,docketType,Antitrust
 mdl-3040,district,MIE
 mdl-3040,change365d,0
-mdl-3040,compareDate365d,2025-10-01
+mdl-3040,compareDate365d,2025-11-03
 mdl-3040,docketType,Products Liability
 mdl-2913,district,CAN
-mdl-2913,change365d,-22
-mdl-2913,compareDate365d,2025-10-01
+mdl-2913,change365d,-18
+mdl-2913,compareDate365d,2025-11-03
 mdl-2913,docketType,Products Liability
 mdl-3071,district,TNM
 mdl-3071,change365d,-2
-mdl-3071,compareDate365d,2025-10-01
+mdl-3071,compareDate365d,2025-11-03
 mdl-3071,docketType,Antitrust
-mdl-3191,district,MN
-mdl-3191,docketType,Sales Practices
 mdl-3193,district,FLS
 mdl-3193,docketType,Data Breach and Consumer Privacy
-mdl-3078,district,WIE
-mdl-3078,change365d,0
-mdl-3078,compareDate365d,2025-10-01
-mdl-3078,docketType,Products Liability
 mdl-3034,district,MIE
 mdl-3034,change365d,0
-mdl-3034,compareDate365d,2025-10-01
+mdl-3034,compareDate365d,2025-11-03
 mdl-3034,docketType,Intellectual Property
 mdl-3157,district,OHS
 mdl-3157,change365d,0
-mdl-3157,compareDate365d,2025-10-01
+mdl-3157,compareDate365d,2025-11-03
 mdl-3157,docketType,Sales Practices
 mdl-3174,district,WAW
 mdl-3174,docketType,Air Disaster
+mdl-3197,docketType,Sales Practices
 mdl-2441,district,MN
 mdl-2441,change365d,-36
-mdl-2441,compareDate365d,2025-10-01
+mdl-2441,compareDate365d,2025-11-03
 mdl-2441,docketType,Products Liability
+mdl-2740,district,LAE
+mdl-2740,change365d,-2982
+mdl-2740,compareDate365d,2025-11-03
+mdl-2740,docketType,Products Liability
 mdl-2951,district,CAN
 mdl-2951,change365d,0
-mdl-2951,compareDate365d,2025-10-01
+mdl-2951,compareDate365d,2025-11-03
 mdl-2951,docketType,Miscellaneous
 mdl-3035,district,TNW
 mdl-3035,change365d,0
-mdl-3035,compareDate365d,2025-10-01
+mdl-3035,compareDate365d,2025-11-03
 mdl-3035,docketType,Employment Practices
 mdl-3036,district,NCW
-mdl-3036,change365d,-117
-mdl-3036,compareDate365d,2025-10-01
+mdl-3036,change365d,-123
+mdl-3036,compareDate365d,2025-11-03
 mdl-3036,docketType,Products Liability
 mdl-3167,district,UT
 mdl-3167,docketType,Antitrust
 mdl-1916,district,FLS
 mdl-1916,change365d,0
-mdl-1916,compareDate365d,2025-10-01
+mdl-1916,compareDate365d,2025-11-03
 mdl-1916,docketType,Miscellaneous
 mdl-2151,district,CAC
-mdl-2151,change365d,-2
-mdl-2151,compareDate365d,2025-10-01
+mdl-2151,change365d,-1
+mdl-2151,compareDate365d,2025-11-03
 mdl-2151,docketType,Products Liability
 mdl-2670,district,CAS
 mdl-2670,change365d,0
-mdl-2670,compareDate365d,2025-10-01
+mdl-2670,compareDate365d,2025-11-03
 mdl-2670,docketType,Antitrust
 mdl-2984,district,MOW
 mdl-2984,change365d,-2
-mdl-2984,compareDate365d,2025-10-01
+mdl-2984,compareDate365d,2025-11-03
 mdl-2984,docketType,Sales Practices
 mdl-2985,district,CAN
 mdl-2985,change365d,1
-mdl-2985,compareDate365d,2025-10-01
+mdl-2985,compareDate365d,2025-11-03
 mdl-2985,docketType,Miscellaneous
 mdl-3037,district,ILN
-mdl-3037,change365d,-99
-mdl-3037,compareDate365d,2025-10-01
+mdl-3037,change365d,-91
+mdl-3037,compareDate365d,2025-11-03
 mdl-3037,docketType,Products Liability
 mdl-1358,district,NYS
 mdl-1358,change365d,0
-mdl-1358,compareDate365d,2025-10-01
+mdl-1358,compareDate365d,2025-11-03
 mdl-1358,docketType,Products Liability
 mdl-2099,district,TXN
 mdl-2099,change365d,-11
-mdl-2099,compareDate365d,2025-10-01
+mdl-2099,compareDate365d,2025-11-03
 mdl-2099,docketType,Securities
 mdl-2816,district,PAM
 mdl-2816,change365d,3
-mdl-2816,compareDate365d,2025-10-01
+mdl-2816,compareDate365d,2025-11-03
 mdl-2816,docketType,Products Liability
 mdl-3138,district,NJ
 mdl-3138,change365d,-1
-mdl-3138,compareDate365d,2025-10-01
+mdl-3138,compareDate365d,2025-11-03
 mdl-3138,docketType,Intellectual Property
 mdl-3161,district,CAN
+mdl-3161,change365d,-1
+mdl-3161,compareDate365d,2025-11-03
 mdl-3161,docketType,Antitrust
 mdl-2566,district,MA
 mdl-2566,change365d,0
-mdl-2566,compareDate365d,2025-10-01
+mdl-2566,compareDate365d,2025-11-03
 mdl-2566,docketType,Securities
 mdl-2704,district,NYS
 mdl-2704,change365d,0
-mdl-2704,compareDate365d,2025-10-01
+mdl-2704,compareDate365d,2025-11-03
 mdl-2704,docketType,Antitrust
 mdl-3103,district,WVN
-mdl-3103,change365d,-5
-mdl-3103,compareDate365d,2025-10-01
+mdl-3103,change365d,-3
+mdl-3103,compareDate365d,2025-11-03
 mdl-3103,docketType,Intellectual Property
 mdl-3192,district,VAE
 mdl-3192,docketType,Antitrust
 mdl-1663,district,NJ
 mdl-1663,change365d,0
-mdl-1663,compareDate365d,2025-10-01
+mdl-1663,compareDate365d,2025-11-03
 mdl-1663,docketType,Antitrust
 mdl-1871,district,PAE
-mdl-1871,change365d,2
-mdl-1871,compareDate365d,2025-10-01
+mdl-1871,change365d,0
+mdl-1871,compareDate365d,2025-11-03
 mdl-1871,docketType,Products Liability
+mdl-2859,district,NYS
+mdl-2859,change365d,0
+mdl-2859,compareDate365d,2025-11-03
+mdl-2859,docketType,Products Liability
 mdl-2885,district,FLN
 mdl-2885,docketType,Products Liability
 mdl-3074,docketType,Data Breach and Consumer Privacy
 mdl-3154,district,MA
 mdl-3154,change365d,0
-mdl-3154,compareDate365d,2025-10-01
+mdl-3154,compareDate365d,2025-11-03
 mdl-3154,docketType,Antitrust
 mdl-2165,district,DC
 mdl-2165,change365d,-1
-mdl-2165,compareDate365d,2025-10-01
+mdl-2165,compareDate365d,2025-11-03
 mdl-2165,docketType,Miscellaneous
 mdl-2179,district,LAE
 mdl-2179,change365d,-1
-mdl-2179,compareDate365d,2025-10-01
+mdl-2179,compareDate365d,2025-11-03
 mdl-2179,docketType,Common Disaster
-mdl-2859,district,NYS
-mdl-2859,change365d,-1
-mdl-2859,compareDate365d,2025-10-01
-mdl-2859,docketType,Products Liability
 mdl-2930,district,DE
 mdl-2930,change365d,0
-mdl-2930,compareDate365d,2025-10-01
+mdl-2930,compareDate365d,2025-11-03
 mdl-2930,docketType,Intellectual Property
 mdl-3111,district,VAE
 mdl-3111,change365d,-7
-mdl-3111,compareDate365d,2025-10-01
+mdl-3111,compareDate365d,2025-11-03
 mdl-3111,docketType,Miscellaneous
 mdl-2782,district,GAN
 mdl-2782,change365d,-1
-mdl-2782,compareDate365d,2025-10-01
+mdl-2782,compareDate365d,2025-11-03
 mdl-2782,docketType,Products Liability
 mdl-2848,district,PAE
 mdl-2848,change365d,-826
-mdl-2848,compareDate365d,2025-10-01
+mdl-2848,compareDate365d,2025-11-03
 mdl-2848,docketType,Products Liability
 mdl-2967,district,ILN
 mdl-2967,change365d,0
-mdl-2967,compareDate365d,2025-10-01
+mdl-2967,compareDate365d,2025-11-03
 mdl-2967,docketType,Data Breach and Consumer Privacy
 mdl-3015,district,FLS
 mdl-3015,change365d,0
-mdl-3015,compareDate365d,2025-10-01
+mdl-3015,compareDate365d,2025-11-03
 mdl-3015,docketType,Products Liability
 mdl-3062,district,NCM
 mdl-3062,change365d,-26
-mdl-3062,compareDate365d,2025-10-01
+mdl-3062,compareDate365d,2025-11-03
 mdl-3062,docketType,Antitrust
 mdl-2591,district,KS
 mdl-2591,dateClosed,2026-01-13

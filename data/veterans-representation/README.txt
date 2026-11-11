@@ -1,12 +1,12 @@
 VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964365
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116062
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation, version 2.0.0, https://doi.org/10.5281/zenodo.23964365, licensed CC BY 4.0.
+Source: Probative, VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation, version 2.0.1, https://doi.org/10.5281/zenodo.24116062, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964365
+Probative. (2026). VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116062
 
 Not legal advice. These are counts of people on the VA's public accreditation lists and of Board of Veterans' Appeals decisions, kept for marketing planning. An accreditation is the VA's permission to help with claims, not an endorsement or a measure of quality, and the counts say nothing about any veteran's claim. Deadlines and fees are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury, 2026, https://doi.org/10.5281/zenodo.24011359."
+message: "If you use this dataset, please cite it as: Probative Growth, Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury, 2026, https://doi.org/10.5281/zenodo.24116039."
 title: "Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.24011359"
+version: "1.0.1"
+doi: "10.5281/zenodo.24116039"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24011358"

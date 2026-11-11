@@ -82,6 +82,10 @@ la-ad-filing,effectiveFrom,amendments through 2022-01-01 (per LSBA rules PDF)
 la-ad-filing,detail,Fees are per separate/distinct advertisement or communication.
 ma-ad-filing,retention_years,0
 ma-ad-filing,effectiveFrom,2022-10-01
+md-ad-filing,timing,after_first_use
+md-ad-filing,timing_detail,within 3 days after the date that the communication is sent
+md-ad-filing,days_after_first_use_allowed,3
+md-ad-filing,days_detail,Applies only to the solicitations this law covers: a copy is filed within 3 days after it is sent.
 md-ad-filing,retention_years,3
 md-ad-filing,effectiveFrom,2016-07-01
 me-ad-filing,retention_years,0

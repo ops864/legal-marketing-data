@@ -1,11 +1,11 @@
 id,column,value
-truck-crashes:US,active_carriers,2006043
-truck-crashes:US,interstate_carriers,656854
+truck-crashes:US,active_carriers,2008431
+truck-crashes:US,interstate_carriers,657778
 truck-crashes:US,note,Counted once per crash report; a report coded to two states counts in each state but once here.
 truck-crashes:AK,stateName,Alaska
-truck-crashes:AK,active_carriers,6437
-truck-crashes:AK,interstate_carriers,412
-truck-crashes:AK,note,"Carriers: 6,437 active FMCSA-registered carriers with at least one power unit have their main address in the state (412 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:AK,active_carriers,6439
+truck-crashes:AK,interstate_carriers,408
+truck-crashes:AK,note,"Carriers: 6,439 active FMCSA-registered carriers with at least one power unit have their main address in the state (408 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:02013,county,02013
 truck-crashes:02013,countyName,Aleutians East Borough
 truck-crashes:02013,stateName,Alaska
@@ -104,9 +104,9 @@ truck-crashes:AK-county-not-given,countyName,County not given
 truck-crashes:AK-county-not-given,stateName,Alaska
 truck-crashes:AK-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:AL,stateName,Alabama
-truck-crashes:AL,active_carriers,33082
-truck-crashes:AL,interstate_carriers,9412
-truck-crashes:AL,note,"Carriers: 33,082 active FMCSA-registered carriers with at least one power unit have their main address in the state (9,412 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:AL,active_carriers,33089
+truck-crashes:AL,interstate_carriers,9411
+truck-crashes:AL,note,"Carriers: 33,089 active FMCSA-registered carriers with at least one power unit have their main address in the state (9,411 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:01001,county,01001
 truck-crashes:01001,countyName,Autauga County
 truck-crashes:01001,stateName,Alabama
@@ -313,8 +313,8 @@ truck-crashes:AL-county-not-given,stateName,Alabama
 truck-crashes:AL-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:AR,stateName,Arkansas
 truck-crashes:AR,active_carriers,9555
-truck-crashes:AR,interstate_carriers,5703
-truck-crashes:AR,note,"Carriers: 9,555 active FMCSA-registered carriers with at least one power unit have their main address in the state (5,703 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:AR,interstate_carriers,5704
+truck-crashes:AR,note,"Carriers: 9,555 active FMCSA-registered carriers with at least one power unit have their main address in the state (5,704 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:05001,county,05001
 truck-crashes:05001,countyName,Arkansas County
 truck-crashes:05001,stateName,Arkansas
@@ -546,14 +546,14 @@ truck-crashes:AR-county-not-given,note,"Crash reports whose county code is missi
 truck-crashes:AS,stateName,American Samoa
 truck-crashes:AS,active_carriers,14
 truck-crashes:AS,interstate_carriers,0
-truck-crashes:AS,note,"Carriers: 14 active FMCSA-registered carriers with at least one power unit have their main address in the state (0 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:AS,note,"Carriers: 14 active FMCSA-registered carriers with at least one power unit have their main address in the state (0 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:AS-county-not-given,countyName,County not given
 truck-crashes:AS-county-not-given,stateName,American Samoa
 truck-crashes:AS-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:AZ,stateName,Arizona
-truck-crashes:AZ,active_carriers,29009
-truck-crashes:AZ,interstate_carriers,8723
-truck-crashes:AZ,note,"Carriers: 29,009 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,723 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:AZ,active_carriers,29047
+truck-crashes:AZ,interstate_carriers,8741
+truck-crashes:AZ,note,"Carriers: 29,047 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,741 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:04001,county,04001
 truck-crashes:04001,countyName,Apache County
 truck-crashes:04001,stateName,Arizona
@@ -603,9 +603,9 @@ truck-crashes:AZ-county-not-given,countyName,County not given
 truck-crashes:AZ-county-not-given,stateName,Arizona
 truck-crashes:AZ-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:CA,stateName,California
-truck-crashes:CA,active_carriers,246334
-truck-crashes:CA,interstate_carriers,62479
-truck-crashes:CA,note,"Carriers: 246,334 active FMCSA-registered carriers with at least one power unit have their main address in the state (62,479 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:CA,active_carriers,246556
+truck-crashes:CA,interstate_carriers,62485
+truck-crashes:CA,note,"Carriers: 246,556 active FMCSA-registered carriers with at least one power unit have their main address in the state (62,485 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:06001,county,06001
 truck-crashes:06001,countyName,Alameda County
 truck-crashes:06001,stateName,California
@@ -784,9 +784,9 @@ truck-crashes:CA-county-not-given,countyName,County not given
 truck-crashes:CA-county-not-given,stateName,California
 truck-crashes:CA-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:CO,stateName,Colorado
-truck-crashes:CO,active_carriers,47857
-truck-crashes:CO,interstate_carriers,8722
-truck-crashes:CO,note,"Carriers: 47,857 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,722 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:CO,active_carriers,47874
+truck-crashes:CO,interstate_carriers,8720
+truck-crashes:CO,note,"Carriers: 47,874 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,720 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:08001,county,08001
 truck-crashes:08001,countyName,Adams County
 truck-crashes:08001,stateName,Colorado
@@ -983,9 +983,9 @@ truck-crashes:CO-county-not-given,countyName,County not given
 truck-crashes:CO-county-not-given,stateName,Colorado
 truck-crashes:CO-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:CT,stateName,Connecticut
-truck-crashes:CT,active_carriers,20376
-truck-crashes:CT,interstate_carriers,8011
-truck-crashes:CT,note,"Carriers: 20,376 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,011 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:CT,active_carriers,20415
+truck-crashes:CT,interstate_carriers,8031
+truck-crashes:CT,note,"Carriers: 20,415 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,031 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:09001,county,09001
 truck-crashes:09001,countyName,Fairfield County
 truck-crashes:09001,stateName,Connecticut
@@ -1046,16 +1046,16 @@ truck-crashes:09190,county,09190
 truck-crashes:09190,countyName,Western Connecticut Planning Region
 truck-crashes:09190,stateName,Connecticut
 truck-crashes:DC,stateName,District of Columbia
-truck-crashes:DC,active_carriers,722
-truck-crashes:DC,interstate_carriers,350
-truck-crashes:DC,note,"Carriers: 722 active FMCSA-registered carriers with at least one power unit have their main address in the state (350 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:DC,active_carriers,725
+truck-crashes:DC,interstate_carriers,354
+truck-crashes:DC,note,"Carriers: 725 active FMCSA-registered carriers with at least one power unit have their main address in the state (354 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:11001,county,11001
 truck-crashes:11001,countyName,District of Columbia
 truck-crashes:11001,stateName,District of Columbia
 truck-crashes:DE,stateName,Delaware
-truck-crashes:DE,active_carriers,4399
-truck-crashes:DE,interstate_carriers,2981
-truck-crashes:DE,note,"Carriers: 4,399 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,981 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:DE,active_carriers,4416
+truck-crashes:DE,interstate_carriers,2998
+truck-crashes:DE,note,"Carriers: 4,416 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,998 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:10001,county,10001
 truck-crashes:10001,countyName,Kent County
 truck-crashes:10001,stateName,Delaware
@@ -1069,9 +1069,9 @@ truck-crashes:DE-county-not-given,countyName,County not given
 truck-crashes:DE-county-not-given,stateName,Delaware
 truck-crashes:DE-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:FL,stateName,Florida
-truck-crashes:FL,active_carriers,141434
-truck-crashes:FL,interstate_carriers,29624
-truck-crashes:FL,note,"Carriers: 141,434 active FMCSA-registered carriers with at least one power unit have their main address in the state (29,624 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:FL,active_carriers,141677
+truck-crashes:FL,interstate_carriers,29711
+truck-crashes:FL,note,"Carriers: 141,677 active FMCSA-registered carriers with at least one power unit have their main address in the state (29,711 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:12001,county,12001
 truck-crashes:12001,countyName,Alachua County
 truck-crashes:12001,stateName,Florida
@@ -1277,9 +1277,9 @@ truck-crashes:FL-county-not-given,countyName,County not given
 truck-crashes:FL-county-not-given,stateName,Florida
 truck-crashes:FL-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:GA,stateName,Georgia
-truck-crashes:GA,active_carriers,97618
+truck-crashes:GA,active_carriers,97685
 truck-crashes:GA,interstate_carriers,26551
-truck-crashes:GA,note,"Carriers: 97,618 active FMCSA-registered carriers with at least one power unit have their main address in the state (26,551 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:GA,note,"Carriers: 97,685 active FMCSA-registered carriers with at least one power unit have their main address in the state (26,551 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:13001,county,13001
 truck-crashes:13001,countyName,Appling County
 truck-crashes:13001,stateName,Georgia
@@ -1761,16 +1761,16 @@ truck-crashes:GA-county-not-given,countyName,County not given
 truck-crashes:GA-county-not-given,stateName,Georgia
 truck-crashes:GA-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:GU,stateName,Guam
-truck-crashes:GU,active_carriers,566
+truck-crashes:GU,active_carriers,567
 truck-crashes:GU,interstate_carriers,17
-truck-crashes:GU,note,"Carriers: 566 active FMCSA-registered carriers with at least one power unit have their main address in the state (17 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:GU,note,"Carriers: 567 active FMCSA-registered carriers with at least one power unit have their main address in the state (17 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:GU-county-not-given,countyName,County not given
 truck-crashes:GU-county-not-given,stateName,Guam
 truck-crashes:GU-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:HI,stateName,Hawaii
-truck-crashes:HI,active_carriers,5184
-truck-crashes:HI,interstate_carriers,253
-truck-crashes:HI,note,"Carriers: 5,184 active FMCSA-registered carriers with at least one power unit have their main address in the state (253 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:HI,active_carriers,5201
+truck-crashes:HI,interstate_carriers,252
+truck-crashes:HI,note,"Carriers: 5,201 active FMCSA-registered carriers with at least one power unit have their main address in the state (252 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:15001,county,15001
 truck-crashes:15001,countyName,Hawaii County
 truck-crashes:15001,stateName,Hawaii
@@ -1790,9 +1790,9 @@ truck-crashes:HI-county-not-given,countyName,County not given
 truck-crashes:HI-county-not-given,stateName,Hawaii
 truck-crashes:HI-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:IA,stateName,Iowa
-truck-crashes:IA,active_carriers,25387
-truck-crashes:IA,interstate_carriers,11033
-truck-crashes:IA,note,"Carriers: 25,387 active FMCSA-registered carriers with at least one power unit have their main address in the state (11,033 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:IA,active_carriers,25407
+truck-crashes:IA,interstate_carriers,11050
+truck-crashes:IA,note,"Carriers: 25,407 active FMCSA-registered carriers with at least one power unit have their main address in the state (11,050 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:19001,county,19001
 truck-crashes:19001,countyName,Adair County
 truck-crashes:19001,stateName,Iowa
@@ -2091,9 +2091,9 @@ truck-crashes:19197,county,19197
 truck-crashes:19197,countyName,Wright County
 truck-crashes:19197,stateName,Iowa
 truck-crashes:ID,stateName,Idaho
-truck-crashes:ID,active_carriers,13061
-truck-crashes:ID,interstate_carriers,6181
-truck-crashes:ID,note,"Carriers: 13,061 active FMCSA-registered carriers with at least one power unit have their main address in the state (6,181 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:ID,active_carriers,13076
+truck-crashes:ID,interstate_carriers,6190
+truck-crashes:ID,note,"Carriers: 13,076 active FMCSA-registered carriers with at least one power unit have their main address in the state (6,190 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:16001,county,16001
 truck-crashes:16001,countyName,Ada County
 truck-crashes:16001,stateName,Idaho
@@ -2230,9 +2230,9 @@ truck-crashes:ID-county-not-given,countyName,County not given
 truck-crashes:ID-county-not-given,stateName,Idaho
 truck-crashes:ID-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:IL,stateName,Illinois
-truck-crashes:IL,active_carriers,48817
-truck-crashes:IL,interstate_carriers,33415
-truck-crashes:IL,note,"Carriers: 48,817 active FMCSA-registered carriers with at least one power unit have their main address in the state (33,415 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:IL,active_carriers,48880
+truck-crashes:IL,interstate_carriers,33474
+truck-crashes:IL,note,"Carriers: 48,880 active FMCSA-registered carriers with at least one power unit have their main address in the state (33,474 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:17001,county,17001
 truck-crashes:17001,countyName,Adams County
 truck-crashes:17001,stateName,Illinois
@@ -2540,9 +2540,9 @@ truck-crashes:17203,county,17203
 truck-crashes:17203,countyName,Woodford County
 truck-crashes:17203,stateName,Illinois
 truck-crashes:IN,stateName,Indiana
-truck-crashes:IN,active_carriers,43953
-truck-crashes:IN,interstate_carriers,18156
-truck-crashes:IN,note,"Carriers: 43,953 active FMCSA-registered carriers with at least one power unit have their main address in the state (18,156 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:IN,active_carriers,44003
+truck-crashes:IN,interstate_carriers,18191
+truck-crashes:IN,note,"Carriers: 44,003 active FMCSA-registered carriers with at least one power unit have their main address in the state (18,191 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:18001,county,18001
 truck-crashes:18001,countyName,Adams County
 truck-crashes:18001,stateName,Indiana
@@ -2823,9 +2823,9 @@ truck-crashes:IN-county-not-given,countyName,County not given
 truck-crashes:IN-county-not-given,stateName,Indiana
 truck-crashes:IN-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:KS,stateName,Kansas
-truck-crashes:KS,active_carriers,17983
-truck-crashes:KS,interstate_carriers,7998
-truck-crashes:KS,note,"Carriers: 17,983 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,998 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:KS,active_carriers,17997
+truck-crashes:KS,interstate_carriers,8010
+truck-crashes:KS,note,"Carriers: 17,997 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,010 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:20001,county,20001
 truck-crashes:20001,countyName,Allen County
 truck-crashes:20001,stateName,Kansas
@@ -3145,9 +3145,9 @@ truck-crashes:KS-county-not-given,countyName,County not given
 truck-crashes:KS-county-not-given,stateName,Kansas
 truck-crashes:KS-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:KY,stateName,Kentucky
-truck-crashes:KY,active_carriers,41409
-truck-crashes:KY,interstate_carriers,9518
-truck-crashes:KY,note,"Carriers: 41,409 active FMCSA-registered carriers with at least one power unit have their main address in the state (9,518 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:KY,active_carriers,41447
+truck-crashes:KY,interstate_carriers,9529
+truck-crashes:KY,note,"Carriers: 41,447 active FMCSA-registered carriers with at least one power unit have their main address in the state (9,529 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:21001,county,21001
 truck-crashes:21001,countyName,Adair County
 truck-crashes:21001,stateName,Kentucky
@@ -3512,9 +3512,9 @@ truck-crashes:KY-county-not-given,countyName,County not given
 truck-crashes:KY-county-not-given,stateName,Kentucky
 truck-crashes:KY-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:LA,stateName,Louisiana
-truck-crashes:LA,active_carriers,10693
-truck-crashes:LA,interstate_carriers,5562
-truck-crashes:LA,note,"Carriers: 10,693 active FMCSA-registered carriers with at least one power unit have their main address in the state (5,562 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:LA,active_carriers,10680
+truck-crashes:LA,interstate_carriers,5545
+truck-crashes:LA,note,"Carriers: 10,680 active FMCSA-registered carriers with at least one power unit have their main address in the state (5,545 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:22001,county,22001
 truck-crashes:22001,countyName,Acadia Parish
 truck-crashes:22001,stateName,Louisiana
@@ -3711,9 +3711,9 @@ truck-crashes:LA-county-not-given,countyName,County not given
 truck-crashes:LA-county-not-given,stateName,Louisiana
 truck-crashes:LA-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:MA,stateName,Massachusetts
-truck-crashes:MA,active_carriers,37494
-truck-crashes:MA,interstate_carriers,13876
-truck-crashes:MA,note,"Carriers: 37,494 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,876 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MA,active_carriers,37568
+truck-crashes:MA,interstate_carriers,13903
+truck-crashes:MA,note,"Carriers: 37,568 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,903 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:25001,county,25001
 truck-crashes:25001,countyName,Barnstable County
 truck-crashes:25001,stateName,Massachusetts
@@ -3760,9 +3760,9 @@ truck-crashes:MA-county-not-given,countyName,County not given
 truck-crashes:MA-county-not-given,stateName,Massachusetts
 truck-crashes:MA-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:MD,stateName,Maryland
-truck-crashes:MD,active_carriers,41054
-truck-crashes:MD,interstate_carriers,16983
-truck-crashes:MD,note,"Carriers: 41,054 active FMCSA-registered carriers with at least one power unit have their main address in the state (16,983 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MD,active_carriers,41101
+truck-crashes:MD,interstate_carriers,16995
+truck-crashes:MD,note,"Carriers: 41,101 active FMCSA-registered carriers with at least one power unit have their main address in the state (16,995 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:24001,county,24001
 truck-crashes:24001,countyName,Allegany County
 truck-crashes:24001,stateName,Maryland
@@ -3839,9 +3839,9 @@ truck-crashes:MD-county-not-given,countyName,County not given
 truck-crashes:MD-county-not-given,stateName,Maryland
 truck-crashes:MD-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:ME,stateName,Maine
-truck-crashes:ME,active_carriers,13892
+truck-crashes:ME,active_carriers,13901
 truck-crashes:ME,interstate_carriers,2339
-truck-crashes:ME,note,"Carriers: 13,892 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,339 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:ME,note,"Carriers: 13,901 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,339 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:23001,county,23001
 truck-crashes:23001,countyName,Androscoggin County
 truck-crashes:23001,stateName,Maine
@@ -3891,9 +3891,9 @@ truck-crashes:23031,county,23031
 truck-crashes:23031,countyName,York County
 truck-crashes:23031,stateName,Maine
 truck-crashes:MI,stateName,Michigan
-truck-crashes:MI,active_carriers,73367
-truck-crashes:MI,interstate_carriers,13359
-truck-crashes:MI,note,"Carriers: 73,367 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,359 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MI,active_carriers,73415
+truck-crashes:MI,interstate_carriers,13376
+truck-crashes:MI,note,"Carriers: 73,415 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,376 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:26001,county,26001
 truck-crashes:26001,countyName,Alcona County
 truck-crashes:26001,stateName,Michigan
@@ -4144,9 +4144,9 @@ truck-crashes:26165,county,26165
 truck-crashes:26165,countyName,Wexford County
 truck-crashes:26165,stateName,Michigan
 truck-crashes:MN,stateName,Minnesota
-truck-crashes:MN,active_carriers,72096
-truck-crashes:MN,interstate_carriers,16224
-truck-crashes:MN,note,"Carriers: 72,096 active FMCSA-registered carriers with at least one power unit have their main address in the state (16,224 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MN,active_carriers,72199
+truck-crashes:MN,interstate_carriers,16272
+truck-crashes:MN,note,"Carriers: 72,199 active FMCSA-registered carriers with at least one power unit have their main address in the state (16,272 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:27001,county,27001
 truck-crashes:27001,countyName,Aitkin County
 truck-crashes:27001,stateName,Minnesota
@@ -4412,9 +4412,9 @@ truck-crashes:MN-county-not-given,countyName,County not given
 truck-crashes:MN-county-not-given,stateName,Minnesota
 truck-crashes:MN-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:MO,stateName,Missouri
-truck-crashes:MO,active_carriers,23875
-truck-crashes:MO,interstate_carriers,13690
-truck-crashes:MO,note,"Carriers: 23,875 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,690 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MO,active_carriers,23889
+truck-crashes:MO,interstate_carriers,13695
+truck-crashes:MO,note,"Carriers: 23,889 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,695 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:29001,county,29001
 truck-crashes:29001,countyName,Adair County
 truck-crashes:29001,stateName,Missouri
@@ -4763,14 +4763,14 @@ truck-crashes:29510,stateName,Missouri
 truck-crashes:MP,stateName,Northern Mariana Islands
 truck-crashes:MP,active_carriers,16
 truck-crashes:MP,interstate_carriers,0
-truck-crashes:MP,note,"Carriers: 16 active FMCSA-registered carriers with at least one power unit have their main address in the state (0 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MP,note,"Carriers: 16 active FMCSA-registered carriers with at least one power unit have their main address in the state (0 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:MP-county-not-given,countyName,County not given
 truck-crashes:MP-county-not-given,stateName,Northern Mariana Islands
 truck-crashes:MP-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:MS,stateName,Mississippi
-truck-crashes:MS,active_carriers,11039
-truck-crashes:MS,interstate_carriers,7139
-truck-crashes:MS,note,"Carriers: 11,039 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,139 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MS,active_carriers,11050
+truck-crashes:MS,interstate_carriers,7150
+truck-crashes:MS,note,"Carriers: 11,050 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,150 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:28001,county,28001
 truck-crashes:28001,countyName,Adams County
 truck-crashes:28001,stateName,Mississippi
@@ -5021,9 +5021,9 @@ truck-crashes:MS-county-not-given,countyName,County not given
 truck-crashes:MS-county-not-given,stateName,Mississippi
 truck-crashes:MS-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:MT,stateName,Montana
-truck-crashes:MT,active_carriers,8566
-truck-crashes:MT,interstate_carriers,3222
-truck-crashes:MT,note,"Carriers: 8,566 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,222 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:MT,active_carriers,8576
+truck-crashes:MT,interstate_carriers,3231
+truck-crashes:MT,note,"Carriers: 8,576 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,231 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:30001,county,30001
 truck-crashes:30001,countyName,Beaverhead County
 truck-crashes:30001,stateName,Montana
@@ -5196,9 +5196,9 @@ truck-crashes:MT-county-not-given,countyName,County not given
 truck-crashes:MT-county-not-given,stateName,Montana
 truck-crashes:MT-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:NC,stateName,North Carolina
-truck-crashes:NC,active_carriers,48800
-truck-crashes:NC,interstate_carriers,21793
-truck-crashes:NC,note,"Carriers: 48,800 active FMCSA-registered carriers with at least one power unit have their main address in the state (21,793 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NC,active_carriers,48833
+truck-crashes:NC,interstate_carriers,21794
+truck-crashes:NC,note,"Carriers: 48,833 active FMCSA-registered carriers with at least one power unit have their main address in the state (21,794 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:37001,county,37001
 truck-crashes:37001,countyName,Alamance County
 truck-crashes:37001,stateName,North Carolina
@@ -5501,8 +5501,8 @@ truck-crashes:37199,countyName,Yancey County
 truck-crashes:37199,stateName,North Carolina
 truck-crashes:ND,stateName,North Dakota
 truck-crashes:ND,active_carriers,6150
-truck-crashes:ND,interstate_carriers,3688
-truck-crashes:ND,note,"Carriers: 6,150 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,688 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:ND,interstate_carriers,3684
+truck-crashes:ND,note,"Carriers: 6,150 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,684 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:38001,county,38001
 truck-crashes:38001,countyName,Adams County
 truck-crashes:38001,stateName,North Dakota
@@ -5663,9 +5663,9 @@ truck-crashes:38105,county,38105
 truck-crashes:38105,countyName,Williams County
 truck-crashes:38105,stateName,North Dakota
 truck-crashes:NE,stateName,Nebraska
-truck-crashes:NE,active_carriers,27520
-truck-crashes:NE,interstate_carriers,8120
-truck-crashes:NE,note,"Carriers: 27,520 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,120 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NE,active_carriers,27531
+truck-crashes:NE,interstate_carriers,8119
+truck-crashes:NE,note,"Carriers: 27,531 active FMCSA-registered carriers with at least one power unit have their main address in the state (8,119 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:31001,county,31001
 truck-crashes:31001,countyName,Adams County
 truck-crashes:31001,stateName,Nebraska
@@ -5949,9 +5949,9 @@ truck-crashes:NE-county-not-given,countyName,County not given
 truck-crashes:NE-county-not-given,stateName,Nebraska
 truck-crashes:NE-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:NH,stateName,New Hampshire
-truck-crashes:NH,active_carriers,5846
-truck-crashes:NH,interstate_carriers,4102
-truck-crashes:NH,note,"Carriers: 5,846 active FMCSA-registered carriers with at least one power unit have their main address in the state (4,102 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NH,active_carriers,5851
+truck-crashes:NH,interstate_carriers,4104
+truck-crashes:NH,note,"Carriers: 5,851 active FMCSA-registered carriers with at least one power unit have their main address in the state (4,104 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:33001,county,33001
 truck-crashes:33001,countyName,Belknap County
 truck-crashes:33001,stateName,New Hampshire
@@ -5986,9 +5986,9 @@ truck-crashes:NH-county-not-given,countyName,County not given
 truck-crashes:NH-county-not-given,stateName,New Hampshire
 truck-crashes:NH-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:NJ,stateName,New Jersey
-truck-crashes:NJ,active_carriers,44793
-truck-crashes:NJ,interstate_carriers,23772
-truck-crashes:NJ,note,"Carriers: 44,793 active FMCSA-registered carriers with at least one power unit have their main address in the state (23,772 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NJ,active_carriers,44911
+truck-crashes:NJ,interstate_carriers,23847
+truck-crashes:NJ,note,"Carriers: 44,911 active FMCSA-registered carriers with at least one power unit have their main address in the state (23,847 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:34001,county,34001
 truck-crashes:34001,countyName,Atlantic County
 truck-crashes:34001,stateName,New Jersey
@@ -6056,9 +6056,9 @@ truck-crashes:NJ-county-not-given,countyName,County not given
 truck-crashes:NJ-county-not-given,stateName,New Jersey
 truck-crashes:NJ-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:NM,stateName,New Mexico
-truck-crashes:NM,active_carriers,10984
-truck-crashes:NM,interstate_carriers,3997
-truck-crashes:NM,note,"Carriers: 10,984 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,997 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NM,active_carriers,10981
+truck-crashes:NM,interstate_carriers,3991
+truck-crashes:NM,note,"Carriers: 10,981 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,991 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:35001,county,35001
 truck-crashes:35001,countyName,Bernalillo County
 truck-crashes:35001,stateName,New Mexico
@@ -6162,9 +6162,9 @@ truck-crashes:NM-county-not-given,countyName,County not given
 truck-crashes:NM-county-not-given,stateName,New Mexico
 truck-crashes:NM-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:NV,stateName,Nevada
-truck-crashes:NV,active_carriers,9050
-truck-crashes:NV,interstate_carriers,4904
-truck-crashes:NV,note,"Carriers: 9,050 active FMCSA-registered carriers with at least one power unit have their main address in the state (4,904 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NV,active_carriers,9068
+truck-crashes:NV,interstate_carriers,4922
+truck-crashes:NV,note,"Carriers: 9,068 active FMCSA-registered carriers with at least one power unit have their main address in the state (4,922 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:32001,county,32001
 truck-crashes:32001,countyName,Churchill County
 truck-crashes:32001,stateName,Nevada
@@ -6220,9 +6220,9 @@ truck-crashes:NV-county-not-given,countyName,County not given
 truck-crashes:NV-county-not-given,stateName,Nevada
 truck-crashes:NV-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:NY,stateName,New York
-truck-crashes:NY,active_carriers,122358
-truck-crashes:NY,interstate_carriers,18878
-truck-crashes:NY,note,"Carriers: 122,358 active FMCSA-registered carriers with at least one power unit have their main address in the state (18,878 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:NY,active_carriers,122500
+truck-crashes:NY,interstate_carriers,18889
+truck-crashes:NY,note,"Carriers: 122,500 active FMCSA-registered carriers with at least one power unit have their main address in the state (18,889 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:36001,county,36001
 truck-crashes:36001,countyName,Albany County
 truck-crashes:36001,stateName,New York
@@ -6413,9 +6413,9 @@ truck-crashes:NY-county-not-given,countyName,County not given
 truck-crashes:NY-county-not-given,stateName,New York
 truck-crashes:NY-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:OH,stateName,Ohio
-truck-crashes:OH,active_carriers,46679
-truck-crashes:OH,interstate_carriers,25562
-truck-crashes:OH,note,"Carriers: 46,679 active FMCSA-registered carriers with at least one power unit have their main address in the state (25,562 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:OH,active_carriers,46734
+truck-crashes:OH,interstate_carriers,25589
+truck-crashes:OH,note,"Carriers: 46,734 active FMCSA-registered carriers with at least one power unit have their main address in the state (25,589 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:39001,county,39001
 truck-crashes:39001,countyName,Adams County
 truck-crashes:39001,stateName,Ohio
@@ -6684,9 +6684,9 @@ truck-crashes:OH-county-not-given,countyName,County not given
 truck-crashes:OH-county-not-given,stateName,Ohio
 truck-crashes:OH-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:OK,stateName,Oklahoma
-truck-crashes:OK,active_carriers,26007
-truck-crashes:OK,interstate_carriers,7502
-truck-crashes:OK,note,"Carriers: 26,007 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,502 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:OK,active_carriers,26030
+truck-crashes:OK,interstate_carriers,7513
+truck-crashes:OK,note,"Carriers: 26,030 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,513 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:40001,county,40001
 truck-crashes:40001,countyName,Adair County
 truck-crashes:40001,stateName,Oklahoma
@@ -6922,9 +6922,9 @@ truck-crashes:OK-county-not-given,countyName,County not given
 truck-crashes:OK-county-not-given,stateName,Oklahoma
 truck-crashes:OK-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:OR,stateName,Oregon
-truck-crashes:OR,active_carriers,27029
-truck-crashes:OR,interstate_carriers,7816
-truck-crashes:OR,note,"Carriers: 27,029 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,816 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:OR,active_carriers,27035
+truck-crashes:OR,interstate_carriers,7817
+truck-crashes:OR,note,"Carriers: 27,035 active FMCSA-registered carriers with at least one power unit have their main address in the state (7,817 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:41001,county,41001
 truck-crashes:41001,countyName,Baker County
 truck-crashes:41001,stateName,Oregon
@@ -7037,9 +7037,9 @@ truck-crashes:OR-county-not-given,countyName,County not given
 truck-crashes:OR-county-not-given,stateName,Oregon
 truck-crashes:OR-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:PA,stateName,Pennsylvania
-truck-crashes:PA,active_carriers,77143
-truck-crashes:PA,interstate_carriers,32612
-truck-crashes:PA,note,"Carriers: 77,143 active FMCSA-registered carriers with at least one power unit have their main address in the state (32,612 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:PA,active_carriers,77329
+truck-crashes:PA,interstate_carriers,32758
+truck-crashes:PA,note,"Carriers: 77,329 active FMCSA-registered carriers with at least one power unit have their main address in the state (32,758 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:42001,county,42001
 truck-crashes:42001,countyName,Adams County
 truck-crashes:42001,stateName,Pennsylvania
@@ -7245,16 +7245,16 @@ truck-crashes:PA-county-not-given,countyName,County not given
 truck-crashes:PA-county-not-given,stateName,Pennsylvania
 truck-crashes:PA-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:PR,stateName,Puerto Rico
-truck-crashes:PR,active_carriers,4879
-truck-crashes:PR,interstate_carriers,127
-truck-crashes:PR,note,"Carriers: 4,879 active FMCSA-registered carriers with at least one power unit have their main address in the state (127 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:PR,active_carriers,4908
+truck-crashes:PR,interstate_carriers,131
+truck-crashes:PR,note,"Carriers: 4,908 active FMCSA-registered carriers with at least one power unit have their main address in the state (131 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:PR-county-not-given,countyName,County not given
 truck-crashes:PR-county-not-given,stateName,Puerto Rico
 truck-crashes:PR-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:RI,stateName,Rhode Island
 truck-crashes:RI,active_carriers,4016
-truck-crashes:RI,interstate_carriers,2854
-truck-crashes:RI,note,"Carriers: 4,016 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,854 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:RI,interstate_carriers,2853
+truck-crashes:RI,note,"Carriers: 4,016 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,853 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:44001,county,44001
 truck-crashes:44001,countyName,Bristol County
 truck-crashes:44001,stateName,Rhode Island
@@ -7271,9 +7271,9 @@ truck-crashes:44009,county,44009
 truck-crashes:44009,countyName,Washington County
 truck-crashes:44009,stateName,Rhode Island
 truck-crashes:SC,stateName,South Carolina
-truck-crashes:SC,active_carriers,22335
-truck-crashes:SC,interstate_carriers,9927
-truck-crashes:SC,note,"Carriers: 22,335 active FMCSA-registered carriers with at least one power unit have their main address in the state (9,927 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:SC,active_carriers,22372
+truck-crashes:SC,interstate_carriers,9948
+truck-crashes:SC,note,"Carriers: 22,372 active FMCSA-registered carriers with at least one power unit have their main address in the state (9,948 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:45001,county,45001
 truck-crashes:45001,countyName,Abbeville County
 truck-crashes:45001,stateName,South Carolina
@@ -7413,9 +7413,9 @@ truck-crashes:45091,county,45091
 truck-crashes:45091,countyName,York County
 truck-crashes:45091,stateName,South Carolina
 truck-crashes:SD,stateName,South Dakota
-truck-crashes:SD,active_carriers,6030
-truck-crashes:SD,interstate_carriers,4244
-truck-crashes:SD,note,"Carriers: 6,030 active FMCSA-registered carriers with at least one power unit have their main address in the state (4,244 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:SD,active_carriers,6028
+truck-crashes:SD,interstate_carriers,4243
+truck-crashes:SD,note,"Carriers: 6,028 active FMCSA-registered carriers with at least one power unit have their main address in the state (4,243 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:46003,county,46003
 truck-crashes:46003,countyName,Aurora County
 truck-crashes:46003,stateName,South Dakota
@@ -7622,9 +7622,9 @@ truck-crashes:SD-county-not-given,countyName,County not given
 truck-crashes:SD-county-not-given,stateName,South Dakota
 truck-crashes:SD-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:TN,stateName,Tennessee
-truck-crashes:TN,active_carriers,22581
-truck-crashes:TN,interstate_carriers,12526
-truck-crashes:TN,note,"Carriers: 22,581 active FMCSA-registered carriers with at least one power unit have their main address in the state (12,526 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:TN,active_carriers,22608
+truck-crashes:TN,interstate_carriers,12528
+truck-crashes:TN,note,"Carriers: 22,608 active FMCSA-registered carriers with at least one power unit have their main address in the state (12,528 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:47001,county,47001
 truck-crashes:47001,countyName,Anderson County
 truck-crashes:47001,stateName,Tennessee
@@ -7914,9 +7914,9 @@ truck-crashes:TN-county-not-given,countyName,County not given
 truck-crashes:TN-county-not-given,stateName,Tennessee
 truck-crashes:TN-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:TX,stateName,Texas
-truck-crashes:TX,active_carriers,175020
-truck-crashes:TX,interstate_carriers,51263
-truck-crashes:TX,note,"Carriers: 175,020 active FMCSA-registered carriers with at least one power unit have their main address in the state (51,263 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:TX,active_carriers,175330
+truck-crashes:TX,interstate_carriers,51376
+truck-crashes:TX,note,"Carriers: 175,330 active FMCSA-registered carriers with at least one power unit have their main address in the state (51,376 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:48001,county,48001
 truck-crashes:48001,countyName,Anderson County
 truck-crashes:48001,stateName,Texas
@@ -8683,9 +8683,9 @@ truck-crashes:TX-county-not-given,countyName,County not given
 truck-crashes:TX-county-not-given,stateName,Texas
 truck-crashes:TX-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:UT,stateName,Utah
-truck-crashes:UT,active_carriers,22538
-truck-crashes:UT,interstate_carriers,6268
-truck-crashes:UT,note,"Carriers: 22,538 active FMCSA-registered carriers with at least one power unit have their main address in the state (6,268 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:UT,active_carriers,22543
+truck-crashes:UT,interstate_carriers,6262
+truck-crashes:UT,note,"Carriers: 22,543 active FMCSA-registered carriers with at least one power unit have their main address in the state (6,262 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:49001,county,49001
 truck-crashes:49001,countyName,Beaver County
 truck-crashes:49001,stateName,Utah
@@ -8777,9 +8777,9 @@ truck-crashes:UT-county-not-given,countyName,County not given
 truck-crashes:UT-county-not-given,stateName,Utah
 truck-crashes:UT-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:VA,stateName,Virginia
-truck-crashes:VA,active_carriers,22456
-truck-crashes:VA,interstate_carriers,13575
-truck-crashes:VA,note,"Carriers: 22,456 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,575 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:VA,active_carriers,22515
+truck-crashes:VA,interstate_carriers,13609
+truck-crashes:VA,note,"Carriers: 22,515 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,609 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:51001,county,51001
 truck-crashes:51001,countyName,Accomack County
 truck-crashes:51001,stateName,Virginia
@@ -9185,14 +9185,14 @@ truck-crashes:VA-county-not-given,note,"Crash reports whose county code is missi
 truck-crashes:VI,stateName,U.S. Virgin Islands
 truck-crashes:VI,active_carriers,104
 truck-crashes:VI,interstate_carriers,11
-truck-crashes:VI,note,"Carriers: 104 active FMCSA-registered carriers with at least one power unit have their main address in the state (11 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:VI,note,"Carriers: 104 active FMCSA-registered carriers with at least one power unit have their main address in the state (11 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:VI-county-not-given,countyName,County not given
 truck-crashes:VI-county-not-given,stateName,U.S. Virgin Islands
 truck-crashes:VI-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:VT,stateName,Vermont
-truck-crashes:VT,active_carriers,2265
-truck-crashes:VT,interstate_carriers,1642
-truck-crashes:VT,note,"Carriers: 2,265 active FMCSA-registered carriers with at least one power unit have their main address in the state (1,642 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:VT,active_carriers,2266
+truck-crashes:VT,interstate_carriers,1643
+truck-crashes:VT,note,"Carriers: 2,266 active FMCSA-registered carriers with at least one power unit have their main address in the state (1,643 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:50001,county,50001
 truck-crashes:50001,countyName,Addison County
 truck-crashes:50001,stateName,Vermont
@@ -9239,9 +9239,9 @@ truck-crashes:VT-county-not-given,countyName,County not given
 truck-crashes:VT-county-not-given,stateName,Vermont
 truck-crashes:VT-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:WA,stateName,Washington
-truck-crashes:WA,active_carriers,48172
-truck-crashes:WA,interstate_carriers,13417
-truck-crashes:WA,note,"Carriers: 48,172 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,417 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:WA,active_carriers,48218
+truck-crashes:WA,interstate_carriers,13430
+truck-crashes:WA,note,"Carriers: 48,218 active FMCSA-registered carriers with at least one power unit have their main address in the state (13,430 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:53001,county,53001
 truck-crashes:53001,countyName,Adams County
 truck-crashes:53001,stateName,Washington
@@ -9363,9 +9363,9 @@ truck-crashes:WA-county-not-given,countyName,County not given
 truck-crashes:WA-county-not-given,stateName,Washington
 truck-crashes:WA-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:WI,stateName,Wisconsin
-truck-crashes:WI,active_carriers,62057
-truck-crashes:WI,interstate_carriers,11716
-truck-crashes:WI,note,"Carriers: 62,057 active FMCSA-registered carriers with at least one power unit have their main address in the state (11,716 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:WI,active_carriers,62129
+truck-crashes:WI,interstate_carriers,11753
+truck-crashes:WI,note,"Carriers: 62,129 active FMCSA-registered carriers with at least one power unit have their main address in the state (11,753 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:55001,county,55001
 truck-crashes:55001,countyName,Adams County
 truck-crashes:55001,stateName,Wisconsin
@@ -9583,9 +9583,9 @@ truck-crashes:55141,county,55141
 truck-crashes:55141,countyName,Wood County
 truck-crashes:55141,stateName,Wisconsin
 truck-crashes:WV,stateName,West Virginia
-truck-crashes:WV,active_carriers,10779
-truck-crashes:WV,interstate_carriers,3743
-truck-crashes:WV,note,"Carriers: 10,779 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,743 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:WV,active_carriers,10796
+truck-crashes:WV,interstate_carriers,3757
+truck-crashes:WV,note,"Carriers: 10,796 active FMCSA-registered carriers with at least one power unit have their main address in the state (3,757 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:54001,county,54001
 truck-crashes:54001,countyName,Barbour County
 truck-crashes:54001,stateName,West Virginia
@@ -9755,9 +9755,9 @@ truck-crashes:WV-county-not-given,countyName,County not given
 truck-crashes:WV-county-not-given,stateName,West Virginia
 truck-crashes:WV-county-not-given,note,"Crash reports whose county code is missing, 000, 999 or not a county of the state. They count in the state total."
 truck-crashes:WY,stateName,Wyoming
-truck-crashes:WY,active_carriers,6320
+truck-crashes:WY,active_carriers,6324
 truck-crashes:WY,interstate_carriers,2590
-truck-crashes:WY,note,"Carriers: 6,320 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,590 of them interstate), Company Census File as of 2026-10-28. Their trucks drive anywhere; this is not where the crashes happen."
+truck-crashes:WY,note,"Carriers: 6,324 active FMCSA-registered carriers with at least one power unit have their main address in the state (2,590 of them interstate), Company Census File as of 2026-11-09. Their trucks drive anywhere; this is not where the crashes happen."
 truck-crashes:56001,county,56001
 truck-crashes:56001,countyName,Albany County
 truck-crashes:56001,stateName,Wyoming

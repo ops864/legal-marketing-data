@@ -1,12 +1,12 @@
 Mass-tort docket tracker, federal MDL pending actions by month since 2019
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963811
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116044
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Mass-tort docket tracker, federal MDL pending actions by month since 2019, version 2.0.0, https://doi.org/10.5281/zenodo.23963811, licensed CC BY 4.0.
+Source: Probative, Mass-tort docket tracker, federal MDL pending actions by month since 2019, version 2.0.1, https://doi.org/10.5281/zenodo.24116044, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Mass-tort docket tracker, federal MDL pending actions by month since 2019 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963811
+Probative. (2026). Mass-tort docket tracker, federal MDL pending actions by month since 2019 (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116044
 
 Not legal advice. These are counts from the court's published statistics, kept for marketing planning. Counts change monthly; check the Judicial Panel on Multidistrict Litigation's current report.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -1,13 +1,13 @@
 id,column,value
-product-recalls:US,hazard_fire_burn,1848
-product-recalls:US,hazard_fall_tipover,1143
+product-recalls:US,hazard_fire_burn,1858
+product-recalls:US,hazard_fall_tipover,1149
 product-recalls:US,hazard_laceration,466
-product-recalls:US,hazard_choking_suffocation,701
-product-recalls:US,hazard_ingestion,450
-product-recalls:US,hazard_entrapment_crush,520
+product-recalls:US,hazard_choking_suffocation,704
+product-recalls:US,hazard_ingestion,452
+product-recalls:US,hazard_entrapment_crush,525
 product-recalls:US,hazard_electric_shock,239
-product-recalls:US,hazard_poisoning_chemical,571
-product-recalls:US,hazard_crash_collision,550
+product-recalls:US,hazard_poisoning_chemical,574
+product-recalls:US,hazard_crash_collision,554
 product-recalls:US,hazard_drowning,85
 product-recalls:US,hazard_other_hazard,305
 product-recalls:US,recalls_2010,362
@@ -26,7 +26,7 @@ product-recalls:US,recalls_2022,292
 product-recalls:US,recalls_2023,324
 product-recalls:US,recalls_2024,305
 product-recalls:US,recalls_2025,420
-product-recalls:US,recalls_2026,490
+product-recalls:US,recalls_2026,514
 product-recalls:2010,year,2010
 product-recalls:2010,hazard_fire_burn,111
 product-recalls:2010,hazard_fall_tipover,78
@@ -236,21 +236,21 @@ product-recalls:2025,hazard_drowning,9
 product-recalls:2025,hazard_other_hazard,9
 product-recalls:2025,recalls_2025,420
 product-recalls:2026,year,2026
-product-recalls:2026,hazard_fire_burn,171
-product-recalls:2026,hazard_fall_tipover,107
+product-recalls:2026,hazard_fire_burn,181
+product-recalls:2026,hazard_fall_tipover,113
 product-recalls:2026,hazard_laceration,24
-product-recalls:2026,hazard_choking_suffocation,86
-product-recalls:2026,hazard_ingestion,116
-product-recalls:2026,hazard_entrapment_crush,100
+product-recalls:2026,hazard_choking_suffocation,89
+product-recalls:2026,hazard_ingestion,118
+product-recalls:2026,hazard_entrapment_crush,105
 product-recalls:2026,hazard_electric_shock,24
-product-recalls:2026,hazard_poisoning_chemical,116
-product-recalls:2026,hazard_crash_collision,41
+product-recalls:2026,hazard_poisoning_chemical,119
+product-recalls:2026,hazard_crash_collision,45
 product-recalls:2026,hazard_drowning,21
 product-recalls:2026,hazard_other_hazard,8
-product-recalls:2026,recalls_2026,490
+product-recalls:2026,recalls_2026,514
 product-recalls:hazard:fire_burn,hazard,fire_burn
 product-recalls:hazard:fire_burn,hazardLabel,"Fire, burn and overheating"
-product-recalls:hazard:fire_burn,hazard_fire_burn,1848
+product-recalls:hazard:fire_burn,hazard_fire_burn,1858
 product-recalls:hazard:fire_burn,recalls_2010,111
 product-recalls:hazard:fire_burn,recalls_2011,102
 product-recalls:hazard:fire_burn,recalls_2012,108
@@ -267,10 +267,10 @@ product-recalls:hazard:fire_burn,recalls_2022,92
 product-recalls:hazard:fire_burn,recalls_2023,124
 product-recalls:hazard:fire_burn,recalls_2024,121
 product-recalls:hazard:fire_burn,recalls_2025,146
-product-recalls:hazard:fire_burn,recalls_2026,171
+product-recalls:hazard:fire_burn,recalls_2026,181
 product-recalls:hazard:fall_tipover,hazard,fall_tipover
 product-recalls:hazard:fall_tipover,hazardLabel,Falls and tip-overs
-product-recalls:hazard:fall_tipover,hazard_fall_tipover,1143
+product-recalls:hazard:fall_tipover,hazard_fall_tipover,1149
 product-recalls:hazard:fall_tipover,recalls_2010,78
 product-recalls:hazard:fall_tipover,recalls_2011,69
 product-recalls:hazard:fall_tipover,recalls_2012,90
@@ -287,7 +287,7 @@ product-recalls:hazard:fall_tipover,recalls_2022,47
 product-recalls:hazard:fall_tipover,recalls_2023,51
 product-recalls:hazard:fall_tipover,recalls_2024,51
 product-recalls:hazard:fall_tipover,recalls_2025,104
-product-recalls:hazard:fall_tipover,recalls_2026,107
+product-recalls:hazard:fall_tipover,recalls_2026,113
 product-recalls:hazard:laceration,hazard,laceration
 product-recalls:hazard:laceration,hazardLabel,"Laceration, cut and amputation"
 product-recalls:hazard:laceration,hazard_laceration,466
@@ -310,7 +310,7 @@ product-recalls:hazard:laceration,recalls_2025,31
 product-recalls:hazard:laceration,recalls_2026,24
 product-recalls:hazard:choking_suffocation,hazard,choking_suffocation
 product-recalls:hazard:choking_suffocation,hazardLabel,"Choking, suffocation and strangulation"
-product-recalls:hazard:choking_suffocation,hazard_choking_suffocation,701
+product-recalls:hazard:choking_suffocation,hazard_choking_suffocation,704
 product-recalls:hazard:choking_suffocation,recalls_2010,104
 product-recalls:hazard:choking_suffocation,recalls_2011,62
 product-recalls:hazard:choking_suffocation,recalls_2012,28
@@ -327,10 +327,10 @@ product-recalls:hazard:choking_suffocation,recalls_2022,31
 product-recalls:hazard:choking_suffocation,recalls_2023,38
 product-recalls:hazard:choking_suffocation,recalls_2024,32
 product-recalls:hazard:choking_suffocation,recalls_2025,57
-product-recalls:hazard:choking_suffocation,recalls_2026,86
+product-recalls:hazard:choking_suffocation,recalls_2026,89
 product-recalls:hazard:ingestion,hazard,ingestion
 product-recalls:hazard:ingestion,hazardLabel,"Ingestion (magnets, batteries, small parts)"
-product-recalls:hazard:ingestion,hazard_ingestion,450
+product-recalls:hazard:ingestion,hazard_ingestion,452
 product-recalls:hazard:ingestion,recalls_2010,17
 product-recalls:hazard:ingestion,recalls_2011,7
 product-recalls:hazard:ingestion,recalls_2012,8
@@ -347,10 +347,10 @@ product-recalls:hazard:ingestion,recalls_2022,35
 product-recalls:hazard:ingestion,recalls_2023,30
 product-recalls:hazard:ingestion,recalls_2024,23
 product-recalls:hazard:ingestion,recalls_2025,67
-product-recalls:hazard:ingestion,recalls_2026,116
+product-recalls:hazard:ingestion,recalls_2026,118
 product-recalls:hazard:entrapment_crush,hazard,entrapment_crush
 product-recalls:hazard:entrapment_crush,hazardLabel,"Entrapment, entanglement and pinch injuries"
-product-recalls:hazard:entrapment_crush,hazard_entrapment_crush,520
+product-recalls:hazard:entrapment_crush,hazard_entrapment_crush,525
 product-recalls:hazard:entrapment_crush,recalls_2010,54
 product-recalls:hazard:entrapment_crush,recalls_2011,36
 product-recalls:hazard:entrapment_crush,recalls_2012,17
@@ -367,7 +367,7 @@ product-recalls:hazard:entrapment_crush,recalls_2022,29
 product-recalls:hazard:entrapment_crush,recalls_2023,14
 product-recalls:hazard:entrapment_crush,recalls_2024,28
 product-recalls:hazard:entrapment_crush,recalls_2025,89
-product-recalls:hazard:entrapment_crush,recalls_2026,100
+product-recalls:hazard:entrapment_crush,recalls_2026,105
 product-recalls:hazard:electric_shock,hazard,electric_shock
 product-recalls:hazard:electric_shock,hazardLabel,Electric shock and electrocution
 product-recalls:hazard:electric_shock,hazard_electric_shock,239
@@ -390,7 +390,7 @@ product-recalls:hazard:electric_shock,recalls_2025,12
 product-recalls:hazard:electric_shock,recalls_2026,24
 product-recalls:hazard:poisoning_chemical,hazard,poisoning_chemical
 product-recalls:hazard:poisoning_chemical,hazardLabel,"Poisoning, lead and chemical exposure"
-product-recalls:hazard:poisoning_chemical,hazard_poisoning_chemical,571
+product-recalls:hazard:poisoning_chemical,hazard_poisoning_chemical,574
 product-recalls:hazard:poisoning_chemical,recalls_2010,38
 product-recalls:hazard:poisoning_chemical,recalls_2011,18
 product-recalls:hazard:poisoning_chemical,recalls_2012,15
@@ -407,10 +407,10 @@ product-recalls:hazard:poisoning_chemical,recalls_2022,47
 product-recalls:hazard:poisoning_chemical,recalls_2023,37
 product-recalls:hazard:poisoning_chemical,recalls_2024,40
 product-recalls:hazard:poisoning_chemical,recalls_2025,77
-product-recalls:hazard:poisoning_chemical,recalls_2026,116
+product-recalls:hazard:poisoning_chemical,recalls_2026,119
 product-recalls:hazard:crash_collision,hazard,crash_collision
 product-recalls:hazard:crash_collision,hazardLabel,"Crash, collision and loss of control"
-product-recalls:hazard:crash_collision,hazard_crash_collision,550
+product-recalls:hazard:crash_collision,hazard_crash_collision,554
 product-recalls:hazard:crash_collision,recalls_2010,10
 product-recalls:hazard:crash_collision,recalls_2011,24
 product-recalls:hazard:crash_collision,recalls_2012,25
@@ -427,7 +427,7 @@ product-recalls:hazard:crash_collision,recalls_2022,47
 product-recalls:hazard:crash_collision,recalls_2023,48
 product-recalls:hazard:crash_collision,recalls_2024,43
 product-recalls:hazard:crash_collision,recalls_2025,42
-product-recalls:hazard:crash_collision,recalls_2026,41
+product-recalls:hazard:crash_collision,recalls_2026,45
 product-recalls:hazard:drowning,hazard,drowning
 product-recalls:hazard:drowning,hazardLabel,Drowning
 product-recalls:hazard:drowning,hazard_drowning,85

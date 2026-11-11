@@ -1,12 +1,12 @@
 Consumer product recalls by year and hazard (CPSC recall notices)
 
-Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964084
+Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116056
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Consumer product recalls by year and hazard (CPSC recall notices), version 2.0.0, https://doi.org/10.5281/zenodo.23964084, licensed CC BY 4.0.
+Source: Probative, Consumer product recalls by year and hazard (CPSC recall notices), version 2.0.1, https://doi.org/10.5281/zenodo.24116056, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Consumer product recalls by year and hazard (CPSC recall notices) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964084
+Probative. (2026). Consumer product recalls by year and hazard (CPSC recall notices) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116056
 
 Not legal advice. These are counts of recall notices published by the Consumer Product Safety Commission, kept for research and market sizing. A recall is not a finding that a product caused any harm to any person, and it says nothing about whether anyone has a claim; deadlines for injury claims differ by state. Questions about an injury are for a licensed attorney.
 Probative is a marketing firm, not a law firm; not legal advice.

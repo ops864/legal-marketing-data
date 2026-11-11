@@ -1,16 +1,16 @@
 id,column,value
-ny-attorneys:NY,discipline_related,25047
-ny-attorneys:NY,admitted_pre1970,5506
-ny-attorneys:NY,admitted_1970s,17707
-ny-attorneys:NY,admitted_1980s,40578
-ny-attorneys:NY,admitted_1990s,53989
-ny-attorneys:NY,admitted_2000s,73843
-ny-attorneys:NY,admitted_2010s,86351
-ny-attorneys:NY,admitted_2020s,57556
+ny-attorneys:NY,discipline_related,25048
+ny-attorneys:NY,admitted_pre1970,5497
+ny-attorneys:NY,admitted_1970s,17716
+ny-attorneys:NY,admitted_1980s,40593
+ny-attorneys:NY,admitted_1990s,54008
+ny-attorneys:NY,admitted_2000s,73881
+ny-attorneys:NY,admitted_2010s,86374
+ny-attorneys:NY,admitted_2020s,57921
 ny-attorneys:NY,median_admission_year,2007
-ny-attorneys:NY,active_ny_county,153879
-ny-attorneys:NY,active_outside_ny,87816
-ny-attorneys:NY,active_address_not_published,93834
+ny-attorneys:NY,active_ny_county,154108
+ny-attorneys:NY,active_outside_ny,87909
+ny-attorneys:NY,active_address_not_published,93972
 ny-attorneys:36001,county,36001
 ny-attorneys:36001,countyName,Albany County
 ny-attorneys:36001,addressState,NY
@@ -18,12 +18,12 @@ ny-attorneys:36001,discipline_related,85
 ny-attorneys:36001,population,321225
 ny-attorneys:36001,active_per_10k,134.2
 ny-attorneys:36001,admitted_pre1970,42
-ny-attorneys:36001,admitted_1970s,264
-ny-attorneys:36001,admitted_1980s,514
-ny-attorneys:36001,admitted_1990s,794
-ny-attorneys:36001,admitted_2000s,971
-ny-attorneys:36001,admitted_2010s,1103
-ny-attorneys:36001,admitted_2020s,622
+ny-attorneys:36001,admitted_1970s,262
+ny-attorneys:36001,admitted_1980s,515
+ny-attorneys:36001,admitted_1990s,792
+ny-attorneys:36001,admitted_2000s,970
+ny-attorneys:36001,admitted_2010s,1099
+ny-attorneys:36001,admitted_2020s,632
 ny-attorneys:36001,median_admission_year,2006
 ny-attorneys:36003,county,36003
 ny-attorneys:36003,countyName,Allegany County
@@ -45,53 +45,53 @@ ny-attorneys:36005,discipline_related,128
 ny-attorneys:36005,population,1406332
 ny-attorneys:36005,active_per_10k,17.4
 ny-attorneys:36005,admitted_pre1970,25
-ny-attorneys:36005,admitted_1970s,81
-ny-attorneys:36005,admitted_1980s,278
-ny-attorneys:36005,admitted_1990s,426
-ny-attorneys:36005,admitted_2000s,454
-ny-attorneys:36005,admitted_2010s,538
-ny-attorneys:36005,admitted_2020s,647
+ny-attorneys:36005,admitted_1970s,80
+ny-attorneys:36005,admitted_1980s,277
+ny-attorneys:36005,admitted_1990s,425
+ny-attorneys:36005,admitted_2000s,457
+ny-attorneys:36005,admitted_2010s,534
+ny-attorneys:36005,admitted_2020s,655
 ny-attorneys:36005,median_admission_year,2009
 ny-attorneys:36007,county,36007
 ny-attorneys:36007,countyName,Broome County
 ny-attorneys:36007,addressState,NY
 ny-attorneys:36007,discipline_related,10
 ny-attorneys:36007,population,195736
-ny-attorneys:36007,active_per_10k,22.5
+ny-attorneys:36007,active_per_10k,22.6
 ny-attorneys:36007,admitted_pre1970,8
 ny-attorneys:36007,admitted_1970s,40
 ny-attorneys:36007,admitted_1980s,89
 ny-attorneys:36007,admitted_1990s,88
 ny-attorneys:36007,admitted_2000s,76
-ny-attorneys:36007,admitted_2010s,84
+ny-attorneys:36007,admitted_2010s,85
 ny-attorneys:36007,admitted_2020s,56
 ny-attorneys:36007,median_admission_year,1999
 ny-attorneys:36009,county,36009
 ny-attorneys:36009,countyName,Cattaraugus County
 ny-attorneys:36009,addressState,NY
 ny-attorneys:36009,population,75390
-ny-attorneys:36009,active_per_10k,12.5
+ny-attorneys:36009,active_per_10k,12.6
 ny-attorneys:36009,admitted_1970s,9
 ny-attorneys:36009,admitted_1980s,9
 ny-attorneys:36009,admitted_1990s,16
 ny-attorneys:36009,admitted_2000s,26
 ny-attorneys:36009,admitted_2010s,23
-ny-attorneys:36009,admitted_2020s,9
-ny-attorneys:36009,median_admission_year,2003
+ny-attorneys:36009,admitted_2020s,10
+ny-attorneys:36009,median_admission_year,2004
 ny-attorneys:36009,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36011,county,36011
 ny-attorneys:36011,countyName,Cayuga County
 ny-attorneys:36011,addressState,NY
 ny-attorneys:36011,population,74365
-ny-attorneys:36011,active_per_10k,15.6
+ny-attorneys:36011,active_per_10k,15.5
 ny-attorneys:36011,admitted_pre1970,5
 ny-attorneys:36011,admitted_1970s,10
-ny-attorneys:36011,admitted_1980s,16
+ny-attorneys:36011,admitted_1980s,15
 ny-attorneys:36011,admitted_1990s,25
 ny-attorneys:36011,admitted_2000s,16
 ny-attorneys:36011,admitted_2010s,27
 ny-attorneys:36011,admitted_2020s,17
-ny-attorneys:36011,median_admission_year,2001
+ny-attorneys:36011,median_admission_year,2002
 ny-attorneys:36011,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36013,county,36013
 ny-attorneys:36013,countyName,Chautauqua County
@@ -110,13 +110,13 @@ ny-attorneys:36015,county,36015
 ny-attorneys:36015,countyName,Chemung County
 ny-attorneys:36015,addressState,NY
 ny-attorneys:36015,population,80415
-ny-attorneys:36015,active_per_10k,17.4
+ny-attorneys:36015,active_per_10k,17.7
 ny-attorneys:36015,admitted_1970s,17
 ny-attorneys:36015,admitted_1980s,20
-ny-attorneys:36015,admitted_1990s,28
+ny-attorneys:36015,admitted_1990s,29
 ny-attorneys:36015,admitted_2000s,34
 ny-attorneys:36015,admitted_2010s,23
-ny-attorneys:36015,admitted_2020s,17
+ny-attorneys:36015,admitted_2020s,18
 ny-attorneys:36015,median_admission_year,2000
 ny-attorneys:36015,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36017,county,36017
@@ -137,14 +137,14 @@ ny-attorneys:36019,county,36019
 ny-attorneys:36019,countyName,Clinton County
 ny-attorneys:36019,addressState,NY
 ny-attorneys:36019,population,78138
-ny-attorneys:36019,active_per_10k,14.8
+ny-attorneys:36019,active_per_10k,14.6
 ny-attorneys:36019,admitted_pre1970,0
-ny-attorneys:36019,admitted_1970s,7
+ny-attorneys:36019,admitted_1970s,6
 ny-attorneys:36019,admitted_1980s,13
 ny-attorneys:36019,admitted_1990s,27
 ny-attorneys:36019,admitted_2000s,30
 ny-attorneys:36019,admitted_2010s,29
-ny-attorneys:36019,admitted_2020s,10
+ny-attorneys:36019,admitted_2020s,9
 ny-attorneys:36019,median_admission_year,2004
 ny-attorneys:36019,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36021,county,36021
@@ -192,13 +192,13 @@ ny-attorneys:36027,countyName,Dutchess County
 ny-attorneys:36027,addressState,NY
 ny-attorneys:36027,discipline_related,7
 ny-attorneys:36027,population,300708
-ny-attorneys:36027,active_per_10k,29.7
+ny-attorneys:36027,active_per_10k,29.8
 ny-attorneys:36027,admitted_pre1970,28
-ny-attorneys:36027,admitted_1970s,92
-ny-attorneys:36027,admitted_1980s,170
-ny-attorneys:36027,admitted_1990s,190
-ny-attorneys:36027,admitted_2000s,190
-ny-attorneys:36027,admitted_2010s,155
+ny-attorneys:36027,admitted_1970s,91
+ny-attorneys:36027,admitted_1980s,171
+ny-attorneys:36027,admitted_1990s,189
+ny-attorneys:36027,admitted_2000s,192
+ny-attorneys:36027,admitted_2010s,157
 ny-attorneys:36027,admitted_2020s,68
 ny-attorneys:36027,median_admission_year,1998
 ny-attorneys:36029,county,36029
@@ -206,40 +206,40 @@ ny-attorneys:36029,countyName,Erie County
 ny-attorneys:36029,addressState,NY
 ny-attorneys:36029,discipline_related,54
 ny-attorneys:36029,population,946741
-ny-attorneys:36029,active_per_10k,50.6
+ny-attorneys:36029,active_per_10k,50.7
 ny-attorneys:36029,admitted_pre1970,59
 ny-attorneys:36029,admitted_1970s,336
-ny-attorneys:36029,admitted_1980s,720
+ny-attorneys:36029,admitted_1980s,719
 ny-attorneys:36029,admitted_1990s,930
 ny-attorneys:36029,admitted_2000s,900
-ny-attorneys:36029,admitted_2010s,1126
-ny-attorneys:36029,admitted_2020s,718
+ny-attorneys:36029,admitted_2010s,1129
+ny-attorneys:36029,admitted_2020s,723
 ny-attorneys:36029,median_admission_year,2004
 ny-attorneys:36031,county,36031
 ny-attorneys:36031,countyName,Essex County
 ny-attorneys:36031,addressState,NY
 ny-attorneys:36031,population,36438
-ny-attorneys:36031,active_per_10k,26.6
+ny-attorneys:36031,active_per_10k,26.1
 ny-attorneys:36031,admitted_1970s,10
 ny-attorneys:36031,admitted_1980s,15
-ny-attorneys:36031,admitted_1990s,25
+ny-attorneys:36031,admitted_1990s,23
 ny-attorneys:36031,admitted_2000s,15
 ny-attorneys:36031,admitted_2010s,19
 ny-attorneys:36031,admitted_2020s,9
-ny-attorneys:36031,median_admission_year,1998
+ny-attorneys:36031,median_admission_year,1999
 ny-attorneys:36031,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36033,county,36033
 ny-attorneys:36033,countyName,Franklin County
 ny-attorneys:36033,addressState,NY
 ny-attorneys:36033,population,46500
-ny-attorneys:36033,active_per_10k,13.3
+ny-attorneys:36033,active_per_10k,14
 ny-attorneys:36033,admitted_pre1970,0
 ny-attorneys:36033,admitted_1970s,9
 ny-attorneys:36033,admitted_1980s,8
-ny-attorneys:36033,admitted_1990s,13
+ny-attorneys:36033,admitted_1990s,15
 ny-attorneys:36033,admitted_2000s,14
 ny-attorneys:36033,admitted_2010s,13
-ny-attorneys:36033,admitted_2020s,5
+ny-attorneys:36033,admitted_2020s,6
 ny-attorneys:36033,median_admission_year,2000
 ny-attorneys:36033,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36035,county,36035
@@ -259,11 +259,11 @@ ny-attorneys:36037,county,36037
 ny-attorneys:36037,countyName,Genesee County
 ny-attorneys:36037,addressState,NY
 ny-attorneys:36037,population,58416
-ny-attorneys:36037,active_per_10k,15.4
+ny-attorneys:36037,active_per_10k,15.2
 ny-attorneys:36037,admitted_1970s,10
 ny-attorneys:36037,admitted_1980s,10
 ny-attorneys:36037,admitted_1990s,15
-ny-attorneys:36037,admitted_2000s,17
+ny-attorneys:36037,admitted_2000s,16
 ny-attorneys:36037,admitted_2010s,22
 ny-attorneys:36037,admitted_2020s,13
 ny-attorneys:36037,median_admission_year,2003
@@ -273,8 +273,8 @@ ny-attorneys:36039,countyName,Greene County
 ny-attorneys:36039,addressState,NY
 ny-attorneys:36039,discipline_related,5
 ny-attorneys:36039,population,47238
-ny-attorneys:36039,active_per_10k,18.6
-ny-attorneys:36039,admitted_1970s,12
+ny-attorneys:36039,active_per_10k,18.8
+ny-attorneys:36039,admitted_1970s,13
 ny-attorneys:36039,admitted_1980s,24
 ny-attorneys:36039,admitted_1990s,25
 ny-attorneys:36039,admitted_2000s,13
@@ -322,12 +322,12 @@ ny-attorneys:36047,discipline_related,52
 ny-attorneys:36047,population,2653963
 ny-attorneys:36047,active_per_10k,26.3
 ny-attorneys:36047,admitted_pre1970,60
-ny-attorneys:36047,admitted_1970s,354
-ny-attorneys:36047,admitted_1980s,821
-ny-attorneys:36047,admitted_1990s,1164
+ny-attorneys:36047,admitted_1970s,353
+ny-attorneys:36047,admitted_1980s,816
+ny-attorneys:36047,admitted_1990s,1165
 ny-attorneys:36047,admitted_2000s,1551
-ny-attorneys:36047,admitted_2010s,1744
-ny-attorneys:36047,admitted_2020s,1280
+ny-attorneys:36047,admitted_2010s,1742
+ny-attorneys:36047,admitted_2020s,1284
 ny-attorneys:36047,median_admission_year,2007
 ny-attorneys:36049,county,36049
 ny-attorneys:36049,countyName,Lewis County
@@ -374,11 +374,11 @@ ny-attorneys:36055,population,750506
 ny-attorneys:36055,active_per_10k,37.5
 ny-attorneys:36055,admitted_pre1970,54
 ny-attorneys:36055,admitted_1970s,243
-ny-attorneys:36055,admitted_1980s,423
+ny-attorneys:36055,admitted_1980s,424
 ny-attorneys:36055,admitted_1990s,538
-ny-attorneys:36055,admitted_2000s,542
-ny-attorneys:36055,admitted_2010s,614
-ny-attorneys:36055,admitted_2020s,400
+ny-attorneys:36055,admitted_2000s,543
+ny-attorneys:36055,admitted_2010s,613
+ny-attorneys:36055,admitted_2020s,401
 ny-attorneys:36055,median_admission_year,2003
 ny-attorneys:36057,county,36057
 ny-attorneys:36057,countyName,Montgomery County
@@ -397,30 +397,30 @@ ny-attorneys:36057,note,"Counts for a disciplinary or incapacity status, or for 
 ny-attorneys:36059,county,36059
 ny-attorneys:36059,countyName,Nassau County
 ny-attorneys:36059,addressState,NY
-ny-attorneys:36059,discipline_related,84
+ny-attorneys:36059,discipline_related,85
 ny-attorneys:36059,population,1398939
-ny-attorneys:36059,active_per_10k,80.5
-ny-attorneys:36059,admitted_pre1970,242
+ny-attorneys:36059,active_per_10k,80.6
+ny-attorneys:36059,admitted_pre1970,241
 ny-attorneys:36059,admitted_1970s,954
-ny-attorneys:36059,admitted_1980s,2197
-ny-attorneys:36059,admitted_1990s,2658
-ny-attorneys:36059,admitted_2000s,2114
-ny-attorneys:36059,admitted_2010s,2039
-ny-attorneys:36059,admitted_2020s,1054
+ny-attorneys:36059,admitted_1980s,2195
+ny-attorneys:36059,admitted_1990s,2662
+ny-attorneys:36059,admitted_2000s,2117
+ny-attorneys:36059,admitted_2010s,2043
+ny-attorneys:36059,admitted_2020s,1067
 ny-attorneys:36059,median_admission_year,1998
 ny-attorneys:36061,county,36061
 ny-attorneys:36061,countyName,New York County
 ny-attorneys:36061,addressState,NY
-ny-attorneys:36061,discipline_related,4474
+ny-attorneys:36061,discipline_related,4470
 ny-attorneys:36061,population,1664862
-ny-attorneys:36061,active_per_10k,527.1
-ny-attorneys:36061,admitted_pre1970,991
-ny-attorneys:36061,admitted_1970s,3114
-ny-attorneys:36061,admitted_1980s,7624
-ny-attorneys:36061,admitted_1990s,12180
-ny-attorneys:36061,admitted_2000s,18285
-ny-attorneys:36061,admitted_2010s,24483
-ny-attorneys:36061,admitted_2020s,21073
+ny-attorneys:36061,active_per_10k,528.1
+ny-attorneys:36061,admitted_pre1970,988
+ny-attorneys:36061,admitted_1970s,3106
+ny-attorneys:36061,admitted_1980s,7607
+ny-attorneys:36061,admitted_1990s,12175
+ny-attorneys:36061,admitted_2000s,18288
+ny-attorneys:36061,admitted_2010s,24485
+ny-attorneys:36061,admitted_2020s,21272
 ny-attorneys:36061,median_admission_year,2010
 ny-attorneys:36063,county,36063
 ny-attorneys:36063,countyName,Niagara County
@@ -441,11 +441,11 @@ ny-attorneys:36065,countyName,Oneida County
 ny-attorneys:36065,addressState,NY
 ny-attorneys:36065,discipline_related,7
 ny-attorneys:36065,population,226392
-ny-attorneys:36065,active_per_10k,20.6
+ny-attorneys:36065,active_per_10k,20.8
 ny-attorneys:36065,admitted_pre1970,14
-ny-attorneys:36065,admitted_1970s,58
-ny-attorneys:36065,admitted_1980s,82
-ny-attorneys:36065,admitted_1990s,99
+ny-attorneys:36065,admitted_1970s,59
+ny-attorneys:36065,admitted_1980s,83
+ny-attorneys:36065,admitted_1990s,100
 ny-attorneys:36065,admitted_2000s,90
 ny-attorneys:36065,admitted_2010s,74
 ny-attorneys:36065,admitted_2020s,50
@@ -457,23 +457,23 @@ ny-attorneys:36067,discipline_related,35
 ny-attorneys:36067,population,466584
 ny-attorneys:36067,active_per_10k,43.9
 ny-attorneys:36067,admitted_pre1970,47
-ny-attorneys:36067,admitted_1970s,169
-ny-attorneys:36067,admitted_1980s,357
+ny-attorneys:36067,admitted_1970s,168
+ny-attorneys:36067,admitted_1980s,355
 ny-attorneys:36067,admitted_1990s,403
-ny-attorneys:36067,admitted_2000s,407
-ny-attorneys:36067,admitted_2010s,392
-ny-attorneys:36067,admitted_2020s,275
+ny-attorneys:36067,admitted_2000s,408
+ny-attorneys:36067,admitted_2010s,391
+ny-attorneys:36067,admitted_2020s,278
 ny-attorneys:36067,median_admission_year,2001
 ny-attorneys:36069,county,36069
 ny-attorneys:36069,countyName,Ontario County
 ny-attorneys:36069,addressState,NY
 ny-attorneys:36069,population,113130
-ny-attorneys:36069,active_per_10k,24.6
+ny-attorneys:36069,active_per_10k,24.5
 ny-attorneys:36069,admitted_pre1970,5
 ny-attorneys:36069,admitted_1970s,27
 ny-attorneys:36069,admitted_1980s,41
 ny-attorneys:36069,admitted_1990s,53
-ny-attorneys:36069,admitted_2000s,61
+ny-attorneys:36069,admitted_2000s,60
 ny-attorneys:36069,admitted_2010s,58
 ny-attorneys:36069,admitted_2020s,33
 ny-attorneys:36069,median_admission_year,2002
@@ -482,14 +482,14 @@ ny-attorneys:36071,county,36071
 ny-attorneys:36071,countyName,Orange County
 ny-attorneys:36071,addressState,NY
 ny-attorneys:36071,population,417669
-ny-attorneys:36071,active_per_10k,21.4
+ny-attorneys:36071,active_per_10k,21.5
 ny-attorneys:36071,admitted_pre1970,23
 ny-attorneys:36071,admitted_1970s,58
 ny-attorneys:36071,admitted_1980s,179
-ny-attorneys:36071,admitted_1990s,195
-ny-attorneys:36071,admitted_2000s,193
-ny-attorneys:36071,admitted_2010s,171
-ny-attorneys:36071,admitted_2020s,76
+ny-attorneys:36071,admitted_1990s,196
+ny-attorneys:36071,admitted_2000s,194
+ny-attorneys:36071,admitted_2010s,172
+ny-attorneys:36071,admitted_2020s,77
 ny-attorneys:36071,median_admission_year,1999
 ny-attorneys:36071,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36073,county,36073
@@ -533,12 +533,12 @@ ny-attorneys:36079,county,36079
 ny-attorneys:36079,countyName,Putnam County
 ny-attorneys:36079,addressState,NY
 ny-attorneys:36079,population,99028
-ny-attorneys:36079,active_per_10k,29.6
+ny-attorneys:36079,active_per_10k,29.5
 ny-attorneys:36079,admitted_1970s,26
 ny-attorneys:36079,admitted_1980s,75
 ny-attorneys:36079,admitted_1990s,70
 ny-attorneys:36079,admitted_2000s,62
-ny-attorneys:36079,admitted_2010s,38
+ny-attorneys:36079,admitted_2010s,37
 ny-attorneys:36079,admitted_2020s,18
 ny-attorneys:36079,median_admission_year,1995
 ny-attorneys:36079,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
@@ -547,26 +547,26 @@ ny-attorneys:36081,countyName,Queens County
 ny-attorneys:36081,addressState,NY
 ny-attorneys:36081,discipline_related,43
 ny-attorneys:36081,population,2358182
-ny-attorneys:36081,active_per_10k,20.6
-ny-attorneys:36081,admitted_pre1970,70
-ny-attorneys:36081,admitted_1970s,238
+ny-attorneys:36081,active_per_10k,20.7
+ny-attorneys:36081,admitted_pre1970,71
+ny-attorneys:36081,admitted_1970s,239
 ny-attorneys:36081,admitted_1980s,664
-ny-attorneys:36081,admitted_1990s,981
+ny-attorneys:36081,admitted_1990s,982
 ny-attorneys:36081,admitted_2000s,1052
-ny-attorneys:36081,admitted_2010s,1104
-ny-attorneys:36081,admitted_2020s,757
+ny-attorneys:36081,admitted_2010s,1106
+ny-attorneys:36081,admitted_2020s,761
 ny-attorneys:36081,median_admission_year,2004
 ny-attorneys:36083,county,36083
 ny-attorneys:36083,countyName,Rensselaer County
 ny-attorneys:36083,addressState,NY
 ny-attorneys:36083,discipline_related,7
 ny-attorneys:36083,population,160510
-ny-attorneys:36083,active_per_10k,24.7
+ny-attorneys:36083,active_per_10k,24.8
 ny-attorneys:36083,admitted_pre1970,5
 ny-attorneys:36083,admitted_1970s,46
 ny-attorneys:36083,admitted_1980s,69
 ny-attorneys:36083,admitted_1990s,102
-ny-attorneys:36083,admitted_2000s,76
+ny-attorneys:36083,admitted_2000s,77
 ny-attorneys:36083,admitted_2010s,59
 ny-attorneys:36083,admitted_2020s,40
 ny-attorneys:36083,median_admission_year,1998
@@ -575,13 +575,13 @@ ny-attorneys:36085,countyName,Richmond County
 ny-attorneys:36085,addressState,NY
 ny-attorneys:36085,discipline_related,6
 ny-attorneys:36085,population,501290
-ny-attorneys:36085,active_per_10k,21.1
+ny-attorneys:36085,active_per_10k,21
 ny-attorneys:36085,admitted_pre1970,21
-ny-attorneys:36085,admitted_1970s,70
-ny-attorneys:36085,admitted_1980s,218
-ny-attorneys:36085,admitted_1990s,241
-ny-attorneys:36085,admitted_2000s,194
-ny-attorneys:36085,admitted_2010s,199
+ny-attorneys:36085,admitted_1970s,69
+ny-attorneys:36085,admitted_1980s,217
+ny-attorneys:36085,admitted_1990s,240
+ny-attorneys:36085,admitted_2000s,195
+ny-attorneys:36085,admitted_2010s,198
 ny-attorneys:36085,admitted_2020s,114
 ny-attorneys:36085,median_admission_year,1998
 ny-attorneys:36087,county,36087
@@ -589,14 +589,14 @@ ny-attorneys:36087,countyName,Rockland County
 ny-attorneys:36087,addressState,NY
 ny-attorneys:36087,discipline_related,7
 ny-attorneys:36087,population,357397
-ny-attorneys:36087,active_per_10k,32.3
+ny-attorneys:36087,active_per_10k,32.4
 ny-attorneys:36087,admitted_pre1970,48
 ny-attorneys:36087,admitted_1970s,106
 ny-attorneys:36087,admitted_1980s,254
 ny-attorneys:36087,admitted_1990s,302
 ny-attorneys:36087,admitted_2000s,220
 ny-attorneys:36087,admitted_2010s,158
-ny-attorneys:36087,admitted_2020s,68
+ny-attorneys:36087,admitted_2020s,69
 ny-attorneys:36087,median_admission_year,1995
 ny-attorneys:36089,county,36089
 ny-attorneys:36089,countyName,St. Lawrence County
@@ -616,15 +616,15 @@ ny-attorneys:36091,countyName,Saratoga County
 ny-attorneys:36091,addressState,NY
 ny-attorneys:36091,discipline_related,11
 ny-attorneys:36091,population,241343
-ny-attorneys:36091,active_per_10k,25.6
-ny-attorneys:36091,admitted_pre1970,16
+ny-attorneys:36091,active_per_10k,25.5
+ny-attorneys:36091,admitted_pre1970,15
 ny-attorneys:36091,admitted_1970s,57
 ny-attorneys:36091,admitted_1980s,112
-ny-attorneys:36091,admitted_1990s,141
+ny-attorneys:36091,admitted_1990s,142
 ny-attorneys:36091,admitted_2000s,144
 ny-attorneys:36091,admitted_2010s,95
-ny-attorneys:36091,admitted_2020s,54
-ny-attorneys:36091,median_admission_year,1999
+ny-attorneys:36091,admitted_2020s,50
+ny-attorneys:36091,median_admission_year,1998
 ny-attorneys:36093,county,36093
 ny-attorneys:36093,countyName,Schenectady County
 ny-attorneys:36093,addressState,NY
@@ -635,9 +635,9 @@ ny-attorneys:36093,admitted_pre1970,7
 ny-attorneys:36093,admitted_1970s,31
 ny-attorneys:36093,admitted_1980s,59
 ny-attorneys:36093,admitted_1990s,96
-ny-attorneys:36093,admitted_2000s,84
+ny-attorneys:36093,admitted_2000s,85
 ny-attorneys:36093,admitted_2010s,66
-ny-attorneys:36093,admitted_2020s,43
+ny-attorneys:36093,admitted_2020s,42
 ny-attorneys:36093,median_admission_year,1999
 ny-attorneys:36095,county,36095
 ny-attorneys:36095,countyName,Schoharie County
@@ -675,43 +675,43 @@ ny-attorneys:36101,county,36101
 ny-attorneys:36101,countyName,Steuben County
 ny-attorneys:36101,addressState,NY
 ny-attorneys:36101,population,91855
-ny-attorneys:36101,active_per_10k,15.9
+ny-attorneys:36101,active_per_10k,15.8
 ny-attorneys:36101,admitted_1970s,15
 ny-attorneys:36101,admitted_1980s,13
 ny-attorneys:36101,admitted_1990s,33
 ny-attorneys:36101,admitted_2000s,34
-ny-attorneys:36101,admitted_2010s,37
+ny-attorneys:36101,admitted_2010s,36
 ny-attorneys:36101,admitted_2020s,13
 ny-attorneys:36101,median_admission_year,2004
 ny-attorneys:36101,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36103,county,36103
 ny-attorneys:36103,countyName,Suffolk County
 ny-attorneys:36103,addressState,NY
-ny-attorneys:36103,discipline_related,60
+ny-attorneys:36103,discipline_related,62
 ny-attorneys:36103,population,1546090
 ny-attorneys:36103,active_per_10k,44.1
 ny-attorneys:36103,admitted_pre1970,180
-ny-attorneys:36103,admitted_1970s,524
-ny-attorneys:36103,admitted_1980s,1312
+ny-attorneys:36103,admitted_1970s,525
+ny-attorneys:36103,admitted_1980s,1314
 ny-attorneys:36103,admitted_1990s,1732
 ny-attorneys:36103,admitted_2000s,1378
-ny-attorneys:36103,admitted_2010s,1154
-ny-attorneys:36103,admitted_2020s,535
+ny-attorneys:36103,admitted_2010s,1153
+ny-attorneys:36103,admitted_2020s,541
 ny-attorneys:36103,median_admission_year,1997
 ny-attorneys:36105,county,36105
 ny-attorneys:36105,countyName,Sullivan County
 ny-attorneys:36105,addressState,NY
 ny-attorneys:36105,discipline_related,7
 ny-attorneys:36105,population,80586
-ny-attorneys:36105,active_per_10k,21.8
+ny-attorneys:36105,active_per_10k,22
 ny-attorneys:36105,admitted_pre1970,9
 ny-attorneys:36105,admitted_1970s,19
 ny-attorneys:36105,admitted_1980s,55
-ny-attorneys:36105,admitted_1990s,43
+ny-attorneys:36105,admitted_1990s,44
 ny-attorneys:36105,admitted_2000s,21
 ny-attorneys:36105,admitted_2010s,21
 ny-attorneys:36105,admitted_2020s,8
-ny-attorneys:36105,median_admission_year,1991
+ny-attorneys:36105,median_admission_year,1992
 ny-attorneys:36107,county,36107
 ny-attorneys:36107,countyName,Tioga County
 ny-attorneys:36107,addressState,NY
@@ -729,12 +729,12 @@ ny-attorneys:36109,countyName,Tompkins County
 ny-attorneys:36109,addressState,NY
 ny-attorneys:36109,discipline_related,19
 ny-attorneys:36109,population,104047
-ny-attorneys:36109,active_per_10k,32.3
+ny-attorneys:36109,active_per_10k,32
 ny-attorneys:36109,admitted_pre1970,5
 ny-attorneys:36109,admitted_1970s,29
-ny-attorneys:36109,admitted_1980s,52
-ny-attorneys:36109,admitted_1990s,64
-ny-attorneys:36109,admitted_2000s,80
+ny-attorneys:36109,admitted_1980s,51
+ny-attorneys:36109,admitted_1990s,63
+ny-attorneys:36109,admitted_2000s,79
 ny-attorneys:36109,admitted_2010s,69
 ny-attorneys:36109,admitted_2020s,37
 ny-attorneys:36109,median_admission_year,2001
@@ -743,13 +743,13 @@ ny-attorneys:36111,countyName,Ulster County
 ny-attorneys:36111,addressState,NY
 ny-attorneys:36111,discipline_related,28
 ny-attorneys:36111,population,183330
-ny-attorneys:36111,active_per_10k,27
+ny-attorneys:36111,active_per_10k,27.2
 ny-attorneys:36111,admitted_pre1970,12
-ny-attorneys:36111,admitted_1970s,63
-ny-attorneys:36111,admitted_1980s,94
+ny-attorneys:36111,admitted_1970s,62
+ny-attorneys:36111,admitted_1980s,95
 ny-attorneys:36111,admitted_1990s,116
-ny-attorneys:36111,admitted_2000s,91
-ny-attorneys:36111,admitted_2010s,81
+ny-attorneys:36111,admitted_2000s,92
+ny-attorneys:36111,admitted_2010s,83
 ny-attorneys:36111,admitted_2020s,38
 ny-attorneys:36111,median_admission_year,1996
 ny-attorneys:36113,county,36113
@@ -771,40 +771,40 @@ ny-attorneys:36115,countyName,Washington County
 ny-attorneys:36115,addressState,NY
 ny-attorneys:36115,discipline_related,9
 ny-attorneys:36115,population,59353
-ny-attorneys:36115,active_per_10k,10.8
+ny-attorneys:36115,active_per_10k,11
 ny-attorneys:36115,admitted_1970s,10
 ny-attorneys:36115,admitted_1980s,15
 ny-attorneys:36115,admitted_1990s,14
 ny-attorneys:36115,admitted_2000s,6
 ny-attorneys:36115,admitted_2010s,10
-ny-attorneys:36115,admitted_2020s,8
+ny-attorneys:36115,admitted_2020s,9
 ny-attorneys:36115,median_admission_year,1995
 ny-attorneys:36115,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36117,county,36117
 ny-attorneys:36117,countyName,Wayne County
 ny-attorneys:36117,addressState,NY
 ny-attorneys:36117,population,91250
-ny-attorneys:36117,active_per_10k,8.5
+ny-attorneys:36117,active_per_10k,8.7
 ny-attorneys:36117,admitted_1970s,11
 ny-attorneys:36117,admitted_1980s,12
 ny-attorneys:36117,admitted_1990s,19
 ny-attorneys:36117,admitted_2000s,11
-ny-attorneys:36117,admitted_2010s,16
+ny-attorneys:36117,admitted_2010s,17
 ny-attorneys:36117,admitted_2020s,6
 ny-attorneys:36117,median_admission_year,1996
 ny-attorneys:36117,note,"Counts for a disciplinary or incapacity status, or for an admission decade, are published from 5 up; totals are always published."
 ny-attorneys:36119,county,36119
 ny-attorneys:36119,countyName,Westchester County
 ny-attorneys:36119,addressState,NY
-ny-attorneys:36119,discipline_related,51
+ny-attorneys:36119,discipline_related,52
 ny-attorneys:36119,population,1015743
 ny-attorneys:36119,active_per_10k,84.4
-ny-attorneys:36119,admitted_pre1970,274
-ny-attorneys:36119,admitted_1970s,822
-ny-attorneys:36119,admitted_1980s,1832
-ny-attorneys:36119,admitted_1990s,1954
-ny-attorneys:36119,admitted_2000s,1643
-ny-attorneys:36119,admitted_2010s,1405
+ny-attorneys:36119,admitted_pre1970,273
+ny-attorneys:36119,admitted_1970s,823
+ny-attorneys:36119,admitted_1980s,1831
+ny-attorneys:36119,admitted_1990s,1955
+ny-attorneys:36119,admitted_2000s,1639
+ny-attorneys:36119,admitted_2010s,1410
 ny-attorneys:36119,admitted_2020s,645
 ny-attorneys:36119,median_admission_year,1996
 ny-attorneys:36121,county,36121
@@ -869,7 +869,7 @@ ny-attorneys:NY-addr-CT,addressPlace,Connecticut
 ny-attorneys:NY-addr-CT,discipline_related,430
 ny-attorneys:NY-addr-DC,addressState,DC
 ny-attorneys:NY-addr-DC,addressPlace,District of Columbia
-ny-attorneys:NY-addr-DC,discipline_related,563
+ny-attorneys:NY-addr-DC,discipline_related,562
 ny-attorneys:NY-addr-DE,addressState,DE
 ny-attorneys:NY-addr-DE,addressPlace,Delaware
 ny-attorneys:NY-addr-DE,discipline_related,14
@@ -896,7 +896,7 @@ ny-attorneys:NY-addr-ID,addressPlace,Idaho
 ny-attorneys:NY-addr-ID,discipline_related,6
 ny-attorneys:NY-addr-IL,addressState,IL
 ny-attorneys:NY-addr-IL,addressPlace,Illinois
-ny-attorneys:NY-addr-IL,discipline_related,206
+ny-attorneys:NY-addr-IL,discipline_related,207
 ny-attorneys:NY-addr-IN,addressState,IN
 ny-attorneys:NY-addr-IN,addressPlace,Indiana
 ny-attorneys:NY-addr-IN,discipline_related,21
@@ -914,7 +914,7 @@ ny-attorneys:NY-addr-MA,addressPlace,Massachusetts
 ny-attorneys:NY-addr-MA,discipline_related,425
 ny-attorneys:NY-addr-MD,addressState,MD
 ny-attorneys:NY-addr-MD,addressPlace,Maryland
-ny-attorneys:NY-addr-MD,discipline_related,171
+ny-attorneys:NY-addr-MD,discipline_related,173
 ny-attorneys:NY-addr-ME,addressState,ME
 ny-attorneys:NY-addr-ME,addressPlace,Maine
 ny-attorneys:NY-addr-ME,discipline_related,15
@@ -953,7 +953,7 @@ ny-attorneys:NY-addr-NH,addressPlace,New Hampshire
 ny-attorneys:NY-addr-NH,discipline_related,23
 ny-attorneys:NY-addr-NJ,addressState,NJ
 ny-attorneys:NY-addr-NJ,addressPlace,New Jersey
-ny-attorneys:NY-addr-NJ,discipline_related,1551
+ny-attorneys:NY-addr-NJ,discipline_related,1550
 ny-attorneys:NY-addr-NM,addressState,NM
 ny-attorneys:NY-addr-NM,addressPlace,New Mexico
 ny-attorneys:NY-addr-NM,discipline_related,10
@@ -992,13 +992,13 @@ ny-attorneys:NY-addr-TN,addressPlace,Tennessee
 ny-attorneys:NY-addr-TN,discipline_related,36
 ny-attorneys:NY-addr-TX,addressState,TX
 ny-attorneys:NY-addr-TX,addressPlace,Texas
-ny-attorneys:NY-addr-TX,discipline_related,243
+ny-attorneys:NY-addr-TX,discipline_related,244
 ny-attorneys:NY-addr-UT,addressState,UT
 ny-attorneys:NY-addr-UT,addressPlace,Utah
 ny-attorneys:NY-addr-UT,discipline_related,29
 ny-attorneys:NY-addr-VA,addressState,VA
 ny-attorneys:NY-addr-VA,addressPlace,Virginia
-ny-attorneys:NY-addr-VA,discipline_related,181
+ny-attorneys:NY-addr-VA,discipline_related,180
 ny-attorneys:NY-addr-VI,addressState,VI
 ny-attorneys:NY-addr-VI,addressPlace,U.S. Virgin Islands
 ny-attorneys:NY-addr-VI,note,Counts for a disciplinary or incapacity status are published from 5 up; totals are always published.
@@ -1021,15 +1021,15 @@ ny-attorneys:NY-addr-not-published,discipline_related,13089
 ny-attorneys:NY-addr-not-published,note,"The court's public file leaves the office address blank for these registrations, so they cannot be placed in a county or state."
 ny-attorneys:NY-dept-1,countyName,First Department (Manhattan and the Bronx)
 ny-attorneys:NY-dept-1,department,1
-ny-attorneys:NY-dept-1,discipline_related,10769
+ny-attorneys:NY-dept-1,discipline_related,10766
 ny-attorneys:NY-dept-1,note,"Judicial department of admission to the New York bar, not office location."
 ny-attorneys:NY-dept-2,countyName,"Second Department (Brooklyn, Queens, Staten Island, Long Island and the Hudson Valley south of Albany)"
 ny-attorneys:NY-dept-2,department,2
-ny-attorneys:NY-dept-2,discipline_related,4117
+ny-attorneys:NY-dept-2,discipline_related,4122
 ny-attorneys:NY-dept-2,note,"Judicial department of admission to the New York bar, not office location."
 ny-attorneys:NY-dept-3,countyName,"Third Department (Albany and the Capital Region, the Southern Tier and the North Country)"
 ny-attorneys:NY-dept-3,department,3
-ny-attorneys:NY-dept-3,discipline_related,9510
+ny-attorneys:NY-dept-3,discipline_related,9509
 ny-attorneys:NY-dept-3,note,"Judicial department of admission to the New York bar, not office location."
 ny-attorneys:NY-dept-4,countyName,Fourth Department (Western New York and the Finger Lakes)
 ny-attorneys:NY-dept-4,department,4
