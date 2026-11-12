@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-11",
+  "generated": "2026-11-12",
   "datasets": [
     {
       "id": "rules",
@@ -371,11 +371,11 @@
     },
     {
       "id": "firm-web-census",
-      "version": "3.1.0",
-      "doi": "10.5281/zenodo.24020085",
-      "released": "2026-11-09",
-      "cardSha": "e565ff9c8835f551",
-      "rows": 4467,
+      "version": "3.2.1",
+      "doi": "10.5281/zenodo.24148921",
+      "released": "2026-11-12",
+      "cardSha": "53793d47c73f43fb",
+      "rows": 5807,
       "files": [
         "firm-web-census-values.csv"
       ]
@@ -774,11 +774,11 @@
     },
     {
       "id": "search-demand",
-      "version": "1.2.0",
-      "doi": "10.5281/zenodo.24023739",
-      "released": "2026-11-09",
-      "cardSha": "73702d30832df809",
-      "rows": 4678
+      "version": "1.3.0",
+      "doi": "10.5281/zenodo.24116059",
+      "released": "2026-11-11",
+      "cardSha": "b6882e7e3611cfd3",
+      "rows": 5694
     },
     {
       "id": "serp-landscape",

@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-11",
-  "created": "2026-11-11T00:00:00Z",
+  "version": "2026-11-12",
+  "created": "2026-11-12T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -6280,13 +6280,13 @@
       "name": "firm-web-census",
       "profile": "tabular-data-resource",
       "title": "US law firm websites: practices, Spanish, intake, by state, county and practice area",
-      "description": "US law firms, state by state and county by county, from two kinds of open source: law firms' own public websites, and official state registries published as open data for reuse (New York's attorney registrations and business entities, and the business registries of Colorado, Oregon, Connecticut, Texas and Pennsylvania). For each state, county and practice area we count the firms found, how many have a website we read, and, of those websites, the shares that show Spanish-language pages, a 24/7 intake statement, a free consultation or no fee unless they win, a chat or online booking tool, legal structured data (schema.org LegalService or Attorney), review markup or an llms.txt file, with the median number of pages a firm has about the practice. Every row compares the firms found with the employer law offices the Census Bureau's County Business Patterns counts. A state is called a census or a registry list only when that reaches 0.70; until then the rows are a sample. These counts are CC BY 4.0. The firm-level rows behind them (name as the firm or registry gives it, offices by county and the yes-or-no facts, each linked to the page it was read on with the date) are published separately under the Open Database License (ODbL) 1.0, because the list of sites comes partly from OpenStreetMap (© OpenStreetMap contributors), and are shown on the /firms/ pages. No firm is rated, scored or ranked. Firm names can include a lawyer's name when that is the firm's registered or website name; a row that is only one person's name is counted and not listed. Website sources: Common Crawl (its web graph and the Web Data Commons structured-data extract), OpenStreetMap and Wikidata.",
+      "description": "US law firms, state by state and county by county, from two kinds of open source: law firms' own public websites, and official state registries published as open data for reuse (New York's attorney registrations and business entities, and the business registries of Colorado, Oregon, Connecticut, Texas and Pennsylvania). For each state, county and practice area we count the firms found, how many have a website we read, and, of those websites, the shares that show Spanish-language pages, a 24/7 intake statement, a free consultation or no fee unless they win, a chat or online booking tool, legal structured data (schema.org LegalService or Attorney), review markup or an llms.txt file, with the median number of pages a firm has about the practice. Every row compares the firms found with the employer law offices the Census Bureau's County Business Patterns counts. A state is called a census or a registry list only when that reaches 0.70; until then the rows are a sample. These counts are CC BY 4.0. The firm-level rows behind them (name as the firm or registry gives it, offices by county and the yes-or-no facts, each linked to the page it was read on with the date) are published separately under the Open Database License (ODbL) 1.0, because the list of sites comes partly from OpenStreetMap (© OpenStreetMap contributors), and are shown on the /firms/ pages. No firm is rated, scored or ranked. The firm rows hold no street address, phone number or email address: a page address that contains a phone-shaped number or a street-address shape is left out, and a name that contains one is counted and not listed. Firm names can include a lawyer's name when that is the firm's registered or website name; a row that is only one person's name is counted and not listed. Website sources: Common Crawl (its web graph and the Web Data Commons structured-data extract), OpenStreetMap and Wikidata.",
       "path": "data/firm-web-census/firm-web-census.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.1.0",
-      "id": "https://doi.org/10.5281/zenodo.24020085",
+      "version": "3.2.1",
+      "id": "https://doi.org/10.5281/zenodo.24148921",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6408,7 +6408,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.1.0",
+      "version": "3.2.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -13793,8 +13793,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.2.0",
-      "id": "https://doi.org/10.5281/zenodo.24023739",
+      "version": "1.3.0",
+      "id": "https://doi.org/10.5281/zenodo.24116059",
       "licenses": [
         {
           "name": "CC-BY-4.0",
