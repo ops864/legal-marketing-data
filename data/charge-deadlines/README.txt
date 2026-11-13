@@ -1,12 +1,12 @@
 Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit
 
-Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23782861
+Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116038
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit, version 1.0.0, https://doi.org/10.5281/zenodo.23782861, licensed CC BY 4.0.
+Source: Probative, Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit, version 1.0.1, https://doi.org/10.5281/zenodo.24116038, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23782861
+Probative. (2026). Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116038
 
 Not legal advice. These are the time limits as the statutes and the EEOC state them, kept for research and marketing planning. Deadlines have exceptions and change; a worker should ask a lawyer or the agency about a particular case.
 Probative is a marketing firm, not a law firm; not legal advice.

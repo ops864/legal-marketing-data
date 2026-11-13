@@ -408,11 +408,11 @@ references:
     title: "Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit"
     authors:
       - name: "Probative Growth"
-    version: "1.0.0"
-    doi: "10.5281/zenodo.23782861"
+    version: "1.0.1"
+    doi: "10.5281/zenodo.24116038"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/charge-deadlines/"
-    date-released: "2026-10-29"
+    date-released: "2026-11-13"
   - type: dataset
     title: "Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025"
     authors:

@@ -117,10 +117,10 @@
     },
     {
       "id": "charge-deadlines",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23782861",
-      "released": "2026-10-29",
-      "cardSha": "2378a8304fd398f7",
+      "version": "1.0.1",
+      "doi": "10.5281/zenodo.24116038",
+      "released": "2026-11-13",
+      "cardSha": "7b1b68579bbd9ce8",
       "rows": 37
     },
     {
