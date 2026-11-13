@@ -1,12 +1,12 @@
 Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties
 
-Version 2.2.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24022952
+Version 2.3.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24181503
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties, version 2.2.0, https://doi.org/10.5281/zenodo.24022952, licensed CC BY 4.0.
+Source: Probative, Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties, version 2.3.0, https://doi.org/10.5281/zenodo.24181503, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties (Version 2.2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24022952
+Probative. (2026). Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties (Version 2.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24181503
 
 Not legal advice. This is a reference table of public codes and boundaries, kept for research and marketing planning. Which court hears a case depends on more than a county line; check the statute and the court's own rules.
 Probative is a marketing firm, not a law firm; not legal advice.

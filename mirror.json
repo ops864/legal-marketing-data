@@ -207,11 +207,11 @@
     },
     {
       "id": "crosswalks",
-      "version": "2.2.0",
-      "doi": "10.5281/zenodo.24022952",
-      "released": "2026-11-09",
-      "cardSha": "93570d962f196448",
-      "rows": 3702,
+      "version": "2.3.0",
+      "doi": "10.5281/zenodo.24181503",
+      "released": "2026-11-13",
+      "cardSha": "cc540a1a26dfaa92",
+      "rows": 3703,
       "files": [
         "crosswalks-values.csv"
       ]
@@ -825,6 +825,17 @@
       "released": "2026-10-29",
       "cardSha": "a2af5cb82e2ee6d9",
       "rows": 3
+    },
+    {
+      "id": "tcpa-ada-filings",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.24187571",
+      "released": "2026-11-13",
+      "cardSha": "d0a3e1770574516b",
+      "rows": 1598,
+      "files": [
+        "tcpa-ada-filings-values.csv"
+      ]
     },
     {
       "id": "toxic-releases",

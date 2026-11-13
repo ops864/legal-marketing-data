@@ -942,6 +942,9 @@ cw-dataset-state-courts,doi,10.5281/zenodo.23964136
 cw-dataset-state-wage-claims,practices,employment-law; wage-and-hour
 cw-dataset-state-wage-claims,dimensions,demand
 cw-dataset-state-wage-claims,doi,10.5281/zenodo.23753046
+cw-dataset-tcpa-ada-filings,practices,disability-access; tcpa-robocalls
+cw-dataset-tcpa-ada-filings,dimensions,demand
+cw-dataset-tcpa-ada-filings,doi,10.5281/zenodo.24187571
 cw-dataset-toxic-releases,practices,mass-tort; toxic-exposure
 cw-dataset-toxic-releases,dimensions,demand
 cw-dataset-toxic-releases,doi,10.5281/zenodo.23964168

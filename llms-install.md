@@ -105,6 +105,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/state-civil-rights`: State civil-rights agency complaint and charge counts with the source document and quote for each figure.
 - `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA LA HI), by practice area, with county FIPS.
 - `https://probativegrowth.com/mcp/state-wage-claims`: State labor agency wage claim counts with the source document and quote for each figure.
+- `https://probativegrowth.com/mcp/tcpa-ada-filings`: TCPA (code 485) and ADA-other (code 446) federal cases filed, by district court and fiscal year, from the FJC civil case file.
 - `https://probativegrowth.com/mcp/toxic-releases`: EPA TRI toxic chemical releases by county: facilities, pounds on site, carcinogens, PFAS, benzene, lead, ethylene oxide.
 - `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.
 - `https://probativegrowth.com/mcp/tx-nonsubscribers`: Texas employers with no workers' compensation coverage (DWC Form-005 filings), counted by county, 2024 to 2026.

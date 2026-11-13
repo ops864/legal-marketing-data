@@ -3485,8 +3485,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.2.0",
-      "id": "https://doi.org/10.5281/zenodo.24022952",
+      "version": "2.3.0",
+      "id": "https://doi.org/10.5281/zenodo.24181503",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -3589,7 +3589,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -14807,6 +14807,198 @@
         ],
         "missingValues": [
           ""
+        ]
+      }
+    },
+    {
+      "name": "tcpa-ada-filings",
+      "profile": "tabular-data-resource",
+      "title": "TCPA and ADA federal lawsuits filed, by district and fiscal year",
+      "description": "Civil cases filed in each of the 94 federal district courts in each federal fiscal year under nature-of-suit code 485 (Telephone Consumer Protection Act) and code 446 (Americans with Disabilities Act, other: cases outside employment under the ADA sections on public entities and public accommodations, not only website cases), with the cases inside a multidistrict litigation counted apart and every civil case the district received that year. Counted from the Federal Judicial Center's civil case file, with each code's definition quoted from the U.S. Courts. Counts only: no party, lawyer or case number.",
+      "path": "data/tcpa-ada-filings/tcpa-ada-filings.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.24187571",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/research/idb"
+        },
+        {
+          "title": "www.fjc.gov",
+          "path": "https://www.fjc.gov/sites/default/files/idb/textfiles/cv88on.zip"
+        },
+        {
+          "title": "www.uscourts.gov",
+          "path": "https://www.uscourts.gov/sites/default/files/js_044_code_descriptions.pdf"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "district",
+            "type": "string",
+            "description": "The federal district court's key (for example CAC, NYS)"
+          },
+          {
+            "name": "districtName",
+            "type": "string",
+            "description": "The district court's name"
+          },
+          {
+            "name": "circuit",
+            "type": "string",
+            "description": "The federal circuit the district belongs to"
+          },
+          {
+            "name": "natureOfSuit",
+            "type": "integer",
+            "description": "The civil cover sheet's nature-of-suit code: 485 (Telephone Consumer Protection Act) or 446 (Americans with Disabilities Act, other)"
+          },
+          {
+            "name": "natureOfSuitName",
+            "type": "string",
+            "description": "The code's name"
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "tcpa or ada-other"
+          },
+          {
+            "name": "fiscalYear",
+            "type": "integer",
+            "description": "The federal fiscal year the cases were filed in (fiscal year N runs October 1 of N-1 to September 30 of N, by filing date)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The record in one plain-English sentence"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Cases filed in the district and fiscal year under the code, multidistrict litigation cases included"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit of value"
+          },
+          {
+            "name": "filed",
+            "type": "integer",
+            "description": "Of them, the cases outside a multidistrict litigation"
+          },
+          {
+            "name": "filedInMdl",
+            "type": "integer",
+            "description": "Of them, the cases that carry a multidistrict litigation docket number"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "Cases filed in the district and fiscal year under the code (filed plus filedInMdl)"
+          },
+          {
+            "name": "allCivilFiled",
+            "type": "integer",
+            "description": "Every civil case filed in the district that fiscal year"
+          },
+          {
+            "name": "pctOfAllCivil",
+            "type": "number",
+            "description": "The code's cases as a percent of every civil case filed in the district that fiscal year"
+          },
+          {
+            "name": "effectiveFrom",
+            "type": "string",
+            "description": "First day of the fiscal year"
+          },
+          {
+            "name": "effectiveTo",
+            "type": "string",
+            "description": "Last day of the fiscal year"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day it was last confirmed (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "tcpa-ada-filings-values",
+      "profile": "tabular-data-resource",
+      "title": "TCPA and ADA federal lawsuits filed, by district and fiscal year: tcpa-ada-filings-values.csv",
+      "description": "The columns listed in README.txt as being in tcpa-ada-filings-values.csv, one row per id, column and value; join it to tcpa-ada-filings.csv on id.",
+      "path": "data/tcpa-ada-filings/tcpa-ada-filings-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
         ]
       }
     },
