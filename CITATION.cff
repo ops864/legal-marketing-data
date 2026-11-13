@@ -16,8 +16,8 @@ keywords:
 license: CC-BY-4.0
 url: "https://probativegrowth.com/data/"
 repository-code: "https://github.com/ops864/legal-marketing-data"
-date-released: "2026-11-12"
-version: "2026-11-12"
+date-released: "2026-11-13"
+version: "2026-11-13"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23645750"
@@ -615,11 +615,11 @@ references:
     title: "What US state bars charge, and require, to file or review lawyer advertising"
     authors:
       - name: "Probative Growth"
-    version: "3.0.1"
-    doi: "10.5281/zenodo.24114746"
+    version: "3.1.0"
+    doi: "10.5281/zenodo.24184382"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/research/lawyer-ad-filing-fees/"
-    date-released: "2026-11-11"
+    date-released: "2026-11-13"
   - type: dataset
     title: "The US legal market in numbers: headline findings from Probative's open datasets"
     authors:
@@ -687,11 +687,11 @@ references:
     title: "Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data)"
     authors:
       - name: "Probative Growth"
-    version: "2.0.0"
-    doi: "10.5281/zenodo.23963673"
+    version: "2.0.1"
+    doi: "10.5281/zenodo.24183839"
     license: CC-BY-4.0
     url: "https://probativegrowth.com/data/immigration-courts/"
-    date-released: "2026-11-04"
+    date-released: "2026-11-13"
   - type: dataset
     title: "Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury"
     authors:

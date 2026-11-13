@@ -8,7 +8,7 @@ Source: Probative, The new-lawyer pipeline by jurisdiction: bar exam pass rates 
 Suggested citation:
 Probative. (2026). The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23962982
 
-Not legal advice. This is a plain-English summary of public sources, kept for marketing and recruiting planning. The figures are derived from the National Conference of Bar Examiners' published statistics, not copied from them; for the original tables, go to NCBE.
+Not legal advice. This is a plain-English summary of public sources, kept for marketing and recruiting planning. The figures are derived from the National Conference of Bar Examiners' published statistics and credited to NCBE; for the original tables, go to NCBE.
 Probative is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/bar-pipeline/

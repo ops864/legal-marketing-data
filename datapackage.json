@@ -4,8 +4,8 @@
   "id": "https://doi.org/10.5281/zenodo.23645750",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
-  "version": "2026-11-12",
-  "created": "2026-11-12T00:00:00Z",
+  "version": "2026-11-13",
+  "created": "2026-11-13T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -880,7 +880,7 @@
       "name": "bar-pipeline",
       "profile": "tabular-data-resource",
       "title": "The new-lawyer pipeline by jurisdiction: bar exam pass rates and new admissions, 2025",
-      "description": "For every US jurisdiction that reports to the National Conference of Bar Examiners (the 50 states, DC, Guam, the Northern Mariana Islands, Palau, Puerto Rico and the Virgin Islands): the overall 2025 bar exam pass rate, how many new lawyers were admitted in 2025 (by examination, by transferred UBE score and on motion), how admissions by exam or transferred score changed since 2021, and how much of the total came from transferred scores and from motion. NCBE reserves its published tables, so this dataset republishes none of them: every figure is one we derive from them (a rate, a sum, a change, a share), credited to NCBE with a link to the table it comes from. Each jurisdiction's rows add up to NCBE's own totals row before anything is published.",
+      "description": "For every US jurisdiction that reports to the National Conference of Bar Examiners (the 50 states, DC, Guam, the Northern Mariana Islands, Palau, Puerto Rico and the Virgin Islands): the overall 2025 bar exam pass rate, how many new lawyers were admitted in 2025 (by examination, by transferred UBE score and on motion), how admissions by exam or transferred score changed since 2021, and how much of the total came from transferred scores and from motion. Every figure is derived from NCBE's published tables (a rate, a sum, a change, a share) and credited to NCBE with a link to the table it comes from. Where a jurisdiction shows a single admission pathway, the admitted figure is the count NCBE prints for that pathway (The Bar Examiner, statistics for 2025). Each jurisdiction's rows add up to NCBE's own totals row before anything is published.",
       "path": "data/bar-pipeline/bar-pipeline.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -5984,8 +5984,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.1",
-      "id": "https://doi.org/10.5281/zenodo.24114746",
+      "version": "3.1.0",
+      "id": "https://doi.org/10.5281/zenodo.24184382",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -6093,7 +6093,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "3.0.1",
+      "version": "3.1.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7612,8 +7612,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23963673",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24183839",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -7741,7 +7741,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",

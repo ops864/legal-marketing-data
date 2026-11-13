@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "datasets": [
     {
       "id": "rules",
@@ -60,7 +60,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23962982",
       "released": "2026-11-04",
-      "cardSha": "4b0f8b0697011ce5",
+      "cardSha": "636d8a203aa4f91b",
       "rows": 56,
       "files": [
         "bar-pipeline-values.csv"
@@ -101,7 +101,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963026",
       "released": "2026-11-04",
-      "cardSha": "572ce0e36b4bec63",
+      "cardSha": "5f3a0f3e7b7f186f",
       "rows": 2301,
       "files": [
         "ca-courts-values.csv"
@@ -136,7 +136,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963129",
       "released": "2026-11-04",
-      "cardSha": "0573be2c6d8f1e9a",
+      "cardSha": "47b455d20e3b1d39",
       "rows": 3239,
       "files": [
         "civil-filings-values.csv"
@@ -251,7 +251,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23898096",
       "released": "2026-11-02",
-      "cardSha": "1cc42e6acd297feb",
+      "cardSha": "963c0e7dbed6aed5",
       "rows": 159
     },
     {
@@ -352,11 +352,11 @@
     },
     {
       "id": "filing",
-      "version": "3.0.1",
-      "doi": "10.5281/zenodo.24114746",
-      "released": "2026-11-11",
-      "cardSha": "31d2e814fbfeec45",
-      "rows": 49,
+      "version": "3.1.0",
+      "doi": "10.5281/zenodo.24184382",
+      "released": "2026-11-13",
+      "cardSha": "787a3d8ae8a12217",
+      "rows": 51,
       "files": [
         "filing-values.csv"
       ]
@@ -435,10 +435,10 @@
     },
     {
       "id": "immigration-courts",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23963673",
-      "released": "2026-11-04",
-      "cardSha": "c9b0ac5a571d768a",
+      "version": "2.0.1",
+      "doi": "10.5281/zenodo.24183839",
+      "released": "2026-11-13",
+      "cardSha": "717535c725627546",
       "rows": 155,
       "files": [
         "immigration-courts-values.csv"
@@ -812,7 +812,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964136",
       "released": "2026-11-04",
-      "cardSha": "83b80dde2b79f697",
+      "cardSha": "1e57929314246004",
       "rows": 13180,
       "files": [
         "state-courts-values.csv"

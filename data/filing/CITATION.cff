@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, What US state bars charge, and require, to file or review lawyer advertising, 2026, https://doi.org/10.5281/zenodo.24114746."
+message: "If you use this dataset, please cite it as: Probative Growth, What US state bars charge, and require, to file or review lawyer advertising, 2026, https://doi.org/10.5281/zenodo.24184382."
 title: "What US state bars charge, and require, to file or review lawyer advertising"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "3.0.1"
-doi: "10.5281/zenodo.24114746"
+version: "3.1.0"
+doi: "10.5281/zenodo.24184382"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23656745"

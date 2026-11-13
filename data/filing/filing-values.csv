@@ -176,6 +176,10 @@ tx-ad-filing,effectiveFrom,2021-07-01
 ut-ad-filing,retention_years,0
 ut-ad-filing,effectiveFrom,Rule 3-7.1 version effective 2024-05-01
 ut-ad-filing,detail,Rules 3-7.2 and 3-7.3 are reserved.
+va-ad-filing,retention_years,0
+va-ad-filing,effectiveFrom,2017-07-01
+vt-ad-filing,retention_years,0
+vt-ad-filing,effectiveFrom,2009-09-01
 wa-ad-filing,retention_years,0
 wa-ad-filing,effectiveFrom,"RPC 7.3 last amended effective April 29, 2025; RPC 7.2/7.4/7.5 reserved since January 2021"
 wi-ad-filing,timing,after_first_use
