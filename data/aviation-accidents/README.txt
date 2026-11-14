@@ -3,10 +3,12 @@ Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 20
 Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116037
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026, version 2.0.1, https://doi.org/10.5281/zenodo.24116037, licensed CC BY 4.0.
+Source: Probative Growth, Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026, version 2.0.1, https://doi.org/10.5281/zenodo.24116037, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026 (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116037
+Probative Growth. (2026). Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026 (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116037
+
+Cite as: Probative Growth, Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026, 2026, https://doi.org/10.5281/zenodo.24116037
 
 Not legal advice. These are counts of accidents recorded by the NTSB, not findings of fault: a probable cause, if any, is in the NTSB's own report. An accident is an event meeting the NTSB's definition, which includes events with no injury. Counts for the latest year are preliminary and are revised as the NTSB closes cases. Claims and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

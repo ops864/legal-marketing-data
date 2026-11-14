@@ -3,10 +3,12 @@ Google search-ad costs for lawyer searches by practice area and state: top-of-pa
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23851278
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner), version 1.0.0, https://doi.org/10.5281/zenodo.23851278, licensed CC BY 4.0.
+Source: Probative Growth, Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner), version 1.0.0, https://doi.org/10.5281/zenodo.23851278, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23851278
+Probative Growth. (2026). Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23851278
+
+Cite as: Probative Growth, Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner), 2026, https://doi.org/10.5281/zenodo.23851278
 
 Not legal advice. These are bid bands and competition levels from Google's keyword data on the date shown, kept for research and marketing planning. They are not a price quote, and the cost of any campaign depends on its own settings.
 Probative is a marketing firm, not a law firm; not legal advice.

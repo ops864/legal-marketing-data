@@ -3,10 +3,12 @@ Official public statistics behind the practice and state pages: bankruptcy, empl
 Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116055
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury, version 1.1.0, https://doi.org/10.5281/zenodo.24116055, licensed CC BY 4.0.
+Source: Probative Growth, Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury, version 1.1.0, https://doi.org/10.5281/zenodo.24116055, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116055
+Probative Growth. (2026). Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116055
+
+Cite as: Probative Growth, Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury, 2026, https://doi.org/10.5281/zenodo.24116055
 
 Not legal advice. Public statistics for research and market planning, not legal advice and not a forecast of cases for any firm.
 Probative is a marketing firm, not a law firm; not legal advice.

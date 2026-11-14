@@ -3,10 +3,12 @@ US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24015038
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market, version 1.0.0, https://doi.org/10.5281/zenodo.24015038, licensed CC BY 4.0.
+Source: Probative Growth, US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market, version 1.0.0, https://doi.org/10.5281/zenodo.24015038, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24015038
+Probative Growth. (2026). US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24015038
+
+Cite as: Probative Growth, US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market, 2026, https://doi.org/10.5281/zenodo.24015038
 
 Not legal advice. These are counts of what law-firm websites' crawler files and raw pages said when read. A rule in such a file is what the file says; it does not show what any AI tool does, and nothing here measures whether a firm appears in AI answers. The counts describe no firm's quality.
 Probative is a marketing firm, not a law firm; not legal advice.

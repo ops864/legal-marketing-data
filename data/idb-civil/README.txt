@@ -3,10 +3,12 @@ How long federal civil cases take: outcomes, class actions and pro se share by d
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898111
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year, version 2.0.0, https://doi.org/10.5281/zenodo.23898111, licensed CC BY 4.0.
+Source: Probative Growth, How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year, version 2.0.0, https://doi.org/10.5281/zenodo.23898111, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898111
+Probative Growth. (2026). How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898111
+
+Cite as: Probative Growth, How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year, 2026, https://doi.org/10.5281/zenodo.23898111
 
 Not legal advice. These are counts, medians and shares from the Federal Judicial Center's court records, kept for marketing planning. A court's typical time to disposition says nothing about how any one case will go.
 Probative is a marketing firm, not a law firm; not legal advice.

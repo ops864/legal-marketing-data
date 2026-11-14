@@ -3,10 +3,12 @@ Referral-fee and fee-splitting rules for lawyers, by state
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964121
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Referral-fee and fee-splitting rules for lawyers, by state, version 2.0.0, https://doi.org/10.5281/zenodo.23964121, licensed CC BY 4.0.
+Source: Probative Growth, Referral-fee and fee-splitting rules for lawyers, by state, version 2.0.0, https://doi.org/10.5281/zenodo.23964121, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Referral-fee and fee-splitting rules for lawyers, by state (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964121
+Probative Growth. (2026). Referral-fee and fee-splitting rules for lawyers, by state (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964121
+
+Cite as: Probative Growth, Referral-fee and fee-splitting rules for lawyers, by state, 2026, https://doi.org/10.5281/zenodo.23964121
 
 Not legal advice. This is a plain-English summary of each state's rules of professional conduct, kept for marketing planning, and rules change. Check the rule text, your state bar's ethics opinions and your own counsel before you agree a fee split or pay for a referral.
 Probative is a marketing firm, not a law firm; not legal advice.

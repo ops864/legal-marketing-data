@@ -3,10 +3,12 @@ Small-claims dollar limits by state: the most a claim can seek in each state's s
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23792752
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court, version 1.0.0, https://doi.org/10.5281/zenodo.23792752, licensed CC BY 4.0.
+Source: Probative Growth, Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court, version 1.0.0, https://doi.org/10.5281/zenodo.23792752, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23792752
+Probative Growth. (2026). Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23792752
+
+Cite as: Probative Growth, Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court, 2026, https://doi.org/10.5281/zenodo.23792752
 
 Not legal advice. These are the limits as each state's statute or court system states them, kept for research and marketing planning. Limits have exceptions and change; a person with a claim should ask a lawyer or the court clerk.
 Probative is a marketing firm, not a law firm; not legal advice.

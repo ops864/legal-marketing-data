@@ -3,10 +3,12 @@ Crime and arrests by county and state: violent and property crime, DUI and drug 
 Version 2.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24011321
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI), version 2.1.0, https://doi.org/10.5281/zenodo.24011321, licensed CC BY 4.0.
+Source: Probative Growth, Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI), version 2.1.0, https://doi.org/10.5281/zenodo.24011321, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI) (Version 2.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24011321
+Probative Growth. (2026). Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI) (Version 2.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24011321
+
+Cite as: Probative Growth, Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI), 2026, https://doi.org/10.5281/zenodo.24011321
 
 Not legal advice. These are counts of crimes and arrests that police agencies reported to the FBI, kept for research and marketing planning. An arrest says an officer took someone into custody, not that a charge was filed or proved. Whether and how to defend a charge, and every deadline, are for the person's own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

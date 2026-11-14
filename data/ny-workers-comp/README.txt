@@ -3,10 +3,12 @@ New York workers' compensation claims by county and accident year
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964068
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, New York workers' compensation claims by county and accident year, version 2.0.0, https://doi.org/10.5281/zenodo.23964068, licensed CC BY 4.0.
+Source: Probative Growth, New York workers' compensation claims by county and accident year, version 2.0.0, https://doi.org/10.5281/zenodo.23964068, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). New York workers' compensation claims by county and accident year (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964068
+Probative Growth. (2026). New York workers' compensation claims by county and accident year (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964068
+
+Cite as: Probative Growth, New York workers' compensation claims by county and accident year, 2026, https://doi.org/10.5281/zenodo.23964068
 
 Not legal advice. These are counts of claims the Board assembled, not claims accepted or paid, and a share with an attorney says how often workers were represented, not whether they needed to be. Questions about a workers' compensation claim are for a licensed New York attorney or the Board.
 Probative is a marketing firm, not a law firm; not legal advice.

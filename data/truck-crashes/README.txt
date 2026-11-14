@@ -3,10 +3,12 @@ Truck and bus crashes by county, state and year (FMCSA crash file)
 Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116060
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Truck and bus crashes by county, state and year (FMCSA crash file), version 2.0.1, https://doi.org/10.5281/zenodo.24116060, licensed CC BY 4.0.
+Source: Probative Growth, Truck and bus crashes by county, state and year (FMCSA crash file), version 2.0.1, https://doi.org/10.5281/zenodo.24116060, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Truck and bus crashes by county, state and year (FMCSA crash file) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116060
+Probative Growth. (2026). Truck and bus crashes by county, state and year (FMCSA crash file) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116060
+
+Cite as: Probative Growth, Truck and bus crashes by county, state and year (FMCSA crash file), 2026, https://doi.org/10.5281/zenodo.24116060
 
 Not legal advice. These are counts of crash reports kept for research and marketing planning. A reported crash says nothing about who was at fault, and the counts leave out crashes that did not meet the federal reporting threshold. Rights and deadlines after a crash are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Google search landscape for legal searches: directories, videos, People Also Ask
 Version 1.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964129
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is, version 1.1.0, https://doi.org/10.5281/zenodo.23964129, licensed CC BY 4.0.
+Source: Probative Growth, Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is, version 1.1.0, https://doi.org/10.5281/zenodo.23964129, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964129
+Probative Growth. (2026). Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964129
+
+Cite as: Probative Growth, Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is, 2026, https://doi.org/10.5281/zenodo.23964129
 
 Not legal advice. These are counts of what Google showed on two days for the searches in the sample; results vary by place, device and day, and the sample is not every search made.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Union membership and representation by state (BLS Union Members), 2024 and 2025
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23845987
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Union membership and representation by state (BLS Union Members), 2024 and 2025, version 1.0.0, https://doi.org/10.5281/zenodo.23845987, licensed CC BY 4.0.
+Source: Probative Growth, Union membership and representation by state (BLS Union Members), 2024 and 2025, version 1.0.0, https://doi.org/10.5281/zenodo.23845987, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Union membership and representation by state (BLS Union Members), 2024 and 2025 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23845987
+Probative Growth. (2026). Union membership and representation by state (BLS Union Members), 2024 and 2025 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23845987
+
+Cite as: Probative Growth, Union membership and representation by state (BLS Union Members), 2024 and 2025, 2026, https://doi.org/10.5281/zenodo.23845987
 
 Not legal advice. These are survey estimates from the Current Population Survey, rounded to thousands and one decimal by BLS; small states have wider sampling error. The 2025 annual figures average the 11 months BLS published (January to September, November and December). BLS says the 2025 figures are not strictly comparable with other years.
 Probative is a marketing firm, not a law firm; not legal advice.

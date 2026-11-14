@@ -3,10 +3,12 @@ Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963687
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics, version 2.0.0, https://doi.org/10.5281/zenodo.23963687, licensed CC BY 4.0.
+Source: Probative Growth, Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics, version 2.0.0, https://doi.org/10.5281/zenodo.23963687, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963687
+Probative Growth. (2026). Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963687
+
+Cite as: Probative Growth, Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics, 2026, https://doi.org/10.5281/zenodo.23963687
 
 Not legal advice. These are counts of business establishments from government statistics, kept for marketing planning. An office of lawyers includes support staff, and the figures are revised by the agencies; check the agency's current release.
 Probative is a marketing firm, not a law firm; not legal advice.

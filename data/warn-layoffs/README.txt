@@ -3,10 +3,12 @@ WARN Act layoff and closure notices by county: California and Texas
 Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116063
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, WARN Act layoff and closure notices by county: California and Texas, version 2.0.1, https://doi.org/10.5281/zenodo.24116063, licensed CC BY 4.0.
+Source: Probative Growth, WARN Act layoff and closure notices by county: California and Texas, version 2.0.1, https://doi.org/10.5281/zenodo.24116063, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). WARN Act layoff and closure notices by county: California and Texas (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116063
+Probative Growth. (2026). WARN Act layoff and closure notices by county: California and Texas (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116063
+
+Cite as: Probative Growth, WARN Act layoff and closure notices by county: California and Texas, 2026, https://doi.org/10.5281/zenodo.24116063
 
 Not legal advice. These are counts of notices employers filed with state agencies, kept for research and marketing planning. A notice is a plan, not a layoff that has happened, and says nothing about whether any worker has a legal claim; rights and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

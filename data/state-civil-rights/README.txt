@@ -3,10 +3,12 @@ State civil-rights agency complaints and charges: figures printed in state annua
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964131
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, State civil-rights agency complaints and charges: figures printed in state annual reports, version 2.0.0, https://doi.org/10.5281/zenodo.23964131, licensed CC BY 4.0.
+Source: Probative Growth, State civil-rights agency complaints and charges: figures printed in state annual reports, version 2.0.0, https://doi.org/10.5281/zenodo.23964131, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). State civil-rights agency complaints and charges: figures printed in state annual reports (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964131
+Probative Growth. (2026). State civil-rights agency complaints and charges: figures printed in state annual reports (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964131
+
+Cite as: Probative Growth, State civil-rights agency complaints and charges: figures printed in state annual reports, 2026, https://doi.org/10.5281/zenodo.23964131
 
 Not legal advice. These are counts state agencies publish, kept for research and marketing planning. A complaint or charge is not a finding that discrimination happened; rights and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

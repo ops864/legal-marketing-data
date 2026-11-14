@@ -3,10 +3,12 @@ Social Security beneficiaries by state (SSA): retirement, survivors and disabili
 Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24022958
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025, version 1.0.1, https://doi.org/10.5281/zenodo.24022958, licensed CC BY 4.0.
+Source: Probative Growth, Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025, version 1.0.1, https://doi.org/10.5281/zenodo.24022958, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025 (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24022958
+Probative Growth. (2026). Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025 (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24022958
+
+Cite as: Probative Growth, Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025, 2026, https://doi.org/10.5281/zenodo.24022958
 
 Not legal advice. SSA's counts cover people receiving Social Security benefits and the benefits paid, by where they live, not findings about any claim, claimant or decision.
 Probative is a marketing firm, not a law firm; not legal advice.

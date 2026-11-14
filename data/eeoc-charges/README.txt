@@ -3,10 +3,12 @@ Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898101
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025, version 2.0.0, https://doi.org/10.5281/zenodo.23898101, licensed CC BY 4.0.
+Source: Probative Growth, Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025, version 2.0.0, https://doi.org/10.5281/zenodo.23898101, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898101
+Probative Growth. (2026). Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898101
+
+Cite as: Probative Growth, Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025, 2026, https://doi.org/10.5281/zenodo.23898101
 
 Not legal advice. These are counts of charges received by the EEOC, kept for marketing planning. A charge is an allegation, not a finding of discrimination, and the counts leave out charges filed only with state and local agencies. Deadlines and rights are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

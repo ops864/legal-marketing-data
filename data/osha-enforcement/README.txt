@@ -3,10 +3,12 @@ OSHA inspections and penalties by state and industry (DOL enforcement data)
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23850661
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, OSHA inspections and penalties by state and industry (DOL enforcement data), version 1.0.0, https://doi.org/10.5281/zenodo.23850661, licensed CC BY 4.0.
+Source: Probative Growth, OSHA inspections and penalties by state and industry (DOL enforcement data), version 1.0.0, https://doi.org/10.5281/zenodo.23850661, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). OSHA inspections and penalties by state and industry (DOL enforcement data) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23850661
+Probative Growth. (2026). OSHA inspections and penalties by state and industry (DOL enforcement data) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23850661
+
+Cite as: Probative Growth, OSHA inspections and penalties by state and industry (DOL enforcement data), 2026, https://doi.org/10.5281/zenodo.23850661
 
 Not legal advice. These are Department of Labor enforcement counts for planning. They describe agency activity, not how safe any employer is, and name no employer.
 Probative is a marketing firm, not a law firm; not legal advice.

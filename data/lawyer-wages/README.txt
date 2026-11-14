@@ -3,10 +3,12 @@ Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898132
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS), version 2.0.0, https://doi.org/10.5281/zenodo.23898132, licensed CC BY 4.0.
+Source: Probative Growth, Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS), version 2.0.0, https://doi.org/10.5281/zenodo.23898132, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898132
+Probative Growth. (2026). Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898132
+
+Cite as: Probative Growth, Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS), 2026, https://doi.org/10.5281/zenodo.23898132
 
 Not legal advice. These are wage and employment statistics from the Bureau of Labor Statistics, kept for marketing planning. They cover employees only, not owners or partners.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963186
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book, version 2.0.0, https://doi.org/10.5281/zenodo.23963186, licensed CC BY 4.0.
+Source: Probative Growth, FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book, version 2.0.0, https://doi.org/10.5281/zenodo.23963186, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963186
+Probative Growth. (2026). FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963186
+
+Cite as: Probative Growth, FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book, 2026, https://doi.org/10.5281/zenodo.23963186
 
 Not legal advice. These are counts of reports made to the FTC, kept for marketing planning. A report is a consumer's account, not a finding that fraud happened, and the state tables leave out reports from state-specific data contributors. Deadlines and rights are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

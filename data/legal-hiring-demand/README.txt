@@ -3,10 +3,12 @@ Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of
 Version 1.0.2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116041
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics), version 1.0.2, https://doi.org/10.5281/zenodo.24116041, licensed CC BY 4.0.
+Source: Probative Growth, Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics), version 1.0.2, https://doi.org/10.5281/zenodo.24116041, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics) (Version 1.0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116041
+Probative Growth. (2026). Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics) (Version 1.0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116041
+
+Cite as: Probative Growth, Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics), 2026, https://doi.org/10.5281/zenodo.24116041
 
 Not legal advice. These are survey estimates from the Bureau of Labor Statistics. OEWS counts employees only and is rounded by the bureau; the monthly series are seasonally adjusted and revised; the state rates cover all nonfarm employers in a state, not only law firms. Pay is a statistic for a group of workers, not an offer or a guide to what one firm should pay.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Texas employers without workers' compensation coverage (non-subscribers), by cou
 Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116061
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Texas employers without workers' compensation coverage (non-subscribers), by county, version 2.0.1, https://doi.org/10.5281/zenodo.24116061, licensed CC BY 4.0.
+Source: Probative Growth, Texas employers without workers' compensation coverage (non-subscribers), by county, version 2.0.1, https://doi.org/10.5281/zenodo.24116061, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Texas employers without workers' compensation coverage (non-subscribers), by county (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116061
+Probative Growth. (2026). Texas employers without workers' compensation coverage (non-subscribers), by county (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116061
+
+Cite as: Probative Growth, Texas employers without workers' compensation coverage (non-subscribers), by county, 2026, https://doi.org/10.5281/zenodo.24116061
 
 Not legal advice. These are counts of notices that employers filed with the Texas Division of Workers' Compensation. A non-subscribing employer can be sued for its negligence by an injured worker, but whether any claim exists depends on the facts; claims and deadlines are for your own counsel. The count of employers is a floor: not every non-subscriber files, and a filing covers a year.
 Probative is a marketing firm, not a law firm; not legal advice.

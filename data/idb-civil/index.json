@@ -36,6 +36,13 @@
   "version": "2.0.0",
   "released": "2026-11-02"
  },
+ "source": {
+  "publisher": "Probative Growth",
+  "page": "https://probativegrowth.com/research/how-long-federal-civil-cases-take/",
+  "version": "2.0.0",
+  "license": "CC BY 4.0",
+  "citeAs": "Probative Growth, How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year, 2026, https://doi.org/10.5281/zenodo.23898111"
+ },
  "districtColumns": [
   "scope",
   "group",

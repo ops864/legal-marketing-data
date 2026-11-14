@@ -1,9 +1,9 @@
 {
   "profile": "tabular-data-package",
   "name": "legal-marketing-open-data-us",
-  "id": "https://doi.org/10.5281/zenodo.23645750",
+  "id": "https://github.com/ops864/legal-marketing-data",
   "title": "Legal marketing open data (US)",
-  "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Every record quotes its primary source and the date it was checked. Not legal advice.",
+  "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Each dataset names its sources, and each public-source record carries its source and the date checked. Not legal advice.",
   "version": "2026-11-13",
   "created": "2026-11-13T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",

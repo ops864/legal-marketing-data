@@ -3,10 +3,12 @@ Injury deaths by county and state (CDC): drug overdose, suicide, homicide and fi
 Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116039
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury, version 1.0.1, https://doi.org/10.5281/zenodo.24116039, licensed CC BY 4.0.
+Source: Probative Growth, Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury, version 1.0.1, https://doi.org/10.5281/zenodo.24116039, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116039
+Probative Growth. (2026). Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116039
+
+Cite as: Probative Growth, Injury deaths by county and state (CDC): drug overdose, suicide, homicide and firearm injury, 2026, https://doi.org/10.5281/zenodo.24116039
 
 Not legal advice. These are counts of deaths in CDC's public files, by where the person lived, not findings about any death, person or company.
 Probative is a marketing firm, not a law firm; not legal advice.

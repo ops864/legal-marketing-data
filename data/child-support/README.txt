@@ -3,10 +3,12 @@ Child support by state (OCSE): collections, cases, orders and arrears, fiscal ye
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24011319
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025, version 1.0.0, https://doi.org/10.5281/zenodo.24011319, licensed CC BY 4.0.
+Source: Probative Growth, Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025, version 1.0.0, https://doi.org/10.5281/zenodo.24011319, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24011319
+Probative Growth. (2026). Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24011319
+
+Cite as: Probative Growth, Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025, 2026, https://doi.org/10.5281/zenodo.24011319
 
 Not legal advice. These are OCSE's preliminary program statistics for state child support agencies, not findings about any case, parent or agency. Reference to any specific site, process, service or company does not constitute endorsement by the U.S. Government, the Department of Health and Human Services or the Administration for Children and Families.
 Probative is a marketing firm, not a law firm; not legal advice.

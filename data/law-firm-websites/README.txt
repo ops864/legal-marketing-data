@@ -3,10 +3,12 @@ US law-firm websites: Spanish pages, online booking, live chat, structured data,
 Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963678
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area, version 1.0.1, https://doi.org/10.5281/zenodo.23963678, licensed CC BY 4.0.
+Source: Probative Growth, US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area, version 1.0.1, https://doi.org/10.5281/zenodo.23963678, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963678
+Probative Growth. (2026). US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963678
+
+Cite as: Probative Growth, US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area, 2026, https://doi.org/10.5281/zenodo.23963678
 
 Not legal advice. These are counts of what the public home and practice pages of law-firm websites showed when they were read; each count covers those pages, and a website is placed in the state of the first office address it lists.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Vehicle safety complaints by state, make and model year (NHTSA complaint file)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964283
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Vehicle safety complaints by state, make and model year (NHTSA complaint file), version 2.0.0, https://doi.org/10.5281/zenodo.23964283, licensed CC BY 4.0.
+Source: Probative Growth, Vehicle safety complaints by state, make and model year (NHTSA complaint file), version 2.0.0, https://doi.org/10.5281/zenodo.23964283, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Vehicle safety complaints by state, make and model year (NHTSA complaint file) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964283
+Probative Growth. (2026). Vehicle safety complaints by state, make and model year (NHTSA complaint file) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964283
+
+Cite as: Probative Growth, Vehicle safety complaints by state, make and model year (NHTSA complaint file), 2026, https://doi.org/10.5281/zenodo.23964283
 
 Not legal advice. These are counts of unverified complaints that vehicle owners filed with NHTSA, kept for research and marketing planning. A complaint is not a finding that a vehicle is defective, and a count says nothing about whether any owner has a lemon-law or injury claim. Rights and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

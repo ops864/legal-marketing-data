@@ -3,10 +3,12 @@ VA disability compensation, pension and survivor dollars by county (VA GDX repor
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964263
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, VA disability compensation, pension and survivor dollars by county (VA GDX report), version 2.0.0, https://doi.org/10.5281/zenodo.23964263, licensed CC BY 4.0.
+Source: Probative Growth, VA disability compensation, pension and survivor dollars by county (VA GDX report), version 2.0.0, https://doi.org/10.5281/zenodo.23964263, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). VA disability compensation, pension and survivor dollars by county (VA GDX report) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964263
+Probative Growth. (2026). VA disability compensation, pension and survivor dollars by county (VA GDX report) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964263
+
+Cite as: Probative Growth, VA disability compensation, pension and survivor dollars by county (VA GDX report), 2026, https://doi.org/10.5281/zenodo.23964263
 
 Not legal advice. These are dollars VA paid, placed by the address of the veteran or survivor receiving them; they are not claims, awards, backlogs or unmet need. Questions about a claim are for an accredited attorney, agent or veterans service officer.
 Probative is a marketing firm, not a law firm; not legal advice.

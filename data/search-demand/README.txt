@@ -3,10 +3,12 @@ Google searches for a lawyer by practice area and state, English and Spanish (Go
 Version 1.3.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116059
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete), version 1.3.0, https://doi.org/10.5281/zenodo.24116059, licensed CC BY 4.0.
+Source: Probative Growth, Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete), version 1.3.0, https://doi.org/10.5281/zenodo.24116059, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete) (Version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116059
+Probative Growth. (2026). Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete) (Version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116059
+
+Cite as: Probative Growth, Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete), 2026, https://doi.org/10.5281/zenodo.24116059
 
 Not legal advice. These are search counts and indexes from Google's keyword, Trends and Autocomplete data on the dates shown, kept for research and marketing planning. A search is not a client or a case, and the counts say nothing about any firm or lawyer.
 Probative is a marketing firm, not a law firm; not legal advice.

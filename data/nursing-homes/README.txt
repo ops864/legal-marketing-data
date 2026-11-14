@@ -3,10 +3,12 @@ Nursing home fines and harm citations by county: CMS penalties, actual-harm, imm
 Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116048
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations, version 2.0.1, https://doi.org/10.5281/zenodo.24116048, licensed CC BY 4.0.
+Source: Probative Growth, Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations, version 2.0.1, https://doi.org/10.5281/zenodo.24116048, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116048
+Probative Growth. (2026). Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116048
+
+Cite as: Probative Growth, Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations, 2026, https://doi.org/10.5281/zenodo.24116048
 
 Not legal advice. This is a count of public CMS inspection and penalty records, kept for marketing planning. A citation is an inspector's finding, not a court's; a fine can be reduced or withdrawn on appeal; and nothing here says any home or person did anything unlawful.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ County income and migration from IRS tax returns
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963195
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, County income and migration from IRS tax returns, version 2.0.0, https://doi.org/10.5281/zenodo.23963195, licensed CC BY 4.0.
+Source: Probative Growth, County income and migration from IRS tax returns, version 2.0.0, https://doi.org/10.5281/zenodo.23963195, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). County income and migration from IRS tax returns (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963195
+Probative Growth. (2026). County income and migration from IRS tax returns (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963195
+
+Cite as: Probative Growth, County income and migration from IRS tax returns, 2026, https://doi.org/10.5281/zenodo.23963195
 
 Not legal advice. These are totals from filed individual tax returns, not a county's wealth, a person's income or a prediction of who needs a lawyer, and migration shows where filers' addresses changed, not why. Questions about taxes, estates or property are for a licensed attorney or tax professional.
 Probative is a marketing firm, not a law firm; not legal advice.

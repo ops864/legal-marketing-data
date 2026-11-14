@@ -3,10 +3,12 @@ Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Stati
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898123
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022, version 2.0.0, https://doi.org/10.5281/zenodo.23898123, licensed CC BY 4.0.
+Source: Probative Growth, Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022, version 2.0.0, https://doi.org/10.5281/zenodo.23898123, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898123
+Probative Growth. (2026). Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898123
+
+Cite as: Probative Growth, Law firm size, solos and receipts, by state: Census SUSB 2022, Nonemployer Statistics 2024 and Economic Census 2022, 2026, https://doi.org/10.5281/zenodo.23898123
 
 Not legal advice. These are Census Bureau business statistics, kept for marketing planning. Counts are for 2022 (employer firms and the Economic Census) and 2024 (businesses with no employees); small differences come from the Census Bureau's disclosure noise.
 Probative is a marketing firm, not a law firm; not legal advice.

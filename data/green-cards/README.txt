@@ -3,10 +3,12 @@ New green cards (lawful permanent residents) by county, country of birth and cla
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963657
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, New green cards (lawful permanent residents) by county, country of birth and class of admission, version 2.0.0, https://doi.org/10.5281/zenodo.23963657, licensed CC BY 4.0.
+Source: Probative Growth, New green cards (lawful permanent residents) by county, country of birth and class of admission, version 2.0.0, https://doi.org/10.5281/zenodo.23963657, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). New green cards (lawful permanent residents) by county, country of birth and class of admission (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963657
+Probative Growth. (2026). New green cards (lawful permanent residents) by county, country of birth and class of admission (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963657
+
+Cite as: Probative Growth, New green cards (lawful permanent residents) by county, country of birth and class of admission, 2026, https://doi.org/10.5281/zenodo.23963657
 
 Not legal advice. These are counts of people who became lawful permanent residents in the listed counties, rounded by the agency, not a measure of anyone's eligibility, case or need. Questions about a green card or citizenship are for a licensed immigration attorney or an accredited representative.
 Probative is a marketing firm, not a law firm; not legal advice.

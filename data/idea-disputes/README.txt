@@ -3,10 +3,12 @@ Special education disputes by state (IDEA Part B): complaints, mediation and due
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24011352
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24, version 1.0.0, https://doi.org/10.5281/zenodo.24011352, licensed CC BY 4.0.
+Source: Probative Growth, Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24, version 1.0.0, https://doi.org/10.5281/zenodo.24011352, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24011352
+Probative Growth. (2026). Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24011352
+
+Cite as: Probative Growth, Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24, 2026, https://doi.org/10.5281/zenodo.24011352
 
 Not legal advice. These are the Department of Education's counts of dispute-resolution activity reported by state education agencies, not findings about any child, family, school or district.
 Probative is a marketing firm, not a law firm; not legal advice.

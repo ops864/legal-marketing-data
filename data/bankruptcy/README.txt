@@ -3,10 +3,12 @@ Bankruptcy filings by chapter, court district, state and county, quarterly (U.S.
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23962892
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts), version 2.0.0, https://doi.org/10.5281/zenodo.23962892, licensed CC BY 4.0.
+Source: Probative Growth, Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts), version 2.0.0, https://doi.org/10.5281/zenodo.23962892, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23962892
+Probative Growth. (2026). Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23962892
+
+Cite as: Probative Growth, Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts), 2026, https://doi.org/10.5281/zenodo.23962892
 
 Not legal advice. These are counts from the courts' published statistics, kept for marketing planning. A filing is not a discharge or an outcome, and the courts revise the tables as their database updates; check the current table at uscourts.gov.
 Probative is a marketing firm, not a law firm; not legal advice.

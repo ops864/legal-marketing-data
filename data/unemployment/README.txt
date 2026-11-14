@@ -3,10 +3,12 @@ County and state unemployment: BLS Local Area Unemployment Statistics, annual av
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964225
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month, version 2.0.0, https://doi.org/10.5281/zenodo.23964225, licensed CC BY 4.0.
+Source: Probative Growth, County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month, version 2.0.0, https://doi.org/10.5281/zenodo.23964225, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964225
+Probative Growth. (2026). County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964225
+
+Cite as: Probative Growth, County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month, 2026, https://doi.org/10.5281/zenodo.23964225
 
 Not legal advice. These are statistical estimates of the labor market, kept for research and marketing planning. They say nothing about whether any worker has a legal claim; rights and deadlines are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

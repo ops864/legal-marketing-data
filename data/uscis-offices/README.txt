@@ -3,10 +3,12 @@ USCIS naturalization and green card applications by field office
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964258
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, USCIS naturalization and green card applications by field office, version 2.0.0, https://doi.org/10.5281/zenodo.23964258, licensed CC BY 4.0.
+Source: Probative Growth, USCIS naturalization and green card applications by field office, version 2.0.0, https://doi.org/10.5281/zenodo.23964258, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). USCIS naturalization and green card applications by field office (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964258
+Probative Growth. (2026). USCIS naturalization and green card applications by field office (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964258
+
+Cite as: Probative Growth, USCIS naturalization and green card applications by field office, 2026, https://doi.org/10.5281/zenodo.23964258
 
 Not legal advice. These are counts of applications that USCIS received and decided at each office, not the outcome of any one case or a prediction of one: a pending count says how many applications are waiting, not how long yours will wait or where it will be decided. Questions about an immigration case are for a licensed immigration attorney or an accredited representative.
 Probative is a marketing firm, not a law firm; not legal advice.

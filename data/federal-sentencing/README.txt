@@ -3,10 +3,12 @@ Federal sentencing by district and offense: individuals sentenced, prison rates 
 Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24022955
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025, version 1.0.1, https://doi.org/10.5281/zenodo.24022955, licensed CC BY 4.0.
+Source: Probative Growth, Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025, version 1.0.1, https://doi.org/10.5281/zenodo.24022955, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025 (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24022955
+Probative Growth. (2026). Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025 (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24022955
+
+Cite as: Probative Growth, Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025, 2026, https://doi.org/10.5281/zenodo.24022955
 
 Not legal advice. These are counts of sentences imposed in federal court, reported to the U.S. Sentencing Commission, not predictions for any person or case. Sentences depend on the facts, the guideline range and the judge; an average says nothing about a particular defendant.
 Probative is a marketing firm, not a law firm; not legal advice.

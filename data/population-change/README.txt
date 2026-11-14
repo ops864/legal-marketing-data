@@ -3,10 +3,12 @@ Deaths, births, migration and older residents by county (Census population estim
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23845912
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025, version 1.0.0, https://doi.org/10.5281/zenodo.23845912, licensed CC BY 4.0.
+Source: Probative Growth, Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025, version 1.0.0, https://doi.org/10.5281/zenodo.23845912, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23845912
+Probative Growth. (2026). Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025 (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23845912
+
+Cite as: Probative Growth, Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025, 2026, https://doi.org/10.5281/zenodo.23845912
 
 Not legal advice. These are Census Bureau estimates built from birth and death records, tax and Medicare files and survey data, not counts of court cases or estates. A death is not a probate filing: many estates pass without one. Rates and shares are for planning, not for any one person's matter.
 Probative is a marketing firm, not a law firm; not legal advice.

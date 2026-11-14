@@ -3,10 +3,12 @@ Eviction filings by county and year (LSC Civil Court Data Initiative)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963459
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Eviction filings by county and year (LSC Civil Court Data Initiative), version 2.0.0, https://doi.org/10.5281/zenodo.23963459, licensed CC BY 4.0.
+Source: Probative Growth, Eviction filings by county and year (LSC Civil Court Data Initiative), version 2.0.0, https://doi.org/10.5281/zenodo.23963459, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Eviction filings by county and year (LSC Civil Court Data Initiative) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963459
+Probative Growth. (2026). Eviction filings by county and year (LSC Civil Court Data Initiative) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963459
+
+Cite as: Probative Growth, Eviction filings by county and year (LSC Civil Court Data Initiative), 2026, https://doi.org/10.5281/zenodo.23963459
 
 Not legal advice. These are counts of eviction cases filed in court, kept for research and market sizing. A filing is not an eviction carried out, a finding against a tenant or a measure of need, and one household can be filed against more than once. Questions about an eviction are for a licensed attorney or a local legal aid office.
 Probative is a marketing firm, not a law firm; not legal advice.

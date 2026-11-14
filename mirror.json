@@ -1,14 +1,14 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "datasets": [
     {
       "id": "rules",
       "version": "1.5.0",
       "doi": "10.5281/zenodo.23958753",
       "released": "2026-11-04",
-      "cardSha": "3bf153f13646cefb",
+      "cardSha": "552aae21a3d5c009",
       "rows": 433,
       "files": [
         "rules-values.csv"
@@ -19,7 +19,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851278",
       "released": "2026-11-01",
-      "cardSha": "336c608d1eb31785",
+      "cardSha": "57f48d6ae4b99ef3",
       "rows": 2725
     },
     {
@@ -27,7 +27,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23962861",
       "released": "2026-11-04",
-      "cardSha": "25b61f1f29fbe9ee",
+      "cardSha": "dd74749cff4bcdbc",
       "rows": 312,
       "files": [
         "attorneys-values.csv"
@@ -38,7 +38,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116037",
       "released": "2026-11-11",
-      "cardSha": "3b1e4243b1321f2e",
+      "cardSha": "590ca665e66689bc",
       "rows": 985,
       "files": [
         "aviation-accidents-values.csv"
@@ -49,7 +49,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23962892",
       "released": "2026-11-04",
-      "cardSha": "6b54cea9e9da45b6",
+      "cardSha": "cba449aa8c6b6e07",
       "rows": 3284,
       "files": [
         "bankruptcy-values.csv"
@@ -60,7 +60,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23962982",
       "released": "2026-11-04",
-      "cardSha": "636d8a203aa4f91b",
+      "cardSha": "f402d5a71929f715",
       "rows": 56,
       "files": [
         "bar-pipeline-values.csv"
@@ -71,7 +71,7 @@
       "version": "5.0.0",
       "doi": "10.5281/zenodo.24098530",
       "released": "2026-11-10",
-      "cardSha": "adcf92aa0a586a29",
+      "cardSha": "f6c729934ded0eba",
       "rows": 58
     },
     {
@@ -79,7 +79,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23962985",
       "released": "2026-11-04",
-      "cardSha": "dd6a50150dd7a606",
+      "cardSha": "c8689edf2d8c5556",
       "rows": 342,
       "files": [
         "boating-accidents-values.csv"
@@ -90,7 +90,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898091",
       "released": "2026-11-02",
-      "cardSha": "ca71c93c842f722c",
+      "cardSha": "6047f18ec54a0511",
       "rows": 3208,
       "files": [
         "business-applications-values.csv"
@@ -101,7 +101,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963026",
       "released": "2026-11-04",
-      "cardSha": "5f3a0f3e7b7f186f",
+      "cardSha": "c204d5d58382af11",
       "rows": 2301,
       "files": [
         "ca-courts-values.csv"
@@ -112,7 +112,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23850651",
       "released": "2026-11-01",
-      "cardSha": "90d35e09c1be3dd5",
+      "cardSha": "a616afbb635eb968",
       "rows": 115
     },
     {
@@ -120,7 +120,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.24116038",
       "released": "2026-11-13",
-      "cardSha": "7b1b68579bbd9ce8",
+      "cardSha": "043298b7e7d84eab",
       "rows": 37
     },
     {
@@ -128,7 +128,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.24011319",
       "released": "2026-11-06",
-      "cardSha": "dfc26544386ff007",
+      "cardSha": "afeea22336803f25",
       "rows": 55
     },
     {
@@ -136,7 +136,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963129",
       "released": "2026-11-04",
-      "cardSha": "47b455d20e3b1d39",
+      "cardSha": "6932e16d56e15958",
       "rows": 3239,
       "files": [
         "civil-filings-values.csv"
@@ -147,7 +147,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963181",
       "released": "2026-11-04",
-      "cardSha": "7a6bde1186ee297d",
+      "cardSha": "46bf780c3dfdbe4e",
       "rows": 171,
       "files": [
         "consumer-complaints-values.csv"
@@ -158,7 +158,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963186",
       "released": "2026-11-04",
-      "cardSha": "30ad746dd2a9a121",
+      "cardSha": "d10a52088269a757",
       "rows": 212,
       "files": [
         "consumer-sentinel-values.csv"
@@ -169,7 +169,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963195",
       "released": "2026-11-04",
-      "cardSha": "952ea222ddbaf507",
+      "cardSha": "a0ea012591fd029b",
       "rows": 3195,
       "files": [
         "county-income-values.csv"
@@ -180,7 +180,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23792752",
       "released": "2026-10-30",
-      "cardSha": "b0c587bc7f4612ee",
+      "cardSha": "e2f7a79ca377d307",
       "rows": 51
     },
     {
@@ -188,7 +188,7 @@
       "version": "2.1.0",
       "doi": "10.5281/zenodo.24011321",
       "released": "2026-11-06",
-      "cardSha": "352d8e1201e8de97",
+      "cardSha": "c86387fd5ea9f59f",
       "rows": 3078,
       "files": [
         "crime-data-values.csv"
@@ -199,7 +199,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963315",
       "released": "2026-11-04",
-      "cardSha": "0c3f7a177ddbddaf",
+      "cardSha": "f6d08a0b20bdd193",
       "rows": 2023,
       "files": [
         "criminal-filings-values.csv"
@@ -210,7 +210,7 @@
       "version": "2.3.0",
       "doi": "10.5281/zenodo.24181503",
       "released": "2026-11-13",
-      "cardSha": "cc540a1a26dfaa92",
+      "cardSha": "62544ed9e9fb5085",
       "rows": 3703,
       "files": [
         "crosswalks-values.csv"
@@ -221,7 +221,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851281",
       "released": "2026-11-01",
-      "cardSha": "fdfd48246802dcad",
+      "cardSha": "be9d4ef71a5630f8",
       "rows": 334
     },
     {
@@ -229,7 +229,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963393",
       "released": "2026-11-04",
-      "cardSha": "6f5de9c3937235a2",
+      "cardSha": "dea451c29c33bdf2",
       "rows": 3196,
       "files": [
         "deserts-values.csv"
@@ -240,7 +240,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963431",
       "released": "2026-11-04",
-      "cardSha": "01cf55190b952c3a",
+      "cardSha": "428403ef94de2550",
       "rows": 2079,
       "files": [
         "device-events-values.csv"
@@ -251,7 +251,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23898096",
       "released": "2026-11-02",
-      "cardSha": "963c0e7dbed6aed5",
+      "cardSha": "927389a504779267",
       "rows": 159
     },
     {
@@ -259,7 +259,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963449",
       "released": "2026-11-04",
-      "cardSha": "fad7b9fcaa755243",
+      "cardSha": "fa85e2a5ac3caafb",
       "rows": 313,
       "files": [
         "drug-events-values.csv"
@@ -270,7 +270,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898101",
       "released": "2026-11-02",
-      "cardSha": "fe68e248433a7a3f",
+      "cardSha": "2d2e15b29c49a8de",
       "rows": 658,
       "files": [
         "eeoc-charges-values.csv"
@@ -281,7 +281,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963453",
       "released": "2026-11-04",
-      "cardSha": "a2783dc2bd97044a",
+      "cardSha": "d6bb4377bc896d90",
       "rows": 57,
       "files": [
         "eviction-laws-values.csv"
@@ -292,7 +292,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963459",
       "released": "2026-11-04",
-      "cardSha": "cf6b9c4ee26a33c2",
+      "cardSha": "7141df713b494c77",
       "rows": 1499,
       "files": [
         "evictions-values.csv"
@@ -303,7 +303,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963466",
       "released": "2026-11-04",
-      "cardSha": "a3601112c3cd2420",
+      "cardSha": "c0dd670125e98a7a",
       "rows": 2790,
       "files": [
         "fair-housing-values.csv"
@@ -314,7 +314,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963480",
       "released": "2026-11-04",
-      "cardSha": "10f7b608a6bc7237",
+      "cardSha": "3d4614cd9414abff",
       "rows": 3197,
       "files": [
         "fatal-crashes-values.csv"
@@ -325,7 +325,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24024299",
       "released": "2026-11-07",
-      "cardSha": "d8640ad64616f61c",
+      "cardSha": "c736bffdb92a6234",
       "rows": 3559,
       "files": [
         "federal-filings-county-values.csv"
@@ -336,7 +336,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.24022955",
       "released": "2026-11-09",
-      "cardSha": "5788a93b3a1af34d",
+      "cardSha": "c6272bbc47afa694",
       "rows": 793
     },
     {
@@ -344,7 +344,7 @@
       "version": "3.0.1",
       "doi": "10.5281/zenodo.23969434",
       "released": "2026-11-05",
-      "cardSha": "ff9aee43539c5286",
+      "cardSha": "8d67976fd006bb02",
       "rows": 79,
       "files": [
         "fees-values.csv"
@@ -355,7 +355,7 @@
       "version": "3.1.0",
       "doi": "10.5281/zenodo.24184382",
       "released": "2026-11-13",
-      "cardSha": "787a3d8ae8a12217",
+      "cardSha": "5dbfbd7b7c6a1dca",
       "rows": 51,
       "files": [
         "filing-values.csv"
@@ -366,7 +366,7 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23748830",
       "released": "2026-10-28",
-      "cardSha": "593ca45514b0b308",
+      "cardSha": "354c38b71c893132",
       "rows": 20
     },
     {
@@ -374,7 +374,7 @@
       "version": "3.2.1",
       "doi": "10.5281/zenodo.24148921",
       "released": "2026-11-12",
-      "cardSha": "53793d47c73f43fb",
+      "cardSha": "22a8b27cf2da5bc4",
       "rows": 5807,
       "files": [
         "firm-web-census-values.csv"
@@ -385,7 +385,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845801",
       "released": "2026-10-31",
-      "cardSha": "6e8eb37923a0c8fe",
+      "cardSha": "d8667b4bc63e8591",
       "rows": 2988
     },
     {
@@ -393,7 +393,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963657",
       "released": "2026-11-04",
-      "cardSha": "f7dfec4fe758ee64",
+      "cardSha": "482f61c4144d86b4",
       "rows": 483,
       "files": [
         "green-cards-values.csv"
@@ -404,7 +404,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963670",
       "released": "2026-11-04",
-      "cardSha": "6fdb64c5b41d1bf8",
+      "cardSha": "626a4ea59c15aad7",
       "rows": 473,
       "files": [
         "hospital-safety-values.csv"
@@ -415,7 +415,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898111",
       "released": "2026-11-02",
-      "cardSha": "657f0f1f653d87dc",
+      "cardSha": "fd0a5420bb1cc4cb",
       "rows": 1709,
       "files": [
         "idb-civil-values.csv",
@@ -430,7 +430,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.24011352",
       "released": "2026-11-06",
-      "cardSha": "215cacc70a6f9dc6",
+      "cardSha": "cfe283672f84144e",
       "rows": 57
     },
     {
@@ -438,7 +438,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24183839",
       "released": "2026-11-13",
-      "cardSha": "717535c725627546",
+      "cardSha": "14b11da1b91da825",
       "rows": 155,
       "files": [
         "immigration-courts-values.csv"
@@ -449,7 +449,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.24116039",
       "released": "2026-11-11",
-      "cardSha": "d5c8f2ccbf6faca2",
+      "cardSha": "c1da0c2771f9aacc",
       "rows": 3194
     },
     {
@@ -457,7 +457,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963674",
       "released": "2026-11-04",
-      "cardSha": "111fa9b734e00aae",
+      "cardSha": "b187e1312904daaa",
       "rows": 371,
       "files": [
         "irs-databook-values.csv"
@@ -468,7 +468,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898117",
       "released": "2026-11-02",
-      "cardSha": "2a836573bc522e07",
+      "cardSha": "2e7fc44b587349fc",
       "rows": 2069,
       "files": [
         "language-values.csv"
@@ -479,7 +479,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.24015038",
       "released": "2026-11-06",
-      "cardSha": "bccf22dea4f7911e",
+      "cardSha": "22008ebd336ed112",
       "rows": 77,
       "files": [
         "law-firm-ai-readiness-values.csv"
@@ -490,7 +490,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898123",
       "released": "2026-11-02",
-      "cardSha": "836c422c69f88bc0",
+      "cardSha": "8c881ce02053a8fa",
       "rows": 481,
       "files": [
         "law-firm-economy-values.csv"
@@ -501,7 +501,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.23963678",
       "released": "2026-11-04",
-      "cardSha": "fcc969474a39d67f",
+      "cardSha": "57a185b7a577cc95",
       "rows": 1088
     },
     {
@@ -509,7 +509,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963687",
       "released": "2026-11-04",
-      "cardSha": "846fd929771758f0",
+      "cardSha": "f0b23db6ca41dde2",
       "rows": 3196,
       "files": [
         "law-offices-values.csv"
@@ -520,7 +520,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898132",
       "released": "2026-11-02",
-      "cardSha": "1b1175b9b6704384",
+      "cardSha": "4c0be7009d490f04",
       "rows": 1239,
       "files": [
         "lawyer-wages-values.csv"
@@ -531,7 +531,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116040",
       "released": "2026-11-11",
-      "cardSha": "11122e76402335d9",
+      "cardSha": "1a907edbd16896f4",
       "rows": 3196,
       "files": [
         "legal-aid-orgs-values.csv"
@@ -542,7 +542,7 @@
       "version": "1.0.2",
       "doi": "10.5281/zenodo.24116041",
       "released": "2026-11-11",
-      "cardSha": "bb2333753545d239",
+      "cardSha": "2a7f8dbc01542c88",
       "rows": 608,
       "files": [
         "legal-hiring-demand-values.csv"
@@ -553,7 +553,7 @@
       "version": "1.1.1",
       "doi": "10.5281/zenodo.23957291",
       "released": "2026-11-04",
-      "cardSha": "7b48a2c9b869eda0",
+      "cardSha": "1027d718dca2f49c",
       "rows": 3196,
       "files": [
         "legal-need-values.csv"
@@ -564,7 +564,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116042",
       "released": "2026-11-11",
-      "cardSha": "8471f077b624ef42",
+      "cardSha": "5750189f1e857ba8",
       "rows": 1877,
       "files": [
         "legal-prices-values.csv"
@@ -575,7 +575,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23851292",
       "released": "2026-11-01",
-      "cardSha": "b5160581931c3ab9",
+      "cardSha": "e1186f0313768581",
       "rows": 7
     },
     {
@@ -583,7 +583,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963806",
       "released": "2026-11-04",
-      "cardSha": "93d58c902de5b12b",
+      "cardSha": "b61fed496d41a902",
       "rows": 225,
       "files": [
         "limitations-values.csv"
@@ -594,7 +594,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845898",
       "released": "2026-10-31",
-      "cardSha": "c48853675f2b083a",
+      "cardSha": "437f58b5c34eeb1c",
       "rows": 99
     },
     {
@@ -602,7 +602,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116044",
       "released": "2026-11-11",
-      "cardSha": "8ba7e2ed3933a251",
+      "cardSha": "4b6bc082aef9b0e2",
       "rows": 178,
       "files": [
         "mdl-values.csv"
@@ -613,7 +613,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116045",
       "released": "2026-11-11",
-      "cardSha": "e8fd32456deb4a20",
+      "cardSha": "688fd4fe269a8de6",
       "rows": 3243,
       "files": [
         "mine-accidents-values.csv"
@@ -624,7 +624,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.24116047",
       "released": "2026-11-11",
-      "cardSha": "9b216ee9cc799f28",
+      "cardSha": "d392fcb1aba1c604",
       "rows": 561
     },
     {
@@ -632,7 +632,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963883",
       "released": "2026-11-04",
-      "cardSha": "e5b6108b0db524fc",
+      "cardSha": "629a728ac92b09c3",
       "rows": 3194,
       "files": [
         "mortgage-lending-values.csv"
@@ -643,7 +643,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963957",
       "released": "2026-11-04",
-      "cardSha": "6efb94235175debf",
+      "cardSha": "031295bf06215395",
       "rows": 3196,
       "files": [
         "noncitizen-population-values.csv"
@@ -654,7 +654,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116048",
       "released": "2026-11-11",
-      "cardSha": "ae8e25ff6672fd0b",
+      "cardSha": "2a57d433591d0cbc",
       "rows": 2900,
       "files": [
         "nursing-homes-values.csv"
@@ -665,7 +665,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116050",
       "released": "2026-11-11",
-      "cardSha": "761c2d7c2382ddee",
+      "cardSha": "9a6a2bbb534dcfbc",
       "rows": 130,
       "files": [
         "ny-attorneys-values.csv"
@@ -676,7 +676,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964068",
       "released": "2026-11-04",
-      "cardSha": "e6b800f46839c331",
+      "cardSha": "225bd1a2ad41e3f2",
       "rows": 1728,
       "files": [
         "ny-workers-comp-values.csv"
@@ -687,7 +687,7 @@
       "version": "2.0.2",
       "doi": "10.5281/zenodo.24114753",
       "released": "2026-11-11",
-      "cardSha": "47eaa8929953138c",
+      "cardSha": "3edb3059a9ca46f5",
       "rows": 261,
       "files": [
         "opinions-values.csv"
@@ -698,7 +698,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23850661",
       "released": "2026-11-01",
-      "cardSha": "92d11330be8b42ea",
+      "cardSha": "6cea1ca06ca660b3",
       "rows": 1174
     },
     {
@@ -706,7 +706,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898135",
       "released": "2026-11-02",
-      "cardSha": "bab4fd4df8704d08",
+      "cardSha": "bb6bb78626469ee4",
       "rows": 58,
       "files": [
         "platforms-values.csv"
@@ -717,7 +717,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845912",
       "released": "2026-10-31",
-      "cardSha": "4d4d579f8ee0aa53",
+      "cardSha": "23f753b22f37d9c7",
       "rows": 3196
     },
     {
@@ -725,7 +725,7 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.24116055",
       "released": "2026-11-11",
-      "cardSha": "535e861e3c0135d1",
+      "cardSha": "2937f0737e9ca2ed",
       "rows": 170
     },
     {
@@ -733,7 +733,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116056",
       "released": "2026-11-11",
-      "cardSha": "b8398e7cb1d0f7da",
+      "cardSha": "456317673a20ee0e",
       "rows": 29,
       "files": [
         "product-recalls-values.csv"
@@ -744,7 +744,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116057",
       "released": "2026-11-11",
-      "cardSha": "b008805ea7bd10ef",
+      "cardSha": "0029487a720bd177",
       "rows": 2372,
       "files": [
         "rail-casualties-values.csv"
@@ -755,7 +755,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964121",
       "released": "2026-11-04",
-      "cardSha": "3fa26cac8ef50c48",
+      "cardSha": "7a8420abf0760441",
       "rows": 47,
       "files": [
         "referral-values.csv"
@@ -766,7 +766,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116058",
       "released": "2026-11-11",
-      "cardSha": "4a842ed245642fe8",
+      "cardSha": "8fc549c98cdb2529",
       "rows": 114,
       "files": [
         "robocall-complaints-values.csv"
@@ -777,7 +777,7 @@
       "version": "1.3.0",
       "doi": "10.5281/zenodo.24116059",
       "released": "2026-11-11",
-      "cardSha": "b6882e7e3611cfd3",
+      "cardSha": "84579753e055d241",
       "rows": 5694
     },
     {
@@ -785,7 +785,7 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23964129",
       "released": "2026-11-04",
-      "cardSha": "42cddbfc76b8cc8a",
+      "cardSha": "16779a8ada2af4c1",
       "rows": 998
     },
     {
@@ -793,7 +793,7 @@
       "version": "1.0.1",
       "doi": "10.5281/zenodo.24022958",
       "released": "2026-11-09",
-      "cardSha": "419660f5a252d0db",
+      "cardSha": "e22ba81aaa5186fb",
       "rows": 57
     },
     {
@@ -801,7 +801,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964131",
       "released": "2026-11-04",
-      "cardSha": "3b23314032e0fa95",
+      "cardSha": "5dbdefcbc48542aa",
       "rows": 10,
       "files": [
         "state-civil-rights-values.csv"
@@ -812,7 +812,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964136",
       "released": "2026-11-04",
-      "cardSha": "1e57929314246004",
+      "cardSha": "d6f523804cf2ba39",
       "rows": 13180,
       "files": [
         "state-courts-values.csv"
@@ -823,7 +823,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23753046",
       "released": "2026-10-29",
-      "cardSha": "a2af5cb82e2ee6d9",
+      "cardSha": "153699fac88f1e3a",
       "rows": 3
     },
     {
@@ -831,7 +831,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.24187571",
       "released": "2026-11-13",
-      "cardSha": "d0a3e1770574516b",
+      "cardSha": "2764bc8617b1db0c",
       "rows": 1598,
       "files": [
         "tcpa-ada-filings-values.csv"
@@ -842,7 +842,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964168",
       "released": "2026-11-04",
-      "cardSha": "70197b009d957382",
+      "cardSha": "83ce9885d24980fb",
       "rows": 2494,
       "files": [
         "toxic-releases-values.csv"
@@ -853,7 +853,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116060",
       "released": "2026-11-11",
-      "cardSha": "5fc3bc7846b01bb4",
+      "cardSha": "c1a47cd35a96659e",
       "rows": 3255,
       "files": [
         "truck-crashes-values.csv"
@@ -864,7 +864,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116061",
       "released": "2026-11-11",
-      "cardSha": "1cc2a9f1664dbad4",
+      "cardSha": "586671df94a22bad",
       "rows": 239,
       "files": [
         "tx-nonsubscribers-values.csv"
@@ -875,7 +875,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964225",
       "released": "2026-11-04",
-      "cardSha": "5c80a06d8cb313de",
+      "cardSha": "7aee26300198c478",
       "rows": 3273,
       "files": [
         "unemployment-values.csv"
@@ -886,7 +886,7 @@
       "version": "1.0.0",
       "doi": "10.5281/zenodo.23845987",
       "released": "2026-10-31",
-      "cardSha": "964bcd39e24dd401",
+      "cardSha": "8092bffcd6a8bec0",
       "rows": 52
     },
     {
@@ -894,7 +894,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964258",
       "released": "2026-11-04",
-      "cardSha": "45f1a0bfa289c3b3",
+      "cardSha": "198e279418b0b0c2",
       "rows": 200,
       "files": [
         "uscis-offices-values.csv"
@@ -905,7 +905,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898138",
       "released": "2026-11-02",
-      "cardSha": "7a4d512658e42e58",
+      "cardSha": "4ddd77a373fa0274",
       "rows": 3187,
       "files": [
         "va-compensation-values.csv"
@@ -916,7 +916,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964263",
       "released": "2026-11-04",
-      "cardSha": "1b33b39cc551d810",
+      "cardSha": "4363569c4d5f761b",
       "rows": 3281,
       "files": [
         "va-spending-values.csv"
@@ -927,7 +927,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23964283",
       "released": "2026-11-05",
-      "cardSha": "4fb337bafcf3c30a",
+      "cardSha": "644370afa8ff4e2d",
       "rows": 4040,
       "files": [
         "vehicle-complaints-values.csv"
@@ -938,7 +938,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116062",
       "released": "2026-11-11",
-      "cardSha": "6d87f73e51c94e6b",
+      "cardSha": "0d1bc969571f0229",
       "rows": 73,
       "files": [
         "veterans-representation-values.csv"
@@ -949,7 +949,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898146",
       "released": "2026-11-02",
-      "cardSha": "453fd0cfde6f39a6",
+      "cardSha": "6270df43a2886f19",
       "rows": 5008,
       "files": [
         "wage-enforcement-values.csv"
@@ -960,7 +960,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116063",
       "released": "2026-11-11",
-      "cardSha": "ac5ae1486effbe70",
+      "cardSha": "f017f0b71b66e25e",
       "rows": 315,
       "files": [
         "warn-layoffs-values.csv"
@@ -971,7 +971,7 @@
       "version": "1.1.1",
       "doi": "10.5281/zenodo.23969440",
       "released": "2026-11-05",
-      "cardSha": "94c8a61af45c0b8f",
+      "cardSha": "9b5f6f956c0c9e07",
       "rows": 35
     },
     {
@@ -979,7 +979,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23898154",
       "released": "2026-11-02",
-      "cardSha": "a144b364b750baa9",
+      "cardSha": "b6e1587ff73c2974",
       "rows": 2942,
       "files": [
         "work-injuries-values.csv"

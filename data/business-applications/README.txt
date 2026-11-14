@@ -3,10 +3,12 @@ New business applications by county (Census Business Formation Statistics)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898091
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, New business applications by county (Census Business Formation Statistics), version 2.0.0, https://doi.org/10.5281/zenodo.23898091, licensed CC BY 4.0.
+Source: Probative Growth, New business applications by county (Census Business Formation Statistics), version 2.0.0, https://doi.org/10.5281/zenodo.23898091, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). New business applications by county (Census Business Formation Statistics) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898091
+Probative Growth. (2026). New business applications by county (Census Business Formation Statistics) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898091
+
+Cite as: Probative Growth, New business applications by county (Census Business Formation Statistics), 2026, https://doi.org/10.5281/zenodo.23898091
 
 Not legal advice. A business application is a request for an Employer Identification Number, not a company formed, an owner or a client, and the Census Bureau adds noise to county counts, so small differences are not meaningful. Questions about forming or running a business are for a licensed attorney.
 Probative is a marketing firm, not a law firm; not legal advice.

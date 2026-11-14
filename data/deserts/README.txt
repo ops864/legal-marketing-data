@@ -3,10 +3,12 @@ Legal deserts: law offices and lawyers per resident in every U.S. county
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963393
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal deserts: law offices and lawyers per resident in every U.S. county, version 2.0.0, https://doi.org/10.5281/zenodo.23963393, licensed CC BY 4.0.
+Source: Probative Growth, Legal deserts: law offices and lawyers per resident in every U.S. county, version 2.0.0, https://doi.org/10.5281/zenodo.23963393, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal deserts: law offices and lawyers per resident in every U.S. county (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963393
+Probative Growth. (2026). Legal deserts: law offices and lawyers per resident in every U.S. county (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963393
+
+Cite as: Probative Growth, Legal deserts: law offices and lawyers per resident in every U.S. county, 2026, https://doi.org/10.5281/zenodo.23963393
 
 Not legal advice. These are counts and rates from government statistics and state bar or court registries, kept for marketing planning. A county with few offices is not a finding about anyone's access to a lawyer; bar addresses are not places of practice.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Hospital patient-safety ratings by state and county: PSI 90 and healthcare-assoc
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963670
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare), version 2.0.0, https://doi.org/10.5281/zenodo.23963670, licensed CC BY 4.0.
+Source: Probative Growth, Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare), version 2.0.0, https://doi.org/10.5281/zenodo.23963670, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963670
+Probative Growth. (2026). Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963670
+
+Cite as: Probative Growth, Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare), 2026, https://doi.org/10.5281/zenodo.23963670
 
 Not legal advice. These are CMS ratings of hospitals against a national benchmark, computed from claims and infection reports. They are not findings about the care any patient received, and a rating of worse than the benchmark does not mean an error occurred. Claims and deadlines for a hospital injury are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

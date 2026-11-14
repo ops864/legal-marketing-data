@@ -3,10 +3,12 @@ Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington an
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23962861
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts, version 2.0.0, https://doi.org/10.5281/zenodo.23962861, licensed CC BY 4.0.
+Source: Probative Growth, Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts, version 2.0.0, https://doi.org/10.5281/zenodo.23962861, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23962861
+Probative Growth. (2026). Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23962861
+
+Cite as: Probative Growth, Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts, 2026, https://doi.org/10.5281/zenodo.23962861
 
 Not legal advice. These are counts of lawyers from state bars' and courts' public count pages, reports and directory, kept for research and marketing planning. A status is the bar's record, not a judgment of any lawyer's skill or standing, and a county is the county of the address the lawyer gave, not where the lawyer practices or where clients live. Rights and deadlines in a matter are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.

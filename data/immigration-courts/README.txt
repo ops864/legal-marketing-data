@@ -3,10 +3,12 @@ Immigration court backlog, representation and asylum outcomes (EOIR workload sta
 Version 2.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24183839
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data), version 2.0.1, https://doi.org/10.5281/zenodo.24183839, licensed CC BY 4.0.
+Source: Probative Growth, Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data), version 2.0.1, https://doi.org/10.5281/zenodo.24183839, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24183839
+Probative Growth. (2026). Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data) (Version 2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24183839
+
+Cite as: Probative Growth, Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data), 2026, https://doi.org/10.5281/zenodo.24183839
 
 Not legal advice. These are counts from the Executive Office for Immigration Review's published statistics and case data, kept for marketing planning. EOIR says its statistics are subject to change, a count is not a case outcome, and eligibility, deadlines and strategy are a matter for each person's own lawyer.
 Probative is a marketing firm, not a law firm; not legal advice.

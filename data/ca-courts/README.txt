@@ -3,10 +3,12 @@ California court filings by county: civil, criminal, family, juvenile, probate a
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963026
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25, version 2.0.0, https://doi.org/10.5281/zenodo.23963026, licensed CC BY 4.0.
+Source: Probative Growth, California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25, version 2.0.0, https://doi.org/10.5281/zenodo.23963026, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963026
+Probative Growth. (2026). California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963026
+
+Cite as: Probative Growth, California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25, 2026, https://doi.org/10.5281/zenodo.23963026
 
 Not legal advice. These are counts from the Judicial Council of California's published statistics, kept for marketing planning. A filing is a new case opened in the court, not a person or a client. Check the Judicial Council's current report.
 Probative is a marketing firm, not a law firm; not legal advice.

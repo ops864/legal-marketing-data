@@ -3,10 +3,12 @@ Noncitizen population by state and county (Census ACS, table B05001)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963957
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Noncitizen population by state and county (Census ACS, table B05001), version 2.0.0, https://doi.org/10.5281/zenodo.23963957, licensed CC BY 4.0.
+Source: Probative Growth, Noncitizen population by state and county (Census ACS, table B05001), version 2.0.0, https://doi.org/10.5281/zenodo.23963957, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Noncitizen population by state and county (Census ACS, table B05001) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963957
+Probative Growth. (2026). Noncitizen population by state and county (Census ACS, table B05001) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963957
+
+Cite as: Probative Growth, Noncitizen population by state and county (Census ACS, table B05001), 2026, https://doi.org/10.5281/zenodo.23963957
 
 Not legal advice. These are Census Bureau survey estimates for planning. The table counts residents who are not U.S. citizens; it does not measure immigration or legal status.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Probative benchmarks, 2025–2026
 Version 5.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24098530
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Probative benchmarks, 2025–2026, version 5.0.0, https://doi.org/10.5281/zenodo.24098530, licensed CC BY 4.0.
+Source: Probative Growth, Probative benchmarks, 2025–2026, version 5.0.0, https://doi.org/10.5281/zenodo.24098530, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Probative benchmarks, 2025–2026 (Version 5.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24098530
+Probative Growth. (2026). Probative benchmarks, 2025–2026 (Version 5.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24098530
+
+Cite as: Probative Growth, Probative benchmarks, 2025–2026, 2026, https://doi.org/10.5281/zenodo.24098530
 
 Not legal advice. Probative benchmarks, 2025–2026 are approximate bands, tiers and rounded values from Probative's own data, kept for marketing planning. They are not a forecast for any one firm.
 Probative is a marketing firm, not a law firm; not legal advice.

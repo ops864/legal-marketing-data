@@ -3,10 +3,12 @@ Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), mon
 Version 1.0.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24116047
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008, version 1.0.1, https://doi.org/10.5281/zenodo.24116047, licensed CC BY 4.0.
+Source: Probative Growth, Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008, version 1.0.1, https://doi.org/10.5281/zenodo.24116047, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008 (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116047
+Probative Growth. (2026). Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008 (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24116047
+
+Cite as: Probative Growth, Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008, 2026, https://doi.org/10.5281/zenodo.24116047
 
 Not legal advice. These are shares of mortgages in the CFPB's sample that were behind on payments, not counts of foreclosure filings or of people. A delinquent mortgage may be cured, modified or paid off. County figures exist only where the CFPB's sample holds at least 1,000 mortgages.
 Probative is a marketing firm, not a law firm; not legal advice.

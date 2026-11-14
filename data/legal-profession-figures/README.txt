@@ -3,10 +3,12 @@ Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23851292
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source, version 1.0.0, https://doi.org/10.5281/zenodo.23851292, licensed CC BY 4.0.
+Source: Probative Growth, Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source, version 1.0.0, https://doi.org/10.5281/zenodo.23851292, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23851292
+Probative Growth. (2026). Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23851292
+
+Cite as: Probative Growth, Legal profession figures: lawyer and paralegal jobs and pay, and the civil legal-help gap, each re-read at the issuing source, 2026, https://doi.org/10.5281/zenodo.23851292
 
 Not legal advice. These are figures as the issuing agencies published them on the date read; agencies revise them, so check the source page.
 Probative is a marketing firm, not a law firm; not legal advice.

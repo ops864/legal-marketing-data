@@ -3,10 +3,12 @@ US law firm websites: practices, Spanish, intake, by state, county and practice 
 Version 3.2.1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24148921
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, US law firm websites: practices, Spanish, intake, by state, county and practice area, version 3.2.1, https://doi.org/10.5281/zenodo.24148921, licensed CC BY 4.0.
+Source: Probative Growth, US law firm websites: practices, Spanish, intake, by state, county and practice area, version 3.2.1, https://doi.org/10.5281/zenodo.24148921, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). US law firm websites: practices, Spanish, intake, by state, county and practice area (Version 3.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24148921
+Probative Growth. (2026). US law firm websites: practices, Spanish, intake, by state, county and practice area (Version 3.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24148921
+
+Cite as: Probative Growth, US law firm websites: practices, Spanish, intake, by state, county and practice area, 2026, https://doi.org/10.5281/zenodo.24148921
 
 Not legal advice. These are counts of facts read from law firms' own public websites and from official open registries on the dates shown, kept for research and marketing planning. Each row's coverage says how much of the market it reaches. The counts describe what websites and registries say, not the quality of any firm or lawyer. A firm can ask us to correct its row or to be left out through the data corrections page; we act within 7 days.
 Probative is a marketing firm, not a law firm; not legal advice.

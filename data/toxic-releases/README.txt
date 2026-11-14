@@ -3,10 +3,12 @@ Toxic chemical releases by county (EPA Toxics Release Inventory)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23964168
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Toxic chemical releases by county (EPA Toxics Release Inventory), version 2.0.0, https://doi.org/10.5281/zenodo.23964168, licensed CC BY 4.0.
+Source: Probative Growth, Toxic chemical releases by county (EPA Toxics Release Inventory), version 2.0.0, https://doi.org/10.5281/zenodo.23964168, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Toxic chemical releases by county (EPA Toxics Release Inventory) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964168
+Probative Growth. (2026). Toxic chemical releases by county (EPA Toxics Release Inventory) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23964168
+
+Cite as: Probative Growth, Toxic chemical releases by county (EPA Toxics Release Inventory), 2026, https://doi.org/10.5281/zenodo.23964168
 
 Not legal advice. These are pounds that covered facilities reported releasing, kept for research and market sizing. A release is not an exposure, a finding that anyone was harmed or a finding of fault, and the Toxics Release Inventory covers only listed chemicals and facilities above reporting thresholds. Questions about exposure or injury are for a licensed attorney or a health professional.
 Probative is a marketing firm, not a law firm; not legal advice.

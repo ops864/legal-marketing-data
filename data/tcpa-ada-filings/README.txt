@@ -3,10 +3,12 @@ TCPA and ADA federal lawsuits filed, by district and fiscal year
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24187571
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, TCPA and ADA federal lawsuits filed, by district and fiscal year, version 1.0.0, https://doi.org/10.5281/zenodo.24187571, licensed CC BY 4.0.
+Source: Probative Growth, TCPA and ADA federal lawsuits filed, by district and fiscal year, version 1.0.0, https://doi.org/10.5281/zenodo.24187571, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). TCPA and ADA federal lawsuits filed, by district and fiscal year (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24187571
+Probative Growth. (2026). TCPA and ADA federal lawsuits filed, by district and fiscal year (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24187571
+
+Cite as: Probative Growth, TCPA and ADA federal lawsuits filed, by district and fiscal year, 2026, https://doi.org/10.5281/zenodo.24187571
 
 Not legal advice. These are counts of federal civil cases filed, taken from court records and kept for research and marketing planning. A case filed is not a finding that any law was broken, and a count says nothing about how any one case ended.
 Probative is a marketing firm, not a law firm; not legal advice.

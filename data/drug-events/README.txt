@@ -3,10 +3,12 @@ Serious drug adverse event reports by active ingredient (openFDA FAERS)
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963449
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Serious drug adverse event reports by active ingredient (openFDA FAERS), version 2.0.0, https://doi.org/10.5281/zenodo.23963449, licensed CC BY 4.0.
+Source: Probative Growth, Serious drug adverse event reports by active ingredient (openFDA FAERS), version 2.0.0, https://doi.org/10.5281/zenodo.23963449, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Serious drug adverse event reports by active ingredient (openFDA FAERS) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963449
+Probative Growth. (2026). Serious drug adverse event reports by active ingredient (openFDA FAERS) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963449
+
+Cite as: Probative Growth, Serious drug adverse event reports by active ingredient (openFDA FAERS), 2026, https://doi.org/10.5281/zenodo.23963449
 
 Not legal advice. This is not medical advice either. A report in the FDA Adverse Event Reporting System is not proof that a drug caused an event; reports come from patients, clinicians and manufacturers, can be duplicated and are not verified. Questions about a medicine are for a health professional, and questions about an injury are for a licensed attorney.
 Probative is a marketing firm, not a law firm; not legal advice.

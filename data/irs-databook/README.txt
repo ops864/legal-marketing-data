@@ -3,10 +3,12 @@ IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963674
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025, version 2.0.0, https://doi.org/10.5281/zenodo.23963674, licensed CC BY 4.0.
+Source: Probative Growth, IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025, version 2.0.0, https://doi.org/10.5281/zenodo.23963674, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963674
+Probative Growth. (2026). IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025 (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963674
+
+Cite as: Probative Growth, IRS Data Book by state: returns filed, gross tax collections and refunds, fiscal years 2019 to 2025, 2026, https://doi.org/10.5281/zenodo.23963674
 
 Not legal advice. These are the IRS's own counts of returns, collections and refunds by the state of the filer's address; they describe IRS workload and tax flows, not any person's tax position. A state's collections depend on where taxpayers (including multi-state companies) are located, not only on where income was earned. Tax questions are for a qualified professional.
 Probative is a marketing firm, not a law firm; not legal advice.

@@ -3,10 +3,12 @@ Legal ad-platform policy tracker
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898135
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Legal ad-platform policy tracker, version 2.0.0, https://doi.org/10.5281/zenodo.23898135, licensed CC BY 4.0.
+Source: Probative Growth, Legal ad-platform policy tracker, version 2.0.0, https://doi.org/10.5281/zenodo.23898135, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Legal ad-platform policy tracker (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898135
+Probative Growth. (2026). Legal ad-platform policy tracker (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898135
+
+Cite as: Probative Growth, Legal ad-platform policy tracker, 2026, https://doi.org/10.5281/zenodo.23898135
 
 Not legal advice. This is a plain-English summary of the platforms' public policy pages, kept for marketing planning, and platforms change their rules often. Check the platform's live page, your state bar's rules and your own counsel before you run an ad.
 Probative is a marketing firm, not a law firm; not legal advice.

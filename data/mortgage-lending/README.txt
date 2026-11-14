@@ -3,10 +3,12 @@ Mortgage applications, loans and denials by county: home purchase and refinance 
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23963883
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA, version 2.0.0, https://doi.org/10.5281/zenodo.23963883, licensed CC BY 4.0.
+Source: Probative Growth, Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA, version 2.0.0, https://doi.org/10.5281/zenodo.23963883, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963883
+Probative Growth. (2026). Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23963883
+
+Cite as: Probative Growth, Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA, 2026, https://doi.org/10.5281/zenodo.23963883
 
 Not legal advice. Public HMDA figures for research and market planning; they describe applications reported by lenders, not any person's credit.
 Probative is a marketing firm, not a law firm; not legal advice.

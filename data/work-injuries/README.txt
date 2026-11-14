@@ -3,10 +3,12 @@ Workplace injuries and fatal work injuries by state and industry (BLS SOII and C
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898154
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI), version 2.0.0, https://doi.org/10.5281/zenodo.23898154, licensed CC BY 4.0.
+Source: Probative Growth, Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI), version 2.0.0, https://doi.org/10.5281/zenodo.23898154, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898154
+Probative Growth. (2026). Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898154
+
+Cite as: Probative Growth, Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI), 2026, https://doi.org/10.5281/zenodo.23898154
 
 Not legal advice. These are survey and census statistics from the Bureau of Labor Statistics, kept for planning. A rate describes a whole industry in a state, not any one employer, and it does not say whether anyone has a workers' compensation claim.
 Probative is a marketing firm, not a law firm; not legal advice.

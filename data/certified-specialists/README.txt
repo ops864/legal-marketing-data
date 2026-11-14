@@ -3,10 +3,12 @@ Board-certified lawyers by practice area and state: specialist counts from offic
 Version 1.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23850651
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota), version 1.0.0, https://doi.org/10.5281/zenodo.23850651, licensed CC BY 4.0.
+Source: Probative Growth, Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota), version 1.0.0, https://doi.org/10.5281/zenodo.23850651, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23850651
+Probative Growth. (2026). Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota) (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23850651
+
+Cite as: Probative Growth, Board-certified lawyers by practice area and state: specialist counts from official state lists (Tennessee and Minnesota), 2026, https://doi.org/10.5281/zenodo.23850651
 
 Not legal advice. Not a recommendation of any lawyer. These are counts of certifications on official state lists, as the lists stood on the dates shown; a lawyer can hold more than one certification, and certification is voluntary, so the counts say nothing about the quality of lawyers who are not certified.
 Probative is a marketing firm, not a law firm; not legal advice.

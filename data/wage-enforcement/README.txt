@@ -3,10 +3,12 @@ Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Depa
 Version 2.0.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23898146
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative, Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor), version 2.0.0, https://doi.org/10.5281/zenodo.23898146, licensed CC BY 4.0.
+Source: Probative Growth, Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor), version 2.0.0, https://doi.org/10.5281/zenodo.23898146, licensed CC BY 4.0.
 
 Suggested citation:
-Probative. (2026). Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898146
+Probative Growth. (2026). Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor) (Version 2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23898146
+
+Cite as: Probative Growth, Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor), 2026, https://doi.org/10.5281/zenodo.23898146
 
 Not legal advice. These are counts and sums of federal enforcement findings, kept for research and marketing planning. A WHD back-wage finding or an OSHA citation is the agency's finding, not a court judgment, and employers can contest them. Rights and deadlines in a wage or injury matter are for your own counsel.
 Probative is a marketing firm, not a law firm; not legal advice.
