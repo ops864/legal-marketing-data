@@ -1,14 +1,14 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-14",
+  "generated": "2026-11-18",
   "datasets": [
     {
       "id": "rules",
       "version": "1.5.0",
       "doi": "10.5281/zenodo.23958753",
       "released": "2026-11-04",
-      "cardSha": "552aae21a3d5c009",
+      "cardSha": "d648ca88e663cf63",
       "rows": 433,
       "files": [
         "rules-values.csv"
