@@ -1,0 +1,43 @@
+id,column,value
+federal-marketing-rules:ftc-penalty-final-order,value,53088
+federal-marketing-rules:ftc-penalty-final-order,unit,dollars
+federal-marketing-rules:ftc-penalty-final-order,valueText,"$53,088"
+federal-marketing-rules:ftc-penalty-rule-violation,value,53088
+federal-marketing-rules:ftc-penalty-rule-violation,unit,dollars
+federal-marketing-rules:ftc-penalty-rule-violation,valueText,"$53,088"
+federal-marketing-rules:fcc-forfeiture-caller-id,value,14432
+federal-marketing-rules:fcc-forfeiture-caller-id,unit,dollars
+federal-marketing-rules:fcc-forfeiture-caller-id,valueText,"$14,432"
+federal-marketing-rules:tcpa-private-damages-automated,value,500
+federal-marketing-rules:tcpa-private-damages-automated,unit,dollars per violation
+federal-marketing-rules:tcpa-private-damages-automated,valueText,$500
+federal-marketing-rules:tcpa-private-damages-automated,lastChangedBy,Pub. L. 116-105
+federal-marketing-rules:tcpa-private-damages-automated,usCodeEdition,2024
+federal-marketing-rules:tcpa-private-damages-do-not-call,value,500
+federal-marketing-rules:tcpa-private-damages-do-not-call,unit,dollars per violation
+federal-marketing-rules:tcpa-private-damages-do-not-call,valueText,$500
+federal-marketing-rules:tcpa-private-damages-do-not-call,lastChangedBy,Pub. L. 116-105
+federal-marketing-rules:tcpa-private-damages-do-not-call,usCodeEdition,2024
+federal-marketing-rules:tcpa-state-damages,value,500
+federal-marketing-rules:tcpa-state-damages,unit,dollars per violation
+federal-marketing-rules:tcpa-state-damages,valueText,$500
+federal-marketing-rules:tcpa-state-damages,lastChangedBy,Pub. L. 116-105
+federal-marketing-rules:tcpa-state-damages,usCodeEdition,2024
+federal-marketing-rules:tcpa-autodialer-definition,lastChangedBy,Pub. L. 116-105
+federal-marketing-rules:tcpa-autodialer-definition,usCodeEdition,2024
+federal-marketing-rules:canspam-opt-out-10-business-days,lastChangedBy,Pub. L. 108-187
+federal-marketing-rules:canspam-opt-out-10-business-days,usCodeEdition,2024
+federal-marketing-rules:canspam-opt-out-works-30-days,lastChangedBy,Pub. L. 108-187
+federal-marketing-rules:canspam-opt-out-works-30-days,usCodeEdition,2024
+federal-marketing-rules:canspam-ad-label-and-address,lastChangedBy,Pub. L. 108-187
+federal-marketing-rules:canspam-ad-label-and-address,usCodeEdition,2024
+federal-marketing-rules:canspam-state-damages,value,250
+federal-marketing-rules:canspam-state-damages,unit,dollars per message
+federal-marketing-rules:canspam-state-damages,valueText,$250
+federal-marketing-rules:canspam-state-damages,lastChangedBy,Pub. L. 108-187
+federal-marketing-rules:canspam-state-damages,usCodeEdition,2024
+federal-marketing-rules:tsr-registry-fee,value,85
+federal-marketing-rules:tsr-registry-fee,unit,dollars per area code
+federal-marketing-rules:tsr-registry-fee,valueText,$85
+federal-marketing-rules:tcpa-revocation-10-days,pendingEffective,2026-11-25
+federal-marketing-rules:tcpa-revocation-10-days,pendingCitation,91 FR 67214

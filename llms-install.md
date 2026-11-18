@@ -56,6 +56,7 @@ This is a remote MCP server. There is nothing to download, build or configure: n
 - `https://probativegrowth.com/mcp/fair-housing`: HUD fair housing cases filed 2006 to June 2020 by state, county and basis (race, disability, familial status and more).
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/federal-filings-county`: Federal civil cases filed by plaintiff county, state, district and case type, ten years, with out-of-state totals.
+- `https://probativegrowth.com/mcp/federal-marketing-rules`: Federal marketing rules for law firms: FTC review, endorsement, telemarketing and CAN-SPAM rules, TCPA, penalty amounts, quoted.
 - `https://probativegrowth.com/mcp/federal-sentencing`: U.S. Sentencing Commission counts, prison rates and sentence lengths by federal district and offense type, fiscal years 2021 to 2025.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.

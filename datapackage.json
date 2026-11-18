@@ -4,8 +4,8 @@
   "id": "https://github.com/ops864/legal-marketing-data",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Each dataset names its sources, and each public-source record carries its source and the date checked. Not legal advice.",
-  "version": "2026-11-13",
-  "created": "2026-11-13T00:00:00Z",
+  "version": "2026-11-18",
+  "created": "2026-11-18T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -3485,8 +3485,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.3.0",
-      "id": "https://doi.org/10.5281/zenodo.24181503",
+      "version": "2.4.0",
+      "id": "https://doi.org/10.5281/zenodo.24326296",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -3589,7 +3589,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -5619,6 +5619,177 @@
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "version": "2.0.1",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "column",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "federal-marketing-rules",
+      "profile": "tabular-data-resource",
+      "title": "Federal marketing rules and penalty amounts for law firms: FTC, FCC, CAN-SPAM and TCPA",
+      "description": "The federal amounts and duties a law firm's ads, reviews, endorsements, calls, texts and emails run into: the FTC's civil penalty amounts, its rule on consumer reviews and testimonials, its Endorsement Guides, the Telemarketing Sales Rule, the CAN-SPAM Act and rule, the FCC's TCPA rules and forfeiture amounts, and the TCPA itself. One row per amount or duty, with the section, our plain-English summary, the verbatim text it rests on, the date of the section's current version and the date we read it.",
+      "path": "data/federal-marketing-rules/federal-marketing-rules.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
+      "id": "https://doi.org/10.5281/zenodo.24183838",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "www.ecfr.gov",
+          "path": "https://www.ecfr.gov/current/title-16/part-465"
+        },
+        {
+          "title": "www.ecfr.gov",
+          "path": "https://www.ecfr.gov/current/title-47/part-64/section-64.1200"
+        },
+        {
+          "title": "www.govinfo.gov",
+          "path": "https://www.govinfo.gov/content/pkg/USCODE-2024-title47/html/USCODE-2024-title47-chap5-subchapII-partI-sec227.htm"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable record id (never reused)"
+          },
+          {
+            "name": "law",
+            "type": "string",
+            "description": "The rule or statute: 16 CFR 1.98, 16 CFR 255, 16 CFR 310, 16 CFR 316, 16 CFR 465, 47 CFR 1.80, 47 CFR 64.1200, 15 U.S.C. 7704, 15 U.S.C. 7706 or 47 U.S.C. 227"
+          },
+          {
+            "name": "lawKey",
+            "type": "string",
+            "description": "The lookup key of the rule or statute (the per-key file name): 16-CFR-465, 47-U-S-C-227 and so on"
+          },
+          {
+            "name": "lawName",
+            "type": "string",
+            "description": "The rule or statute in plain words"
+          },
+          {
+            "name": "cite",
+            "type": "string",
+            "description": "The section and paragraph the row rests on"
+          },
+          {
+            "name": "agency",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "penalties, reviews, endorsements, telemarketing, email or calls-and-texts"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "amount (a dollar figure) or duty (something a sender, caller or advertiser must or must not do)"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "P primary source, S secondary source"
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "Our plain-English summary of the quoted text"
+          },
+          {
+            "name": "textEs",
+            "type": "string",
+            "description": "The same summary in Spanish"
+          },
+          {
+            "name": "quote",
+            "type": "string",
+            "description": "The official text the row rests on, word for word (the other quotes it rests on are in the JSON sources)"
+          },
+          {
+            "name": "currentSince",
+            "type": "string",
+            "description": "The day the section's current text took effect: for a CFR section, the newest version in the eCFR version history; for the US Code, the date of the latest law in the section's source credit. A CFR section unchanged since the eCFR version history begins shows that history's first date"
+          },
+          {
+            "name": "currentSinceBasis",
+            "type": "string",
+            "description": "ecfr-version-history or us-code-source-credit"
+          },
+          {
+            "name": "lastChecked",
+            "type": "string",
+            "description": "The day we read the section (YYYY-MM-DD)"
+          },
+          {
+            "name": "sourceUrl",
+            "type": "string",
+            "description": "The section's public page"
+          },
+          {
+            "name": "sourceLabels",
+            "type": "string",
+            "description": "Sources, separated by \" | \""
+          },
+          {
+            "name": "sourceUrls",
+            "type": "string",
+            "description": "Source URLs, in the same order"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)"
+          },
+          {
+            "name": "confidenceBasis",
+            "type": "string",
+            "description": "The reasons for the confidence level, in a short phrase"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "federal-marketing-rules-values",
+      "profile": "tabular-data-resource",
+      "title": "Federal marketing rules and penalty amounts for law firms: FTC, FCC, CAN-SPAM and TCPA: federal-marketing-rules-values.csv",
+      "description": "The columns listed in README.txt as being in federal-marketing-rules-values.csv, one row per id, column and value; join it to federal-marketing-rules.csv on id.",
+      "path": "data/federal-marketing-rules/federal-marketing-rules-values.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "1.0.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",

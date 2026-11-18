@@ -207,11 +207,11 @@
     },
     {
       "id": "crosswalks",
-      "version": "2.3.0",
-      "doi": "10.5281/zenodo.24181503",
-      "released": "2026-11-13",
-      "cardSha": "62544ed9e9fb5085",
-      "rows": 3703,
+      "version": "2.4.0",
+      "doi": "10.5281/zenodo.24326296",
+      "released": "2026-11-18",
+      "cardSha": "41a4f716374cffe3",
+      "rows": 3704,
       "files": [
         "crosswalks-values.csv"
       ]
@@ -329,6 +329,17 @@
       "rows": 3559,
       "files": [
         "federal-filings-county-values.csv"
+      ]
+    },
+    {
+      "id": "federal-marketing-rules",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.24183838",
+      "released": "2026-11-18",
+      "cardSha": "432c43e30071e163",
+      "rows": 40,
+      "files": [
+        "federal-marketing-rules-values.csv"
       ]
     },
     {
