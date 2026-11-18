@@ -5,11 +5,11 @@
   "datasets": [
     {
       "id": "rules",
-      "version": "1.5.0",
-      "doi": "10.5281/zenodo.23958753",
-      "released": "2026-11-04",
-      "cardSha": "d648ca88e663cf63",
-      "rows": 433,
+      "version": "1.6.0",
+      "doi": "10.5281/zenodo.24114743",
+      "released": "2026-11-18",
+      "cardSha": "607efe924a1e40b3",
+      "rows": 434,
       "files": [
         "rules-values.csv"
       ]

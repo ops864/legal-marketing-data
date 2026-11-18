@@ -12,7 +12,9 @@ co-ad-filing,effectiveFrom,2020-09-10
 ct-ad-filing,timing,at_or_before_first_use
 ct-ad-filing,timing_detail,"Either prior to or concurrently with first dissemination; domain name lists quarterly on the first business day of January, April, July and October."
 ct-ad-filing,days_before_first_use_required,0
-ct-ad-filing,days_detail,A filing is submitted prior to or concurrently with first dissemination (0 days ahead). The rule states no review period.
+ct-ad-filing,review_response_days,30
+ct-ad-filing,advance_opinion_lead_days,30
+ct-ad-filing,days_detail,"A filing is submitted prior to or concurrently with first dissemination (0 days ahead). An optional advance advisory opinion is requested not less than 30 days before first dissemination; the committee issues it within 30 days of the filing of the request (the time stops while the committee waits for information it asked for), and if none issues in that time the ad is deemed to be in compliance with the Rules of Professional Conduct."
 ct-ad-filing,fee_standard_usd,0
 ct-ad-filing,advisory_fee_usd,100
 ct-ad-filing,portal_url,https://eservices.jud.ct.gov/login.aspx

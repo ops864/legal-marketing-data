@@ -1,14 +1,14 @@
 Lawyer advertising rules by state (50 states and DC)
 
-Version 1.5.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.23958753
+Version 1.6.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24114743
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative Growth, Lawyer advertising rules by state (50 states and DC), version 1.5.0, https://doi.org/10.5281/zenodo.23958753, licensed CC BY 4.0.
+Source: Probative Growth, Lawyer advertising rules by state (50 states and DC), version 1.6.0, https://doi.org/10.5281/zenodo.24114743, licensed CC BY 4.0.
 
 Suggested citation:
-Probative Growth. (2026). Lawyer advertising rules by state (50 states and DC) (Version 1.5.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23958753
+Probative Growth. (2026). Lawyer advertising rules by state (50 states and DC) (Version 1.6.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24114743
 
-Cite as: Probative Growth, Lawyer advertising rules by state (50 states and DC), 2026, https://doi.org/10.5281/zenodo.23958753
+Cite as: Probative Growth, Lawyer advertising rules by state (50 states and DC), 2026, https://doi.org/10.5281/zenodo.24114743
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative is a marketing firm, not a law firm; not legal advice.
