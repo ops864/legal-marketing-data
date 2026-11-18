@@ -1096,6 +1096,11 @@
             "description": "The release date (YYYY-MM-DD)"
           },
           {
+            "name": "source",
+            "type": "string",
+            "description": "The source label every row carries: Probative composite benchmark"
+          },
+          {
             "name": "sourceLabels",
             "type": "string",
             "description": "The methods page that defines the measure"

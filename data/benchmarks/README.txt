@@ -28,6 +28,7 @@ Columns:
   note: The band or tier again, and what the figure counts
   version: Release version of the benchmarks
   lastChecked: The release date (YYYY-MM-DD)
+  source: The source label every row carries: Probative composite benchmark
   sourceLabels: The methods page that defines the measure
   sourceUrls: The methods page URL
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
