@@ -12358,8 +12358,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.1.0",
-      "id": "https://doi.org/10.5281/zenodo.24363027",
+      "version": "2.2.0",
+      "id": "https://doi.org/10.5281/zenodo.24367616",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12477,7 +12477,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12510,7 +12510,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",

@@ -695,11 +695,11 @@
     },
     {
       "id": "opinions",
-      "version": "2.1.0",
-      "doi": "10.5281/zenodo.24363027",
+      "version": "2.2.0",
+      "doi": "10.5281/zenodo.24367616",
       "released": "2026-11-19",
-      "cardSha": "fda300ce4dd76fa1",
-      "rows": 261,
+      "cardSha": "6bf4be826bdb9f44",
+      "rows": 281,
       "files": [
         "opinions-values.csv",
         "ai-guidance.csv"
