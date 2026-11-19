@@ -1,14 +1,14 @@
 Legal-marketing ethics opinions, 2004–2026
 
-Version 2.0.2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24114753
+Version 2.1.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24363027
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative Growth, Legal-marketing ethics opinions, 2004–2026, version 2.0.2, https://doi.org/10.5281/zenodo.24114753, licensed CC BY 4.0.
+Source: Probative Growth, Legal-marketing ethics opinions, 2004–2026, version 2.1.0, https://doi.org/10.5281/zenodo.24363027, licensed CC BY 4.0.
 
 Suggested citation:
-Probative Growth. (2026). Legal-marketing ethics opinions, 2004–2026 (Version 2.0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24114753
+Probative Growth. (2026). Legal-marketing ethics opinions, 2004–2026 (Version 2.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24363027
 
-Cite as: Probative Growth, Legal-marketing ethics opinions, 2004–2026, 2026, https://doi.org/10.5281/zenodo.24114753
+Cite as: Probative Growth, Legal-marketing ethics opinions, 2004–2026, 2026, https://doi.org/10.5281/zenodo.24363027
 
 Not legal advice. This is a plain-English summary of public ethics opinions, kept for marketing planning, and opinions and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative Growth is a marketing firm, not a law firm; not legal advice.
@@ -43,3 +43,12 @@ Columns:
   ai_superiority_claims: AI opinions only: can a firm claim its AI or results are better (Rule 7.1)? yes, brief, no, excluded, or blank (in opinions-values.csv, as id, column and value rows)
   confidentiality_in_marketing_tools: AI opinions only: does it address prospects’ confidentiality in chatbots and marketing tools? yes, brief, no, excluded, or blank (in opinions-values.csv, as id, column and value rows)
   fees_for_ai: AI opinions only: does it say how AI affects fees and charges? yes, brief, no, excluded, or blank (in opinions-values.csv, as id, column and value rows)
+  ai-guidance.csv jurisdiction: Two-letter state code, DC, or ABA
+  ai-guidance.csv jurisdiction_name: The jurisdiction
+  ai-guidance.csv question: One of chatbot_disclosure, ai_made_ads, ai_intake, capability_claims, confidentiality, fees; "all" on a line for a jurisdiction with no statewide AI guidance for lawyers in the ethics opinion or guidance index read
+  ai-guidance.csv status: quote (a verbatim quote), not-addressed (the documents listed do not address the question), or none-in-index-read (no statewide AI guidance for lawyers in the bar’s or court’s ethics opinion or guidance index read on the as_of date; local court rules and federal court orders are not part of this table)
+  ai-guidance.csv answer: The verbatim quote, or the plain statement
+  ai-guidance.csv location: Page, section or paragraph of the quote; "whole documents" for not-addressed; "opinion or guidance index" for none-in-index-read
+  ai-guidance.csv document: Issuer, title and date of the document (several are separated by " | ")
+  ai-guidance.csv document_url: The document on the issuer’s own site (several are separated by " | ")
+  ai-guidance.csv as_of: The date the document or index was read at source (YYYY-MM-DD)

@@ -4,8 +4,8 @@
   "id": "https://github.com/ops864/legal-marketing-data",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Each dataset names its sources, and each public-source record carries its source and the date checked. Not legal advice.",
-  "version": "2026-11-18",
-  "created": "2026-11-18T00:00:00Z",
+  "version": "2026-11-19",
+  "created": "2026-11-19T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -12353,13 +12353,13 @@
       "name": "opinions",
       "profile": "tabular-data-resource",
       "title": "Legal-marketing ethics opinions, 2004–2026",
-      "description": "An index of US state and ABA ethics opinions, committee guidelines and court rulings on lawyer advertising and marketing, from 2004 to 2026 (most from 2015 on, plus earlier landmarks): lead generators, pay-per-lead, reviews, testimonials, trade names, websites, social media, chatbots and AI tools, competitor keywords and more. Version 1.1 adds an AI sub-index: 14 AI opinions coded on six marketing questions (chatbot disclosure, AI-made ads, intake and solicitation, superiority claims, confidentiality in marketing tools, and fees). Each record gives the issuing body, number, date, topics, a one-sentence holding in our words, a practical step, whether it is still in force, the official link, an exact short quote and the date read. It is not the opinions' full text.",
+      "description": "An index of US state and ABA ethics opinions, committee guidelines and court rulings on lawyer advertising and marketing, from 2004 to 2026 (most from 2015 on, plus earlier landmarks): lead generators, pay-per-lead, reviews, testimonials, trade names, websites, social media, chatbots and AI tools, competitor keywords and more. Version 1.1 adds an AI sub-index: 14 AI opinions coded on six marketing questions (chatbot disclosure, AI-made ads, intake and solicitation, superiority claims, confidentiality in marketing tools, and fees). Each record gives the issuing body, number, date, topics, a one-sentence holding in our words, a practical step, whether it is still in force, the official link, an exact short quote and the date read. It is not the opinions' full text. Version 2.1 adds a table of AI guidance for lawyers by jurisdiction (ai-guidance.csv and ai-guidance.json): what official AI guidance for lawyers from 31 jurisdictions says on six marketing questions, each answer a verbatim quote with its place in the document, and 10 jurisdictions with no statewide AI guidance for lawyers in the bar's or court's ethics opinion or guidance index read on November 13, 2026.",
       "path": "data/opinions/opinions.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.2",
-      "id": "https://doi.org/10.5281/zenodo.24114753",
+      "version": "2.1.0",
+      "id": "https://doi.org/10.5281/zenodo.24363027",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12477,7 +12477,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.2",
+      "version": "2.1.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12496,6 +12496,63 @@
           },
           {
             "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ai-guidance",
+      "profile": "tabular-data-resource",
+      "title": "Legal-marketing ethics opinions, 2004–2026: ai-guidance.csv",
+      "description": "AI guidance for lawyers by jurisdiction: one line per answer (verbatim quote, or not addressed by the documents listed) for six marketing questions, for the jurisdictions whose official AI guidance for lawyers is quoted, and one line per jurisdiction with no statewide AI guidance for lawyers in the ethics opinion or guidance index read (dated).",
+      "path": "data/opinions/ai-guidance.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "jurisdiction",
+            "type": "string"
+          },
+          {
+            "name": "jurisdiction_name",
+            "type": "string"
+          },
+          {
+            "name": "question",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "answer",
+            "type": "string"
+          },
+          {
+            "name": "location",
+            "type": "string"
+          },
+          {
+            "name": "document",
+            "type": "string"
+          },
+          {
+            "name": "document_url",
+            "type": "string"
+          },
+          {
+            "name": "as_of",
             "type": "string"
           }
         ]
