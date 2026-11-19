@@ -11,7 +11,7 @@ Probative Growth. (2026). USCIS naturalization and green card applications by fi
 Cite as: Probative Growth, USCIS naturalization and green card applications by field office, 2026, https://doi.org/10.5281/zenodo.23964258
 
 Not legal advice. These are counts of applications that USCIS received and decided at each office, not the outcome of any one case or a prediction of one: a pending count says how many applications are waiting, not how long yours will wait or where it will be decided. Questions about an immigration case are for a licensed immigration attorney or an accredited representative.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/uscis-offices/
 

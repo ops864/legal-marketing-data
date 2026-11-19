@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal-aid, public-interest-law and civil-rights nonpro
 Cite as: Probative Growth, Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list, 2026, https://doi.org/10.5281/zenodo.24116040
 
 Not legal advice. Counts of organizations on the IRS exempt-organization list by mailing address, not a directory and not a measure of services delivered.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/legal-aid-orgs/
 

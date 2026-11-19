@@ -11,7 +11,7 @@ Probative Growth. (2026). Union membership and representation by state (BLS Unio
 Cite as: Probative Growth, Union membership and representation by state (BLS Union Members), 2024 and 2025, 2026, https://doi.org/10.5281/zenodo.23845987
 
 Not legal advice. These are survey estimates from the Current Population Survey, rounded to thousands and one decimal by BLS; small states have wider sampling error. The 2025 annual figures average the 11 months BLS published (January to September, November and December). BLS says the 2025 figures are not strictly comparable with other years.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/union-membership/
 

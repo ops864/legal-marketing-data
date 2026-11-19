@@ -11,7 +11,7 @@ Probative Growth. (2026). WARN Act layoff and closure notices by county: Califor
 Cite as: Probative Growth, WARN Act layoff and closure notices by county: California and Texas, 2026, https://doi.org/10.5281/zenodo.24116063
 
 Not legal advice. These are counts of notices employers filed with state agencies, kept for research and marketing planning. A notice is a plan, not a layoff that has happened, and says nothing about whether any worker has a legal claim; rights and deadlines are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/warn-layoffs/
 

@@ -11,7 +11,7 @@ Probative Growth. (2026). Workers' compensation maximum weekly benefit by state:
 Cite as: Probative Growth, Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state, 2026, https://doi.org/10.5281/zenodo.23969440
 
 Not legal advice. These are the maximums as each state agency states them, kept for research and marketing planning. The maximum that applies to a claim is the one in force on the date of injury; an injured worker should ask a lawyer or the state agency.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/wc-benefits/
 

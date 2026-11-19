@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal-services prices and jobs, monthly (BLS CPI, PPI 
 Cite as: Probative Growth, Legal-services prices and jobs, monthly (BLS CPI, PPI and CES), 2026, https://doi.org/10.5281/zenodo.24116042
 
 Not legal advice. These are price and employment statistics from the Bureau of Labor Statistics, kept for marketing planning. Index values are not a fee schedule, and BLS revises recent months.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/legal-prices/
 

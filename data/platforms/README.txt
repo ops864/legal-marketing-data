@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal ad-platform policy tracker (Version 2.0.0) [Data
 Cite as: Probative Growth, Legal ad-platform policy tracker, 2026, https://doi.org/10.5281/zenodo.23898135
 
 Not legal advice. This is a plain-English summary of the platforms' public policy pages, kept for marketing planning, and platforms change their rules often. Check the platform's live page, your state bar's rules and your own counsel before you run an ad.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/platforms/
 

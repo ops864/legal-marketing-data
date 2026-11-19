@@ -11,7 +11,7 @@ Probative Growth. (2026). How long federal civil cases take: outcomes, class act
 Cite as: Probative Growth, How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year, 2026, https://doi.org/10.5281/zenodo.23898111
 
 Not legal advice. These are counts, medians and shares from the Federal Judicial Center's court records, kept for marketing planning. A court's typical time to disposition says nothing about how any one case will go.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/how-long-federal-civil-cases-take/
 

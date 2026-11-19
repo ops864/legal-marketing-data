@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "datasets": [
     {
       "id": "rules",
@@ -71,7 +71,7 @@
       "version": "5.0.0",
       "doi": "10.5281/zenodo.24098530",
       "released": "2026-11-10",
-      "cardSha": "af3290fca4e74df0",
+      "cardSha": "91f96afcb8ed1bfa",
       "rows": 58
     },
     {
@@ -199,7 +199,7 @@
       "version": "2.0.0",
       "doi": "10.5281/zenodo.23963315",
       "released": "2026-11-04",
-      "cardSha": "f6d08a0b20bdd193",
+      "cardSha": "b31bf49bbca2358d",
       "rows": 2023,
       "files": [
         "criminal-filings-values.csv"
@@ -210,7 +210,7 @@
       "version": "2.4.0",
       "doi": "10.5281/zenodo.24326296",
       "released": "2026-11-18",
-      "cardSha": "41a4f716374cffe3",
+      "cardSha": "179675467a2e9a32",
       "rows": 3704,
       "files": [
         "crosswalks-values.csv"
@@ -325,7 +325,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24024299",
       "released": "2026-11-07",
-      "cardSha": "c736bffdb92a6234",
+      "cardSha": "656a05a00e10cb4b",
       "rows": 3559,
       "files": [
         "federal-filings-county-values.csv"
@@ -377,7 +377,7 @@
       "version": "1.1.0",
       "doi": "10.5281/zenodo.23748830",
       "released": "2026-10-28",
-      "cardSha": "354c38b71c893132",
+      "cardSha": "4d11c289944595a4",
       "rows": 20
     },
     {
@@ -864,7 +864,7 @@
       "version": "2.0.1",
       "doi": "10.5281/zenodo.24116060",
       "released": "2026-11-11",
-      "cardSha": "c1a47cd35a96659e",
+      "cardSha": "0e71681a34aa6f8c",
       "rows": 3255,
       "files": [
         "truck-crashes-values.csv"

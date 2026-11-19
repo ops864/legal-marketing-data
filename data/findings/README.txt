@@ -11,7 +11,7 @@ Probative Growth. (2026). The US legal market in numbers: headline findings from
 Cite as: Probative Growth, The US legal market in numbers: headline findings from Probative's open datasets, 2026, https://doi.org/10.5281/zenodo.23748830
 
 Not legal advice. These are counts and rates computed from public data for marketing planning and reporting. Each figure has limits, listed with it, and none describes any one firm, case or person.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/us-legal-market-in-numbers/
 
@@ -28,7 +28,7 @@ Columns:
   text: The record in one plain-English sentence
   textEs: The same sentence in Spanish
   limits: What the figure does not show
-  sourceDataset: The Probative dataset(s) it is computed from, separated by semicolons
+  sourceDataset: The Probative Growth dataset(s) it is computed from, separated by semicolons
   sourceVersion: The version of each source dataset, in the same order
   sourceDoi: The DOI of each source dataset version, in the same order (empty when not yet minted)
   sourceRecord: The source record id(s), separated by semicolons

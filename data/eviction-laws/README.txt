@@ -11,7 +11,7 @@ Probative Growth. (2026). Eviction laws by state and territory: notice, cure, ju
 Cite as: Probative Growth, Eviction laws by state and territory: notice, cure, just cause, fees and timing (LSC), 2026, https://doi.org/10.5281/zenodo.23963453
 
 Not legal advice. The file is a research coding of the laws in effect on January 1, 2021, made by the Legal Services Corporation and Temple University from statutes, regulations and court rules. Laws change and local rules can differ; confirm the current rule in the official code before relying on it. Prepared for research and marketing planning.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/eviction-laws/
 

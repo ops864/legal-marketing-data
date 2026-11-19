@@ -11,7 +11,7 @@ Probative Growth. (2026). County income and migration from IRS tax returns (Vers
 Cite as: Probative Growth, County income and migration from IRS tax returns, 2026, https://doi.org/10.5281/zenodo.23963195
 
 Not legal advice. These are totals from filed individual tax returns, not a county's wealth, a person's income or a prediction of who needs a lawyer, and migration shows where filers' addresses changed, not why. Questions about taxes, estates or property are for a licensed attorney or tax professional.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/county-income/
 

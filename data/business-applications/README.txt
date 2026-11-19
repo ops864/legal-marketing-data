@@ -11,7 +11,7 @@ Probative Growth. (2026). New business applications by county (Census Business F
 Cite as: Probative Growth, New business applications by county (Census Business Formation Statistics), 2026, https://doi.org/10.5281/zenodo.23898091
 
 Not legal advice. A business application is a request for an Employer Identification Number, not a company formed, an owner or a client, and the Census Bureau adds noise to county counts, so small differences are not meaningful. Questions about forming or running a business are for a licensed attorney.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/business-applications/
 

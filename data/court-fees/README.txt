@@ -11,7 +11,7 @@ Probative Growth. (2026). Small-claims dollar limits by state: the most a claim 
 Cite as: Probative Growth, Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court, 2026, https://doi.org/10.5281/zenodo.23792752
 
 Not legal advice. These are the limits as each state's statute or court system states them, kept for research and marketing planning. Limits have exceptions and change; a person with a claim should ask a lawyer or the court clerk.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/court-fees/
 

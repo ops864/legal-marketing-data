@@ -11,7 +11,7 @@ Probative Growth. (2026). Attorneys registered with the New York courts, by coun
 Cite as: Probative Growth, Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration), 2026, https://doi.org/10.5281/zenodo.24116050
 
 Not legal advice. These are counts of attorney registrations from the New York court system's public registration file, kept for research and marketing planning. A registration status is the court's record, not a judgment of any lawyer's skill or standing beyond that record, and a county is the county of the office address the lawyer gave, not where the lawyer practises or where clients live. Rights and deadlines in a matter are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/ny-attorneys/
 

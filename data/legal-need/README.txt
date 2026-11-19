@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal need by county: who may need a lawyer, from the 
 Cite as: Probative Growth, Legal need by county: who may need a lawyer, from the American Community Survey, 2026, https://doi.org/10.5281/zenodo.23957291
 
 Not legal advice. These are survey estimates of people with a characteristic, not counts of legal problems or cases: a renter, a veteran or a noncitizen does not necessarily need a lawyer. Each estimate has a margin of error, and small counties' estimates are rough.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/legal-need/
 

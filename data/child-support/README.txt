@@ -11,7 +11,7 @@ Probative Growth. (2026). Child support by state (OCSE): collections, cases, ord
 Cite as: Probative Growth, Child support by state (OCSE): collections, cases, orders and arrears, fiscal years 2021 to 2025, 2026, https://doi.org/10.5281/zenodo.24011319
 
 Not legal advice. These are OCSE's preliminary program statistics for state child support agencies, not findings about any case, parent or agency. Reference to any specific site, process, service or company does not constitute endorsement by the U.S. Government, the Department of Health and Human Services or the Administration for Children and Families.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/child-support/
 

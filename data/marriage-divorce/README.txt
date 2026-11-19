@@ -11,7 +11,7 @@ Probative Growth. (2026). Marriage and divorce rates by state (CDC NCHS), 1990 t
 Cite as: Probative Growth, Marriage and divorce rates by state (CDC NCHS), 1990 to 2024, 2026, https://doi.org/10.5281/zenodo.23845898
 
 Not legal advice. The figures are provisional counts that state health departments send to NCHS, turned into rates per 1,000 residents. Divorce figures include annulments and, for some counties or states, petitions filed or legal separations. Divorce records cover the states that report divorces to NCHS: 45 states and DC in 2024.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/marriage-divorce/
 

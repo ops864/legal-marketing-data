@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal-marketing ethics opinions, 2004–2026 (Version 
 Cite as: Probative Growth, Legal-marketing ethics opinions, 2004–2026, 2026, https://doi.org/10.5281/zenodo.24114753
 
 Not legal advice. This is a plain-English summary of public ethics opinions, kept for marketing planning, and opinions and rules change. Check with your state bar and your own counsel before you run an ad.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/opinions/
 

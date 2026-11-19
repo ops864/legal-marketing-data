@@ -11,7 +11,7 @@ Probative Growth. (2026). Federal civil cases filed, by county of the plaintiff'
 Cite as: Probative Growth, Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center), 2026, https://doi.org/10.5281/zenodo.24024299
 
 Not legal advice. These are counts of federal civil case filings from court records, kept for research and marketing planning. A filing says where a plaintiff lives and what kind of case was brought, not that a claim has merit, that a lawyer was hired or how a case ended. County means the county of residence of the first-listed plaintiff (the first-listed defendant's county when the United States sues; the tract's county in land condemnation cases), as the Federal Judicial Center codes it; the court also has codes for a plaintiff who lives in the U.S. outside the court's state and for one who lives abroad. Rights and deadlines in a matter are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/federal-filings-county/
 

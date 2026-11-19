@@ -11,7 +11,7 @@ Probative Growth. (2026). VA disability compensation recipients by county and co
 Cite as: Probative Growth, VA disability compensation recipients by county and combined rating, 2026, https://doi.org/10.5281/zenodo.23898138
 
 Not legal advice. These are counts of veterans already receiving VA disability compensation, not claims, appeals or unmet need: a rating says how VA scored a service-connected condition, not whether a veteran needs a lawyer or could get a higher rating. Questions about a claim are for an accredited attorney, agent or veterans service officer.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/va-compensation/
 

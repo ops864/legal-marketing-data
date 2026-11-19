@@ -11,7 +11,7 @@ Probative Growth. (2026). Mortgage delinquency by county and state (CFPB Mortgag
 Cite as: Probative Growth, Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008, 2026, https://doi.org/10.5281/zenodo.24116047
 
 Not legal advice. These are shares of mortgages in the CFPB's sample that were behind on payments, not counts of foreclosure filings or of people. A delinquent mortgage may be cured, modified or paid off. County figures exist only where the CFPB's sample holds at least 1,000 mortgages.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/mortgage-delinquency/
 

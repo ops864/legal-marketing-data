@@ -11,7 +11,7 @@ Probative Growth. (2026). Attorney fee caps and contingency-fee rules, by state 
 Cite as: Probative Growth, Attorney fee caps and contingency-fee rules, by state and federal program, 2026, https://doi.org/10.5281/zenodo.23969434
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you sign a fee agreement.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/attorney-fee-caps-by-state/
 

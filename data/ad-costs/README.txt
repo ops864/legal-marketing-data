@@ -11,7 +11,7 @@ Probative Growth. (2026). Google search-ad costs for lawyer searches by practice
 Cite as: Probative Growth, Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner), 2026, https://doi.org/10.5281/zenodo.23851278
 
 Not legal advice. These are bid bands and competition levels from Google's keyword data on the date shown, kept for research and marketing planning. They are not a price quote, and the cost of any campaign depends on its own settings.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/ad-costs/
 

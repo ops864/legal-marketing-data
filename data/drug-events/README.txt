@@ -11,7 +11,7 @@ Probative Growth. (2026). Serious drug adverse event reports by active ingredien
 Cite as: Probative Growth, Serious drug adverse event reports by active ingredient (openFDA FAERS), 2026, https://doi.org/10.5281/zenodo.23963449
 
 Not legal advice. This is not medical advice either. A report in the FDA Adverse Event Reporting System is not proof that a drug caused an event; reports come from patients, clinicians and manufacturers, can be duplicated and are not verified. Questions about a medicine are for a health professional, and questions about an injury are for a licensed attorney.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/drug-events/
 

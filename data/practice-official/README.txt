@@ -11,7 +11,7 @@ Probative Growth. (2026). Official public statistics behind the practice and sta
 Cite as: Probative Growth, Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury, 2026, https://doi.org/10.5281/zenodo.24116055
 
 Not legal advice. Public statistics for research and market planning, not legal advice and not a forecast of cases for any firm.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/practice-official/
 

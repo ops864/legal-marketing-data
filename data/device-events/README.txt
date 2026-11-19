@@ -11,7 +11,7 @@ Probative Growth. (2026). Medical device adverse event reports by product code a
 Cite as: Probative Growth, Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA), 2026, https://doi.org/10.5281/zenodo.23963431
 
 Not legal advice. A report to the FDA is an allegation that a device may have caused or contributed to an event, not a finding that it did, and a count of reports is not an incidence rate or proof of a defect. Questions about an injury from a medical device are for a licensed product-liability attorney and the person's doctor.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/device-events/
 

@@ -11,7 +11,7 @@ Probative Growth. (2026). OSHA inspections and penalties by state and industry (
 Cite as: Probative Growth, OSHA inspections and penalties by state and industry (DOL enforcement data), 2026, https://doi.org/10.5281/zenodo.23850661
 
 Not legal advice. These are Department of Labor enforcement counts for planning. They describe agency activity, not how safe any employer is, and name no employer.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/osha-enforcement/
 

@@ -11,7 +11,7 @@ Probative Growth. (2026). VA-accredited attorneys and claims agents per veteran,
 Cite as: Probative Growth, VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation, 2026, https://doi.org/10.5281/zenodo.24116062
 
 Not legal advice. These are counts of people on the VA's public accreditation lists and of Board of Veterans' Appeals decisions, kept for marketing planning. An accreditation is the VA's permission to help with claims, not an endorsement or a measure of quality, and the counts say nothing about any veteran's claim. Deadlines and fees are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/veterans-representation/
 

@@ -11,7 +11,7 @@ Probative Growth. (2026). Truck and bus crashes by county, state and year (FMCSA
 Cite as: Probative Growth, Truck and bus crashes by county, state and year (FMCSA crash file), 2026, https://doi.org/10.5281/zenodo.24116060
 
 Not legal advice. These are counts of crash reports kept for research and marketing planning. A reported crash says nothing about who was at fault, and the counts leave out crashes that did not meet the federal reporting threshold. Rights and deadlines after a crash are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/truck-crashes/
 

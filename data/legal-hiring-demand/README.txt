@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal marketing and intake hiring demand: pay, headcou
 Cite as: Probative Growth, Legal marketing and intake hiring demand: pay, headcount and openings (Bureau of Labor Statistics), 2026, https://doi.org/10.5281/zenodo.24116041
 
 Not legal advice. These are survey estimates from the Bureau of Labor Statistics. OEWS counts employees only and is rounded by the bureau; the monthly series are seasonally adjusted and revised; the state rates cover all nonfarm employers in a state, not only law firms. Pay is a statistic for a group of workers, not an offer or a guide to what one firm should pay.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/legal-hiring-demand/
 

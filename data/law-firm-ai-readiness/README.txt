@@ -11,7 +11,7 @@ Probative Growth. (2026). US law-firm websites and AI crawlers: crawler-file rul
 Cite as: Probative Growth, US law-firm websites and AI crawlers: crawler-file rules, text before JavaScript, snippet limits and Spanish pages, by state and market, 2026, https://doi.org/10.5281/zenodo.24015038
 
 Not legal advice. These are counts of what law-firm websites' crawler files and raw pages said when read. A rule in such a file is what the file says; it does not show what any AI tool does, and nothing here measures whether a firm appears in AI answers. The counts describe no firm's quality.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/law-firm-ai-readiness/
 

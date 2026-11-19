@@ -11,7 +11,7 @@ Probative Growth. (2026). Referral-fee and fee-splitting rules for lawyers, by s
 Cite as: Probative Growth, Referral-fee and fee-splitting rules for lawyers, by state, 2026, https://doi.org/10.5281/zenodo.23964121
 
 Not legal advice. This is a plain-English summary of each state's rules of professional conduct, kept for marketing planning, and rules change. Check the rule text, your state bar's ethics opinions and your own counsel before you agree a fee split or pay for a referral.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/
 

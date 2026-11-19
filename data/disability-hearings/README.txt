@@ -11,7 +11,7 @@ Probative Growth. (2026). Social Security disability hearing waits and workloads
 Cite as: Probative Growth, Social Security disability hearing waits and workloads by hearing office, 2026, https://doi.org/10.5281/zenodo.23898096
 
 Not legal advice. These are the Social Security Administration's published hearing-office statistics, kept for marketing planning. An average wait describes cases already closed, not how long any claimant will wait. Check SSA's current reports.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/disability-hearings/
 

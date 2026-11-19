@@ -11,7 +11,7 @@ Probative Growth. (2026). Unwanted-call and text-message complaints to the FCC, 
 Cite as: Probative Growth, Unwanted-call and text-message complaints to the FCC, by state and month, 2026, https://doi.org/10.5281/zenodo.24116058
 
 Not legal advice. These are counts of complaints people filed with the FCC, kept for marketing planning. A complaint is a report, not a finding that anyone broke a law, and no phone number or complaint text is published. Texting and calling rules (the TCPA and state laws) are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/robocall-complaints/
 

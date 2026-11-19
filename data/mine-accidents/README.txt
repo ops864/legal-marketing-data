@@ -11,7 +11,7 @@ Probative Growth. (2026). Mine accidents, injuries and illnesses by state, count
 Cite as: Probative Growth, Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026, 2026, https://doi.org/10.5281/zenodo.24116045
 
 Not legal advice. These are counts of reports that mine operators file with MSHA, not findings of fault or of a violation. A report is a row of MSHA's file: an injured worker, an illness or an accident without injury. The latest year is partial. Workers' compensation claims and deadlines are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/mine-accidents/
 

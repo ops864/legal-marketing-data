@@ -11,7 +11,7 @@ Probative Growth. (2026). California court filings by county: civil, criminal, f
 Cite as: Probative Growth, California court filings by county: civil, criminal, family, juvenile, probate and appeals, fiscal years 2023–24 and 2024–25, 2026, https://doi.org/10.5281/zenodo.23963026
 
 Not legal advice. These are counts from the Judicial Council of California's published statistics, kept for marketing planning. A filing is a new case opened in the court, not a person or a client. Check the Judicial Council's current report.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/ca-courts/
 

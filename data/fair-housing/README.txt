@@ -11,7 +11,7 @@ Probative Growth. (2026). Fair housing complaints by county and basis: Fair Hous
 Cite as: Probative Growth, Fair housing complaints by county and basis: Fair Housing Act cases filed with HUD, 2006 to June 2020, 2026, https://doi.org/10.5281/zenodo.23963466
 
 Not legal advice. These are counts of complaints filed with HUD; a filed case is an allegation, not a finding that discrimination occurred, and it is not a count of all housing discrimination (most is never reported). State and local fair housing agencies handle many complaints that never reach HUD. Rights and deadlines are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/fair-housing/
 

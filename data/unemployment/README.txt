@@ -11,7 +11,7 @@ Probative Growth. (2026). County and state unemployment: BLS Local Area Unemploy
 Cite as: Probative Growth, County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month, 2026, https://doi.org/10.5281/zenodo.23964225
 
 Not legal advice. These are statistical estimates of the labor market, kept for research and marketing planning. They say nothing about whether any worker has a legal claim; rights and deadlines are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/unemployment/
 

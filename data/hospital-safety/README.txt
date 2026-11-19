@@ -11,7 +11,7 @@ Probative Growth. (2026). Hospital patient-safety ratings by state and county: P
 Cite as: Probative Growth, Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare), 2026, https://doi.org/10.5281/zenodo.23963670
 
 Not legal advice. These are CMS ratings of hospitals against a national benchmark, computed from claims and infection reports. They are not findings about the care any patient received, and a rating of worse than the benchmark does not mean an error occurred. Claims and deadlines for a hospital injury are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/hospital-safety/
 

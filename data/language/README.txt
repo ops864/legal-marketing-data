@@ -11,7 +11,7 @@ Probative Growth. (2026). Spanish-speaking demand vs Spanish-speaking lawyer sup
 Cite as: Probative Growth, Spanish-speaking demand vs Spanish-speaking lawyer supply, by state and metro, 2026, https://doi.org/10.5281/zenodo.23898117
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning. These are survey estimates with margins of error.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/language/
 

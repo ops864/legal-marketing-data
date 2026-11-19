@@ -11,7 +11,7 @@ Probative Growth. (2026). Noncitizen population by state and county (Census ACS,
 Cite as: Probative Growth, Noncitizen population by state and county (Census ACS, table B05001), 2026, https://doi.org/10.5281/zenodo.23963957
 
 Not legal advice. These are Census Bureau survey estimates for planning. The table counts residents who are not U.S. citizens; it does not measure immigration or legal status.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/noncitizen-population/
 

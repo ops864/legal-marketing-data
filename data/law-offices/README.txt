@@ -11,7 +11,7 @@ Probative Growth. (2026). Law offices, jobs and pay by county, with solo-practic
 Cite as: Probative Growth, Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics, 2026, https://doi.org/10.5281/zenodo.23963687
 
 Not legal advice. These are counts of business establishments from government statistics, kept for marketing planning. An office of lawyers includes support staff, and the figures are revised by the agencies; check the agency's current release.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/law-firm-competition-by-county/
 

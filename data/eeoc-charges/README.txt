@@ -11,7 +11,7 @@ Probative Growth. (2026). Employment discrimination charges to the EEOC, by stat
 Cite as: Probative Growth, Employment discrimination charges to the EEOC, by state and basis, FY 2009 to FY 2025, 2026, https://doi.org/10.5281/zenodo.23898101
 
 Not legal advice. These are counts of charges received by the EEOC, kept for marketing planning. A charge is an allegation, not a finding of discrimination, and the counts leave out charges filed only with state and local agencies. Deadlines and rights are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/eeoc-charges/
 

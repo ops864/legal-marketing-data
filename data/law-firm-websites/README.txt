@@ -11,7 +11,7 @@ Probative Growth. (2026). US law-firm websites: Spanish pages, online booking, l
 Cite as: Probative Growth, US law-firm websites: Spanish pages, online booking, live chat, structured data, HTTPS and 24/7 intake, by state and practice area, 2026, https://doi.org/10.5281/zenodo.23963678
 
 Not legal advice. These are counts of what the public home and practice pages of law-firm websites showed when they were read; each count covers those pages, and a website is placed in the state of the first office address it lists.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/law-firm-websites/
 

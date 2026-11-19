@@ -11,7 +11,7 @@ Probative Growth. (2026). Mass-tort docket tracker, federal MDL pending actions 
 Cite as: Probative Growth, Mass-tort docket tracker, federal MDL pending actions by month since 2019, 2026, https://doi.org/10.5281/zenodo.24116044
 
 Not legal advice. These are counts from the court's published statistics, kept for marketing planning. Counts change monthly; check the Judicial Panel on Multidistrict Litigation's current report.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/mass-tort-mdl-tracker/
 

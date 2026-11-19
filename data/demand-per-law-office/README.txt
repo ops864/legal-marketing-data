@@ -11,7 +11,7 @@ Probative Growth. (2026). Demand per law office, by state: residents, bankruptcy
 Cite as: Probative Growth, Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office, 2026, https://doi.org/10.5281/zenodo.23851281
 
 Not legal advice. These are counts from public datasets divided by the number of private law-office establishments; a law office is an establishment, not a lawyer, and a state with a high ratio is not necessarily short of lawyers.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/demand-per-law-office/
 

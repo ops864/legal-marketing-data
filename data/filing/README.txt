@@ -11,7 +11,7 @@ Probative Growth. (2026). What US state bars charge, and require, to file or rev
 Cite as: Probative Growth, What US state bars charge, and require, to file or review lawyer advertising, 2026, https://doi.org/10.5281/zenodo.24184382
 
 Not legal advice. This is a plain-English summary of public sources, kept for marketing planning, and rules change. Check with your state bar and your own counsel before you run an ad.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/lawyer-ad-filing-fees/
 

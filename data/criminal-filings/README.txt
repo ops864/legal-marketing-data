@@ -11,7 +11,7 @@ Probative Growth. (2026). Federal criminal cases by offense and district (U.S. C
 Cite as: Probative Growth, Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3), 2026, https://doi.org/10.5281/zenodo.23963315
 
 Not legal advice. These are counts of defendants in federal criminal cases, kept for research and marketing planning. A defendant counted here is charged, not convicted, and the counts say nothing about any person or case. Questions about a charge are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/criminal-filings/
 
@@ -74,7 +74,7 @@ Columns:
   sourceUrls: Source URLs, in the same order
   confidence: high, medium or low: computed from status, a second check, age against the refresh cadence and sampling error (rule: /data/#confidence)
   confidenceBasis: The reasons for the confidence level, in a short phrase
-  district: Federal district key from the Probative crosswalks (TXS = Southern District of Texas); empty for state and US rows (in criminal-filings-values.csv, as id, column and value rows)
+  district: Federal district key from the Probative Growth crosswalks (TXS = Southern District of Texas); empty for state and US rows (in criminal-filings-values.csv, as id, column and value rows)
   districtName: The district's name (in criminal-filings-values.csv, as id, column and value rows)
   circuit: The court of appeals circuit of the district (in criminal-filings-values.csv, as id, column and value rows)
   stateName: State or territory name (in criminal-filings-values.csv, as id, column and value rows)

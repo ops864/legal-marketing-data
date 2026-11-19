@@ -11,7 +11,7 @@ Probative Growth. (2026). Bankruptcy filings by chapter, court district, state a
 Cite as: Probative Growth, Bankruptcy filings by chapter, court district, state and county, quarterly (U.S. Courts), 2026, https://doi.org/10.5281/zenodo.23962892
 
 Not legal advice. These are counts from the courts' published statistics, kept for marketing planning. A filing is not a discharge or an outcome, and the courts revise the tables as their database updates; check the current table at uscourts.gov.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/bankruptcy-filings-by-county/
 

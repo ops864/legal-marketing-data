@@ -11,7 +11,7 @@ Probative Growth. (2026). New green cards (lawful permanent residents) by county
 Cite as: Probative Growth, New green cards (lawful permanent residents) by county, country of birth and class of admission, 2026, https://doi.org/10.5281/zenodo.23963657
 
 Not legal advice. These are counts of people who became lawful permanent residents in the listed counties, rounded by the agency, not a measure of anyone's eligibility, case or need. Questions about a green card or citizenship are for a licensed immigration attorney or an accredited representative.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/green-cards/
 

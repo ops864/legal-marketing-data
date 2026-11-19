@@ -11,7 +11,7 @@ Probative Growth. (2026). Google search landscape for legal searches: directorie
 Cite as: Probative Growth, Google search landscape for legal searches: directories, videos, People Also Ask and how concentrated the top 10 is, 2026, https://doi.org/10.5281/zenodo.23964129
 
 Not legal advice. These are counts of what Google showed on two days for the searches in the sample; results vary by place, device and day, and the sample is not every search made.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/serp-landscape/
 

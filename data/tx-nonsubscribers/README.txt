@@ -11,7 +11,7 @@ Probative Growth. (2026). Texas employers without workers' compensation coverage
 Cite as: Probative Growth, Texas employers without workers' compensation coverage (non-subscribers), by county, 2026, https://doi.org/10.5281/zenodo.24116061
 
 Not legal advice. These are counts of notices that employers filed with the Texas Division of Workers' Compensation. A non-subscribing employer can be sued for its negligence by an injured worker, but whether any claim exists depends on the facts; claims and deadlines are for your own counsel. The count of employers is a floor: not every non-subscriber files, and a filing covers a year.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/tx-nonsubscribers/
 

@@ -11,7 +11,7 @@ Probative Growth. (2026). State labor agency wage claims: figures printed in sta
 Cite as: Probative Growth, State labor agency wage claims: figures printed in state reports, 2026, https://doi.org/10.5281/zenodo.23753046
 
 Not legal advice. These are counts state agencies publish, kept for research and marketing planning. A claim is not a finding that wages are owed; rights and deadlines are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/state-wage-claims/
 

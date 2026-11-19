@@ -11,7 +11,7 @@ Probative Growth. (2026). Social Security beneficiaries by state (SSA): retireme
 Cite as: Probative Growth, Social Security beneficiaries by state (SSA): retirement, survivors and disability, counts and monthly amounts, December 2025, 2026, https://doi.org/10.5281/zenodo.24022958
 
 Not legal advice. SSA's counts cover people receiving Social Security benefits and the benefits paid, by where they live, not findings about any claim, claimant or decision.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/ssa-beneficiaries/
 

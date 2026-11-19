@@ -11,7 +11,7 @@ Probative Growth. (2026). Federal marketing rules and penalty amounts for law fi
 Cite as: Probative Growth, Federal marketing rules and penalty amounts for law firms: FTC, FCC, CAN-SPAM and TCPA, 2026, https://doi.org/10.5281/zenodo.24183838
 
 Not legal advice. A plain-English summary of federal rules and statutes, kept for marketing planning. Each row quotes the official text it rests on; read that text and ask your own counsel before you rely on a row, and check your state bar's rules, which add their own.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/federal-marketing-rules/
 

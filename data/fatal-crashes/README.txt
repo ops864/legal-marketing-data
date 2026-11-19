@@ -11,7 +11,7 @@ Probative Growth. (2026). Fatal crashes by county and type: trucks, motorcycles,
 Cite as: Probative Growth, Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024, 2026, https://doi.org/10.5281/zenodo.23963480
 
 Not legal advice. These are counts from NHTSA's public crash census, kept for marketing planning. A county's count says nothing about who was at fault, and the newest year can change when NHTSA issues its final file.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/fatal-crashes-by-county/
 

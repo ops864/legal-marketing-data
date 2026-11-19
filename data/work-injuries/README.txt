@@ -11,7 +11,7 @@ Probative Growth. (2026). Workplace injuries and fatal work injuries by state an
 Cite as: Probative Growth, Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI), 2026, https://doi.org/10.5281/zenodo.23898154
 
 Not legal advice. These are survey and census statistics from the Bureau of Labor Statistics, kept for planning. A rate describes a whole industry in a state, not any one employer, and it does not say whether anyone has a workers' compensation claim.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/work-injuries/
 

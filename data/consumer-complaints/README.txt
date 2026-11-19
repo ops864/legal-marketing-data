@@ -11,7 +11,7 @@ Probative Growth. (2026). CFPB complaints about debt collection, credit reportin
 Cite as: Probative Growth, CFPB complaints about debt collection, credit reporting and debt management, by state and month, 2026, https://doi.org/10.5281/zenodo.23963181
 
 Not legal advice. These are counts of complaints consumers filed with the CFPB, kept for marketing planning. A complaint is a report, not a finding that anyone broke a law, and no company name, narrative or ZIP code is published. Debt-collection and credit-reporting rules are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/consumer-finance-complaints-by-state/
 

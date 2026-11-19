@@ -11,7 +11,7 @@ Probative Growth. (2026). Google searches for a lawyer by practice area and stat
 Cite as: Probative Growth, Google searches for a lawyer by practice area and state, English and Spanish (Google Ads Keyword Planner, Trends and Autocomplete), 2026, https://doi.org/10.5281/zenodo.24116059
 
 Not legal advice. These are search counts and indexes from Google's keyword, Trends and Autocomplete data on the dates shown, kept for research and marketing planning. A search is not a client or a case, and the counts say nothing about any firm or lawyer.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/search-demand/
 

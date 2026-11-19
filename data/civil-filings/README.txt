@@ -11,7 +11,7 @@ Probative Growth. (2026). Federal civil filings by nature of suit and district, 
 Cite as: Probative Growth, Federal civil filings by nature of suit and district, 12-month periods since 2018, 2026, https://doi.org/10.5281/zenodo.23963129
 
 Not legal advice. These are counts from the U.S. Courts' published statistics, kept for marketing planning. A filing is a civil case commenced in a federal district court, not a person or a client. Check the Administrative Office's current tables.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/federal-civil-filings-by-type/
 

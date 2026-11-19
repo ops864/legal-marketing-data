@@ -1,6 +1,6 @@
 ---
 name: legal-marketing-data
-description: Look up sourced US legal-marketing data (lawyer advertising rules by state, bar ad filing and fees, attorney fee caps, MDL dockets, ethics opinions, ad-platform policies, and court and complaint statistics) through the Probative MCP server. Use when a question needs a state's lawyer-ad rule or an official figure with its source.
+description: Look up sourced US legal-marketing data (lawyer advertising rules by state, bar ad filing and fees, attorney fee caps, MDL dockets, ethics opinions, ad-platform policies, and court and complaint statistics) through the Probative Growth MCP server. Use when a question needs a state's lawyer-ad rule or an official figure with its source.
 ---
 
 # Legal-marketing data (Probative Growth)

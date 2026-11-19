@@ -11,7 +11,7 @@ Probative Growth. (2026). Flood insurance claims by county and year (FEMA NFIP, 
 Cite as: Probative Growth, Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026, 2026, https://doi.org/10.5281/zenodo.23845801
 
 Not legal advice. These are counts of claims in FEMA's public NFIP claims file, not findings about any claim or insurer; private flood insurance is outside the file. This product uses the Federal Emergency Management Agency’s OpenFEMA API, but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s).
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/flood-claims/
 

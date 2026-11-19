@@ -11,7 +11,7 @@ Probative Growth. (2026). Recreational boating accidents by state and year: inci
 Cite as: Probative Growth, Recreational boating accidents by state and year: incidents, deaths, injuries and damage (U.S. Coast Guard), 2019 to 2024, 2026, https://doi.org/10.5281/zenodo.23962985
 
 Not legal advice. These are counts of incidents reported to the U.S. Coast Guard under state and federal reporting rules, not findings of fault; many incidents are never reported, so the counts are a floor. Claims and deadlines for a boating injury are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/boating-accidents/
 

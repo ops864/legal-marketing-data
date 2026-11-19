@@ -11,7 +11,7 @@ Probative Growth. (2026). Deaths, births, migration and older residents by count
 Cite as: Probative Growth, Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025, 2026, https://doi.org/10.5281/zenodo.23845912
 
 Not legal advice. These are Census Bureau estimates built from birth and death records, tax and Medicare files and survey data, not counts of court cases or estates. A death is not a probate filing: many estates pass without one. Rates and shares are for planning, not for any one person's matter.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/population-change/
 

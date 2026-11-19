@@ -11,7 +11,7 @@ Probative Growth. (2026). Eviction filings by county and year (LSC Civil Court D
 Cite as: Probative Growth, Eviction filings by county and year (LSC Civil Court Data Initiative), 2026, https://doi.org/10.5281/zenodo.23963459
 
 Not legal advice. These are counts of eviction cases filed in court, kept for research and market sizing. A filing is not an eviction carried out, a finding against a tenant or a measure of need, and one household can be filed against more than once. Questions about an eviction are for a licensed attorney or a local legal aid office.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/evictions/
 

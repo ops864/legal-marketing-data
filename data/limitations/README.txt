@@ -11,7 +11,7 @@ Probative Growth. (2026). Statutes of limitations by state: personal injury, med
 Cite as: Probative Growth, Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage, 2026, https://doi.org/10.5281/zenodo.23963806
 
 Not legal advice. These are the periods as each statute states them, read in the official code on the date shown. Tolling, discovery rules, notice-of-claim deadlines for claims against a government, minors' rules and other exceptions can shorten or lengthen the time to file, and statutes change. Check the statute and ask a lawyer licensed in the state before relying on a deadline.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/statute-of-limitations-by-state/
 

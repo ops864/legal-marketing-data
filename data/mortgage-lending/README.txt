@@ -11,7 +11,7 @@ Probative Growth. (2026). Mortgage applications, loans and denials by county: ho
 Cite as: Probative Growth, Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA, 2026, https://doi.org/10.5281/zenodo.23963883
 
 Not legal advice. Public HMDA figures for research and market planning; they describe applications reported by lenders, not any person's credit.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/mortgage-lending/
 

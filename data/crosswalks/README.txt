@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal market crosswalks: practice areas, federal case 
 Cite as: Probative Growth, Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties, 2026, https://doi.org/10.5281/zenodo.24326296
 
 Not legal advice. This is a reference table of public codes and boundaries, kept for research and marketing planning. Which court hears a case depends on more than a county line; check the statute and the court's own rules.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/crosswalks/
 
@@ -21,7 +21,7 @@ Columns:
   table: STATE, DISTRICT, COUNTY, FORMER (a county code no longer current that older sources still use), ALIAS (another code a source uses for a place that has a key here), SPECIAL (a code a source uses that is not a U.S. place), PRACTICE, NOS (federal nature-of-suit code) or DATASET
   code: The record's key in its table: a postal code, a district key (CAC, NYS), a 5-digit county FIPS code, a source's alias or special code (WQ, OTHER), a practice-area id, a 3-digit nature-of-suit code or a dataset id
   name: Name in English
-  status: P read from the primary source; S secondary: a nature-of-suit code no longer on the current U.S. Courts list (kept for older cases), a Virginia independent city placed by 28 U.S.C. 127(c) using the U.S. Courts county lists, or a former county code in a multi-district state placed by the district of its successors; D Probative's own classification (practice areas and dataset links)
+  status: P read from the primary source; S secondary: a nature-of-suit code no longer on the current U.S. Courts list (kept for older cases), a Virginia independent city placed by 28 U.S.C. 127(c) using the U.S. Courts county lists, or a former county code in a multi-district state placed by the district of its successors; D Probative Growth's own classification (practice areas and dataset links)
   text: The record in one plain-English sentence
   unit: Unit of value
   lastChecked: The day it was last confirmed (YYYY-MM-DD)

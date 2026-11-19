@@ -11,7 +11,7 @@ Probative Growth. (2026). State trial-court case filings by county, court level 
 Cite as: Probative Growth, State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii, 2026, https://doi.org/10.5281/zenodo.23964136
 
 Not legal advice. These are counts from each state court system's published statistics, kept for marketing planning. A case filed is a new case on a court's docket (in Texas, a new case or motion), not a person or a client. Check the state's current report.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/state-courts/
 

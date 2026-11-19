@@ -11,7 +11,7 @@ Probative Growth. (2026). Immigration court backlog, representation and asylum o
 Cite as: Probative Growth, Immigration court backlog, representation and asylum outcomes (EOIR workload statistics and case data), 2026, https://doi.org/10.5281/zenodo.24183839
 
 Not legal advice. These are counts from the Executive Office for Immigration Review's published statistics and case data, kept for marketing planning. EOIR says its statistics are subject to change, a count is not a case outcome, and eligibility, deadlines and strategy are a matter for each person's own lawyer.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/immigration-courts/
 

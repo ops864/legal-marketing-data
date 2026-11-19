@@ -11,7 +11,7 @@ Probative Growth. (2026). New York workers' compensation claims by county and ac
 Cite as: Probative Growth, New York workers' compensation claims by county and accident year, 2026, https://doi.org/10.5281/zenodo.23964068
 
 Not legal advice. These are counts of claims the Board assembled, not claims accepted or paid, and a share with an attorney says how often workers were represented, not whether they needed to be. Questions about a workers' compensation claim are for a licensed New York attorney or the Board.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/ny-workers-comp/
 

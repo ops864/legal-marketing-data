@@ -11,7 +11,7 @@ Probative Growth. (2026). US law firm websites: practices, Spanish, intake, by s
 Cite as: Probative Growth, US law firm websites: practices, Spanish, intake, by state, county and practice area, 2026, https://doi.org/10.5281/zenodo.24148921
 
 Not legal advice. These are counts of facts read from law firms' own public websites and from official open registries on the dates shown, kept for research and marketing planning. Each row's coverage says how much of the market it reaches. The counts describe what websites and registries say, not the quality of any firm or lawyer. A firm can ask us to correct its row or to be left out through the data corrections page; we act within 7 days.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/firm-web-census/
 

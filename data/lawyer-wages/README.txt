@@ -11,7 +11,7 @@ Probative Growth. (2026). Lawyer, paralegal and legal-staff pay by state and met
 Cite as: Probative Growth, Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS), 2026, https://doi.org/10.5281/zenodo.23898132
 
 Not legal advice. These are wage and employment statistics from the Bureau of Labor Statistics, kept for marketing planning. They cover employees only, not owners or partners.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/lawyer-wages/
 

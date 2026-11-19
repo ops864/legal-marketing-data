@@ -11,7 +11,7 @@ Probative Growth. (2026). Special education disputes by state (IDEA Part B): com
 Cite as: Probative Growth, Special education disputes by state (IDEA Part B): complaints, mediation and due process, school years 2012-13 to 2023-24, 2026, https://doi.org/10.5281/zenodo.24011352
 
 Not legal advice. These are the Department of Education's counts of dispute-resolution activity reported by state education agencies, not findings about any child, family, school or district.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/idea-disputes/
 

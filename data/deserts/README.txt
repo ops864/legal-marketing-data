@@ -11,7 +11,7 @@ Probative Growth. (2026). Legal deserts: law offices and lawyers per resident in
 Cite as: Probative Growth, Legal deserts: law offices and lawyers per resident in every U.S. county, 2026, https://doi.org/10.5281/zenodo.23963393
 
 Not legal advice. These are counts and rates from government statistics and state bar or court registries, kept for marketing planning. A county with few offices is not a finding about anyone's access to a lawyer; bar addresses are not places of practice.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/research/legal-deserts/
 

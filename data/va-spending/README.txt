@@ -11,7 +11,7 @@ Probative Growth. (2026). VA disability compensation, pension and survivor dolla
 Cite as: Probative Growth, VA disability compensation, pension and survivor dollars by county (VA GDX report), 2026, https://doi.org/10.5281/zenodo.23964263
 
 Not legal advice. These are dollars VA paid, placed by the address of the veteran or survivor receiving them; they are not claims, awards, backlogs or unmet need. Questions about a claim are for an accredited attorney, agent or veterans service officer.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/va-spending/
 

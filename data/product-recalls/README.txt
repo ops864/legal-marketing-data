@@ -11,7 +11,7 @@ Probative Growth. (2026). Consumer product recalls by year and hazard (CPSC reca
 Cite as: Probative Growth, Consumer product recalls by year and hazard (CPSC recall notices), 2026, https://doi.org/10.5281/zenodo.24116056
 
 Not legal advice. These are counts of recall notices published by the Consumer Product Safety Commission, kept for research and market sizing. A recall is not a finding that a product caused any harm to any person, and it says nothing about whether anyone has a claim; deadlines for injury claims differ by state. Questions about an injury are for a licensed attorney.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/product-recalls/
 

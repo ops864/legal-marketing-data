@@ -11,7 +11,7 @@ Probative Growth. (2026). Deadlines to file an employment-discrimination charge:
 Cite as: Probative Growth, Deadlines to file an employment-discrimination charge: the federal EEOC limit and each state agency's own limit, 2026, https://doi.org/10.5281/zenodo.24116038
 
 Not legal advice. These are the time limits as the statutes and the EEOC state them, kept for research and marketing planning. Deadlines have exceptions and change; a worker should ask a lawyer or the agency about a particular case.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/charge-deadlines/
 

@@ -11,7 +11,7 @@ Probative Growth. (2026). FTC Consumer Sentinel reports by state: fraud, identit
 Cite as: Probative Growth, FTC Consumer Sentinel reports by state: fraud, identity theft and imposter scams, 2024 Data Book, 2026, https://doi.org/10.5281/zenodo.23963186
 
 Not legal advice. These are counts of reports made to the FTC, kept for marketing planning. A report is a consumer's account, not a finding that fraud happened, and the state tables leave out reports from state-specific data contributors. Deadlines and rights are for your own counsel.
-Probative is a marketing firm, not a law firm; not legal advice.
+Probative Growth is a marketing firm, not a law firm; not legal advice.
 
 Human page: https://probativegrowth.com/data/consumer-sentinel/
 
