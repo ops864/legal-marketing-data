@@ -23,7 +23,7 @@ def rows(name):
 
 | File | What it holds | Rows | Last checked at source | Example |
 |---|---|---|---|---|
-| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 434 | 2026-11-18 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
+| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 434 | 2026-11-19 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
 | [`data/limitations/limitations.csv`](data/limitations/limitations.csv) | The deadline to sue, by state and claim type, with the statute section | 225 | 2026-10-28 | `[(r['period'], r['statuteCite']) for r in rows('limitations') if r['jurisdiction']=='AK' and r['claimType']=='pi']` |
 | [`data/deserts/deserts.csv`](data/deserts/deserts.csv) | Law offices per 10,000 residents in every county; each state row counts its counties under 1 per 10,000 | 3,196 | 2026-10-28 | `sorted(((int(r['value']), r['areaName']) for r in rows('deserts') if r['areaType']=='state'), reverse=True)[:5]` |
 | [`data/fatal-crashes/fatal-crashes.csv`](data/fatal-crashes/fatal-crashes.csv) | Fatal crashes and deaths by county, with truck, motorcycle and pedestrian counts | 3,197 | 2026-10-27 | `sorted(((int(r['fatalities']), r['areaName']) for r in rows('fatal-crashes') if r['areaType']=='county' and r['fatalities']), reverse=True)[:5]` |
@@ -42,7 +42,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 
 | Dataset (page) | Folder | Rows | Refresh | Last checked at source | Version | DOI |
 |---|---|---|---|---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 434 | when the source publishes | 2026-11-18 | 1.6.0 | [10.5281/zenodo.24114743](https://doi.org/10.5281/zenodo.24114743) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 434 | when the source publishes | 2026-11-19 | 1.6.0 | [10.5281/zenodo.24114743](https://doi.org/10.5281/zenodo.24114743) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | [`data/ad-costs/`](data/ad-costs/) | 2,725 | yearly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | [`data/attorneys/`](data/attorneys/) | 312 | quarterly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23962861](https://doi.org/10.5281/zenodo.23962861) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | [`data/aviation-accidents/`](data/aviation-accidents/) | 985 | monthly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116037](https://doi.org/10.5281/zenodo.24116037) |
