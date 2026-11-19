@@ -6,7 +6,7 @@ Open, citable datasets on US law-firm marketing, maintained by [Probative Growth
 
 Each dataset names its sources, and each public-source record carries its source and the date checked. Each dataset has a DOI on Zenodo. Not legal advice: check the source and your own counsel before you rely on a rule.
 
-- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,509 rows in all.
+- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,523 rows in all.
 - **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-19. The newest dataset version here was released on 2026-11-19.
 - **How to use it.** Free under CC BY 4.0. Credit "Probative Growth" and link the dataset page.
 
@@ -109,7 +109,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | [`data/nursing-homes/`](data/nursing-homes/) | 2,900 | monthly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116048](https://doi.org/10.5281/zenodo.24116048) |
 | [Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)](https://probativegrowth.com/data/ny-attorneys/) | [`data/ny-attorneys/`](data/ny-attorneys/) | 130 | quarterly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116050](https://doi.org/10.5281/zenodo.24116050) |
 | [New York workers' compensation claims by county and accident year](https://probativegrowth.com/data/ny-workers-comp/) | [`data/ny-workers-comp/`](data/ny-workers-comp/) | 1,728 | quarterly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23964068](https://doi.org/10.5281/zenodo.23964068) |
-| [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | [`data/opinions/`](data/opinions/) | 281 | when the source publishes | 2026-11-16 | 2.2.0 | [10.5281/zenodo.24367616](https://doi.org/10.5281/zenodo.24367616) |
+| [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | [`data/opinions/`](data/opinions/) | 295 | when the source publishes | 2026-11-16 | 2.3.0 | [10.5281/zenodo.24369808](https://doi.org/10.5281/zenodo.24369808) |
 | [OSHA inspections and penalties by state and industry (DOL enforcement data)](https://probativegrowth.com/data/osha-enforcement/) | [`data/osha-enforcement/`](data/osha-enforcement/) | 1,174 | yearly | 2026-10-28 | 1.0.0 | [10.5281/zenodo.23850661](https://doi.org/10.5281/zenodo.23850661) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | [`data/platforms/`](data/platforms/) | 58 | when the source publishes | 2026-10-25 | 2.0.0 | [10.5281/zenodo.23898135](https://doi.org/10.5281/zenodo.23898135) |
 | [Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025](https://probativegrowth.com/data/population-change/) | [`data/population-change/`](data/population-change/) | 3,196 | yearly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23845912](https://doi.org/10.5281/zenodo.23845912) |

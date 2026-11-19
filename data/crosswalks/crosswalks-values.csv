@@ -903,7 +903,7 @@ cw-dataset-ny-workers-comp,practices,personal-injury; workers-compensation
 cw-dataset-ny-workers-comp,dimensions,demand; supply
 cw-dataset-ny-workers-comp,doi,10.5281/zenodo.23964068
 cw-dataset-opinions,dimensions,rules
-cw-dataset-opinions,doi,10.5281/zenodo.24367616
+cw-dataset-opinions,doi,10.5281/zenodo.24369808
 cw-dataset-osha-enforcement,practices,employment-law; personal-injury; workers-compensation; wrongful-death
 cw-dataset-osha-enforcement,dimensions,demand
 cw-dataset-osha-enforcement,doi,10.5281/zenodo.23850661

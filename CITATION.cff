@@ -901,8 +901,8 @@ references:
     title: "Legal-marketing ethics opinions, 2004–2026"
     authors:
       - name: "Probative Growth"
-    version: "2.2.0"
-    doi: "10.5281/zenodo.24367616"
+    version: "2.3.0"
+    doi: "10.5281/zenodo.24369808"
     identifiers:
       - type: doi
         value: "10.5281/zenodo.23656748"
