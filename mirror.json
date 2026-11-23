@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-19",
+  "generated": "2026-11-23",
   "datasets": [
     {
       "id": "rules",
@@ -393,10 +393,10 @@
     },
     {
       "id": "flood-claims",
-      "version": "1.0.0",
-      "doi": "10.5281/zenodo.23845801",
-      "released": "2026-10-31",
-      "cardSha": "d8667b4bc63e8591",
+      "version": "1.0.1",
+      "doi": "10.5281/zenodo.24365496",
+      "released": "2026-11-20",
+      "cardSha": "65b402e97b5f9791",
       "rows": 2988
     },
     {
@@ -695,11 +695,11 @@
     },
     {
       "id": "opinions",
-      "version": "2.3.0",
-      "doi": "10.5281/zenodo.24369808",
-      "released": "2026-11-19",
-      "cardSha": "6786aae8e909077d",
-      "rows": 295,
+      "version": "2.4.0",
+      "doi": "10.5281/zenodo.24383274",
+      "released": "2026-11-20",
+      "cardSha": "33f8a059d1f77163",
+      "rows": 296,
       "files": [
         "opinions-values.csv",
         "ai-guidance.csv"
@@ -884,10 +884,10 @@
     },
     {
       "id": "unemployment",
-      "version": "2.0.0",
-      "doi": "10.5281/zenodo.23964225",
-      "released": "2026-11-04",
-      "cardSha": "7aee26300198c478",
+      "version": "2.0.1",
+      "doi": "10.5281/zenodo.24365498",
+      "released": "2026-11-20",
+      "cardSha": "71ae23f18abae8c6",
       "rows": 3273,
       "files": [
         "unemployment-values.csv"

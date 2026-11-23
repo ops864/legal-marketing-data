@@ -820,7 +820,7 @@ cw-dataset-firm-web-census,dimensions,supply
 cw-dataset-firm-web-census,doi,10.5281/zenodo.24148921
 cw-dataset-flood-claims,practices,insurance-claims; real-estate
 cw-dataset-flood-claims,dimensions,demand
-cw-dataset-flood-claims,doi,10.5281/zenodo.23845801
+cw-dataset-flood-claims,doi,10.5281/zenodo.24365496
 cw-dataset-green-cards,practices,employment-immigration; family-immigration; immigration; naturalization
 cw-dataset-green-cards,dimensions,demand
 cw-dataset-green-cards,doi,10.5281/zenodo.23963657
@@ -903,7 +903,7 @@ cw-dataset-ny-workers-comp,practices,personal-injury; workers-compensation
 cw-dataset-ny-workers-comp,dimensions,demand; supply
 cw-dataset-ny-workers-comp,doi,10.5281/zenodo.23964068
 cw-dataset-opinions,dimensions,rules
-cw-dataset-opinions,doi,10.5281/zenodo.24369808
+cw-dataset-opinions,doi,10.5281/zenodo.24383274
 cw-dataset-osha-enforcement,practices,employment-law; personal-injury; workers-compensation; wrongful-death
 cw-dataset-osha-enforcement,dimensions,demand
 cw-dataset-osha-enforcement,doi,10.5281/zenodo.23850661
@@ -959,7 +959,7 @@ cw-dataset-tx-nonsubscribers,dimensions,demand
 cw-dataset-tx-nonsubscribers,doi,10.5281/zenodo.24116061
 cw-dataset-unemployment,practices,employment-law; wage-and-hour; wrongful-termination
 cw-dataset-unemployment,dimensions,demand
-cw-dataset-unemployment,doi,10.5281/zenodo.23964225
+cw-dataset-unemployment,doi,10.5281/zenodo.24365498
 cw-dataset-union-membership,practices,employment-law; labor-relations
 cw-dataset-union-membership,dimensions,demand
 cw-dataset-union-membership,doi,10.5281/zenodo.23845987

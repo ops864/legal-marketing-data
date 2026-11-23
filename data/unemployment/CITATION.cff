@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month, 2026, https://doi.org/10.5281/zenodo.23964225."
+message: "If you use this dataset, please cite it as: Probative Growth, County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month, 2026, https://doi.org/10.5281/zenodo.24365498."
 title: "County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "2.0.0"
-doi: "10.5281/zenodo.23964225"
+version: "2.0.1"
+doi: "10.5281/zenodo.24365498"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23753058"

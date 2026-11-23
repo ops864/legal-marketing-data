@@ -4,8 +4,8 @@
   "id": "https://github.com/ops864/legal-marketing-data",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Each dataset names its sources, and each public-source record carries its source and the date checked. Not legal advice.",
-  "version": "2026-11-19",
-  "created": "2026-11-19T00:00:00Z",
+  "version": "2026-11-20",
+  "created": "2026-11-20T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -6617,8 +6617,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23845801",
+      "version": "1.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24365496",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12358,8 +12358,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.3.0",
-      "id": "https://doi.org/10.5281/zenodo.24369808",
+      "version": "2.4.0",
+      "id": "https://doi.org/10.5281/zenodo.24383274",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12477,7 +12477,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -12510,7 +12510,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15782,8 +15782,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
-      "id": "https://doi.org/10.5281/zenodo.23964225",
+      "version": "2.0.1",
+      "id": "https://doi.org/10.5281/zenodo.24365498",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -15951,7 +15951,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "licenses": [
         {
           "name": "CC-BY-4.0",

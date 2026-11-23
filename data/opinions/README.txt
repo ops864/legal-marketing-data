@@ -1,14 +1,14 @@
 Legal-marketing ethics opinions, 2004–2026
 
-Version 2.3.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24369808
+Version 2.4.0. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). DOI https://doi.org/10.5281/zenodo.24383274
 
 Credit line (CC BY 4.0 asks for credit and a link):
-Source: Probative Growth, Legal-marketing ethics opinions, 2004–2026, version 2.3.0, https://doi.org/10.5281/zenodo.24369808, licensed CC BY 4.0.
+Source: Probative Growth, Legal-marketing ethics opinions, 2004–2026, version 2.4.0, https://doi.org/10.5281/zenodo.24383274, licensed CC BY 4.0.
 
 Suggested citation:
-Probative Growth. (2026). Legal-marketing ethics opinions, 2004–2026 (Version 2.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24369808
+Probative Growth. (2026). Legal-marketing ethics opinions, 2004–2026 (Version 2.4.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24383274
 
-Cite as: Probative Growth, Legal-marketing ethics opinions, 2004–2026, 2026, https://doi.org/10.5281/zenodo.24369808
+Cite as: Probative Growth, Legal-marketing ethics opinions, 2004–2026, 2026, https://doi.org/10.5281/zenodo.24383274
 
 Not legal advice. This is a plain-English summary of public ethics opinions, kept for marketing planning, and opinions and rules change. Check with your state bar and your own counsel before you run an ad.
 Probative Growth is a marketing firm, not a law firm; not legal advice.

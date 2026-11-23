@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026, 2026, https://doi.org/10.5281/zenodo.23845801."
+message: "If you use this dataset, please cite it as: Probative Growth, Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026, 2026, https://doi.org/10.5281/zenodo.24365496."
 title: "Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.0.0"
-doi: "10.5281/zenodo.23845801"
+version: "1.0.1"
+doi: "10.5281/zenodo.24365496"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23845800"
