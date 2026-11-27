@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as: Probative Growth, Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state, 2026, https://doi.org/10.5281/zenodo.23969440."
+message: "If you use this dataset, please cite it as: Probative Growth, Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state, 2026, https://doi.org/10.5281/zenodo.24541254."
 title: "Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state"
 type: dataset
 authors:
   - name: "Probative Growth"
-version: "1.1.1"
-doi: "10.5281/zenodo.23969440"
+version: "1.1.2"
+doi: "10.5281/zenodo.24541254"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23792849"

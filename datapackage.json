@@ -4,8 +4,8 @@
   "id": "https://github.com/ops864/legal-marketing-data",
   "title": "Legal marketing open data (US)",
   "description": "Open, citable datasets on US law-firm marketing, published by Probative Growth. Each dataset names its sources, and each public-source record carries its source and the date checked. Not legal advice.",
-  "version": "2026-11-20",
-  "created": "2026-11-20T00:00:00Z",
+  "version": "2026-11-27",
+  "created": "2026-11-27T00:00:00Z",
   "homepage": "https://probativegrowth.com/data/",
   "keywords": [
     "legal marketing",
@@ -169,19 +169,23 @@
         "fields": [
           {
             "name": "state",
-            "type": "string"
+            "type": "string",
+            "description": "Two-letter code (DC for the District of Columbia) (joins this file to rules.csv)"
           },
           {
             "name": "topic",
-            "type": "string"
+            "type": "string",
+            "description": "Rule topic key: filing, requiredContent, waitingPeriod, claims, referral, language, recording, texting, privacy (joins this file to rules.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that rules.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -457,15 +461,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to attorneys.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that attorneys.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -680,15 +687,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to aviation-accidents.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that aviation-accidents.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -863,15 +873,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to bankruptcy.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that bankruptcy.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -1002,15 +1015,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to bar-pipeline.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that bar-pipeline.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -1287,15 +1303,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to boating-accidents.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that boating-accidents.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -1438,15 +1457,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id: dataset, place and period (joins this file to business-applications.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that business-applications.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -1607,15 +1629,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to ca-courts.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that ca-courts.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -1666,7 +1691,8 @@
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "year",
@@ -1791,11 +1817,13 @@
           },
           {
             "name": "level",
-            "type": "string"
+            "type": "string",
+            "description": "national (the federal rule) or state"
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "agency",
@@ -2252,15 +2280,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to civil-filings.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that civil-filings.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -2400,15 +2431,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to consumer-complaints.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that consumer-complaints.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -2558,15 +2592,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to consumer-sentinel.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that consumer-sentinel.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -2774,15 +2811,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id: dataset, place and period (joins this file to county-income.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that county-income.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -2824,11 +2864,13 @@
           },
           {
             "name": "level",
-            "type": "string"
+            "type": "string",
+            "description": "state (one record per state and DC)"
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "agency",
@@ -2882,7 +2924,8 @@
           },
           {
             "name": "verified",
-            "type": "string"
+            "type": "string",
+            "description": "The day the figure was checked at its source (YYYY-MM-DD)"
           },
           {
             "name": "lastChecked",
@@ -3110,15 +3153,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to crime-data.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that crime-data.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -3468,15 +3514,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to criminal-filings.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that criminal-filings.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -3605,15 +3654,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to crosswalks.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that crosswalks.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -3885,15 +3937,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to deserts.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that deserts.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -4086,15 +4141,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id: dataset, place and period (joins this file to device-events.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that device-events.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -4495,15 +4553,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to drug-events.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that drug-events.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -4653,15 +4714,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to eeoc-charges.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that eeoc-charges.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "number"
+            "type": "number",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -4781,15 +4845,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to eviction-laws.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that eviction-laws.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -4939,15 +5006,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to evictions.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that evictions.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -4998,11 +5068,13 @@
           },
           {
             "name": "yearsFrom",
-            "type": "integer"
+            "type": "integer",
+            "description": "First calendar year of filings counted"
           },
           {
             "name": "yearsTo",
-            "type": "integer"
+            "type": "integer",
+            "description": "Last calendar year of filings counted (2020 runs to June 30)"
           },
           {
             "name": "dataThrough",
@@ -5135,15 +5207,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to fair-housing.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that fair-housing.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -5372,15 +5447,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to fatal-crashes.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that fatal-crashes.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -5634,15 +5712,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to federal-filings-county.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that federal-filings-county.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -5707,7 +5788,8 @@
           },
           {
             "name": "agency",
-            "type": "string"
+            "type": "string",
+            "description": "The federal agency that issued the rule, or the U.S. Code publisher for a statute"
           },
           {
             "name": "topic",
@@ -5805,15 +5887,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to federal-marketing-rules.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that federal-marketing-rules.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -6138,15 +6223,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to fees.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that fees.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -6280,15 +6368,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to filing.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that filing.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -6595,15 +6686,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to firm-web-census.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that firm-web-census.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -6980,15 +7074,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id: dataset, place and period (joins this file to green-cards.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that green-cards.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -7039,7 +7136,8 @@
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "status",
@@ -7127,15 +7225,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to hospital-safety.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that hospital-safety.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -7189,7 +7290,8 @@
           },
           {
             "name": "districtName",
-            "type": "string"
+            "type": "string",
+            "description": "The district court's name in words (or all district courts together for US)"
           },
           {
             "name": "group",
@@ -7198,7 +7300,8 @@
           },
           {
             "name": "groupLabel",
-            "type": "string"
+            "type": "string",
+            "description": "The nature-of-suit group in words"
           },
           {
             "name": "kind",
@@ -7316,15 +7419,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to idb-civil.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that idb-civil.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -7349,23 +7455,28 @@
         "fields": [
           {
             "name": "scope",
-            "type": "string"
+            "type": "string",
+            "description": "The federal district court key (NYS, CAC, ...), or US for all district courts together (joins this file to district-group-year.csv)"
           },
           {
             "name": "group",
-            "type": "string"
+            "type": "string",
+            "description": "Our nature-of-suit group (personal-injury, employment, ...; these leave out cases with an MDL docket number), mdl (cases with an MDL docket number), nonmdl (all cases outside an MDL), other, or all (joins this file to district-group-year.csv)"
           },
           {
             "name": "period",
-            "type": "string"
+            "type": "string",
+            "description": "A federal fiscal year (October to September), or a pooled window of fiscal years (YYYY-YYYY) (joins this file to district-group-year.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of one of the other fields of the district-group-year table, one row per record and field (index.json lists them)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -7390,83 +7501,103 @@
         "fields": [
           {
             "name": "scope",
-            "type": "string"
+            "type": "string",
+            "description": "The federal district court key (NYS, CAC, ...), or US for all district courts together"
           },
           {
             "name": "group",
-            "type": "string"
+            "type": "string",
+            "description": "Our nature-of-suit group (personal-injury, employment, ...; these leave out cases with an MDL docket number), mdl (cases with an MDL docket number), nonmdl (all cases outside an MDL), other, or all"
           },
           {
             "name": "period",
-            "type": "string"
+            "type": "string",
+            "description": "A federal fiscal year (October to September), or a pooled window of fiscal years (YYYY-YYYY)"
           },
           {
             "name": "filed",
-            "type": "integer"
+            "type": "integer",
+            "description": "Cases filed in the period"
           },
           {
             "name": "classActions",
-            "type": "integer"
+            "type": "integer",
+            "description": "Filed cases flagged as alleging a class action (Rule 23)"
           },
           {
             "name": "proseKnown",
-            "type": "integer"
+            "type": "integer",
+            "description": "Filed cases whose pro se field is filled (the base of the pro se share)"
           },
           {
             "name": "proSePlaintiffs",
-            "type": "integer"
+            "type": "integer",
+            "description": "Filed cases with a pro se plaintiff"
           },
           {
             "name": "terminated",
-            "type": "integer"
+            "type": "integer",
+            "description": "Cases terminated in the period"
           },
           {
             "name": "resolved",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases minus transfers out, remands, MDL transfers and statistical closings"
           },
           {
             "name": "trials",
-            "type": "integer"
+            "type": "integer",
+            "description": "Resolved cases that ended in a jury verdict, directed verdict or court trial"
           },
           {
             "name": "trialsWithDate",
-            "type": "integer"
+            "type": "integer",
+            "description": "Trials with a usable start date"
           },
           {
             "name": "outSettled",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases recorded as settled (FJC disposition code 13)"
           },
           {
             "name": "outVoluntary",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases recorded as voluntarily dismissed (code 12)"
           },
           {
             "name": "outDismissed",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases dismissed for want of prosecution, lack of jurisdiction or other reasons (codes 2, 3, 14)"
           },
           {
             "name": "outDefaultConsent",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by a default or consent judgment (codes 4, 5)"
           },
           {
             "name": "outMotion",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by a judgment on a motion before trial (code 6)"
           },
           {
             "name": "outTrial",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by a jury verdict, directed verdict or court trial (codes 7, 8, 9)"
           },
           {
             "name": "outOtherJudgment",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by another judgment (codes 15, 16, 17, 19, 20)"
           },
           {
             "name": "outMovedOut",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases transferred or remanded out (codes 0, 1, 10, 11)"
           },
           {
             "name": "outStatClosed",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases closed for statistical purposes (code 18)"
           }
         ]
       }
@@ -7491,23 +7622,28 @@
         "fields": [
           {
             "name": "scope",
-            "type": "string"
+            "type": "string",
+            "description": "US: all federal district courts together; cases with an MDL docket number are left out of the nature-of-suit rows (joins this file to nos-year.csv)"
           },
           {
             "name": "nos",
-            "type": "integer"
+            "type": "integer",
+            "description": "The nature-of-suit code on the civil cover sheet (joins this file to nos-year.csv)"
           },
           {
             "name": "period",
-            "type": "string"
+            "type": "string",
+            "description": "A federal fiscal year (October to September), or a pooled window of fiscal years (YYYY-YYYY) (joins this file to nos-year.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of one of the other fields of the nos-year table, one row per record and field (index.json lists them)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -7532,83 +7668,103 @@
         "fields": [
           {
             "name": "scope",
-            "type": "string"
+            "type": "string",
+            "description": "US: all federal district courts together; cases with an MDL docket number are left out of the nature-of-suit rows"
           },
           {
             "name": "nos",
-            "type": "integer"
+            "type": "integer",
+            "description": "The nature-of-suit code on the civil cover sheet"
           },
           {
             "name": "period",
-            "type": "string"
+            "type": "string",
+            "description": "A federal fiscal year (October to September), or a pooled window of fiscal years (YYYY-YYYY)"
           },
           {
             "name": "filed",
-            "type": "integer"
+            "type": "integer",
+            "description": "Cases filed in the period"
           },
           {
             "name": "classActions",
-            "type": "integer"
+            "type": "integer",
+            "description": "Filed cases flagged as alleging a class action (Rule 23)"
           },
           {
             "name": "proseKnown",
-            "type": "integer"
+            "type": "integer",
+            "description": "Filed cases whose pro se field is filled (the base of the pro se share)"
           },
           {
             "name": "proSePlaintiffs",
-            "type": "integer"
+            "type": "integer",
+            "description": "Filed cases with a pro se plaintiff"
           },
           {
             "name": "terminated",
-            "type": "integer"
+            "type": "integer",
+            "description": "Cases terminated in the period"
           },
           {
             "name": "resolved",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases minus transfers out, remands, MDL transfers and statistical closings"
           },
           {
             "name": "trials",
-            "type": "integer"
+            "type": "integer",
+            "description": "Resolved cases that ended in a jury verdict, directed verdict or court trial"
           },
           {
             "name": "trialsWithDate",
-            "type": "integer"
+            "type": "integer",
+            "description": "Trials with a usable start date"
           },
           {
             "name": "outSettled",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases recorded as settled (FJC disposition code 13)"
           },
           {
             "name": "outVoluntary",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases recorded as voluntarily dismissed (code 12)"
           },
           {
             "name": "outDismissed",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases dismissed for want of prosecution, lack of jurisdiction or other reasons (codes 2, 3, 14)"
           },
           {
             "name": "outDefaultConsent",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by a default or consent judgment (codes 4, 5)"
           },
           {
             "name": "outMotion",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by a judgment on a motion before trial (code 6)"
           },
           {
             "name": "outTrial",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by a jury verdict, directed verdict or court trial (codes 7, 8, 9)"
           },
           {
             "name": "outOtherJudgment",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases ended by another judgment (codes 15, 16, 17, 19, 20)"
           },
           {
             "name": "outMovedOut",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases transferred or remanded out (codes 0, 1, 10, 11)"
           },
           {
             "name": "outStatClosed",
-            "type": "integer"
+            "type": "integer",
+            "description": "Terminated cases closed for statistical purposes (code 18)"
           }
         ]
       }
@@ -7928,15 +8084,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to immigration-courts.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that immigration-courts.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "number"
+            "type": "number",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -8368,15 +8527,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to irs-databook.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that irs-databook.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -8522,15 +8684,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to language.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that language.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "boolean"
+            "type": "boolean",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -8841,15 +9006,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to law-firm-ai-readiness.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that law-firm-ai-readiness.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -9008,15 +9176,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to law-firm-economy.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that law-firm-economy.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "number"
+            "type": "number",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -9290,15 +9461,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to law-offices.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that law-offices.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -9359,7 +9533,8 @@
           },
           {
             "name": "occupation",
-            "type": "string"
+            "type": "string",
+            "description": "The occupation's title for the SOC code"
           },
           {
             "name": "year",
@@ -9467,15 +9642,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to lawyer-wages.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that lawyer-wages.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "number"
+            "type": "number",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -9567,7 +9745,8 @@
           },
           {
             "name": "population",
-            "type": "integer"
+            "type": "integer",
+            "description": "Residents of the record's area: the US, the state or the county (2025 population, the base of per_100k)"
           },
           {
             "name": "asOf",
@@ -9620,15 +9799,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to legal-aid-orgs.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that legal-aid-orgs.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -9786,15 +9968,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to legal-hiring-demand.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that legal-hiring-demand.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -10278,15 +10463,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to legal-need.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that legal-need.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -10434,15 +10622,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to legal-prices.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that legal-prices.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -10725,15 +10916,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to limitations.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that limitations.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -11022,15 +11216,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to mdl.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that mdl.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -11200,15 +11397,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to mine-accidents.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that mine-accidents.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -11455,7 +11655,8 @@
           },
           {
             "name": "year",
-            "type": "integer"
+            "type": "integer",
+            "description": "The year of the lenders' reports (HMDA)"
           },
           {
             "name": "applications",
@@ -11484,39 +11685,48 @@
           },
           {
             "name": "applications_purchase",
-            "type": "integer"
+            "type": "integer",
+            "description": "Applications for a home-purchase loan (originated, approved not accepted or denied)"
           },
           {
             "name": "originations_purchase",
-            "type": "integer"
+            "type": "integer",
+            "description": "Home-purchase loans originated"
           },
           {
             "name": "denials_purchase",
-            "type": "integer"
+            "type": "integer",
+            "description": "Home-purchase applications denied"
           },
           {
             "name": "applications_refinance",
-            "type": "integer"
+            "type": "integer",
+            "description": "Applications for a refinance (originated, approved not accepted or denied)"
           },
           {
             "name": "originations_refinance",
-            "type": "integer"
+            "type": "integer",
+            "description": "Refinance loans originated"
           },
           {
             "name": "denials_refinance",
-            "type": "integer"
+            "type": "integer",
+            "description": "Refinance applications denied"
           },
           {
             "name": "applications_cash_out_refinance",
-            "type": "integer"
+            "type": "integer",
+            "description": "Applications for a cash-out refinance (originated, approved not accepted or denied)"
           },
           {
             "name": "originations_cash_out_refinance",
-            "type": "integer"
+            "type": "integer",
+            "description": "Cash-out refinance loans originated"
           },
           {
             "name": "denials_cash_out_refinance",
-            "type": "integer"
+            "type": "integer",
+            "description": "Cash-out refinance applications denied"
           },
           {
             "name": "text",
@@ -11564,15 +11774,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to mortgage-lending.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that mortgage-lending.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -11751,15 +11964,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to noncitizen-population.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that noncitizen-population.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -11992,15 +12208,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to nursing-homes.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that nursing-homes.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -12180,15 +12399,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to ny-attorneys.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that ny-attorneys.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -12336,15 +12558,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id: dataset, place and period (joins this file to ny-workers-comp.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that ny-workers-comp.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -12488,15 +12713,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to opinions.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that opinions.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -12521,39 +12749,48 @@
         "fields": [
           {
             "name": "jurisdiction",
-            "type": "string"
+            "type": "string",
+            "description": "Two-letter state code (or DC)"
           },
           {
             "name": "jurisdiction_name",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words"
           },
           {
             "name": "question",
-            "type": "string"
+            "type": "string",
+            "description": "The marketing question: chatbot_disclosure, ai_made_ads, ai_intake, capability_claims, confidentiality, fees, or all (a jurisdiction with no statewide AI guidance read)"
           },
           {
             "name": "status",
-            "type": "string"
+            "type": "string",
+            "description": "quote (the guidance answers it, quoted), not-addressed (the documents listed do not), or none-in-index-read"
           },
           {
             "name": "answer",
-            "type": "string"
+            "type": "string",
+            "description": "The verbatim quote, or the not-addressed statement"
           },
           {
             "name": "location",
-            "type": "string"
+            "type": "string",
+            "description": "Where in the document the quote is (section and pages), or whole documents"
           },
           {
             "name": "document",
-            "type": "string"
+            "type": "string",
+            "description": "The guidance document read: issuer and title"
           },
           {
             "name": "document_url",
-            "type": "string"
+            "type": "string",
+            "description": "The official link to the document"
           },
           {
             "name": "as_of",
-            "type": "string"
+            "type": "string",
+            "description": "The day the documents were read (YYYY-MM-DD)"
           }
         ]
       }
@@ -12623,7 +12860,8 @@
           },
           {
             "name": "sectorName",
-            "type": "string"
+            "type": "string",
+            "description": "The NAICS sector in words (All industries on whole-state rows)"
           },
           {
             "name": "year",
@@ -12657,7 +12895,8 @@
           },
           {
             "name": "inspectionsWithCitations10y",
-            "type": "integer"
+            "type": "integer",
+            "description": "Inspections that ended with at least one citation, summed over the ten-year window"
           },
           {
             "name": "violations",
@@ -12666,7 +12905,8 @@
           },
           {
             "name": "violations10y",
-            "type": "integer"
+            "type": "integer",
+            "description": "Citation items issued, summed over the ten-year window"
           },
           {
             "name": "serious",
@@ -12675,7 +12915,8 @@
           },
           {
             "name": "serious10y",
-            "type": "integer"
+            "type": "integer",
+            "description": "Of those violations, classified serious, over the ten-year window"
           },
           {
             "name": "willful",
@@ -12684,7 +12925,8 @@
           },
           {
             "name": "willful10y",
-            "type": "integer"
+            "type": "integer",
+            "description": "Of those violations, classified willful, over the ten-year window"
           },
           {
             "name": "repeat",
@@ -12693,7 +12935,8 @@
           },
           {
             "name": "repeat10y",
-            "type": "integer"
+            "type": "integer",
+            "description": "Of those violations, classified repeat, over the ten-year window"
           },
           {
             "name": "currentPenalties",
@@ -12702,7 +12945,8 @@
           },
           {
             "name": "currentPenalties10y",
-            "type": "number"
+            "type": "number",
+            "description": "Current penalties in US dollars, summed over the ten-year window"
           },
           {
             "name": "text",
@@ -12879,15 +13123,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to platforms.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that platforms.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -13199,7 +13446,8 @@
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "practice",
@@ -13422,15 +13670,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to product-recalls.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that product-recalls.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -13697,15 +13948,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to rail-casualties.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that rail-casualties.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -13765,19 +14019,23 @@
           },
           {
             "name": "feeRule",
-            "type": "string"
+            "type": "string",
+            "description": "The rule that governs dividing a fee between lawyers of different firms (citation)"
           },
           {
             "name": "feeStatus",
-            "type": "string"
+            "type": "string",
+            "description": "P primary source, S secondary source, for the fee-division rule"
           },
           {
             "name": "basis",
-            "type": "string"
+            "type": "string",
+            "description": "How the fee may be divided: proportion-or-joint, proportion-and-joint, no-proportion-test or other"
           },
           {
             "name": "consent",
-            "type": "string"
+            "type": "string",
+            "description": "The client consent the fee division needs: confirmed-in-writing, written-agreement, consent-no-writing or other"
           },
           {
             "name": "text",
@@ -13786,19 +14044,23 @@
           },
           {
             "name": "consentText",
-            "type": "string"
+            "type": "string",
+            "description": "The consent requirement in plain English"
           },
           {
             "name": "payRule",
-            "type": "string"
+            "type": "string",
+            "description": "The rule on giving anything of value for a recommendation (citation)"
           },
           {
             "name": "payStatus",
-            "type": "string"
+            "type": "string",
+            "description": "P primary source, S secondary source, for the recommendation-payment rule"
           },
           {
             "name": "referralServices",
-            "type": "string"
+            "type": "string",
+            "description": "What the rule lets a lawyer pay a referral service or plan, in plain English"
           },
           {
             "name": "lastChecked",
@@ -13851,15 +14113,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to referral.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that referral.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -14004,15 +14269,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to robocall-complaints.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that robocall-complaints.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "number"
+            "type": "number",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -14523,11 +14791,13 @@
           },
           {
             "name": "level",
-            "type": "string"
+            "type": "string",
+            "description": "state (one record per agency, measure and period)"
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "agency",
@@ -14635,15 +14905,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to state-civil-rights.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that state-civil-rights.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -14786,7 +15059,8 @@
           },
           {
             "name": "courtLevelName",
-            "type": "string"
+            "type": "string",
+            "description": "The court level in words"
           },
           {
             "name": "group",
@@ -14800,7 +15074,8 @@
           },
           {
             "name": "measureLabel",
-            "type": "string"
+            "type": "string",
+            "description": "The measure in words: the court level and what is counted"
           },
           {
             "name": "fy",
@@ -14819,7 +15094,8 @@
           },
           {
             "name": "priorFy",
-            "type": "string"
+            "type": "string",
+            "description": "The period before fy (the same kind of fiscal or calendar year)"
           },
           {
             "name": "status",
@@ -14892,15 +15168,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to state-courts.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that state-courts.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -14946,11 +15225,13 @@
           },
           {
             "name": "level",
-            "type": "string"
+            "type": "string",
+            "description": "state (one record per agency, measure and period)"
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "agency",
@@ -15222,15 +15503,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to tcpa-ada-filings.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that tcpa-ada-filings.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -15420,15 +15704,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to toxic-releases.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that toxic-releases.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -15608,15 +15895,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to truck-crashes.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that truck-crashes.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -15667,7 +15957,8 @@
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "status",
@@ -15760,15 +16051,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to tx-nonsubscribers.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that tx-nonsubscribers.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -15819,7 +16113,8 @@
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "period",
@@ -15962,15 +16257,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to unemployment.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that unemployment.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -16417,15 +16715,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id: dataset, place and period (joins this file to uscis-offices.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that uscis-offices.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -16574,15 +16875,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to va-compensation.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that va-compensation.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -16747,15 +17051,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to va-spending.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that va-spending.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -16935,15 +17242,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to vehicle-complaints.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that vehicle-complaints.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -17077,15 +17387,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to veterans-representation.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that veterans-representation.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -17249,15 +17562,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to wage-enforcement.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that wage-enforcement.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -17308,15 +17624,18 @@
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "period",
-            "type": "string"
+            "type": "string",
+            "description": "The 12-month window of the headline figure (YYYY-MM/YYYY-MM)"
           },
           {
             "name": "year",
-            "type": "integer"
+            "type": "integer",
+            "description": "The calendar year the 12-month window ends in"
           },
           {
             "name": "status",
@@ -17444,15 +17763,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to warn-layoffs.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that warn-layoffs.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }
@@ -17466,8 +17788,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "version": "1.1.1",
-      "id": "https://doi.org/10.5281/zenodo.23969440",
+      "version": "1.1.2",
+      "id": "https://doi.org/10.5281/zenodo.24541254",
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -17494,11 +17816,13 @@
           },
           {
             "name": "level",
-            "type": "string"
+            "type": "string",
+            "description": "state (one record per state covered)"
           },
           {
             "name": "stateName",
-            "type": "string"
+            "type": "string",
+            "description": "The jurisdiction's name in words (state, DC or territory; United States on national records)"
           },
           {
             "name": "agency",
@@ -17552,7 +17876,8 @@
           },
           {
             "name": "verified",
-            "type": "string"
+            "type": "string",
+            "description": "The day the figure was checked at its source (YYYY-MM-DD)"
           },
           {
             "name": "lastChecked",
@@ -17734,15 +18059,18 @@
         "fields": [
           {
             "name": "id",
-            "type": "string"
+            "type": "string",
+            "description": "Stable record id (never reused) (joins this file to work-injuries.csv)"
           },
           {
             "name": "column",
-            "type": "string"
+            "type": "string",
+            "description": "The name of a field that work-injuries.csv leaves out, one row per record and field (README.txt lists the fields of this file)"
           },
           {
             "name": "value",
-            "type": "string"
+            "type": "string",
+            "description": "The value of the field named in column, for that record"
           }
         ]
       }

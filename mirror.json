@@ -1,7 +1,7 @@
 {
   "publisher": "Probative Growth",
   "source": "https://probativegrowth.com/data/v1/index.json",
-  "generated": "2026-11-23",
+  "generated": "2026-11-27",
   "datasets": [
     {
       "id": "rules",
@@ -698,7 +698,7 @@
       "version": "2.4.0",
       "doi": "10.5281/zenodo.24383274",
       "released": "2026-11-20",
-      "cardSha": "33f8a059d1f77163",
+      "cardSha": "833e761b11938327",
       "rows": 296,
       "files": [
         "opinions-values.csv",
@@ -980,10 +980,10 @@
     },
     {
       "id": "wc-benefits",
-      "version": "1.1.1",
-      "doi": "10.5281/zenodo.23969440",
-      "released": "2026-11-05",
-      "cardSha": "9b5f6f956c0c9e07",
+      "version": "1.1.2",
+      "doi": "10.5281/zenodo.24541254",
+      "released": "2026-11-27",
+      "cardSha": "14aa649218811df7",
       "rows": 35
     },
     {
